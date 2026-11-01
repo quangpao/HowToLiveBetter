@@ -1,9 +1,10 @@
 # Cẩm nang sống thông minh
 
+Cuốn sách trả lời một câu: với cùng một số tiền, thời gian và sức lực, việc nào đáng làm trước.
+
 [![Giấy phép: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 [![Mã nguồn: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE-CODE)
 
-Cuốn sách trả lời một câu: với cùng một số tiền, thời gian và sức lực, việc nào đáng làm trước.
 
 Bản gốc là *高性价比人生指南* của eternity4719 (CC BY 4.0), 767 mục trong 34 chương. Bản tiếng Việt giữ cấu trúc
 và chuẩn bằng chứng, nhưng **mọi nội dung luật, chính sách, thủ tục và giá cả đều biên soạn lại theo Việt Nam**,
