@@ -25,7 +25,7 @@ const contentsMd = book.contentsMd.replace(/^## 目录/, '# 各节简介');
 // ---------- 页面清单 ----------
 // 每页：xhtml 文件名、来源 md 的仓库路径（用来解析相对链接）、md 正文
 const pages = [
-  { file: 'front.xhtml', src: 'README.md', title: '前言', md: `# ${TITLE}\n\n${description}\n\n${frontMd}` },
+  { file: 'front.xhtml', src: 'README.vi.md', title: 'Lời mở', md: `# ${TITLE}\n\n${description}\n\n${frontMd}` },
   { file: 'contents.xhtml', src: 'README.md', title: '各节简介', md: contentsMd },
   ...bookFiles.map((src, i) => ({ file: `ch${String(i + 1).padStart(2, '0')}.xhtml`, src, md: splitLongItems(stripBackLink(read(src))) })),
   ...docFiles.map((src, i) => ({ file: `doc${i + 1}.xhtml`, src, md: splitLongItems(stripBackLink(read(src))) })),
@@ -40,7 +40,7 @@ function aboutMd() {
 
 这本电子书由仓库里的 Markdown 正文自动生成，正文一改就重新生成一本。手里这本的版本：
 
-- 生成时间：${buildStamp()}（北京时间）
+- Thời điểm dựng: ${buildStamp()} (giờ Việt Nam)
 ${commitLine}
 - 最新版下载：${RELEASE}
 - 在线检索页（按关键词、章节、证据等级和成本筛选）：${SITE}

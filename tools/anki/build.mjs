@@ -32,23 +32,29 @@ const noteId = (sec, n) => 1759900100000 + Number(sec) * 1000 + Number(n);
 const cardId = (sec, n) => 1759900200000 + Number(sec) * 1000 + Number(n);
 
 // ---------- 读条目 ----------
-const FIELD = { 成本: 'cost', 说人话: 'human', 证据等级: 'grade', 备注: 'note' };
+const FIELD = { 'Chi phí': 'cost', 'Nói dễ hiểu': 'human', 'Mức bằng chứng': 'grade', 'Ghi chú': 'note' };
 
 function parseSection(md) {
   const head = md.match(/^# (\d+)\. (.+)$/m);
-  if (!head) throw new Error('节文件第三行应该是「# N. 节名」');
+  if (!head) throw new Error('File chương phải có dòng "# N. Tên chương"');
   const entries = [];
   let e = null;
   for (const line of md.split('\n')) {
     const h = line.match(/^### (\d+)\. (.+)$/);
     if (h) { e = { n: h[1], title: h[2].trim() }; entries.push(e); continue; }
     if (!e) continue;
-    const tag = line.match(/^<!--\s*成本标签:\s*(.*?)\s*-->/);
+    const tag = line.match(/^<!--\s*nhãn:\s*(.*?)\s*-->/);
     if (tag) {
-      for (const kv of tag[1].split(/\s+/)) { const [k, v] = kv.split('='); e[k] = v; }
+      // Nhãn tiếng Việt → tên khoá nội bộ dùng chung với index.html và sync-stats
+      const KEY = { 'tiền': 'money', 'thời-gian': 'time', 'ý-chí': 'will', 'lợi-ích': 'level', 'thước-đo': 'lens', 'nhóm': 'who' };
+      for (const kv of tag[1].split(/\s+/)) {
+        const [k, v] = kv.split('=');
+        const key = KEY[k];
+        if (key) e[key] = key === 'who' ? v.split(',').map(g => g.split('+')) : v;
+      }
       continue;
     }
-    const f = line.match(/^- (成本|说人话|证据等级|备注)：(.*)$/);
+    const f = line.match(/^- (Chi phí|Nói dễ hiểu|Mức bằng chứng|Ghi chú):(.*)$/);
     if (f) e[FIELD[f[1]]] = f[2].trim();
   }
   return { sec: head[1], name: head[2].trim(), entries };
@@ -63,38 +69,38 @@ const esc = s => String(s ?? '').replace(/\*\*/g, '').replace(/\\([*_])/g, '$1')
 const pad = n => String(n).padStart(2, '0');
 const deckName = s => `${TITLE}::${pad(s.sec)} ${s.name}`;
 
-const FIELDS = ['节', '标题', '说人话', '成本', '要点', '链接'];
+const FIELDS = ['Chương', 'Tiêu đề', 'Nói dễ hiểu', 'Chi phí', 'Tóm tắt', 'Liên kết'];
 const notes = [];
 let due = 0;
 for (const s of sections) {
   for (const e of s.entries) {
-    const cost = (COST_W.money[e.钱] ?? 0) + (COST_W.time[e.时间] ?? 0) + (COST_W.will[e.毅力] ?? 0);
-    const ratio = e.收益 ? ratioOf(cost, e.收益) : '';
+    const cost = (COST_W.money[e.money] ?? 0) + (COST_W.time[e.time] ?? 0) + (COST_W.will[e.will] ?? 0);
+    const ratio = e.level ? ratioOf(cost, e.level) : '';
     const grade = (e.grade ?? '').match(/^[ABC]/)?.[0] ?? '';
-    const dispute = /^争议/.test(e.note ?? '');
+    const dispute = /^\*?\*?(tranh|đang tranh)/i.test(e.note ?? '') || /^tranh luận/i.test(e.note ?? '');
     const points = [
-      ratio && `性价比${ratio}`,
-      e.收益 && `收益${e.收益}`,
-      e.口径 && `口径：${e.口径}`,
-      grade && `证据 ${grade} 级${dispute ? '（有争议）' : ''}`,
+      ratio && `đáng làm: ${ratio}`,
+      e.level && `lợi ích: ${e.level}`,
+      e.lens && `đo bằng ${String(e.lens).replace(/-/g, ' ')}`,
+      grade && `bằng chứng ${grade}${dispute ? ' (có tranh luận)' : ''}`,
     ].filter(Boolean).join(' · ');
     const url = `${SITE}#e-${s.sec}-${e.n}`;
     const fields = [
-      `第 ${s.sec} 节 · ${esc(s.name)} · 第 ${e.n} 条`,
+      `Chương ${s.sec} · ${esc(s.name)} · mục ${e.n}`,
       esc(e.title),
       esc(e.human || ''),
       esc(e.cost || ''),
       esc(points),
-      `<a href="${url}">在线版看全文和来源</a>`,
+      `<a href="${url}">Xem bản đầy đủ và nguồn</a>`,
     ];
-    const tags = [`第${pad(s.sec)}节`, grade && `证据${grade}`, ratio && `性价比${ratio}`, e.口径 && `口径${e.口径}`, dispute && '争议']
+    const tags = [`Chuong${pad(s.sec)}`, grade && `BangChung${grade}`, ratio && `DangLam_${ratio}`, e.lens && `Do_${String(e.lens).replace(/-/g, '')}`, dispute && 'TranhLuan']
       .filter(Boolean);
     notes.push({ s, e, fields, tags, due: due++ });
   }
 }
 
 // ---------- 笔记类型和牌组 ----------
-const CSS = `.card { font-family: "Segoe UI", -apple-system, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+const CSS = `.card { font-family: "Iowan Old Style", Georgia, -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;
   font-size: 18px; line-height: 1.7; text-align: left; max-width: 40em; margin: 0 auto; padding: 0 12px; color: #213547; background: #fff; }
 .nightMode.card, .night_mode .card { color: rgba(255,255,245,.86); background: #1b1b1f; }
 .sec { font-size: 13px; color: #67676c; }
@@ -107,19 +113,19 @@ a { color: #3451b2; }
 .nightMode a, .night_mode a { color: #a8b1ff; }
 .nightMode .sec, .nightMode .hint, .nightMode .label { color: #98989f; }`;
 
-const QFMT = `<div class="sec">{{节}}</div>
-<div class="q">{{标题}}</div>
-<div class="hint">想一想：为什么值得做，要花多少代价？</div>`;
-const AFMT = `<div class="sec">{{节}}</div>
-<div class="q">{{标题}}</div>
+const QFMT = `<div class="sec">{{Chương}}</div>
+<div class="q">{{Tiêu đề}}</div>
+<div class="hint">Nghĩ trước: việc này để làm gì, tốn bao nhiêu, bằng chứng mạnh đến đâu?</div>`;
+const AFMT = `<div class="sec">{{Chương}}</div>
+<div class="q">{{Tiêu đề}}</div>
 <hr id="answer">
-{{#说人话}}<div class="label">说人话</div><div>{{说人话}}</div>{{/说人话}}
-{{#成本}}<div class="label">成本</div><div>{{成本}}</div>{{/成本}}
-<div class="points">{{要点}}</div>
-<div class="link">{{链接}}</div>`;
+{{#Nói dễ hiểu}}<div class="label">Nói dễ hiểu</div><div>{{Nói dễ hiểu}}</div>{{/Nói dễ hiểu}}
+{{#Chi phí}}<div class="label">Chi phí</div><div>{{Chi phí}}</div>{{/Chi phí}}
+<div class="points">{{Tóm tắt}}</div>
+<div class="link">{{Liên kết}}</div>`;
 
 const model = {
-  id: MODEL_ID, name: `${TITLE}（问答卡）`, type: 0, mod: NOW_S, usn: -1, sortf: 1, did: ROOT_DECK_ID,
+  id: MODEL_ID, name: `${TITLE} (thẻ hỏi đáp)`, type: 0, mod: NOW_S, usn: -1, sortf: 1, did: ROOT_DECK_ID,
   tmpls: [{ name: '问答', ord: 0, qfmt: QFMT, afmt: AFMT, did: null, bqfmt: '', bafmt: '' }],
   flds: FIELDS.map((name, ord) => ({ name, ord, sticky: false, rtl: false, font: 'Arial', size: 20, media: [] })),
   css: CSS, latexPre: '', latexPost: '', latexsvg: false, req: [[0, 'any', [1]]], tags: [], vers: [],
@@ -130,8 +136,8 @@ const deck = (id, name, desc = '') => ({
   newToday: [0, 0], revToday: [0, 0], lrnToday: [0, 0], timeToday: [0, 0], extendNew: 0, extendRev: 0,
 });
 const commit = gitCommit();
-const rootDesc = `《${TITLE}》全书条目，一条一张卡，按节分子牌组。生成于 ${buildStamp()}（北京时间）`
-  + `${commit ? `，正文提交 ${commit.slice(0, 7)}` : ''}。正文会继续更新，以 <a href="${SITE}">在线版</a> 为准；`
+const rootDesc = `Toàn bộ mục trong "${TITLE}", mỗi mục một thẻ, chia sổ con theo chương. Dựng lúc ${buildStamp()} (giờ Việt Nam)`
+  + `${commit ? `, bản nội dung ${commit.slice(0, 7)}` : ''}. Nội dung còn cập nhật, lấy <a href="${SITE}">bản online</a> làm chuẩn; `
   + '重新下载导入会更新卡片内容，复习记录保留。';
 const decks = {
   1: deck(1, 'Default'),

@@ -21,13 +21,13 @@ $--
 // ---------- 版面 ----------
 #set document(title: "$booktitle$", author: "eternity4719")
 #set text(
-  // 西文用 typst 自带的 Libertinus，中文按可用性往后找：CI 上是 Noto，本机是雅黑
-  font: ("Libertinus Serif", "Noto Serif CJK SC", "Noto Serif SC", "Source Han Serif SC", "Noto Sans CJK SC", "Microsoft YaHei", "SimSun"),
+  // Bản Việt: dùng font có sẵn của typst (Libertinus Serif phủ đủ dấu tiếng Việt)
+  font: ("Libertinus Serif", "DejaVu Serif", "Georgia"),
   size: 10.5pt, lang: "zh", region: "cn",
 )
 #set par(justify: false, leading: 0.78em, spacing: 0.9em)
 #set list(indent: 0.6em, spacing: 0.75em)
-#show raw: set text(font: ("DejaVu Sans Mono", "Noto Sans Mono CJK SC", "Consolas"), size: 9pt)
+#show raw: set text(font: ("DejaVu Sans Mono", "Consolas"), size: 9pt)
 #show link: set text(fill: rgb("#1a4fb4"))
 #show heading: set block(sticky: true, above: 1.5em, below: 0.65em)
 #show heading.where(level: 1): set text(19pt)
@@ -56,9 +56,9 @@ $--
   #block(width: 80%)[#text(11.5pt, fill: luma(60))[$subtitle$]]
   #v(2cm)
   #text(10pt, fill: luma(90))[
-    生成于 $builddate$（北京时间）　·　正文提交 $commit$ \
-    正文每天都在改，以在线版为准：$site$ \
-    在线检索、EPUB 与本 PDF 的最新版都在 $repo$
+    Dựng lúc $builddate$ (giờ Việt Nam)　·　bản nội dung $commit$ \
+    Nội dung còn cập nhật, lấy bản online làm chuẩn: $site$ \
+    Bản tra cứu, EPUB và PDF mới nhất đều ở $repo$
   ]
 ]
 

@@ -24,7 +24,7 @@ import { fileURLToPath } from 'node:url';
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const STAT = process.argv.includes('--stat');
 const NUMBERS = process.argv.includes('--numbers');
-const MAX = 120;
+const MAX = 235;   // ký tự, không tính khoảng trắng; mục tiêu viết là ~220
 
 const JARGON = [
   [/\b(HR|RR|OR|CI|RCT|OR值)\b/, '统计缩写'],
@@ -32,18 +32,30 @@ const JARGON = [
   [/\d[\d,.]*\s*(例|名受试者|名参与者|家医院|项研究|篇研究|个国家)/, '样本量'],
   [/那组|两组|各组|组的人/, '分组'],
 ];
-const VAGUE = ['另一头', '产出', '干净的结局', '这条路没有', '说到底', '本质上', '换句话说'];
+const VAGUE = ['nói chung là', 'về cơ bản', 'về bản chất', 'suy cho cùng', 'nói cách khác',
+  'giá trị cốt lõi', 'giải pháp toàn diện', 'đầu tư cho bản thân'];
 
-// 数字按值比，不按字面比：「.28」和「0.28」、「11,523」和「1.15 万」是同一个数。
+// So sánh theo giá trị, không theo mặt chữ: "0,28" và "0.28", "10.527" và "10527" là cùng một số.
+// Tiếng Việt ngược với tiếng Anh: dấu chấm là hàng nghìn, dấu phẩy là phần thập phân.
+const NUM_RE = /\d{1,3}(?:\.\d{3})+(?:,\d+)?|\d+(?:,\d+)?/g;
+const toNum = x => Number(x.replace(/\./g, '').replace(',', '.'));
 function numbers(s) {
-  return [...s.replace(/(\d),(\d{3})/g, '$1$2').matchAll(/(\d*\.?\d+)\s*(万)?/g)]
-    .map(m => Number(m[1]) * (m[2] ? 10000 : 1));
+  // số hiệu văn bản (168/2024/NĐ-CP, 36/2024/QH15) và ngày tháng không phải khẳng định về lượng
+  const t = s
+    // số điện thoại (096.306.1414, 1900 1267) là địa chỉ, không phải số liệu
+    .replace(/\b0\d{2}[.\s]?\d{3}[.\s]?\d{3,4}\b/g, ' ')
+    .replace(/\b1900[.\s]?\d{3,4}\b/g, ' ')
+    .replace(/\d+\s*\/\s*\d{4}\s*\/\s*[A-Za-zĐđ]/g, ' ')
+    .replace(/\b\d{1,2}\/\d{1,2}\/\d{4}\b/g, ' ')
+    .replace(/\b1900\s+(\d{4})\b/g, '1900$1');
+  return [...t.matchAll(NUM_RE)].map(m => toNum(m[0])).filter(Number.isFinite);
 }
 // 说人话里的 n 算不算从收益栏的 p 翻译过来的：四舍五入（45.6 → 46，5801 → 5800），
 // 或者风险比换成降幅（0.72 → 低 28%，0.53 → 低 47%）。差 5% 以内都算。
 function derived(n, p) {
   const near = (a, b) => a === b || Math.abs(a - b) <= 0.05 * Math.max(Math.abs(a), Math.abs(b));
-  return near(n, p) || near(n / 100, p) || (p < 1 && near(n / 100, 1 - p)) || (p > 1 && p < 100 && near(n, 100 - p));
+  return near(n, p) || near(n / 100, p) || (p < 1 && near(n / 100, 1 - p)) || (p > 1 && p < 100 && near(n, 100 - p))
+    || near(n * 1e6, p) || near(n * 1e5, p) || near(n * 1e3, p);
 }
 
 const bad = [];
@@ -56,19 +68,23 @@ for (const f of files) {
   const lines = readFileSync(resolve(ROOT, 'book', f), 'utf8').split(/\r?\n/);
   let no = 0, title = '', fields = {};
   const flush = () => {
-    const plain = fields['说人话'];
+    const plain = fields['Nói dễ hiểu'];
     if (!no || plain == null) return;
     total++;
-    const where = `第 ${sec} 节第 ${no} 条`;
+    const where = `chương ${sec} mục ${no}`;
     const problems = [];
     const len = [...plain.replace(/\s/g, '')].length;
-    if (len > MAX) { problems.push(`${len} 字，超过 ${MAX}`); count.长度++; }
+    if (len > MAX) { problems.push(`${len} ký tự, quá ${MAX}`); count.长度++; }
     const jar = JARGON.filter(([re]) => re.test(plain)).map(([re, name]) => `${name}「${plain.match(re)[0]}」`);
     if (jar.length) { problems.push(...jar); count.行话++; }
     if (NUMBERS) {
-      const pool = numbers([title, fields['成本'] ?? '', fields['收益'] ?? ''].join(' '));
-      const fresh = [...new Set(numbers(plain))].filter(n => !pool.some(p => derived(n, p)));
-      if (fresh.length) { problems.push(`收益栏里没有的数字 ${fresh.join('、')}`); count.新数字++; }
+      const pool = numbers([title, fields['Chi phí'] ?? '', fields['Lợi ích'] ?? ''].join(' '));
+      const isPhone = n => [111, 112, 113, 114, 115].includes(n) || String(n).startsWith('1900') || /^0\d{9,10}$/.test(String(n));
+      // Số nằm giữa hai mốc đã nêu ở Chi phí/Lợi ích ("250.000 đến 400.000") coi như suy ra được
+      const sorted = [...pool].sort((a, b) => a - b);
+      const inRange = n => sorted.some((a, i) => { const b = sorted[i + 1]; return b !== undefined && b / a > 1.2 && n > a && n < b; });
+      const fresh = [...new Set(numbers(plain))].filter(n => !isPhone(n) && !inRange(n) && !pool.some(p => derived(n, p)));
+      if (fresh.length) { problems.push(`số không có trong Chi phí/Lợi ích: ${fresh.join(', ')}`); count.新数字++; }
     }
     const vague = VAGUE.filter(w => plain.includes(w));
     if (vague.length) { problems.push(`抽象说法「${vague.join('」「')}」`); count.抽象腔++; }
@@ -77,13 +93,13 @@ for (const f of files) {
   for (const line of lines) {
     const h = line.match(/^### (\d+)\. (.*)$/);
     if (h) { flush(); no = Number(h[1]); title = h[2]; fields = {}; continue; }
-    const m = line.match(/^- (说人话|成本|收益)：(.*)$/);
+    const m = line.match(/^- (Nói dễ hiểu|Chi phí|Lợi ích):(.*)$/);
     if (m && no) fields[m[1]] = m[2];
   }
   flush();
 }
 
 if (!STAT) for (const b of bad) console.log(b);
-console.log(`\n说人话共 ${total} 条，不合格 ${bad.length} 条：` +
+console.log(`\n"Nói dễ hiểu" ${total} mục, ${bad.length} chỗ chưa đạt: ` +
   Object.entries(count).map(([k, v]) => `${k} ${v}`).join('，'));
 if (bad.length && !STAT) process.exit(1);

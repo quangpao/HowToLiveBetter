@@ -21,18 +21,22 @@ const CHECK_ONLY = process.argv.includes('--check');
 
 // 节内的裸引用（「见第 8 条」）只在这几个栏位里找：来源栏里的「第 N 条」几乎都是
 // 法条条款号，扫进来全是误报。
-const FIELDS = /^- (说人话|收益|备注|成本)：/;
+const FIELDS = /^- (Nói dễ hiểu|Lợi ích|Ghi chú|Chi phí):/;
 // 但带节号的跨节引用（「见第 11 节第 16 条」）不会和法条混淆，来源栏里也有，一并扫。
 // book/26 第 103 条那处「日志留存见第 11 节第 16 条」就写在来源栏里，差点漏掉。
-const CROSS_FIELDS = /^- (说人话|收益|备注|成本|来源)：/;
+const CROSS_FIELDS = /^- (Nói dễ hiểu|Lợi ích|Ghi chú|Chi phí|Nguồn):/;
 
-const files = readdirSync(resolve(ROOT, 'book')).filter(f => /^\d\d-.*\.md$/.test(f)).sort();
+// Chỉ quét chương bản Việt; chương tiếng Trung còn trong book/ để tham chiếu, không tính vào bảng này.
+const isVi = f => readFileSync(resolve(ROOT, 'book', f), 'utf8').includes('- Chi phí:');
+const files = readdirSync(resolve(ROOT, 'book')).filter(f => /^\d\d-.*\.md$/.test(f)).sort().filter(isVi);
 // docs/ 下的长文也扫。它们和节首引言一样，长期不在扫描范围内：条号被顺延撞歪时
 // --check 照常显示通过，对照表的 diff 里也看不到这些引用。2026-09-21 清点时
 // 三篇长文里有 23 处「第 X 节第 Y 条」，一处都没被查过。
 // 只取 docs/ 根下的 .md。子目录 docs/核实记录/ 不扫：那些文件记的是当时的核实过程，
 // 里面的条号是历史状态，不该跟着正文走。对照表自己也排除掉。
-const docs = readdirSync(resolve(ROOT, 'docs')).filter(f => f.endsWith('.md') && f !== '引用对照.md').sort();
+// Bài dài cũng chỉ lấy file đã ở bản Việt (chưa có bài nào); tài liệu tiếng Trung không đưa vào bảng này.
+const isViDoc = f => /^- |^# /.test(readFileSync(resolve(ROOT, 'docs', f), 'utf8')) && !/[\u4e00-\u9fff]/.test(readFileSync(resolve(ROOT, 'docs', f), 'utf8'));
+const docs = readdirSync(resolve(ROOT, 'docs')).filter(f => f.endsWith('.md') && f !== 'doi-chieu-muc.md').sort().filter(isViDoc);
 
 // 先把每节的条目标题读出来：sections[节号] = { file, titles: { 条号: 标题 } }
 const sections = new Map();
@@ -48,26 +52,27 @@ for (const f of files) {
 
 // 一处引用可能写成「第 3、10、11 条」，拆成多个条号。也认区间写法「第 11 到 14 条」
 // 「第 5 到第 10 条」：这种写法原先整处都匹配不上，等于没扫，全书有 5 处这么写的。
-const RANGE = /^\s*(\d+)\s*(?:到|至)\s*第?\s*(\d+)\s*$/;
+const RANGE = /^\s*(\d+)\s*(?:đến|-|–)\s*(?:mục\s*)?(\d+)\s*$/;
 // 返回 [条号, 是不是区间展开来的]。区间指的是一整块条目（「泄愤那几条」「平台义务
 // 那几条」），没法给块里每一条都配一个锚点，所以展开出来的条号免验锚点——它们仍然
 // 进对照表，被顺延撞歪时靠 diff 里标题变化来发现。
 const nums = s => {
   const out = [];
-  for (const part of s.split(/[、,]/)) {
+  for (const part of s.split(/,|\bvà\b/)) {
     const r = RANGE.exec(part);
     if (r) {
       const [a, b] = [Number(r[1]), Number(r[2])];
       if (b >= a && b - a <= 30) for (let i = a; i <= b; i++) out.push([i, true]);
       continue;
     }
+    if (!part.trim()) continue;
     const n = Number(part.trim());
     if (Number.isFinite(n)) out.push([n, false]);
   }
   return out;
 };
 // 条号那一段的写法：「3」「3、10」「11 到 14」「5 到第 10」
-const SPEC = '[\\d、,\\s]+?(?:(?:到|至)\\s*第?\\s*\\d+)?';
+const SPEC = '[\\d,\\s]+?(?:(?:đến|-|–)\\s*(?:mục\\s*)?\\d+)?';
 
 const out = [];
 const problems = [];
@@ -89,7 +94,7 @@ for (const { f, dir, isDoc } of targets) {
   // cur 是当前所在条目的条号，0 表示还没进条目（book 的节首引言、docs 的任何位置）。
   // unit 是「出处」列显示的名字：条目写「第 N 条」，节首写「节首」，长文写最近的小标题。
   let cur = 0;
-  let unit = isDoc ? '开头' : '节首';
+  let unit = isDoc ? 'mở đầu' : 'đầu chương';
 
   // 引用前面那句话往往就写着它想指什么（「医疗救助（见第 11 条）」），把整个分句
   // 列出来，人工扫对照表时不用翻正文就能判断指对没有。
@@ -98,7 +103,7 @@ for (const { f, dir, isDoc } of targets) {
   const ctxOf = (line, idx) => {
     const before = line.slice(0, idx);
     let start = -1;
-    for (const p of ['。', '；', '！', '？', '：']) start = Math.max(start, before.lastIndexOf(p));
+    for (const p of ['.', ';', '!', '?', ':']) start = Math.max(start, before.lastIndexOf(p));
     return before.slice(start + 1).slice(-44).replace(/\|/g, '｜');
   };
   // 验锚点时用的窗口比上面这个窄：只取引用所在的那个逗号分句。整句那么宽的窗口里
@@ -110,7 +115,7 @@ for (const { f, dir, isDoc } of targets) {
   // 否则会把本来正确的引用误判成裸条号。
   // 顿号和引号、括号都不算分句边界：「含糖饮料、加工肉（本节第 3 条）」的锚点隔着顿号，
   // 「为『比别人强一档』而加的预算见本节第 24 条」的锚点在引号里，切了都会误伤。
-  const CLAUSE = ['。', '；', '！', '？', '：', '，'];
+  const CLAUSE = ['.', ';', '!', '?', ':', ','];
   const narrowOf = (line, idx) => {
     const before = line.slice(0, idx);
     const cut = s => {
@@ -119,14 +124,14 @@ for (const { f, dir, isDoc } of targets) {
       return { head: s.slice(0, start + 1), tail: s.slice(start + 1) };
     };
     const last = cut(before);
-    if (last.tail.replace(/[见按同和依据参照的在]/g, '').length >= 4) return last.tail.slice(-24);
+    if (last.tail.replace(/\b(xem|theo|và|ở|trong|của|với|như|theo đúng)\b/gi, '').trim().length >= 4) return last.tail.slice(-24);
     return (cut(last.head.slice(0, -1)).tail + last.tail).slice(-24);
   };
   // 引用后面的文字也算锚点：「第 16 条（借条和担保）」这种把关键词写在条号之后
   // 取到引用后的第一个句读为止（最多 40 字）。不能用固定字符数：「见第 1 节第 7、8、
   // 14、17、18、19、23、24、29 条（血压、血糖…）」这种长条号串会把标注挤出窗口。
   const afterOf = (line, idx) => {
-    const rest = line.slice(idx).replace(new RegExp(`^第\\s*\\d+\\s*节?第?\\s*(?:${SPEC})?\\s*条`), '');
+    const rest = line.slice(idx).replace(new RegExp(`^(?:chương\\s*\\d+\\s*)?mục\\s*(?:${SPEC})`), '');
     const end = rest.search(/[。；！？]/);
     return (end === -1 ? rest : rest.slice(0, end)).slice(0, 40).replace(/\|/g, '｜');
   };
@@ -137,7 +142,7 @@ for (const { f, dir, isDoc } of targets) {
       if (h) { unit = h[1].slice(0, 24); return; }
     } else {
       const t = /^### (\d+)\. (.*)$/.exec(line);
-      if (t) { cur = Number(t[1]); unit = `第 ${cur} 条`; return; }
+      if (t) { cur = Number(t[1]); unit = `mục ${cur}`; return; }
     }
     // 条目正文只扫那几个栏位（来源栏的「第 N 条」多是法条条款号）。节首引言和长文
     // 正文是普通段落，匹配不上栏位前缀，整行放行——它们原先就是这样被静默跳过的。
@@ -149,17 +154,18 @@ for (const { f, dir, isDoc } of targets) {
     // 2026-09-20 一次扫描就查出三处早就指错的：HPV 疫苗条的「见下一条」指到了乳腺癌
     // 筛查（该指宫颈癌筛查），扬言条的「罚则见上一条」指到了念头条，失业登记条的
     // 「上一条不签主动辞职」指到了存证据条。排除「最后一条」「之后一条腿」这类误命中。
-    for (const m of line.matchAll(/(?<![最之以])(上一条|下一条|前一条|后一条|上面那条|上面这条|前面那条)/g)) {
-      problems.push(`${f}:${i + 1} ${unit}用了相对指路「${m[1]}」——改成「第 N 条（锚点词）」`);
+    for (const m of line.matchAll(/\b(mục (?:trên|dưới|trước|sau|kế trên|kế dưới))\b/gi)) {
+      problems.push(`${f}:${i + 1} ${unit} dùng chỉ dẫn tương đối "${m[1]}" — đổi thành "mục N (từ khoá)"`);
     }
 
     // 跨节：第 N 节第 X 条
-    for (const m of line.matchAll(new RegExp(`第\\s*(\\d+)\\s*节第\\s*(${SPEC})\\s*条`, 'g'))) {
+    // "chương X mục Y": cả hai đều phải có số ngay sau mới tính
+    for (const m of line.matchAll(/chương\s*(\d+)\s*mục\s+(\d[\d,]*(?:\s*(?:đến|-|–)\s*(?:mục\s*)?\d+)?)(?![\d.\p{L}])/giu)) {
       const target = sections.get(Number(m[1]));
       for (const [x, range] of nums(m[2])) {
         const title = target?.titles.get(x);
-        rows.push({ from: unit, range, ref: `第 ${m[1]} 节第 ${x} 条`, title, line: i + 1, ctx: ctxOf(line, m.index), narrow: narrowOf(line, m.index), after: afterOf(line, m.index) });
-        if (!title) problems.push(`${f}:${i + 1} ${unit}引用「第 ${m[1]} 节第 ${x} 条」——该节没有这一条`);
+        rows.push({ from: unit, range, ref: `chương ${m[1]} mục ${x}`, title, line: i + 1, ctx: ctxOf(line, m.index), narrow: narrowOf(line, m.index), after: afterOf(line, m.index) });
+        if (!title) problems.push(`${f}:${i + 1} ${unit} trỏ "chương ${m[1]} mục ${x}" — chương đó không có mục ${x}`);
       }
     }
 
@@ -172,8 +178,9 @@ for (const { f, dir, isDoc } of targets) {
     // 节首引言不受栏位限制：那里的「第 N 条」是导读（「第 9 条算钱」「第 2 条算读书
     // 和寿命的关系」），同样会被顺延撞歪，同样要进对照表。
     if (inEntry && !FIELDS.test(line)) return;
-    const stripped = line.replace(new RegExp(`第\\s*\\d+\\s*节第\\s*${SPEC}\\s*条`, 'g'), '');
-    for (const m of stripped.matchAll(new RegExp(`第\\s*(${SPEC})\\s*条`, 'g'))) {
+    const stripped = line.replace(new RegExp(`chương\\s*\\d+\\s*mục\\s*${SPEC}`, 'gi'), '');
+    // "mục" phải đi liền với số: "mục tiêu", "mục đích" không phải tham chiếu
+    for (const m of stripped.matchAll(/mục\s+(\d[\d,]*(?:\s*(?:đến|-|–)\s*(?:mục\s*)?\d+)?)(?![\d.\p{L}])/giu)) {
       // 判定这是法条条款号还是条目引用。2026-09-21 之前的办法是看前 16 个字里有没有
       // 「法」字，可是「办法」「查法」「法律援助」「违法解除」都带「法」，一大批真引用
       // 被连带跳过。而且是静默跳过：引用压根不进对照表，--check 没有可查的引用反而显示
@@ -186,14 +193,15 @@ for (const { f, dir, isDoc } of targets) {
       // 代价是法条引文必须自带文件名：一句一条往下列时要写「该解释第 11 条」，不能写
       // 「……的法院命令。第 11 条讲的是取证」靠上一句撑着。这本来也是正文的自足性要求。
       const tail = stripped.slice(0, m.index).replace(/\s+$/, '');
-      const CITE = /(《[^》]*》|〔[^〕]*〕|\d+\s*号|该(?:解释|意见|办法|规定|条例|通知|法)|[^\s，。；：、（）「」]{0,8}(?:法|条例|办法|规定|准则|细则|公约))$/;
+      // VN: "Điều 10 Luật …" hay "Nghị định 168/2024/NĐ-CP" là trích văn bản, không phải tham chiếu mục
+      const CITE = /(Điều\s*\d+|\d+\s*\/\s*\d{4}\/|(?:Nghị định|Thông tư|Luật|Quyết định|QĐ|TT|NĐ)[^.;:]{0,20}\d+)$/i;
       if (CITE.test(tail)) continue;
       for (const [x, range] of nums(m[1])) {
         const title = self.titles.get(x);
-        rows.push({ from: unit, range, ref: `本节第 ${x} 条`, title, line: i + 1, ctx: ctxOf(stripped, m.index), narrow: narrowOf(stripped, m.index), after: afterOf(stripped, m.index) });
+        rows.push({ from: unit, range, ref: `mục ${x}`, title, line: i + 1, ctx: ctxOf(stripped, m.index), narrow: narrowOf(stripped, m.index), after: afterOf(stripped, m.index) });
         // 节内引用超出本节条目数的，多半是法条条款号被误当成条目引用，列出来人工看
-        if (!title) problems.push(`${f}:${i + 1} ${unit}引用「第 ${x} 条」——本节只有 ${self.titles.size} 条（可能是法条条款号）`);
-        if (inEntry && x === cur) problems.push(`${f}:${i + 1} 第 ${cur} 条引用了它自己`);
+        if (!title) problems.push(`${f}:${i + 1} ${unit} trỏ "mục ${x}" — chương này chỉ có ${self.titles.size} mục`);
+        if (inEntry && x === cur) problems.push(`${f}:${i + 1} mục ${cur} tự trỏ chính nó`);
       }
     }
   });
@@ -205,15 +213,15 @@ for (const { f, dir, isDoc } of targets) {
   // 整句里连着三个汉字对上（「含糖饮料」「居民医保」）算实锚点；只有两个汉字对上时，
   // 要求它落在引用所在的分句里才算——隔着两个逗号的「你自己还」撞上标题里的
   // 「个税自己报」，就是 2026-09-20 那处漂移蒙过检查的原因。
+  // Tiếng Việt: neo là số từ liền nhau cùng xuất hiện trong tiêu đề đích
   const longest = (text, title) => {
+    const words = text.toLowerCase().split(/[^\p{L}\p{N}]+/u).filter(w => w.length >= 2);
+    const t = title.toLowerCase();
     let best = 0;
-    for (let i = 0; i < text.length; i++) {
-      for (let n = 1; i + n <= text.length; n++) {
-        const seg = text.slice(i, i + n);
-        if (!/^[一-龥]+$/.test(seg)) break;
-        if (!title.includes(seg)) break;
-        best = Math.max(best, n);
-      }
+    for (let i = 0; i < words.length; i++) {
+      let n = 0;
+      while (i + n < words.length && t.includes(words.slice(i, i + n + 1).join(' '))) n++;
+      best = Math.max(best, n);
     }
     return best;
   };
@@ -232,48 +240,46 @@ for (const { f, dir, isDoc } of targets) {
   if (!rows.length) continue;
   total += rows.length;
   out.push(`## ${isDoc ? 'docs/' : ''}${basename(f, '.md')}\n`);
-  out.push('| 出处 | 引用 | 指向的条目 | 引用处的上下文 |');
+  out.push('| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |');
   out.push('| --- | --- | --- | --- |');
   for (const r of rows) {
-    const title = r.title ? r.title : '**指向不存在的条目**';
+    const title = r.title ? r.title : '**không có mục này**';
     out.push(`| ${r.from} | ${r.ref} | ${title} | …${r.ctx}… |`);
   }
   out.push('');
 }
 
 const body = [
-  '# 交叉引用对照表',
+  '# Bảng đối chiếu tham chiếu',
   '',
-  '本文件由 `node tools/check-refs.mjs` 生成，不要手改。',
+  'File này do `node tools/check-refs.mjs` sinh ra, đừng sửa tay.',
   '',
-  '正文里的「第 X 条」只记条号不记内容，插入或删除条目会让后面的引用集体错位，',
-  '而错位后的条号往往仍在范围内，光查越界抓不到。所以把每处引用**实际指向的标题**',
-  '摊开写在这里并入库：改完条目重新生成，`git diff` 里凡是条号没动而标题变了的，',
-  '就是被顺延撞歪的引用。',
+  'Tham chiếu trong sách chỉ ghi số mục, không ghi nội dung; chèn hay xoá một mục thì số của',
+  'mọi mục sau đổi hết, mà số mới thường vẫn nằm trong khoảng hợp lệ nên chỉ kiểm "vượt quá số mục"',
+  'không bắt được. Vì vậy mỗi tham chiếu được mở ra thành **tiêu đề mà nó thực sự trỏ tới** và ghi vào',
+  'đây: sửa xong chạy lại, chỗ nào số mục không đổi mà tiêu đề đổi thì `git diff` chỉ ra ngay.',
   '',
-  '扫描范围：`book/` 下每节的条目正文和节首引言，加上 `docs/` 下的长文。长文里没有',
-  '「本节」，裸的「第 N 条」一律当法条跳过，所以长文引用要写全「第 X 节第 Y 条」。',
-  '「出处」列里，条目写「第 N 条」，节首写「节首」，长文写最近的那个小标题。',
+  'Phạm vi: phần thân từng mục và đoạn mở đầu mỗi chương trong `book/`, cộng các bài dài trong `docs/`.',
+  'Trong bài dài không có "chương này" nên "mục N" trần được coi là điều khoản pháp luật và bỏ qua —',
+  'muốn trỏ trong bài dài thì phải ghi đủ "chương X mục Y".',
+  'Cột "Từ" ghi `mục N` cho thân mục, `đầu chương` cho đoạn mở chương, tên tiêu đề con cho bài dài.',
   '',
-  '另一道保险是**锚点**：每处引用的前后文里都得有一个词和目标条目标题对得上',
-  '（「医疗救助见第 11 条」里的「医疗救助」，或显式写成「见第 16 条（借条和担保）」）。',
-  '`node tools/check-refs.mjs --check` 会把没有锚点的裸条号判为失败——那种引用一旦',
-  '被撞歪，对照表的 diff 也看不出异常，只能靠锚点兜住。区间引用（「见第 8 节第 11 到',
-  '14 条」）是例外：它指的是一整块条目，没法给块里每条都配锚点，只靠 diff 兜。',
+  'Lớp bảo hiểm thứ hai là **từ neo**: quanh mỗi tham chiếu phải có một từ trùng với tiêu đề đích',
+  '("xem mục 12 (bảo hiểm y tế)" hoặc "… bảo hiểm y tế, xem mục 12"). `node tools/check-refs.mjs --check`',
+  'coi tham chiếu không có từ neo là lỗi: loại đó bị lệch thì `git diff` của bảng cũng không thấy gì.',
+  'Tham chiếu dạng khoảng ("xem mục 11 đến 14") là ngoại lệ: nó trỏ cả một khối, không gắn neo cho từng mục.',
   '',
-  '锚点算不算数按长度和距离判：整句里连着三个汉字和标题对上（「含糖饮料」「居民医保」），',
-  '或者引用所在的那个逗号分句里有两个汉字对上，才算实锚点；只在分句之外撞上两个常见汉字',
-  '（「自己」「公司」）的，按没有锚点处理。这道加严是 2026-09-20 补的：第 31 节插条目时',
-  '「……的贷款见本节第 15 条」被顺延撞到新条目「在家给境外公司远程干活……个税自己报」上，',
-  '隔着两个逗号的「你自己还」冒充了锚点，`--check` 当时报的是通过。',
+  'Cách tính từ neo: hai từ liền nhau trùng tiêu đề đích, hoặc một từ dài (tên riêng, con số, viết tắt',
+  'như 12356, AED, BMI, LPR) xuất hiện trong tiêu đề. Chỉ trùng một từ chung chung ("người", "tiền")',
+  'thì không tính.',
   '',
-  `共 ${total} 处引用。`,
+  `Tổng ${total} chỗ tham chiếu.`,
   '',
   ...out,
 ].join('\n');
 
 if (problems.length) {
-  console.log('需要人工确认：');
+  console.log('Cần xem tay:');
   for (const p of problems) console.log('  ' + p);
   console.log('');
 }
@@ -284,7 +290,7 @@ if (problems.length) {
 // 但它只保证「错位能被察觉」，不保证「错位一定被拦下」：模拟把节内引用整体顺延一条，
 // 能当场拦下的约七成，剩下的（相邻两条讲同一件事、标题共用词）仍要靠对照表的 diff。
 if (process.argv.includes('--suspect') && suspects.length) {
-  console.log(`引用处的措辞和目标标题对不上（${suspects.length} 处，误报很多，仅供人工排查参考）：`);
+  console.log(`Ngữ cảnh quanh tham chiếu không khớp tiêu đề đích (${suspects.length} chỗ, dễ báo nhầm, chỉ để soi tay):`);
   for (const s of suspects) console.log('  ' + s);
   console.log('');
 }
@@ -317,5 +323,5 @@ if (CHECK_ONLY) {
   process.exit(bad ? 1 : 0);
 }
 
-writeFileSync(resolve(ROOT, 'docs/引用对照.md'), body, 'utf8');
-console.log(`已写入 docs/引用对照.md，共 ${total} 处引用`);
+writeFileSync(resolve(ROOT, 'docs/doi-chieu-muc.md'), body, 'utf8');
+console.log(`Đã ghi docs/doi-chieu-muc.md: ${total} chỗ tham chiếu`);

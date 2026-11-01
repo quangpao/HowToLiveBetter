@@ -6,7 +6,7 @@
 import { writeFileSync, mkdirSync, statSync } from 'node:fs';
 import { resolve, dirname, posix, basename } from 'node:path';
 import { execFileSync } from 'node:child_process';
-import { ROOT, REPO, SITE, TITLE, read, readBook, gitCommit, buildStamp, stripBackLink } from '../lib/book.mjs';
+import { ROOT, REPO, SITE, TITLE, README_FILE, read, readBook, gitCommit, buildStamp, stripBackLink } from '../lib/book.mjs';
 import { splitLongItems } from '../lib/split-items.mjs';
 
 const OUT = resolve(ROOT, process.argv[2] ?? 'dist/HowToLiveBetter.pdf');
@@ -24,10 +24,10 @@ bookFiles.forEach(f => anchorOf.set(f, 'sec-' + (basename(f).match(/^\d+/)?.[0] 
 docFiles.forEach((f, i) => anchorOf.set(f, `doc-${i + 1}`));
 
 const pages = [
-  { src: 'README.md', md: `# 前言\n\n${description}\n\n${frontMd}`, anchor: 'front' },
-  { src: 'README.md', md: contentsMd.replace(/^## 目录/, '# 各节简介'), anchor: 'contents' },
+  { src: README_FILE, md: `# Lời mở\n\n${description}\n\n${frontMd}`, anchor: 'front' },
+  { src: README_FILE, md: contentsMd.replace(/^## Mục lục/, '# Tóm tắt các chương'), anchor: 'contents' },
   ...[...bookFiles, ...docFiles].map(src => ({ src, md: splitLongItems(stripBackLink(read(src))), anchor: anchorOf.get(src) })),
-  { src: 'README.md', md: aboutMd(), anchor: 'about' },
+  { src: README_FILE, md: aboutMd(), anchor: 'about' },
 ];
 
 function aboutMd() {
@@ -36,7 +36,7 @@ function aboutMd() {
 
 这本 PDF 由仓库里的 Markdown 正文自动排版，正文一改就重新排一本。手里这本的版本：
 
-- 生成时间：${STAMP}（北京时间）
+- Thời điểm dựng: ${STAMP} (giờ Việt Nam)
 ${commitLine}- 最新版下载、在线检索、提意见：${REPO}
 - 在线检索页（按关键词、章节、证据等级和成本筛选，也能存成单文件离线看）：${SITE}
 

@@ -19,22 +19,22 @@ import { spawnSync } from 'node:child_process';
 import { ROOT } from './lib/book.mjs';
 
 const CHECK = process.argv.includes('--check');
-const SINCE = '2026-10-01';
+const SINCE = '2026-11-01';
 const OUT = 'updates.json';
-const FIELDS = ['标题', '成本', '说人话', '收益', '证据等级', '备注'];
+const FIELDS = ['Tiêu đề', 'Chi phí', 'Nói dễ hiểu', 'Lợi ích', 'Mức bằng chứng', 'Ghi chú'];
 
-const day = sec => new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Shanghai' }).format(new Date(sec * 1000));
+const day = sec => new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Ho_Chi_Minh' }).format(new Date(sec * 1000));
 const git = (args, input) => {
   const r = spawnSync('git', ['-c', 'core.quotepath=false', ...args], { cwd: ROOT, input, maxBuffer: 1 << 30 });
-  if (r.status !== 0) throw new Error(`git ${args.join(' ')} 失败：${r.stderr}`);
+  if (r.status !== 0) throw new Error(`git ${args.join(' ')} lỗi: ${r.stderr}`);
   return r.stdout;
 };
 
 // ---------- 解析 ----------
 // 引用里的条号和锚点会随顺延和补锚点变，抹掉再比
 const norm = s => s.replace(/\s+/g, '')
-  .replace(/第\d+(节|条)/g, '第#$1')
-  .replace(/(第#条)（[^（）]{1,30}）/g, '$1');
+  .replace(/mục\s*\d+/gi, 'mục #')
+  .replace(/chương\s*\d+/gi, 'chương #');
 
 function parse(text) {
   const out = [];
@@ -43,18 +43,18 @@ function parse(text) {
     let m;
     if ((m = /^# (\d+)\. /.exec(line))) { sec = m[1]; continue; }
     if ((m = /^### (\d+)\. (.+)$/.exec(line)) && sec) {
-      e = { key: `${sec}-${m[1]}`, f: { 标题: m[2].trim() } };
+      e = { key: `${sec}-${m[1]}`, f: { 'Tiêu đề': m[2].trim() } };
       out.push(e); continue;
     }
     if (!e) continue;
-    if ((m = /^- (成本|说人话|收益|证据等级|备注)：(.*)$/.exec(line))) e.f[m[1]] = m[2].trim();
+    if ((m = /^- (Chi phí|Nói dễ hiểu|Lợi ích|Mức bằng chứng|Ghi chú):(.*)$/.exec(line))) e.f[m[1]] = m[2].trim();
   }
   for (const x of out) x.n = Object.fromEntries(FIELDS.map(k => [k, norm(x.f[k] ?? '')]));
   return out;
 }
 
-// 中文按相邻两字切片算相似度
-const grams = s => { const g = new Set(); for (let i = 0; i < s.length - 1; i++) g.add(s.slice(i, i + 2)); return g; };
+// Tiếng Việt: cắt theo từ (khoảng trắng) rồi lấy cặp hai từ liền nhau làm dấu hiệu so khớp
+const grams = s => { const w = s.toLowerCase().split(/[\s,.;:()\[\]"“”]+/).filter(Boolean); const g = new Set(); for (let i = 0; i < w.length - 1; i++) g.add(w[i] + ' ' + w[i + 1]); return g; };
 function dice(a, b) {
   if (!a.size || !b.size) return 0;
   let n = 0; for (const x of a) if (b.has(x)) n++;
@@ -65,11 +65,11 @@ function dice(a, b) {
 function step(prev, cur, date) {
   const next = new Array(cur.length);
   const byTitle = new Map();
-  prev.forEach((p, i) => { const k = p.e.n.标题; if (!byTitle.has(k)) byTitle.set(k, []); byTitle.get(k).push(i); });
+  prev.forEach((p, i) => { const k = p.e.n['Tiêu đề']; if (!byTitle.has(k)) byTitle.set(k, []); byTitle.get(k).push(i); });
   const used = new Set();
   // ① 标题一字不差：同名的优先配同一个节号
   cur.forEach((c, j) => {
-    const cand = (byTitle.get(c.n.标题) ?? []).filter(i => !used.has(i));
+    const cand = (byTitle.get(c.n['Tiêu đề']) ?? []).filter(i => !used.has(i));
     if (!cand.length) return;
     const sec = c.key.split('-')[0];
     const i = cand.find(i => prev[i].e.key.split('-')[0] === sec) ?? cand[0];
@@ -79,7 +79,7 @@ function step(prev, cur, date) {
   const restP = prev.map((p, i) => i).filter(i => !used.has(i));
   const restC = cur.map((c, j) => j).filter(j => !next[j]);
   if (restP.length && restC.length) {
-    const sig = e => ({ t: grams(e.n.标题), b: grams(e.n.说人话 + e.n.收益) });
+    const sig = e => ({ t: grams(e.n['Tiêu đề']), b: grams(e.n['Nói dễ hiểu'] + e.n['Lợi ích']) });
     const sp = new Map(restP.map(i => [i, sig(prev[i].e)]));
     const pairs = [];
     for (const j of restC) {
@@ -104,7 +104,7 @@ function step(prev, cur, date) {
 const nums = s => (s.match(/\d+(?:\.\d+)?/g) ?? []).sort().join();
 function real(k, a, b) {
   if (a === b) return false;
-  if (k === '标题' || k === '证据等级') return true;
+  if (k === 'Tiêu đề' || k === 'Mức bằng chứng') return true;
   return nums(a) !== nums(b) || b.length - a.length >= Math.max(60, a.length / 4);
 }
 
@@ -125,9 +125,9 @@ function advance(prev, cur, date) {
 let SEQ = 0;
 
 // ---------- 取历史 ----------
-const sinceTs = Math.floor(new Date(`${SINCE}T00:00:00+08:00`).getTime() / 1000);
+const sinceTs = Math.floor(new Date(`${SINCE}T00:00:00+07:00`).getTime() / 1000);
 const base = git(['rev-list', '-1', '--first-parent', `--before=${sinceTs}`, 'HEAD']).toString().trim();
-if (!base) throw new Error(`找不到 ${SINCE} 之前的提交。CI 上 checkout 要加 fetch-depth: 0`);
+if (!base) throw new Error(`Không thấy commit nào trước ${SINCE}. Trên CI phải checkout với fetch-depth: 0`);
 const log = git(['log', '--first-parent', '--reverse', '--diff-merges=first-parent', '--name-only',
   '--format=@%H %ct', `${base}..HEAD`, '--', 'book/']).toString();
 const commits = [];
@@ -135,7 +135,10 @@ for (const line of log.split('\n')) {
   if (line.startsWith('@')) { const [h, t] = line.slice(1).split(' '); commits.push({ h, date: day(Number(t)), files: [] }); continue; }
   if (/^book\/.+\.md$/.test(line.trim())) commits.at(-1).files.push(line.trim());
 }
-const baseFiles = git(['ls-tree', '--name-only', base, 'book/']).toString().split('\n').filter(f => f.endsWith('.md'));
+const isVi = txt => typeof txt === 'string' && txt.includes('- Chi phí:');
+const baseFiles = git(['ls-tree', '--name-only', base, 'book/']).toString().split('\n')
+  .filter(f => f.endsWith('.md'))
+  .filter(f => isVi(git(['show', `${base}:${f}`]).toString()));
 
 // 一次 cat-file --batch 取完所有要的版本，Windows 上逐个起 git 进程太慢
 const reqs = [...baseFiles.map(f => `${base}:${f}`), ...commits.flatMap(c => c.files.map(f => `${c.h}:${f}`))];
@@ -161,7 +164,8 @@ for (const c of commits) {
   track = advance(track, snapshot(), c.date);
 }
 // 工作区里还没提交的改动算今天：sync-stats 在提交前跑，生成的就是提交后的样子
-const disk = readdirSync(join(ROOT, 'book')).filter(f => f.endsWith('.md')).map(f => `book/${f}`);
+const disk = readdirSync(join(ROOT, 'book')).filter(f => f.endsWith('.md')).map(f => `book/${f}`)
+  .filter(f => isVi(readFileSync(join(ROOT, f), 'utf8')));
 const dirty = disk.some(f => readFileSync(join(ROOT, f), 'utf8').replace(/\r\n/g, '\n') !== files.get(f)?.replace(/\r\n/g, '\n'))
   || [...files.keys()].some(f => files.get(f) && !disk.includes(f));
 if (dirty) {
@@ -184,14 +188,14 @@ const keys = Object.keys(items).sort((a, b) => {
 const json = `{"since":"${SINCE}","items":{\n${keys.map(k => `${JSON.stringify(k)}:${JSON.stringify(items[k])}`).join(',\n')}\n}}\n`;
 
 const nAdd = keys.filter(k => items[k].added).length, nChg = keys.length - nAdd;
-console.log(`最近更新：${SINCE} 起新增 ${nAdd} 条、改过 ${nChg} 条（比对了 ${commits.length} 个提交${dirty ? '加工作区' : ''}）`);
+console.log(`Cập nhật: từ ${SINCE} có ${nAdd} mục mới, ${nChg} mục đã sửa (so ${commits.length} commit${dirty ? ' và vùng làm việc' : ''})`);
 
 const strip = s => JSON.stringify(Object.fromEntries(Object.entries(JSON.parse(s).items)
   .map(([k, v]) => [k, v.added ? 'added' : v.fields.join()])));
 const old = existsSync(join(ROOT, OUT)) ? readFileSync(join(ROOT, OUT), 'utf8') : '';
 if (CHECK) {
-  if (old && strip(old) === strip(json)) { console.log('updates.json 检查通过'); process.exit(0); }
-  console.log('updates.json 过时了。本地跑 node tools/sync-stats.mjs（或 node tools/updates.mjs），然后提交。');
+  if (old && strip(old) === strip(json)) { console.log('updates.json khớp'); process.exit(0); }
+  console.log('updates.json đã cũ — chạy node tools/updates.mjs rồi commit.');
   process.exit(1);
 }
 if (old.replace(/\r\n/g, '\n') !== json) writeFileSync(join(ROOT, OUT), json);

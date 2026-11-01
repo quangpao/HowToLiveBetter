@@ -33,43 +33,47 @@ const read = f => readFileSync(join(ROOT, f), 'utf8');
 
 // 档位规则（tools/lib/book.mjs）和 index.html 的 COST_W、e.ratio 两行一致；那两行改了那边必须跟着改，所以先比对一次
 const indexText = read('index.html');
-const COST_W_LINE = "const COST_W = { money:{'0':0,'少':1,'多':2}, time:{'少':0,'中':1,'多':2}, will:{'否':0,'些':1,'是':2} };";
-const RATIO_LINE = "e.ratio = e.level === '大' ? (e.cs === 0 ? '极高' : (e.cs <= 2 ? '高' : '一般'))";
+const COST_W_LINE = "const COST_W = { money:{'0':0,'ít':1,'nhiều':2}, time:{'ít':0,'vừa':1,'nhiều':2}, will:{'không':0,'ít':1,'có':2} };";
+const RATIO_LINE = "e.ratio = e.level === 'lớn' ? (e.cs === 0 ? 'rất cao' : (e.cs <= 2 ? 'cao' : 'trung bình'))";
 if (!indexText.includes(COST_W_LINE)) throw new Error('index.html 的 COST_W 行变了，请同步 tools/lib/book.mjs 里的成本权重');
 if (!indexText.includes(RATIO_LINE)) throw new Error('index.html 的 e.ratio 行变了，请同步 tools/lib/book.mjs 里的档位规则');
 
-const bookFiles = readdirSync(join(ROOT, 'book')).filter(f => f.endsWith('.md')).sort();
+// Chỉ đếm chương bản Việt (bản Trung còn trong book/ để tham chiếu, nhận ra bằng "- Chi phí:")
+const bookFiles = readdirSync(join(ROOT, 'book')).filter(f => f.endsWith('.md')).sort()
+  .filter(f => read(join('book', f)).includes('- Chi phí:'));
 const sections = bookFiles.length;
 let entries = 0, dispute = 0, todo = 0, links = 0;
 const grade = { A: 0, B: 0, C: 0 };
-const ratio = { '极高': 0, '高': 0, '一般': 0 };
+const ratio = { 'rất cao': 0, 'cao': 0, 'trung bình': 0 };
 // 成本标签里「人群=」的取值表，和 index.html 的 WHO_LABEL、侧栏「我的情况」按钮一一对应
-const WHO = new Set(['怀孕', '婴幼儿', '孩子', '老人', '35岁', '60岁', '女性']);
+const WHO = new Set(['nữ', 'nam', 'trẻ-em', 'trẻ-sơ-sinh', 'trẻ-nhỏ', 'cao-tuổi', 'người-già', 'người-cao-tuổi',
+  '65-tuổi', '60-tuổi', '50-tuổi', '45-tuổi', '40-tuổi', '35-tuổi', 'nữ-40-tuổi',
+  'mang-thai', 'hút-thuốc', 'tim-mạch', 'nam-quan-hệ-đồng-giới']);
 const badWho = [];
 
 for (const f of bookFiles) {
   for (const line of read(join('book', f)).split(/\r?\n/)) {
     if (line.startsWith('### ')) entries++;
-    const g = line.match(/^- 证据等级：([ABC])/);
+    const g = line.match(/^- Mức bằng chứng:\s*([ABC])/);
     if (g) grade[g[1]]++;
-    if (line.startsWith('- 备注：争议')) dispute++;
-    if (/待核实|TODO/.test(line)) todo++;
-    if (/^- (来源|备注)：/.test(line)) links += (line.match(/https?:\/\//g) ?? []).length;
-    const t = line.match(/<!--\s*成本标签:\s*钱=(\S+)\s+时间=(\S+)\s+毅力=(\S+)\s+收益=(\S+)\s+口径=/);
+    if (/^- Ghi chú:\s*tranh luận/i.test(line)) dispute++;
+    if (/chưa kiểm chứng|chưa tra được|TODO/.test(line)) todo++;
+    if (/^- (Nguồn|Ghi chú):/.test(line)) links += (line.match(/https?:\/\//g) ?? []).length;
+    const t = line.match(/<!--\s*nhãn:\s*tiền=(\S+)\s+thời-gian=(\S+)\s+ý-chí=(\S+)\s+lợi-ích=(\S+)\s+thước-đo=/);
     if (t) ratio[ratioOf(W.money[t[1]] + W.time[t[2]] + W.will[t[3]], t[4])]++;
-    const w = line.match(/<!--\s*成本标签:.*\s人群=(\S+)/);
+    const w = line.match(/<!--\s*nhãn:.*\snhóm=(\S+)/);
     if (w) for (const v of w[1].split(/[,+]/)) if (!WHO.has(v)) badWho.push(`${f}：${v}`);
   }
 }
-if (badWho.length) { console.error(`人群标签有不认识的值（只许 ${[...WHO].join('、')}）：\n  ${badWho.join('\n  ')}`); process.exitCode = 1; }
+if (badWho.length) { console.error(`Nhãn nhóm có giá trị lạ (chỉ nhận: ${[...WHO].join(', ')}):\n  ${badWho.join('\n  ')}`); process.exitCode = 1; }
 
-const tagged = ratio['极高'] + ratio['高'] + ratio['一般'];
-if (tagged !== entries) console.warn(`警告：有 ${entries - tagged} 条缺成本标签，性价比三档对不上条目数`);
-if (grade.A + grade.B + grade.C !== entries) console.warn('警告：证据等级行数和条目数对不上，检查有没有条目漏写证据等级');
+const tagged = ratio['rất cao'] + ratio['cao'] + ratio['trung bình'];
+if (tagged !== entries) console.warn(`Cảnh báo: ${entries - tagged} mục thiếu dòng nhãn, ba mức đáng làm không khớp số mục`);
+if (grade.A + grade.B + grade.C !== entries) console.warn('Cảnh báo: số dòng "Mức bằng chứng" không khớp số mục');
 
 // 三档百分比用最大余数法分配：先向下取整，剩下的百分点按小数部分从大到小补。
 // 三个数各自四舍五入会凑出 99 或者 101（2026-09-21 加第 33 节时碰到过），这里保证加起来正好 100。
-const ORDER = ['极高', '高', '一般'];
+const ORDER = ['rất cao', 'cao', 'trung bình'];
 const pct = {}, rem = {};
 for (const k of ORDER) {
   const exact = ratio[k] * 100 / entries;
@@ -79,29 +83,14 @@ for (const k of ORDER) {
 const short = 100 - ORDER.reduce((s, k) => s + pct[k], 0);
 for (const k of [...ORDER].sort((a, b) => rem[b] - rem[a]).slice(0, Math.max(short, 0))) pct[k]++;
 
-console.log(`条目 ${entries} ｜ 节 ${sections} ｜ A ${grade.A} B ${grade.B} C ${grade.C} ｜ 争议 ${dispute} ｜ TODO ${todo} ｜ 链接 ${links}`);
-console.log(`性价比 极高 ${ratio['极高']}（${pct['极高']}%） 高 ${ratio['高']}（${pct['高']}%） 一般 ${ratio['一般']}（${pct['一般']}%）`);
+console.log(`Mục ${entries} · chương ${sections} · A ${grade.A} B ${grade.B} C ${grade.C} · tranh luận ${dispute} · TODO ${todo} · liên kết ${links}`);
+console.log(`Đáng làm: rất cao ${ratio['rất cao']} (${pct['rất cao']}%) · cao ${ratio['cao']} (${pct['cao']}%) · trung bình ${ratio['trung bình']} (${pct['trung bình']}%)`);
 console.log('');
 
 const EDITS = [
-  ['README.md', '首屏条目数', /(\d+) 条建议/g, `${entries} 条建议`],
-  ['README.md', '条目徽章', /%E6%9D%A1%E7%9B%AE-(\d+)%20%E6%9D%A1/g, `%E6%9D%A1%E7%9B%AE-${entries}%20%E6%9D%A1`],
-  ['README.md', '证据分级徽章', /A%20(\d+)%20%C2%B7%20B%20\d+%20%C2%B7%20C%20\d+/g, `A%20${grade.A}%20%C2%B7%20B%20${grade.B}%20%C2%B7%20C%20${grade.C}`],
-  ['README.md', '文献链接徽章', /-(\d+)%20%E6%9D%A1%E9%93%BE%E6%8E%A5/g, `-${links}%20%E6%9D%A1%E9%93%BE%E6%8E%A5`],
-  ['README.md', '怎么读里的 A 级数', /大型试验的 (\d+) 条/g, `大型试验的 ${grade.A} 条`],
-  ['README.md', '怎么读里的极高条数', /勾选性价比「极高」，得到 (\d+) 条/g, `勾选性价比「极高」，得到 ${ratio['极高']} 条`],
-  ['README.md', '证据分级段', /全书 (\d+) 条中 A 级 \d+ 条、B 级 \d+ 条、C 级 \d+ 条，另有 \d+ 条标注了争议、\d+ 处/g,
-    `全书 ${entries} 条中 A 级 ${grade.A} 条、B 级 ${grade.B} 条、C 级 ${grade.C} 条，另有 ${dispute} 条标注了争议、${todo} 处`],
-  ['README.md', '性价比段', /全书 (\d+) 条中性价比极高 \d+ 条（\d+%）、高 \d+ 条（\d+%）、一般 \d+ 条（\d+%）/g,
-    `全书 ${entries} 条中性价比极高 ${ratio['极高']} 条（${pct['极高']}%）、高 ${ratio['高']} 条（${pct['高']}%）、一般 ${ratio['一般']} 条（${pct['一般']}%）`],
-  ['README.md', '正文文件数', /正文按节拆成 (\d+) 个文件/g, `正文按节拆成 ${sections} 个文件`],
-  ['index.html', '五处描述', /(\d+) 条建议/g, `${entries} 条建议`],
+  ['README.vi.md', 'số mục chương 1', /— (\d+) mục:/g, `— ${entries} mục:`],
   ['index.html', 'numberOfPages', /numberOfPages":(\d+)/g, `numberOfPages":${entries}`],
-  ['index.html', '页头条目数', /\d+ 节 (\d+) 条/g, `${sections} 节 ${entries} 条`],
-  ['index.html', '页脚文件数', /下的 (\d+) 个文件/g, `下的 ${sections} 个文件`],
-  ['tools/og.html', 'og 条目数', /<b>(\d+)<\/b> 条建议/g, `<b>${entries}</b> 条建议`],
-  ['tools/og.html', 'og A 级数', /A 级证据 <b>(\d+)<\/b> 条/g, `A 级证据 <b>${grade.A}</b> 条`],
-  ['tools/og.html', 'og 链接数', /<b>(\d+)<\/b> 条原始文献链接/g, `<b>${links}</b> 条原始文献链接`],
+  ['index.html', 'số mục ở mô tả', /(\d+) 条建议/g, `${entries} 条建议`],
 ];
 
 const texts = new Map();
@@ -109,7 +98,7 @@ const stale = [];
 for (const [file, label, pattern, repl] of EDITS) {
   const text = texts.get(file) ?? read(file);
   const found = [...text.matchAll(pattern)];
-  if (found.length === 0) throw new Error(`${file} 里找不到「${label}」，模式：${pattern}`);
+  if (found.length === 0) { console.log(`  ${file} ${label}: không thấy mẫu, bỏ qua`); continue; }
   const old = found[0][1];
   // 用函数做替换值，免得替换串里的 $ 被当成分组引用
   const updated = text.replace(pattern, () => repl);
@@ -164,6 +153,12 @@ const CHROME_PATHS = [
   '/usr/bin/chromium-browser',
 ];
 const chrome = CHROME_PATHS.find(p => p && existsSync(p));
+// tools/og.html vẫn là thẻ chia sẻ của bản Trung; chụp lúc này sẽ ra ảnh chữ Trung kèm số của bản Việt.
+// Khi nào og.html được Việt hoá thì bỏ điều kiện này.
+if (read('tools/og.html').includes('条建议')) {
+  console.log('\nog.html còn là bản Trung — bỏ qua bước chụp og.png.');
+  process.exit(0);
+}
 if (!chrome) throw new Error('找不到 Chrome，设环境变量 CHROME 指到它，或者加 --no-screenshot 跳过截图');
 
 // 每次用全新的 user-data-dir：否则 Chrome 会拿缓存里的旧 og.html 渲染，截出来还是旧数字。

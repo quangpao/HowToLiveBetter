@@ -4,16 +4,16 @@
 // 站内相对链接改成线上地址，侧栏图片转成 data URI，其余一个字不动。
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
-import { ROOT, REPO, SITE, read, gitCommit, buildStamp } from '../lib/book.mjs';
+import { ROOT, REPO, SITE, README_FILE, read, gitCommit, buildStamp } from '../lib/book.mjs';
 
 const OUT = resolve(ROOT, process.argv[2] ?? 'dist/HowToLiveBetter.html');
 const STAMP = buildStamp();
 const COMMIT = gitCommit();
 
 // ---------- 正文 ----------
-const readme = read('README.md');
+const readme = read(README_FILE);
 const files = [...new Set([...readme.matchAll(/\]\((book\/[^)]+\.md)\)/g)].map(m => m[1]))].sort();
-if (!files.length) throw new Error('README 目录里没找到 book/ 文件，离线版会是空的');
+if (!files.length) throw new Error(`${README_FILE} mục lục không có file nào trong book/ — bản offline sẽ rỗng`);
 // 长文（docs/*.md）也要带上：检索页的长文弹窗就地渲染它们，离线副本里没有就只剩
 // 一个点不开的 GitHub 链接。清单从 README 里扒，和 EPUB、PDF 两套构建用的是同一处。
 const docs = [...new Set([...readme.matchAll(/\]\((docs\/[^)#/]+\.md)\)/g)].map(m => m[1]))].sort();
@@ -42,18 +42,20 @@ html = html.slice(0, html.indexOf(GA_START)) + html.slice(html.indexOf(GA_END) +
 if (/googletagmanager|google-analytics/.test(html)) throw new Error('剥掉标记之间的内容后仍有统计域名残留，离线版会往外发请求');
 
 // 相对链接在本地打开时是死的，改成线上地址
-must('href="README.md"', ' README.md 链接');
+must(`href="${README_FILE}"`, `liên kết ${README_FILE}`);
 must('href="book/"', ' book/ 链接');
-must('href="selfcheck.html"', ' 自查页链接');
+// Trang tự kiểm tra chưa dịch nên bản Việt chưa trỏ tới; có thì mới đổi sang link tuyệt đối
 html = html
-  .replaceAll('href="README.md"', `href="${REPO}/blob/main/README.md"`)
-  .replaceAll('href="selfcheck.html"', `href="${SITE}selfcheck.html"`)
+  .replaceAll(`href="${README_FILE}"`, `href="${REPO}/blob/main/${README_FILE}"`)
+  .replaceAll('href="selfcheck.html"', `href="${SITE}selfcheck.html"`)  // nếu trang có link
   .replaceAll('href="book/"', `href="${REPO}/tree/main/book"`)
   .replaceAll('<a class="title" href="./"', `<a class="title" href="${SITE}"`);
 
 // 侧栏广告图和赞赏码转 data URI，否则离线打开是个裂图
+// Ảnh quảng cáo cũ của tác giả gốc đã bỏ khỏi bản Việt, chỉ còn mã QR ủng hộ.
+// Ảnh nào không có trong index.html thì bỏ qua, khỏi gãy build.
 for (const [img, mime] of [['ads/mcyyy-side.webp', 'image/webp'], ['ads/wechat-reward.png', 'image/png']]) {
-  must(`src="${img}"`, `图片 ${img}`);
+  if (!html.includes(`src="${img}"`)) continue;
   const data = readFileSync(resolve(ROOT, img)).toString('base64');
   html = html.replace(`src="${img}"`, `src="data:${mime};base64,${data}"`);
 }
@@ -61,8 +63,8 @@ for (const [img, mime] of [['ads/mcyyy-side.webp', 'image/webp'], ['ads/wechat-r
 // 页脚注明这是哪一版的离线副本
 const foot = '<div class="foot">';
 must(foot, '页脚');
-const commitNote = COMMIT ? `，正文提交 ${COMMIT.slice(0, 7)}` : '';
-html = html.replace(foot, `${foot}离线副本，生成于 ${STAMP}（北京时间）${commitNote}；正文会继续更新，以 <a href="${SITE}">在线版</a> 为准。<br>`);
+const commitNote = COMMIT ? `, bản nội dung ${COMMIT.slice(0, 7)}` : '';
+html = html.replace(foot, `${foot}Bản offline, dựng lúc ${STAMP} (giờ Việt Nam)${commitNote}; nội dung còn cập nhật, lấy <a href="${SITE}">bản online</a> làm chuẩn.<br>`);
 
 // 正文要在主脚本之前就位
 const mainScript = '\n<script>\n/* ---------- 调试面板';
