@@ -61,6 +61,24 @@ Các chương còn lại đang biên soạn theo cùng định dạng; mục l�
 Chương 1 nằm ở [book/01-dung-chet-som.md](book/01-dung-chet-som.md). Sổ kiểm chứng của chương — số nào lấy từ
 đâu, chỗ nào còn treo — ở [docs/kiem-chung/chuong-01.md](docs/kiem-chung/chuong-01.md).
 
+## Tự dựng bản tải về
+
+```bash
+npm ci --prefix tools/epub          # cần một lần, cho marked
+node tools/check-refs.mjs --check   # kiểm tham chiếu
+node tools/check-plain.mjs          # kiểm "Nói dễ hiểu"
+node tools/epub/build.mjs           # EPUB
+node tools/offline/build.mjs        # HTML một file, mở là đọc, không cần mạng
+node tools/anki/build.mjs           # bộ thẻ Anki
+node tools/pdf/build.mjs            # PDF, cần pandoc + typst
+```
+
+Bản dựng tự động: workflow `Sách điện tử` gắn vào Release `epub-latest`. Trên fork, sự kiện push đôi khi không kích hoạt workflow — chạy tay bằng:
+
+```bash
+gh workflow run "Sách điện tử" --ref vi
+```
+
 ## Ghi công và giấy phép
 
 Nội dung gốc: *高性价比人生指南* của eternity4719, giấy phép CC BY 4.0. Mã nguồn của bộ công cụ: MIT.
