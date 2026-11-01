@@ -4,13 +4,14 @@
 #   离线单文件  https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.html
 #   Anki 牌组  https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.apkg
 # PR 只生成并校验，不发布，产物在 Actions 页面的 artifact 里。
-name: 电子书
+name: Sách điện tử
 
 on:
   push:
-    branches: [main]
+    branches: [vi]
     paths:
       - README.md
+      - README.vi.md
       - index.html
       - selfcheck.html
       - og.png
@@ -22,6 +23,7 @@ on:
   pull_request:
     paths:
       - README.md
+      - README.vi.md
       - index.html
       - selfcheck.html
       - og.png
@@ -49,7 +51,7 @@ jobs:
   # 本地那条链路（sync-stats.mjs）要记得跑才会跑，
   # 外部 PR 更是完全跑不到，所以这道检查得在 CI 里有一份。零依赖，几秒钟。
   refs:
-    name: 交叉引用检查
+    name: Kiểm tham chiếu chéo
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -60,7 +62,7 @@ jobs:
 
   # 说人话检查：长度、研究行话、抽象说法。理由同上，单独一个 job，不挡发布。
   plain:
-    name: 说人话检查
+    name: Kiểm "Nói dễ hiểu"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -72,7 +74,7 @@ jobs:
   # 拆分规则一致性检查：超长收益、备注和来源的拆分规则有两份（tools/lib/split-items.mjs 给 EPUB、PDF，
   # index.html 里 <split-rules> 那段给网页和离线版），只改了一边就会四个出口长得不一样。理由同上，不挡发布。
   split:
-    name: 拆分规则一致性检查
+    name: Kiểm luật tách câu
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -85,7 +87,7 @@ jobs:
   # 本地 sync-stats.mjs 要记得跑才会更新，网页上直接合并的 PR 完全经过不了它。理由同上，不挡发布。
   # 只查不改：让 CI 往 main 推提交会和本地分叉，而且 Ubuntu 没有微软雅黑，og.png 截不对。
   stats:
-    name: 统计数字检查
+    name: Kiểm số liệu thống kê
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -98,7 +100,7 @@ jobs:
       - run: node tools/updates.mjs --check
 
   selfcheck:
-    name: 自查条件检查
+    name: Kiểm trang tự kiểm tra
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -124,25 +126,21 @@ jobs:
       - name: EPUB
         run: node tools/epub/build.mjs
 
-      - name: 离线单文件 HTML
+      - name: HTML một file (offline)
         run: node tools/offline/build.mjs
 
-      - name: Anki 牌组
+      - name: Bộ thẻ Anki
         run: node tools/anki/build.mjs
 
-      - name: 装 pandoc、typst 和中文字体
+      - name: Cài pandoc và typst
         run: |
-          sudo apt-get update
-          sudo apt-get install -y --no-install-recommends fonts-noto-cjk
           curl -sSL "https://github.com/jgm/pandoc/releases/download/${PANDOC_VERSION}/pandoc-${PANDOC_VERSION}-linux-amd64.tar.gz" | tar xz
           curl -sSL "https://github.com/typst/typst/releases/download/v${TYPST_VERSION}/typst-x86_64-unknown-linux-musl.tar.xz" | tar xJ
           echo "$PWD/pandoc-${PANDOC_VERSION}/bin" >> "$GITHUB_PATH"
           echo "$PWD/typst-x86_64-unknown-linux-musl" >> "$GITHUB_PATH"
 
       - name: PDF
-        run: |
-          typst fonts | grep -i -E 'noto (serif|sans) cjk' || echo '没找到 Noto CJK，PDF 会退到别的字体，检查 fonts-noto-cjk 这一步'
-          node tools/pdf/build.mjs
+        run: node tools/pdf/build.mjs
 
       - uses: actions/setup-java@v4
         with:
@@ -164,18 +162,18 @@ jobs:
             dist/HowToLiveBetter.html
             dist/HowToLiveBetter.apkg
 
-      - name: 发布到 Release epub-latest
+      - name: Phát hành lên Release epub-latest
         if: github.event_name != 'pull_request'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           git tag -f epub-latest
           git push -f origin epub-latest
-          notes="正文提交 ${GITHUB_SHA::7}，生成于 $(date -u -d '+8 hours' +'%Y-%m-%d %H:%M')（北京时间）。EPUB、PDF、离线单文件 HTML、Anki 牌组四样，正文每次更新后自动重新生成，下载链接固定不变。"
+          notes="Bản nội dung ${GITHUB_SHA::7}, dựng lúc $(date -u -d '+7 hours' +'%Y-%m-%d %H:%M') (giờ Việt Nam). Gồm EPUB, PDF, HTML một file và bộ thẻ Anki; nội dung đổi là tự dựng lại, link tải giữ nguyên."
           if gh release view epub-latest >/dev/null 2>&1; then
-            gh release edit epub-latest --title "电子书（EPUB / PDF / 离线 HTML / Anki，自动更新）" --notes "$notes"
+            gh release edit epub-latest --title "Sách (EPUB / PDF / HTML offline / Anki, tự cập nhật)" --notes "$notes"
           else
-            gh release create epub-latest --title "电子书（EPUB / PDF / 离线 HTML / Anki，自动更新）" --notes "$notes" --latest=false
+            gh release create epub-latest --title "Sách (EPUB / PDF / HTML offline / Anki, tự cập nhật)" --notes "$notes" --latest=false
           fi
           gh release upload epub-latest \
             dist/HowToLiveBetter.epub \
