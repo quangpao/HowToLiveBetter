@@ -873,18 +873,45 @@ const xrefKeys = (sec, spec) => {
 };
 function xrefInto(el, s, terms){
   XREF_RE.lastIndex = 0; let m, last = 0, any = false;
-  while ((m = XREF_RE.exec(s))){
-    // khóa của chỉ dẫn cả mục viết là 's9', tách được khỏi khóa điều
-    const keys = m[5] != null
-      ? String(m[5]).split(',').map(x => x.trim()).filter(x => SECS.has(x)).map(x => 's' + x)
-      : xrefKeys(m[1] ?? CUR_SEC, m[2] ?? m[3] ?? m[4] ?? '');
-    if (!keys.length) continue;
-    highlightInto(el, s.slice(last, m.index), terms);
+  // Một cụm "mục 1, 2, 3, 10" phải tách thành từng liên kết riêng: bấm số nào là tới đúng mục đó,
+  // không gộp cả cụm về mục đầu (người dùng gặp 2026-11-02 ở dòng "Nhóm mục" chương 5–7).
+  const numSpec = (seg) => {
+    const r = /mục\s*([\d,]+(?:\s*(?:đến|-|–)\s*\d+)?)\s*$/.exec(seg.trim());
+    return r ? r[1] : null;
+  };
+  const pushRef = (text, keys) => {
     const a = document.createElement('span');
     a.className = 'xref'; a.tabIndex = 0; a.dataset.keys = keys.join(',');
-    a.textContent = m[0];
-    el.appendChild(a);
-    last = m.index + m[0].length; any = true;
+    a.textContent = text;
+    const one = keys.length === 1 ? ITEMS.get(keys[0]) : null;
+    if (one) a.title = `chương ${one.sec} · mục ${one.n} — ${one.title}`;
+    el.appendChild(a); any = true;
+  };
+  while ((m = XREF_RE.exec(s))){
+    // khóa của chỉ dẫn cả mục viết là 's9', tách được khỏi khóa điều
+    if (m[5] != null){
+      const keys = String(m[5]).split(',').map(x => x.trim()).filter(x => SECS.has(x)).map(x => 's' + x);
+      if (!keys.length) continue;
+      highlightInto(el, s.slice(last, m.index), terms);
+      pushRef(m[0], keys);
+      last = m.index + m[0].length; continue;
+    }
+    const sec = m[1] ?? CUR_SEC;
+    const segs = m[0].split(/(,\s*)/);
+    const resolved = segs.map((part, i) => {
+      if (i % 2) return { text: part, keys: null };
+      // đoạn đầu có thể là "mục 1" / "chương 8 mục 16"; các đoạn sau chỉ là số trần "5", "10"
+      const own = /^\s*(\d+(?:\s*(?:đến|-|–)\s*\d+)?)\s*$/.exec(part);
+      const spec = numSpec(part) ?? (own ? own[1] : null);
+      return { text: part, keys: spec ? xrefKeys(sec, spec) : null };
+    });
+    if (!resolved.some(r => r.keys && r.keys.length)) continue;
+    highlightInto(el, s.slice(last, m.index), terms);
+    for (const r of resolved){
+      if (r.keys && r.keys.length) pushRef(r.text, r.keys);
+      else el.appendChild(document.createTextNode(r.text));
+    }
+    last = m.index + m[0].length;
   }
   if (!any) { highlightInto(el, s, terms); return; }
   highlightInto(el, s.slice(last), terms);
@@ -1034,12 +1061,21 @@ addEventListener('popstate', ev => {
 });
 document.addEventListener('click', ev => {
   const a = ev.target.closest?.('.xref');
-  if (a){ showXref(a); return; }
+  if (a){
+    // Một liên kết chỉ trỏ đúng một mục thì nhảy thẳng, không bắt qua popup chọn (2026-11-02).
+    const ks = (a.dataset.keys || '').split(',').filter(Boolean);
+    if (ks.length === 1){ gotoItem(ks[0], a.closest('.card')?.id || ''); return; }
+    showXref(a); return;
+  }
   if (!ev.target.closest?.('#xref-pop')) POP.hidden = true;
 });
 document.addEventListener('keydown', ev => {
   if (ev.key === 'Escape') POP.hidden = true;
-  if (ev.key === 'Enter' && ev.target.classList?.contains('xref')) showXref(ev.target);
+  if (ev.key === 'Enter' && ev.target.classList?.contains('xref')){
+    const ks = (ev.target.dataset.keys || '').split(',').filter(Boolean);
+    if (ks.length === 1) gotoItem(ks[0], ev.target.closest('.card')?.id || '');
+    else showXref(ev.target);
+  }
 });
 POP.querySelector('.xp-x').addEventListener('click', () => { POP.hidden = true; });
 POP.querySelector('.xp-go').addEventListener('click', () => {
