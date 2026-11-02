@@ -850,7 +850,7 @@ const SECS = new Map();           // section, dùng cho chỉ dẫn cả mục k
 let CUR_SEC = '';                 // đang kết xuất mục nào, để định vị "điều X mục này" và số điều trần không kèm số mục
 // Số điều có thể viết "điều 13", "điều 12, 13", cũng có thể viết thành khoảng "điều 8 đến 10".
 // Kiểu khoảng trước đây không nhận, bấm không được（người dùng gặp đúng chỗ này ở mục 5 điều 31 ngày 2026-09-20）。
-const NUMS = '[\\d,]+(?:\\s*(?:đến|-|–)\\s*\\d+)?';
+const NUMS = '\\d+(?:\\s*,\\s*\\d+)*(?:\\s*(?:đến|-|–)\\s*\\d+)?';
 // Đoạn cuối nhận chỉ dẫn cả mục không kèm số điều kiểu "xem mục 9", "đi theo đường pháp lý mục 8, 9",
 // toàn sách có 135 chỗ, trước đây đều là chữ chết（chỗ "（xem mục 9）" người dùng gặp ở mục 5 ngày 2026-09-20）。
 // Nó phải xếp cuối: mấy đoạn trước ăn "mục 9 điều 3" trước, phần còn lại mới tới lượt nó.
