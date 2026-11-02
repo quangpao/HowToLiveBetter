@@ -36,7 +36,7 @@ Không dùng được git thì lấy theo từng file:
 curl -fsSL --compressed "https://raw.githubusercontent.com/quangpao/HowToLiveBetter/vi/book/02-dung-chet-dan.md"
 ```
 
-Chương 1 đến 3 đã có bản tiếng Việt, dùng thẳng. Chương 4 đến 34 mới có bản gốc tiếng Trung trong `book/` (tên file giữ nguyên tiếng Trung), bản Việt đang biên soạn; trích từ đó thì lấy tên chương theo bảng trong `README.md` và ghi rõ là chương chưa có bản Việt.
+Chương 1 đến 4 đã có bản tiếng Việt, dùng thẳng (`book/01-dung-chet-som.md`, `02-dung-chet-dan.md`, `03-dung-lang-phi-suc-luc.md`, `04-dung-lang-phi-thoi-gian.md`). Chương 5 đến 34 mới có bản gốc tiếng Trung trong `book/` (tên file giữ nguyên tiếng Trung), bản Việt đang biên soạn; trích từ đó thì lấy tên chương theo bảng trong `README.md` và ghi rõ là chương chưa có bản Việt.
 
 Hai cách trên đều không chạy thì nói thật là không lấy được nội dung, đừng kể lại sách theo trí nhớ.
 
