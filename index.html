@@ -27,8 +27,8 @@
 <meta name="twitter:image" content="https://quangpao.github.io/HowToLiveBetter/og.png">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
-{"@type":"WebSite","@id":"https://quangpao.github.io/HowToLiveBetter/#website","url":"https://quangpao.github.io/HowToLiveBetter/","name":"Cẩm nang sống thông minh","description":"Cẩm nang sống tính theo hiệu quả trên chi phí: mỗi mục ghi rõ mất gì (tiền, thời gian, ý chí) và được gì, kèm mức bằng chứng A/B/C và nguồn gốc. Lọc được theo tiền, thời gian, ý chí.","inLanguage":"zh-CN","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://quangpao.github.io/HowToLiveBetter/?q={search_term_string}"},"query-input":"required name=search_term_string"}},
-{"@type":"Book","@id":"https://quangpao.github.io/HowToLiveBetter/#book","name":"Cẩm nang sống thông minh","url":"https://quangpao.github.io/HowToLiveBetter/","inLanguage":"zh-CN","bookFormat":"https://schema.org/EBook","numberOfPages":95,"license":"https://creativecommons.org/licenses/by/4.0/","abstract":"Cẩm nang sống tính theo hiệu quả trên chi phí: mỗi mục ghi rõ mất gì (tiền, thời gian, ý chí) và được gì, kèm mức bằng chứng A/B/C và nguồn gốc. Lọc được theo tiền, thời gian, ý chí.","about":["健康","长寿","个人理财","急救","法律常识","消费者保护"],"isAccessibleForFree":true}
+{"@type":"WebSite","@id":"https://quangpao.github.io/HowToLiveBetter/#website","url":"https://quangpao.github.io/HowToLiveBetter/","name":"Cẩm nang sống thông minh","description":"Cẩm nang sống tính theo hiệu quả trên chi phí: mỗi mục ghi rõ mất gì (tiền, thời gian, ý chí) và được gì, kèm mức bằng chứng A/B/C và nguồn gốc. Lọc được theo tiền, thời gian, ý chí.","inLanguage":"vi-VN","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://quangpao.github.io/HowToLiveBetter/?q={search_term_string}"},"query-input":"required name=search_term_string"}},
+{"@type":"Book","@id":"https://quangpao.github.io/HowToLiveBetter/#book","name":"Cẩm nang sống thông minh","url":"https://quangpao.github.io/HowToLiveBetter/","inLanguage":"vi-VN","bookFormat":"https://schema.org/EBook","numberOfPages":95,"license":"https://creativecommons.org/licenses/by/4.0/","abstract":"Cẩm nang sống tính theo hiệu quả trên chi phí: mỗi mục ghi rõ mất gì (tiền, thời gian, ý chí) và được gì, kèm mức bằng chứng A/B/C và nguồn gốc. Lọc được theo tiền, thời gian, ý chí.","about":["sức khoẻ","sống lâu","tài chính cá nhân","cấp cứu","kiến thức pháp luật","bảo vệ người tiêu dùng"],"isAccessibleForFree":true}
 ]}
 </script>
 <script>(function(){try{var s=localStorage.getItem('theme');var d=s?s==='dark':matchMedia('(prefers-color-scheme: dark)').matches;if(d)document.documentElement.classList.add('dark')}catch(e){}})();</script>
@@ -546,7 +546,7 @@ const PERF = (function(){
     if (!ev.target.matches('details')) return;
     const t0 = performance.now();
     void document.documentElement.scrollHeight;   // 强制走一遍布局
-    api.log((ev.target.open ? '展开' : '收起') + '重排', t0);
+    api.log((ev.target.open ? 'mở' : 'thu gọn') + ' dựng lại', t0);
   }, true);
   // 掉帧：连续两帧间隔超过 32ms 就记一条
   let last = performance.now(), worst = 0, since = last;
@@ -1094,7 +1094,7 @@ const CARD_IO = new IntersectionObserver(list => {
     card.vis = it.isIntersecting;
     if (card.vis && card.key !== CUR_KEY) { n++; renderCard(card, CUR_TERMS, CUR_KEY); }
   }
-  if (n) PERF.log('滚动补渲染', t0, n + ' 张');
+  if (n) PERF.log('dựng thêm khi cuộn', t0, n + ' thẻ');
 }, {rootMargin:'600px 0px'});
 function esc(s){ return s.replace(/[&<>"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch])); }
 function build(sections){
@@ -1107,7 +1107,7 @@ function build(sections){
   fsec.appendChild(allBtn);
   for (const s of sections){
     const b = document.createElement('button'); b.className='sec-link'; b.dataset.v = s.n; b.setAttribute('aria-pressed','false');
-    b.innerHTML = `<span class="sn">${s.n}.</span><span class="st">${esc(s.title)}</span><i>${s.entries.length}</i><b class="fold" title="展开或收起本节目录"><svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></b>`; fsec.appendChild(b);
+    b.innerHTML = `<span class="sn">${s.n}.</span><span class="st">${esc(s.title)}</span><i>${s.entries.length}</i><b class="fold" title="Mở hoặc thu gọn mục lục chương này"><svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></b>`; fsec.appendChild(b);
     const sub = document.createElement('div'); sub.className = 'toc-sub'; sub.hidden = true;
     for (const e of s.entries){
       const a = document.createElement('a'); a.href = `#e-${e.sec}-${e.n}`; a.dataset.go = `${e.sec}-${e.n}`; a.title = e.title;
@@ -1555,7 +1555,7 @@ async function dmOpen(path, from){
   try {
     md = (window.__CORPUS__ && window.__CORPUS__.docs && window.__CORPUS__.docs[path]) ?? await readText(path);
   } catch (err) {
-    DM.doc.innerHTML = '<div class="dm-load">读不到这篇长文（' + esc(String(err.message)) + '）。'
+    DM.doc.innerHTML = '<div class="dm-load">Không đọc được bài này (' + esc(String(err.message)) + ').'
       + '<a href="' + esc(dmHref(path)) + '" target="_blank" rel="noopener">Mở trên GitHub</a></div>';
     return;
   }
@@ -1639,7 +1639,7 @@ document.addEventListener('keydown', ev => { if (ev.key === 'Escape' && !TIP.hid
     const parts = await Promise.all(files.map(async f => {
       if (EMBED) {
         const text = EMBED.parts[f];
-        if (text === undefined) throw new Error('离线副本里缺 '+f);
+        if (text === undefined) throw new Error('bản offline thiếu '+f);
         return text;
       }
       const text = await readText(f);
@@ -1651,9 +1651,9 @@ document.addEventListener('keydown', ev => { if (ev.key === 'Escape' && !TIP.hid
     if (!sections.length) throw new Error('empty');
     GLOSS = parseGlossary(md);
     UPD = (await updP)?.items ?? {};
-    PERF.log('解析正文', t1, files.length + ' 个文件');
+    PERF.log('đọc nội dung', t1, files.length + ' tệp');
     status.remove();
-    const t2 = performance.now(); build(sections); PERF.log('建 DOM', t2, CARDS.length + ' 张卡');
+    const t2 = performance.now(); build(sections); PERF.log('dựng DOM', t2, CARDS.length + ' thẻ');
     buildGlossary(); buildUpdLine(); readUrl(); wire(); apply();
     PERF.mark(`DOM 节点 ${document.getElementsByTagName('*').length}，术语 ${GLOSS.length}`);
     if (location.hash){
