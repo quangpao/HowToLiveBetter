@@ -21,7 +21,7 @@ Cách tính từ neo: hai từ liền nhau trùng tiêu đề đích, hoặc m�
 như 12356, AED, BMI, LPR) xuất hiện trong tiêu đề. Chỉ trùng một từ chung chung ("người", "tiền")
 thì không tính.
 
-Tổng 183 chỗ tham chiếu.
+Tổng 199 chỗ tham chiếu.
 
 ## 01-dung-chet-som
 
@@ -56,15 +56,15 @@ Tổng 183 chỗ tham chiếu.
 | mục 28 | mục 8 | Xét nghiệm đường huyết lúc đói: từ 45 tuổi, hoặc sớm hơn nếu thừa cân và có yếu tố nguy cơ; kết quả bình thường thì 1 đến 3 năm làm lại | … Việc cần làm giống hệt mục 7 và … |
 | mục 29 | mục 7 | Đo huyết áp tại nhà; cao thì uống thuốc hạ xuống mức đích | …rong khoảng 20 đến 25, kiểm soát huyết áp ở … |
 | mục 32 | mục 25 | Khi trầm cảm hoặc có ý nghĩ tự tử: gọi tổng đài, và đừng để thuốc ngủ hay thuốc trừ sâu trong nhà | …1414 nếu cần nói chuyện (xem … |
-| mục 34 | mục 32 | Ý nghĩ tự tử vừa xuất hiện thì nói ngay với một người bên cạnh, đưa vài chục phút đó cho họ | … Nếu chuyện ngã này là do ý nghĩ tự tử, xem … |
+| mục 34 | mục 32 | Ý nghĩ tự tử vừa xuất hiện thì nói ngay với một người bên cạnh, nhờ họ ở bên bạn trong lúc đó | … Nếu chuyện ngã này là do ý nghĩ tự tử, xem … |
 | mục 34 | mục 33 | Đừng coi "cứu được là xong": sau ngộ độc thuốc trừ sâu hay khí CO, giữ được mạng chưa chắc giữ được phổi và não | …n ngã này là do ý nghĩ tự tử, xem mục 32 và … |
-| mục 37 | mục 32 | Ý nghĩ tự tử vừa xuất hiện thì nói ngay với một người bên cạnh, đưa vài chục phút đó cho họ | … Khi có ý nghĩ tự tử, xem … |
+| mục 37 | mục 32 | Ý nghĩ tự tử vừa xuất hiện thì nói ngay với một người bên cạnh, nhờ họ ở bên bạn trong lúc đó | … Khi có ý nghĩ tự tử, xem … |
 | mục 37 | mục 25 | Khi trầm cảm hoặc có ý nghĩ tự tử: gọi tổng đài, và đừng để thuốc ngủ hay thuốc trừ sâu trong nhà | … Khi có ý nghĩ tự tử, xem mục 32 và … |
 | mục 38 | mục 30 | Dùng bao cao su suốt mỗi lần quan hệ, và không dùng chung bơm kim tiêm | …ó giai đoạn đã tạm dừng ở một số nơi** (xem … |
 | mục 39 | mục 13 | Từ 60 tuổi, tập thăng bằng và sức chân hằng tuần, sửa lại nhà tắm và cầu thang | … còn giảm số lần ngã thì xem … |
 | mục 40 | mục 39 | Phụ nữ từ 65 tuổi nên đo mật độ xương một lần; sau mãn kinh mà có yếu tố nguy cơ thì không cần đợi đến 65 | … Cách phát hiện loãng xương ở … |
 | mục 43 | mục 25 | Khi trầm cảm hoặc có ý nghĩ tự tử: gọi tổng đài, và đừng để thuốc ngủ hay thuốc trừ sâu trong nhà | …uốc ngủ, thuốc trừ sâu ra khỏi tầm tay (xem … |
-| mục 43 | mục 32 | Ý nghĩ tự tử vừa xuất hiện thì nói ngay với một người bên cạnh, đưa vài chục phút đó cho họ | … ở gần một nửa số người chỉ khoảng 10 phút (… |
+| mục 43 | mục 32 | Ý nghĩ tự tử vừa xuất hiện thì nói ngay với một người bên cạnh, nhờ họ ở bên bạn trong lúc đó | … ở gần một nửa số người chỉ khoảng 10 phút (… |
 | mục 45 | mục 14 | Xét nghiệm viêm gan B một lần, rồi căn cứ vào kết quả mà tiêm hay không tiêm | …ét nghiệm viêm gan B là bộ chỉ số khác, xem … |
 | mục 47 | mục 23 | Xét nghiệm vi khuẩn Helicobacter pylori, dương tính thì diệt trừ | … pylori và ngược lại — xem … |
 
@@ -111,7 +111,7 @@ Tổng 183 chỗ tham chiếu.
 | đầu chương | mục 38 | Thức khuya thì ngủ bù ngay đêm sau — đừng để dồn tới cuối tuần | …7), thức khuya thì đêm hôm sau ngủ bù ngay (… |
 | đầu chương | mục 39 | Làm ca đêm — chuyển sang ca ngày khi còn chuyển được | …), làm ca đêm thì chuyển việc sớm nếu được (… |
 | đầu chương | mục 29 | Đừng đốt than, củi trong nhà để nấu ăn hay sưởi | … nấu ăn, sưởi không đốt than và củi (… |
-| đầu chương | mục 40 | Đừng mua dầu lạc ép thủ công bán rời — aflatoxin không bị chiên phá | …29), không mua dầu lạc ép thủ công bán rời (… |
+| đầu chương | mục 40 | Đừng mua dầu lạc ép thủ công bán rời — chiên không phá huỷ được aflatoxin | …29), không mua dầu lạc ép thủ công bán rời (… |
 | đầu chương | mục 41 | Dùng dầu thực vật thay mỡ lợn và bơ — nhưng đừng chiên lại dầu nhiều lần | …c 40), dùng dầu thực vật thay mỡ lợn và bơ (… |
 | đầu chương | mục 42 | Bật máy hút mùi từ lúc bắt đầu nấu, tắt sau khi dọn xong | …út mùi từ lúc bắt đầu nấu đến lúc dọn xong (… |
 | đầu chương | mục 10 | Đánh răng hai lần một ngày bằng kem có fluor, và làm sạch kẽ răng — đừng tin quảng cáo | …ẩn thận, mỗi ngày làm sạch kẽ răng một lần (… |
@@ -121,7 +121,7 @@ Tổng 183 chỗ tham chiếu.
 | đầu chương | mục 43 | Bốc hoả, vã mồ hôi tuổi mãn kinh mà ảnh hưởng sinh hoạt thì đi khám — đừng tự chịu | … thì đi khám để đánh giá liệu pháp hormone (… |
 | đầu chương | mục 5 | Gọi tổng đài tư vấn cai thuốc, hoặc đi phòng tư vấn cai thuốc lá | … **… |
 | đầu chương | mục 6 | Thuốc lá điện tử: ở Việt Nam đã bị cấm, đừng coi là cách cai | …phòng tư vấn và số 12320 của Trung Quốc), **… |
-| đầu chương | mục 40 | Đừng mua dầu lạc ép thủ công bán rời — aflatoxin không bị chiên phá | … cấm, nên kết luận sẽ ngược lại bản gốc), **… |
+| đầu chương | mục 40 | Đừng mua dầu lạc ép thủ công bán rời — chiên không phá huỷ được aflatoxin | … cấm, nên kết luận sẽ ngược lại bản gốc), **… |
 | mục 1 | mục 3 | Cai thuốc đừng chỉ dựa vào ý chí: uống thuốc trước đã | …c hỗ trợ và có người tư vấn — hai việc đó ở … |
 | mục 1 | mục 4 | Đặt một ngày cai, đến ngày đó bỏ hẳn — đừng giảm dần trước | …ư vấn — hai việc đó ở mục 3 (dùng thuốc) và … |
 | mục 5 | mục 3 | Cai thuốc đừng chỉ dựa vào ý chí: uống thuốc trước đã | … là đủ, và đừng dùng tư vấn thay cho thuốc (… |
@@ -175,36 +175,36 @@ Tổng 183 chỗ tham chiếu.
 | đầu chương | mục 27 | Ngáy to, có người thấy bạn ngưng thở khi ngủ, ban ngày buồn ngủ tới mức lái xe cũng muốn ngủ — đi đo giấc ngủ | …ớc (mục 26), ngáy và ngừng thở thì đi khám (… |
 | đầu chương | mục 14 | Thấy mình cứ nghĩ vòng vo về một chuyện khó chịu thì đổi sang việc cần tay chân | … nghĩ vòng vo thì đổi sang việc tay chân (… |
 | đầu chương | mục 15 | Coi những ý như "mọi chuyện chắc chắn sẽ tệ hơn" là triệu chứng, không phải sự thật | …mục 14), coi ý nghĩ bi quan là triệu chứng (… |
-| đầu chương | mục 21 | Thấy "mọi người đều thấy mình bị bẽ mặt" thì chia đôi con số đó ra | …y mình ê mặt thì chia đôi con số ước lượng (… |
+| đầu chương | mục 21 | Thấy "mọi người đều thấy mình bị bẽ mặt" thì Thêm: "chia đôi con số người để ý mà bạn đoán | …y mình ê mặt thì chia đôi con số ước lượng (… |
 | đầu chương | mục 22 | Coi "người khác đòi mình phải hoàn hảo" là triệu chứng, không phải sự thật | …"ai cũng đòi mình hoàn hảo" là triệu chứng (… |
 | đầu chương | mục 17 | Đang giận thì rời chỗ trước, coi người kia như thời tiết chứ không như kẻ thù | … đang giận thì rời khỏi chỗ đó trước (… |
-| đầu chương | mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám khi không tự lên được | … (mục 17), buồn thì làm mấy việc này trước (… |
+| đầu chương | mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám Thêm vào tiêu đề: "khi không tự khá lên được | … (mục 17), buồn thì làm mấy việc này trước (… |
 | đầu chương | mục 23 | Đang giận thì đừng đấm bao cát hay chạy một vòng để xả — làm chậm cơ thể trước | …ục 18), đừng xả giận bằng cách đấm bao cát (… |
 | đầu chương | mục 24 | Trong lòng đang nặng một chuyện thì viết ra vài ngày liền — nhưng đừng trông vào nó để chữa bệnh | …o cát (mục 23), viết ra giấy mấy ngày liền (… |
 | đầu chương | mục 16 | Bớt những quan hệ làm mình hao, tập nói "không" với yêu cầu mình không muốn nhận | … biết từ chối việc mình không muốn nhận (… |
 | đầu chương | mục 19 | Coi công an, bác sĩ, giao dịch viên là người đi làm theo quy định, không phải "nhân vật" | …g an, bác sĩ là người đi làm theo quy định (… |
-| đầu chương | mục 20 | Đừng coi "người khác đang sống thế nào" là món đọc hằng ngày | …ới hạn cho app cho xem đời sống người khác (… |
+| đầu chương | mục 20 | Đừng coi "người khác đang sống thế nào" là món đọc hằng ngày | … những app chuyên hiện đời sống người khác (… |
 | đầu chương | mục 25 | Đau bụng kinh thì uống thuốc giảm đau, đừng chịu đựng — đau tới mức nghỉ làm nghỉ học thì đi khám | …kinh thì uống thuốc giảm đau như ibuprofen (… |
 | mục 2 | chương 2 mục 38 | Thức khuya thì ngủ bù ngay đêm sau — đừng để dồn tới cuối tuần | … thử nghiệm ngẫu nhiên ở … |
 | mục 2 | chương 2 mục 37 | Ngủ trưa dưới 30 phút — ngủ trưa dài có hại | … trưa cũng phải ngắn — quá 60 phút thì hại (… |
 | mục 2 | chương 2 mục 39 | Làm ca đêm — chuyển sang ca ngày khi còn chuyển được | … nguyên giờ thức 2 đến 3 ngày rồi dịch dần (… |
 | mục 3 | chương 2 mục 37 | Ngủ trưa dưới 30 phút — ngủ trưa dài có hại | …giấc đêm — trưa dài quá 60 phút còn có hại (… |
-| mục 3 | chương 2 mục 38 | Thức khuya thì ngủ bù ngay đêm sau — đừng để dồn tới cuối tuần | … ngủ bù cuối tuần cũng không trả nợ (… |
-| mục 3 | mục 4 | Sau 2 giờ chiều thì đừng đụng caffeine | … sau đầu giờ chiều thì còn phá luôn đêm đó (… |
+| mục 3 | chương 2 mục 38 | Thức khuya thì ngủ bù ngay đêm sau — đừng để dồn tới cuối tuần | …gủ bù cuối tuần cũng không trả được nợ ngủ (… |
+| mục 3 | mục 4 | Sau 2 giờ chiều thì đừng đụng caffeine | …rong ngày thì còn phá luôn giấc ngủ đêm đó (… |
 | mục 3 | mục 27 | Ngáy to, có người thấy bạn ngưng thở khi ngủ, ban ngày buồn ngủ tới mức lái xe cũng muốn ngủ — đi đo giấc ngủ | …u ban ngày buồn ngủ nhiều thì phải đi khám (… |
 | mục 6 | mục 1 | Tắt thông báo không cần thiết, để điện thoại ra ngoài tầm mắt | …gười khác là chưa đủ, phải chặn chính mình (… |
 | mục 11 | chương 2 mục 37 | Ngủ trưa dưới 30 phút — ngủ trưa dài có hại | … tăng nguy cơ tim mạch và tử vong — đã có ở … |
 | mục 11 | mục 2 | Giữ giờ thức cố định, cuối tuần cũng vậy | … sau 15 giờ vì sẽ đẩy lùi giờ ngủ buổi tối (… |
-| mục 14 | mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám khi không tự lên được | …hứng thú, thì cần gặp người làm chuyên môn (… |
+| mục 14 | mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám Thêm vào tiêu đề: "khi không tự khá lên được | …hứng thú, thì cần gặp người làm chuyên môn (… |
 | mục 15 | mục 10 | Đêm khuya không quyết định việc lớn, không gửi tin nhắn quan trọng | … ghi lại rồi để sáng mai xử lý (… |
-| mục 15 | mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám khi không tự lên được | …ng nhiều tuần thì cần người làm chuyên môn (… |
+| mục 15 | mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám Thêm vào tiêu đề: "khi không tự khá lên được | …ng nhiều tuần thì cần người làm chuyên môn (… |
 | mục 17 | mục 14 | Thấy mình cứ nghĩ vòng vo về một chuyện khó chịu thì đổi sang việc cần tay chân | …rửa mặt, sang phòng khác làm việc tay chân (… |
 | mục 18 | mục 2 | Giữ giờ thức cố định, cuối tuần cũng vậy | …i đó** là hai việc đã có bằng chứng riêng ở … |
 | mục 18 | mục 8 | Một giờ trước khi ngủ không nhìn màn hình phát sáng | … phải buổi tối (buổi tối thì ngược lại, xem … |
-| mục 20 | mục 1 | Tắt thông báo không cần thiết, để điện thoại ra ngoài tầm mắt | … Chế độ kỹ thuật số), tắt thông báo (… |
-| mục 22 | mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám khi không tự lên được | … đi khám (… |
+| mục 20 | mục 1 | Tắt thông báo không cần thiết, để điện thoại ra ngoài tầm mắt | … Sức khoẻ kỹ thuật số), tắt thông báo (… |
+| mục 22 | mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám Thêm vào tiêu đề: "khi không tự khá lên được | … đi khám (… |
 | mục 23 | mục 17 | Đang giận thì rời chỗ trước, coi người kia như thời tiết chứ không như kẻ thù | … rời chỗ (… |
-| mục 24 | mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám khi không tự lên được | … hại bản thân, thì **dừng lại và đi khám** (… |
+| mục 24 | mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám Thêm vào tiêu đề: "khi không tự khá lên được | … hại bản thân, thì **dừng lại và đi khám** (… |
 | mục 26 | mục 2 | Giữ giờ thức cố định, cuối tuần cũng vậy | …) **giữ giờ thức cố định** kể cả cuối tuần (… |
 
 ## 04-dung-lang-phi-thoi-gian
@@ -222,6 +222,27 @@ Tổng 183 chỗ tham chiếu.
 | mục 8 | mục 11 | Muốn chắc mình làm thì đặt tiền cược vào — nhưng đặt đúng chỗ | … nhỏ** (mục 7) và **cam kết có ràng buộc** (… |
 | mục 9 | mục 13 | Trì hoãn đã ảnh hưởng tới cuộc sống thì dùng tài liệu tự trợ giúp có thử nghiệm ngẫu nhiên chứng minh — không nhất thiết phải tìm chuyên gia | …n hệ nhiều năm thì đó là việc phải đi khám (… |
 | mục 10 | mục 7 | Chia việc lớn thành việc con rồi mới ước thời gian và bắt tay làm | …nó là thứ **cộng thêm** vào việc chia bước (… |
-| mục 13 | chương 3 mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám khi không tự lên được | …t hoặc lo âu kéo dài**, xử lý cái đó trước (… |
+| mục 13 | chương 3 mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám Thêm vào tiêu đề: "khi không tự khá lên được | …t hoặc lo âu kéo dài**, xử lý cái đó trước (… |
 | mục 13 | mục 10 | Đồ cần dùng để trong tầm tay, đồ không muốn đụng thì cất xa — đừng trông vào việc nhịn lúc đó | …án đúng hay sai), **kiểm soát kích thích** (… |
 | mục 15 | mục 12 | Thói quen mới thì tính theo tháng, đừng tính theo "21 ngày" | …i hứa với chính mình — đúng loại lời hứa mà … |
+
+## 05-dung-lang-phi-tien
+
+| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
+| --- | --- | --- | --- |
+| đầu chương | mục 1 | Tắt hết gia hạn tự động, tới hạn thì tự bấm | … chi tiêu hằng ngày (… |
+| đầu chương | mục 5 | Không mua vé số: mỗi 10.000 đồng luật chỉ cho trả thưởng tối đa 5.000 đồng | …21, 23, 24) · mua bốc đồng và tiền của con (… |
+| đầu chương | mục 7 | Trả đủ dư nợ thẻ mỗi tháng; nếu buộc phải vay, đổi mọi con số về %/năm rồi mới so | …5, 8, 9, 10, 33, 34, 35) · vay và lãi suất (… |
+| đầu chương | mục 15 | Giao dịch càng nhiều thì tiền ở lại càng ít — thị trường dựng đứng càng phải ngồi yên | …35) · vay và lãi suất (mục 7, 28) · đầu tư (… |
+| đầu chương | mục 25 | Mua bảo hiểm thuần bảo vệ; tiền "hoàn lại" và "chia lãi" là phần không được đảm bảo | …16, 17, 18, 19, 37, 38, 45, 51) · bảo hiểm (… |
+| đầu chương | mục 2 | Mỗi năm làm một lần quyết toán thuế thu nhập cá nhân, và điền hết người phụ thuộc | …43, 44) · thuế, lương hưu, bảo hiểm xã hội (… |
+| đầu chương | mục 22 | Trả tiền trước thì lấy hợp đồng và hoá đơn — phần chưa dùng vẫn là tiền của bạn | …c 2, 3, 13, 20, 46) · mua sắm và khiếu nại (… |
+| đầu chương | mục 47 | Nhận xe mới: kiểm ngay tại chỗ, và biết rằng Việt Nam không có "7 ngày đổi xe" | … nại (mục 22, 29, 30, 31, 32, 36, 50) · xe (… |
+| đầu chương | mục 6 | Ai hứa lãi cao gấp mấy lần tiết kiệm thì đó không phải cơ hội, mà là chỗ mất tiền | …0) · xe (mục 47, 48, 49) · tiết kiệm và nợ (… |
+| mục 4 | mục 1 | Tắt hết gia hạn tự động, tới hạn thì tự bấm | …p tiền thì gói vẫn sống tới hết chu kỳ (xem … |
+| mục 8 | mục 9 | Con bạn nạp tiền vào game: dưới 15 tuổi còn đòi lại được, từ 15 tuổi thì gần như mất | … của con, và cách đó hẹp dần theo tuổi (xem … |
+| mục 16 | mục 7 | Trả đủ dư nợ thẻ mỗi tháng; nếu buộc phải vay, đổi mọi con số về %/năm rồi mới so | … lãi thẻ tín dụng 30,5%–44,5%/năm (… |
+| mục 27 | mục 7 | Trả đủ dư nợ thẻ mỗi tháng; nếu buộc phải vay, đổi mọi con số về %/năm rồi mới so | … lãi thẻ tín dụng 30,5%–44,5%/năm (… |
+| mục 28 | mục 27 | Để riêng ba đến sáu tháng chi tiêu, ở chỗ rút được trong ngày | … luôn giữ quỹ dự phòng (… |
+| mục 33 | mục 34 | Đá quý chỉ tin phiếu của phòng đã được công nhận, và tra mã đó trên trang của Văn phòng Công nhận Chất lượng | … xem … |
+| mục 42 | mục 41 | Hợp đồng bảo hiểm trên một năm có 21 ngày cân nhắc: huỷ trong hạn thì lấy lại được phần lớn phí | …à chỉ trong 21 ngày đầu mới gần như đủ (xem … |
