@@ -12,7 +12,6 @@ on:
     branches: [vi]
     paths:
       - README.md
-      - README.vi.md
       - index.html
       - selfcheck.html
       - og.png
@@ -24,7 +23,6 @@ on:
   pull_request:
     paths:
       - README.md
-      - README.vi.md
       - index.html
       - selfcheck.html
       - og.png

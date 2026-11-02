@@ -2,14 +2,14 @@
 // Chỉ đọc cấu trúc trong README, không giữ danh sách file bằng tay — thêm một chương hay một bài dài,
 // cả hai bộ dựng tự theo kịp.
 //
-// Bản Việt đọc `README.vi.md` (giữ `README.md` của bản gốc tiếng Trung làm tham chiếu).
+// Bản Việt đọc `README.md` (giữ `README.cn.md` của bản gốc tiếng Trung làm tham chiếu).
 import { readFileSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { execSync } from 'node:child_process';
 
 export const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
-export const README_FILE = 'README.vi.md';
+export const README_FILE = 'README.md';
 export const REPO = 'https://github.com/quangpao/HowToLiveBetter';
 export const SITE = 'https://quangpao.github.io/HowToLiveBetter/';
 export const TITLE = 'Cẩm nang sống thông minh';

@@ -25,7 +25,7 @@ const contentsMd = book.contentsMd.replace(/^## 目录/, '# 各节简介');
 // ---------- 页面清单 ----------
 // 每页：xhtml 文件名、来源 md 的仓库路径（用来解析相对链接）、md 正文
 const pages = [
-  { file: 'front.xhtml', src: 'README.vi.md', title: 'Lời mở', md: `# ${TITLE}\n\n${description}\n\n${frontMd}` },
+  { file: 'front.xhtml', src: 'README.md', title: 'Lời mở', md: `# ${TITLE}\n\n${description}\n\n${frontMd}` },
   { file: 'contents.xhtml', src: 'README.md', title: '各节简介', md: contentsMd },
   ...bookFiles.map((src, i) => ({ file: `ch${String(i + 1).padStart(2, '0')}.xhtml`, src, md: splitLongItems(stripBackLink(read(src))) })),
   ...docFiles.map((src, i) => ({ file: `doc${i + 1}.xhtml`, src, md: splitLongItems(stripBackLink(read(src))) })),

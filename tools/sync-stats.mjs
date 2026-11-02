@@ -87,11 +87,21 @@ console.log(`Mục ${entries} · chương ${sections} · A ${grade.A} B ${grade.
 console.log(`Đáng làm: rất cao ${ratio['rất cao']} (${pct['rất cao']}%) · cao ${ratio['cao']} (${pct['cao']}%) · trung bình ${ratio['trung bình']} (${pct['trung bình']}%)`);
 console.log('');
 
+// Số mục của từng chương để dòng mục lục trong README khớp theo: dòng có dạng
+// "1. [Tên](book/01-….md) — 48 mục: …". Trước đây chỉ một dòng và ghi tổng số mục của cả sách,
+// sang chương thứ hai là sai ngay.
+const perChapter = bookFiles.map(f => [f, read(join('book', f)).split(/\r?\n/).filter(l => l.startsWith('### ')).length]);
 const EDITS = [
-  ['README.vi.md', 'số mục chương 1', /— (\d+) mục:/g, `— ${entries} mục:`],
   ['index.html', 'numberOfPages', /numberOfPages":(\d+)/g, `numberOfPages":${entries}`],
-  ['index.html', 'số mục ở mô tả', /(\d+) 条建议/g, `${entries} 条建议`],
+  ['tools/og.html', 'số mục trên ảnh chia sẻ', /(?<=data-stat="mục">)\d+(?=<)/g, String(entries)],
+  ['tools/og.html', 'số mục bằng chứng A', /(?<=data-stat="A">)\d+(?=<)/g, String(grade.A)],
+  ['tools/og.html', 'số liên kết nguồn', /(?<=data-stat="nguồn">)\d+(?=<)/g, String(links)],
 ];
+for (const [f, n] of perChapter) {
+  // Lookbehind để giữ nguyên phần "N. [Tên](book/…md) — " và chỉ thay con số
+  const esc = f.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  EDITS.push(['README.md', `số mục ${f}`, new RegExp(`(?<=\\]\\(book/${esc}\\)[^\\n]*?— )\\d+(?= mục:)`, 'g'), String(n)]);
+}
 
 const texts = new Map();
 const stale = [];
@@ -99,7 +109,7 @@ for (const [file, label, pattern, repl] of EDITS) {
   const text = texts.get(file) ?? read(file);
   const found = [...text.matchAll(pattern)];
   if (found.length === 0) { console.log(`  ${file} ${label}: không thấy mẫu, bỏ qua`); continue; }
-  const old = found[0][1];
+  const old = found[0][1] ?? found[0][0];
   // 用函数做替换值，免得替换串里的 $ 被当成分组引用
   const updated = text.replace(pattern, () => repl);
   texts.set(file, updated);
@@ -109,6 +119,16 @@ for (const [file, label, pattern, repl] of EDITS) {
   }
   stale.push(`${file} ${label}`);
   console.log(`  ${file} ${label}：${old} -> ${CHECK ? '过时' : `已更新（${found.length} 处）`}`);
+}
+
+// Chương nào có trong book/ mà không có dòng trong mục lục README thì trang tra cứu, EPUB, PDF và
+// bản offline đều lặng lẽ thiếu chương đó — không có cổng nào khác bắt được lỗi này.
+const readmeNow = texts.get('README.md') ?? read('README.md');
+const missingChapters = bookFiles.filter(f => !readmeNow.includes(`](book/${f})`));
+if (missingChapters.length) {
+  console.error(`Mục lục README thiếu chương: ${missingChapters.join(', ')}. Thêm dòng "N. [Tên](book/…md) — N mục: …" vào mục ## Mục lục.`);
+  badWho.push('mục lục README thiếu chương');
+  process.exitCode = 1;
 }
 
 if (CHECK) {
@@ -153,12 +173,6 @@ const CHROME_PATHS = [
   '/usr/bin/chromium-browser',
 ];
 const chrome = CHROME_PATHS.find(p => p && existsSync(p));
-// tools/og.html vẫn là thẻ chia sẻ của bản Trung; chụp lúc này sẽ ra ảnh chữ Trung kèm số của bản Việt.
-// Khi nào og.html được Việt hoá thì bỏ điều kiện này.
-if (read('tools/og.html').includes('条建议')) {
-  console.log('\nog.html còn là bản Trung — bỏ qua bước chụp og.png.');
-  process.exit(0);
-}
 if (!chrome) throw new Error('找不到 Chrome，设环境变量 CHROME 指到它，或者加 --no-screenshot 跳过截图');
 
 // 每次用全新的 user-data-dir：否则 Chrome 会拿缓存里的旧 og.html 渲染，截出来还是旧数字。
