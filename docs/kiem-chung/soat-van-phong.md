@@ -121,6 +121,23 @@ Lý do: Codex đọc chương này như đọc bản quảng cáo nên **đề n
 
 **Khác 5 chương trước**: chương 6 cho tỉ lệ áp **38/38 = 100%**, cao nhất trong cả sách. Lý do: đây là chương do 3 agent viết theo cùng một gói ngữ cảnh, câu văn đồng đều nhưng máy móc hơn người viết tay — CLI bắt được nhiều chỗ "đọc được thành nghĩa khác" mà không phải chỉnh giọng. Ngược lại chương 5 (viết tay) chỉ áp 8/120.
 
+## Chương 7 — Codex + Claude Code (lần đầu chạy song song)
+
+Chương đầu tiên chạy **hai CLI cùng lúc trên cùng một chương** để có đối chứng chéo, thay vì chia chương cho từng CLI như chương 1–6.
+
+**Codex (0.162.1)**: 84 dòng / 23 mục → **42 cặp thật** (mỗi dòng lặp hai lần). Cả 42 câu trích khớp **nguyên văn**, **0** đề xuất chèn số mới → áp hết 42 câu trên 21 mục, không phải lọc tay lần nào. **Không câu nào làm "Nói dễ hiểu" vượt trần 235 ký tự** — lần đầu tiên trong cả sách không phải khôi phục dòng gốc.
+- Bốn loại lỗi thật gặp ở cả 42 câu: **(1) thiếu đối tượng hoặc chủ ngữ** — nhiều nhất, kiểu "cái phải bỏ ra là…", "người vào", "thu nhập chọn", "khám nội trú"; **(2) câu đọc ngược nghĩa hoặc tự phủ định** — "đòi được thì mới đi" (ngược với lời khuyên đi đòi ngay), "không phải tiền" ngay sau khi nói mất tiền công, "không có nghĩa là phải khai man"; **(3) ẩn dụ dịch máy** — "ba cửa thật", "cửa cuối", "dùng làm việc chữa cháy" (đọc thành chữa cháy thật); **(4) lặp từ sát nhau** ("xác định… xác định", "vào… vào").
+- Không sinh lỗi ráp: 0 cụm 4 từ lặp, 0 `.,`, 0 chữ của người soát lọt vào sách.
+
+**Claude Code (2.1.316)**: 118 dòng → **88 câu áp được** trên cả 23 mục, cộng **30 câu** mà Codex đã sửa trước đó nên không còn khớp (0 câu bị loại vì chèn số mới, 0 câu trích sai).
+
+So với Codex, Claude bắt được **hai lớp lỗi Codex không thấy**:
+
+1. **Nhãn biên tập lọt vào chính văn** — "Chặn cách đọc ngược", "Câu chặn đọc sai": đây là câu hướng dẫn viết, không phải câu cho người đọc. Kiểm cả sách: **chương 5 có 51 chỗ, chương 6 có 30, chương 7 có 10** → đã đổi hết thành **"Đừng hiểu ngược"** (91 chỗ), và ghi thành luật trong skill.
+2. **Câu mâu thuẫn nội bộ trong cùng một mục** — tiêu đề nói một đằng, phần Chi phí/Lợi ích nói khác: mục 2 (án phí: kiện đòi lương được miễn), mục 4 và 21 (mục 4 nói "đến thẳng cơ sở" trong khi mục 21 nói "gọi công an xã trước, đừng tự đến đứng ngoài cổng"), mục 9 ("vài chục nghìn một tháng" lệch với con số ở Chi phí), mục 15 ("trần 20%/năm, tức 100%/năm" đọc như 20% bằng 100%), mục 18 (mức phải đóng bị đọc thành mức được giảm 70%).
+
+Kết luận về việc chạy 2 CLI song song: **giữ**. Codex mạnh ở câu cụt/thiếu đối tượng (42 câu, áp 100%, không câu nào làm vượt trần 235); Claude mạnh ở mâu thuẫn nghĩa và nhãn biên tập. Chạy một CLI thì mỗi chương mất đúng một nửa số lỗi này.
+
 ## Tổng kết 6 chương
 
 | Chương | Người soát | Góp ý | Áp | Ghi chú |

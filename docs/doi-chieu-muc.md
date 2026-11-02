@@ -21,7 +21,7 @@ Cách tính từ neo: hai từ liền nhau trùng tiêu đề đích, hoặc m�
 như 12356, AED, BMI, LPR) xuất hiện trong tiêu đề. Chỉ trùng một từ chung chung ("người", "tiền")
 thì không tính.
 
-Tổng 215 chỗ tham chiếu.
+Tổng 224 chỗ tham chiếu.
 
 ## 01-dung-chet-som
 
@@ -267,3 +267,17 @@ Tổng 215 chỗ tham chiếu.
 | mục 22 | chương 5 mục 33 | Đồng hồ, đá quý, đồ chơi sưu tầm: tính bằng tiền đã ra khỏi túi, không bằng "giá trị sau này" | … vì sao đừng tính món này là đầu tư đã có ở … |
 | mục 23 | mục 24 | Đừng tiêu thêm để nhích lên một bậc so với người quanh mình | … Chuyện đua theo hàng xóm thì ở … |
 | mục 34 | chương 3 mục 26 | Mất ngủ kéo dài thì làm trị liệu hành vi cho giấc ngủ trước, đừng uống thuốc ngủ dài hạn | …h vi cho giấc ngủ (CBT-I), đã trình bày ở **… |
+
+## 07-khong-co-tien-thi-song-the-nao
+
+| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
+| --- | --- | --- | --- |
+| đầu chương | mục 14 | Tìm việc có phương pháp: học kỹ năng, đặt mục tiêu, nhờ người quen góp ý | … Chương có **1 mục A** (… |
+| đầu chương | mục 3 | Không đủ tiền thuê luật sư thì xin trợ giúp pháp lý nhà nước — miễn phí, nhưng chỉ cho nhóm luật định | …hưng không ai đo được số tiền tiết kiệm** — … |
+| đầu chương | mục 1 | Mất việc thì nộp hồ sơ trợ cấp thất nghiệp ngay: hạn là 3 tháng | … mất việc, thu nhập và tìm việc (… |
+| đầu chương | mục 4 | Đường cùng thì vào cơ sở trợ giúp xã hội, đừng tìm nhà tạm trú tự phát | … 14, 18) · trợ giúp xã hội, giấy tờ, chỗ ở (… |
+| đầu chương | mục 2 | Bị quỵt lương thì tìm thanh tra lao động, hoà giải viên, trọng tài — ra toà đòi lương cũng được miễn án phí | …, 16, 17, 21) · pháp lý lao động, y tế, nợ (… |
+| mục 6 | mục 7 | Thu nhập dưới chuẩn nghèo thì đăng ký hộ nghèo, trên một chút thì xin các chính sách hỗ trợ khác | … Thu nhập thấp kéo dài thì xem … |
+| mục 16 | mục 4 | Đường cùng thì vào cơ sở trợ giúp xã hội, đừng tìm nhà tạm trú tự phát | …hoát cho đêm nay — đang mất chỗ ngủ thì xem … |
+| mục 16 | mục 21 | Không còn chỗ ngủ đêm nay: chỗ mở 24 giờ chỉ để một đêm, còn cửa thật là cơ sở trợ giúp xã hội | …đêm nay — đang mất chỗ ngủ thì xem mục 4 và … |
+| mục 21 | mục 4 | Đường cùng thì vào cơ sở trợ giúp xã hội, đừng tìm nhà tạm trú tự phát | … cả tuần — hôm sau vẫn phải đi đúng tuyến ở … |
