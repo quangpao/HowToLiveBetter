@@ -46,6 +46,7 @@
   --red-1:#b8272c; --red-soft:rgba(244,63,94,.14);
   --gray-1:#565a5f; --gray-soft:rgba(142,150,170,.14);
   --mark:rgba(234,179,8,.32);
+  --vn-soft:rgba(100,108,255,.10); --vn-line:rgba(100,108,255,.38); --vn-hover:rgba(100,108,255,.18);
   --shadow:0 1px 2px rgba(0,0,0,.04),0 1px 2px rgba(0,0,0,.06);
   --font:"Inter",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
   --mono:ui-monospace,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
@@ -62,6 +63,7 @@ html.dark{
   --red-1:#f66f81; --red-soft:rgba(244,63,94,.16);
   --gray-1:#a4a8ae; --gray-soft:rgba(142,150,170,.16);
   --mark:rgba(234,179,8,.28);
+  --vn-soft:rgba(168,177,255,.16); --vn-line:rgba(168,177,255,.45); --vn-hover:rgba(168,177,255,.26);
   --shadow:0 1px 2px rgba(0,0,0,.3);
   color-scheme:dark;
 }
@@ -76,6 +78,10 @@ a:hover{color:var(--brand-2);text-decoration:underline;text-underline-offset:2px
 button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
 :focus-visible{outline:2px solid var(--brand-1);outline-offset:2px;border-radius:4px}
 mark{background:var(--mark);color:inherit;border-radius:2px;padding:0 1px}
+/* Chỗ nội dung riêng của Việt Nam (luật, mức phạt, giá, số liệu VN): tô nền nhạt để nhìn ra ngay khi lướt.
+   Không dùng <mark> vì màu đó dành cho từ khoá đang tìm. */
+.vn{background:var(--vn-soft);border-bottom:1px solid var(--vn-line);border-radius:2px;padding:0 2px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.vn:hover{background:var(--vn-hover)}
 /* 正文里的「第 X 条」交叉引用：点一下就地看那条说什么，不用自己翻过去 */
 .xref{color:var(--brand-1);cursor:pointer;border-bottom:1px dashed currentColor}
 .xref:hover{color:var(--brand-2);border-bottom-style:solid}
@@ -803,6 +809,40 @@ function highlightInto(el, s, terms){
   }
 }
 
+/* Chỗ nào trong sách là nội dung riêng của Việt Nam (luật, mức phạt, giá, số liệu VN) thì tô nền,
+   để người đọc lướt trang là thấy ngay đoạn cần đọc kỹ. Chạy sau khi đã render xong từng thẻ để
+   không đụng vào logic tìm từ khoá (<mark>) và liên kết chéo (.xref). */
+const VN_TEXT = 'Việt Nam';
+function markVN(root){
+  if (!root) return;
+  try { markVN0(root); } catch (e) { /* tô sáng chỉ là trang trí: lỗi ở đây không được làm hỏng việc dựng thẻ */ }
+}
+function markVN0(root){
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+  const hits = []; let n;
+  while ((n = walker.nextNode())){
+    if (!n.nodeValue.includes(VN_TEXT)) continue;
+    const host = n.parentElement;
+    if (!host || host.closest('a, script, style, .vn')) continue;
+    hits.push(n);
+  }
+  for (const t of hits){
+    const s = t.nodeValue, frag = document.createDocumentFragment();
+    let i = 0, at;
+    while ((at = s.indexOf(VN_TEXT, i)) !== -1){
+      if (at > i) frag.appendChild(document.createTextNode(s.slice(i, at)));
+      const sp = document.createElement('span');
+      sp.className = 'vn';
+      sp.textContent = VN_TEXT;
+      sp.title = 'Nội dung riêng của Việt Nam: luật, mức phạt, giá hoặc số liệu đã tra theo văn bản Việt Nam';
+      frag.appendChild(sp);
+      i = at + VN_TEXT.length;
+    }
+    if (i < s.length) frag.appendChild(document.createTextNode(s.slice(i)));
+    t.replaceWith(frag);
+  }
+}
+
 /* ---------- 正文里的「第 X 条」变成可点的引用 ---------- */
 // 正文里到处是「见第 8 节第 16 条」「本节第 3 条」这种指路，自己翻过去很麻烦。
 // 检索页本来就把全部条目读进内存了，顺手把这些引用变成可点的，点一下就地看那条写了什么。
@@ -1084,7 +1124,7 @@ function build(sections){
     CUR_SEC = s.n;
     for (const para of s.intro){
       const p = document.createElement('p'); p.className = 'intro';
-      renderText(p, para, [], false); block.appendChild(p);
+      renderText(p, para, [], false); block.appendChild(p); markVN(p);
     }
     for (const e of s.entries){
       const id = `e-${e.sec}-${e.n}`;
@@ -1213,6 +1253,7 @@ function renderCard(card, terms, key){
   const inBody = (e.title+e.human+e.cost+e.gain+e.note).toLowerCase();
   f.details.open = terms.length > 0 && terms.some(t => e.src.toLowerCase().includes(t)) && !terms.some(t => inBody.includes(t));
   card.key = key;
+  markVN(card.el);
 }
 function apply(){
   const t0 = performance.now();
@@ -1520,7 +1561,7 @@ async function dmOpen(path, from){
   }
   const r = dmRender(md);
   if (r.title) DM.title.textContent = r.title;
-  DM.doc.innerHTML = r.html;
+  DM.doc.innerHTML = r.html; markVN(DM.doc);
   dmXrefs(DM.doc);
   DM.heads = r.heads;
   for (const h of r.heads){
