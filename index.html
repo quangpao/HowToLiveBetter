@@ -28,7 +28,7 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
 {"@type":"WebSite","@id":"https://quangpao.github.io/HowToLiveBetter/#website","url":"https://quangpao.github.io/HowToLiveBetter/","name":"Cẩm nang sống thông minh","description":"Cẩm nang sống tính theo hiệu quả trên chi phí: mỗi mục ghi rõ mất gì (tiền, thời gian, ý chí) và được gì, kèm mức bằng chứng A/B/C và nguồn gốc. Lọc được theo tiền, thời gian, ý chí.","inLanguage":"vi-VN","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://quangpao.github.io/HowToLiveBetter/?q={search_term_string}"},"query-input":"required name=search_term_string"}},
-{"@type":"Book","@id":"https://quangpao.github.io/HowToLiveBetter/#book","name":"Cẩm nang sống thông minh","url":"https://quangpao.github.io/HowToLiveBetter/","inLanguage":"vi-VN","bookFormat":"https://schema.org/EBook","numberOfPages":140,"license":"https://creativecommons.org/licenses/by/4.0/","abstract":"Cẩm nang sống tính theo hiệu quả trên chi phí: mỗi mục ghi rõ mất gì (tiền, thời gian, ý chí) và được gì, kèm mức bằng chứng A/B/C và nguồn gốc. Lọc được theo tiền, thời gian, ý chí.","about":["sức khoẻ","sống lâu","tài chính cá nhân","cấp cứu","kiến thức pháp luật","bảo vệ người tiêu dùng"],"isAccessibleForFree":true}
+{"@type":"Book","@id":"https://quangpao.github.io/HowToLiveBetter/#book","name":"Cẩm nang sống thông minh","url":"https://quangpao.github.io/HowToLiveBetter/","inLanguage":"vi-VN","bookFormat":"https://schema.org/EBook","numberOfPages":191,"license":"https://creativecommons.org/licenses/by/4.0/","abstract":"Cẩm nang sống tính theo hiệu quả trên chi phí: mỗi mục ghi rõ mất gì (tiền, thời gian, ý chí) và được gì, kèm mức bằng chứng A/B/C và nguồn gốc. Lọc được theo tiền, thời gian, ý chí.","about":["sức khoẻ","sống lâu","tài chính cá nhân","cấp cứu","kiến thức pháp luật","bảo vệ người tiêu dùng"],"isAccessibleForFree":true}
 ]}
 </script>
 <script>(function(){try{var s=localStorage.getItem('theme');var d=s?s==='dark':matchMedia('(prefers-color-scheme: dark)').matches;if(d)document.documentElement.classList.add('dark')}catch(e){}})();</script>
@@ -1050,7 +1050,7 @@ POP.querySelector('.xp-go').addEventListener('click', () => {
 addEventListener('resize', () => { POP.hidden = true; });
 
 const COST_W = { money:{'0':0,'ít':1,'nhiều':2}, time:{'ít':0,'vừa':1,'nhiều':2}, will:{'không':0,'ít':1,'có':2} };
-const LENS_LABEL = {'tử-vong':'đổi lấy mạng sống','mắc-bệnh':'đổi lấy sức khoẻ','tàn-tật':'tránh tàn tật','triệu-chứng':'giảm triệu chứng','thời-gian':'đổi lấy thời gian dùng được','khác':'kết cục khác'};
+const LENS_LABEL = {'tử-vong':'đổi lấy mạng sống','mắc-bệnh':'đổi lấy sức khoẻ','tàn-tật':'tránh tàn tật','triệu-chứng':'giảm triệu chứng','thời-gian':'đổi lấy thời gian dùng được','tiền':'đổi lấy tiền','khác':'kết cục khác'};
 /* ---------- Dựng DOM ---------- */
 // Nhãn chi phí "nhóm=": dấu phẩy là hoặc, dấu cộng là và; điều không ghi thì ai cũng áp dụng. Đổi bảng giá trị phải đồng bộ WHO trong sync-stats.mjs
 const WHO_LABEL = {'mang-thai':'đang mang thai','trẻ-sơ-sinh':'nhà có bé dưới 3 tuổi','trẻ-em':'nhà có trẻ 3–18 tuổi','trẻ-nhỏ':'nhà có trẻ nhỏ','65-tuổi':'từ 65 tuổi','60-tuổi':'từ 60 tuổi','50-tuổi':'từ 50 tuổi','45-tuổi':'từ 45 tuổi','40-tuổi':'từ 40 tuổi','35-tuổi':'từ 35 tuổi','nữ-40-tuổi':'nữ từ 40 tuổi','nữ':'nữ','nam':'nam','cao-tuổi':'người cao tuổi','người-già':'người già','hút-thuốc':'người hút thuốc','tim-mạch':'có bệnh tim mạch','nam-quan-hệ-đồng-giới':'nam quan hệ đồng giới'};

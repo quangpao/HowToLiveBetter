@@ -12,9 +12,9 @@ Không cần làm hết: đây là danh sách để chọn, không phải danh s
 Đây là **bản biên soạn lại cho Việt Nam**, không phải bản dịch. Luật, chính sách, thủ tục, giá cả và mức phạt đều tra từ văn bản chính thức của Việt Nam; nội dung y khoa dùng nghiên cứu quốc tế. Vì luật khác nhau, có mục kết luận ngược hẳn bản gốc. Bản gốc tiếng Trung vẫn giữ trong repo để đối chiếu: [README.cn.md](README.cn.md).
 
 [![Tra cứu trực tuyến](https://img.shields.io/badge/tra%20cứu-mở%20trang%20này-3451b2?style=flat-square)](https://quangpao.github.io/HowToLiveBetter/)
-[![Số mục](https://img.shields.io/badge/mục-140-18794e?style=flat-square)](#mục-lục)
-[![Mức bằng chứng](https://img.shields.io/badge/bằng%20chứng-A%2068%20·%20B%2061%20·%20C%2011-915930?style=flat-square)](#mức-bằng-chứng)
-[![Nguồn](https://img.shields.io/badge/nguồn-433%20liên%20kết-565a5f?style=flat-square)](docs/kiem-chung/)
+[![Số mục](https://img.shields.io/badge/mục-191-18794e?style=flat-square)](#mục-lục)
+[![Mức bằng chứng](https://img.shields.io/badge/bằng%20chứng-A%2068%20·%20B%2084%20·%20C%2039-915930?style=flat-square)](#mức-bằng-chứng)
+[![Nguồn](https://img.shields.io/badge/nguồn-524%20liên%20kết-565a5f?style=flat-square)](docs/kiem-chung/)
 [![Giấy phép](https://img.shields.io/badge/giấy%20phép-CC%20BY%204.0-565a5f?style=flat-square)](#ghi-công-và-giấy-phép)
 [![Số star](https://img.shields.io/github/stars/quangpao/HowToLiveBetter?style=flat-square&label=star&color=eac54f)](https://github.com/quangpao/HowToLiveBetter)
 
@@ -63,7 +63,7 @@ Chưa có. Bài dài sẽ nằm trong `docs/` khi từng chương xong.
 | Ngày nào cũng hết sức, lúc nào cũng bị ngắt ngang, sửa thế nào? | [3. Đừng lãng phí sức lực](book/03-dung-lang-phi-suc-luc.md) |
 | Việc gì cũng dồn tới hạn mới làm, họp thì dài mà chẳng xong việc, sửa thế nào? | [4. Đừng lãng phí thời gian](book/04-dung-lang-phi-thoi-gian.md) |
 | Thời gian đi đâu hết, bỏ bớt việc gì, trì hoãn chữa thế nào? | [4. Đừng lãng phí thời gian](book/04-dung-lang-phi-thoi-gian.md) |
-| Tiền tiết kiệm để đâu cho khỏi bị lãi suất, phí và trò lừa ăn mất; mua xe sao cho khỏi bị hớ? | 5. Đừng tiêu tiền oan — đang biên soạn |
+| Tiền tiết kiệm để đâu cho khỏi bị lãi suất, phí và trò lừa ăn mất; mua xe sao cho khỏi bị hớ? | [5. Đừng lãng phí tiền](book/05-dung-lang-phi-tien.md) |
 | Thực phẩm bổ sung, gói khám sức khoẻ, đồ "đáng tiền" nào bỏ qua được? | 6. Danh sách ngược — đang biên soạn |
 | Mất việc, bị quỵt lương, trong túi không còn tiền thì nhận được gì, cầu cứu ở đâu? | 7. Không có tiền thì sống thế nào — đang biên soạn |
 | Tiền cọc, nhà trước hôn nhân, chuyển khoản lớn khi đang yêu là của ai; bị tố giác hay bị vu khống thì làm gì trước? | 8. Đừng tự chuốc hoạ: pháp luật và tài sản — đang biên soạn |
@@ -200,8 +200,9 @@ Phần thân bài viết bằng lời thường, nhưng khi dẫn nghiên cứu 
 2. [Đừng chết dần](book/02-dung-chet-dan.md) — 47 mục: thuốc lá, rượu bia và trầu cau, chế độ ăn, vận động, giấc ngủ — những thứ giết từ từ, kèm cách đổi cụ thể như cai thuốc bằng thuốc hỗ trợ, đặt ngày cai, phòng tư vấn cai thuốc lá. Đổi lấy: mạng sống hoặc một nguyên nhân tử vong cụ thể.
 3. [Đừng lãng phí sức lực](book/03-dung-lang-phi-suc-luc.md) — 27 mục: tắt thông báo, giữ giờ thức cố định, chặn ngắt ngang, nói "không", bớt đòi hỏi hoàn hảo, đau kinh, mất ngủ, ngưng thở khi ngủ. Đổi lấy: sức chú ý và thời gian dùng được trong ngày.
 4. [Đừng lãng phí thời gian](book/04-dung-lang-phi-thoi-gian.md) — 18 mục: viết "định làm" thành giờ và địa điểm, viết sẵn điều kiện dừng, chỉ tính phần còn lại, ước theo việc đã làm thật, họp đứng và cắt họp, chia bước nhỏ, đặt tiền cược, thói quen tính theo tháng, giới hạn cứng cho video ngắn, và chọn chỗ ở theo thời gian đi làm. Đổi lấy: số giờ lấy lại được mỗi tuần và tỉ lệ làm xong đúng hạn.
+5. [Đừng lãng phí tiền](book/05-dung-lang-phi-tien.md) — 51 mục: tắt gia hạn tự động và đòi quyền huỷ dịch vụ liên tục (Luật 19/2023/QH15), quyết toán thuế, quỹ nhà ở không có ở VN thì vay ưu đãi, bảo hiểm mua đúng loại, và danh sách bẫy giá từ gói cước tới mua xe. Đổi lấy: số tiền đang rò ra mỗi tháng.
 
-Các chương 5 đến 34 đang biên soạn theo đúng định dạng này; mục lục sẽ dài ra khi từng chương xong. Danh sách đủ 34 chương và nội dung từng chương theo bản gốc nằm trong [README.cn.md](README.cn.md).
+Các chương 6 đến 34 đang biên soạn theo đúng định dạng này; mục lục sẽ dài ra khi từng chương xong. Danh sách đủ 34 chương và nội dung từng chương theo bản gốc nằm trong [README.cn.md](README.cn.md).
 
 ## Nội dung
 
