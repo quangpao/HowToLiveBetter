@@ -137,7 +137,7 @@ html.dark .btn{color:#1b1b1f}
 
   <section id="ask" hidden>
     <h1>Tự kiểm tra</h1>
-    <p class="lead">Trả lời các câu hỏi dưới đây để xem trong sách bạn còn thiếu việc nào. Kết quả chỉ ra nhóm nào hụt nhiều nhất, nên làm ba việc nào trước, việc nào làm một lần là xong. Mỗi việc giữ bằng chứng và nguồn riêng, không quy thành một điểm số. Sách đã có 3 chương; bộ câu hỏi hiện phủ chương 1 và chương 2, chương 3 sẽ bổ sung sau.</p>
+    <p class="lead">Trả lời các câu hỏi dưới đây để xem trong sách bạn còn thiếu việc nào. Kết quả chỉ ra nhóm nào hụt nhiều nhất, nên làm ba việc nào trước, việc nào làm một lần là xong. Mỗi việc giữ bằng chứng và nguồn riêng, không quy thành một điểm số. Sách đã có 4 chương; bộ câu hỏi hiện phủ chương 1, 2 và 3, chương 4 sẽ bổ sung sau.</p>
     <div id="qs"><div id="profile-qs"></div><div id="topic-qs"></div></div>
     <div class="bar">
       <span class="prog" id="prog"></span>
@@ -232,6 +232,16 @@ const GROUPS = [
     {sec:1, key:'Đo huyết áp', text:'Trong năm qua đã đo huyết áp; nếu cao thì đang uống thuốc theo chỉ định'},
     {sec:1, key:'Xét nghiệm đường huyết', text:'Đã xét nghiệm đường huyết lúc đói', hint:'Câu này dành cho người thừa cân hoặc từ 45 tuổi; không áp dụng được thì bỏ qua', when:p => ageAtLeast(p,35)},
   ]},
+  {name:'Sức chú ý và giấc ngủ', mod:'sức chú ý', qs:[
+    {sec:3, key:'Tắt thông báo không cần thiết', text:'Đã tắt thông báo không cần thiết, và khi làm việc thì để điện thoại ra ngoài tầm mắt'},
+    {sec:3, key:'Giữ giờ thức cố định', text:'Cuối tuần cũng dậy gần như giờ thường ngày'},
+    {sec:3, key:'Sau 2 giờ chiều', text:'Sau 2 giờ chiều không uống cà phê, trà đặc'},
+    {sec:3, key:'Đến giờ là ngủ', text:'Không thức vì game, video ngắn hay nội dung khiêu dâm'},
+    {sec:3, key:'Một giờ trước khi ngủ', text:'Một giờ trước khi ngủ không nhìn màn hình phát sáng'},
+    {sec:3, key:'người khác đang sống thế nào', text:'Không ngày nào cũng xem chuyện của người khác để so với mình'},
+    {sec:3, key:'Đừng cứ tăng giờ làm', text:'Tuần làm việc thường không quá 50 giờ', hint:'Không đi làm thì bỏ qua câu này'},
+    {sec:3, key:'tập nói', text:'Yêu cầu mình không muốn nhận thì nói được "không"'},
+  ]},
   {name:'Tầm soát và vắc xin', mod:'tầm soát', qs:[
     {sec:1, key:'viêm gan B', rev:2, text:'Đã làm xét nghiệm viêm gan B một lần và tiêm theo kết quả', hint:'Kháng thể có thể giảm theo thời gian, không nhất thiết phải tiêm lại; xem lại mục gốc nếu chưa chắc'},
     {sec:1, key:'Helicobacter pylori', text:'Đã xét nghiệm vi khuẩn Helicobacter pylori'},
@@ -246,7 +256,7 @@ const GROUPS = [
     {sec:1, key:'mật độ xương', text:'Đã đo mật độ xương', when:p => p.sex === 'f' && ageAtLeast(p,65)},
   ]},
 ];
-const MODS = ['thân thể', 'ăn uống', 'an toàn', 'tầm soát'];
+const MODS = ['thân thể', 'ăn uống', 'sức chú ý', 'an toàn', 'tầm soát'];
 const modOn = m => ans['mod:' + m] !== 'off';
 
 /* Bộ đọc: cùng khuôn với index.html, chỉ lấy các trường trang này dùng */

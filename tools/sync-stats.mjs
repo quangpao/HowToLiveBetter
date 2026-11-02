@@ -96,6 +96,12 @@ const EDITS = [
   ['tools/og.html', 'số mục trên ảnh chia sẻ', /(?<=data-stat="mục">)\d+(?=<)/g, String(entries)],
   ['tools/og.html', 'số mục bằng chứng A', /(?<=data-stat="A">)\d+(?=<)/g, String(grade.A)],
   ['tools/og.html', 'số liên kết nguồn', /(?<=data-stat="nguồn">)\d+(?=<)/g, String(links)],
+  // Ba badge ở đầu README trước đây ghi tay nên lệch dần (95 mục, A65 B48 C9 trong khi sách đã 140 mục).
+  // Ghi theo dạng đã mã hoá URL để khớp đúng chuỗi trong badge, không đụng tới màu và tham số khác.
+  ['README.md', 'badge số mục', /(?<=badge\/mục-)\d+(?=-18794e)/g, String(entries)],
+  ['README.md', 'badge mức bằng chứng', /(?<=badge\/bằng%20chứng-)A%20\d+%20·%20B%20\d+%20·%20C%20\d+(?=-915930)/g,
+    `A%20${grade.A}%20·%20B%20${grade.B}%20·%20C%20${grade.C}`],
+  ['README.md', 'badge số liên kết', /(?<=badge\/nguồn-)\d+(?=%20liên%20kết-565a5f)/g, String(links)],
 ];
 for (const [f, n] of perChapter) {
   // Lookbehind để giữ nguyên phần "N. [Tên](book/…md) — " và chỉ thay con số

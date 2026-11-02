@@ -21,7 +21,7 @@ Cách tính từ neo: hai từ liền nhau trùng tiêu đề đích, hoặc m�
 như 12356, AED, BMI, LPR) xuất hiện trong tiêu đề. Chỉ trùng một từ chung chung ("người", "tiền")
 thì không tính.
 
-Tổng 169 chỗ tham chiếu.
+Tổng 183 chỗ tham chiếu.
 
 ## 01-dung-chet-som
 
@@ -206,3 +206,22 @@ Tổng 169 chỗ tham chiếu.
 | mục 23 | mục 17 | Đang giận thì rời chỗ trước, coi người kia như thời tiết chứ không như kẻ thù | … rời chỗ (… |
 | mục 24 | mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám khi không tự lên được | … hại bản thân, thì **dừng lại và đi khám** (… |
 | mục 26 | mục 2 | Giữ giờ thức cố định, cuối tuần cũng vậy | …) **giữ giờ thức cố định** kể cả cuối tuần (… |
+
+## 04-dung-lang-phi-thoi-gian
+
+| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
+| --- | --- | --- | --- |
+| đầu chương | mục 11 | Muốn chắc mình làm thì đặt tiền cược vào — nhưng đặt đúng chỗ | …Trong 18 mục, **2 mục xếp A** — … |
+| đầu chương | mục 13 | Trì hoãn đã ảnh hưởng tới cuộc sống thì dùng tài liệu tự trợ giúp có thử nghiệm ngẫu nhiên chứng minh — không nhất thiết phải tìm chuyên gia | …m thực địa có nhóm đối chứng về cam kết) và … |
+| đầu chương | mục 16 | Không xem truyền hình và không đọc tin cuộn; tin cần thì xem theo khung giờ cố định | …) — **15 mục xếp B**, và **1 mục xếp C** là … |
+| đầu chương | mục 8 | Việc không có hạn chót bên ngoài thì tự đặt một ngày — nhưng đừng trông vào cái ngày đó | …à bài nghiên cứu nổi tiếng nhất vừa bị rút (… |
+| mục 2 | mục 1 | Viết "định làm" thành "mấy giờ, ở đâu, gặp chuyện gì thì làm gì" | …ủa phân tích gộp **94 thử nghiệm** đã dẫn ở … |
+| mục 7 | mục 4 | Ước thời gian theo việc tương tự mình đã làm thật, đừng ước theo kế hoạch | …c **từng bước rồi cộng**, đừng ước cả khối (… |
+| mục 8 | mục 4 | Ước thời gian theo việc tương tự mình đã làm thật, đừng ước theo kế hoạch | … một ngày cụ thể **buộc phải ước lượng** (… |
+| mục 8 | mục 7 | Chia việc lớn thành việc con rồi mới ước thời gian và bắt tay làm | …ng chứng mạnh hơn hẳn là **chia bước nhỏ** (… |
+| mục 8 | mục 11 | Muốn chắc mình làm thì đặt tiền cược vào — nhưng đặt đúng chỗ | … nhỏ** (mục 7) và **cam kết có ràng buộc** (… |
+| mục 9 | mục 13 | Trì hoãn đã ảnh hưởng tới cuộc sống thì dùng tài liệu tự trợ giúp có thử nghiệm ngẫu nhiên chứng minh — không nhất thiết phải tìm chuyên gia | …n hệ nhiều năm thì đó là việc phải đi khám (… |
+| mục 10 | mục 7 | Chia việc lớn thành việc con rồi mới ước thời gian và bắt tay làm | …nó là thứ **cộng thêm** vào việc chia bước (… |
+| mục 13 | chương 3 mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám khi không tự lên được | …t hoặc lo âu kéo dài**, xử lý cái đó trước (… |
+| mục 13 | mục 10 | Đồ cần dùng để trong tầm tay, đồ không muốn đụng thì cất xa — đừng trông vào việc nhịn lúc đó | …án đúng hay sai), **kiểm soát kích thích** (… |
+| mục 15 | mục 12 | Thói quen mới thì tính theo tháng, đừng tính theo "21 ngày" | …i hứa với chính mình — đúng loại lời hứa mà … |
