@@ -965,3 +965,9 @@ Nguồn: báo cáo đối chiếu do một AI khác thực hiện, mốc kiểm 
 - **A4**: Phụ lục IV mới (kèm NĐ 347/2026) chưa mở được toàn văn → chưa chép danh mục thiết bị.
 - **C1**: BHYT chi trả nhũ ảnh tầm soát tự nguyện — kế hoạch 2026–2035 (QĐ 358/QĐ-BYT 3/2/2026) là chủ trương, chưa phải quyền lợi áp dụng ngay.
 - **C4**: Thông tư 07/2017/TT-BYT là danh mục thuốc **không kê đơn** — không dùng làm căn cứ cho sildenafil/tadalafil; sách hiện chỉ nói "thuốc kê đơn" theo thực hành, không dẫn thông tư này.
+
+## Đối chiếu bản gốc tiếng Trung (2/11/2026)
+
+48/48 mục cùng đề với `book/01-不要早死.md`; **không mục bịa, không mục lật ngược kết luận**. Khác bản gốc đúng **1 chỗ hạ hạng**: mục 6 (A → B), lý do đã ghi ngay trong mục — phần luật và mức phạt thì chắc, nhưng chưa có thống kê Việt Nam về số vụ cháy do sạc xe điện nên mức giảm tử vong không có con số.
+
+**Đã sửa 8 lỗi dấu câu** do bản sửa văn phong để lại (ráp câu sai): 7 chỗ `.,` → `,` và 1 chỗ `57%.;` → `57%;` ở mục 47. Đây là loại lỗi không cổng nào bắt — tìm bằng regex chứ không bằng mắt.

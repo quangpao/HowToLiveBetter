@@ -21,7 +21,7 @@ Cách tính từ neo: hai từ liền nhau trùng tiêu đề đích, hoặc m�
 như 12356, AED, BMI, LPR) xuất hiện trong tiêu đề. Chỉ trùng một từ chung chung ("người", "tiền")
 thì không tính.
 
-Tổng 199 chỗ tham chiếu.
+Tổng 215 chỗ tham chiếu.
 
 ## 01-dung-chet-som
 
@@ -237,7 +237,7 @@ Tổng 199 chỗ tham chiếu.
 | đầu chương | mục 25 | Mua bảo hiểm thuần bảo vệ; tiền "hoàn lại" và "chia lãi" là phần không được đảm bảo | …16, 17, 18, 19, 37, 38, 45, 51) · bảo hiểm (… |
 | đầu chương | mục 2 | Mỗi năm làm một lần quyết toán thuế thu nhập cá nhân, và điền hết người phụ thuộc | …43, 44) · thuế, lương hưu, bảo hiểm xã hội (… |
 | đầu chương | mục 22 | Trả tiền trước thì lấy hợp đồng và hoá đơn — phần chưa dùng vẫn là tiền của bạn | …c 2, 3, 13, 20, 46) · mua sắm và khiếu nại (… |
-| đầu chương | mục 47 | Nhận xe mới: kiểm ngay tại chỗ, và biết rằng Việt Nam không có "7 ngày đổi xe" | … nại (mục 22, 29, 30, 31, 32, 36, 50) · xe (… |
+| đầu chương | mục 47 | Nhận xe mới: kiểm ngay tại chỗ, và biết rằng Việt Nam không có "7 ngày đổi xe" | …ả tiền trước, 29, 30, 31, 32, 36, 50) · xe (… |
 | đầu chương | mục 6 | Ai hứa lãi cao gấp mấy lần tiết kiệm thì đó không phải cơ hội, mà là chỗ mất tiền | …0) · xe (mục 47, 48, 49) · tiết kiệm và nợ (… |
 | mục 4 | mục 1 | Tắt hết gia hạn tự động, tới hạn thì tự bấm | …p tiền thì gói vẫn sống tới hết chu kỳ (xem … |
 | mục 8 | mục 9 | Con bạn nạp tiền vào game: dưới 15 tuổi còn đòi lại được, từ 15 tuổi thì gần như mất | … của con, và cách đó hẹp dần theo tuổi (xem … |
@@ -246,3 +246,24 @@ Tổng 199 chỗ tham chiếu.
 | mục 28 | mục 27 | Để riêng ba đến sáu tháng chi tiêu, ở chỗ rút được trong ngày | … luôn giữ quỹ dự phòng (… |
 | mục 33 | mục 34 | Đá quý chỉ tin phiếu của phòng đã được công nhận, và tra mã đó trên trang của Văn phòng Công nhận Chất lượng | … xem … |
 | mục 42 | mục 41 | Hợp đồng bảo hiểm trên một năm có 21 ngày cân nhắc: huỷ trong hạn thì lấy lại được phần lớn phí | …à chỉ trong 21 ngày đầu mới gần như đủ (xem … |
+
+## 06-nhung-thu-vo-dung
+
+| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
+| --- | --- | --- | --- |
+| đầu chương | mục 1 | Đừng uống viên đa vitamin để sống lâu hay để phòng bệnh tim mạch | … viên uống và thực phẩm bổ sung (… |
+| đầu chương | mục 7 | Đừng tự đi chụp PET-CT toàn thân hay làm gói chất chỉ điểm ung thư khi chưa có triệu chứng | … khám sức khoẻ và những thứ "phát hiện ra" (… |
+| đầu chương | mục 8 | Đừng mong vòng tay hay đồng hồ đếm bước giúp bạn giảm cân | … 20, 21, 33) · các thuyết giữ gìn sức khoẻ (… |
+| đầu chương | mục 15 | Đừng trả tiền cho thầy bói, tarot hay tử vi để quyết định thay mình | …26, 29, 35) · tiền mua may mắn và cảm giác (… |
+| đầu chương | mục 25 | Đừng tin "ý chí như cơ bắp, dùng một lúc là hết" | …ục 15, 22, 23, 24, 32) · ý chí và tình dục (… |
+| đầu chương | mục 31 | Đừng để chatbot AI tự phán bệnh và phán luật; tìm đúng câu gốc trước khi đi khám, đi kiện hay tiêu tiền lớn | … dục (mục 25, 27, 28) · câu trả lời của AI (… |
+| mục 10 | mục 1 | Đừng uống viên đa vitamin để sống lâu hay để phòng bệnh tim mạch | …hành phần quen thuộc của nhóm này đã kiểm ở … |
+| mục 10 | mục 1 | Đừng uống viên đa vitamin để sống lâu hay để phòng bệnh tim mạch | …droitin, vitamin C phòng cảm — lần lượt ở **… |
+| mục 10 | mục 2 | Đừng uống dầu cá thường để phòng bệnh tim mạch | …droitin, vitamin C phòng cảm — lần lượt ở **… |
+| mục 10 | mục 3 | Đừng bổ sung vitamin D cho người không thiếu, với hy vọng sống lâu | …droitin, vitamin C phòng cảm — lần lượt ở **… |
+| mục 10 | mục 4 | Đừng uống viên chống oxy hoá để phòng ung thư | …droitin, vitamin C phòng cảm — lần lượt ở **… |
+| mục 10 | mục 5 | Đừng trông vào glucosamine hay chondroitin để chữa đau khớp gối | …droitin, vitamin C phòng cảm — lần lượt ở **… |
+| mục 10 | mục 6 | Đừng trông vào vitamin C để phòng cảm | …droitin, vitamin C phòng cảm — lần lượt ở **… |
+| mục 22 | chương 5 mục 33 | Đồng hồ, đá quý, đồ chơi sưu tầm: tính bằng tiền đã ra khỏi túi, không bằng "giá trị sau này" | … vì sao đừng tính món này là đầu tư đã có ở … |
+| mục 23 | mục 24 | Đừng tiêu thêm để nhích lên một bậc so với người quanh mình | … Chuyện đua theo hàng xóm thì ở … |
+| mục 34 | chương 3 mục 26 | Mất ngủ kéo dài thì làm trị liệu hành vi cho giấc ngủ trước, đừng uống thuốc ngủ dài hạn | …h vi cho giấc ngủ (CBT-I), đã trình bày ở **… |

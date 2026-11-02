@@ -167,3 +167,7 @@ Người dùng đưa một báo cáo kiểm chứng từ AI khác (Phần A: 5 n
 2. **Không có số trong abstract thì không được giữ số** — 36% và 2,3% của Kaur đến từ nguồn thứ cấp, đã bỏ.
 3. **Trung vị phải kèm mẫu tính** — 66 ngày của Lally là của 39/96 người.
 4. **Số liệu nhà nước VN có thể tìm được nếu tải đúng PDF** — số giờ việc nhà tưởng "không có" hoá ra nằm trong ấn phẩm giới của Cục Thống kê.
+
+## Đối chiếu bản gốc tiếng Trung (2/11/2026)
+
+18/18 mục cùng đề với `book/04-不要浪费时间.md`; 0 mục bịa, 0 mục lật ngược kết luận. **3 chỗ lệch hạng**: mục 8 (B→C — bài Ariely & Wertenbroch bị rút 9/2026, đã ghi trong mục), mục 9 (A→B), mục 15 (C→B). Hai mục 9 và 15 chưa có câu "vì sao" ngay trong mục — cần bổ sung khi có dịp sửa chương, hoặc người duyệt xác nhận giữ nguyên.

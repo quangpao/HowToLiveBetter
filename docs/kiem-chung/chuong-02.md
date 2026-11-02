@@ -248,3 +248,13 @@ Tiền trong chương này phải là giá **tra tại thời điểm gần nh�
 
 ### Đã chuyển sang sổ chương khác
 - ~~Số tử vong giao thông đường bộ theo WHO~~ → **chuyển sang `chuong-01.md`**: WHO profile Việt Nam ghi **17.229 ca (KTC 95%: 15.364–19.093), tỷ suất 17,7/100.000 dân, dữ liệu 2021**, trong khi Việt Nam báo cáo **5.699 ca** cùng năm.
+
+## Đối chiếu bản gốc tiếng Trung (2/11/2026)
+
+47/47 mục cùng đề; **0 mục bịa, 0 mục lật ngược kết luận**.
+
+**Lệch hạng bằng chứng so với bản gốc: 25 mục** — hạ 20 (A→B: 7, 11, 12, 13, 14, 15, 16, 17, 21, 22, 23, 24, 25, 26, 27, 28, 32 · B→C: 33, 36, 42), nâng 5 (B→A: 20, 38, 40, 46, 47). Bản Việt đi theo các phân tích gộp mới hơn nên phần lớn là hạ; đây là loại lệch **phải được người duyệt xác nhận** vì sách đã phát hành theo thang này.
+
+**Mục có kết cục hoặc độ lớn khác bản gốc** (bản Việt dùng nguồn khác, và chưa ghi lý do trong mục): 7 (đái tháo đường típ 2 thay cho tử vong) · 8 (xếp nhóm gây ung thư thay cho tử vong) · 10 (chuyển trọng tâm sang fluor) · 19 ("không có mức uống nào an toàn" thay cho ngưỡng 100 g) · 21 (định nghĩa đơn vị cồn + ngưỡng nguy hại Việt Nam thay cho can thiệp ngắn) · 23 (13% mỗi khẩu phần, gốc là 3%) · 29 (2,9 triệu ca tử vong toàn cầu thay cho +10%/+14%) · 31 (ánh sáng buổi sáng thay cho nghiên cứu né nắng) · 37 (ngủ trưa ≥60 phút: +82% tim mạch, gốc ghi +30%) · 39 (IARC nhóm 2A thay cho +13%/+27%) · 42 (khói dầu ăn 3,68 lần, gốc ghi 2 lần).
+
+Việc còn lại của người duyệt: xác nhận 11 mục trên **giữ nguyên** (vì nguồn mới tốt hơn) hay **trả về đúng số của bản gốc**. Cả 11 mục đã nằm trong bản phát hành từ v0.2, nên nếu sửa thì là một commit riêng.

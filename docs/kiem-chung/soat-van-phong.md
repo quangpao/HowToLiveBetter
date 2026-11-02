@@ -111,7 +111,17 @@ Lý do: Codex đọc chương này như đọc bản quảng cáo nên **đề n
 - Mục 17: “Bỏ một lần thời gian học phím tắt” (sai trật tự) → “Dành thời gian học phím tắt”.
 - Mục 14: **mâu thuẫn tự phát hiện** — sách viết “chỉ **2,0%** tự nêu … tức là **không ai** nghĩ tới” → “**gần như** không ai”.
 
-## Tổng kết 5 chương
+## Chương 6 — Codex (chương do agent viết)
+
+**76 dòng / 35 mục** (mỗi dòng lặp hai lần → 38 cặp thật). 19 mục có góp ý (3, 7, 8, 11, 13, 14, 15, 17, 20, 21, 23, 24, 27, 28, 29, 30, 31, 33, 35). Tất cả 38 câu trích khớp **nguyên văn**, **0** đề xuất chèn số mới → áp hết 38 câu, không phải lọc tay lần nào.
+
+- **2 câu phải khôi phục dòng gốc** sau khi áp: mục 7 (“Nói dễ hiểu” phình 257 ký tự) và mục 17 (272) → khôi phục đúng dòng `- Nói dễ hiểu:` của hai mục đó, giữ nguyên các sửa ở Lợi ích/Ghi chú. Đúng như dự đoán trong quy trình: bản viết lại của CLI luôn dài hơn.
+- **Không sinh lỗi ráp**: 0 cụm 4 từ lặp, 0 dấu vết người soát lọt vào sách, 0 gạch nối ráp; 2 chỗ `..` còn lại là dấu lược trong tên bài JAMA (đúng nguyên văn nguồn).
+- Loại góp ý gặp ở chương này: thiếu đối tượng (“quá tải” → “quá tải tuần hoàn”), sai sắc thái từ (“bị bác sĩ chỉ định”), thiếu vị ngữ (“Có nghiên cứu 86%…” → “Có nghiên cứu cho thấy…”), đọc được thành nghĩa khác (“chạy dài nhiều tháng” → hiểu là phải chạy bộ).
+
+**Khác 5 chương trước**: chương 6 cho tỉ lệ áp **38/38 = 100%**, cao nhất trong cả sách. Lý do: đây là chương do 3 agent viết theo cùng một gói ngữ cảnh, câu văn đồng đều nhưng máy móc hơn người viết tay — CLI bắt được nhiều chỗ "đọc được thành nghĩa khác" mà không phải chỉnh giọng. Ngược lại chương 5 (viết tay) chỉ áp 8/120.
+
+## Tổng kết 6 chương
 
 | Chương | Người soát | Góp ý | Áp | Ghi chú |
 |---|---|---|---|---|
@@ -120,6 +130,7 @@ Lý do: Codex đọc chương này như đọc bản quảng cáo nên **đề n
 | 3 | Claude Code | 131 | 96 | bắt 2 lỗi nội dung (dấu `g`, hiểu sai OR) |
 | 4 | Codex | 64 | 9 | mục viết tay, chỉ nhận lỗi thật |
 | 5 | Codex | 120 | 8 | mục viết tay, từ chối làm mềm giọng |
-| **Tổng** | | **583** | **234** | |
+| 6 | Codex | 76 | 36 | agent viết, áp 100% cặp thật; 2 dòng khôi phục do vượt trần |
+| **Tổng** | | **659** | **270** | |
 
-Cả 5 chương đều qua `check-plain` (191 mục, 0 lỗi), `check-split`, `check-refs`, và không còn cụm từ lặp sau khi áp.
+Cả 6 chương đều qua `check-plain` (226 mục, 0 lỗi), `check-split`, `check-refs`, `sync-stats` và không còn cụm từ lặp sau khi áp.

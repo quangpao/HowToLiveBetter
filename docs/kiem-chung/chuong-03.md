@@ -111,6 +111,7 @@ Chưa có mục nào trong chương nêu giá. Mục 1 ghi rõ "không tốn ti�
 - **Ward 2017**: chưa mở được abstract chính thức (tạp chí không mở, Semantic Scholar không có abstract). Sách dẫn lại đúng như bản gốc tiếng Trung và đã kèm nghiên cứu lặp lại 2020; cần mở nguyên văn nếu sau này muốn nêu hệ số.
 
 ## Lưu ý đã xử lý
+- **Hai chỗ chữ của người soát lọt vào "Nói dễ hiểu"** (mục 13: *"Dùng \"đặt trần\" như câu trên, không dùng \"đã chặn\"."*; mục 24: *"Bỏ phần trong ngoặc, giữ con số ở dòng Lợi ích."*): phát hiện khi đối chiếu bản gốc ngày 2/11/2026, đã viết lại cả hai câu (194 và 139 ký tự, dưới trần 235). Bài học: lỗi ráp bản sửa của CLI không chỉ làm câu dài ra mà còn **chôn chính chỉ dẫn biên tập vào sách**, và cả `check-plain` lẫn `check-refs` đều xanh.
 - **Mục 12 dùng số thực địa thay vì số phòng thí nghiệm**: Jahncke 2020 đo bằng bài tập trí óc trên nhân viên thật (14%), đáng tin hơn lời tự khai "tôi thấy ồn". Haapakangas bổ sung phần *loại tiếng nào phá việc gì* — đúng chỗ bản gốc chỉ nói chung "phòng mở thì ồn".
 - **Không nêu giá nút tai**: nhiều loại, giá đổi liên tục; sách chỉ ghi "món rẻ nhất trong sách" và để nhãn `tiền=ít`. Nếu người duyệt muốn con số thì phải tra giá tại thời điểm viết.
 - **Cảnh báo ngược thị trường**: sách nói rõ tai nghe chống ồn chủ động **kém** với tiếng nói chuyện — điểm mà quảng cáo hay bỏ qua.
