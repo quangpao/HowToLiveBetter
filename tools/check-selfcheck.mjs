@@ -23,8 +23,13 @@ const element = id => {
 };
 const warnings = [];
 const oldAnswers = {'p:age':'30', 'p:sex':'f', 'p:kid':'n', '2:低钠盐':'n', '1:乙肝两对半':'y'};
+// ⚠ selfcheck.html hiện vẫn là trang tự kiểm của BẢN GỐC TIẾNG TRUNG (câu hỏi, nhãn, tiêu đề đều
+// là tiếng Trung), nên dữ liệu của nó phải là README.cn.md chứ không phải README.md (bản Việt).
+// Đổi sang README.md là mọi câu hỏi mất đích ngay: khóa tra cứu của câu hỏi là chữ trong tiêu đề
+// tiếng Trung. Khi Việt hoá selfcheck.html theo từng chương thì đổi cả hai chỗ này cùng lúc
+// (selfcheck.html và file này), và khi đó mới trỏ về README.md.
 const context = vm.createContext({
-  window:{__CORPUS__:{readme:read('README.md'), parts}},
+  window:{__CORPUS__:{readme:read('README.cn.md'), parts}},
   document:{getElementById:element},
   localStorage:{getItem:() => JSON.stringify(oldAnswers), setItem:() => {}},
   location:{protocol:'http:'}, scrollTo:() => {},
