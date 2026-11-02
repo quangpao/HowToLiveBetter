@@ -1,3 +1,17 @@
+### Claude Code chương 12 (35 câu)
+
+42 dòng → **35 câu áp 35**, 6 dòng trích câu đã bị Codex sửa trước nên không còn khớp. Tổng chương 12: **48 câu** trên 28 mục.
+
+**Bốn câu vượt trần sau khi áp**: mục 8 (236), 14 (238), 15 (239), 26 (276). Mục 26 phải viết lại cả câu — đề xuất của Claude dài hơn câu gốc 37 ký tự, chủ yếu do thêm "vốn chủ sở hữu" và "Ủy ban Chứng khoán Nhà nước" đầy đủ. Đã cắt còn 231 mà vẫn giữ đủ 30 tỷ · 100 nhà đầu tư · 10% · 90 ngày · 2 triệu.
+
+Đây là lần thứ **ba liên tiếp** áp góp ý làm vượt trần. Quy tắc đã ghi từ chương 10 vẫn đúng: chạy `check-plain` **ngay sau mỗi lượt áp**, đừng đợi cuối chương.
+
+## Chương 12 — Codex (13 câu)
+
+**Codex**: 31 dòng bảng → **13 cặp thật** (mỗi dòng lặp hai lần như các chương trước), áp **13/13**, 3 dòng không khớp câu gốc. Không câu nào vượt trần 235 sau khi áp.
+
+Xu hướng tiếp tục: **17 → 14 → 13 câu** qua ba chương. Đề bài chương 12 cấm sẵn bốn mẫu câu và cấm cả "nói về chính việc viết", nên phần lớn câu agent viết đã đúng ngay từ bản nháp.
+
 # Soát văn phong bằng CLI ngoài — nhật ký
 
 Mục đích: sau khi nội dung và số liệu đã kiểm, nhờ hai công cụ khác đọc lại **văn phong và nghĩa câu chữ** cho người Việt. Nguyên tắc: **CLI chỉ đọc và báo cáo**, không sửa file; người điều phối là người áp bản sửa để cả cuốn sách giữ một giọng.
@@ -120,6 +134,71 @@ Lý do: Codex đọc chương này như đọc bản quảng cáo nên **đề n
 - Loại góp ý gặp ở chương này: thiếu đối tượng (“quá tải” → “quá tải tuần hoàn”), sai sắc thái từ (“bị bác sĩ chỉ định”), thiếu vị ngữ (“Có nghiên cứu 86%…” → “Có nghiên cứu cho thấy…”), đọc được thành nghĩa khác (“chạy dài nhiều tháng” → hiểu là phải chạy bộ).
 
 **Khác 5 chương trước**: chương 6 cho tỉ lệ áp **38/38 = 100%**, cao nhất trong cả sách. Lý do: đây là chương do 3 agent viết theo cùng một gói ngữ cảnh, câu văn đồng đều nhưng máy móc hơn người viết tay — CLI bắt được nhiều chỗ "đọc được thành nghĩa khác" mà không phải chỉnh giọng. Ngược lại chương 5 (viết tay) chỉ áp 8/120.
+
+### Claude Code (32 câu) — và một bài học về thời điểm chạy soát
+
+**Claude**: 42 dòng → **32 câu áp 32**, 7 dòng trích câu không còn khớp, 1 dòng dính số của chính đoạn văn đang sửa. Tổng chương 10: **49 câu** trên 23 mục.
+
+**7 dòng không khớp có nguyên nhân rõ**: tôi khởi động Codex và Claude **trước** khi tự sửa hai chỗ (hạ mục 1 từ A xuống B, viết lại đoạn thang bằng chứng A/B/C ở phần mở đầu). Claude đọc bản cũ, nên các câu nó trích trong đoạn mở đầu không còn tồn tại — riêng một dòng còn khẳng định "1 mục hạng C là mục 16" trong khi bản đúng là mục 8. Luật rút ra: **soát văn phong phải chạy sau khi xong mọi sửa nội dung**, kể cả sửa hạng và sửa đoạn mở đầu; nếu chạy trước thì phải tự đọc lại phần mở đầu bằng mắt, đừng tin "không khớp là do agent trích sai".
+
+**3 câu sau khi áp bị vượt trần 235** (mục 8: 254, mục 18: 237, mục 22: 239) — vì câu đề xuất của Claude dài hơn câu gốc. Đã tự cắt lại; cổng `check-plain --numbers` phải chạy lại **sau mỗi lần áp góp ý**, không chỉ trước.
+
+### Claude Code chương 11 (33 câu)
+
+**Claude**: 42 dòng → **33 câu áp 33**, 7 dòng trích câu đã bị Codex sửa trước nên không còn khớp. Tổng chương 11: **47 câu** trên 21 mục.
+
+**Một câu sau khi áp vượt trần**: mục 20 lên **250 ký tự** — câu đề xuất dài hơn câu gốc. Đã tự cắt còn **210**. Đây là lần thứ hai liên tiếp (chương 10 và 11) việc áp góp ý làm vượt trần 235, nên từ nay `check-plain` phải chạy **ngay sau mỗi lượt áp**, không đợi đến cuối.
+
+## Chương 11 — Codex (14 câu)
+
+**Codex**: 33 dòng bảng → **14 cặp thật** (mỗi dòng lặp hai lần), áp **14/14**. Không dòng nào chèn số mới, không câu nào vượt trần 235 sau khi áp.
+
+Lần này Codex sửa cả **hai câu mở đầu chương**, không chỉ trong mục: "Điều dễ sai nhất ở Việt Nam là cơ chế quản lý không giống…" → "Bạn dễ hiểu nhầm vì cơ chế quản lý ở Việt Nam khác…". Đúng hướng — câu mở đầu cũng phải có người nói và người đọc, không phải câu tuyên bố của người biên soạn.
+
+Vẫn đúng bốn mẫu câu đã thành luật trong đề bài (câu cụt thiếu chủ thể, mở đầu bằng nhãn, nói về chính việc viết) — nghĩa là **đề bài chương 11 đã chặn được phần lớn**, số câu phải sửa giảm từ 17–62 xuống 14.
+
+## Chương 10 — Codex (17 câu)
+
+**Codex**: 34 dòng dữ liệu (mỗi dòng lặp 2 lần → 17 cặp), áp **17/17**, không dòng nào chèn số mới, không dòng chỉ dẫn, không câu nào vượt trần 235.
+
+Lỗi chính vẫn là câu cụt thiếu người thực hiện ("Cái phải bỏ ra là thời gian…", "Cái phải bỏ thật là cảm giác…") và câu mở đầu bằng nhãn giáo trình ("Quan niệm sai đang sửa là…") — **kiểu lỗi thứ tư liên tiếp ở bốn chương 7, 8, 9, 10**. Đáng ghi vào đề bài cho các chương sau, thay vì sửa lại từng chương: đề bài nên cấm luôn hai mẫu câu này.
+
+## Chương 9 — Codex (19 câu) + Claude Code
+
+**Codex**: 38 dòng dữ liệu (mỗi dòng lặp 2 lần → 19 cặp thật), áp **19/19** trên 9 mục + 2 câu ở phần mở đầu chương. Không có dòng nào chèn số mới, không có dòng chỉ dẫn.
+
+**Claude Code (2.1.316)**: 42 dòng → **36 câu áp 36**, 4 dòng trích câu đã bị Codex sửa trước nên không còn khớp. Tổng chương 9: **55 câu** trên 22 mục.
+
+Claude bắt được **lớp lỗi mới ở chương này: nhãn thang điểm lọt vào chính văn**. Chín mục có câu mở đầu bằng "**Vì sao B**:" hoặc "**Vì sao C**:" — đó là ghi chú của người biên soạn giải thích vì sao mục này ở hạng nào, người đọc không cần đọc chữ "C". Claude đề nghị đổi thành "**Vì sao chưa chắc**", tôi chọn cách khác: viết thành "**Vì sao mức B**" / "**Vì sao mức C**" để chữ cái có nghĩa (chương đã định nghĩa A/B/C ở phần mở đầu).
+
+**Và bắt được một chỗ tôi làm sai**: mục 9 tôi nâng C → B nhưng quên sửa câu "**Vì sao C**: … nên mức chắc chắn không cao" — trái hẳn với hạng mới. Đã viết lại: phần hành chính cố định (4–6 triệu), phần hình sự mới phụ thuộc giám định. Đây là loại lỗi không cổng nào bắt: đổi `- Mức bằng chứng:` mà không đọc lại "Ghi chú" của chính mục đó.
+
+Vẫn là lỗi câu cụt thiếu người thực hiện — đây là lỗi phổ biến nhất của cả ba chương gần đây:
+- "Cái phải bỏ ra là một phút trước khi bấm chuyển…" → "Bạn cần dành một phút trước khi bấm chuyển…"
+- "Cái phải bỏ ra là một câu không nói…" → "Bạn cần nhịn nói một câu…"
+- "Quan niệm sai đang sửa là …" → "Bạn đừng nghĩ rằng …"
+
+Sau khi áp: 0 câu vượt trần 235 (khác chương 8 phải sửa 2 câu), 0 cụm lặp, 0 dấu `.,`.
+
+## Chương 8 — Codex (chạy 2 lần) + Claude Code
+
+**Lần 1 — báo cáo tốt nhất, nhưng suýt bị tôi đọc thành "hỏng"**: lúc tôi kiểm, `codex exec` vẫn đang chạy nên file mới có 1 dòng bảng và 488 KB dội lại nguyên văn chương. Tôi kết luận "hỏng, phải chạy lại" — sai: khi tiến trình xong, file có **108 dòng bảng**. Bài học: **kiểm `pgrep -f 'codex exec'` trước khi kết luận một báo cáo là hỏng**; đếm `grep -c '^|'` chỉ có nghĩa sau khi tiến trình đã thoát.
+
+**Lần 2** (chạy song song, `-c model_reasoning_effort=medium`, prompt "đọc một lần, chỉ in bảng ≤40 dòng"): **36 dòng → 18 câu**.
+
+**Kết quả cuối**: áp **18 câu từ lần 2 + 44 câu từ lần 1 = 62 câu**, trên 20 mục. Bốn dòng của lần 1 là **chỉ dẫn chứ không phải câu thay thế** ("Đổi “tang trữ” thành “tàng trữ”") — nếu áp thẳng thì câu gốc bị thay bằng đúng câu chỉ dẫn đó; đã lọc bằng luật "đề xuất bắt đầu bằng Đổi/Thay/Bỏ/Sửa hoặc ngắn hơn nửa câu gốc thì bỏ", rồi sửa tay 4 chỗ thuật ngữ (tàng trữ, tạm hoãn xuất cảnh, chứng từ chuyển khoản, "cái chết của chính người được bảo hiểm").
+
+Sau khi áp, mục 18 vượt trần 235 ký tự (236) — đúng như skill đã ghi: **bản sửa của CLI luôn dài hơn**, phải chạy lại `check-plain --numbers` và viết lại câu cho gọn (207 ký tự).
+
+
+
+Loại lỗi Codex bắt được ở chương này: câu mở đầu bằng "Cái phải bỏ ra là…" (thiếu người thực hiện), "Quan niệm sai đang sửa là…" (giọng giáo trình, không phải câu cho người đọc), và câu phủ định bị viết vòng ("ngân hàng không tự bắt máy ai gọi đến mà phong tỏa" → "không phong tỏa chỉ vì có người gọi điện yêu cầu").
+
+**Claude Code (2.1.316)**: 144 dòng → **94 câu áp 94**, trên **42 mục**. Trong 144 dòng: 10 dòng là chỉ dẫn chứ không phải bản thay thế (bị lọc), 1 dòng chèn số mới (bị loại), **39 dòng trích câu mà Codex đã sửa xong** (không còn khớp — dấu hiệu hai CLI bắt trùng vùng, khoảng 27%).
+
+Claude bắt được lớp lỗi Codex bỏ qua ở chương này: câu mở đầu bằng nhãn đếm "(2)…" rồi mới tới nội dung, câu khẳng định tuyệt đối không có ngoại lệ ("Mọi vụ lừa đảo đều khép lại ở một bước" → "Nhiều vụ…"), và câu văn nói về bản thân việc viết ("Ba cái bẫy Việt Nam." → "Ba cái bẫy hay gặp.").
+
+**Tổng chương 8**: Codex **62 câu** + Claude **94 câu** = **156 câu sửa** trên 46 mục. Sau khi áp: mục 18 vượt trần 235 (236) và mục 20 vượt (236) → viết lại còn 207 và 202, chạy lại `check-plain` mới xanh.
 
 ## Chương 7 — Codex + Claude Code (lần đầu chạy song song)
 

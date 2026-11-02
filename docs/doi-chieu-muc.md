@@ -21,7 +21,7 @@ Cách tính từ neo: hai từ liền nhau trùng tiêu đề đích, hoặc m�
 như 12356, AED, BMI, LPR) xuất hiện trong tiêu đề. Chỉ trùng một từ chung chung ("người", "tiền")
 thì không tính.
 
-Tổng 224 chỗ tham chiếu.
+Tổng 279 chỗ tham chiếu.
 
 ## 01-dung-chet-som
 
@@ -281,3 +281,83 @@ Tổng 224 chỗ tham chiếu.
 | mục 16 | mục 4 | Đường cùng thì vào cơ sở trợ giúp xã hội, đừng tìm nhà tạm trú tự phát | …hoát cho đêm nay — đang mất chỗ ngủ thì xem … |
 | mục 16 | mục 21 | Không còn chỗ ngủ đêm nay: chỗ mở 24 giờ chỉ để một đêm, còn cửa thật là cơ sở trợ giúp xã hội | …đêm nay — đang mất chỗ ngủ thì xem mục 4 và … |
 | mục 21 | mục 4 | Đường cùng thì vào cơ sở trợ giúp xã hội, đừng tìm nhà tạm trú tự phát | … cả tuần — hôm sau vẫn phải đi đúng tuyến ở … |
+
+## 08-dung-tu-chuoc-hoa-vao-than
+
+| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
+| --- | --- | --- | --- |
+| đầu chương | mục 3 | Bốn câu chống lừa đảo: không tin người gọi đến, không đọc mã, không bấm link, không chuyển tiền trước khi gọi lại số đã lưu | … **3 mục hạng C** là … |
+| đầu chương | mục 4 | Nhìn thấy mặt, nghe thấy giọng đều không phải là xác thực: cứ cúp máy rồi gọi lại số đã lưu | … **3 mục hạng C** là mục 3 và … |
+| đầu chương | mục 42 | Hiện trường: quay cảnh rộng trước, rồi vị trí, rồi thiệt hại — và giữ nguyên ảnh, video gốc | …ừa đảo, và nguyên tắc cúp máy gọi lại) cùng … |
+| đầu chương | mục 2 | Nghi bị lừa chuyển tiền thì gọi 113 ngay, đừng tự đi xác minh trước | … … |
+| đầu chương | mục 17 | Đọc hết tờ giấy trước khi ký, không ký hộ, không ký vào tờ còn trống | … … |
+| đầu chương | mục 10 | Đụng chuyện thì lùi lại gọi công an, đừng ra tay trước | … … |
+| đầu chương | mục 23 | Quà lớn trong chuyện tình cảm: nghĩ trước khi trao, vì trao rồi thì gần như không đòi lại được | … … |
+| đầu chương | mục 5 | Bị giữ, bị gọi lên làm việc thì im lặng và gọi luật sư; không tự giải thích cho êm, không đưa tiền, không xoá tin nhắn | … … |
+| đầu chương | mục 16 | Trên mạng: không chửi, không bịa, không chia sẻ thứ chưa kiểm chứng; bị tấn công thì lưu bằng chứng trước | … … |
+| đầu chương | mục 31 | Người đang ngủ, đang say mất ý thức, hoặc chưa đủ tuổi thì không có sự đồng ý | … … |
+| đầu chương | mục 1 | Gây tai nạn thì dừng lại, cứu người, gọi 113 và ở lại hiện trường — bỏ đi là sang khung nặng hơn | … … |
+| mục 11 | mục 10 | Đụng chuyện thì lùi lại gọi công an, đừng ra tay trước | …mặc định vẫn là lùi, gọi công an, ghi hình (… |
+| mục 12 | mục 16 | Trên mạng: không chửi, không bịa, không chia sẻ thứ chưa kiểm chứng; bị tấn công thì lưu bằng chứng trước | …hể bị kiện ngược về làm nhục hoặc vu khống (… |
+| mục 13 | mục 14 | Nghĩ tới "chết chung cho xong" thì coi là cấp cứu: rời khỏi chỗ đó, đưa chìa khoá và dao cho người khác | … nhờ người giữ hộ hung khí là việc nên làm (… |
+| mục 32 | mục 39 | Báo án: lấy biên bản tiếp nhận, không khởi tố phải nêu lý do bằng văn bản | … ngày thì không có mốc để hỏi tiếp, nên xem … |
+
+## 09-ranh-gioi-phap-luat-nguoi-thuong-de-vap
+
+| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
+| --- | --- | --- | --- |
+| đầu chương | mục 8 | Khuyến mại thì lấy bằng thân phận thật, một tài khoản một lần: không mua sim, không mua tài khoản, không khai thác lỗi hệ thống | …ị định, đã mở bản ký) và **3 mục hạng C** — … |
+| đầu chương | mục 1 | Tin bão, dịch, công an không rõ thật giả thì không chuyển tiếp, không chế ảnh, không dựng ảnh hiện trường bằng AI | … … |
+| đầu chương | mục 5 | "Việc nhẹ lương cao" mà bắt bạn dùng thẻ của mình để nhận tiền, rút tiền, chuyển tiền: trả bao nhiêu cũng không làm | … … |
+| đầu chương | mục 9 | Ban công, cửa sổ không ném bất cứ thứ gì xuống: đầu thuốc, túi rác, chai rượu đều tính | … … |
+| đầu chương | mục 15 | Đòi nợ thì khởi kiện, không giữ người, không giữ giấy tờ, không đến nhà ngồi lì | … … |
+| đầu chương | mục 12 | Không lắp camera trong phòng người khác thuê, không quay lén rồi phát tán | … … |
+| đầu chương | mục 24 | Dịch, chép, đăng lại phim truyện và sách lậu: không bán cũng là xâm phạm quyền tác giả; có thu tiền thì có thể thành tội hình sự | … … |
+| đầu chương | mục 29 | Không thi hộ, không thuê người thi hộ, không mua bán đáp án: Việt Nam không có tội "thi hộ", nhưng có tội làm giấy tờ giả và tội đưa hối lộ | … … |
+
+## 10-yeu-va-ket-hon-co-dang-khong
+
+| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
+| --- | --- | --- | --- |
+| đầu chương | mục 4 | Quan hệ tốt hay xấu thì đo bằng cảm giác của chính bạn, không bằng lý lịch của người kia | … chương này có **2 mục hạng A** — … |
+| đầu chương | mục 20 | Kẹt trong cãi nhau và chiến tranh lạnh thì đi trị liệu cùng nhau: ngồi đợi thì gần như không tự khỏi | …ứu theo dõi dọc** về chất lượng quan hệ) và … |
+| đầu chương | mục 8 | Cộng phần sức khoẻ của hôn nhân vào, nhưng chiết khấu vì đó là dữ liệu quan sát | … **1 mục hạng C** là … |
+| đầu chương | mục 1 | Quen nhiều người thay vì dồn hết vào một người: hai người có hợp nhau không thì gặp mới biết | … … |
+| đầu chương | mục 4 | Quan hệ tốt hay xấu thì đo bằng cảm giác của chính bạn, không bằng lý lịch của người kia | … … |
+| đầu chương | mục 7 | Nghe số đăng ký trước khi nghe "ngày xưa người ta cưới sớm": số kết hôn và số ly hôn không cùng một phép chia | … … |
+| đầu chương | mục 13 | Đăng ký kết hôn ở xã, phường: giấy tờ tuỳ thân, miễn lệ phí, thường xong trong ngày | … … |
+| đầu chương | mục 10 | Tiền trong hôn nhân: đọc luật mặc định trước, rồi mới quyết có lập văn bản thoả thuận | … … |
+| đầu chương | mục 18 | Người cùng giới sống với nhau thì phải làm ba loại giấy khi cả hai còn tỉnh: văn bản chọn người đại diện, văn bản lựa chọn người giám hộ, di chúc | … … |
+| mục 8 | mục 4 | Quan hệ tốt hay xấu thì đo bằng cảm giác của chính bạn, không bằng lý lịch của người kia | …uật riêng và có biện pháp cấm tiếp xúc (xem … |
+
+## 11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap
+
+| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
+| --- | --- | --- | --- |
+| đầu chương | mục 10 | Báo lỗ hổng cho chủ hệ thống trước, và trước khi vá thì không đăng chi tiết, không phát hành công cụ khai thác, không đẩy dữ liệu ra nước ngoài | … **4 mục hạng C** — … |
+| đầu chương | mục 11 | Không bán tài khoản VPN, không dựng node hộ người khác: ở Việt Nam không có tội danh riêng, nhưng có điều kiện kinh doanh và bạn chịu trách nhiệm về đường mình mở | …** — mục 10 (báo lỗ hổng cho chủ hệ thống), … |
+| đầu chương | mục 17 | Cung cấp AI cho công chúng: Việt Nam chưa có đăng ký thuật toán, nhưng đã có luật buộc tự phân loại rủi ro và thông báo trước khi chạy | …ệ thống), mục 11 (không bán tài khoản VPN), … |
+| đầu chương | mục 19 | Không dựng trạm trung chuyển bán lại API mô hình nước ngoài giá rẻ: chưa có án, nhưng bạn có thể gặp rủi ro về dữ liệu, hợp đồng, thuế và tiền khách trả trước. | … VPN), mục 17 (cung cấp AI cho công chúng), … |
+| đầu chương | mục 1 | Trước khi nhận làm, hỏi rõ ai trả tiền, sản phẩm dùng để làm gì, người đặt có giấy phép không; bị hỏi thì gọi luật sư hình sự ngay, đừng tự giải thích trước | … … |
+| đầu chương | mục 2 | Không làm, không bán cheat game và bot hỗ trợ — kể cả loại "chỉ đọc màn hình, không động vào bộ nhớ" — và không bán bản sửa của app người khác để thêm chức năng | … … |
+| đầu chương | mục 4 | Crawler chỉ cào trang công khai không cần đăng nhập, không vượt chặn bot, không lấy dữ liệu cá nhân, không bán dữ liệu cào được | … … |
+| đầu chương | mục 7 | Nghỉ việc không mang theo mã nguồn, danh sách khách hàng, tài liệu kỹ thuật; không đưa lên ổ cá nhân; không dùng lại ở công ty mới | … … |
+| đầu chương | mục 14 | Dùng code GPL để làm sản phẩm thì phải theo giấy phép: mở mã nguồn hoặc đổi giấy phép, đừng dựa vào "không ai quản" | … … |
+| đầu chương | mục 11 | Không bán tài khoản VPN, không dựng node hộ người khác: ở Việt Nam không có tội danh riêng, nhưng có điều kiện kinh doanh và bạn chịu trách nhiệm về đường mình mở | … … |
+| mục 4 | mục 9 | Không kiểm thử hệ thống của người khác khi chưa có văn bản cho phép: ý tốt và việc báo lại sau đó không xoá được hành vi | … Điều 289 khoản 1 Bộ luật Hình sự, như ở … |
+| mục 20 | chương 9 mục 24 | Dịch, chép, đăng lại phim truyện và sách lậu: không bán cũng là xâm phạm quyền tác giả; có thu tiền thì có thể thành tội hình sự | …u bạn phát hành phim hoặc sách lậu, hãy xem … |
+
+## 12-kinh-doanh-nho-mo-van-hanh-dong
+
+| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
+| --- | --- | --- | --- |
+| đầu chương | mục 18 | Bán trước rồi mới sản xuất: dùng đơn đặt trước và lô nhỏ để kiểm chứng có người mua, rồi mới bỏ tiền | … **4 mục hạng C** — … |
+| đầu chương | mục 1 | Chỉ bỏ vào việc kinh doanh số tiền mất hết vẫn còn chỗ ở, không đụng tiền nhà, không vay để mở | … … |
+| đầu chương | mục 4 | Không đứng tên hộ cổ đông, không nhận đứng tên công ty cho người khác | … … |
+| đầu chương | mục 8 | Bán đồ ăn: chế biến để bán và mở quán phải có giấy chứng nhận cơ sở đủ điều kiện, bán hàng bao gói sẵn chỉ tự công bố, bán nông sản tươi sống thì không cần giấy | … … |
+| đầu chương | mục 12 | Có đăng ký kinh doanh là có nghĩa vụ khai thuế: khai đúng hạn, không có doanh thu vẫn phải thông báo, và ngưỡng 1 tỷ đồng không phải giấy miễn khai | … … |
+| đầu chương | mục 15 | Hợp đồng mua bán: ghi "đặt cọc" khác "trả trước" về hậu quả pháp lý; ghi rõ số tiền phạt vi phạm; điều khoản trả chậm phải viết như một khoản cho vay | … … |
+| đầu chương | mục 18 | Bán trước rồi mới sản xuất: dùng đơn đặt trước và lô nhỏ để kiểm chứng có người mua, rồi mới bỏ tiền | … … |
+| đầu chương | mục 22 | Làm đúng quy trình ở chỗ làm; việc tốt nằm ngoài quy trình thì hỏi trước ai chịu trách nhiệm | … … |
+| đầu chương | mục 25 | Nghĩa vụ báo cáo hằng năm: nộp báo cáo tài chính, quyết toán thuế, và báo khi thông tin đăng ký thay đổi | … … |
+| mục 7 | mục 227 | **không có mục này** | … danh … |
