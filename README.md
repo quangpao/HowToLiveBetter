@@ -12,9 +12,9 @@ Không cần làm hết: đây là danh sách để chọn, không phải danh s
 Đây là **bản biên soạn lại cho Việt Nam**, không phải bản dịch. Luật, chính sách, thủ tục, giá cả và mức phạt đều tra từ văn bản chính thức của Việt Nam; nội dung y khoa dùng nghiên cứu quốc tế. Vì luật khác nhau, có mục kết luận ngược hẳn bản gốc. Bản gốc tiếng Trung vẫn giữ trong repo để đối chiếu: [README.cn.md](README.cn.md).
 
 [![Tra cứu trực tuyến](https://img.shields.io/badge/tra%20cứu-mở%20trang%20này-3451b2?style=flat-square)](https://quangpao.github.io/HowToLiveBetter/)
-[![Số mục](https://img.shields.io/badge/mục-249-18794e?style=flat-square)](#mục-lục)
-[![Mức bằng chứng](https://img.shields.io/badge/bằng%20chứng-A%2087%20·%20B%20102%20·%20C%2060-915930?style=flat-square)](#mức-bằng-chứng)
-[![Nguồn](https://img.shields.io/badge/nguồn-722%20liên%20kết-565a5f?style=flat-square)](docs/kiem-chung/)
+[![Số mục](https://img.shields.io/badge/mục-396-18794e?style=flat-square)](#mục-lục)
+[![Mức bằng chứng](https://img.shields.io/badge/bằng%20chứng-A%2089%20·%20B%20232%20·%20C%2075-915930?style=flat-square)](#mức-bằng-chứng)
+[![Nguồn](https://img.shields.io/badge/nguồn-1100%20liên%20kết-565a5f?style=flat-square)](docs/kiem-chung/)
 [![Giấy phép](https://img.shields.io/badge/giấy%20phép-CC%20BY%204.0-565a5f?style=flat-square)](#ghi-công-và-giấy-phép)
 [![Số star](https://img.shields.io/github/stars/quangpao/HowToLiveBetter?style=flat-square&label=star&color=eac54f)](https://github.com/quangpao/HowToLiveBetter)
 
@@ -66,8 +66,8 @@ Chưa có. Bài dài sẽ nằm trong `docs/` khi từng chương xong.
 | Tiền tiết kiệm để đâu cho khỏi bị lãi suất, phí và trò lừa ăn mất; mua xe sao cho khỏi bị hớ? | [5. Đừng lãng phí tiền](book/05-dung-lang-phi-tien.md) |
 | Thực phẩm bổ sung, gói khám sức khoẻ, đồ "đáng tiền" nào bỏ qua được? | [6. Danh sách những thứ trông rẻ mà không có tác dụng](book/06-nhung-thu-vo-dung.md) |
 | Mất việc, bị quỵt lương, trong túi không còn tiền thì nhận được gì, cầu cứu ở đâu? | [7. Không có tiền thì sống thế nào](book/07-khong-co-tien-thi-song-the-nao.md) |
-| Tiền cọc, nhà trước hôn nhân, chuyển khoản lớn khi đang yêu là của ai; bị tố giác hay bị vu khống thì làm gì trước? | 8. Đừng tự chuốc hoạ: pháp luật và tài sản — đang biên soạn |
-| Việc làm thêm nào, việc tưởng vô hại nào biến người thường thành bị cáo? | 9. Ranh giới pháp luật người thường dễ vấp — đang biên soạn |
+| Tiền cọc, nhà trước hôn nhân, chuyển khoản lớn khi đang yêu là của ai; bị tố giác hay bị vu khống thì làm gì trước? | [8. Đừng tự chuốc hoạ vào thân: pháp luật và tài sản](book/08-dung-tu-chuoc-hoa-vao-than.md) |
+| Việc làm thêm nào, việc tưởng vô hại nào biến người thường thành bị cáo? | [9. Ranh giới pháp luật người thường dễ vấp](book/09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md) |
 | Nên theo đuổi một người hay quen nhiều người; yêu xa có thành không; đăng ký kết hôn cần gì; chỉ làm đám cưới mà không đăng ký thì có phải vợ chồng? | 10. Yêu và kết hôn có đáng không — đang biên soạn |
 | Viết code nào, nhận việc nào thì bị truy tố? | 11. Ranh giới pháp luật của người làm công nghệ — đang biên soạn |
 | Vay tiền mở shop, mở công ty: nghĩ gì trước tiên? | 12. Khởi nghiệp và làm ăn — đang biên soạn |
@@ -203,8 +203,13 @@ Phần thân bài viết bằng lời thường, nhưng khi dẫn nghiên cứu 
 5. [Đừng lãng phí tiền](book/05-dung-lang-phi-tien.md) — 51 mục: tắt gia hạn tự động và đòi quyền huỷ dịch vụ liên tục (Luật 19/2023/QH15), quyết toán thuế, quỹ nhà ở không có ở VN thì vay ưu đãi, bảo hiểm mua đúng loại, và danh sách bẫy giá từ gói cước tới mua xe. Đổi lấy: số tiền đang rò ra mỗi tháng.
 6. [Danh sách những thứ trông rẻ mà không có tác dụng](book/06-nhung-thu-vo-dung.md) — 35 mục: viên uống và thực phẩm bổ sung, gói khám sức khoẻ, sản phẩm thải độc, đồ phong thuỷ, thủ thuật y tế không cần thiết, và câu trả lời của AI mà nên bỏ qua. Đổi lấy: tiền, thời gian và sự lo lắng không mất vào thứ không có tác dụng.
 7. [Không có tiền thì sống thế nào](book/07-khong-co-tien-thi-song-the-nao.md) — 23 mục: trợ cấp thất nghiệp, đòi lương, trợ giúp pháp lý, trợ cấp xã hội, BHYT, chỗ ở và nợ. Đổi lấy: quyền lợi lấy lại được đúng hạn.
+8. [Đừng tự chuốc hoạ vào thân](book/08-dung-tu-chuoc-hoa-vao-than.md) — 46 mục: tai nạn, lừa đảo, bị buộc tội, chữ ký và giấy vay, hôn nhân và tài sản, chứng cứ và bạo lực gia đình. Đổi lấy: tiền và tự do.
+9. [Ranh giới pháp luật người thường dễ vấp](book/09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md) — 29 mục: tin giả và phát tán, nhận tiền hộ, vay giả, drone và quay lén, cờ bạc, động vật hoang dã, đòi nợ, giấy tờ, bản quyền, thi hộ. Đổi lấy: tự do và tiền.
+10. [Yêu và kết hôn có đáng không](book/10-yeu-va-ket-hon-co-dang-khong.md) — 23 mục: tìm hiểu, đánh giá quan hệ, sức khoẻ và thời gian, tiền và nợ, đăng ký kết hôn, người cùng giới, ly hôn và cấp dưỡng. Đổi lấy: thời gian và tiền.
+11. [Những vạch đỏ mà người làm kỹ thuật hay vấp](book/11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md) — 21 mục: nhận việc, cheat và bot, script săn sale, crawler, app cờ bạc, nghỉ việc, bí mật kinh doanh, bản quyền, dữ liệu cá nhân, giấy phép, AI, DDoS. Đổi lấy: tự do nghề nghiệp.
+12. [Kinh doanh nhỏ: mở, vận hành, đóng cho đúng luật](book/12-kinh-doanh-nho-mo-van-hanh-dong.md) — 28 mục: tiền bỏ vào và hình thức đứng tên, đứng tên hộ, nhượng quyền, giấy phép con, an toàn thực phẩm, nhãn hàng, thuế và hoá đơn, hợp đồng, người làm, nguồn hàng, giải thể và phá sản, gọi vốn, mặt bằng. Đổi lấy: tài sản gia đình.
 
-Các chương 8 đến 34 đang biên soạn theo đúng định dạng này; mục lục sẽ dài ra khi từng chương xong. Danh sách đủ 34 chương và nội dung từng chương theo bản gốc nằm trong [README.cn.md](README.cn.md).
+Các chương 13 đến 34 đang biên soạn theo đúng định dạng này; mục lục sẽ dài ra khi từng chương xong. Danh sách đủ 34 chương và nội dung từng chương theo bản gốc nằm trong [README.cn.md](README.cn.md).
 
 ## Nội dung
 
