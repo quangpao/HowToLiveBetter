@@ -34,7 +34,7 @@ Ghi lại những gì đã tra được cho từng mục, để lần sau ai s�
 ## Còn treo
 
 - Đã tra: Việt Nam **không** có quy định ấn định số năm phải thay dây dẫn gas. Luật 55/2024 chỉ yêu cầu chung là bếp phải bảo đảm an toàn (Điều 20 khoản 1 điểm b).
-- Chênh lệch số liệu: ước tính của WHO và Ngân hàng Thế giới về tử vong do TNGT ở Việt Nam thường cao gấp khoảng 3 lần số liệu trong nước, do khác tiêu chí (tính cả ca chết trong 30 ngày sau tai nạn, cả ca không vào hệ thống báo cáo). Nguồn: <https://documents1.worldbank.org/curated/en/099355104222238002/pdf/P1627070f986a200208c120fd7dde00bae1.pdf>. Vẫn chưa lấy được con số tuyệt đối của WHO cho VN.
+- Chênh lệch số liệu TNGT: **đã lấy được số của WHO** (cập nhật 2/11/2026) — hồ sơ Việt Nam trong *Global status report on road safety 2023*, dữ liệu 2021: WHO ước tính **17.229 ca tử vong (KTC 95%: 15.364–19.093), tỷ suất 17,7/100.000 dân**; Việt Nam báo cáo **5.699 ca** cùng năm. Hai số **không cùng phương pháp**, không được dùng thay thế lẫn nhau. Số 17,7/100.000 khớp với cách tính ngược từ dân số (~98 triệu người), và được Asian Transport Observatory dẫn lại. Bối cảnh chênh lệch ~3 lần: <https://documents1.worldbank.org/curated/en/099355104222238002/pdf/P1627070f986a200208c120fd7dde00bae1.pdf>.
 
 ## Giá tham khảo (tra tháng 11/2026)
 
