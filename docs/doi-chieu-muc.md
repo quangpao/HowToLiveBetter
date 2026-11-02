@@ -21,7 +21,7 @@ Cách tính từ neo: hai từ liền nhau trùng tiêu đề đích, hoặc m�
 như 12356, AED, BMI, LPR) xuất hiện trong tiêu đề. Chỉ trùng một từ chung chung ("người", "tiền")
 thì không tính.
 
-Tổng 80 chỗ tham chiếu.
+Tổng 169 chỗ tham chiếu.
 
 ## 01-dung-chet-som
 
@@ -73,6 +73,52 @@ Tổng 80 chỗ tham chiếu.
 | Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
 | --- | --- | --- | --- |
 | đầu chương | mục 1 | Cai thuốc lá, càng sớm càng tốt | … cai thuốc càng sớm càng tốt (… |
+| đầu chương | mục 2 | Không hút trong nhà và trên xe, cũng đừng để khách hút trong nhà | …ốt (mục 1), không hút trong nhà và trên xe (… |
+| đầu chương | mục 3 | Cai thuốc đừng chỉ dựa vào ý chí: uống thuốc trước đã | …e (mục 2), cai thuốc thì dùng thuốc hỗ trợ (… |
+| đầu chương | mục 4 | Đặt một ngày cai, đến ngày đó bỏ hẳn — đừng giảm dần trước | …ỗ trợ (mục 3), đặt một ngày cai rồi bỏ hẳn (… |
+| đầu chương | mục 5 | Gọi tổng đài tư vấn cai thuốc, hoặc đi phòng tư vấn cai thuốc lá | …hẳn (mục 4), tìm phòng tư vấn cai thuốc lá (… |
+| đầu chương | mục 6 | Thuốc lá điện tử: ở Việt Nam đã bị cấm, đừng coi là cách cai | …vấn cai thuốc lá (mục 5), thuốc lá điện tử (… |
+| đầu chương | mục 8 | Không ăn trầu — kể cả trầu không có thuốc lá | …), thuốc lá điện tử (mục 6), không ăn trầu (… |
+| đầu chương | mục 19 | Rượu bia: uống ít nhất có thể, và biết rằng mức an toàn là không uống | …trầu (mục 8), uống ít hoặc không uống rượu (… |
+| đầu chương | mục 20 | Run tay, vã mồ hôi khi thiếu rượu thì đừng tự cai — đi cơ sở y tế | …hằng ngày mà bỏ là run tay thì đừng tự cai (… |
+| đầu chương | mục 21 | Đếm xem một tuần bạn uống bao nhiêu đơn vị cồn — trước khi tự nói "tôi uống ít" | … (mục 20), đếm xem một tuần uống bao nhiêu (… |
+| đầu chương | mục 7 | Không uống đồ uống có đường — đổi sang loại "không đường" cũng không phải là giải pháp | … đồ uống có đường (… |
+| đầu chương | mục 18 | Bớt thịt chế biến — giò chả, lạp xưởng, xúc xích, khô bò | …ồ uống có đường (mục 7), thịt chế biến sẵn (… |
+| đầu chương | mục 28 | Bớt thực phẩm siêu chế biến — mì gói, xúc xích, bánh ngọt công nghiệp, nước ngọt | …biến sẵn (mục 18), thực phẩm siêu chế biến (… |
+| đầu chương | mục 30 | Đừng uống trà, nước dùng, cà phê khi còn quá nóng — chờ vài phút | … 28), không uống trà, súp, cà phê quá nóng (… |
+| đầu chương | mục 46 | Thấy mốc là bỏ cả gói — cắt phần mốc đi không cứu được | …cà phê quá nóng (mục 30), mốc là bỏ cả gói (… |
+| đầu chương | mục 47 | Không ăn gỏi cá nước ngọt — sán lá gan là tác nhân gây ung thư nhóm 1 | …cả gói (mục 46), không ăn gỏi cá nước ngọt (… |
+| đầu chương | mục 9 | Đổi sang muối giảm natri — nhưng người bệnh thận phải hỏi bác sĩ trước | … đổi muối thường sang muối giảm natri (… |
+| đầu chương | mục 22 | Mỗi ngày một nắm hạt nhỏ — hạt điều, đậu phộng, hạt hướng dương đều được | …i giảm natri (mục 9), mỗi ngày một nắm hạt (… |
+| đầu chương | mục 23 | Đổi bớt thịt đỏ sang cá, gia cầm, đậu — thay thế chứ không phải ăn thêm | …, thay một phần thịt đỏ bằng cá và gia cầm (… |
+| đầu chương | mục 24 | Đổi bớt gạo trắng sang ngũ cốc nguyên hạt — gạo lứt, yến mạch, bắp | …rắng, bột mì trắng bằng ngũ cốc nguyên hạt (… |
+| đầu chương | mục 25 | Uống trà đều đặn — hai, ba tách một ngày là đủ | …(mục 24), uống trà ba lần một tuần trở lên (… |
+| đầu chương | mục 26 | Cà phê: ba đến bốn tách một ngày là mức tốt nhất — nhưng phải là cà phê, không phải cà phê sữa | … (mục 25), ba đến bốn tách cà phê mỗi ngày (… |
+| đầu chương | mục 27 | Ăn đủ rau và trái cây — khoảng 400 g, chia thành 5 phần | …ục 26), ăn đủ 5 phần rau quả, khoảng 400 g (… |
+| đầu chương | mục 33 | Ăn cay — nhưng đừng ăn cay để thọ hơn | … (mục 27), ăn cay bốn lần một tuần trở lên (… |
+| đầu chương | mục 34 | Một đến hai phần sữa hoặc sữa chua mỗi ngày — không cần ba ly | …ỗi ngày một đến hai phần sữa hoặc sữa chua (… |
+| đầu chương | mục 35 | Trứng không phải thứ phải kiêng — một quả mỗi ngày là bình thường | … sữa chua (mục 34), trứng không phải kiêng (… |
+| đầu chương | mục 11 | Đi bộ 7000–8000 bước một ngày — mốc có lợi không nằm ở con số 10.000 | … bước, hoặc mỗi tuần 150–300 phút đi nhanh (… |
+| đầu chương | mục 14 | Chơi môn dùng vợt — cầu lông, bóng bàn, quần vợt | …t đi nhanh (mục 11), chơi các môn dùng vợt (… |
+| đầu chương | mục 15 | Tích những đoạn vận động mạnh vụn trong ngày — 1 đến 2 phút cũng có ích | …t (mục 14), gom những lúc gắng sức vụn vặt (… |
+| đầu chương | mục 16 | Tập sức mạnh mỗi tuần 30–60 phút — nhiều hơn không tốt thêm | …(mục 15), mỗi tuần 30–60 phút tập sức mạnh (… |
+| đầu chương | mục 17 | Đừng ngồi liền một chỗ quá lâu — nhưng vận động mới là thứ cứu được bạn | …sức mạnh (mục 16), đừng ngồi liền một mạch (… |
+| đầu chương | mục 32 | Giữ BMI trong khoảng 20–25 — người Việt nên bắt đầu xử lý từ 23 | … mạch (mục 17), giữ BMI trong khoảng 20–25 (… |
+| đầu chương | mục 44 | Nuôi chó thì tính luôn phần dắt chó đi bộ vào số bước chân | …ục 32), dắt chó đi bộ thì tính vào số bước (… |
+| đầu chương | mục 45 | Xét nghiệm ra tiền đái tháo đường thì làm ngay — đây là chỗ can thiệp có lãi nhất | …ớc (mục 44), phát hiện tiền đái tháo đường (… |
+| đầu chương | mục 13 | Ngủ 7 tiếng mỗi đêm — ngủ ít và ngủ quá nhiều đều có hại | … mỗi đêm khoảng 7 tiếng, giờ giấc đều (… |
+| đầu chương | mục 37 | Ngủ trưa dưới 30 phút — ngủ trưa dài có hại | …giấc đều (mục 13), ngủ trưa dưới nửa tiếng (… |
+| đầu chương | mục 38 | Thức khuya thì ngủ bù ngay đêm sau — đừng để dồn tới cuối tuần | …7), thức khuya thì đêm hôm sau ngủ bù ngay (… |
+| đầu chương | mục 39 | Làm ca đêm — chuyển sang ca ngày khi còn chuyển được | …), làm ca đêm thì chuyển việc sớm nếu được (… |
+| đầu chương | mục 29 | Đừng đốt than, củi trong nhà để nấu ăn hay sưởi | … nấu ăn, sưởi không đốt than và củi (… |
+| đầu chương | mục 40 | Đừng mua dầu lạc ép thủ công bán rời — aflatoxin không bị chiên phá | …29), không mua dầu lạc ép thủ công bán rời (… |
+| đầu chương | mục 41 | Dùng dầu thực vật thay mỡ lợn và bơ — nhưng đừng chiên lại dầu nhiều lần | …c 40), dùng dầu thực vật thay mỡ lợn và bơ (… |
+| đầu chương | mục 42 | Bật máy hút mùi từ lúc bắt đầu nấu, tắt sau khi dọn xong | …út mùi từ lúc bắt đầu nấu đến lúc dọn xong (… |
+| đầu chương | mục 10 | Đánh răng hai lần một ngày bằng kem có fluor, và làm sạch kẽ răng — đừng tin quảng cáo | …ẩn thận, mỗi ngày làm sạch kẽ răng một lần (… |
+| đầu chương | mục 12 | Uống thuốc theo đơn đều đặn — bỏ thuốc là chỗ chết người nhất trong điều trị bệnh mạn tính | …10), uống thuốc đều theo đơn, đừng tự dừng (… |
+| đầu chương | mục 31 | Ban ngày ra ngoài trời — nhưng là nắng sớm, không phải nắng trưa | …ng (mục 12), ban ngày ra ngoài cho có nắng (… |
+| đầu chương | mục 36 | Có bồn thì tắm — nhưng ngâm bồn là chỗ dễ ngất, phải cẩn thận | …có nắng (mục 31), có điều kiện thì tắm bồn (… |
+| đầu chương | mục 43 | Bốc hoả, vã mồ hôi tuổi mãn kinh mà ảnh hưởng sinh hoạt thì đi khám — đừng tự chịu | … thì đi khám để đánh giá liệu pháp hormone (… |
 | đầu chương | mục 5 | Gọi tổng đài tư vấn cai thuốc, hoặc đi phòng tư vấn cai thuốc lá | … **… |
 | đầu chương | mục 6 | Thuốc lá điện tử: ở Việt Nam đã bị cấm, đừng coi là cách cai | …phòng tư vấn và số 12320 của Trung Quốc), **… |
 | đầu chương | mục 40 | Đừng mua dầu lạc ép thủ công bán rời — aflatoxin không bị chiên phá | … cấm, nên kết luận sẽ ngược lại bản gốc), **… |
@@ -83,14 +129,6 @@ Tổng 80 chỗ tham chiếu.
 | mục 6 | mục 5 | Gọi tổng đài tư vấn cai thuốc, hoặc đi phòng tư vấn cai thuốc lá | …p pháp là thuốc kê đơn (mục 3) cộng tư vấn (… |
 | mục 15 | mục 11 | Đi bộ 7000–8000 bước một ngày — mốc có lợi không nằm ở con số 10.000 | …ng thay thế** việc đi bộ hay chơi thể thao (… |
 | mục 15 | mục 14 | Chơi môn dùng vợt — cầu lông, bóng bàn, quần vợt | …thế** việc đi bộ hay chơi thể thao (mục 11, … |
-| mục 20 | mục 0 | **không có mục này** | …am), dùng theo thang điểm **CIWA-Ar** — mỗi … |
-| mục 20 | mục 1 | Cai thuốc lá, càng sớm càng tốt | …am), dùng theo thang điểm **CIWA-Ar** — mỗi … |
-| mục 20 | mục 2 | Không hút trong nhà và trên xe, cũng đừng để khách hút trong nhà | …am), dùng theo thang điểm **CIWA-Ar** — mỗi … |
-| mục 20 | mục 3 | Cai thuốc đừng chỉ dựa vào ý chí: uống thuốc trước đã | …am), dùng theo thang điểm **CIWA-Ar** — mỗi … |
-| mục 20 | mục 4 | Đặt một ngày cai, đến ngày đó bỏ hẳn — đừng giảm dần trước | …am), dùng theo thang điểm **CIWA-Ar** — mỗi … |
-| mục 20 | mục 5 | Gọi tổng đài tư vấn cai thuốc, hoặc đi phòng tư vấn cai thuốc lá | …am), dùng theo thang điểm **CIWA-Ar** — mỗi … |
-| mục 20 | mục 6 | Thuốc lá điện tử: ở Việt Nam đã bị cấm, đừng coi là cách cai | …am), dùng theo thang điểm **CIWA-Ar** — mỗi … |
-| mục 20 | mục 7 | Không uống đồ uống có đường — đổi sang loại "không đường" cũng không phải là giải pháp | …am), dùng theo thang điểm **CIWA-Ar** — mỗi … |
 | mục 21 | mục 19 | Rượu bia: uống ít nhất có thể, và biết rằng mức an toàn là không uống | … Đếm xong thì đối chiếu với … |
 | mục 23 | mục 47 | Không ăn gỏi cá nước ngọt — sán lá gan là tác nhân gây ung thư nhóm 1 | …gỏi cá, cá sống** là đường lây sán lá gan — … |
 | mục 25 | mục 30 | Đừng uống trà, nước dùng, cà phê khi còn quá nóng — chờ vài phút | …i bớt vài phút, đừng uống ngay khi vừa rót (… |
@@ -112,3 +150,59 @@ Tổng 80 chỗ tham chiếu.
 | mục 39 | mục 1 | Cai thuốc lá, càng sớm càng tốt | …êm và cả hai đều làm tăng nguy cơ tim mạch (… |
 | mục 44 | mục 11 | Đi bộ 7000–8000 bước một ngày — mốc có lợi không nằm ở con số 10.000 | …000 bước" (… |
 | mục 45 | mục 32 | Giữ BMI trong khoảng 20–25 — người Việt nên bắt đầu xử lý từ 23 | …iêu về "cân nặng lý tưởng" rồi bỏ cuộc (xem … |
+
+## 03-dung-lang-phi-suc-luc
+
+| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
+| --- | --- | --- | --- |
+| đầu chương | mục 9 | Đến giờ là ngủ — đừng thức vì game, video ngắn hay nội dung khiêu dâm | … 2 mục xếp C vì không dựa trên thí nghiệm (… |
+| đầu chương | mục 19 | Coi công an, bác sĩ, giao dịch viên là người đi làm theo quy định, không phải "nhân vật" | …trên thí nghiệm (mục 9 là khảo sát tự khai, … |
+| đầu chương | mục 22 | Coi "người khác đòi mình phải hoàn hảo" là triệu chứng, không phải sự thật | … Riêng … |
+| đầu chương | mục 1 | Tắt thông báo không cần thiết, để điện thoại ra ngoài tầm mắt | … tắt thông báo không cần thiết (… |
+| đầu chương | mục 5 | Gom email và tin nhắn thành vài lần cố định mỗi ngày | …iết (mục 1), gom tin nhắn mỗi ngày vài lần (… |
+| đầu chương | mục 6 | Đang làm việc cần suy nghĩ liên tục thì chặn cả những ngắt quãng vài giây | …(mục 5), chặn cả những ngắt quãng vài giây (… |
+| đầu chương | mục 7 | Một lúc chỉ làm một việc — đừng vừa họp vừa trả lời tin nhắn | …vài giây (mục 6), một lúc chỉ làm một việc (… |
+| đầu chương | mục 12 | Làm việc ở phòng mở thì dùng nút tai, hoặc tìm phòng yên tĩnh cho việc cần ghi nhớ | …mục 7), phòng làm việc mở thì dùng nút tai (… |
+| đầu chương | mục 13 | Đừng cứ tăng giờ làm mãi | …ng nút tai (mục 12), đừng tăng giờ làm mãi (… |
+| đầu chương | mục 2 | Giữ giờ thức cố định, cuối tuần cũng vậy | … giờ thức cố định (… |
+| đầu chương | mục 3 | Ngủ đủ 7 đến 8 tiếng, đừng coi 6 tiếng là đủ | …thức cố định (mục 2), ngủ đủ 7 đến 8 tiếng (… |
+| đầu chương | mục 4 | Sau 2 giờ chiều thì đừng đụng caffeine | …ục 3), sau 2 giờ chiều không đụng caffeine (… |
+| đầu chương | mục 8 | Một giờ trước khi ngủ không nhìn màn hình phát sáng | … một giờ trước khi ngủ không nhìn màn hình (… |
+| đầu chương | mục 9 | Đến giờ là ngủ — đừng thức vì game, video ngắn hay nội dung khiêu dâm | …hông nhìn màn hình (mục 8), đến giờ là ngủ (… |
+| đầu chương | mục 10 | Đêm khuya không quyết định việc lớn, không gửi tin nhắn quan trọng | …gủ (mục 9), đêm khuya không quyết định lớn (… |
+| đầu chương | mục 11 | Chiều buồn ngủ thì chợp 10 phút, đừng ngủ nửa tiếng | … (mục 10), chiều buồn ngủ thì chợp 10 phút (… |
+| đầu chương | mục 26 | Mất ngủ kéo dài thì làm trị liệu hành vi cho giấc ngủ trước, đừng uống thuốc ngủ dài hạn | …ngủ kéo dài thì làm trị liệu hành vi trước (… |
+| đầu chương | mục 27 | Ngáy to, có người thấy bạn ngưng thở khi ngủ, ban ngày buồn ngủ tới mức lái xe cũng muốn ngủ — đi đo giấc ngủ | …ớc (mục 26), ngáy và ngừng thở thì đi khám (… |
+| đầu chương | mục 14 | Thấy mình cứ nghĩ vòng vo về một chuyện khó chịu thì đổi sang việc cần tay chân | … nghĩ vòng vo thì đổi sang việc tay chân (… |
+| đầu chương | mục 15 | Coi những ý như "mọi chuyện chắc chắn sẽ tệ hơn" là triệu chứng, không phải sự thật | …mục 14), coi ý nghĩ bi quan là triệu chứng (… |
+| đầu chương | mục 21 | Thấy "mọi người đều thấy mình bị bẽ mặt" thì chia đôi con số đó ra | …y mình ê mặt thì chia đôi con số ước lượng (… |
+| đầu chương | mục 22 | Coi "người khác đòi mình phải hoàn hảo" là triệu chứng, không phải sự thật | …"ai cũng đòi mình hoàn hảo" là triệu chứng (… |
+| đầu chương | mục 17 | Đang giận thì rời chỗ trước, coi người kia như thời tiết chứ không như kẻ thù | … đang giận thì rời khỏi chỗ đó trước (… |
+| đầu chương | mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám khi không tự lên được | … (mục 17), buồn thì làm mấy việc này trước (… |
+| đầu chương | mục 23 | Đang giận thì đừng đấm bao cát hay chạy một vòng để xả — làm chậm cơ thể trước | …ục 18), đừng xả giận bằng cách đấm bao cát (… |
+| đầu chương | mục 24 | Trong lòng đang nặng một chuyện thì viết ra vài ngày liền — nhưng đừng trông vào nó để chữa bệnh | …o cát (mục 23), viết ra giấy mấy ngày liền (… |
+| đầu chương | mục 16 | Bớt những quan hệ làm mình hao, tập nói "không" với yêu cầu mình không muốn nhận | … biết từ chối việc mình không muốn nhận (… |
+| đầu chương | mục 19 | Coi công an, bác sĩ, giao dịch viên là người đi làm theo quy định, không phải "nhân vật" | …g an, bác sĩ là người đi làm theo quy định (… |
+| đầu chương | mục 20 | Đừng coi "người khác đang sống thế nào" là món đọc hằng ngày | …ới hạn cho app cho xem đời sống người khác (… |
+| đầu chương | mục 25 | Đau bụng kinh thì uống thuốc giảm đau, đừng chịu đựng — đau tới mức nghỉ làm nghỉ học thì đi khám | …kinh thì uống thuốc giảm đau như ibuprofen (… |
+| mục 2 | chương 2 mục 38 | Thức khuya thì ngủ bù ngay đêm sau — đừng để dồn tới cuối tuần | … thử nghiệm ngẫu nhiên ở … |
+| mục 2 | chương 2 mục 37 | Ngủ trưa dưới 30 phút — ngủ trưa dài có hại | … trưa cũng phải ngắn — quá 60 phút thì hại (… |
+| mục 2 | chương 2 mục 39 | Làm ca đêm — chuyển sang ca ngày khi còn chuyển được | … nguyên giờ thức 2 đến 3 ngày rồi dịch dần (… |
+| mục 3 | chương 2 mục 37 | Ngủ trưa dưới 30 phút — ngủ trưa dài có hại | …giấc đêm — trưa dài quá 60 phút còn có hại (… |
+| mục 3 | chương 2 mục 38 | Thức khuya thì ngủ bù ngay đêm sau — đừng để dồn tới cuối tuần | … ngủ bù cuối tuần cũng không trả nợ (… |
+| mục 3 | mục 4 | Sau 2 giờ chiều thì đừng đụng caffeine | … sau đầu giờ chiều thì còn phá luôn đêm đó (… |
+| mục 3 | mục 27 | Ngáy to, có người thấy bạn ngưng thở khi ngủ, ban ngày buồn ngủ tới mức lái xe cũng muốn ngủ — đi đo giấc ngủ | …u ban ngày buồn ngủ nhiều thì phải đi khám (… |
+| mục 6 | mục 1 | Tắt thông báo không cần thiết, để điện thoại ra ngoài tầm mắt | …gười khác là chưa đủ, phải chặn chính mình (… |
+| mục 11 | chương 2 mục 37 | Ngủ trưa dưới 30 phút — ngủ trưa dài có hại | … tăng nguy cơ tim mạch và tử vong — đã có ở … |
+| mục 11 | mục 2 | Giữ giờ thức cố định, cuối tuần cũng vậy | … sau 15 giờ vì sẽ đẩy lùi giờ ngủ buổi tối (… |
+| mục 14 | mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám khi không tự lên được | …hứng thú, thì cần gặp người làm chuyên môn (… |
+| mục 15 | mục 10 | Đêm khuya không quyết định việc lớn, không gửi tin nhắn quan trọng | … ghi lại rồi để sáng mai xử lý (… |
+| mục 15 | mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám khi không tự lên được | …ng nhiều tuần thì cần người làm chuyên môn (… |
+| mục 17 | mục 14 | Thấy mình cứ nghĩ vòng vo về một chuyện khó chịu thì đổi sang việc cần tay chân | …rửa mặt, sang phòng khác làm việc tay chân (… |
+| mục 18 | mục 2 | Giữ giờ thức cố định, cuối tuần cũng vậy | …i đó** là hai việc đã có bằng chứng riêng ở … |
+| mục 18 | mục 8 | Một giờ trước khi ngủ không nhìn màn hình phát sáng | … phải buổi tối (buổi tối thì ngược lại, xem … |
+| mục 20 | mục 1 | Tắt thông báo không cần thiết, để điện thoại ra ngoài tầm mắt | … Chế độ kỹ thuật số), tắt thông báo (… |
+| mục 22 | mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám khi không tự lên được | … đi khám (… |
+| mục 23 | mục 17 | Đang giận thì rời chỗ trước, coi người kia như thời tiết chứ không như kẻ thù | … rời chỗ (… |
+| mục 24 | mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám khi không tự lên được | … hại bản thân, thì **dừng lại và đi khám** (… |
+| mục 26 | mục 2 | Giữ giờ thức cố định, cuối tuần cũng vậy | …) **giữ giờ thức cố định** kể cả cuối tuần (… |

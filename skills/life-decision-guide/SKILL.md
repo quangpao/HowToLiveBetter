@@ -1,117 +1,119 @@
 ---
 name: life-decision-guide
-description: 用《高性价比人生指南》(github.com/eternity4719/HowToLiveBetter) 的正文回答具体的人生决策：该不该做、值不值、怎么选、出事了先做什么、能领哪笔钱、这么干犯不犯法。先把相关条目查出来再答，按成本（钱/时间/毅力）、收益量级和证据等级 A/B/C 排序，每条都注明出自第几节第几条。触发词：该不该、值不值、要不要、划不划算、怎么选、帮我决定、这样犯法吗、能领什么、先做什么、性价比。
+description: "Dùng nội dung sách Cẩm nang sống thông minh (github.com/quangpao/HowToLiveBetter) trả lời câu hỏi quyết định cụ thể trong đời — có nên làm hay không, đáng không, chọn thế nào, có phạm luật không, được hưởng gì, làm gì trước, đắt hay rẻ. Tra mục liên quan trong sách trước rồi mới trả lời, xếp theo chi phí (tiền/thời gian/ý chí), mức lợi ích và mức bằng chứng A/B/C, mỗi câu ghi rõ chương N mục M. Từ khoá kích hoạt: có nên, đáng không, chọn thế nào, có phạm luật không, được hưởng gì, làm gì trước, đắt hay rẻ."
 ---
 
-# 人生决策：按《高性价比人生指南》查了再答
+# Quyết định đời người: tra trong Cẩm nang sống thông minh rồi hãy trả lời
 
-## 这个 skill 干什么
+## Skill này làm gì
 
-有人问一件具体的人生事情该怎么办，先去《高性价比人生指南》里把相关条目查出来，再按书里的算账方式排好序回答。
+Có người hỏi một việc cụ thể trong đời nên xử thế nào: tra mục liên quan trong sách trước, rồi trả lời theo đúng cách tính của sách, đã xếp thứ tự.
 
-**没查到就别答。** 回答里的每个数字、每条法条、每个结论都要能指回某一条正文；指不回去，就直说书里没写，可以给常识判断，但要标明那是常识不是书里的内容。不要凭记忆补数字、补 DOI、补法条条款号。
+**Không tra được thì đừng trả lời.** Mỗi con số, mỗi điều luật, mỗi kết luận trong câu trả lời phải chỉ ngược về được một mục trong sách; không chỉ về được thì nói thẳng là sách không viết, có thể đưa hiểu biết thông thường nhưng phải ghi rõ đó là hiểu biết chung, không phải nội dung sách. Đừng lấy trí nhớ ra bù số, bù DOI, bù số điều khoản.
 
-书把要换回的东西分成四样：寿命、时间与精力、金钱、人身自由。**四样分开算，不互相折算**——「总死亡率降 12%」和「每年省 500 元」不在一把尺子上。
+Sách chia thứ đổi về thành bốn loại: mạng sống, thời gian và sức lực, tiền, tự do thân thể. **Bốn loại tính riêng, không quy đổi lẫn nhau** — "tử vong chung giảm 12%" và "mỗi năm tiết kiệm 500 nghìn" không nằm trên cùng một thước.
 
-## 第 0 步：先看要不要马上停下
+## Bước 0: xem có phải dừng lại ngay
 
-- **正在发生的急症**（倒地没呼吸、大出血、火灾、溺水、触电、中毒、卒中或心梗的症状）：先说打 120 / 119 和现场第一个动作，出处第 13 节，别先讲性价比。
-- **提到自杀念头、活不下去**：先给全国心理援助热线 12356，再按第 1 节和第 29 节里的条目说，不做劝导式分析，不评价动机。
-- **正在进行的法律程序**（已被传唤、已被拘留、已被起诉）：先指第 8 节对应条目，并说明书只给通用口径，个案要找律师。
-- 其余情况，照下面的步骤走。
+- **Cấp cứu đang diễn ra** (nằm bất tỉnh không thở, chảy máu nhiều, cháy, đuối nước, điện giật, ngộ độc, dấu hiệu đột quỵ hoặc nhồi máu cơ tim): nói ngay gọi 115 (cấp cứu) hoặc 114 (cháy) và việc làm đầu tiên tại chỗ, dẫn chương 13; đừng giảng chuyện đáng hay không đáng trước.
+- **Nhắc tới ý nghĩ tự tử, không sống nổi**: đưa số trước — 115 nếu đã uống thuốc hoặc đã bị thương, 1900 1267 (đường dây của Bệnh viện Tâm thần TP.HCM), 096.306.1414 (đường dây Ngày mai), 111 (bảo vệ trẻ em, trực 24/7) — rồi nói theo chương 1 mục 25 và mục 32, cùng chương 29. Không phân tích kiểu khuyên bảo, không đánh giá động cơ.
+- **Đang trong trình tự pháp lý** (đã bị triệu tập, đã bị tạm giữ, đã bị khởi tố): dẫn mục tương ứng ở chương 8 trước, và nói rõ sách chỉ đưa cách hiểu chung, vụ cụ thể phải tìm luật sư.
+- Các trường hợp còn lại thì đi theo các bước dưới.
 
-## 第 1 步：把正文拿到手
+## Bước 1: lấy nội dung sách về tay
 
-**本地**：当前目录或上级目录里有 `README.md` 和 `book/01-不要早死.md`，就是本地模式，直接读。
+**Cục bộ**: thư mục hiện tại hoặc thư mục cha có `README.md` và `book/01-dung-chet-som.md` là đang ở chế độ cục bộ, đọc thẳng.
 
-**远程**：没有就现取。整本 1.3 MB，浅克隆一次最省事，后面所有命令都能照常用：
-
-```bash
-git clone --depth 1 https://github.com/eternity4719/HowToLiveBetter.git "${TMPDIR:-/tmp}/hltb"
-```
-
-不能用 git 时按文件取（文件名里的中文直接写就行）：
+**Từ xa**: không có thì lấy về. Cả bộ gần 3 MB, clone nông một lần là gọn nhất, mọi lệnh sau đó dùng được như thường:
 
 ```bash
-curl -fsSL --compressed "https://raw.githubusercontent.com/eternity4719/HowToLiveBetter/main/book/02-不要慢慢死.md"
+git clone --depth 1 -b vi https://github.com/quangpao/HowToLiveBetter.git "${TMPDIR:-/tmp}/hltb"
 ```
 
-这两条都走不通，就说明取不到正文，如实告诉用户，不要凭印象复述书的内容。
-
-## 第 2 步：定位到节
-
-先挑 1 到 3 节：读仓库根目录 `README.md` 里「这本书想回答的问题」那张表（一节一行，写明这一节回答什么问题，并带着 `book/` 下对应的文件名），按用户问的事对上号。节的增删都反映在那张表里，这里不另留一份清单。
-
-节文件就在 `book/` 下，文件名自带节号和节名，`ls book/` 也能看全。
-
-长文在 `docs/`：结婚划不划算、家庭应急装备清单、做平台要办哪些证、遇到陌生人出事该不该停。
-
-## 第 3 步：把条目捞出来
-
-节文件最大的有 110 KB，别整篇读，按关键词捞。有 Grep / Read 这类工具就用工具，只有 shell 就用命令：
+Không dùng được git thì lấy theo từng file:
 
 ```bash
-grep -rn '^### ' book/ | grep -E '关键词1|关键词2'        # 先看有哪些条目标题
-grep -rn -B2 -A8 '关键词' book/08-别把自己搭进去.md        # 正文里搜，带上下文
-sed -n '/^### 16\. /,/^### 17\. /p' book/08-别把自己搭进去.md  # 按条号抽一整条
+curl -fsSL --compressed "https://raw.githubusercontent.com/quangpao/HowToLiveBetter/vi/book/02-dung-chet-dan.md"
 ```
 
-**抽出来的条目要整条读完**，尤其是「备注」栏——适用人群、争议、例外都写在那里，只读标题会把条件丢掉。
+Chương 1 đến 3 đã có bản tiếng Việt, dùng thẳng. Chương 4 đến 34 mới có bản gốc tiếng Trung trong `book/` (tên file giữ nguyên tiếng Trung), bản Việt đang biên soạn; trích từ đó thì lấy tên chương theo bảng trong `README.md` và ghi rõ là chương chưa có bản Việt.
 
-一条长这样：
+Hai cách trên đều không chạy thì nói thật là không lấy được nội dung, đừng kể lại sách theo trí nhớ.
+
+## Bước 2: định vị chương
+
+Chọn 1 đến 3 chương: đọc bảng "Cuốn sách này trả lời câu gì" ở `README.md` gốc repo (mỗi chương một dòng, ghi chương trả lời câu gì, kèm tên file trong `book/`), đối chiếu với việc người dùng hỏi. Thêm bớt chương đều thể hiện ở bảng đó, ở đây không giữ thêm danh sách nào.
+
+File chương nằm ngay trong `book/`, tên file có số chương và tên chương, `ls book/` xem được hết.
+
+Bài dài nằm trong `docs/`: kết hôn có đáng không, bộ dụng cụ dự phòng tại nhà, làm nền tảng phải xin giấy gì, gặp người lạ gặp nạn có nên dừng lại. Bản Việt chưa có bài dài nào — xem dòng "Bài dài" trong `README.md`.
+
+## Bước 3: lôi mục ra
+
+File chương lớn nhất hơn 100 KB, đừng đọc cả bài, tra theo từ khoá. Có Grep / Read thì dùng công cụ, chỉ có shell thì dùng lệnh:
+
+```bash
+grep -rn '^### ' book/ | grep -E 'từ-khoá-1|từ-khoá-2'      # xem trước có những mục nào
+grep -rn -B2 -A8 'từ khoá' book/08-*.md                      # tìm trong thân bài, kèm ngữ cảnh
+sed -n '/^### 16\. /,/^### 17\. /p' book/08-*.md              # lấy trọn một mục theo số mục
+```
+
+**Mục lôi ra phải đọc hết**, nhất là dòng "Ghi chú" — đối tượng áp dụng, chỗ tranh luận, ngoại lệ đều nằm ở đó, chỉ đọc tiêu đề là mất điều kiện.
+
+Một mục trông như sau:
 
 ```markdown
-### 5. 把家里的食盐换成低钠盐（钾盐）
-<!-- 成本标签: 钱=少 时间=少 毅力=否 收益=中 口径=死亡率 -->
-- 成本：每袋贵几元
-- 说人话：……死亡的概率低约 12%……
-- 收益：脑卒中降 14%，心血管事件降 13%，总死亡率降 12%
-- 证据等级：A
-- 来源：Neal B, et al. (2021). NEJM. https://doi.org/10.1056/NEJMoa2105675
-- 备注：争议。肾功能不全、正在吃保钾利尿剂的人不要用。……
+### 9. Đổi sang muối giảm natri — nhưng người bệnh thận phải hỏi bác sĩ trước
+<!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tử-vong -->
+- Chi phí: Đắt hơn muối thường chút ít, chênh lệch tính bằng nghìn đồng một gói……
+- Nói dễ hiểu: ……đổi muối thường sang muối giảm natri (có kali) làm đột quỵ giảm 14% và tử vong giảm 12%……
+- Lợi ích: ……**tử vong giảm 12%** (RR 0,88; 0,82–0,95)……
+- Mức bằng chứng: A
+- Nguồn: Neal B và cs. (2021). NEJM. https://doi.org/10.1056/NEJMoa2105675
+- Ghi chú: **Đừng dùng muối giảm natri nếu bạn có bệnh thận mạn, đang dùng thuốc giữ kali……**
 ```
 
-那行 HTML 注释是给机器读的成本标签：钱 0/少/多、时间 少/中/多、毅力 否/些/是、收益 大/中/小、口径 死亡率/金钱/时间/自由。少数条目末尾还有 `人群=`（怀孕、婴幼儿、孩子、老人、35岁、60岁、女性，逗号是或、加号是且），表示只对这些人有用；用户明显不在那个人群里时，这条可以不推荐。
+Dòng comment HTML là nhãn chi phí cho máy đọc: tiền 0/ít/nhiều, thời-gian ít/vừa/nhiều, ý-chí không/ít/có, lợi-ích lớn/vừa/nhỏ, thước-đo tử-vong/mắc-bệnh/triệu-chứng/tàn-tật/thời-gian/tiền/tự-do. Một số mục cuối còn có `nhóm=` (trẻ-em, 45-tuổi, 60-tuổi, nữ, nữ+65-tuổi, tim-mạch+cao-tuổi), nghĩa là mục này chỉ có ích cho nhóm người đó; dấu `+` là phải đúng cả hai điều kiện. Người dùng rõ ràng không ở trong nhóm đó thì mục này có thể không cần giới thiệu.
 
-## 第 4 步：排序
+## Bước 4: xếp thứ tự
 
-排序照书的算法，别凭感觉：
+Xếp theo cách tính của sách, đừng theo cảm giác:
 
-1. 档位的算法以仓库根目录的 `index.html` 为准，别凭记忆写，当场把那两行抠出来照着算：
+1. Mức đáng làm lấy theo `index.html` ở gốc repo, đừng viết theo trí nhớ, lôi đúng hai dòng đó ra rồi tính:
 
    ```bash
    grep -n 'COST_W = \|e\.ratio = ' index.html
    ```
 
-   前一行是三项成本各档的权重，成本分 = 钱 + 时间 + 毅力三项相加；后一行是收益量级配上成本分怎么落到「极高 / 高 / 一般」。
-2. 只按文件 curl 了正文、手上没有 `index.html` 时，别报性价比档，改成把收益量级和三个成本标签原样列出来，让用户自己掂量。
-3. 先按性价比，同档再按证据等级 A > B > C，再按跟用户处境的贴合度。
-4. **不同口径之间不排序**。换钱的和换寿命的分开列，各排各的。
-5. 「一般」不等于不该做，只是那笔花销得用户自己掂量。性价比是作者的判断，按书自己的标准只算 C 级，和证据等级是两回事。
+   Dòng đầu là trọng số từng mức của ba loại chi phí, điểm chi phí = tiền + thời gian + ý chí; dòng sau là cách ghép mức lợi ích với điểm chi phí để ra "rất cao / cao / trung bình".
+2. Chỉ curl được thân bài mà không có `index.html` thì đừng báo mức đáng làm, thay bằng liệt kê nguyên mức lợi ích và ba nhãn chi phí để người dùng tự cân.
+3. Trước hết theo mức đáng làm, cùng mức thì theo bằng chứng A > B > C, rồi theo độ khớp với hoàn cảnh người dùng.
+4. **Không xếp giữa các thước đo khác nhau.** Mục đổi lấy tiền và mục đổi lấy mạng sống để riêng, mỗi loại xếp một danh sách.
+5. "Trung bình" không có nghĩa là đừng làm, chỉ là khoản bỏ ra phải tự cân. Mức đáng làm là phán đoán của người biên soạn, theo thang của chính sách thì nó chỉ đáng C, và nó khác hẳn mức bằng chứng.
 
-## 第 5 步：怎么写这份答复
+## Bước 5: viết câu trả lời thế nào
 
-排好序之后按这个结构写：
+Xếp xong thì viết theo cấu trúc này:
 
-1. **一句话结论**：这件事划不划算、该不该做、第一步是什么。
-2. **先做这几条**（3 到 7 条，按上面的序）。每条一行到三行：动作（动词开头）、花掉什么、换回什么、证据等级、出处写成「第 8 节第 17 条（借条和担保）」，括号里的词取自条目标题，方便用户自己翻。
-3. **别做 / 不用做的**：书里明确说不值得或有反面证据的，单列出来。
-4. **书里没写的**：如实说，不要拿常识冒充书的内容。
-5. 需要的话补一句复查点：什么时候回头再看一次，或者什么信号出现就改主意。
+1. **Kết luận một câu**: việc này đáng hay không đáng, có nên làm, bước đầu là gì.
+2. **Làm mấy mục này trước** (3 đến 7 mục, theo thứ tự trên). Mỗi mục một đến ba dòng: việc làm (mở đầu bằng động từ), mất gì, được gì, mức bằng chứng, nguồn ghi thành "chương 2 mục 9 (đổi sang muối giảm natri)", chữ trong ngoặc lấy từ tiêu đề mục để người dùng tự lật sách.
+3. **Đừng làm / không cần làm**: mục nào sách nói rõ là không đáng hoặc có bằng chứng ngược thì để riêng ra.
+4. **Sách không viết**: nói thật, đừng lấy hiểu biết chung giả làm nội dung sách.
+5. Nếu cần thì thêm một câu về điểm xem lại: khi nào nên xem lại lần nữa, hoặc dấu hiệu nào xuất hiện thì đổi ý.
 
-写的时候守住这几条：
+Viết thì giữ mấy điều sau:
 
-- **落到谁身上要说清**。书把受益人分四档，按好处回到自己身上的可能性从高到低：① 你自己；② 配偶和直系亲属；③ 朋友、同事和其他亲属；④ 陌生人。写到第 ④ 档（救陌生人、替人担保、帮人转账）要把风险面和好处一起写：被讹、被卷进案子、被报复，不能只写好处，也不能写成一律别管。
-- **「法律支持你」的事必须连过程成本一起说**。只说结果不说过程，等于把胜诉率当成收益。要交代要不要打官司、大概多久（一审普通程序 6 个月起、可延长，简易程序 3 个月）、律师费谁掏（律师费不在诉讼费用里，败诉方负担不包括它）。
-- **数字照抄条目**，一个不改。条目里写了置信区间、人群、年份就一并留着；HR、RR、OR 这类写法旁边就地翻成「低约 28%」，原值不删。条目里没有的数字、症状、机制解读一律不加。
-- **口语化**：按没受过专业训练的成年人能一遍读懂来写。专业名词当场用日常话解释一句，法条落到「会摊上什么后果、该怎么做」。来源栏照原样给，方便核对。
-- **语气克制**，不说教，不用感叹号，简体中文。用户不按建议做是他自己的事，不追着劝。
-- **政策会变**：第 7、19、21、24、31、32 节里那些金额、时限、名单，正文写了截至日期，答复里把日期带上并提醒用户自查官方渠道。
-- 有「争议」标注的条目，把反方证据也说一句；标了「TODO 待核实」的，别当结论用。
-- 不引知乎、公众号、搜狐这类二手转述，只给条目「来源」栏里已有的链接。
+- **Lợi ích rơi vào ai phải nói rõ.** Sách chia người hưởng làm bốn bậc, theo khả năng lợi ích quay về chính mình từ cao xuống thấp: ① bản thân bạn; ② vợ hoặc chồng và người thân trực hệ; ③ bạn bè, đồng nghiệp và họ hàng khác; ④ người lạ. Viết tới bậc ④ (cứu người lạ, bảo lãnh cho người khác, chuyển tiền hộ) thì phải nói cả mặt rủi ro lẫn lợi ích: bị vu oan, bị kéo vào vụ án, bị trả thù; không chỉ nói lợi ích, cũng không viết thành mặc kệ hết.
+- **Việc "pháp luật đứng về phía bạn" phải nói kèm chi phí của quá trình.** Chỉ nói kết quả mà không nói quá trình là lấy tỷ lệ thắng làm lợi ích. Phải nói rõ có phải kiện không, mất chừng bao lâu (sơ thẩm theo thủ tục thông thường 6 tháng trở lên, có thể gia hạn; thủ tục rút gọn 3 tháng), tiền luật sư ai trả (tiền luật sư không nằm trong án phí, bên thua không phải chịu khoản đó).
+- **Số chép nguyên từ mục**, không sửa một chữ. Mục có khoảng tin cậy, nhóm người, năm thì giữ lại đủ; chỗ viết HR, RR, OR thì dịch ngay bên cạnh thành "thấp hơn khoảng 28%", không xoá số gốc. Số, triệu chứng, cách hiểu cơ chế mà mục không có thì tuyệt đối không thêm.
+- **Viết như nói**: người lớn không qua đào tạo chuyên môn đọc một lượt là hiểu. Thuật ngữ thì giải thích ngay một câu bằng lời thường, điều luật thì hạ xuống thành "sẽ vướng hậu quả gì, phải làm gì". Dòng nguồn để nguyên cho dễ đối chiếu.
+- **Giọng vừa phải**, không giảng đạo, không dùng dấu chấm than, viết tiếng Việt. Người dùng không làm theo là việc của họ, không đeo bám khuyên.
+- **Chính sách sẽ đổi**: mấy chỗ tiền, thời hạn, danh sách trong chương 7, 19, 21, 24, 31, 32 có ghi mốc tính đến ngày nào; câu trả lời phải mang theo mốc đó và nhắc người dùng tự kiểm lại ở kênh chính thức.
+- Mục có ghi "tranh luận" thì nói thêm một câu về bằng chứng phía ngược; mục ghi "TODO chờ kiểm" thì đừng dùng như kết luận.
+- Không dẫn nguồn kể lại gián tiếp (báo tổng hợp, blog, diễn đàn), chỉ đưa liên kết đã có sẵn trong dòng "Nguồn" của mục.
 
-## 边界
+## Ranh giới
 
-这本书给的是通用口径，不替代医生、律师、会计。涉及具体病情、具体案件、具体税务的，按书里的条目给方向和该找谁，别替专业人士下判断。不给个性化投资建议。
+Sách đưa cách hiểu chung, không thay bác sĩ, luật sư, kế toán. Việc liên quan bệnh cụ thể, vụ việc cụ thể, thuế cụ thể thì theo mục trong sách mà cho hướng và chỉ nên tìm ai, đừng phán thay người chuyên môn. Không đưa lời khuyên đầu tư riêng cho từng người.
 
-书的观点是作者的，性价比档怎么划也是作者的判断。用户不同意某一条时，把书里的依据摆出来就够了，不辩论。
+Quan điểm trong sách là của tác giả, cách chia mức đáng làm cũng là phán đoán của tác giả. Người dùng không đồng ý một mục thì đưa căn cứ trong sách ra là đủ, không tranh luận.

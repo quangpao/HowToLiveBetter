@@ -335,11 +335,3 @@ A 级只说明「有具体数字、出处可核」，不说明这个数字一定
 觉得有用，可以用微信扫码请作者喝杯咖啡。给不给都行，不影响任何内容。
 
 <img src="ads/wechat-reward.png" alt="微信赞赏码" width="240">
-
-## 广告位
-
-<a href="https://4.mcyyy.com"><img src="ads/mcyyy.webp" alt="永恒世界 Minecraft 服务器，游戏地址 1.mcyyy.com" width="820"></a>
-
-## 商务合作
-
-邮箱 [admin@mcyyy.com](mailto:admin@mcyyy.com)

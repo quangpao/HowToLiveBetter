@@ -1,17 +1,17 @@
-// 交叉引用对照表：把正文里每一处「第 X 条」引用解析成它实际指向的条目标题，
-// 写进 docs/引用对照.md。那份文件入库，所以插入或删除条目导致引用指向变化时，
-// git diff 会直接把变化摆出来——条号没动而标题变了，就是错位。
+// Bảng đối chiếu tham chiếu: phân giải mỗi chỗ tham chiếu "mục X" trong nội dung thành tiêu đề mục mà nó thực sự trỏ tới,
+// rồi ghi vào docs/doi-chieu-muc.md. File đó được commit, nên khi chèn hay xoá mục làm tham chiếu trỏ sang chỗ khác,
+// git diff sẽ bày thẳng thay đổi ra — số mục không đổi mà tiêu đề đổi, tức là bị lệch.
 //
-//   node tools/check-refs.mjs            # 重新生成对照表（sync-stats.mjs 会自动调用）
-//   node tools/check-refs.mjs --check    # 只校验不写文件，有失效引用则退出码 1（CI 用）
-//   node tools/check-refs.mjs --suspect  # 额外列出措辞和目标标题对不上的，误报多，排查历史遗留时用
+//   node tools/check-refs.mjs            # sinh lại bảng đối chiếu (sync-stats.mjs tự gọi)
+//   node tools/check-refs.mjs --check    # chỉ kiểm không ghi file, có tham chiếu hỏng thì mã thoát 1 (dùng cho CI)
+//   node tools/check-refs.mjs --suspect  # liệt kê thêm các chỗ lời văn không khớp tiêu đề đích, báo nhầm nhiều, dùng khi soi lại chỗ cũ
 //
-// 为什么需要它：条号是位置依赖的，正文里的引用只记了位置不记内容。2026-09-19
-// 在第 7 节发现 6 处指错（医疗救助指到低保、救助站指错条），全都在条号范围内，
-// 越界检查一条都抓不到。
-// 注意：切行一律用 /\r?\n/，不能用 '\n'。book/ 下的文件行尾不统一（有 CRLF 有 LF），
-// 而 JS 正则的 . 不匹配 \r（CR 也算行终止符，这点和 Python、Perl 不一样），
-// 留着 \r 会让 /^### (\d+)\. (.*)$/ 在 CRLF 文件上一条都匹配不到。
+// Vì sao cần nó: số mục phụ thuộc vị trí, tham chiếu trong nội dung chỉ ghi vị trí chứ không ghi nội dung. 2026-09-19
+// phát hiện 6 chỗ trỏ sai ở chương 7 (cứu trợ y tế trỏ sang trợ cấp thu nhập thấp, trạm cứu trợ trỏ sai mục), tất cả đều nằm trong khoảng số mục hợp lệ,
+// kiểm tra vượt khoảng không bắt được chỗ nào.
+// Lưu ý: cắt dòng luôn dùng /\r?\n/, không dùng '\n'. File trong book/ có kiểu xuống dòng không thống nhất (có CRLF có LF),
+// mà dấu . trong regex JS không khớp \r (CR cũng tính là ký tự kết thúc dòng, điểm này khác Python và Perl),
+// giữ \r lại sẽ làm /^### (\d+)\. (.*)$/ không khớp được dòng nào trên file CRLF.
 import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
 import { resolve, dirname, basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -19,26 +19,26 @@ import { fileURLToPath } from 'node:url';
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const CHECK_ONLY = process.argv.includes('--check');
 
-// 节内的裸引用（「见第 8 条」）只在这几个栏位里找：来源栏里的「第 N 条」几乎都是
-// 法条条款号，扫进来全是误报。
+// Tham chiếu trần trong chương ("xem mục 8") chỉ tìm trong mấy cột này: "mục N" ở cột nguồn gần như đều là
+// số điều khoản luật, quét vào toàn báo nhầm.
 const FIELDS = /^- (Nói dễ hiểu|Lợi ích|Ghi chú|Chi phí):/;
-// 但带节号的跨节引用（「见第 11 节第 16 条」）不会和法条混淆，来源栏里也有，一并扫。
-// book/26 第 103 条那处「日志留存见第 11 节第 16 条」就写在来源栏里，差点漏掉。
+// Nhưng tham chiếu chéo có số chương ("xem chương 11 mục 16") không lẫn với điều luật, cột nguồn cũng có, quét luôn.
+// Chỗ "lưu nhật ký xem chương 11 mục 16" ở mục 103 của book/26 viết ngay trong cột nguồn, suýt bị bỏ sót.
 const CROSS_FIELDS = /^- (Nói dễ hiểu|Lợi ích|Ghi chú|Chi phí|Nguồn):/;
 
 // Chỉ quét chương bản Việt; chương tiếng Trung còn trong book/ để tham chiếu, không tính vào bảng này.
 const isVi = f => readFileSync(resolve(ROOT, 'book', f), 'utf8').includes('- Chi phí:');
 const files = readdirSync(resolve(ROOT, 'book')).filter(f => /^\d\d-.*\.md$/.test(f)).sort().filter(isVi);
-// docs/ 下的长文也扫。它们和节首引言一样，长期不在扫描范围内：条号被顺延撞歪时
-// --check 照常显示通过，对照表的 diff 里也看不到这些引用。2026-09-21 清点时
-// 三篇长文里有 23 处「第 X 节第 Y 条」，一处都没被查过。
-// 只取 docs/ 根下的 .md。子目录 docs/核实记录/ 不扫：那些文件记的是当时的核实过程，
-// 里面的条号是历史状态，不该跟着正文走。对照表自己也排除掉。
+// Bài dài trong docs/ cũng quét. Chúng cùng đoạn mở đầu chương từng lâu nằm ngoài phạm vi quét: khi số mục bị dồn lệch
+// --check vẫn báo đạt như thường, diff của bảng đối chiếu cũng không thấy các tham chiếu này. Lần rà ngày 2026-09-21
+// ba bài dài có 23 chỗ "chương X mục Y", không chỗ nào từng được kiểm.
+// Chỉ lấy .md ngay dưới docs/. Thư mục con docs/kiem-chung/ không quét: các file đó ghi quá trình kiểm chứng lúc đó,
+// số mục trong đó là trạng thái lịch sử, không nên chạy theo nội dung. Bản thân bảng đối chiếu cũng loại ra.
 // Bài dài cũng chỉ lấy file đã ở bản Việt (chưa có bài nào); tài liệu tiếng Trung không đưa vào bảng này.
 const isViDoc = f => /^- |^# /.test(readFileSync(resolve(ROOT, 'docs', f), 'utf8')) && !/[\u4e00-\u9fff]/.test(readFileSync(resolve(ROOT, 'docs', f), 'utf8'));
 const docs = readdirSync(resolve(ROOT, 'docs')).filter(f => f.endsWith('.md') && f !== 'doi-chieu-muc.md').sort().filter(isViDoc);
 
-// 先把每节的条目标题读出来：sections[节号] = { file, titles: { 条号: 标题 } }
+// Đọc tiêu đề các mục của từng chương trước: sections[số chương] = { file, titles: { số mục: tiêu đề } }
 const sections = new Map();
 for (const f of files) {
   const num = Number(f.slice(0, 2));
@@ -50,12 +50,12 @@ for (const f of files) {
   sections.set(num, { file: f, titles });
 }
 
-// 一处引用可能写成「第 3、10、11 条」，拆成多个条号。也认区间写法「第 11 到 14 条」
-// 「第 5 到第 10 条」：这种写法原先整处都匹配不上，等于没扫，全书有 5 处这么写的。
+// Một tham chiếu có thể viết "mục 3, 10, 11", tách thành nhiều số mục. Cũng nhận kiểu khoảng "mục 11 đến 14"
+// "mục 5 đến mục 10": kiểu viết này trước đây cả chỗ đều không khớp, coi như không quét, cả sách có 5 chỗ viết vậy.
 const RANGE = /^\s*(\d+)\s*(?:đến|-|–)\s*(?:mục\s*)?(\d+)\s*$/;
-// 返回 [条号, 是不是区间展开来的]。区间指的是一整块条目（「泄愤那几条」「平台义务
-// 那几条」），没法给块里每一条都配一个锚点，所以展开出来的条号免验锚点——它们仍然
-// 进对照表，被顺延撞歪时靠 diff 里标题变化来发现。
+// Trả về [số mục, có phải mở ra từ khoảng không]. Khoảng là cả một khối mục ("mấy mục xả giận", "nghĩa vụ
+// nền tảng"), không thể gắn neo cho từng mục trong khối, nên số mục mở ra từ khoảng được miễn kiểm neo — chúng vẫn
+// vào bảng đối chiếu, khi bị dồn lệch thì phát hiện qua thay đổi tiêu đề trong diff.
 const nums = s => {
   const out = [];
   for (const part of s.split(/,|\bvà\b/)) {
@@ -71,7 +71,7 @@ const nums = s => {
   }
   return out;
 };
-// 条号那一段的写法：「3」「3、10」「11 到 14」「5 到第 10」
+// Cách viết đoạn số mục: "3", "3, 10", "11 đến 14", "5 đến mục 10"
 const SPEC = '[\\d,\\s]+?(?:(?:đến|-|–)\\s*(?:mục\\s*)?\\d+)?';
 
 const out = [];
@@ -80,7 +80,7 @@ const suspects = [];
 const weak = [];
 let total = 0;
 
-// 扫描单元：book/ 下每节一个，docs/ 下每篇长文一个。
+// Đơn vị quét: mỗi chương trong book/ một đơn vị, mỗi bài dài trong docs/ một đơn vị.
 const targets = [
   ...files.map(f => ({ f, dir: 'book', isDoc: false })),
   ...docs.map(f => ({ f, dir: 'docs', isDoc: true })),
@@ -91,30 +91,30 @@ for (const { f, dir, isDoc } of targets) {
   const self = isDoc ? null : sections.get(num);
   const lines = readFileSync(resolve(ROOT, dir, f), 'utf8').split(/\r?\n/);
   const rows = [];
-  // cur 是当前所在条目的条号，0 表示还没进条目（book 的节首引言、docs 的任何位置）。
-  // unit 是「出处」列显示的名字：条目写「第 N 条」，节首写「节首」，长文写最近的小标题。
+  // cur là số mục đang đứng, 0 nghĩa là chưa vào mục nào (đoạn mở đầu chương của book, mọi vị trí trong docs).
+  // unit là tên hiện ở cột "Từ": trong mục thì ghi "mục N", đoạn mở chương ghi "đầu chương", bài dài ghi tiêu đề con gần nhất.
   let cur = 0;
   let unit = isDoc ? 'mở đầu' : 'đầu chương';
 
-  // 引用前面那句话往往就写着它想指什么（「医疗救助（见第 11 条）」），把整个分句
-  // 列出来，人工扫对照表时不用翻正文就能判断指对没有。
-  // 取到最近的句读为界而不是固定字数——固定 14 字曾让好几处正确引用看起来可疑
-  // （「一氧化碳见第 18 条，烧烫伤见第 13 条」截断后只剩「氧化碳」对着「烫伤」）。
+  // Câu đứng trước tham chiếu thường đã nói nó muốn trỏ cái gì ("cứu trợ y tế (xem mục 11)"), nên
+  // liệt kê cả phân câu, khi soi bảng đối chiếu bằng mắt không phải lật nội dung vẫn đoán được trỏ đúng chưa.
+  // Cắt theo dấu ngắt câu gần nhất chứ không theo số chữ cố định — cắt cố định 14 chữ từng làm mấy chỗ trích dẫn đúng trông đáng ngờ
+  // ("khí CO xem mục 18, bỏng nhiệt xem mục 13" cắt xong chỉ còn "CO" đối với "bỏng").
   const ctxOf = (line, idx) => {
     const before = line.slice(0, idx);
     let start = -1;
     for (const p of ['.', ';', '!', '?', ':']) start = Math.max(start, before.lastIndexOf(p));
     return before.slice(start + 1).slice(-44).replace(/\|/g, '｜');
   };
-  // 验锚点时用的窗口比上面这个窄：只取引用所在的那个逗号分句。整句那么宽的窗口里
-  // 「自己」「公司」这类常见词很容易和别的条目标题偶然重合，锚点就成了假的——
-  // 2026-09-20 第 31 节插条目，第 1 条备注里「……的贷款见本节第 15 条」被顺延撞到
-  // 新条目「在家给境外公司远程干活……个税自己报」上，整句窗口里两个逗号之外的
-  // 「你自己还」撞上标题里的「个税自己报」，--check 报了通过。
-  // 分句太短时（「……，见第 11 条」这种，窗口只剩一个「见」字）往前再退一个分句，
-  // 否则会把本来正确的引用误判成裸条号。
-  // 顿号和引号、括号都不算分句边界：「含糖饮料、加工肉（本节第 3 条）」的锚点隔着顿号，
-  // 「为『比别人强一档』而加的预算见本节第 24 条」的锚点在引号里，切了都会误伤。
+  // Cửa sổ dùng khi kiểm neo hẹp hơn cái trên: chỉ lấy phân câu chứa tham chiếu. Cửa sổ rộng bằng cả câu thì
+  // những từ phổ biến như "mình", "công ty" rất dễ tình cờ trùng với tiêu đề mục khác, neo thành giả —
+  // 2026-09-20 chèn mục vào chương 31, chỗ "... khoản vay xem mục 15 của chương này" ở ghi chú mục 1 bị dồn lệch đâm vào
+  // mục mới "làm việc từ xa cho công ty nước ngoài tại nhà ... tự khai thuế", trong cửa sổ cả câu, chữ nằm ngoài hai dấu phẩy
+  // "bạn tự trả" đâm vào "tự khai thuế" trong tiêu đề, --check vẫn báo đạt.
+  // Khi phân câu quá ngắn (kiểu "..., xem mục 11", cửa sổ chỉ còn một chữ "xem") thì lùi thêm một phân câu,
+  // không thì sẽ coi tham chiếu vốn đúng là tham chiếu trần.
+  // Dấu liệt kê, ngoặc kép, ngoặc đơn đều không tính là ranh giới phân câu: neo của "đồ uống có đường, thịt chế biến (mục 3 chương này)" nằm sau dấu liệt kê,
+  // neo của "khoản ngân sách thêm vào để 'hơn người khác một bậc' xem mục 24 chương này" nằm trong ngoặc kép, cắt ra là hỏng.
   const CLAUSE = ['.', ';', '!', '?', ':', ','];
   const narrowOf = (line, idx) => {
     const before = line.slice(0, idx);
@@ -127,9 +127,9 @@ for (const { f, dir, isDoc } of targets) {
     if (last.tail.replace(/\b(xem|theo|và|ở|trong|của|với|như|theo đúng)\b/gi, '').trim().length >= 4) return last.tail.slice(-24);
     return (cut(last.head.slice(0, -1)).tail + last.tail).slice(-24);
   };
-  // 引用后面的文字也算锚点：「第 16 条（借条和担保）」这种把关键词写在条号之后
-  // 取到引用后的第一个句读为止（最多 40 字）。不能用固定字符数：「见第 1 节第 7、8、
-  // 14、17、18、19、23、24、29 条（血压、血糖…）」这种长条号串会把标注挤出窗口。
+  // Chữ sau tham chiếu cũng tính là neo: kiểu "mục 16 (giấy vay và bảo lãnh)" đặt từ khoá sau số mục
+  // lấy tới dấu ngắt câu đầu tiên sau tham chiếu (tối đa 40 chữ). Không dùng số ký tự cố định: "xem chương 1 mục 7, 8,
+  // 14, 17, 18, 19, 23, 24, 29 (huyết áp, đường huyết…)" chuỗi số mục dài như vậy sẽ đẩy phần chú ra ngoài cửa sổ.
   const afterOf = (line, idx) => {
     const rest = line.slice(idx).replace(new RegExp(`^(?:chương\\s*\\d+\\s*)?mục\\s*(?:${SPEC})`), '');
     const end = rest.search(/[。；！？]/);
@@ -144,21 +144,21 @@ for (const { f, dir, isDoc } of targets) {
       const t = /^### (\d+)\. (.*)$/.exec(line);
       if (t) { cur = Number(t[1]); unit = `mục ${cur}`; return; }
     }
-    // 条目正文只扫那几个栏位（来源栏的「第 N 条」多是法条条款号）。节首引言和长文
-    // 正文是普通段落，匹配不上栏位前缀，整行放行——它们原先就是这样被静默跳过的。
+    // Thân mục chỉ quét mấy cột đó ("mục N" ở cột nguồn phần nhiều là số điều khoản luật). Đoạn mở đầu chương và
+    // thân bài dài là đoạn văn thường, không khớp tiền tố cột, cả dòng được cho qua — trước đây chúng vốn bị bỏ qua lặng lẽ như vậy.
     const inEntry = !isDoc && cur > 0;
     if (inEntry ? !CROSS_FIELDS.test(line) : !line.trim()) return;
 
-    // 相对指路（「见下一条」「罚则见上一条」）一律禁掉：它不带条号，插入条目时跟着
-    // 整体平移，撞歪了对照表的 diff 也看不出来，--check 的裸条号检查更是扫不到它。
-    // 2026-09-20 一次扫描就查出三处早就指错的：HPV 疫苗条的「见下一条」指到了乳腺癌
-    // 筛查（该指宫颈癌筛查），扬言条的「罚则见上一条」指到了念头条，失业登记条的
-    // 「上一条不签主动辞职」指到了存证据条。排除「最后一条」「之后一条腿」这类误命中。
+    // Chỉ dẫn tương đối ("xem mục dưới", "chế tài xem mục trên") nhất loạt cấm: nó không kèm số mục, khi chèn mục thì
+    // dịch theo cả khối, lệch rồi diff của bảng đối chiếu cũng không thấy, kiểm tham chiếu trần của --check lại càng không quét tới.
+    // 2026-09-20 một lần quét ra ngay ba chỗ trỏ sai từ lâu: "xem mục dưới" ở mục vắc-xin HPV trỏ sang tầm soát
+    // ung thư vú (đáng ra là tầm soát ung thư cổ tử cung), "chế tài xem mục trên" ở mục đe doạ trỏ sang mục ý nghĩ,
+    // "mục trên: không ký thì tự xin nghỉ" ở mục đăng ký thất nghiệp trỏ sang mục lưu bằng chứng. Loại trừ các trường hợp trùng nhầm kiểu "mục cuối cùng", "một chân sau".
     for (const m of line.matchAll(/\b(mục (?:trên|dưới|trước|sau|kế trên|kế dưới))\b/gi)) {
       problems.push(`${f}:${i + 1} ${unit} dùng chỉ dẫn tương đối "${m[1]}" — đổi thành "mục N (từ khoá)"`);
     }
 
-    // 跨节：第 N 节第 X 条
+    // Chéo chương: chương N mục X
     // "chương X mục Y": cả hai đều phải có số ngay sau mới tính
     for (const m of line.matchAll(/chương\s*(\d+)\s*mục\s+(\d[\d,]*(?:\s*(?:đến|-|–)\s*(?:mục\s*)?\d+)?)(?![\d.\p{L}])/giu)) {
       const target = sections.get(Number(m[1]));
@@ -169,29 +169,29 @@ for (const { f, dir, isDoc } of targets) {
       }
     }
 
-    // 长文里没有「本节」这个概念，裸的「第 N 条」在长文里指的是法条条款号，不扫。
+    // Bài dài không có khái niệm "chương này", "mục N" trần trong bài dài là số điều khoản luật, không quét.
     if (isDoc) return;
 
-    // 节内：扫所有「第 X 条」，不限引导词——正文里的写法远不止「见第 X 条」，还有
-    // 「按第 1 条压胸」「判断方法同第 4 条」「先对照第 8 条」「和第 4 条二选一」，
-    // 早先只认三种引导词，这些全漏在扫描之外。来源栏整行不扫（全是法条条款号）。
-    // 节首引言不受栏位限制：那里的「第 N 条」是导读（「第 9 条算钱」「第 2 条算读书
-    // 和寿命的关系」），同样会被顺延撞歪，同样要进对照表。
+    // Trong chương: quét mọi "mục X", không giới hạn từ dẫn — cách viết trong nội dung còn lâu mới chỉ có "xem mục X", còn có
+    // "theo mục 1 ép ngực", "cách xác định như mục 4", "đối chiếu mục 8 trước", "chọn một trong hai với mục 4",
+    // trước đây chỉ nhận ba từ dẫn, mấy chỗ này đều nằm ngoài phạm vi quét. Cả dòng cột nguồn không quét (toàn số điều khoản luật).
+    // Đoạn mở đầu chương không bị giới hạn cột: "mục N" ở đó là lời dẫn ("mục 9 tính tiền", "mục 2 tính chuyện đọc sách
+    // và quan hệ với tuổi thọ"), cũng bị dồn lệch như nhau, cũng phải vào bảng đối chiếu.
     if (inEntry && !FIELDS.test(line)) return;
     const stripped = line.replace(new RegExp(`chương\\s*\\d+\\s*mục\\s*${SPEC}`, 'gi'), '');
     // "mục" phải đi liền với số: "mục tiêu", "mục đích" không phải tham chiếu
     for (const m of stripped.matchAll(/mục\s+(\d[\d,]*(?:\s*(?:đến|-|–)\s*(?:mục\s*)?\d+)?)(?![\d.\p{L}])/giu)) {
-      // 判定这是法条条款号还是条目引用。2026-09-21 之前的办法是看前 16 个字里有没有
-      // 「法」字，可是「办法」「查法」「法律援助」「违法解除」都带「法」，一大批真引用
-      // 被连带跳过。而且是静默跳过：引用压根不进对照表，--check 没有可查的引用反而显示
-      // 「通过」，只能靠引用总数少了才发现。一次全量扫描查出 12 处这样的引用。
-      // 现在按两条明确的判据跳过：
-      //   ① 紧挨着「第 N 条」的是引文标记——《…》、〔…〕、「14 号」、「该解释」，
-      //      或者以法规名收尾（「治安管理处罚法第 26 条」）；
-      // 只认「紧挨着」，不按前 N 个字的模糊窗口，也不拿「是不是句首」当判据——条目引用
-      // 照样会顶在句首（「第 4 条的救助站免费管吃住」「第 7 条那张『立刻去医院』的清单」）。
-      // 代价是法条引文必须自带文件名：一句一条往下列时要写「该解释第 11 条」，不能写
-      // 「……的法院命令。第 11 条讲的是取证」靠上一句撑着。这本来也是正文的自足性要求。
+      // Phân định đây là số điều khoản luật hay tham chiếu mục. Cách làm trước 2026-09-21 là xem trong 16 chữ đầu có chữ
+      // chữ "pháp" hay không, nhưng "biện pháp", "cách tra", "trợ giúp pháp lý", "chấm dứt trái luật" đều có chữ đó, một loạt tham chiếu thật
+      // bị bỏ qua theo. Mà là bỏ qua lặng lẽ: tham chiếu không vào bảng đối chiếu, --check không có tham chiếu để kiểm lại hiện
+      // "đạt", chỉ phát hiện được nhờ tổng số tham chiếu ít đi. Một lần quét toàn bộ ra 12 chỗ như vậy.
+      // Giờ bỏ qua theo hai tiêu chí rõ ràng:
+      //   ① ngay sát "mục N" là dấu hiệu trích dẫn — 《…》, 〔…〕, "số 14", "giải thích đó",
+      //      hoặc kết thúc bằng tên văn bản pháp luật ("Luật Xử phạt quản lý an ninh trật tự mục 26");
+      // Chỉ nhận "sát ngay", không dùng cửa sổ mờ N chữ phía trước, cũng không lấy "có phải đầu câu" làm tiêu chí — tham chiếu mục
+      // cũng đứng ở đầu câu ("mục 4: trạm cứu trợ lo ăn ở miễn phí", "mục 7: danh sách 'đi viện ngay'").
+      // Cái giá là trích văn bản luật phải tự mang tên văn bản: khi liệt kê từng câu một phải viết "giải thích đó mục 11", không được viết
+      // "... lệnh của toà. Mục 11 nói về thu thập chứng cứ" rồi dựa vào câu trước. Đây vốn cũng là yêu cầu tự đủ của nội dung.
       const tail = stripped.slice(0, m.index).replace(/\s+$/, '');
       // VN: "Điều 10 Luật …" hay "Nghị định 168/2024/NĐ-CP" là trích văn bản, không phải tham chiếu mục
       const CITE = /(Điều\s*\d+|\d+\s*\/\s*\d{4}\/|(?:Nghị định|Thông tư|Luật|Quyết định|QĐ|TT|NĐ)[^.;:]{0,20}\d+)$/i;
@@ -199,20 +199,20 @@ for (const { f, dir, isDoc } of targets) {
       for (const [x, range] of nums(m[1])) {
         const title = self.titles.get(x);
         rows.push({ from: unit, range, ref: `mục ${x}`, title, line: i + 1, ctx: ctxOf(stripped, m.index), narrow: narrowOf(stripped, m.index), after: afterOf(stripped, m.index) });
-        // 节内引用超出本节条目数的，多半是法条条款号被误当成条目引用，列出来人工看
+        // Tham chiếu trong chương vượt quá số mục của chương, phần nhiều là số điều khoản luật bị nhầm thành tham chiếu mục, liệt ra để xem bằng mắt
         if (!title) problems.push(`${f}:${i + 1} ${unit} trỏ "mục ${x}" — chương này chỉ có ${self.titles.size} mục`);
         if (inEntry && x === cur) problems.push(`${f}:${i + 1} mục ${cur} tự trỏ chính nó`);
       }
     }
   });
 
-  // 能不能自动验证这处引用指对了：引用前后的文字里，有没有一段字也出现在目标条目
-  // 标题里。有 → 这处引用自带锚点，改动导致错位时会被察觉；没有 → 它是个裸条号
-  // （「实际算法可以看第 34 条」），错了也看不出来，需要补一个显式标注。
-  // 两个汉字的重合太容易偶然发生（「自己」「公司」「时间」），所以按长度和距离分级：
-  // 整句里连着三个汉字对上（「含糖饮料」「居民医保」）算实锚点；只有两个汉字对上时，
-  // 要求它落在引用所在的分句里才算——隔着两个逗号的「你自己还」撞上标题里的
-  // 「个税自己报」，就是 2026-09-20 那处漂移蒙过检查的原因。
+  // Có tự kiểm được tham chiếu này trỏ đúng không: trong chữ quanh tham chiếu, có đoạn nào cũng xuất hiện trong tiêu đề
+  // mục đích không. Có → tham chiếu này tự mang neo, khi thay đổi gây lệch sẽ bị phát hiện; không → nó là số mục trần
+  // ("cách tính thực tế xem mục 34"), sai cũng không thấy, cần bổ sung một chú thích rõ ràng.
+  // Hai chữ Hán trùng nhau quá dễ xảy ra tình cờ ("mình", "công ty", "thời gian"), nên phân cấp theo độ dài và khoảng cách:
+  // cả câu có ba chữ Hán liền nhau trùng ("đồ uống có đường", "bảo hiểm y tế cư dân") tính là neo thật; chỉ hai chữ Hán trùng thì
+  // đòi hỏi nó nằm trong phân câu chứa tham chiếu mới tính — "bạn tự trả" cách hai dấu phẩy đâm vào
+  // "tự khai thuế" trong tiêu đề, chính là lý do chỗ lệch ngày 2026-09-20 lọt qua kiểm tra.
   // Tiếng Việt: neo là số từ liền nhau cùng xuất hiện trong tiêu đề đích
   const longest = (text, title) => {
     const words = text.toLowerCase().split(/[^\p{L}\p{N}]+/u).filter(w => w.length >= 2);
@@ -225,14 +225,14 @@ for (const { f, dir, isDoc } of targets) {
     }
     return best;
   };
-  // 数字和英文串也是锚点：12356、AED、CT、BMI、LPR 这些常常就是引用要指的东西
+  // Chuỗi số và chữ tiếng Anh cũng là neo: 12356, AED, CT, BMI, LPR thường chính là thứ tham chiếu muốn trỏ tới
   const token = (text, title) => (text.match(/[0-9A-Za-z]{2,}/g) ?? []).some(t => title.includes(t));
   for (const r of rows) {
     if (!r.title || r.range) continue;
     const wide = r.ctx + r.after;
     if (token(wide, r.title) || longest(wide, r.title) >= 3) continue;
     if (longest(r.narrow + r.after, r.title) >= 2) continue;
-    // 只在分句之外撞上两个字的，按弱锚点单独列：修法和裸条号一样是补显式标注。
+    // Chỗ chỉ trùng hai chữ nằm ngoài phân câu thì liệt riêng thành neo yếu: cách sửa cũng như số mục trần, là bổ sung chú thích rõ ràng.
     const list = longest(wide, r.title) >= 2 ? weak : suspects;
     list.push(`${f}:${r.line} ${r.from} →「${r.ref}」${r.title.slice(0, 20)}…　…${r.ctx}【${r.ref}】${r.after}…`);
   }
@@ -284,11 +284,11 @@ if (problems.length) {
   console.log('');
 }
 
-// 这个启发式当年误报率极高（中文里「未遂之后的长期结局见第 30 条」指向「念头一冒出来
-// 先告诉身边的一个人」完全正确，却一个字都不重叠），288 处能报出 159 处；后来全书 345 处
-// 引用逐一补了锚点，这两类现在正常情况下都应该是 0，报出来就是真有一处该补标注。
-// 但它只保证「错位能被察觉」，不保证「错位一定被拦下」：模拟把节内引用整体顺延一条，
-// 能当场拦下的约七成，剩下的（相邻两条讲同一件事、标题共用词）仍要靠对照表的 diff。
+// Heuristic này ngày trước tỉ lệ báo nhầm rất cao (trong tiếng Trung, "kết cục lâu dài sau khi chưa thành xem mục 30" trỏ tới "ý nghĩ vừa loé lên
+// thì nói ngay với một người bên cạnh" hoàn toàn đúng mà không trùng một chữ nào), 288 chỗ báo ra 159 chỗ; sau đó cả sách 345 chỗ
+// tham chiếu được bổ sung neo từng chỗ, hai loại này bình thường giờ đều phải là 0, báo ra là thật có một chỗ cần bổ sung chú thích.
+// Nhưng nó chỉ bảo đảm "lệch thì phát hiện được", không bảo đảm "lệch thì chắc chắn bị chặn": mô phỏng dồn toàn bộ tham chiếu trong chương lệch một mục,
+// chặn được tại chỗ khoảng bảy phần mười, phần còn lại (hai mục liền nhau nói cùng một việc, tiêu đề dùng chung từ) vẫn phải dựa vào diff của bảng đối chiếu.
 if (process.argv.includes('--suspect') && suspects.length) {
   console.log(`Ngữ cảnh quanh tham chiếu không khớp tiêu đề đích (${suspects.length} chỗ, dễ báo nhầm, chỉ để soi tay):`);
   for (const s of suspects) console.log('  ' + s);
@@ -296,30 +296,30 @@ if (process.argv.includes('--suspect') && suspects.length) {
 }
 
 if (process.argv.includes('--suspect') && weak.length) {
-  console.log(`锚点只在分句之外对上（${weak.length} 处，多半是常见词偶然撞上，等于没有锚点）：`);
+  console.log(`Neo chỉ trùng ở ngoài phân câu (${weak.length} chỗ, phần nhiều là từ phổ biến tình cờ trùng, tức là không có neo):`);
   for (const s of weak) console.log('  ' + s);
   console.log('');
 }
 
 if (CHECK_ONLY) {
-  const fatal = problems.filter(p => p.includes('该节没有这一条') || p.includes('引用了它自己') || p.includes('相对指路'));
+  const fatal = problems.filter(p => p.includes('dùng chỉ dẫn tương đối') || p.includes('tự trỏ chính nó') || p.includes('chương đó không có mục'));
   for (const p of fatal) console.log('  ' + p);
-  // 裸条号（引用前后没有一个词和目标标题对得上）同样算失败：这种引用一旦被条目顺延
-  // 撞歪，谁也看不出来。修法是补个锚点——「见第 16 条（借条和担保）」，
-  // 括号里的词取自目标条目标题即可。
+  // Số mục trần (quanh tham chiếu không có từ nào khớp tiêu đề đích) cũng tính là hỏng: tham chiếu kiểu này một khi bị dồn lệch
+  // thì không ai thấy được. Cách sửa là bổ sung neo — "xem mục 16 (giấy vay và bảo lãnh)",
+  // từ trong ngoặc lấy từ tiêu đề mục đích là được.
   if (suspects.length) {
-    console.log(`${suspects.length} 处引用是裸条号，错了看不出来，请补锚点（跑 --suspect 看清单）：`);
+    console.log(`${suspects.length} chỗ tham chiếu là số mục trần, sai cũng không thấy, hãy bổ sung neo (chạy --suspect xem danh sách):`);
     for (const s of suspects.slice(0, 10)) console.log('  ' + s.split('　')[0]);
-    if (suspects.length > 10) console.log(`  …另有 ${suspects.length - 10} 处`);
+    if (suspects.length > 10) console.log(`  …còn ${suspects.length - 10} chỗ khác`);
   }
-  // 弱锚点同样算失败：整句里只有两个常见汉字对上、还隔着分句，等于没有锚点。
+  // Neo yếu cũng tính là hỏng: cả câu chỉ trùng hai chữ Hán phổ biến, lại còn cách phân câu, tức là không có neo.
   if (weak.length) {
-    console.log(`${weak.length} 处引用的锚点只在分句之外偶然对上，等于没有锚点，请补显式标注（跑 --suspect 看清单）：`);
+    console.log(`${weak.length} chỗ neo của tham chiếu chỉ tình cờ trùng ở ngoài phân câu, tức là không có neo, hãy bổ sung chú thích rõ ràng (chạy --suspect xem danh sách):`);
     for (const s of weak.slice(0, 10)) console.log('  ' + s.split('　')[0]);
-    if (weak.length > 10) console.log(`  …另有 ${weak.length - 10} 处`);
+    if (weak.length > 10) console.log(`  …còn ${weak.length - 10} chỗ khác`);
   }
   const bad = fatal.length + suspects.length + weak.length;
-  console.log(bad ? `共 ${bad} 处要处理` : `引用检查通过：${total} 处全部指向正确，且都带锚点`);
+  console.log(bad ? `Có ${bad} chỗ cần xử lý` : `Kiểm tham chiếu: đạt — ${total} chỗ đều trỏ đúng và đều có neo`);
   process.exit(bad ? 1 : 0);
 }
 

@@ -1,25 +1,25 @@
-// 统计对齐：改完条目跑一次。按顺序做四件事：
-// ① 重算全书的统计数字，回写 README.md、index.html、tools/og.html；
-// ② 调 check-refs.mjs 重算 docs/引用对照.md，调 updates.mjs 重算 updates.json；
-// ③ 调 check-plain.mjs 查说人话，不合格只提示不中断；
-// ④ 用无头 Chrome 把 tools/og.html 重新截成 og.png。
+// Đồng bộ số liệu: sửa xong các mục thì chạy một lần. Làm bốn việc theo thứ tự:
+// ① Tính lại số liệu thống kê của cả sách, ghi ngược vào README.md, index.html, tools/og.html;
+// ② Gọi check-refs.mjs tính lại docs/doi-chieu-muc.md, gọi updates.mjs tính lại updates.json;
+// ③ Gọi check-plain.mjs kiểm "nói dễ hiểu", chỗ chưa đạt chỉ nhắc chứ không dừng;
+// ④ Dùng Chrome headless chụp lại tools/og.html thành og.png.
 //
-//   node tools/sync-stats.mjs                   # 全做
-//   node tools/sync-stats.mjs --no-screenshot   # 不截图
-//   node tools/sync-stats.mjs --check           # 只比对 ① 不写，有过时的数字则退出码 1（CI 用）
+//   node tools/sync-stats.mjs                   # làm tất cả
+//   node tools/sync-stats.mjs --no-screenshot   # không chụp ảnh
+//   node tools/sync-stats.mjs --check           # chỉ so ① không ghi, có số liệu cũ thì mã thoát 1 (dùng cho CI)
 //
-// Chrome 按常见安装位置找，装在别处就设环境变量 CHROME 指到可执行文件。
-// og.html 用的是微软雅黑，Linux 上没有就会换成别的字体，截出来的图和 Windows 上不一样；
-// CI 只跑 --check 不截图，也是这个原因。
+// Chrome được tìm theo các vị trí cài đặt thường gặp, cài chỗ khác thì đặt biến môi trường CHROME trỏ tới file thực thi.
+// og.html dùng font Microsoft YaHei, trên Linux không có sẽ bị thay bằng font khác, ảnh chụp ra khác trên Windows;
+// CI chỉ chạy --check không chụp ảnh, cũng vì lý do này.
 //
-// 2026-09-29 从 sync-stats.ps1 移植过来，ps1 已删：它只在 Windows 上跑，
-// 网页上直接合并的外部 PR 完全经过不了它，数字过时了也没有任何检查会红。
-// ① 只替换数字本身，不动任何其他文字。
-// 数字口径：条目数 = book/*.md 里的 ### 标题数；节数 = book/*.md 的文件数；
-// A/B/C = 证据等级行的首字母（带（争议）后缀的照样算）；争议 = 备注以「争议」开头的条数；
-// TODO = 正文里含「待核实」或「TODO」的行数；链接 = 「- 来源：」和「- 备注：」行里的 http(s) 总数；
-// 性价比三档的规则在 tools/lib/book.mjs，抄自 index.html。
-// 切行用 /\r?\n/，理由见 check-refs.mjs 文件头。
+// 2026-09-29 chuyển từ sync-stats.ps1 sang, file ps1 đã xoá: nó chỉ chạy trên Windows,
+// PR bên ngoài merge thẳng trên web hoàn toàn không đi qua nó, số liệu cũ rồi cũng không có kiểm tra nào báo đỏ.
+// Ở bước ① chỉ thay đúng con số, không động vào chữ nào khác.
+// Cách đếm: số mục = số tiêu đề ### trong book/*.md; số chương = số file book/*.md;
+// A/B/C = chữ cái đầu của dòng mức bằng chứng (có hậu tố "(tranh luận)" vẫn tính); tranh luận = số mục có ghi chú mở đầu bằng "tranh luận";
+// TODO = số dòng trong nội dung có "chưa kiểm chứng" hoặc "TODO"; liên kết = tổng số http(s) trong các dòng "- Nguồn:" và "- Ghi chú:";
+// Quy tắc ba mức đáng làm nằm trong tools/lib/book.mjs, chép từ index.html.
+// Cắt dòng dùng /\r?\n/, lý do xem phần đầu file check-refs.mjs.
 import { readFileSync, writeFileSync, readdirSync, existsSync, mkdtempSync, rmSync, statSync } from 'node:fs';
 import { resolve, dirname, join } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
@@ -31,12 +31,12 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const CHECK = process.argv.includes('--check');
 const read = f => readFileSync(join(ROOT, f), 'utf8');
 
-// 档位规则（tools/lib/book.mjs）和 index.html 的 COST_W、e.ratio 两行一致；那两行改了那边必须跟着改，所以先比对一次
+// Quy tắc mức (tools/lib/book.mjs) phải khớp hai dòng COST_W và e.ratio trong index.html; hai dòng đó đổi thì bên kia phải đổi theo, nên so một lần trước
 const indexText = read('index.html');
 const COST_W_LINE = "const COST_W = { money:{'0':0,'ít':1,'nhiều':2}, time:{'ít':0,'vừa':1,'nhiều':2}, will:{'không':0,'ít':1,'có':2} };";
 const RATIO_LINE = "e.ratio = e.level === 'lớn' ? (e.cs === 0 ? 'rất cao' : (e.cs <= 2 ? 'cao' : 'trung bình'))";
-if (!indexText.includes(COST_W_LINE)) throw new Error('index.html 的 COST_W 行变了，请同步 tools/lib/book.mjs 里的成本权重');
-if (!indexText.includes(RATIO_LINE)) throw new Error('index.html 的 e.ratio 行变了，请同步 tools/lib/book.mjs 里的档位规则');
+if (!indexText.includes(COST_W_LINE)) throw new Error('Dòng COST_W của index.html đã đổi, hãy đồng bộ trọng số chi phí trong tools/lib/book.mjs');
+if (!indexText.includes(RATIO_LINE)) throw new Error('Dòng e.ratio của index.html đã đổi, hãy đồng bộ quy tắc mức trong tools/lib/book.mjs');
 
 // Chỉ đếm chương bản Việt (bản Trung còn trong book/ để tham chiếu, nhận ra bằng "- Chi phí:")
 const bookFiles = readdirSync(join(ROOT, 'book')).filter(f => f.endsWith('.md')).sort()
@@ -45,7 +45,7 @@ const sections = bookFiles.length;
 let entries = 0, dispute = 0, todo = 0, links = 0;
 const grade = { A: 0, B: 0, C: 0 };
 const ratio = { 'rất cao': 0, 'cao': 0, 'trung bình': 0 };
-// 成本标签里「人群=」的取值表，和 index.html 的 WHO_LABEL、侧栏「我的情况」按钮一一对应
+// Bảng giá trị của "nhóm=" trong nhãn chi phí, ứng một-một với WHO_LABEL trong index.html và nút "Hoàn cảnh của tôi" ở thanh bên
 const WHO = new Set(['nữ', 'nam', 'trẻ-em', 'trẻ-sơ-sinh', 'trẻ-nhỏ', 'cao-tuổi', 'người-già', 'người-cao-tuổi',
   '65-tuổi', '60-tuổi', '50-tuổi', '45-tuổi', '40-tuổi', '35-tuổi', 'nữ-40-tuổi',
   'mang-thai', 'hút-thuốc', 'tim-mạch', 'nam-quan-hệ-đồng-giới']);
@@ -71,8 +71,8 @@ const tagged = ratio['rất cao'] + ratio['cao'] + ratio['trung bình'];
 if (tagged !== entries) console.warn(`Cảnh báo: ${entries - tagged} mục thiếu dòng nhãn, ba mức đáng làm không khớp số mục`);
 if (grade.A + grade.B + grade.C !== entries) console.warn('Cảnh báo: số dòng "Mức bằng chứng" không khớp số mục');
 
-// 三档百分比用最大余数法分配：先向下取整，剩下的百分点按小数部分从大到小补。
-// 三个数各自四舍五入会凑出 99 或者 101（2026-09-21 加第 33 节时碰到过），这里保证加起来正好 100。
+// Ba mức phần trăm chia theo phương pháp số dư lớn nhất: làm tròn xuống trước, số điểm phần trăm còn lại bù theo phần thập phân từ lớn tới nhỏ.
+// Ba số làm tròn riêng lẻ sẽ ra 99 hoặc 101 (gặp phải ngày 2026-09-21 khi thêm chương 33), ở đây bảo đảm cộng lại đúng 100.
 const ORDER = ['rất cao', 'cao', 'trung bình'];
 const pct = {}, rem = {};
 for (const k of ORDER) {
@@ -110,15 +110,15 @@ for (const [file, label, pattern, repl] of EDITS) {
   const found = [...text.matchAll(pattern)];
   if (found.length === 0) { console.log(`  ${file} ${label}: không thấy mẫu, bỏ qua`); continue; }
   const old = found[0][1] ?? found[0][0];
-  // 用函数做替换值，免得替换串里的 $ 被当成分组引用
+  // Dùng hàm làm giá trị thay thế, để ký tự $ trong chuỗi thay thế không bị hiểu là tham chiếu nhóm
   const updated = text.replace(pattern, () => repl);
   texts.set(file, updated);
   if (updated === text) {
-    console.log(`  ${file} ${label}：${old}（未变）`);
+    console.log(`  ${file} ${label}: ${old} (không đổi)`);
     continue;
   }
   stale.push(`${file} ${label}`);
-  console.log(`  ${file} ${label}：${old} -> ${CHECK ? '过时' : `已更新（${found.length} 处）`}`);
+  console.log(`  ${file} ${label}: ${old} -> ${CHECK ? 'đã cũ' : `đã cập nhật (${found.length} chỗ)`}`);
 }
 
 // Chương nào có trong book/ mà không có dòng trong mục lục README thì trang tra cứu, EPUB, PDF và
@@ -133,35 +133,35 @@ if (missingChapters.length) {
 
 if (CHECK) {
   if (stale.length === 0 && !badWho.length) {
-    console.log('\n统计数字检查通过');
+    console.log('\nKiểm tra số liệu: đạt');
     process.exit(0);
   }
-  if (stale.length === 0) process.exit(1);   // 只有人群标签的错，上面已经报过
-  console.log(`\n有 ${stale.length} 处统计数字过时。本地跑 node tools/sync-stats.mjs（顺带重出 og.png），然后提交。`);
+  if (stale.length === 0) process.exit(1);   // Chỉ có lỗi nhãn nhóm, đã báo ở trên
+  console.log(`\nCó ${stale.length} chỗ số liệu đã cũ. Chạy node tools/sync-stats.mjs ở máy (kèm dựng lại og.png), rồi commit.`);
   process.exit(1);
 }
 
 for (const [file, text] of texts) if (text !== read(file)) writeFileSync(join(ROOT, file), text);
 
-// ② 重算交叉引用对照表：插入或删除条目会让后面的「第 X 条」集体错位，而错位后的条号
-// 往往仍在范围内（2026-09-19 第 7 节那 6 处就是），只有把「引用 → 目标标题」摊开入库，
-// diff 才看得见。放在截图之前，--no-screenshot 也要跑到
+// ② Tính lại bảng đối chiếu tham chiếu: chèn hay xoá một mục làm mọi "mục X" phía sau lệch hàng loạt, mà số mục sau khi lệch
+// thường vẫn nằm trong khoảng hợp lệ (6 chỗ ở chương 7 ngày 2026-09-19 là vậy), chỉ khi trải "tham chiếu → tiêu đề đích" ra và commit,
+// diff mới thấy được. Đặt trước bước chụp ảnh, để --no-screenshot vẫn chạy tới đây
 const runTool = name => spawnSync(process.execPath, [join(ROOT, 'tools', name)], { stdio: 'inherit' }).status;
 console.log('');
-if (runTool('check-refs.mjs') !== 0) throw new Error('check-refs.mjs 失败');
-console.log('提交前扫一眼 docs/引用对照.md 的 diff：条号没动而「指向的条目」变了，就是被顺延撞歪的引用。');
+if (runTool('check-refs.mjs') !== 0) throw new Error('check-refs.mjs thất bại');
+console.log('Trước khi commit liếc qua diff của docs/doi-chieu-muc.md: số mục không đổi mà "mục được trỏ tới" đổi thì đó là tham chiếu bị dồn lệch.');
 
-// 最近更新：检索页的「新增」「改过」标记，工作区里没提交的改动算今天
+// Mới cập nhật: dấu "mới" "đã sửa" trên trang tra cứu, thay đổi chưa commit trong vùng làm việc tính là hôm nay
 console.log('');
-if (runTool('updates.mjs') !== 0) throw new Error('updates.mjs 失败');
+if (runTool('updates.mjs') !== 0) throw new Error('updates.mjs thất bại');
 
-// ③ 说人话检查只提示不中断：数字已经同步完了，卡在这里反而让人以为统计没更新。CI 里它会红
+// ③ Kiểm "nói dễ hiểu" chỉ nhắc không dừng: số liệu đã đồng bộ xong, dừng ở đây lại làm người ta tưởng thống kê chưa cập nhật. Trên CI nó vẫn báo đỏ
 console.log('');
-if (runTool('check-plain.mjs') !== 0) console.log('上面列出的说人话不合格，提交前改掉（规则见 tools/check-plain.mjs 文件头）。');
+if (runTool('check-plain.mjs') !== 0) console.log('Các chỗ "nói dễ hiểu" chưa đạt liệt kê ở trên, sửa trước khi commit (quy tắc xem phần đầu tools/check-plain.mjs).');
 
 if (process.argv.includes('--no-screenshot')) process.exit(0);
 
-// ④ 截 og.png
+// ④ Chụp og.png
 const CHROME_PATHS = [
   process.env.CHROME,
   'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
@@ -173,14 +173,14 @@ const CHROME_PATHS = [
   '/usr/bin/chromium-browser',
 ];
 const chrome = CHROME_PATHS.find(p => p && existsSync(p));
-if (!chrome) throw new Error('找不到 Chrome，设环境变量 CHROME 指到它，或者加 --no-screenshot 跳过截图');
+if (!chrome) throw new Error('Không tìm thấy Chrome, đặt biến môi trường CHROME trỏ tới nó, hoặc thêm --no-screenshot để bỏ qua bước chụp ảnh');
 
-// 每次用全新的 user-data-dir：否则 Chrome 会拿缓存里的旧 og.html 渲染，截出来还是旧数字。
-// --screenshot 必须给绝对路径：给相对路径 Chrome 什么都不写，还照样返回 0
+// Mỗi lần dùng user-data-dir mới: không thì Chrome dựng bằng og.html cũ trong cache, chụp ra vẫn là số cũ.
+// --screenshot phải đưa đường dẫn tuyệt đối: đưa đường dẫn tương đối Chrome không ghi gì mà vẫn trả về 0
 const profile = mkdtempSync(join(tmpdir(), 'og-shot-'));
 const target = join(ROOT, 'og.png');
 const startedAt = Date.now();
-// Chrome 把「xxx bytes written」这类信息写在 stderr 上，不是报错，直接丢掉
+// Chrome ghi mấy dòng kiểu "xxx bytes written" ra stderr, không phải lỗi, bỏ thẳng đi
 spawnSync(chrome, [
   '--headless', '--disable-gpu', '--hide-scrollbars', '--force-device-scale-factor=1',
   '--window-size=1200,630', `--user-data-dir=${profile}`, `--screenshot=${target}`,
@@ -188,8 +188,8 @@ spawnSync(chrome, [
 ], { stdio: 'ignore' });
 rmSync(profile, { recursive: true, force: true });
 
-// 自检：文件是这次写的、大小在正常区间。过了这两关就不必再打开图看，省一次读图的开销
+// Tự kiểm: file được ghi trong lần chạy này, kích thước trong khoảng bình thường. Qua hai cửa này thì không cần mở ảnh xem, tiết kiệm một lần đọc ảnh
 const png = statSync(target);
-if (png.mtimeMs < startedAt - 1000) throw new Error('og.png 没有被这次运行写入，截图失败了');
-if (png.size < 120 * 1024 || png.size > 400 * 1024) throw new Error(`og.png 大小异常（${png.size} 字节），正常在 120KB 到 400KB，打开看一眼是不是渲染坏了`);
-console.log(`\nog.png 已重出：${png.size} 字节，自检通过。改过 tools/og.html 的版式才需要打开图确认。`);
+if (png.mtimeMs < startedAt - 1000) throw new Error('og.png không được ghi trong lần chạy này, chụp ảnh thất bại');
+if (png.size < 120 * 1024 || png.size > 400 * 1024) throw new Error(`Kích thước og.png bất thường (${png.size} byte), bình thường 120KB đến 400KB, mở ra xem có phải dàn trang hỏng`);
+console.log(`\nog.png đã dựng lại: ${png.size} byte, tự kiểm đạt. Chỉ khi sửa bố cục tools/og.html mới cần mở ảnh xác nhận.`);

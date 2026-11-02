@@ -28,7 +28,7 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
 {"@type":"WebSite","@id":"https://quangpao.github.io/HowToLiveBetter/#website","url":"https://quangpao.github.io/HowToLiveBetter/","name":"Cẩm nang sống thông minh","description":"Cẩm nang sống tính theo hiệu quả trên chi phí: mỗi mục ghi rõ mất gì (tiền, thời gian, ý chí) và được gì, kèm mức bằng chứng A/B/C và nguồn gốc. Lọc được theo tiền, thời gian, ý chí.","inLanguage":"vi-VN","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://quangpao.github.io/HowToLiveBetter/?q={search_term_string}"},"query-input":"required name=search_term_string"}},
-{"@type":"Book","@id":"https://quangpao.github.io/HowToLiveBetter/#book","name":"Cẩm nang sống thông minh","url":"https://quangpao.github.io/HowToLiveBetter/","inLanguage":"vi-VN","bookFormat":"https://schema.org/EBook","numberOfPages":95,"license":"https://creativecommons.org/licenses/by/4.0/","abstract":"Cẩm nang sống tính theo hiệu quả trên chi phí: mỗi mục ghi rõ mất gì (tiền, thời gian, ý chí) và được gì, kèm mức bằng chứng A/B/C và nguồn gốc. Lọc được theo tiền, thời gian, ý chí.","about":["sức khoẻ","sống lâu","tài chính cá nhân","cấp cứu","kiến thức pháp luật","bảo vệ người tiêu dùng"],"isAccessibleForFree":true}
+{"@type":"Book","@id":"https://quangpao.github.io/HowToLiveBetter/#book","name":"Cẩm nang sống thông minh","url":"https://quangpao.github.io/HowToLiveBetter/","inLanguage":"vi-VN","bookFormat":"https://schema.org/EBook","numberOfPages":122,"license":"https://creativecommons.org/licenses/by/4.0/","abstract":"Cẩm nang sống tính theo hiệu quả trên chi phí: mỗi mục ghi rõ mất gì (tiền, thời gian, ý chí) và được gì, kèm mức bằng chứng A/B/C và nguồn gốc. Lọc được theo tiền, thời gian, ý chí.","about":["sức khoẻ","sống lâu","tài chính cá nhân","cấp cứu","kiến thức pháp luật","bảo vệ người tiêu dùng"],"isAccessibleForFree":true}
 ]}
 </script>
 <script>(function(){try{var s=localStorage.getItem('theme');var d=s?s==='dark':matchMedia('(prefers-color-scheme: dark)').matches;if(d)document.documentElement.classList.add('dark')}catch(e){}})();</script>
@@ -69,8 +69,8 @@ html.dark{
 }
 *{box-sizing:border-box}
 html{scroll-padding-top:calc(var(--nav-h) + 16px)}
-/* 弹窗打开时 body 设了 overflow:hidden，滚动条一没，页面变宽 15px、卡片重新折行，整页抽一下（2026-10-01 用户发现）。
-   预留滚动条那条槽位，有没有滚动条宽度都不变 */
+/* Khi mở popup, body bị đặt overflow:hidden; mất thanh cuộn là trang rộng ra 15px, thẻ xuống dòng lại, cả trang giật một cái（người dùng phát hiện 2026-10-01）。
+   giữ chỗ cho thanh cuộn, có hay không có thanh cuộn thì bề rộng vẫn không đổi */
 html{scrollbar-gutter:stable}
 body{margin:0;background:var(--bg);color:var(--t1);font:14px/1.7 var(--font);-webkit-font-smoothing:antialiased}
 a{color:var(--brand-1);text-decoration:none;transition:color .25s}
@@ -82,7 +82,7 @@ mark{background:var(--mark);color:inherit;border-radius:2px;padding:0 1px}
    Không dùng <mark> vì màu đó dành cho từ khoá đang tìm. */
 .vn{background:var(--vn-soft);border-bottom:1px solid var(--vn-line);border-radius:2px;padding:0 2px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .vn:hover{background:var(--vn-hover)}
-/* 正文里的「第 X 条」交叉引用：点一下就地看那条说什么，不用自己翻过去 */
+/* Tham chiếu chéo "Điều X" trong nội dung: bấm một cái là xem ngay điều đó viết gì, không phải tự lật sang */
 .xref{color:var(--brand-1);cursor:pointer;border-bottom:1px dashed currentColor}
 .xref:hover{color:var(--brand-2);border-bottom-style:solid}
 #xref-pop{position:absolute;z-index:80;width:min(430px,calc(100vw - 28px));background:var(--bg-elv);border:1px solid var(--divider);border-radius:10px;box-shadow:var(--shadow);padding:11px 13px;font-size:13.5px;line-height:1.75}
@@ -94,9 +94,9 @@ mark{background:var(--mark);color:inherit;border-radius:2px;padding:0 1px}
 #xref-pop .xp-b{max-height:210px;overflow:auto}
 #xref-pop .xp-b+.xp-b{margin-top:8px;padding-top:8px;border-top:1px solid var(--divider)}
 .card.flash{animation:xflash 1.8s ease-out}
-/* 节标题不是卡片，不能套卡片那块底色：一行标题填上底色像个色块，也像在说「这一行
-   就是目标」，而整节指路的目标是下面一整节。标题的高亮改走文字色和上沿那条分割线，
-   时长和 .card.flash 一样，反馈还是同一套 */
+/* Tiêu đề mục không phải thẻ nên không dùng nền của thẻ: tô nền cho một dòng tiêu đề thì nó thành một khối màu, lại như đang nói "dòng này
+   là đích đến", trong khi đích của chỉ dẫn cả mục là cả mục bên dưới. Làm nổi tiêu đề chuyển sang màu chữ và đường kẻ phía trên,
+   thời lượng giống .card.flash để phản hồi vẫn là cùng một bộ */
 .sec-h.flash{animation:secflash-line 1.8s ease-out}
 .sec-h.flash h2{animation:secflash-text 1.8s ease-out}
 @keyframes secflash-line{0%,35%{border-top-color:var(--brand-1)}100%{border-top-color:var(--divider)}}
@@ -142,11 +142,11 @@ html.dark .switch .sun{display:none} html.dark .switch .moon{display:block}
 .sec-link:hover{color:var(--t1)}
 .sec-link[aria-pressed="true"]{color:var(--brand-1)}
 .sec-link i{font-style:normal;font-size:12px;color:var(--t3);font-variant-numeric:tabular-nums;flex:none;min-width:1.6em;text-align:right}
-/* 节名折行时：编号单独一列做悬挂缩进，第二行和节名首字对齐；条数、箭头贴第一行 */
+/* Khi tên mục xuống dòng: số thứ tự đứng riêng một cột để thụt lề treo, dòng thứ hai thẳng hàng với chữ đầu của tên mục; số điều và mũi tên bám dòng đầu */
 .sec-link .sn{flex:none;width:1.6em;margin-right:-4px;font-variant-numeric:tabular-nums}
 .sec-link .st{flex:1;min-width:0;text-wrap:pretty}
 .sec-link.all{padding-bottom:8px;margin-bottom:4px;border-bottom:1px solid var(--divider)}
-/* 章节下的条目目录：只展开选中的那节，没选节时展开正在读的那节（issue #38） */
+/* Mục lục điều dưới mỗi mục: chỉ mở mục đang chọn, chưa chọn mục thì mở mục đang đọc（issue #38） */
 .toc-sub{display:flex;flex-direction:column;margin:2px 0 8px;border-left:1px solid var(--divider)}
 .toc-sub a{display:flex;gap:6px;padding:3px 0 3px 12px;margin-left:-1px;border-left:1px solid transparent;font-size:13px;line-height:20px;color:var(--t2);text-decoration:none;transition:color .2s}
 .toc-sub a:hover{color:var(--t1);text-decoration:none}
@@ -155,7 +155,7 @@ html.dark .switch .sun{display:none} html.dark .switch .moon{display:block}
 .toc-sub a.on{color:var(--brand-1);border-left-color:var(--brand-1)}
 .toc-sub a.on i{color:var(--brand-1)}
 .toc-none{margin:0;padding:3px 0 3px 12px;font-size:13px;line-height:20px;color:var(--t3)}
-/* 折叠箭头：点它只收起或展开目录，不切换章节筛选 */
+/* Mũi tên gập: bấm vào chỉ thu gọn hoặc mở mục lục, không đổi bộ lọc mục */
 .sec-link i{margin-left:auto}
 .sec-link .fold{flex:none;display:grid;place-items:center;width:24px;height:24px;margin-right:-6px;border-radius:4px;color:var(--t3);transition:transform .2s,color .2s}
 .sec-link .fold:hover{color:var(--t1);background:var(--bg-mute)}
@@ -172,10 +172,7 @@ html.dark .switch .sun{display:none} html.dark .switch .moon{display:block}
 .doc-links{margin-top:8px;font-size:14px;color:var(--t3)}
 .doc-links a{margin-right:4px}
 .hint{font-size:12px;color:var(--t3);line-height:1.6;margin-top:16px}
-/* 侧栏底部广告位：图片换成新广告主的即可，尺寸按 2:1 出图，源文件在 tools/ad-*.html */
-.ad{margin-top:26px}
-.ad img{display:block;width:100%;height:auto;border-radius:8px;border:1px solid var(--divider)}
-/* 赞赏：侧栏底部一行字，点开才出二维码，图用 loading=lazy，不点不下载 */
+/* Ủng hộ: một dòng chữ cuối thanh bên, bấm mở mới hiện mã QR, ảnh dùng loading=lazy, không bấm thì không tải */
 .tip-open{margin-top:10px;padding:0;border:0;background:none;font:inherit;font-size:12px;color:var(--t3);cursor:pointer}
 .tip-open:hover{color:var(--brand-1)}
 #tip-mask{position:fixed;inset:0;z-index:70;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;padding:24px}
@@ -229,7 +226,7 @@ html.dark .switch .sun{display:none} html.dark .switch .moon{display:block}
 .rows .k{color:var(--t3);font-weight:500;font-size:13px;line-height:1.75;padding-top:1px}
 .rows .v{color:var(--t1);min-width:0;overflow-wrap:anywhere}
 .rows .v.note{color:var(--t2)}
-/* 超长的收益、备注按换话题拆成几块，一块一行，圆点挂在左边 */
+/* Phần lợi ích, ghi chú quá dài thì tách thành mấy khối theo chủ đề, mỗi khối một dòng, chấm tròn treo bên trái */
 .rows .v ul.chunks{margin:0;padding:0;list-style:none}
 .rows .v ul.chunks li{position:relative;padding-left:14px;margin-bottom:6px}
 .rows .v ul.chunks li:last-child{margin-bottom:0}
@@ -242,7 +239,7 @@ html.dark .switch .sun{display:none} html.dark .switch .moon{display:block}
 .src[open] summary::before{transform:rotate(45deg)}
 .src .body{padding-top:8px;font-size:13px;line-height:1.75;color:var(--t2);overflow-wrap:anywhere}
 .src summary .cnt{color:var(--t3);font-weight:400}
-/* 一条来源一行，序号挂在左边，长 URL 单独一行不挤正文 */
+/* Mỗi nguồn một dòng, số thứ tự treo bên trái, URL dài đứng riêng một dòng để không chen vào nội dung */
 .src .body ol{margin:0;padding:0;list-style:none;counter-reset:s}
 .src .body li{counter-increment:s;position:relative;padding-left:20px;margin-bottom:8px}
 .src .body li:last-child{margin-bottom:0}
@@ -254,7 +251,7 @@ abbr.term{text-decoration:none;border-bottom:1px dotted var(--t3);cursor:help}
 abbr.term:hover{border-bottom-color:var(--brand-1);color:var(--brand-1)}
 .pop{position:absolute;z-index:40;background:var(--bg-elv);border:1px solid var(--divider);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.14);padding:10px 12px;font-size:13px;line-height:1.6;color:var(--t2)}
 .pop b{display:block;color:var(--t1);font-weight:600;margin-bottom:2px}
-/* 长文弹窗：点「长文」不跳 GitHub，就地打开，左侧是可点的章节目录 */
+/* Popup bài dài: bấm "bài dài" không nhảy sang GitHub mà mở ngay tại chỗ, bên trái là mục lục bấm được */
 #doc-mask{position:fixed;inset:0;z-index:70;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;padding:24px}
 #doc-mask[hidden]{display:none}
 #doc-modal{background:var(--bg);border:1px solid var(--divider);border-radius:12px;box-shadow:var(--shadow);width:min(1000px,100%);max-height:100%;display:flex;flex-direction:column;overflow:hidden}
@@ -335,7 +332,7 @@ abbr.term:hover{border-bottom-color:var(--brand-1);color:var(--brand-1)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 
-<!-- ga:start 这两行注释是离线构建的剥离标记（tools/offline/build.mjs），别删 -->
+<!-- ga:start hai dòng chú thích này là mốc để bản build offline cắt bỏ（tools/offline/build.mjs）, đừng xóa -->
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NTPGXCLMP6"></script>
 <script>
@@ -490,10 +487,10 @@ abbr.term:hover{border-bottom-color:var(--brand-1);color:var(--brand-1)}
       <p>Nội dung trong sách có thể đã cũ và có thể sai. Nhiều chính sách mỗi địa phương áp dụng một khác. Khi thật sự đi làm thủ tục, đi khám, ra toà thì lấy lời cơ quan tại chỗ, bác sĩ và luật sư làm chuẩn. Thấy chỗ nào sai thì mở <a href="https://github.com/quangpao/HowToLiveBetter/issues">issue</a> giúp.</p>
       <div class="stat" aria-live="polite">Đang hiện <b id="cnt">–</b> mục, tổng <span id="tot">–</span> mục</div>
       <div class="doc-links" id="upd-line" hidden></div>
-      <div class="doc-links">Tự kiểm tra: bộ câu hỏi có/không để xem việc nào bạn chưa làm đang được dịch sang tiếng Việt; trong repo vẫn còn bản tiếng Trung ở <code>selfcheck.html</code>.</div>
+      <div class="doc-links"><a href="selfcheck.html">Tự kiểm tra</a>: bộ câu hỏi có/không (58 câu, 6 nhóm) để xem việc nào bạn chưa làm; hiện phủ chương 1 và chương 2, chương 3 sẽ bổ sung sau.</div>
       <div class="doc-links">Bài dài: 9 bài trong bản gốc tiếng Trung (việc nên làm khi thấy người lạ gặp nạn, danh mục trang bị ứng cứu gia đình, cưới có lợi không, mở nền tảng cần giấy phép gì, nhịp sinh học và ca đêm, bị sa thải thì làm gì trước, giấy tờ quanh việc sinh con, vừa chẩn đoán bệnh mạn tính, trước khi đổi việc đổi thành phố) — chưa dịch sang tiếng Việt.</div>
       <div class="doc-links">Trợ lý AI: dùng skill <code>life-decision-guide</code> trong repo để Claude Code hoặc Codex trả lời theo cuốn sách này (skill còn ở bản tiếng Trung).</div>
-      <details class="gloss" id="gloss"><summary>Từ viết tắt và thuật ngữ</summary><p>Những từ có gạch chân trong bài, bấm hoặc rê chuột là ra giải thích. (Bảng giải thích còn ở bản tiếng Trung.)</p><dl></dl></details>
+      <details class="gloss" id="gloss"><summary>Từ viết tắt và thuật ngữ</summary><p>Những từ có gạch chân trong bài, bấm hoặc rê chuột là ra giải thích: 22 thuật ngữ thống kê, lấy từ mục “Đọc con số” trong README.</p><dl></dl></details>
     </div>
     <div id="list">
       <div class="status" id="status"><span id="status-t">Đang đọc nội dung …</span><div class="bar"><i id="status-b"></i></div></div>
@@ -526,7 +523,7 @@ abbr.term:hover{border-bottom-color:var(--brand-1);color:var(--brand-1)}
 </div>
 
 <script>
-/* ---------- 调试面板：地址后加 ?perf=1 打开，实测各步耗时 ---------- */
+/* ---------- PERF-PANEL (bảng debug): thêm ?perf=1 sau địa chỉ để mở, đo thời gian thực tế từng bước ---------- */
 const PERF = (function(){
   const off = { on:false, log(){}, mark(){} };
   if (!/[?&]perf=1/.test(location.search)) return off;
@@ -541,25 +538,25 @@ const PERF = (function(){
   };
   addEventListener('DOMContentLoaded', () => document.body.appendChild(box), {once:true});
   if (document.readyState !== 'loading') document.body.appendChild(box);
-  // 展开/收起 <details> 的重排代价：强制同步布局来量
+  // Chi phí reflow khi mở/thu <details>: đo bằng cách ép layout đồng bộ
   document.addEventListener('toggle', ev => {
     if (!ev.target.matches('details')) return;
     const t0 = performance.now();
-    void document.documentElement.scrollHeight;   // 强制走一遍布局
+    void document.documentElement.scrollHeight;   // ép chạy lại một lượt layout
     api.log((ev.target.open ? 'mở' : 'thu gọn') + ' dựng lại', t0);
   }, true);
-  // 掉帧：连续两帧间隔超过 32ms 就记一条
+  // Rớt khung hình: hai khung liên tiếp cách nhau quá 32ms thì ghi một dòng
   let last = performance.now(), worst = 0, since = last;
   const tick = (t) => { const d = t - last; last = t; if (d > worst) worst = d;
-    if (t - since > 1000){ if (worst > 32) put(`⚠ 最长帧 ${worst.toFixed(0)}ms`); worst = 0; since = t; }
+    if (t - since > 1000){ if (worst > 32) put(`⚠ Khung dài nhất ${worst.toFixed(0)}ms`); worst = 0; since = t; }
     requestAnimationFrame(tick); };
   requestAnimationFrame(tick);
-  try { new PerformanceObserver(l => { for (const e of l.getEntries()) put(`⚠ 长任务 ${e.duration.toFixed(0)}ms`); })
+  try { new PerformanceObserver(l => { for (const e of l.getEntries()) put(`⚠ Tác vụ dài ${e.duration.toFixed(0)}ms`); })
     .observe({entryTypes:['longtask']}); } catch (e) {}
   return api;
 })();
 
-/* ---------- 解析 README ---------- */
+/* ---------- Phân tích README ---------- */
 function parseReadme(md){
   const lines = md.split(/\r?\n/);
   const sections = [];
@@ -585,7 +582,7 @@ function parseReadme(md){
       else if ((m = /^- Ghi chú:(.*)$/.exec(line))) entry.note = m[1];
       continue;
     }
-    if (line) sec.intro.push(line);   // 第一条之前的每一段导读都收，不止第一段
+    if (line) sec.intro.push(line);   // Gom mọi đoạn dẫn nhập trước điều đầu tiên, không chỉ đoạn đầu
   }
   flush();
   for (const s of sections) for (const e of s.entries){
@@ -599,7 +596,7 @@ function parseReadme(md){
   return sections;
 }
 
-/* ---------- 术语表 ---------- */
+/* ---------- Bảng thuật ngữ ---------- */
 let GLOSS = [];   // [{term, meaning, re}]
 function parseGlossary(md){
   const m = /^## (?:Đọc con số|读懂数字)[^\n]*\n([\s\S]*?)(?=^## )/m.exec(md);
@@ -614,7 +611,7 @@ function parseGlossary(md){
     }
   }
   rows.sort((a,b) => b.term.length - a.term.length);
-  // 合并成一条正则：长词在前保证最长匹配，拉丁术语要求前后不是字母数字
+  // Gộp thành một regex: từ dài đứng trước để bảo đảm khớp dài nhất, thuật ngữ Latinh yêu cầu trước sau không phải chữ hoặc số
   const escRe = (t) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const alt = (list) => list.map(g => escRe(g.term)).join('|');
   const parts = [];
@@ -658,7 +655,7 @@ function showTerm(ab){
   pop.style.top = (below ? r.bottom + 8 : r.top - 8 - pop.offsetHeight) + scrollY + 'px';
 }
 
-/* ---------- 文本渲染：链接 + 高亮 ---------- */
+/* ---------- Kết xuất văn bản: liên kết + tô sáng ---------- */
 const URL_RE = /<?(https?:\/\/[A-Za-z0-9\-._~:\/?#\[\]@!$&'()*+,=%]+)>?/g;
 function trimUrl(u){
   let t = '';
@@ -670,10 +667,10 @@ function trimUrl(u){
   }
   return [u, t];
 }
-// Markdown 链接 [文字](地址) 或裸 URL；仓库内的相对路径指向 GitHub 上的源文件
+// Liên kết Markdown [chữ](địa chỉ) hoặc URL trần; đường dẫn tương đối trong repo trỏ tới file nguồn trên GitHub
 const REPO_BLOB = 'https://github.com/quangpao/HowToLiveBetter/blob/main/';
 const MD_LINK_RE = /\[([^\]\n]+)\]\(([^)\s]+)\)/;
-const BOLD_RE = /\*\*((?:\\\*|[^*\n])+)\*\*/;   // 正文里的加粗，不转就会露出星号；粗体里允许 \* 这种转义星号（HLA-B\*5801）
+const BOLD_RE = /\*\*((?:\\\*|[^*\n])+)\*\*/;   // in đậm trong nội dung, không chuyển thì lộ dấu sao; trong in đậm cho phép dấu sao thoát \* （HLA-B\*5801）
 const unescMd = (s) => s.replace(/\\([*_])/g, '$1');
 const LINK_RE = new RegExp([MD_LINK_RE.source, URL_RE.source, BOLD_RE.source].join('|'), 'g');
 function hrefOf(p){
@@ -686,8 +683,8 @@ function mkLink(href, text){
 }
 function renderText(el, text, terms, withTerms = true, urlsLast = false){
   el.textContent = '';
-  const held = [];                       // urlsLast：独占一行的链接攒到最后再放，免得它后面的尾巴被挤成孤行
-  let justHeld = false;                  // 链接被攒起来后，紧跟的纯分隔符也要丢掉，否则「、」会孤零零留在正文末尾
+  const held = [];                       // urlsLast: liên kết chiếm trọn một dòng được gom để cuối mới đặt, tránh phần đuôi sau nó bị đẩy thành dòng lẻ
+  let justHeld = false;                  // sau khi gom liên kết, dấu phân cách ngay sau đó cũng bỏ, nếu không dấu "、" sẽ nằm trơ trọi ở cuối nội dung
   let last = 0; LINK_RE.lastIndex = 0; let m;
   const pushText = (s) => {
     if (!s) return;
@@ -705,7 +702,7 @@ function renderText(el, text, terms, withTerms = true, urlsLast = false){
     if (m[3]){
       const [u, tail] = trimUrl(m[3]);
       const a = mkLink(u, u.replace(/^https?:\/\//, '').replace(/\/$/, ''));
-      a.className = 'url';                 // 来源里单独占一行，别的地方仍是行内链接
+      a.className = 'url';                 // trong phần nguồn thì chiếm một dòng riêng, chỗ khác vẫn là liên kết trong dòng
       if (urlsLast){ held.push(a); justHeld = true; } else el.appendChild(a);
       pushText(tail);
       continue;
@@ -843,24 +840,24 @@ function markVN0(root){
   }
 }
 
-/* ---------- 正文里的「第 X 条」变成可点的引用 ---------- */
-// 正文里到处是「见第 8 节第 16 条」「本节第 3 条」这种指路，自己翻过去很麻烦。
-// 检索页本来就把全部条目读进内存了，顺手把这些引用变成可点的，点一下就地看那条写了什么。
-// 只有能解析到真实条目的才变成链接——来源和备注里的法条条款号（「第 285 条」）解析不到，
-// 自然就留作普通文字，不用另写规则去排除。
+/* ---------- "Điều X" trong nội dung thành tham chiếu bấm được ---------- */
+// Nội dung đầy những chỉ dẫn kiểu "xem mục 8 điều 16", "điều 3 mục này", tự lật sang rất phiền.
+// Trang tra cứu vốn đã nạp toàn bộ điều vào bộ nhớ, nhân đó biến các tham chiếu này thành bấm được, bấm một cái là xem ngay điều đó viết gì.
+// Chỉ tham chiếu phân giải được tới điều có thật mới thành liên kết — số điều luật trong nguồn và ghi chú ("Điều 285") không phân giải được,
+// nên tự nhiên vẫn là chữ thường, không cần viết thêm quy tắc loại trừ.
 const ITEMS = new Map();          // '9-15' -> entry
-const SECS = new Map();           // '9' -> section，给「见第 9 节」这种整节指路用
-let CUR_SEC = '';                 // 正在渲染哪一节，供「本节第 X 条」和省掉节号的裸条号定位
-// 条号可以写成「第 13 条」「第 12、13 条」，也可以写成「第 8 到 10 条」这种范围。
-// 范围那种以前不认，点不动（2026-09-20 用户在第 5 节第 31 条撞到的就是它）。
+const SECS = new Map();           // section, dùng cho chỉ dẫn cả mục kiểu "xem mục 9"
+let CUR_SEC = '';                 // đang kết xuất mục nào, để định vị "điều X mục này" và số điều trần không kèm số mục
+// Số điều có thể viết "điều 13", "điều 12, 13", cũng có thể viết thành khoảng "điều 8 đến 10".
+// Kiểu khoảng trước đây không nhận, bấm không được（người dùng gặp đúng chỗ này ở mục 5 điều 31 ngày 2026-09-20）。
 const NUMS = '[\\d,]+(?:\\s*(?:đến|-|–)\\s*\\d+)?';
-// 最后那一段认「见第 9 节」「走第 8、9 节的法律路径」这种不带条号的整节指路，
-// 全书有 135 处，以前一律是死字（2026-09-20 用户在第 5 节撞到的「（见第 9 节）」）。
-// 它必须排在最后：前面几段先吃掉「第 9 节第 3 条」，剩下的才轮到它。
+// Đoạn cuối nhận chỉ dẫn cả mục không kèm số điều kiểu "xem mục 9", "đi theo đường pháp lý mục 8, 9",
+// toàn sách có 135 chỗ, trước đây đều là chữ chết（chỗ "（xem mục 9）" người dùng gặp ở mục 5 ngày 2026-09-20）。
+// Nó phải xếp cuối: mấy đoạn trước ăn "mục 9 điều 3" trước, phần còn lại mới tới lượt nó.
 // Bốn nhánh, theo thứ tự ưu tiên: "chương 8 mục 16", "chương này mục 3", "mục 3", "chương 9".
 // Nhánh "chương" phải đứng cuối để không ăn mất "chương 9 mục 3".
 const XREF_RE = new RegExp(`chương\\s*(\\d+)\\s*mục\\s*(${NUMS})(?![\\d]|\\p{L})|chương\\s*này\\s*mục\\s*(${NUMS})(?![\\d]|\\p{L})|mục\\s*(${NUMS})(?![\\d]|\\p{L})|chương\\s*([\\d,]+)(?![\\d]|\\p{L})`, 'giu');
-// 「8 到 10」摊成 8、9、10；上限 40 是防着把法条条款号那种大范围摊成几百个键
+// "8 đến 10" trải thành 8, 9, 10; giới hạn 40 là để phòng khi trải khoảng lớn kiểu số điều luật thành hàng trăm khóa
 const xrefKeys = (sec, spec) => {
   const ns = [];
   for (const part of String(spec).split(',')){
@@ -877,7 +874,7 @@ const xrefKeys = (sec, spec) => {
 function xrefInto(el, s, terms){
   XREF_RE.lastIndex = 0; let m, last = 0, any = false;
   while ((m = XREF_RE.exec(s))){
-    // 整节指路的键写成 's9'，和条目键 '9-15' 分得开
+    // khóa của chỉ dẫn cả mục viết là 's9', tách được khỏi khóa điều
     const keys = m[5] != null
       ? String(m[5]).split(',').map(x => x.trim()).filter(x => SECS.has(x)).map(x => 's' + x)
       : xrefKeys(m[1] ?? CUR_SEC, m[2] ?? m[3] ?? m[4] ?? '');
@@ -899,7 +896,7 @@ function showXref(a){
   POP.querySelector('.xp-h b').textContent = a.textContent;
   const keys = a.dataset.keys.split(',');
   for (const k of keys){
-    if (k[0] === 's'){                       // 整节：给节名和条目数，点「跳过去」落到节首
+    if (k[0] === 's'){                       // cả mục: cho tên mục và số điều, bấm "nhảy tới" thì rơi vào đầu mục
       const sec = SECS.get(k.slice(1)); if (!sec) continue;
       const b = document.createElement('div'); b.className = 'xp-b';
       const s = document.createElement('div'); s.className = 'xp-s'; s.textContent = `cả chương, ${sec.entries.length} mục`;
@@ -915,25 +912,25 @@ function showXref(a){
     POP.appendChild(b);
   }
   POP.dataset.go = keys[0];
-  POP.dataset.from = a.closest('.card')?.id || '';   // 记下从哪张卡片点的，好让后退键回得来
+  POP.dataset.from = a.closest('.card')?.id || '';   // ghi lại bấm từ thẻ nào, để nút quay lại tìm về được
   POP.hidden = false;
   const r = a.getBoundingClientRect(), vw = document.documentElement.clientWidth;
   POP.style.top = (window.scrollY + r.bottom + 6) + 'px';
   POP.style.left = Math.max(window.scrollX + 14,
     Math.min(window.scrollX + r.left, window.scrollX + vw - POP.offsetWidth - 14)) + 'px';
 }
-// 滚到哪条，地址栏就停在哪条，随手复制 URL 就能把这一条发给别人。
-// 必须用 replaceState：滚一下推一条历史记录，后退键就彻底废了。
+// Cuộn tới điều nào thì thanh địa chỉ dừng ở điều đó, tiện copy URL gửi điều này cho người khác.
+// Phải dùng replaceState: mỗi lần cuộn mà đẩy một mục lịch sử thì nút quay lại hỏng hẳn.
 let spyT = 0, spyLast = '', spyOff = false;
 function spy(){
   if (spyOff) return;
   clearTimeout(spyT);
   spyT = setTimeout(() => {
-    const line = innerHeight * 0.3;        // 判定线取视口偏上三成，和人读的位置差不多
+    const line = innerHeight * 0.3;        // đường xác định lấy ở ba phần mười phía trên khung nhìn, gần với chỗ người ta đang đọc
     let hit = '';
-    // 还在页首读导读和筛选器时，没有「正在看的那一条」，地址栏就该是干净的。
-    // 否则停在最上面也会被记成 #e-1-1，一刷新就滚到第 1 节标题、导读全没了
-    // （2026-09-20 用户提的）。判据是第一个节块的顶还在判定线以下。
+    // Khi còn ở đầu trang đọc dẫn nhập và bộ lọc thì không có "điều đang xem", thanh địa chỉ phải sạch.
+    // Nếu không, dừng ở trên cùng cũng bị ghi thành #e-1-1, tải lại là cuộn tới tiêu đề mục 1, mất hết dẫn nhập
+    // （người dùng nêu 2026-09-20）。Căn cứ là đỉnh khối mục đầu tiên còn nằm dưới đường xác định。
     const firstBlock = BLOCKS.find(b => b.el.offsetParent)?.el;
     if (firstBlock && firstBlock.getBoundingClientRect().top > line){
       if (spyLast === '') return;
@@ -941,13 +938,13 @@ function spy(){
       history.replaceState(history.state, '', location.pathname + location.search);
       return;
     }
-    // 看标题：从上往下第一个没被顶栏挡住的标题，就是正在读的那条。一屏只放得下一条半，
-    // 按「压着视口三成处那条线」「露出得多」「中线还在屏幕里」三种判法都试过，都有被用户
-    // 抓到的情况（2026-10-05），最后按用户的提议只看标题。节标题算作这一节第 1 条的标题，
-    // 不然读节首引言和导览时会挑到上一节最后一条。屏幕里一个标题都没有（一条比一屏还高），
-    // 就取标题已经滚到顶栏上面的最后一条，也就是正在读的这条。
+    // Xét tiêu đề: tiêu đề đầu tiên từ trên xuống không bị thanh trên che chính là điều đang đọc. Một màn chỉ vừa một điều rưỡi,
+    // đã thử cả ba cách xét: "nằm trên đường ba phần mười khung nhìn", "lộ ra nhiều hơn", "đường giữa còn trong màn hình", cách nào cũng bị người dùng
+    // bắt được lỗi（2026-10-05）, cuối cùng theo đề nghị của người dùng là chỉ xét tiêu đề. Tiêu đề mục tính là tiêu đề của điều 1 mục đó,
+    // nếu không thì khi đọc phần mở đầu mục và phần dẫn sẽ chọn nhầm điều cuối của mục trước. Trong màn hình không có tiêu đề nào（một điều cao hơn một màn）,
+    // thì lấy điều cuối cùng mà tiêu đề đã cuộn lên trên thanh trên, tức là điều đang đọc.
     const top = Math.max(0, document.querySelector('header.nav').getBoundingClientRect().bottom);
-    const heads = [];                        // [标题上沿, 落到哪条]
+    const heads = [];                        // [mép trên tiêu đề, rơi vào điều nào]
     for (const b of BLOCKS){
       const r = b.el.getBoundingClientRect();
       if (!r.height) continue;
@@ -955,8 +952,8 @@ function spy(){
       if (first) heads.push([r.top, first.el.id]);
     }
     for (const c of CARDS){
-      // 不看 card.vis：那是 CARD_IO 维护的渲染标记，滞后于滚动。直接量一次位置，
-      // 高度为 0 的就是被筛选藏起来的，顺带一并跳过。
+      // Không xem card.vis: đó là dấu kết xuất do CARD_IO giữ, chậm hơn so với cuộn. Đo thẳng vị trí một lần,
+      // cái nào cao 0 là bị bộ lọc ẩn, tiện thể bỏ qua luôn.
       if (!c.el.getBoundingClientRect().height) continue;
       heads.push([c.el.querySelector('.card-h').getBoundingClientRect().top, c.el.id]);
     }
@@ -970,17 +967,17 @@ function spy(){
 }
 addEventListener('scroll', spy, { passive: true });
 
-// 卡片是懒渲染的，没渲染过的那些矮一截。直接滚过去会停在半路：滚动沿途的卡片被
-// IntersectionObserver 补渲染、高度撑开，目标又被往下推了，跨节跳时尤其明显。
-// 所以先把目标本身渲染出来，再反复校正位置，直到两次之间不再变化（或试满 10 次）。
-// 整节指路落到节首，所以对齐方式要分开：条目居中看得清上下文，整节必须顶到视口
-// 上沿——一整节有几十条、高好几屏，block:'center' 会把它的中点摆到视口中间，落点
-// 在节当中，跳过去等于没跳（2026-09-20 用户点第 13 节撞到的）。顶部对齐靠 html 上
-// 那条 scroll-padding-top 让开吸顶导航。flash 也要分开：.flash 的样式只挂在 .card
-// 上，整块 section 加了不显示，闪的是节标题那一行。
+// Thẻ được kết xuất lười, thẻ chưa kết xuất thấp hơn một khúc. Cuộn thẳng tới sẽ dừng giữa đường: thẻ dọc đường được
+// IntersectionObserver kết xuất bù, chiều cao giãn ra, đích lại bị đẩy xuống, nhảy qua mục càng rõ.
+// Nên kết xuất chính đích trước, rồi hiệu chỉnh vị trí lặp lại cho tới khi hai lần liên tiếp không đổi（hoặc đủ 10 lần）。
+// Chỉ dẫn cả mục rơi vào đầu mục, nên cách căn phải tách ra: điều thì căn giữa cho thấy ngữ cảnh, cả mục phải dính lên mép
+// trên khung nhìn — một mục có mấy chục điều, cao mấy màn, block:'center' sẽ đặt điểm giữa của nó vào giữa khung nhìn, điểm rơi
+// thành giữa mục, nhảy tới coi như không nhảy（người dùng bấm mục 13 gặp ngày 2026-09-20）。Căn lên trên dựa vào
+// scroll-padding-top trên html để né thanh điều hướng dính trên. flash cũng phải tách: kiểu .flash chỉ gắn trên .card
+// nên thêm vào cả khối section thì không hiện, chỉ nháy dòng tiêu đề mục.
 function scrollToEl(el, { align = 'center', flashEl = el, spyId = el.id, renderEl = el } = {}){
-  spyOff = true;                           // 校正期间别让 spy 把地址栏改成沿途的条目
-  const card = CARD_OF.get(renderEl);      // 滚到节块时要预渲染的是节里第一张卡片
+  spyOff = true;                           // trong lúc hiệu chỉnh đừng để spy đổi thanh địa chỉ thành điều dọc đường
+  const card = CARD_OF.get(renderEl);      // khi cuộn tới khối mục thì thẻ cần kết xuất trước là thẻ đầu tiên trong mục
   if (card && card.key !== CUR_KEY) renderCard(card, CUR_TERMS, CUR_KEY);
   let tries = 0, lastY = NaN;
   const settle = () => {
@@ -988,14 +985,14 @@ function scrollToEl(el, { align = 'center', flashEl = el, spyId = el.id, renderE
     const y = Math.round(el.getBoundingClientRect().top);
     if (++tries < 10 && y !== lastY){ lastY = y; setTimeout(settle, 50); return; }
     flashEl.classList.remove('flash'); void flashEl.offsetWidth; flashEl.classList.add('flash');
-    spyLast = spyId; spyOff = false;       // 停稳了地址栏就归这一条，再放 spy 回来
+    spyLast = spyId; spyOff = false;       // dừng yên thì thanh địa chỉ thuộc về điều này, rồi thả spy trở lại
     tocSync(spyId);
   };
   settle();
 }
-// 一节的第一条，滚的时候连它上面的节标题一起带进视野：整节指路落地就是这个位置，
-// 刷新、把链接发给别人也该看到同一屏。不然地址栏一样、画面不一样——点过去看得见
-// 「13. 紧急情况」，刷新之后标题在视口上面、直接从第一条开始（2026-09-20 用户提的）。
+// Điều đầu tiên của một mục, khi cuộn thì mang cả tiêu đề mục phía trên vào khung nhìn: chỉ dẫn cả mục rơi đúng chỗ này,
+// tải lại hay gửi liên kết cho người khác cũng phải thấy cùng một màn. Nếu không, địa chỉ giống nhau mà hình khác nhau — bấm sang thì thấy
+// "13. Tình huống khẩn cấp", tải lại thì tiêu đề ở trên khung nhìn, bắt đầu thẳng từ điều đầu（người dùng nêu 2026-09-20）。
 function scrollAnchor(el){
   const block = el.closest?.('.sec-block');
   return block && el.id === `e-${block.dataset.sec}-1` ? block : el;
@@ -1005,26 +1002,26 @@ function gotoItem(key, fromId){
   const id = sec ? 'sec-' + sec : `e-${key.split('-')[0]}-${key.split('-')[1]}`;
   const el = document.getElementById(id);
   if (!el) return;
-  if (!el.offsetParent){            // 目标被筛选藏起来了，先把筛选清掉再跳
+  if (!el.offsetParent){            // đích bị bộ lọc ẩn, xóa bộ lọc trước rồi hãy nhảy
     state.q = ''; for (const d of DIMS) state[d].clear();
     state.dispute = false; state.todo = false;
     syncControls(); apply(); writeUrl();
   }
-  // 把「从哪跳的」写进当前这条历史记录，再推一条新的，这样浏览器后退键和鼠标侧键
-  // 能回到原处。记的是来源卡片的 id 而不只是滚动条位置——往回走时沿途卡片会被补
-  // 渲染撑开，原来那个像素值早就不指向同一处了，只有按 id 重新定位才准。
+  // Ghi "nhảy từ đâu" vào mục lịch sử hiện tại, rồi đẩy một mục mới, như vậy nút quay lại của trình duyệt và nút hông chuột
+  // về được chỗ cũ. Ghi id của thẻ nguồn chứ không chỉ vị trí thanh cuộn — khi quay lại, thẻ dọc đường được
+  // kết xuất bù và giãn ra, giá trị pixel cũ từ lâu không còn trỏ cùng một chỗ, chỉ định vị lại theo id mới đúng.
   history.replaceState({ xrefFrom: fromId || '', xrefY: window.scrollY }, '');
-  // 地址栏写的不是 #sec-13 而是节里第一条的 #e-13-1：spy 一滚就会把 #sec-13 换成
-  // 那个形状（刷新时也是），与其让用户看着 hash 自己变，不如从一开始就写成同一个
-  // 形状——分享出去的链接也就和页面自己产生的链接对得上了。
+  // Thanh địa chỉ ghi #e-13-1 của điều đầu trong mục chứ không phải #sec-13: spy vừa cuộn là đổi #sec-13 thành
+  // hình dạng đó（khi tải lại cũng vậy）, thay vì để người dùng thấy hash tự đổi, chi bằng viết ngay từ đầu cùng một
+  // hình dạng — liên kết chia sẻ ra cũng khớp với liên kết do trang tự sinh.
   const first = sec ? document.getElementById(`e-${sec}-1`) : null;
   history.pushState(null, '', '#' + (first?.id || id));
   if (sec){
     scrollToEl(el, { align: 'start', flashEl: el.querySelector('.sec-h') || el, spyId: first?.id || id, renderEl: first || el });
     return;
   }
-  // 条目一律居中看得清上下文，只有一节的第一条例外：滚它所在的节块、顶部对齐，
-  // 这样「第 13 节」和「第 13 节第 1 条」两种指路落在同一屏，闪的还是那张卡片。
+  // Điều thì luôn căn giữa cho thấy ngữ cảnh, chỉ điều đầu của một mục là ngoại lệ: cuộn khối mục chứa nó, căn lên trên,
+  // như vậy hai chỉ dẫn "mục 13" và "mục 13 điều 1" rơi vào cùng một màn, nháy vẫn là thẻ đó.
   const anchor = scrollAnchor(el);
   scrollToEl(anchor, anchor === el ? {} : { align: 'start', flashEl: el, spyId: el.id, renderEl: el });
 }
@@ -1046,26 +1043,26 @@ document.addEventListener('keydown', ev => {
 });
 POP.querySelector('.xp-x').addEventListener('click', () => { POP.hidden = true; });
 POP.querySelector('.xp-go').addEventListener('click', () => {
-  // 从长文弹窗里点的，先关掉弹窗才看得见跳到的条目
+  // bấm từ popup bài dài thì phải đóng popup trước mới thấy điều nhảy tới
   if (!DM.mask.hidden) dmClose();
   gotoItem(POP.dataset.go, POP.dataset.from); POP.hidden = true;
 });
 addEventListener('resize', () => { POP.hidden = true; });
 
 const COST_W = { money:{'0':0,'ít':1,'nhiều':2}, time:{'ít':0,'vừa':1,'nhiều':2}, will:{'không':0,'ít':1,'có':2} };
-const LENS_LABEL = {'tử-vong':'đổi lấy mạng sống','mắc-bệnh':'đổi lấy sức khoẻ','tàn-tật':'tránh tàn tật','triệu-chứng':'giảm triệu chứng','khác':'kết cục khác'};
-/* ---------- 构建 DOM ---------- */
-// 成本标签里的「人群=」：逗号是或，加号是且；没写的条目人人适用。值表改了要同步 sync-stats.mjs 的 WHO
+const LENS_LABEL = {'tử-vong':'đổi lấy mạng sống','mắc-bệnh':'đổi lấy sức khoẻ','tàn-tật':'tránh tàn tật','triệu-chứng':'giảm triệu chứng','thời-gian':'đổi lấy thời gian dùng được','khác':'kết cục khác'};
+/* ---------- Dựng DOM ---------- */
+// Nhãn chi phí "nhóm=": dấu phẩy là hoặc, dấu cộng là và; điều không ghi thì ai cũng áp dụng. Đổi bảng giá trị phải đồng bộ WHO trong sync-stats.mjs
 const WHO_LABEL = {'mang-thai':'đang mang thai','trẻ-sơ-sinh':'nhà có bé dưới 3 tuổi','trẻ-em':'nhà có trẻ 3–18 tuổi','trẻ-nhỏ':'nhà có trẻ nhỏ','65-tuổi':'từ 65 tuổi','60-tuổi':'từ 60 tuổi','50-tuổi':'từ 50 tuổi','45-tuổi':'từ 45 tuổi','40-tuổi':'từ 40 tuổi','35-tuổi':'từ 35 tuổi','nữ-40-tuổi':'nữ từ 40 tuổi','nữ':'nữ','nam':'nam','cao-tuổi':'người cao tuổi','người-già':'người già','hút-thuốc':'người hút thuốc','tim-mạch':'có bệnh tim mạch','nam-quan-hệ-đồng-giới':'nam quan hệ đồng giới'};
 const LABEL = { money:{'0':'không tốn tiền','ít':'ít tiền','nhiều':'nhiều tiền'}, time:{'ít':'làm một lần','vừa':'vài giờ','nhiều':'mất thời gian mỗi ngày'}, will:{'không':'không cần ý chí','ít':'cần chút ý chí','có':'cần nhiều ý chí'} };
 let CARDS = [], BLOCKS = [];
-// 侧栏条目目录：卡片 id → 目录里那一行，节号 → 该节的目录块
+// Mục lục điều ở thanh bên: id thẻ → dòng đó trong mục lục, số mục → khối mục lục của mục đó
 const TOC = new Map(), TOC_SEC = new Map();
 let TOC_ON = null, TOC_SELK = '';
-// 手动点过折叠箭头的节：节号 → 展开与否，优先于自动规则。换了章节筛选就作废。
+// Mục đã bấm mũi tên gập bằng tay: số mục → mở hay không, ưu tiên hơn quy tắc tự động. Đổi bộ lọc mục thì hết hiệu lực.
 const TOC_MAN = new Map();
-// 选了节就展开那一节；看全部章节时跟着 spy 展开正在读的那节，读到页首就全收起。
-// 高亮行滚出侧栏可视区时把侧栏拉过去，只动侧栏自己的 scrollTop，不碰页面滚动。
+// Chọn mục thì mở mục đó; khi xem toàn bộ mục thì theo spy mở mục đang đọc, đọc tới đầu trang thì thu hết.
+// Dòng tô sáng cuộn ra ngoài vùng thấy của thanh bên thì kéo thanh bên theo, chỉ đụng scrollTop của thanh bên, không chạm cuộn trang.
 function tocSync(hit, { follow = true } = {}){
   const selk = [...state.sec].join();
   if (selk !== TOC_SELK){ TOC_MAN.clear(); TOC_SELK = selk; }
@@ -1079,12 +1076,12 @@ function tocSync(hit, { follow = true } = {}){
   TOC_ON = TOC.get(hit) || null;
   if (!TOC_ON) return;
   TOC_ON.classList.add('on');
-  if (!follow || !TOC_ON.offsetParent) return; // 手动折叠不追踪滚动；隐藏的条目量不出位置
+  if (!follow || !TOC_ON.offsetParent) return; // thu gọn bằng tay thì không theo dõi cuộn; điều bị ẩn thì không đo được vị trí
   const sb = document.getElementById('sidebar');
   const r = TOC_ON.getBoundingClientRect(), br = sb.getBoundingClientRect();
   if (r.top < br.top + 48 || r.bottom > br.bottom - 48) sb.scrollTop += r.top - br.top - sb.clientHeight / 3;
 }
-// 卡片文字只在「上屏 + 搜索词变了」时重渲染，离屏的先记账，滚进来再补
+// Chữ trong thẻ chỉ kết xuất lại khi "lên màn hình + từ khóa đổi", cái ngoài màn thì ghi nợ, cuộn vào mới bù
 let CUR_TERMS = [], CUR_KEY = '';
 const CARD_OF = new WeakMap();
 const CARD_IO = new IntersectionObserver(list => {
@@ -1114,7 +1111,7 @@ function build(sections){
       a.innerHTML = `<i>${e.n}</i><span>${esc(e.title)}</span>`;
       sub.appendChild(a); TOC.set(`e-${e.sec}-${e.n}`, a);
     }
-    // 其他筛选把这节条目全筛没了时，展开后显示这一行，不留空白
+    // khi bộ lọc khác lọc sạch hết điều của mục này, mở ra thì hiện dòng này, không để trống
     const none = document.createElement('p'); none.className = 'toc-none'; none.hidden = true; none.textContent = 'Không có mục nào khớp bộ lọc hiện tại';
     sub.appendChild(none);
     fsec.appendChild(sub); TOC_SEC.set(s.n, sub);
@@ -1177,9 +1174,9 @@ function buildGlossary(){
   }
 }
 
-/* ---------- 筛选状态 ---------- */
+/* ---------- Trạng thái bộ lọc ---------- */
 const DIMS = ['sec','ratio','lens','grade','money','time','will','who','upd','days'];
-/* 最近更新：updates.json 由 tools/updates.mjs 从 git 历史生成，记着哪条哪天新增、正文哪天改过（光改措辞不算） */
+/* Cập nhật gần đây: updates.json do tools/updates.mjs sinh từ lịch sử git, ghi điều nào thêm ngày nào, nội dung sửa ngày nào（chỉ đổi cách nói thì không tính） */
 let UPD = {};
 const TODAY = Date.parse(new Intl.DateTimeFormat('sv-SE').format(new Date()));
 const ageOf = d => Math.round((TODAY - Date.parse(d)) / 864e5);
@@ -1193,7 +1190,7 @@ function fitsUpd(e){
   if (state.upd.size && !state.upd.has(u.kind)) return false;
   return !state.days.size || u.age <= Number([...state.days][0]);
 }
-// 页头那行：7 天内有更新就报 7 天的，没有就报 30 天的，都没有就不显示
+// Dòng ở đầu trang: trong 7 ngày có cập nhật thì báo 7 ngày, không thì báo 30 ngày, không có gì thì ẩn
 function buildUpdLine(){
   if (!Object.keys(UPD).length) return;
   document.getElementById('g-upd').hidden = false;
@@ -1206,7 +1203,7 @@ function buildUpdLine(){
   line.innerHTML = `Cập nhật ${w} ngày qua: ` + [a && link('mới', a), c && link('đã sửa', c)].filter(Boolean).join(', ') + '. Chỉ sửa câu chữ thì không tính.';
   line.hidden = false;
 }
-// 「我的情况」：一项都没勾就不筛；勾了「都不是」等于只看人人适用的条目。勾了 60 岁以上的自然也算 35 岁以上。
+// "Hoàn cảnh của tôi": không tick mục nào thì không lọc; tick "không cái nào" nghĩa là chỉ xem điều ai cũng áp dụng. Tick trên 60 tuổi đương nhiên cũng tính là trên 35 tuổi.
 function fitsMe(e){
   if (!state.who.size || !e.who.length) return true;
   const has = v => state.who.has(v) || (v === '45-tuổi' && state.who.has('65-tuổi'));
@@ -1238,10 +1235,10 @@ function syncControls(){
   document.getElementById('f-dispute').checked = state.dispute;
   document.getElementById('f-todo').checked = state.todo;
 }
-// 文字只在搜索词变化时重渲染；筛选按钮只切换显隐，不碰卡片内容
+// Chữ chỉ kết xuất lại khi từ khóa đổi; nút lọc chỉ bật tắt hiển thị, không chạm nội dung thẻ
 function renderCard(card, terms, key){
   const {e, f} = card;
-  CUR_SEC = e.sec;                 // 「本节第 X 条」要按这张卡片所属的节来解析
+  CUR_SEC = e.sec;                 // "điều X mục này" phải phân giải theo mục mà thẻ này thuộc về
   renderText(f.t, e.title, terms);
   renderText(f.cost, e.cost, terms);
   f.human.hidden = !e.human;
@@ -1275,8 +1272,8 @@ function apply(){
     if (ok && state.dispute && !e.dispute) ok = false;
     if (ok && state.todo && !e.todo) ok = false;
     if (ok && terms.length && !terms.every(t => e.hay.includes(t))) ok = false;
-    // 目录行不跟章节筛选走：选着第 3 节时点第 5 节的折叠箭头，展开的是第 5 节
-    // 符合其他筛选的条目，而不是一块空白。点进去时 gotoItem 会先清掉筛选再跳。
+    // Dòng mục lục không theo bộ lọc mục: đang chọn mục 3 mà bấm mũi tên gập của mục 5 thì mở mục 5
+    // các điều hợp bộ lọc khác, chứ không phải một khối trống. Bấm vào thì gotoItem xóa bộ lọc trước rồi nhảy.
     const a = TOC.get(el.id); if (a && a.hidden === ok) a.hidden = !ok;
     if (ok){ matched++; tocSec[e.sec] = (tocSec[e.sec]||0)+1; }
     if (ok && state.sec.size && !state.sec.has(e.sec)) ok = false;
@@ -1292,13 +1289,13 @@ function apply(){
   document.getElementById('cnt').textContent = shown;
   document.getElementById('empty').hidden = shown !== 0;
   syncControls(); writeUrl(); tocSync(spyLast);
-  PERF.log('apply', t0, `命中 ${shown} 条，重渲染 ${rerender} 张`);
+  PERF.log('apply', t0, `khớp ${shown} điều, kết xuất lại ${rerender} thẻ`);
 }
 
-/* ---------- 事件 ---------- */
-// 离线单文件会把 GA 片段整段剥掉，这里没有 gtag 也要能跑
+/* ---------- Sự kiện ---------- */
+// Bản offline một file cắt bỏ cả đoạn GA, ở đây không có gtag cũng phải chạy được
 const track = (name, params) => { if (typeof gtag === 'function') gtag('event', name, params); };
-// 搜索词上报：搜了没命中的词就是该补的条目。results 要在 GA 后台注册成自定义指标才看得到。
+// Báo từ khóa tìm kiếm: từ tìm mà không khớp gì chính là điều cần bổ sung. results phải đăng ký thành chỉ số tùy chỉnh trong GA mới thấy.
 let SENT_Q = '';
 function reportSearch(){
   const q = state.q;
@@ -1309,27 +1306,27 @@ function reportSearch(){
 function wire(){
   const sb = document.getElementById('sidebar'), bd = document.getElementById('backdrop'), mb = document.getElementById('menu');
   const setMenu = (on) => { sb.classList.toggle('open', on); bd.classList.toggle('on', on); mb.setAttribute('aria-expanded', String(on)); };
-  // 筛选变了就顺手让 spy 重算一次 hash：writeUrl 是无条件把旧 hash 拼回去的，
-  // 而滚回顶部时页面若本来就在顶部不会触发 scroll，hash 会僵在一个已经被筛掉的
-  // 条目上，拼出 ?sec=8#e-11-1 这种自相矛盾的地址。
+  // Bộ lọc đổi thì tiện thể cho spy tính lại hash một lần: writeUrl ghép lại hash cũ vô điều kiện,
+  // mà cuộn về đầu trang khi trang vốn đã ở đầu thì không kích hoạt scroll, hash sẽ kẹt ở một
+  // điều đã bị lọc bỏ, ghép ra địa chỉ tự mâu thuẫn kiểu ?sec=8#e-11-1.
   const toTop = () => { setMenu(false); scrollTo({ top: 0 }); spy(); };
   document.querySelectorAll('[data-dim]').forEach(g => g.addEventListener('click', ev => {
     const b = ev.target.closest('[data-v]'); if (!b) return;
     const dim = g.dataset.dim, v = b.dataset.v, set = state[dim];
-    // 点折叠箭头，或再点一次已选中的节：只收起或展开这节的目录，筛选不动
+    // bấm mũi tên gập, hoặc bấm lại mục đang chọn: chỉ thu gọn hoặc mở mục lục của mục này, bộ lọc không đổi
     if (dim === 'sec' && v && (ev.target.closest('.fold') || set.has(v))){
       const sub = TOC_SEC.get(v);
       TOC_MAN.set(v, sub.hidden); tocSync(spyLast, { follow: false });
       return;
     }
     if (dim === 'sec'){
-      // 章节单选：再点一次已选中的不取消，免得双击退回全部章节；要看全部点「全部章节」
+      // Chọn một mục: bấm lại mục đang chọn thì không bỏ chọn, tránh bấm hai lần là về toàn bộ mục; muốn xem hết thì bấm "Toàn bộ mục"
       if (v === '') set.clear(); else { set.clear(); set.add(v); }
     } else if (dim === 'days'){
-      // 时间范围单选，再点一次取消
+      // chọn một khoảng thời gian, bấm lại thì bỏ chọn
       const on = !set.has(v); set.clear(); if (on) set.add(v);
     } else if (dim === 'who'){
-      // 「都不是」和具体情况互斥：点了一边就清掉另一边
+      // "không cái nào" loại trừ với hoàn cảnh cụ thể: bấm bên này thì xóa bên kia
       const on = !set.has(v);
       if (v === 'không') set.clear(); else set.delete('không');
       on ? set.add(v) : set.delete(v);
@@ -1338,20 +1335,20 @@ function wire(){
     }
     apply(); toTop();
   }));
-  // 条目目录：点了就地滚过去，手机上先收起抽屉
+  // Mục lục điều: bấm là cuộn tới ngay, trên điện thoại thì thu ngăn kéo trước
   document.getElementById('f-sec').addEventListener('click', ev => {
     const a = ev.target.closest('a[data-go]'); if (!a) return;
     ev.preventDefault(); setMenu(false); gotoItem(a.dataset.go, spyLast);
   });
   document.getElementById('f-dispute').addEventListener('change', e => { state.dispute = e.target.checked; apply(); toTop(); });
   document.getElementById('f-todo').addEventListener('change', e => { state.todo = e.target.checked; apply(); toTop(); });
-  // 上报比筛选晚得多：按 120ms 那一拍发，「高血压」会被当成「高」「高血」「高血压」三次搜索
+  // báo cáo muộn hơn lọc nhiều: phát theo nhịp 120ms thì "tăng huyết áp" sẽ bị tính thành ba lần tìm "tăng", "tăng huyết", "tăng huyết áp"
   let tm, qtm; document.getElementById('q').addEventListener('input', e => {
     clearTimeout(tm); tm = setTimeout(() => { state.q = e.target.value.trim(); apply(); }, 120);
     clearTimeout(qtm); qtm = setTimeout(reportSearch, 2000);
   });
   const reset = () => { state.q=''; for (const d of DIMS) state[d].clear(); state.dispute=false; state.todo=false; apply(); toTop(); };
-  // 页头「最近 N 天更新」：点了就只看这一类，别的筛选清掉，免得读者以为没几条
+  // Dòng "cập nhật N ngày gần đây" ở đầu trang: bấm là chỉ xem loại này, xóa bộ lọc khác, tránh để người đọc tưởng chỉ có mấy điều
   document.getElementById('upd-line').addEventListener('click', ev => {
     const a = ev.target.closest('a[data-upd]'); if (!a) return;
     ev.preventDefault();
@@ -1366,7 +1363,7 @@ function wire(){
     if (e.key === '/' && !/INPUT|TEXTAREA/.test(document.activeElement.tagName)) { e.preventDefault(); document.getElementById('q').focus(); }
     if (e.key === 'Escape') { if (document.activeElement.id === 'q') document.activeElement.blur(); setMenu(false); }
   });
-  // 术语弹层
+  // Lớp thuật ngữ
   const pop = document.getElementById('pop');
   document.addEventListener('click', e => {
     const ab = e.target.closest('abbr.term');
@@ -1375,10 +1372,10 @@ function wire(){
   });
   document.addEventListener('keydown', e => { if (e.key === 'Enter' && document.activeElement.matches?.('abbr.term')) showTerm(document.activeElement); });
   addEventListener('scroll', () => { pop.hidden = true; }, {passive:true});
-  // 侧栏（移动端抽屉）
+  // Thanh bên（ngăn kéo trên di động）
   mb.addEventListener('click', () => setMenu(!sb.classList.contains('open')));
   bd.addEventListener('click', () => setMenu(false));
-  // 深色模式
+  // Chế độ tối
   document.getElementById('theme').addEventListener('click', () => {
     const dark = !document.documentElement.classList.contains('dark');
     document.documentElement.classList.toggle('dark', dark);
@@ -1386,22 +1383,22 @@ function wire(){
   });
 }
 
-/* ---------- 启动 ---------- */
-// 一次要取 README 加三十多个正文文件，手机信号差时中间掉一个，整页就全军覆没
-// （2026-09-20 用户在手机上读到一半撞到 Failed to fetch）。所以：取到的存下来，
-// 重试时不重下；网络类的失败自己先退避重试几次；再不行也只报「网络中断」并给
-// 一个接着读的按钮，别再让读者去查文件在不在——文件在不在和这种失败没关系。
+/* ---------- Khởi động ---------- */
+// Một lần phải lấy README cộng hơn ba mươi file nội dung, sóng điện thoại kém mà rớt một cái giữa đường là cả trang sụp
+// （người dùng đọc dở trên điện thoại gặp Failed to fetch ngày 2026-09-20）。Nên: cái gì lấy được thì lưu lại,
+// thử lại thì không tải lại; lỗi thuộc loại mạng thì tự lùi rồi thử lại vài lần; vẫn không được thì chỉ báo "mất kết nối mạng" và cho
+// một nút đọc tiếp, đừng bắt người đọc đi kiểm tra file có hay không — file có hay không không liên quan tới kiểu lỗi này.
 const CORPUS_CACHE = new Map();
 async function readText(path, tries = 3){
   if (CORPUS_CACHE.has(path)) return CORPUS_CACHE.get(path);
   for (let i = 1; ; i++){
     let retry = false;
     try {
-      // 信号差时请求可能挂着不返回，给它一个上限，超时按可重试处理
+      // sóng kém thì request có thể treo không trả về, cho nó một giới hạn, quá hạn thì coi như thử lại được
       const signal = AbortSignal.timeout ? AbortSignal.timeout(20000) : undefined;
       const res = await fetch(path, {cache:'no-cache', signal});
       if (!res.ok){
-        // 4xx 重试没意义（文件真不在），5xx 和 429 是服务端一时的事，值得再来一次
+        // 4xx thử lại vô nghĩa（file thật sự không có）, 5xx và 429 là chuyện nhất thời của máy chủ, đáng thử lại một lần
         retry = res.status >= 500 || res.status === 429;
         throw new Error('http '+res.status+'：'+path);
       }
@@ -1409,29 +1406,29 @@ async function readText(path, tries = 3){
       CORPUS_CACHE.set(path, text);
       return text;
     } catch (err) {
-      // fetch 的网络失败是 TypeError，超时和中断是 DOMException
+      // lỗi mạng của fetch là TypeError, quá hạn và ngắt là DOMException
       const net = retry || err instanceof TypeError || /^(TimeoutError|AbortError)$/.test(err.name);
       if (!net) throw err;
       if (i >= tries){
         const e = new Error(`Không lấy được ${path} (mạng đứt hoặc quá thời gian)`);
         e.net = true; throw e;
       }
-      await new Promise(r => setTimeout(r, 500 * i * i));   // 0.5s、2s 后再试
+      await new Promise(r => setTimeout(r, 500 * i * i));   // thử lại sau 0.5s, 2s
     }
   }
 }
 
-/* ---------- 长文弹窗 ----------
-   长文（docs/*.md）原来只能跳 GitHub：要离开页面，回来还得重新定位，而且 GitHub 上
-   的长文没有章节目录可点。这里就地渲染，左边给一份可点的目录。
-   拦的是「指向 docs/xxx.md 的 GitHub 链接」，不是某几个写死的入口——页头那行长文、
-   条目备注里 hrefOf() 转出来的相对链接，形状都是这一个，所以一处拦全部生效。 */
+/* ---------- Popup bài dài ----------
+   Bài dài (docs/*.md) trước chỉ có thể nhảy sang GitHub: phải rời trang, quay về còn phải định vị lại, mà trên GitHub
+   bài dài không có mục lục bấm được. Ở đây kết xuất ngay tại chỗ, bên trái cho một mục lục bấm được.
+   Chặn là "liên kết GitHub trỏ tới docs/xxx.md", không phải vài chỗ vào viết cứng — dòng bài dài ở đầu trang,
+   liên kết tương đối do hrefOf() chuyển ra trong ghi chú điều, hình dạng đều là một, nên chặn một chỗ là có hiệu lực tất cả. */
 const DOC_PREFIX = REPO_BLOB + 'docs/';
 function docPathOf(href){
   if (!href || href.indexOf(DOC_PREFIX) !== 0) return null;
   const rest = href.slice(DOC_PREFIX.length);
-  if (!/^[^/?#]+[.]md$/.test(rest)) return null;   // 目录链接（核实记录）不在其内
-  // 链接里的中文是百分号编码的，语料和 fetch 都用原名，这里要解回来
+  if (!/^[^/?#]+[.]md$/.test(rest)) return null;   // liên kết mục lục（bản ghi kiểm chứng）không tính
+  // tên file trong liên kết bị mã hóa phần trăm, ngữ liệu và fetch đều dùng tên gốc, ở đây phải giải mã lại
   try { return 'docs/' + decodeURIComponent(rest); } catch (e) { return 'docs/' + rest; }
 }
 const DM = {
@@ -1451,7 +1448,7 @@ function dmInline(s){
   h = h.replace(/\*\*((?:\\\*|[^*])+)\*\*/g, '<strong>$1</strong>');
   return h.replace(/\\([*_])/g, '$1');
 }
-// 长文只用到标题、段落、有序无序列表和表格这几样（五篇全扫过），不引 markdown 库
+// Bài dài chỉ dùng tiêu đề, đoạn văn, danh sách có thứ tự và không thứ tự, bảng（đã quét cả năm bài）, không kéo thư viện markdown
 function dmRender(md){
   const lines = md.split('\n'); const out = []; const heads = [];
   let para = [], list = null, title = '';
@@ -1460,13 +1457,13 @@ function dmRender(md){
   const flush = () => { flushP(); flushL(); };
   for (let i = 0; i < lines.length; i++){
     const ln = lines[i];
-    if (/^\[← (?:Về mục lục|回总目录)\]/.test(ln)) continue;          // 回总目录那行在弹窗里没有意义
+    if (/^\[← (?:Về mục lục|回总目录)\]/.test(ln)) continue;          // dòng về mục lục tổng trong popup không có ý nghĩa
     if (!ln.trim()){ flush(); continue; }
     let m;
     if ((m = ln.match(/^(#{1,4})\s+(.*)$/))){
       flush();
       const lv = m[1].length, txt = m[2].trim();
-      if (lv === 1){ title = txt; continue; }           // 一级标题拿去做弹窗标题
+      if (lv === 1){ title = txt; continue; }           // tiêu đề cấp 1 lấy làm tiêu đề popup
       const id = 'dm-h-' + heads.length;
       heads.push({ id, lv, txt });
       out.push('<h' + lv + ' id="' + id + '">' + dmInline(txt) + '</h' + lv + '>');
@@ -1500,9 +1497,9 @@ function dmRender(md){
   flush();
   return { html: out.join('\n'), heads, title };
 }
-// 长文里的「见第 16 节第 9 条」也要能点（2026-10-01 用户发现弹窗里点不了）。
-// dmRender 出的是 HTML 串，这里渲染完再逐个文本节点交给 xrefInto，链接和代码里的不动。
-// 长文没有「本节」，裸的「第 N 条」一律是法条，所以 CUR_SEC 置空：解析不到条目就留作普通文字。
+// "Xem mục 16 điều 9" trong bài dài cũng phải bấm được（người dùng phát hiện 2026-10-01 là trong popup không bấm được）。
+// dmRender trả ra chuỗi HTML, ở đây kết xuất xong rồi đưa từng node văn bản cho xrefInto, trong liên kết và code thì không đụng.
+// Bài dài không có "mục này", "điều N" trần đều là điều luật, nên để CUR_SEC rỗng: không phân giải được thì giữ nguyên chữ thường.
 function dmXrefs(root){
   const saved = CUR_SEC; CUR_SEC = '';
   const w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT,
@@ -1516,20 +1513,20 @@ function dmXrefs(root){
   }
   CUR_SEC = saved;
 }
-// 标题相对滚动容器的偏移。不用 offsetTop：它算的是到最近定位祖先的距离，
-// 容器没设 position 时会算到别处去（2026-09-21 目录点了不跳就是这个原因）。
+// Độ lệch của tiêu đề so với khung cuộn. Không dùng offsetTop: nó tính khoảng cách tới tổ tiên có định vị gần nhất,
+// container không đặt position thì nó tính sang chỗ khác（bấm mục lục không nhảy ngày 2026-09-21 chính là vì thế）。
 function dmTopOf(el){
   return el.getBoundingClientRect().top - DM.doc.getBoundingClientRect().top + DM.doc.scrollTop;
 }
 function dmSpy(){
-  // 判定线和主页的 spy 一样取视口偏上三成。原来是顶部 90px，下一节已经占了大半屏，目录还亮着上一节
+  // đường xác định lấy như spy ở trang chính: ba phần mười phía trên khung nhìn. Trước là 90px từ trên, mục sau đã chiếm nửa màn mà mục lục vẫn sáng mục trước
   const top = DM.doc.scrollTop + Math.max(90, DM.doc.clientHeight * 0.3); let cur = DM.heads[0];
   for (const h of DM.heads){ const el = document.getElementById(h.id); if (el && dmTopOf(el) <= top) cur = h; }
   for (const a of DM.toc.children) a.classList.toggle('on', !!cur && a.dataset.id === cur.id);
 }
 let dmSpyTick = false;
 DM.doc.addEventListener('scroll', () => {
-  POP.hidden = true;                       // 浮层是按页面坐标摆的，长文一滚就和引用错开了
+  POP.hidden = true;                       // lớp nổi đặt theo tọa độ trang, bài dài cuộn là lệch khỏi chỗ trích dẫn
   if (dmSpyTick) return; dmSpyTick = true;
   requestAnimationFrame(() => { dmSpyTick = false; dmSpy(); });
 });
@@ -1538,7 +1535,7 @@ function dmClose(){
   DM.mask.hidden = true;
   POP.hidden = true;
   document.body.style.overflow = '';
-  DM.lastFocus?.focus?.({ preventScroll: true });   // 不然「跳过去」刚滚到目标，又被拽回原来那个链接
+  DM.lastFocus?.focus?.({ preventScroll: true });   // nếu không, "nhảy tới" vừa cuộn tới đích lại bị kéo về liên kết cũ
   DM.lastFocus = null;
 }
 async function dmOpen(path, from){
@@ -1571,7 +1568,7 @@ async function dmOpen(path, from){
     a.addEventListener('click', ev => {
       ev.preventDefault();
       const el = document.getElementById(h.id);
-      // 跟随系统的「减少动态效果」：开了就直接跳，没开才滑过去
+      // theo "giảm hiệu ứng chuyển động" của hệ thống: bật thì nhảy thẳng, không bật mới trượt
       const soft = !matchMedia('(prefers-reduced-motion: reduce)').matches;
       if (el) DM.doc.scrollTo({ top: dmTopOf(el) - 12, behavior: soft ? 'smooth' : 'auto' });
     });
@@ -1583,8 +1580,8 @@ async function dmOpen(path, from){
 document.addEventListener('click', ev => {
   const a = ev.target.closest?.('a[href]');
   if (!a || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.button) return;
-  // 弹窗标题栏里那个「在 GitHub 打开」指的就是当前这篇，地址形状和被拦的一模一样，
-  // 不排掉就会被自己拦下来重开一遍，表现成「点了没反应」（2026-09-21 用户发现）
+  // Mục "Mở trên GitHub" trên thanh tiêu đề popup trỏ đúng bài đang xem, hình dạng địa chỉ y hệt cái bị chặn,
+  // không loại trừ thì bị chính nó chặn lại và mở lại một lần, biểu hiện là "bấm không có phản ứng"（người dùng phát hiện 2026-09-21）
   if (a.closest('.dm-h')) return;
   const path = docPathOf(a.href);
   if (!path) return;
@@ -1593,7 +1590,7 @@ document.addEventListener('click', ev => {
 });
 document.getElementById('dm-x').addEventListener('click', dmClose);
 DM.mask.addEventListener('click', ev => { if (ev.target === DM.mask) dmClose(); });
-// Esc 先关引用浮层，再按一次才关长文弹窗
+// Esc đóng lớp nổi trích dẫn trước, bấm lần nữa mới đóng popup bài dài
 document.addEventListener('keydown', ev => {
   if (ev.key !== 'Escape' || DM.mask.hidden) return;
   ev.stopPropagation();
@@ -1601,7 +1598,7 @@ document.addEventListener('keydown', ev => {
   dmClose();
 }, true);
 
-/* ---------- 赞赏码弹窗 ---------- */
+/* ---------- Popup mã ủng hộ ---------- */
 const TIP = document.getElementById('tip-mask');
 function tipClose(){
   if (TIP.hidden) return;
@@ -1624,14 +1621,14 @@ document.addEventListener('keydown', ev => { if (ev.key === 'Escape' && !TIP.hid
     statusText.textContent = `Đang đọc nội dung ${done}/${total}`;
     statusBar.style.width = (done / total * 100).toFixed(1) + '%';
   };
-  // 离线单文件版把正文内联在 window.__CORPUS__ 里（tools/offline/build.mjs 生成），此时不发任何请求
+  // Bản offline một file nhúng nội dung vào window.__CORPUS__（do tools/offline/build.mjs sinh）, lúc này không phát request nào
   const EMBED = window.__CORPUS__;
   try {
     if (!EMBED && location.protocol === 'file:') throw new Error('file');
     const md = EMBED ? EMBED.readme : await readText('README.md');
     const files = [...new Set(Array.from(md.matchAll(/\]\((book\/[^)]+\.md)\)/g), m => m[1]))].sort();
     if (!files.length) throw new Error('empty');
-    // 更新记录取不到不影响读正文，只是不显示「最近更新」
+    // không lấy được bản ghi cập nhật không ảnh hưởng đọc nội dung, chỉ là không hiện "cập nhật gần đây"
     const updP = EMBED ? Promise.resolve(EMBED.updates ?? null)
       : fetch('updates.json', {cache:'no-cache'}).then(r => r.ok ? r.json() : null).catch(() => null);
     let done = 0;
@@ -1655,21 +1652,21 @@ document.addEventListener('keydown', ev => { if (ev.key === 'Escape' && !TIP.hid
     status.remove();
     const t2 = performance.now(); build(sections); PERF.log('dựng DOM', t2, CARDS.length + ' thẻ');
     buildGlossary(); buildUpdLine(); readUrl(); wire(); apply();
-    PERF.mark(`DOM 节点 ${document.getElementsByTagName('*').length}，术语 ${GLOSS.length}`);
+    PERF.mark(`DOM node ${document.getElementsByTagName('*').length}, thuật ngữ ${GLOSS.length}`);
     if (location.hash){
       let target = document.getElementById(location.hash.slice(1));
-      // 别人分享过来的地址可能带着和 hash 冲突的筛选（老版本拼出来的 ?sec=8#e-11-1），
-      // 这时按 hash 办：点链接就是要看那一条，筛选清掉。
+      // Địa chỉ người khác chia sẻ có thể mang bộ lọc xung đột với hash（bản cũ ghép ra ?sec=8#e-11-1）,
+      // lúc này làm theo hash: bấm liên kết là muốn xem điều đó, xóa bộ lọc.
       if (target && !target.offsetParent){
         state.q = ''; for (const d of DIMS) state[d].clear();
         state.dispute = false; state.todo = false;
         syncControls(); apply(); writeUrl();
       }
-      // 落到一节的第一条时滚它所在的节块，节标题跟着进视野——和点「见第 13 节」
-      // 跳过去看到的是同一屏，地址栏也是同一个 #e-13-1
+      // rơi vào điều đầu của một mục thì cuộn khối mục chứa nó, tiêu đề mục theo vào khung nhìn — giống bấm "xem mục 13"
+      // nhảy tới thấy cùng một màn, thanh địa chỉ cũng là cùng một #e-13-1
       const land = target ? scrollAnchor(target) : null;
       land?.scrollIntoView();
-      // 卡片是 content-visibility:auto，首次定位后高度才准，下一帧再对一次
+      // thẻ là content-visibility:auto, định vị lần đầu xong chiều cao mới đúng, khung sau căn lại một lần
       if (land) requestAnimationFrame(() => land.scrollIntoView());
     }
   } catch (err) {

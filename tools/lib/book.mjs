@@ -39,7 +39,7 @@ export function stripBackLink(md) {
   return md.replace(/^\[← Về mục lục\]\([^)]*\)\s*\n/, '');
 }
 
-// Một đoạn trong README: từ标题 mở đầu tới tiêu đề kế tiếp
+// Một đoạn trong README: từ tiêu đề mở đầu tới tiêu đề kế tiếp
 export function readBook() {
   const readme = read(README_FILE);
   const lines = readme.split('\n');

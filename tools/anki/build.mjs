@@ -1,17 +1,17 @@
-// 把全书条目做成一副 Anki 牌组（.apkg），一条一张问答卡，按节分子牌组（issue #97）。
-// 用法：node tools/anki/build.mjs [输出路径]   默认输出 dist/HowToLiveBetter.apkg
+// Đóng toàn bộ mục trong sách thành một bộ thẻ Anki (.apkg), mỗi mục một thẻ hỏi đáp, chia bộ con theo chương (issue #97).
+// Cách dùng: node tools/anki/build.mjs [đường dẫn đầu ra]   mặc định ghi dist/HowToLiveBetter.apkg
 //
-// 卡片正面是节名和条目标题，背面是说人话、成本、性价比、收益量级、口径和证据等级，再给一个在线版链接。
-// 标题本身就是建议，所以正面不挖空；复习时回想的是「为什么值得做、代价多大」。
-// 挖空要逐条人工标，新增条目也得跟着标，维护不起，所以只做自动生成的这一种。
+// Mặt trước thẻ là tên chương và tiêu đề mục, mặt sau là "nói dễ hiểu", chi phí, mức đáng làm, mức lợi ích, thước đo và mức bằng chứng, kèm một liên kết tới bản online.
+// Bản thân tiêu đề đã là lời khuyên, nên mặt trước không để chỗ trống; khi ôn tập người học nhớ lại "vì sao đáng làm, tốn bao nhiêu".
+// Muốn để chỗ trống thì phải đánh dấu tay từng mục, thêm mục mới lại phải đánh theo, không kham nổi việc bảo trì, nên chỉ làm kiểu tự sinh này.
 //
-// 零依赖：.apkg 就是一个 zip，里面一个 SQLite 库（Anki 2.1 的旧版库结构，各版本 Anki 都能导入）
-// 加一个媒体清单。库用 Node 自带的 node:sqlite 写，zip 用 tools/lib/zip.mjs。
+// Không phụ thuộc gói ngoài: .apkg chính là một zip, bên trong là một CSDL SQLite (cấu trúc CSDL kiểu cũ của Anki 2.1, mọi phiên bản Anki đều nhập được)
+// cộng thêm một danh sách media. CSDL ghi bằng node:sqlite có sẵn của Node, zip dùng tools/lib/zip.mjs.
 //
-// 重新导入时 Anki 按笔记的 guid 认「同一张卡」：内容更新、复习记录保留。guid 取「节号-条号」，
-// 所以条目只追加在节末（CLAUDE.md 本来就这么要求）就不会串；删条目让后面的条号整体减一时，
-// 老用户那边的卡会对到新内容上，复习记录跟着错位一条，这个代价能接受。
-// 牌组、笔记类型的 id 写死，也是为了重新导入时合进原来那副牌，不另起一副。
+// Khi nhập lại, Anki nhận "cùng một thẻ" theo guid của ghi chú: nội dung được cập nhật, lịch sử ôn tập được giữ. guid lấy "số chương-số mục",
+// nên chỉ cần thêm mục vào cuối chương (CLAUDE.md vốn đã yêu cầu vậy) là không bị lẫn; khi xoá một mục làm số mục phía sau giảm đều một bậc,
+// thẻ bên người dùng cũ sẽ khớp sang nội dung mới, lịch sử ôn tập lệch theo một mục, cái giá này chấp nhận được.
+// id của bộ thẻ và kiểu ghi chú được viết cứng, cũng để khi nhập lại thì gộp vào đúng bộ thẻ cũ, không tạo bộ mới.
 import { writeFileSync, readFileSync, mkdirSync, mkdtempSync, rmSync } from 'node:fs';
 import { resolve, dirname, join } from 'node:path';
 import { tmpdir } from 'node:os';
@@ -31,7 +31,7 @@ const deckId = sec => ROOT_DECK_ID + Number(sec);
 const noteId = (sec, n) => 1759900100000 + Number(sec) * 1000 + Number(n);
 const cardId = (sec, n) => 1759900200000 + Number(sec) * 1000 + Number(n);
 
-// ---------- 读条目 ----------
+// ---------- Đọc mục ----------
 const FIELD = { 'Chi phí': 'cost', 'Nói dễ hiểu': 'human', 'Mức bằng chứng': 'grade', 'Ghi chú': 'note' };
 
 function parseSection(md) {
@@ -63,7 +63,7 @@ function parseSection(md) {
 const { bookFiles } = readBook();
 const sections = bookFiles.map(f => parseSection(read(f)));
 
-// ---------- 字段 ----------
+// ---------- Các trường ----------
 const esc = s => String(s ?? '').replace(/\*\*/g, '').replace(/\\([*_])/g, '$1')
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const pad = n => String(n).padStart(2, '0');
@@ -99,7 +99,7 @@ for (const s of sections) {
   }
 }
 
-// ---------- 笔记类型和牌组 ----------
+// ---------- Kiểu ghi chú và bộ thẻ ----------
 const CSS = `.card { font-family: "Iowan Old Style", Georgia, -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;
   font-size: 18px; line-height: 1.7; text-align: left; max-width: 40em; margin: 0 auto; padding: 0 12px; color: #213547; background: #fff; }
 .nightMode.card, .night_mode .card { color: rgba(255,255,245,.86); background: #1b1b1f; }
@@ -126,7 +126,7 @@ const AFMT = `<div class="sec">{{Chương}}</div>
 
 const model = {
   id: MODEL_ID, name: `${TITLE} (thẻ hỏi đáp)`, type: 0, mod: NOW_S, usn: -1, sortf: 1, did: ROOT_DECK_ID,
-  tmpls: [{ name: '问答', ord: 0, qfmt: QFMT, afmt: AFMT, did: null, bqfmt: '', bafmt: '' }],
+  tmpls: [{ name: 'Hỏi đáp', ord: 0, qfmt: QFMT, afmt: AFMT, did: null, bqfmt: '', bafmt: '' }],
   flds: FIELDS.map((name, ord) => ({ name, ord, sticky: false, rtl: false, font: 'Arial', size: 20, media: [] })),
   css: CSS, latexPre: '', latexPost: '', latexsvg: false, req: [[0, 'any', [1]]], tags: [], vers: [],
 };
@@ -138,7 +138,7 @@ const deck = (id, name, desc = '') => ({
 const commit = gitCommit();
 const rootDesc = `Toàn bộ mục trong "${TITLE}", mỗi mục một thẻ, chia sổ con theo chương. Dựng lúc ${buildStamp()} (giờ Việt Nam)`
   + `${commit ? `, bản nội dung ${commit.slice(0, 7)}` : ''}. Nội dung còn cập nhật, lấy <a href="${SITE}">bản online</a> làm chuẩn; `
-  + '重新下载导入会更新卡片内容，复习记录保留。';
+  + 'Tải lại rồi nhập lại sẽ cập nhật nội dung thẻ, lịch sử ôn tập được giữ nguyên.';
 const decks = {
   1: deck(1, 'Default'),
   [ROOT_DECK_ID]: deck(ROOT_DECK_ID, TITLE, rootDesc),
@@ -158,7 +158,7 @@ const conf = {
   curModel: String(MODEL_ID), nextPos: notes.length + 1, sortType: 'noteFld', sortBackwards: false, addToCur: true,
 };
 
-// ---------- 写库 ----------
+// ---------- Ghi CSDL ----------
 const SCHEMA = `
 CREATE TABLE col (id integer primary key, crt integer not null, mod integer not null, scm integer not null,
   ver integer not null, dty integer not null, usn integer not null, ls integer not null, conf text not null,
@@ -206,11 +206,11 @@ db.close();
 const collection = readFileSync(dbPath);
 rmSync(tmp, { recursive: true, force: true });
 
-// ---------- 打包 ----------
+// ---------- Đóng gói ----------
 mkdirSync(dirname(OUT), { recursive: true });
 writeFileSync(OUT, zip([
   { name: 'collection.anki2', data: collection },
   { name: 'media', data: Buffer.from('{}') },
 ], NOW));
 const missing = notes.filter(x => !x.fields[2]).length;
-console.log(`已生成 ${OUT}：${sections.length} 节 ${notes.length} 张卡${missing ? `，其中 ${missing} 张缺说人话` : ''}`);
+console.log(`Đã tạo ${OUT}: ${sections.length} chương ${notes.length} thẻ${missing ? `, trong đó ${missing} thẻ thiếu "nói dễ hiểu"` : ''}`);

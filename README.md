@@ -13,7 +13,7 @@ Không cần làm hết: đây là danh sách để chọn, không phải danh s
 
 [![Tra cứu trực tuyến](https://img.shields.io/badge/tra%20cứu-mở%20trang%20này-3451b2?style=flat-square)](https://quangpao.github.io/HowToLiveBetter/)
 [![Số mục](https://img.shields.io/badge/mục-95-18794e?style=flat-square)](#mục-lục)
-[![Mức bằng chứng](https://img.shields.io/badge/bằng%20chứng-A%2051%20·%20B%2037%20·%20C%207-915930?style=flat-square)](#mức-bằng-chứng)
+[![Mức bằng chứng](https://img.shields.io/badge/bằng%20chứng-A%2065%20·%20B%2048%20·%20C%209-915930?style=flat-square)](#mức-bằng-chứng)
 [![Nguồn](https://img.shields.io/badge/nguồn-335%20liên%20kết-565a5f?style=flat-square)](docs/kiem-chung/)
 [![Giấy phép](https://img.shields.io/badge/giấy%20phép-CC%20BY%204.0-565a5f?style=flat-square)](#ghi-công-và-giấy-phép)
 [![Số star](https://img.shields.io/github/stars/quangpao/HowToLiveBetter?style=flat-square&label=star&color=eac54f)](https://github.com/quangpao/HowToLiveBetter/stargazers)
@@ -60,7 +60,7 @@ Chưa có. Bài dài sẽ nằm trong `docs/` khi từng chương xong.
 | --- | --- |
 | Việc gần như không tốn tiền mà giảm rõ rệt nguy cơ chết sớm là những việc nào? | [1. Đừng chết sớm](book/01-dung-chet-som.md) |
 | Hút thuốc, uống rượu, ngồi nhiều, thức khuya rút ngắn đời bao nhiêu; cai thuốc cai rượu làm thế nào; chọn và dùng dầu ăn ra sao? | [2. Đừng chết dần](book/02-dung-chet-dan.md) |
-| Ngày nào cũng hết sức, lúc nào cũng bị ngắt ngang, sửa thế nào? | 3. Đừng lãng phí sức lực — đang biên soạn |
+| Ngày nào cũng hết sức, lúc nào cũng bị ngắt ngang, sửa thế nào? | [3. Đừng lãng phí sức lực](book/03-dung-lang-phi-suc-luc.md) |
 | Thời gian đi đâu hết, bỏ bớt việc gì, trì hoãn chữa thế nào? | 4. Đừng lãng phí thời gian — đang biên soạn |
 | Tiền tiết kiệm để đâu cho khỏi bị lãi suất, phí và trò lừa ăn mất; mua xe sao cho khỏi bị hớ? | 5. Đừng tiêu tiền oan — đang biên soạn |
 | Thực phẩm bổ sung, gói khám sức khoẻ, đồ "đáng tiền" nào bỏ qua được? | 6. Danh sách ngược — đang biên soạn |
@@ -141,7 +141,7 @@ Con số tử vong, con số thời gian và sức lực, con số tiền và h�
 | B | Nhiều nghiên cứu theo dõi, phân tích gộp lớn, kết quả nhất quán và có liều–đáp ứng, nhưng vẫn là nghiên cứu quan sát nên không chứng minh được nhân quả |
 | C | Chỉ có một nghiên cứu theo dõi duy nhất, hoặc nhiễu nặng, hoặc các nghiên cứu mâu thuẫn nhau, hoặc chỉ có khuyến cáo chuyên môn và kinh nghiệm |
 
-95 mục hiện có: A 51 mục, B 37 mục, C 7 mục. Mục nào có kết quả trái chiều thì ghi "tranh luận" và nêu cả bằng chứng phía ngược lại. Nguồn chỉ dẫn văn bản gốc — bài báo khoa học kèm DOI hoặc PubMed, hoặc văn bản của cơ quan nhà nước; không dẫn lại qua báo tổng hợp.
+122 mục hiện có: A 65 mục, B 48 mục, C 9 mục. Mục nào có kết quả trái chiều thì ghi "tranh luận" và nêu cả bằng chứng phía ngược lại. Nguồn chỉ dẫn văn bản gốc — bài báo khoa học kèm DOI hoặc PubMed, hoặc văn bản của cơ quan nhà nước; không dẫn lại qua báo tổng hợp.
 
 Mức A chỉ nói "có con số cụ thể, tra được", không nói quan hệ đó chắc chắn là nhân quả. Trong mức A có cả thử nghiệm chia nhóm ngẫu nhiên lẫn nghiên cứu chỉ theo dõi; loại sau không phân biệt được là việc đó có tác dụng hay là người làm việc đó vốn đã khoẻ hơn. Muốn biết mục thuộc loại nào thì đọc cột "Lợi ích". Với mục về luật và chính sách, mức A nghĩa là đã dẫn được điều khoản hoặc văn bản gốc.
 
@@ -197,8 +197,9 @@ Phần thân bài viết bằng lời thường, nhưng khi dẫn nghiên cứu 
 
 1. [Đừng chết sớm](book/01-dung-chet-som.md) — 48 mục: tai nạn ngoài đường, lửa và gas trong nhà, đuối nước, ngã, ngộ độc, vắc-xin và xét nghiệm sàng lọc có bằng chứng cứng nhất, phòng tự tử, những dấu hiệu thấy là phải đi khám. Đổi lấy: mạng sống hoặc một nguyên nhân tử vong cụ thể.
 2. [Đừng chết dần](book/02-dung-chet-dan.md) — 47 mục: thuốc lá, rượu bia và trầu cau, chế độ ăn, vận động, giấc ngủ — những thứ giết từ từ, kèm cách đổi cụ thể như cai thuốc bằng thuốc hỗ trợ, đặt ngày cai, phòng tư vấn cai thuốc lá. Đổi lấy: mạng sống hoặc một nguyên nhân tử vong cụ thể.
+3. [Đừng lãng phí sức lực](book/03-dung-lang-phi-suc-luc.md) — 27 mục: tắt thông báo, giữ giờ thức cố định, chặn ngắt ngang, nói "không", bớt đòi hỏi hoàn hảo, đau kinh, mất ngủ, ngưng thở khi ngủ. Đổi lấy: sức chú ý và thời gian dùng được trong ngày.
 
-Các chương 3 đến 34 đang biên soạn theo đúng định dạng này; mục lục sẽ dài ra khi từng chương xong. Danh sách đủ 34 chương và nội dung từng chương theo bản gốc nằm trong [README.cn.md](README.cn.md).
+Các chương 4 đến 34 đang biên soạn theo đúng định dạng này; mục lục sẽ dài ra khi từng chương xong. Danh sách đủ 34 chương và nội dung từng chương theo bản gốc nằm trong [README.cn.md](README.cn.md).
 
 ## Nội dung
 

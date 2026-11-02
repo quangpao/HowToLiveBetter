@@ -1,7 +1,7 @@
-// 把 index.html + README + book/*.md 打成一个自包含的 HTML：双击就能看，不用服务器、不用联网。
-// 用法：node tools/offline/build.mjs [输出路径]   默认输出 dist/HowToLiveBetter.html
-// 正文内联进 window.__CORPUS__，index.html 的 init() 认这个变量就不再发请求；
-// 站内相对链接改成线上地址，侧栏图片转成 data URI，其余一个字不动。
+// Đóng index.html + README + book/*.md thành một file HTML tự chứa: bấm đúp là đọc được, không cần server, không cần mạng.
+// Cách dùng: node tools/offline/build.mjs [đường dẫn đầu ra]   mặc định ghi dist/HowToLiveBetter.html
+// Nội dung được nhúng thẳng vào window.__CORPUS__, init() của index.html thấy biến này là không gửi request nữa;
+// liên kết tương đối trong site đổi thành địa chỉ online, ảnh thanh bên chuyển thành data URI, còn lại không đổi một chữ.
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { ROOT, REPO, SITE, README_FILE, read, gitCommit, buildStamp } from '../lib/book.mjs';
@@ -10,40 +10,40 @@ const OUT = resolve(ROOT, process.argv[2] ?? 'dist/HowToLiveBetter.html');
 const STAMP = buildStamp();
 const COMMIT = gitCommit();
 
-// ---------- 正文 ----------
+// ---------- Nội dung ----------
 const readme = read(README_FILE);
 const files = [...new Set([...readme.matchAll(/\]\((book\/[^)]+\.md)\)/g)].map(m => m[1]))].sort();
 if (!files.length) throw new Error(`${README_FILE} mục lục không có file nào trong book/ — bản offline sẽ rỗng`);
-// 长文（docs/*.md）也要带上：检索页的长文弹窗就地渲染它们，离线副本里没有就只剩
-// 一个点不开的 GitHub 链接。清单从 README 里扒，和 EPUB、PDF 两套构建用的是同一处。
+// Bài dài (docs/*.md) cũng phải mang theo: cửa sổ bài dài của trang tra cứu dựng chúng tại chỗ, bản offline mà thiếu thì chỉ còn
+// một liên kết GitHub bấm không được. Danh sách lấy từ README, cùng một chỗ với hai bộ dựng EPUB và PDF.
 const docs = [...new Set([...readme.matchAll(/\]\((docs\/[^)#/]+\.md)\)/g)].map(m => m[1]))].sort();
 const corpus = {
   readme,
   parts: Object.fromEntries(files.map(f => [f, read(f)])),
   docs: Object.fromEntries(docs.map(f => [f, read(f)])),
-  // 最近更新的标记，tools/updates.mjs 生成、入库
+  // dấu "mới cập nhật", do tools/updates.mjs sinh ra và được commit vào repo
   updates: JSON.parse(read('updates.json')),
 };
-// </script 会提前关掉脚本标签；\/ 在 JS 字符串里就是 /，内容不变
+// </script sẽ đóng thẻ script sớm; \/ trong chuỗi JS chính là /, nội dung không đổi
 const corpusJson = JSON.stringify(corpus).replace(/<\/script/gi, '<\\/script');
 
-// ---------- 页面 ----------
+// ---------- Trang ----------
 let html = read('index.html');
 const must = (needle, label) => {
-  if (!html.includes(needle)) throw new Error(`index.html 里找不到${label}，离线版脚本要跟着改：${needle}`);
+  if (!html.includes(needle)) throw new Error(`Không tìm thấy${label} trong index.html, script bản offline phải sửa theo: ${needle}`);
 };
 
-// 统计脚本不能跟着离线版走：别人双击打开的副本不该往外发请求，断网时还要等超时
+// Script thống kê không được đi theo bản offline: bản sao người khác bấm đúp mở không nên gửi request ra ngoài, mất mạng còn phải chờ timeout
 const GA_START = '<!-- ga:start', GA_END = '<!-- ga:end -->';
-must(GA_START, ' GA 片段的起始标记');
-must(GA_END, ' GA 片段的结束标记');
+must(GA_START, ' dấu bắt đầu đoạn GA');
+must(GA_END, ' dấu kết thúc đoạn GA');
 html = html.slice(0, html.indexOf(GA_START)) + html.slice(html.indexOf(GA_END) + GA_END.length);
-// 只查外连域名：主脚本里的 track() 带 typeof 守卫，没有 gtag 也能跑，不算残留
-if (/googletagmanager|google-analytics/.test(html)) throw new Error('剥掉标记之间的内容后仍有统计域名残留，离线版会往外发请求');
+// Chỉ tìm tên miền gọi ra ngoài: track() trong script chính có kiểm tra typeof, không có gtag vẫn chạy được, không tính là sót
+if (/googletagmanager|google-analytics/.test(html)) throw new Error('Sau khi bỏ đoạn giữa hai dấu vẫn còn tên miền thống kê, bản offline sẽ gửi request ra ngoài');
 
-// 相对链接在本地打开时是死的，改成线上地址
+// Liên kết tương đối mở ở máy là chết, đổi thành địa chỉ online
 must(`href="${README_FILE}"`, `liên kết ${README_FILE}`);
-must('href="book/"', ' book/ 链接');
+must('href="book/"', ' liên kết book/');
 // Trang tự kiểm tra chưa dịch nên bản Việt chưa trỏ tới; có thì mới đổi sang link tuyệt đối
 html = html
   .replaceAll(`href="${README_FILE}"`, `href="${REPO}/blob/main/${README_FILE}"`)
@@ -51,27 +51,26 @@ html = html
   .replaceAll('href="book/"', `href="${REPO}/tree/main/book"`)
   .replaceAll('<a class="title" href="./"', `<a class="title" href="${SITE}"`);
 
-// 侧栏广告图和赞赏码转 data URI，否则离线打开是个裂图
-// Ảnh quảng cáo cũ của tác giả gốc đã bỏ khỏi bản Việt, chỉ còn mã QR ủng hộ.
+// Mã QR ủng hộ tác giả gốc chuyển thành data URI, không thì mở offline sẽ thành ảnh lỗi.
 // Ảnh nào không có trong index.html thì bỏ qua, khỏi gãy build.
-for (const [img, mime] of [['ads/mcyyy-side.webp', 'image/webp'], ['ads/wechat-reward.png', 'image/png']]) {
+for (const [img, mime] of [['ads/wechat-reward.png', 'image/png']]) {
   if (!html.includes(`src="${img}"`)) continue;
   const data = readFileSync(resolve(ROOT, img)).toString('base64');
   html = html.replace(`src="${img}"`, `src="data:${mime};base64,${data}"`);
 }
 
-// 页脚注明这是哪一版的离线副本
+// Chân trang ghi rõ đây là bản offline của phiên bản nào
 const foot = '<div class="foot">';
-must(foot, '页脚');
+must(foot, 'phần chân trang');
 const commitNote = COMMIT ? `, bản nội dung ${COMMIT.slice(0, 7)}` : '';
 html = html.replace(foot, `${foot}Bản offline, dựng lúc ${STAMP} (giờ Việt Nam)${commitNote}; nội dung còn cập nhật, lấy <a href="${SITE}">bản online</a> làm chuẩn.<br>`);
 
-// 正文要在主脚本之前就位
-const mainScript = '\n<script>\n/* ---------- 调试面板';
-must(mainScript, '主脚本的开头');
+// Nội dung phải có mặt trước script chính
+const mainScript = '\n<script>\n/* ---------- PERF-PANEL';
+must(mainScript, 'đoạn đầu script chính');
 html = html.replace(mainScript, `\n<script>window.__CORPUS__=${corpusJson}</script>${mainScript}`);
 
 mkdirSync(dirname(OUT), { recursive: true });
 writeFileSync(OUT, html);
 const kb = n => (n / 1024 | 0) + ' KB';
-console.log(`已生成 ${OUT}：${files.length} 个正文文件，长文 ${docs.length} 篇，${kb(Buffer.byteLength(html))}（其中正文 ${kb(Buffer.byteLength(corpusJson))}）`);
+console.log(`Đã tạo ${OUT}: ${files.length} file nội dung, ${docs.length} bài dài, ${kb(Buffer.byteLength(html))} (trong đó nội dung ${kb(Buffer.byteLength(corpusJson))})`);
