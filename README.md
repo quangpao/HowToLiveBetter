@@ -14,7 +14,7 @@ Không cần làm hết: đây là danh sách để chọn, không phải danh s
 [![Tra cứu trực tuyến](https://img.shields.io/badge/tra%20cứu-mở%20trang%20này-3451b2?style=flat-square)](https://quangpao.github.io/HowToLiveBetter/)
 [![Số mục](https://img.shields.io/badge/mục-562-18794e?style=flat-square)](#mục-lục)
 [![Mức bằng chứng](https://img.shields.io/badge/bằng%20chứng-A%2089%20·%20B%20385%20·%20C%2088-915930?style=flat-square)](#mức-bằng-chứng)
-[![Nguồn](https://img.shields.io/badge/nguồn-1541%20liên%20kết-565a5f?style=flat-square)](docs/kiem-chung/)
+[![Nguồn](https://img.shields.io/badge/nguồn-1540%20liên%20kết-565a5f?style=flat-square)](docs/kiem-chung/)
 [![Giấy phép](https://img.shields.io/badge/giấy%20phép-CC%20BY%204.0-565a5f?style=flat-square)](#ghi-công-và-giấy-phép)
 [![Số star](https://img.shields.io/github/stars/quangpao/HowToLiveBetter?style=flat-square&label=star&color=eac54f)](https://github.com/quangpao/HowToLiveBetter)
 
