@@ -57,7 +57,7 @@ for (const f of bookFiles) {
     const g = line.match(/^- Mức bằng chứng:\s*([ABC])/);
     if (g) grade[g[1]]++;
     if (/^- Ghi chú:\s*tranh luận/i.test(line)) dispute++;
-    if (/chưa kiểm chứng|chưa tra được|TODO/.test(line)) todo++;
+    if (/^- /.test(line) && /chưa kiểm chứng|chưa tra được|TODO/.test(line)) todo++;
     if (/^- (Nguồn|Ghi chú):/.test(line)) links += (line.match(/https?:\/\//g) ?? []).length;
     const t = line.match(/<!--\s*nhãn:\s*tiền=(\S+)\s+thời-gian=(\S+)\s+ý-chí=(\S+)\s+lợi-ích=(\S+)\s+thước-đo=/);
     if (t) ratio[ratioOf(W.money[t[1]] + W.time[t[2]] + W.will[t[3]], t[4])]++;

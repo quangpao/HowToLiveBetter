@@ -489,3 +489,128 @@ Sau khi áp và sửa tay 2 chỗ mâu thuẫn (Bộ Nội vụ / tên cũ trong
 Sau khi áp: `check-plain` 562 mục **0 chỗ chưa đạt**, `check-refs` 460 chỗ, `check-split` 55 file, `sync-stats` đạt.
 
 **Tổng soát chương 21: Codex 7 + Claude 39 = 46 câu / 13 mục.**
+
+## Chương 22 — Codex 12 + Claude 40 = 52 câu (12 mục)
+
+**46 câu áp, 4 cờ "nghi ngờ nguồn" để nguyên (không tự sửa), 2 câu trùng — và cổng bắt 4 mục vượt trần sau khi áp.**
+
+**Codex sửa đúng lớp lỗi quen thuộc của chương này: câu nói về khái niệm thay vì nói với người đọc.** Mười hai câu, gần hết là đổi chủ thể: "Cái phải trả là chuyện xã hội" → "Bạn có thể ngại làm mất vui"; "Đo cây quanh nhà, không đo số lần bạn đi công viên" → "Nghiên cứu đo cây xanh quanh nhà…".
+- Đoạn mở chương do tôi viết cũng bị sửa: "Chương này trả lời hai câu khác nhau…" → nói thẳng vào việc người đọc phải làm.
+
+**Claude bắt ba chỗ đọc ngược nghĩa — loại lỗi nguy hiểm nhất ở chương an toàn:**
+- Mục 11: "Đừng đọc thành *đừng bao giờ tắm nóng*" → viết lại thành "Không phải lúc nào bạn cũng cần kiêng tắm nóng, nhưng vẫn cần…" — câu gốc vừa cảnh báo vừa mở đường hiểu sai theo hướng kiêng hết.
+- Mục 5: "Luật Việt Nam không cấm hẳn" → "không cấm" (bỏ chữ "hẳn" làm nhẹ mức khẳng định).
+- Mục 12: "không có luật nào bắt đội mũ" → viết rõ là với patin, trượt ván, xe đạp địa hình.
+
+**Bốn mục bị đẩy vượt trần 235 ký tự sau khi áp** (5: 255, 6: 236, 7: 249, 11: 244) — rút câu ngay tại mục đó, không nới trần. Ba lượt rút mới xuống (226, 226, 225, 230).
+
+Cổng cuối: `check-plain` 574 mục **0 chỗ chưa đạt**, `check-refs` 477 chỗ, `check-split` 56 file, `sync-stats` đạt.
+
+## Chương 23 — Codex 8 + Claude 40 = 48 câu (25 mục)
+
+**47 câu áp, 1 câu lệch vì đoạn gốc đã bị chính lượt áp trước sửa mất (mục 25), không áp lại được — không phải lỗi nội dung.** Codex chỉ ra 8 câu nhưng đúng chỗ: phần lớn là câu nói về "con số trung bình" như thể là lời hứa cho một người, hoặc câu khuyên quá tay.
+
+**Cổng bắt 1 mục vượt trần sau khi áp** (mục 7: 242 ký tự) — rút tại chỗ còn 217, không nới trần.
+
+Một chỗ đáng ghi vì nó lặp lại ở mọi chương: Claude sửa câu "Đường chuẩn để so mọi khoá học" thành câu nói thẳng vào người đọc, nhưng bản sửa **dài hơn** bản gốc 7 ký tự — nên luôn kiểm lại độ dài sau khi áp, không tin bản sửa của máy là ngắn hơn.
+
+## Chương 24 — Codex 14 + Claude 36 = 50 câu (15 mục)
+
+**50 câu áp, 3 câu của Claude lệch vì Codex đã sửa đúng đoạn đó trước (không phải lỗi nội dung), 1 cờ "nghi ngờ nguồn" ở mục 10 (thẩm quyền cấp giấy xác nhận khuyết tật — cùng mục ghi là chưa mở được văn bản).**
+
+**Cổng bắt 3 mục vượt trần sau khi áp** (mục 3: 242, mục 6: 239, mục 7: 246) → rút tại chỗ còn 215/210/201. Lần thứ hai liên tiếp bản sửa của máy **dài hơn** bản gốc — đừng tin, luôn đo lại.
+
+Codex sửa lớp lỗi quen thuộc: câu khẳng định tuyệt đối ("quỹ chỉ trả cho thuốc cấp tại cơ sở có hợp đồng") trong khi cùng mục đã nêu ngoại lệ thuốc hiếm/thiết bị C, D; và cặp "nói ba nhưng liệt kê bốn" ở mục 14 — Codex đổi thành "Bốn cái bẫy" thay vì bỏ một ý.
+
+## Chương 25 — Codex 14 + Claude 34 = 48 câu (12 mục)
+
+**48 câu áp, 5 câu của Claude lệch vì Codex đã sửa đúng đoạn đó trước, 0 cờ nghi ngờ nguồn.** Lần đầu tiên một chương không có mục nào vượt trần sau khi áp — nhưng vẫn kiểm lại lần cuối trước khi in.
+
+Codex sửa cả hai câu trong đoạn mở chương, đúng chỗ hay sai nhất. Điểm chung của các câu bị sửa: **câu khẳng định một thủ tục là bắt buộc khi luật chỉ dùng chữ "được"**, và câu biến "thực tế hành chính" thành "quy định pháp luật" — hai lỗi này ở chương di sản gây thiệt hại thật, không chỉ gây khó đọc.
+
+## Chương 26 — Codex 7 câu (13 mục), soát một vế vì Claude hết hạn mức
+
+Claude Code hết hạn mức 5 giờ (reset 16:50 ngày 3/11) nên chương này **chỉ có bản soát của Codex**. Ghi lại để người sau biết đây là chương thiếu một vế, chứ không phải đã soát đủ hai máy.
+
+**7/7 câu áp, 0 lệch, 0 cờ.** Cổng sạch ngay, không mục nào vượt trần.
+
+Codex sửa đúng lớp lỗi nguy hiểm nhất của chương: câu làm **hai cửa thông báo khác nhau thành một** — "bị tấn công mạng" (cửa an ninh mạng) và "lộ dữ liệu cá nhân" (cửa bảo vệ dữ liệu) trả lời cho hai cơ quan khác nhau và hai mốc khác nhau; gộp lại là dạy người đọc báo sai chỗ.
+
+## Chương 27 — Codex 17 câu (20 mục), soát một vế
+
+Claude vẫn trong hạn mức 5 giờ tới 16:50 → chương này **chỉ có bản Codex**. 17/17 câu áp, 0 lệch, 0 cờ; cổng sạch; sau khi áp vẫn **0 chuỗi 120/110** và 13 chỗ dùng 115.
+
+Chương 27 là chương đầu tiên có **mục hạng A** sau nhiều chương toàn B: axit folic trước khi có thai và vaccine cúm khi mang thai. Cả hai đều có thử nghiệm thật, không phải suy luận từ văn bản.
+
+**Bài học riêng của chương này (đáng đưa vào quy trình chung):** ba luật an toàn do tôi đặt ra đã chặn nhầm thứ đáng dẫn — cấm chuỗi "110" chặn luôn Điều 110 Luật KBCB; cấm "nêu liều" chặn luôn ngưỡng chẩn đoán đái tháo đường thai kỳ; cấm "mọi số không có trong văn bản Việt Nam" làm mất mốc WHO (42 ngày, 18 tháng). Đã sửa cách phát biểu trong `references/pitfalls.md`.
+
+## Chương 28 — Codex 7 câu (10 mục), soát một vế
+
+Claude vẫn trong hạn mức 5 giờ → **chỉ có bản Codex**. 7/7 câu áp, 0 lệch, 0 cờ; cổng sạch.
+
+Lớp lỗi Codex sửa ở chương này là **câu dạy người đọc đi hỏi một tờ giấy không tồn tại** ("bác sĩ chỉnh nha", "chứng chỉ hành nghề") và **câu biến việc kiểm tra thành việc tin vào biển hiệu**. Chương 28 là chương đầu tiên trong bộ sách mà một thuật ngữ pháp lý cũ bị thay đổi giữa đời sống và luật: từ 01/01/2024 là "giấy phép hành nghề", không còn "chứng chỉ hành nghề" — độc giả vẫn thấy chữ cũ trên tờ rơi, nên chương phải nói cả hai.
+
+## Chương 29 — Codex 9 câu (14 mục), soát một vế
+
+Claude vẫn trong hạn mức 5 giờ → **chỉ có bản Codex**. 9/9 câu áp, 0 lệch, 0 cờ.
+
+**Bản soát này chạy bằng đề bài viết lại từ template sạch**, không dùng file đề bài tích luỹ: file cũ đã phình lên 12 dòng "ràng buộc" trùng nhau qua mỗi lần sao chép từ chương trước, nhiều dòng mâu thuẫn nhau. Template mới có 7 ràng buộc không trùng, chỉ thay hai chỗ: tên file và một ràng buộc rủi ro của riêng chương.
+
+Sau khi áp, cổng bắt **mục 14 = 236 ký tự** (trần 235) → rút còn **234**, giữ nguyên ý "buổi kể lại một lần ngay sau biến cố không phòng được sang chấn; có thử nghiệm thấy triệu chứng nặng hơn". Đây là lần thứ năm liên tiếp bản sửa của máy **dài hơn** bản gốc — luôn đo lại sau khi áp.
+
+Hai lỗi dẫn chiếu phát hiện trong lượt này đã ghi sang `docs/kiem-chung/cho-va.md`: chương 07 (đã phát hành) dẫn NĐ 161/2026 "Điều 2" cho mức tiền, đúng là **Điều 3 khoản 2**; chương 24 (chưa phát hành) đã sửa ngay hai chỗ của Luật KBCB.
+
+## Chương 30 — Codex 5 câu (21 mục), soát một vế
+
+Claude vẫn trong hạn mức 5 giờ → **chỉ có bản Codex**. 5/5 câu áp, 0 lệch, 0 cờ.
+
+Đề bài sạch (template 7 ràng buộc) cho ra **ít câu hơn hẳn** các chương trước nhưng đúng chỗ hơn: chương này 21 mục mà chỉ 5 câu, trong khi ch25 (12 mục) từng ra 48 câu với đề bài tích luỹ. Sau khi áp vẫn **0 cỗ máy-free**: 704 mục, 0 lỗi trần, 633 chỗ neo, `111` xuất hiện 36 lần, `115` 11 lần, không có 120/110.
+
+Lỗi nặng nhất của lượt này không do người soát bắt mà do **báo cáo của agent**: tên **"Luật Giao thông đường bộ" đã hết hiệu lực 01/01/2025**, thay bằng **Luật Trật tự, an toàn giao thông đường bộ 36/2024/QH15**. Tên cũ nằm trong **đoạn mở chương do chính người điều phối viết** — lần thứ bảy liên tiếp đoạn mở là chỗ sai. Đã sửa, đã ghi `legal-vn.md`.
+
+## Chương 31 — Codex 17 câu (17 mục), soát một vế
+
+17/17 câu áp, **0 lệch**, 0 cờ. Sau khi áp: 0 chỗ vượt trần, 652 chỗ neo. Năm chỗ chứa chuỗi `120` đều là **10.120.000 đồng** và **120 tháng vay**, không có số điện thoại nào.
+
+**Bài học về đề bài do máy sinh:** lần chạy đầu dùng đề bài ghi `book/31-sau-18-tuoi.md` trong khi file thật là `book/31-sau-18-tuoi-co-may-duong.md`. Codex không đọc được file đích nhưng vẫn in ra 244.090 ký tự, trong đó **chỉ 1 dòng bắt đầu bằng `|`** — nếu đếm dòng bảng một cách mù quáng thì kết luận sẽ là "0 câu, chương sạch". Phải kiểm **tên file trong đề bài khớp tên file thật** trước khi chạy, và kiểm **khối codex cuối cùng có nhắc đúng tên file** trước khi tin kết quả.
+
+**Rủi ro thứ hai:** hai tiến trình Codex cùng ghi vào `/tmp/review-codex-ch31.md` (bản chạy sai và bản chạy lại) → file trộn hai lần xuất. Chỉ an toàn nhờ bước áp kiểm `s.count(câu gốc)==1`: dòng rác không khớp thì bị bỏ, không sửa nhầm. Từ đây mỗi lần chạy lại phải dùng **tên file output riêng**.
+
+## Chương 32 — Codex 20 câu (12 mục), soát một vế
+
+20/20 câu áp, **0 lệch**, 0 cờ. Sau khi áp: 0 chỗ vượt trần, 691 chỗ neo. Chuỗi `110` duy nhất trong chương là **2.110 bảng** (phí visa + phụ phí y tế của Anh), không phải số điện thoại.
+
+Ba lần liên tiếp đề bài sạch cho số câu vừa phải và đúng chỗ: ch29 ra 9, ch30 ra 5, ch31 ra 17, ch32 ra 20 — trong khi đề bài tích luỹ cũ từng ra **48 câu cho 12 mục**.
+
+## Chương 33 — Codex 7 câu (21 mục), soát một vế
+
+7/7 câu áp, **0 lệch**, 0 cờ. Kiểm an toàn sau khi áp: **0 chuỗi `120`/`110`**, `115` mười bốn lần.
+
+**Lần thứ sáu liên tiếp bản sửa của máy dài hơn bản gốc:** ba câu (mục 19, 20, 21) sau khi áp vượt trần — 266, 255, 246 ký tự — và phải cắt tay hai lượt (mục 19 về 234). Quy trình từ nay: **áp xong phải chạy `check-plain --numbers --verbose` ngay**, không tin là đã sạch vì `check-draft` đã xanh trước đó (cổng nháp không đo trần câu này theo cùng ngưỡng).
+
+## Chương 34 — Codex 10 câu (13 mục), soát một vế
+
+10/10 câu áp, **0 lệch**, 0 cờ. Kiểm an toàn sau khi áp: **0 chuỗi `120`/`110`**, **0 `mg/kg`**; bốn con số `mg` còn lại đều là **nồng độ sản phẩm** (80 mg/0,8 ml; 160 mg/5 ml; 40 mg/1 ml; 20 mg/1 ml) đặt trong câu giải thích "cùng một chữ trên nhãn, khác nồng độ".
+
+**Lần thứ bảy liên tiếp bản sửa của máy dài hơn bản gốc:** mục 11 lên 246 ký tự sau khi áp, phải cắt còn 216. Đây không còn là sự cố ngẫu nhiên — coi là quy luật: **mọi lượt áp bản soát đều phải chạy `check-plain --numbers --verbose` ngay sau đó.**
+
+## Tổng kết 34 chương
+
+Sách đủ **767 mục · 34 chương · A 127 · B 536 · C 104**. `check-plain` 0 chỗ chưa đạt, `check-refs` 707 chỗ có neo, `check-split` 67 file, `sync-stats` đạt, selfcheck đạt, `updates.json` khớp. Bốn định dạng đã dựng lại sau lượt soát cuối: HTML, EPUB, Anki 767 thẻ, PDF 10,4 MB.
+
+**Chương 22–34 chỉ có một vế soát (Codex).** Claude Code hết hạn mức ngày 3/11; vế thứ hai chưa chạy cho ch22–ch34, và **ch15 vẫn chưa có vế Claude**. Đây là chỗ hở lớn nhất còn lại trước khi in.
+
+## Vế Claude cho ch15 + ch22–ch32 — 360 câu, áp 360, 0 lệch
+
+Claude chạy trên cùng file nhưng **ghi ra `/tmp/review-claude-chNN-r1.md`**, không ghi đè bản Codex; chỉ áp sau khi so hai vế.
+
+**Ba loại hỏng do bản sửa gây ra, cổng bắt được hết:**
+1. **9 câu vượt trần 235** (ch22 mục 6 = 290, ch26 mục 4 = 297 ký tự). Đã cắt tay từng câu, giữ nguyên mọi con số.
+2. **ch25 đầu chương**: "ba chỗ" bị đổi thành "**các mục dưới đây**" → thay bằng "mục 5 (khai tử và xoá đăng ký thường trú), mục 9 (tiền gửi) và mục 12 (thứ tự giấy tờ)".
+3. **ch32 mục 5**: "mục 263(b)" và "mục 262" là **điều của luật nhập cư Mỹ**, bị cổng đọc thành mục của sách → đổi thành "điều 263(b)", "điều 262".
+
+**Phép kiểm số:** so tập hợp số giữa `git show HEAD` và bản hiện tại cho ch15 và ch22 (hai chương đã có trong git) — **không mất số nào**, chỉ đổi một ký tự (`32%` → `32%,`). Chín chương còn lại chưa có trong git nên không so được bằng HEAD; chúng đã qua `check-plain`/`check-refs`.
+
+**Ch33 và ch34 chưa có vế Claude** — chạm hạn mức 5 giờ đúng ở ch33 (hai lần liên tiếp, 14:5x và 15:0x).
+
+**Cổng sau lượt áp:** `check-plain` 0 chỗ chưa đạt · `check-refs` 709 chỗ có neo, 0 "Cần xem tay" · `sync-stats` đạt.
