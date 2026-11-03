@@ -21,7 +21,7 @@ Cách tính từ neo: hai từ liền nhau trùng tiêu đề đích, hoặc m�
 như 12356, AED, BMI, LPR) xuất hiện trong tiêu đề. Chỉ trùng một từ chung chung ("người", "tiền")
 thì không tính.
 
-Tổng 460 chỗ tham chiếu.
+Tổng 477 chỗ tham chiếu.
 
 ## 01-dung-chet-som
 
@@ -587,3 +587,25 @@ Tổng 460 chỗ tham chiếu.
 | đầu chương | mục 11 | Trước khi đi, gửi lịch trình và số hộ chiếu cho một người ở nhà, rồi thống nhất nhịp báo tin | … … |
 | đầu chương | mục 12 | Mang thuốc theo người: ra nước ngoài theo luật nước đến, vào Việt Nam theo hạn mức 7 ngày và 10 ngày | … … |
 | đầu chương | mục 13 | Mang đồ ăn về nước: đồ tươi sống hay mới sơ chế thì đừng mang, đồ chế biến sẵn không quá 5 kg mới được miễn kiểm dịch | … … |
+
+## 22-nghi-ngoi-va-giai-tri
+
+| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
+| --- | --- | --- | --- |
+| đầu chương | mục 6 | Buồn tới mức thành trầm cảm thì đi bộ nhanh hoặc chạy: hiệu quả tăng theo cường độ | …tâm trạng, bằng chứng đều có giới hạn, và ở … |
+| đầu chương | mục 1 | Vào quán karaoke hay bar thì nhìn lối thoát hiểm trước, cửa bị khoá thì đổi quán | … … |
+| đầu chương | mục 2 | Gọi món thì xin bảng giá trước: bán cao hơn giá đã niêm yết là vi phạm | … … |
+| đầu chương | mục 3 | Trong quán có người mời thử "đồ" thì đứng dậy đi, đừng ngồi lại xem | … … |
+| đầu chương | mục 4 | Không nhận đồ ăn, điếu hay pod từ người lạ; ly đã rời mắt thì đổi ly khác | … … |
+| đầu chương | mục 5 | Phòng giải đố, nhà ma: hỏi lối ra thứ hai trước khi trả tiền | … … |
+| đầu chương | mục 6 | Buồn tới mức thành trầm cảm thì đi bộ nhanh hoặc chạy: hiệu quả tăng theo cường độ | … … |
+| đầu chương | mục 7 | Đã được chẩn đoán lo âu: khoá chánh niệm 8 tuần có người dạy không kém thuốc escitalopram, nhưng đừng tự ngừng thuốc | … … |
+| đầu chương | mục 8 | Cần hạ căng thẳng ngay: 5 phút thở kiểu "thở dài có chủ ý" mỗi ngày, đủ 28 ngày mới có kết quả như bài báo | … … |
+| đầu chương | mục 9 | Coi việc gặp người khác đều đặn là một khoản chi cho sức khoẻ, đừng đợi buồn mới tìm ai | … … |
+| đầu chương | mục 10 | Chọn chỗ ở thì tính mảng xanh quanh nhà, nhưng đừng tưởng đi công viên là tăng thọ | … … |
+| đầu chương | mục 11 | Đã uống rượu thì đừng xông hơi, đừng ngâm bồn nóng, về nhà cũng đừng tắm nước nóng | … … |
+| đầu chương | mục 12 | Trượt tuyết, trượt ván, patin, đạp xe địa hình: đội mũ bảo hiểm, đừng đội mũ rởm | … … |
+| mục 4 | mục 3 | Trong quán có người mời thử "đồ" thì đứng dậy đi, đừng ngồi lại xem | … hay một pod ngay trong quán thì xử lý theo … |
+| mục 8 | mục 6 | Buồn tới mức thành trầm cảm thì đi bộ nhanh hoặc chạy: hiệu quả tăng theo cường độ | … So với hai … |
+| mục 9 | chương 3 mục 16 | Bớt những quan hệ làm mình hao, tập nói "không" với yêu cầu mình không muốn nhận | …bớt tiếp xúc với người khiến mình kiệt sức (… |
+| mục 11 | chương 1 mục 12 | Trẻ gần nước phải có người lớn trong tầm tay; đi thuyền, đi đò, tắm sông hồ thì mặc áo phao | …gọi 115 nếu thấy ai nằm bất động trong bồn (… |

@@ -102,6 +102,16 @@ const EDITS = [
   ['README.md', 'badge mức bằng chứng', /(?<=badge\/bằng%20chứng-)A%20\d+%20·%20B%20\d+%20·%20C%20\d+(?=-915930)/g,
     `A%20${grade.A}%20·%20B%20${grade.B}%20·%20C%20${grade.C}`],
   ['README.md', 'badge số liên kết', /(?<=badge\/nguồn-)\d+(?=%20liên%20kết-565a5f)/g, String(links)],
+  // Ba con số nằm trong câu văn (không phải badge) cũng lệch y như badge khi thêm chương: đoạn mở đầu,
+  // câu thống kê mức bằng chứng, câu thống kê mức đáng làm. Thay cả câu theo mẫu để không phải đoán
+  // vị trí từng con số; mẫu neo vào chữ Việt nên đổi lời văn thì phải sửa luôn dòng ở đây.
+  ['README.md', 'số mục ở đoạn mở đầu', /^\d+(?= mục, mỗi mục ghi rõ)/gm, String(entries)],
+  ['README.md', 'câu thống kê mức bằng chứng',
+    /^\d+ mục hiện có: A \d+ mục, B \d+ mục, C \d+ mục\./gm,
+    `${entries} mục hiện có: A ${grade.A} mục, B ${grade.B} mục, C ${grade.C} mục.`],
+  ['README.md', 'câu thống kê mức đáng làm',
+    /^\d+ mục hiện có: rất cao \d+ mục \(\d+%\), cao \d+ mục \(\d+%\), trung bình \d+ mục \(\d+%\)\./gm,
+    `${entries} mục hiện có: rất cao ${ratio['rất cao']} mục (${pct['rất cao']}%), cao ${ratio['cao']} mục (${pct['cao']}%), trung bình ${ratio['trung bình']} mục (${pct['trung bình']}%).`],
 ];
 for (const [f, n] of perChapter) {
   // Lookbehind để giữ nguyên phần "N. [Tên](book/…md) — " và chỉ thay con số

@@ -3,3 +3,5 @@
 node_modules/
 dist/
 .DS_Store
+book/.drafts/
+docs/kiem-chung/.drafts/
