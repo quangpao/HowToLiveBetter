@@ -230,3 +230,262 @@ Kết luận về việc chạy 2 CLI song song: **giữ**. Codex mạnh ở câ
 | **Tổng** | | **659** | **270** | |
 
 Cả 6 chương đều qua `check-plain` (226 mục, 0 lỗi), `check-split`, `check-refs`, `sync-stats` và không còn cụm từ lặp sau khi áp.
+
+## Chương 13 — Codex 15 câu, áp 15
+
+`codex exec -c model_reasoning_effort=medium` chạy 25 phút, in ra 988 dòng transcript (dội lại nội dung file) rồi mới ra bảng ở cuối — **30 dòng thô, 15 dòng duy nhất**. Bài học: với Codex phải trích bảng bằng cách đọc **các dòng bắt đầu bằng `|` có đủ 4 cột**, không đọc 20 dòng cuối file.
+
+Áp **15/15**:
+- Hai câu mở chương bỏ lối nói về việc viết ("mỗi mục ở đây phải trả lời được…", "Mỗi mục sẽ nói rõ…") → nói thẳng với người đọc.
+- Mười câu "**Mục này không có nghĩa là…**" → "**Bạn không cần…** / **Không phải…**", giữ nguyên nội dung phủ định nhưng bỏ mục sách làm chủ thể. Đây là lần thứ tư phải sửa cùng một mẫu câu; mẫu này lọt vào đề bài vì tôi viết nó trong brief.
+- Bốn câu lỗi cụ thể: "sập ở ba chỗ" (2 chỗ) → "thường mắc lỗi ở ba việc sau"; "người sặc là nguy cơ viêm phổi sặc" → "người bệnh có nguy cơ viêm phổi nếu bị sặc"; "cả hai đều hỏng phần đứt" → "cả hai đều **làm** hỏng"; "tay vẫn làm" → "đồng thời tiếp tục ép tim và thổi ngạt".
+
+Hai dòng đáng cân nhắc nhưng vẫn áp: mục 46 đổi "không có chuyện để ngủ cho tỉnh" thành "Không để người say ngủ một mình; phải có người trông trong lúc ngủ" (mất sắc thái khẩu ngữ, được sự rõ ràng vì đứng cạnh vế "không để ngủ một mình" đọc thành mâu thuẫn); mục 47 giữ nguyên nội dung nhưng bỏ lối "Mục này không có nghĩa là… thì thôi".
+
+Sau khi áp: `check-plain --numbers` 444 mục **0 chỗ chưa đạt** · `check-refs` 327 chỗ, **không có "Cần xem tay"**.
+
+## Chương 13 — Claude 39 câu, áp 36
+
+`claude -p --allowedTools Read` chạy khoảng 40 phút, ra **39 dòng, 39 dòng duy nhất** — không có dòng trùng, khác Codex (30 dòng thô, 15 duy nhất).
+
+Áp **36/39**. Ba dòng không áp được vì **Codex đã sửa đúng chỗ đó ở lượt trước** (mục 1 "Mục này không có nghĩa là phải học xong…", mục 3 "người sặc là nguy cơ…", mục 30 "sập ở ba chỗ") — dấu hiệu hai công cụ độc lập cùng chỉ ra một lỗi, nên lượt sau chỉ cần áp một lần.
+
+Nhóm sửa lớn nhất:
+- **Bỏ lối nói về việc viết/việc dịch**: "Chương gốc dùng số của hệ thống cấp cứu một nước khác…" → "Những số cấp cứu của nước khác thì ở Việt Nam **không phải** số cấp cứu."
+- **Bỏ "tôi" của người soạn lọt vào chính văn** (mục 17): "và tôi chưa mở được bản toàn văn Quyết định 5481/QĐ-BYT" → "bản toàn văn … chưa đối chiếu được". Đây là lỗi loại nặng: người đọc không cần biết người soạn mở được tệp nào.
+- **Chủ thể hành động**: "hệ thống chỉ mở được mạch trong một khoảng thời gian" → "**bác sĩ** chỉ mở được mạch…"; "quyết định tiêm hay không" → "**bác sĩ** quyết định tiêm hay không".
+- **Từ Hán-Việt và từ lạ**: "bóc tách động mạch chủ" → "**lóc tách** động mạch chủ"; "đắp thuốc lá" → "đắp **lá thuốc**"; "buộc chặt" → "buộc **ga-rô**".
+
+Sau khi áp: `check-plain --numbers` 444 mục **0 chỗ chưa đạt** · `check-refs` **328 chỗ**, không có "Cần xem tay".
+
+Tổng chương 13: **Codex 15 + Claude 36 = 51 câu soát cho 48 mục** — tỉ lệ cao nhất từ đầu sách, vì chương này có nhiều câu mệnh lệnh ngắn dễ cụt chủ ngữ.
+
+## Chương 14 — Codex 17 câu, áp 17/17
+
+34 dòng thô, **17 dòng duy nhất**, áp đủ 17.
+
+Nhóm sửa lớn nhất: **10 câu thuộc mẫu "Mục này không có nghĩa là…"** — lần thứ **năm** phải sửa cùng một mẫu. Nguyên nhân lần này là **đề bài của tôi tự mâu thuẫn**: một dòng cấm cụm "Mục này không có nghĩa là…", một dòng khác lại yêu cầu "phải có câu nói rõ mục này không có nghĩa là gì". Agent làm theo dòng thứ hai.
+
+Cách sửa đề bài từ chương 15: yêu cầu **"nói rõ giới hạn của mục bằng câu khẳng định dành cho người đọc"**, kèm ví dụ đúng ("Bạn không cần…", "Không phải…"), và **không** dùng chữ "không có nghĩa là" ở bất cứ đâu trong đề bài để agent khỏi chép lại.
+
+Ba lỗi logic thật đáng chú ý:
+- Mục 12: câu "Xong mới huỷ số cũ, rồi rà lại…" **mâu thuẫn** với chính yêu cầu giữ số cũ đến khi đổi xong — huỷ trước rồi mới rà là huỷ khi chưa rà. Đã đảo lại: rà hết, cập nhật hết, rồi mới huỷ.
+- Mục 2: "Hộp thư thì không có ai báo hộ" đứng cạnh "Điều 29 khoản 6 buộc nền tảng… công khai" đọc thành tự phủ định.
+- Mục 4: "mọi mật khẩu đều lấy lại được bằng tin nhắn" — sai, mâu thuẫn với mục 2 nói hộp thư lấy lại qua hộp thư dự phòng.
+
+Sau khi áp: `check-plain` 456 mục **0 chỗ chưa đạt**, `check-refs` 340 chỗ, không có "Cần xem tay".
+
+**Claude không chạy được cho chương này:** hết hạn mức 5 giờ, resets 02:50. Ghi lại để không tưởng là đã soát hai lượt.
+
+## Chương 15 — Codex 15 câu, áp 15/15
+
+30 dòng thô, **15 dòng duy nhất**, áp đủ 15. Codex lại dội nguyên chương trước khi ra bảng (356 KB) — bảng nằm ở cuối, phải đọc theo dòng `^|`.
+
+Hai lỗi nặng:
+- **Mục 16 và 17 lọt ghi chú quy trình vào sách**: "trong lượt tra này tôi chưa mở được văn bản đang áp dụng" và "đây là câu phủ định, và cách kiểm là…". Người đọc không cần biết người soạn mở được tệp nào. Đây là lần thứ hai lỗi này xuất hiện (chương 13 mục 17).
+- **Mục 18**: "Bạn không cần từ chối nhận nhà để giữ quyền" đọc thành *cứ ký khi còn lỗi* — sai hướng an toàn. Đã đổi thành điều kiện: nếu nhận nhà khi còn lỗi thì ghi từng lỗi vào biên bản.
+
+Một câu bị sửa vì **khẳng định tuyệt đối**: mở chương viết "trước khi ký là lúc **duy nhất** bạn còn quyền từ chối" — sau khi ký vẫn còn quyền từ chối nghiệm thu, kiện, không nhận nhà.
+
+Sau khi áp: `check-plain` 474 mục **0 chỗ chưa đạt**, `check-refs` 359 chỗ, không có "Cần xem tay", grep "tôi chưa mở / lượt tra này" = **0**.
+
+## Chương 14 — Claude 40 câu, áp 40/40
+
+40 dòng, **40 dòng duy nhất** (không trùng), áp đủ 40 — tỉ lệ cao nhất từ đầu sách, vì chương này câu ngắn và nhiều câu cụt chủ ngữ.
+
+Mẫu lặp nhiều nhất: **câu vô chủ** ("Cái mất là một buổi tối…", "Cái mất thêm là…", "Khoản đắt là…") — 9 câu. Claude đổi hết sang "Bạn mất…".
+
+Lỗi đọc ngược nghĩa (nguy hiểm hơn lỗi văn phong):
+- Mục 3: "đừng để tin nhắn… " đọc thành tin nhắn là bên đọc.
+- Mục 5: "Hai: để vài tháng mới làm tra soát, **vì** 60 ngày là mức sàn buộc ngân hàng phải cho" — chữ "vì" biến lời cảnh báo thành lời biện hộ cho việc chậm.
+- Mục 12: "Đổi số đúng thứ tự không có nghĩa là phải bỏ số cũ" → "Làm đúng thứ tự…" vì "đổi số" đọc thành hành động đã xong.
+
+Ba câu nói về **chính việc viết**, đã bỏ: "Phạm vi hẹp hơn tiêu đề…", "nên để B là đúng sức chứng cứ", "có điều khoản rõ ràng và đã đọc nguyên văn".
+
+**Một câu Claude thêm vào là suy luận của nó, tôi đã bỏ:** nó viết "mốc phản hồi tính bằng ngày làm việc, mốc làm xong tính bằng ngày" — đó là diễn giải của người soát, không phải câu trong nguồn. Tôi đổi thành câu không khẳng định đơn vị: "các mốc đều đếm được trên lịch, nhưng hạn trả lời và hạn làm xong tính khác đơn vị nhau, nên đọc kỹ đơn vị của từng mốc". Bài học: **góp ý văn phong không được thêm khẳng định pháp lý mới** — chương 15 và 16 đã ghi ràng buộc "không thêm số" vào đề bài soát.
+
+Sau khi áp: `check-plain` 474 mục **0 chỗ chưa đạt**, `check-refs` 359 chỗ, không có "Cần xem tay".
+
+## Chương 16 — Codex 13 câu, áp 13/13
+
+26 dòng thô, **13 dòng duy nhất**, áp đủ 13.
+
+**Câu quan trọng nhất là lỗi y tế, không phải lỗi văn phong:** mục 14 viết "chờ 30 giây mới hít liều sau" — đọc thành *phải hít thêm một liều*, sai với thuốc hít COPD. Đã thêm điều kiện "nếu đơn yêu cầu hít tiếp". Bốn chữ, đổi hẳn nghĩa.
+
+Sáu câu ở phần mở chương đều nói về **chương sách** thay vì nói với người đọc; câu tệ nhất kể thao tác tra cứu của người soạn ("Mọi câu về liều… đều dẫn văn bản của Bộ Y tế") thay vì khuyên hỏi bác sĩ.
+
+Hai câu nói về quá trình biên soạn đã bỏ: "Bản in của hướng dẫn còn một chỗ câu chữ mâu thuẫn nhau…" (mục 12) và từ nội bộ "mở thuốc" (mục 13).
+
+Bài học: **đề bài soát phải đặt ràng buộc an toàn lên trước ràng buộc văn phong** — nếu chỉ dặn "sửa câu cho gọn", lỗi y tế sẽ nằm giữa bảng và bị xử lý sau cùng.
+
+Sau khi áp: `check-plain` 488 mục **0 chỗ chưa đạt**, `check-refs` 374 chỗ, không "Cần xem tay".
+
+## Chương 16 — Claude 40 câu: 28 áp, 10 gắn cờ, 2 trùng Codex
+
+40 dòng, 40 dòng duy nhất. Áp 28 câu có bản thay thế; 10 câu chỉ gắn cờ "nghi ngờ nguồn / cần kiểm số" (tự xử bên dưới); 2 câu nhắm chỗ Codex đã sửa trước nên không khớp.
+
+**Chín trong mười cờ là lỗi an toàn y tế** — loại nguy hiểm nhất vì câu chữ vẫn trôi chảy:
+- "Đừng tự kết luận, đừng tự mua thuốc hạ acid uric" — chỉ nói điều cấm, **thiếu bước đi khám**.
+- "kéo dài 5–7 ngày rồi tự giảm, nên hết đau không có nghĩa là khỏi" — đọc thành **cứ chờ cho qua cơn**.
+- "Khám đều không thấy bệnh thì có thể giãn ra 2 năm" — thiếu chủ thể **bác sĩ xem xét**.
+- "khó thở không đỡ thì đòi đổi thuốc" — bỏ mất bước **kiểm tra kỹ thuật hít**.
+- "tập phục hồi chức năng trên 20 buổi" — đọc thành **tự tập**.
+- "một lần xét nghiệm bất thường chưa cần lo" — đọc thành **chờ đợi**.
+
+**Ba khẳng định tuyệt đối bị hạ:** "Mọi xét nghiệm phải làm lại", "quyền duy nhất", "ngưỡng 420" (thiếu "ở nam, nữ có ngưỡng riêng"), "chưa có bệnh võng mạc 3-6 tháng" (mâu thuẫn QĐ 5481 nói 1–2 năm → ghi rõ nhịp đó là **của QĐ 2558**).
+
+**Bốn câu tôi tự bỏ vì không có nguồn** (Claude chỉ gắn cờ, không cho câu thay): kết luận "đơn giấy đang lưu hành là đơn đã có mã"; "không có cơ chế gửi thư tới từng người"; "mất luôn phần bảo hiểm đã tính cho đơn cũ"; "trạm có hợp đồng BHYT là chuyện phải có". Hai con số không căn cứ ("mười năm", "vài trăm nghìn") đổi thành "nhiều năm" và "một khoản không nhỏ".
+
+Tổng soát chương 16: **Codex 13 + Claude 40 = 53 câu / 14 mục** — cao nhất từ đầu sách (ch13: 51).
+
+Sau khi áp: `check-plain` 488 mục **0 chỗ chưa đạt**, `check-refs` 374, không "Cần xem tay".
+
+## Chương 17 — Codex 7 câu, áp 7/7
+
+197.714 byte nhưng chỉ **14 dòng thô, 7 dòng duy nhất** — ít nhất từ đầu sách, vì chương này viết bằng câu khẳng định có chủ ngữ ngay từ đề bài (bài học từ ch14).
+
+Hai câu đáng chú ý đều ở mục 11 (nhà dưỡng lão): "không văn bản nào đặt trần khoản trả trước, nên giữ hợp đồng và biên nhận" — thay vì để người đọc hiểu rằng cứ tự quyết khoản trả trước; và "dùng mẫu hợp đồng trong phụ lục nghị định nhưng cần đọc từng điều khoản", thay vì "cứ điền giá và thời hạn vào mẫu".
+
+Hai câu sửa lỗi ghép từ: "mất việc tự chăm mình" (đọc thành mất việc làm), "được tính là lẫn" (không tự nhiên khi nói về cách gia đình nhìn nhận).
+
+Một câu bỏ lối nói về chính mục sách: "cái mục này không đo được là mất bao nhiêu ngày công" → "chưa có thống kê Việt Nam về số ngày người lao động phải nghỉ để chăm cha mẹ già".
+
+Sau khi áp: `check-plain` 501 mục **0 chỗ chưa đạt**, `check-refs` 392 chỗ, không "Cần xem tay".
+
+## Chương 17 — Claude 40 câu: 36 áp, 2 cờ, 2 trùng Codex
+
+**Mười hai câu đầu bảng đều là lỗi an toàn tiền bạc và giấy tờ** — đúng ràng buộc riêng của chương:
+- "hỏi bốn câu… đủ giấy là được đưa tiền" → phải nói **thiếu một câu là dừng**.
+- "Bạn không cần công chứng để di chúc có giá trị" → đọc thành **đừng công chứng**; đổi sang câu nêu điều kiện.
+- "Bạn không cần công chứng mọi giấy uỷ quyền" → cùng bệnh: phủ định mở đầu dễ đọc ngược.
+- "Mọi lệnh rút phải có sự đồng ý của cả hai" → "mọi" tuyệt đối, trong khi thoả thuận khác có thể.
+- "uỷ quyền lại phải cùng hình thức" → **bỏ mất điều kiện phải được bên uỷ quyền đồng ý**.
+- "loại thứ ba không làm mất nhà" → tuyệt đối, phải thêm điều kiện hợp đồng.
+- "không văn bản nào đặt trần, nên gia đình tự quyết" → đọc thành **trả bao nhiêu cũng được**; đổi thành nghĩa vụ ghi rõ số tiền và điều kiện hoàn trả trước khi đưa tiền.
+- "không có hợp đồng thì không có gì để trình báo" → đọc thành **khỏi trình báo**; đổi thành "rất thiếu chứng cứ".
+
+**Hai câu mâu thuẫn nội bộ do chính tôi viết ở phần mở chương:**
+- "chỉ làm được khi còn tỉnh và **còn ký được**" — mâu thuẫn mục 2 (người không ký được vẫn lập được di chúc, chỉ cần công chứng) → đổi thành "còn minh mẫn".
+- "**Mọi** mục về tiền đều quay về một câu" — không đúng với chính chương → đổi thành "Chốt đầu tiên về tiền nằm ở mục 4".
+
+**Hai câu bỏ lối nói về việc viết:** "lần này có mốc đọc được", "điều mục này khẳng định… là một khẳng định phủ định".
+
+**Hai cờ tự xử:** "nhóm bị nhắm tới nhiều nhất" → "một trong những nhóm"; và ghi chú mục 11 nói "giữ một bản" trong khi Lợi ích nói mỗi bên giữ 02 bản.
+
+Sau khi áp: mục 7 `Nói dễ hiểu` vượt trần **236/235** → cắt còn 233; `check-plain` 501 mục 0 chỗ chưa đạt, `check-refs` 393 chỗ.
+
+Tổng soát chương 17: **Codex 7 + Claude 40 = 47 câu / 13 mục.**
+
+## Chương 18 — Codex 11 + Claude 40 = 51 câu (7 mục)
+
+**Codex bắt lỗi nặng nhất không phải ở câu mà ở tiêu đề**: "Nuôi con: có đáng không" vi phạm chính luật tôi viết trong đề bài (cấm dùng "đáng", "lãi", "lỗ" về một đứa trẻ). Đã đổi tên chương thành **"Nuôi con: tiền bạc và thời gian"**, đổi tên tệp `18-nuoi-con-tien-bac-va-thoi-gian.md`, sửa liên kết README.
+
+Claude 40 câu: áp 26, **10 cờ "nghi ngờ nguồn" tự xử**, 3 câu trùng chỗ Codex đã sửa.
+
+Sáu cờ tự xử đáng kể:
+- "khoản 3 dành cho trường hợp **hai bên thoả thuận chấm dứt**" — sai Điều 41: khoản 3 là **người sử dụng lao động không muốn nhận lại và người lao động đồng ý**.
+- "trường công tự chủ được thu **gấp 2 lần hoặc 2,5 lần** mức trần" — mâu thuẫn với chính sách miễn học phí công lập; đổi thành "cơ sở công lập vẫn được thu các khoản ngoài học phí".
+- "**ba khoản còn lại**" trong khi cùng đoạn liệt kê năm khoản → "các khoản ngoài học phí".
+- "con thu nhập thấp thì kỳ vọng đó không thành quyền" → "mức cấp dưỡng theo đó cũng thấp" (Điều 111 không nói về thu nhập của con).
+- "Khoản **không có trong bất kỳ văn bản nào**" → "không do văn bản nào ấn định".
+- "**toàn bộ** hồ sơ mà Điều 41 cần" → "những gì Điều 41 cần để đòi quyền".
+
+Lỗi đọc ngược nghĩa đáng chú ý (cả ba đã sửa): "dồn nghỉ vào tháng thứ ba là mất phần **đã** nghỉ" (đúng: phần **chưa** nghỉ); "một quyết định sai chỉ cần **rơi vào** một trong ba điều" (đúng: **trái** một điều); "Cái mất thêm là 60 phút mỗi ngày **được nghỉ**" (quyền bị viết thành khoản mất).
+
+Ba con số bị đọc thành tiền mặt: 74,4 triệu và 1,8 triệu của giảm trừ gia cảnh là **thu nhập tính thuế**, không phải tiền thuế — đã ghi rõ.
+
+Cổng bắt mục 3 vượt trần sau khi sửa (260/235) → viết lại còn 228.
+
+Sau khi áp: `check-plain` 508 mục **0 chỗ chưa đạt**, `check-refs` 400 chỗ.
+
+## Chương 19 — Codex 4 câu, áp 4/4
+
+240 KB transcript nhưng **chỉ 8 dòng thô, 4 dòng duy nhất** — thấp nhất từ đầu sách. Chương viết bằng câu có chủ ngữ và số đọc được ngay từ bản đầu, nên không còn gì để bắt.
+
+Cả bốn câu đều ở hai mục cuối (điều chuyển công việc, cho thuê lại lao động), và cả bốn cùng một lỗi: **câu liệt kê "cái mất" lại trộn vào một quyền lợi** —
+- "Thứ nhất là 15% lương" trong khi luật chỉ cho **giảm tối đa 15%**;
+- "Thứ hai là 30 ngày làm việc" trong khi 30 ngày đó là **quãng được giữ nguyên lương cũ**;
+- "Cái mất khi làm sai là chỗ làm" — quy việc mất việc cho hành động sai, trong khi hết 12 tháng thì quan hệ **tự chấm dứt theo luật**, không phải do ai làm sai.
+
+Câu thứ ba: "Chuyển tạm thời tối đa 60 ngày một năm, phải báo trước 03 ngày" thiếu chủ thể → đọc thành người lao động tự chuyển mình. Đã thêm "Công ty chuyển bạn".
+
+Sau khi áp: `check-plain` 532 mục **0 chỗ chưa đạt**, `check-refs` 428 chỗ, không "Cần xem tay".
+
+**Tổng soát chương 19: Codex 4 câu** — thấp nhất từ đầu sách, và đó là kết quả của việc đề bài chương này viết bằng câu khẳng định có chủ ngữ, đúng bài học từ chương 14.
+
+## Chương 19 — Claude 40 câu: 29 áp, 10 cờ, 1 trùng Codex
+
+**Phát hiện lớn nhất là một con số mâu thuẫn nội bộ mà cả 4 agent viết nháp đều không thấy:** mục 6, 16 nói thời hiệu trọng tài là **09 tháng**, còn mục 8 và 17 nói **02 tháng**. Tra lại **Điều 190 BLLĐ**: 06 tháng cho hoà giải viên, **09 tháng cho hội đồng trọng tài**, 01 năm cho toà án. Vậy "02 tháng" sai — đã sửa cả ba chỗ. Đây đúng là loại lỗi chỉ lộ ra khi đọc cả chương, không phải từng mục.
+
+**Sáu câu lỗi an toàn thân thể, xếp đầu bảng:**
+- mục 12: "cách đúng là yêu cầu công ty tạm ứng bằng tin nhắn" → phải **cấp cứu trước, không chờ tiền công ty**.
+- mục 10: "quá 05 ngày làm việc không quay lại thì mất phần bảo vệ đó" đọc thành **phải quay lại chỗ nguy hiểm** → đổi thành "nguy cơ chưa được khắc phục thì chưa phải quay lại".
+- mục 10: câu mở đầu thu hẹp quyền so với phần Lợi ích (thiếu "nghiêm trọng").
+- mục 1: "trừ thiên tai, dịch bệnh" đọc thành gặp thiên tai là buộc phải làm → thêm "nếu việc đó nguy hiểm đến tính mạng thì vẫn được từ chối".
+- mục 6: "cách đúng là tiếp tục làm, gửi văn bản phản đối" → đảo thứ tự: gửi văn bản trước, làm tiếp chỉ khi nơi làm việc còn đủ điều kiện.
+- mục 16: "bị ngược đãi thì được nghỉ ngay" thiếu bước **giữ chứng cứ trước**.
+
+**Ba câu mâu thuẫn với chính phần Lợi ích của cùng mục** (mục 3, 8, 17) — kiểu lỗi do viết Chi phí trước rồi viết Lợi ích sau mà không đọc lại cặp.
+
+**Câu mở chương tự phủ định:** "mức phạt hành chính thì chương ghi nguyên tắc chứ không nêu số" — trong khi hầu hết mục đều nêu số. Đã viết lại thành "lấy theo nghị định xử phạt vừa được sửa năm 2026".
+
+Cổng bắt 4 mục vượt trần sau khi áp (1, 7, 10, 22) → viết lại, tất cả ≤235.
+
+Sau khi áp: `check-plain` 532 mục **0 chỗ chưa đạt**, `check-refs` 428 chỗ, `check-split` 54 file.
+
+**Tổng soát chương 19: Codex 4 + Claude 40 = 44 câu / 24 mục.**
+
+## Chương 20 — Codex 5 + Claude 40 = 45 câu (17 mục)
+
+**Mười câu đầu bảng của Claude đều là lỗi an toàn trẻ**, và bảy trong số đó cùng một lỗi: chữ **"trong ngày"**.
+- "Bốn dấu hiệu phải đi viện **ngay trong ngày**" → đọc thành **còn chờ được đến hôm sau**; đổi thành "đi viện ngay".
+- "đưa trẻ đi khám **trong ngày**" → "đi khám ngay" (ba chỗ).
+- Mục 7 lại nói chi phí là "một chuyến quay lại trong **vài ngày**" — mâu thuẫn với chính mục 8.
+- "phải bế trẻ đi tiêm **trong tháng đầu**" → đọc thành cả tháng vẫn kịp; đổi thành "đi tiêm sớm, không chờ tới lịch tháng sau".
+- "từ **tháng thứ 6**" → "từ khi trẻ **tròn 6 tháng**".
+
+**Hai câu mâu thuẫn ở phần dẫn chương do chính tôi viết:**
+- "**phần lớn** các mốc an toàn không nằm trong văn bản Việt Nam" — sai, vì 10/17 mục hạng B → "**nhiều** mốc".
+- "**không mục nào** được nêu liều thuốc" — sai, mục 7 và 16 có nêu → "liều ghi trong các mục không phải liều tự chọn".
+
+**Chỗ hạng bằng chứng phải hạ theo nền thật** (ba agent tự bác đề bài): rung lắc trẻ = **C** (không có văn bản Việt Nam nào nhắc), tã = không có quy chuẩn phủ (mã 9619 bãi bỏ 2019), vitamin D = **hai bảng Việt Nam chênh nhau** 200 IU và 400 IU.
+
+**Chữ dịch máy bị bắt**: "chi phí đổi bản chất" (2 chỗ), "chuồng chơi" → "quây chơi", "văn bản không **giả vờ** rằng", "quầy thu ngân" cho chuyện chọn vắc-xin, "đậu phộ" cụt từ (2 chỗ).
+
+Cổng bắt mục 13 vượt trần sau khi áp (237/235) → viết lại còn 220.
+
+Sau khi áp: `check-plain` 549 mục **0 chỗ chưa đạt**, `check-refs` 447 chỗ, `check-split` 55 file.
+
+## Chương 21 — Codex 7 câu, áp 7/7
+
+Câu nặng nhất là lỗi **đọc thành cho phép**: mục 13 viết "Hàng **không thuộc diện miễn** thì vẫn đi được, nhưng phải khai báo" — cụm đó bao gồm cả **hàng cấm**, nên câu đọc thành *mang thịt về, khai là xong*. Đã đổi thành "với hàng **được phép mang theo** nhưng không thuộc diện miễn, bạn phải khai báo".
+
+Hai câu nhân hoá / sai kết hợp từ: "hạn mức của Việt Nam **không đi cùng bạn**", "Nghị định **nhận** thuốc trong hành lý là…".
+
+Hai câu nói về việc viết: "thứ mình chuẩn bị trước không phải một lời hứa cứu, mà là **nguyên liệu để một cơ chế có thật chạy được**".
+
+Một câu mơ hồ chủ thể: "hộ chiếu **có tên mình**" → "hộ chiếu do Nhà nước cấp".
+
+Sau khi áp: `check-plain` 562 mục **0 chỗ chưa đạt**, `check-refs` 460 chỗ.
+
+## Chương 21 — Claude 39 câu: 30 áp, 9 cờ
+
+**Câu nguy hiểm nhất đã sửa ở mục 6:** "Không có hạn mức cộng dồn theo năm cho cá nhân rút hay mang tiền" — đọc thành **gợi ý chia nhỏ tiền nhiều chuyến để né khai**. Nay: "Không có hạn mức cộng dồn **không có nghĩa là được chia nhỏ tiền**".
+
+**Mục 3 hứa quá thẩm quyền:** câu "nêu ý kiến với cơ quan chức năng sở tại" đọc thành **cơ quan đại diện tác động được**. Đổi thành "đề nghị họ đối xử đúng luật nước sở tại".
+
+**Hai chỗ mâu thuẫn với Quỹ bảo hộ công dân** (mục 3, 11): mục 3 nói "không khoản nào được lo", trong khi chính mục 3 liệt kê Quỹ ứng tiền **có đặt cọc**. Đã thống nhất: ứng được, **nhưng phải có đặt cọc hoặc cam kết hoàn trả**, và tiền ứng phải hoàn lại.
+
+**"Nước bạn" ba chỗ** (mục 12, 13) — đọc thành nước của người đọc thay vì nước đến/xuất khẩu. Đã đổi hết.
+
+**Câu nói về việc in sách** (mục 5): "bản in sau ngày đó phải đọc lại" → "sau ngày đó bạn phải đối chiếu lại theo luật mới".
+
+**Hai chỗ đọc ngược nghĩa:** "bản chụp **không làm** giấy tờ mất đi" (ý đúng: không miễn việc nộp đơn), và "nộp đơn báo mất **đúng** 02 ngày làm việc" (đọc thành phải nộp vào đúng 2 ngày đó).
+
+**Chữ dịch máy:** "cái đỡ tay" → "chỗ dựa", "phần đối ứng" → "khi không mua".
+
+Sau khi áp và sửa tay 2 chỗ mâu thuẫn (Bộ Nội vụ / tên cũ trong luật; "sản phẩm động vật" thay cho danh sách tự thêm), cổng bắt 2 mục vượt trần (3: 256, 9: 249) → viết lại còn 229 và 219.
+
+Sau khi áp: `check-plain` 562 mục **0 chỗ chưa đạt**, `check-refs` 460 chỗ, `check-split` 55 file, `sync-stats` đạt.
+
+**Tổng soát chương 21: Codex 7 + Claude 39 = 46 câu / 13 mục.**

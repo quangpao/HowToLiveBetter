@@ -21,7 +21,7 @@ Cách tính từ neo: hai từ liền nhau trùng tiêu đề đích, hoặc m�
 như 12356, AED, BMI, LPR) xuất hiện trong tiêu đề. Chỉ trùng một từ chung chung ("người", "tiền")
 thì không tính.
 
-Tổng 279 chỗ tham chiếu.
+Tổng 460 chỗ tham chiếu.
 
 ## 01-dung-chet-som
 
@@ -360,4 +360,230 @@ Tổng 279 chỗ tham chiếu.
 | đầu chương | mục 18 | Bán trước rồi mới sản xuất: dùng đơn đặt trước và lô nhỏ để kiểm chứng có người mua, rồi mới bỏ tiền | … … |
 | đầu chương | mục 22 | Làm đúng quy trình ở chỗ làm; việc tốt nằm ngoài quy trình thì hỏi trước ai chịu trách nhiệm | … … |
 | đầu chương | mục 25 | Nghĩa vụ báo cáo hằng năm: nộp báo cáo tài chính, quyết toán thuế, và báo khi thông tin đăng ký thay đổi | … … |
-| mục 7 | mục 227 | **không có mục này** | … danh … |
+
+## 13-cap-cuu-nhung-phut-quyet-dinh
+
+| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
+| --- | --- | --- | --- |
+| đầu chương | mục 1 | Người gục, gọi không tỉnh, không thở bình thường: ép tim ngoài lồng ngực ngay, gọi 115, nhờ người tìm máy sốc điện tự động | … … |
+| đầu chương | mục 2 | Người già ngã, người nằm dưới đất: khom xuống gọi hỏi, gọi 115, đừng vội bế dậy | … … |
+| đầu chương | mục 3 | Một bên miệng méo, một tay yếu, nói không rõ: gọi 115 ngay, đừng chờ, đừng tự chở bằng xe máy | … … |
+| đầu chương | mục 4 | Chóng mặt đứng không vững, nhìn một thành hai, một bên mắt tối: xử như đột quỵ, gọi 115 | … … |
+| đầu chương | mục 5 | Một mắt tối như có màn che, dù vài phút tự hết: đi khám mắt ngay, đừng chờ sang hôm sau | … … |
+| đầu chương | mục 6 | Mắt sưng đau, đỏ, nhìn đèn thấy quầng cầu vồng, đau đầu buồn nôn: đi khám mắt ngay trong ngày | … … |
+| đầu chương | mục 7 | Đau ngực thắt, bóp nghẹn kéo dài, hoặc kèm vã mồ hôi, buồn nôn, khó thở: gọi 115, không tự lái xe | … … |
+| đầu chương | mục 8 | Đau dữ dội như bị xé, từ ngực chạy ra sau lưng xuống thắt lưng: gọi 115 và nói rõ "đau như bị xé" | … … |
+| đầu chương | mục 9 | Đau đầu dữ dội nhất đời, lên tới đỉnh trong vòng một giờ: đi cấp cứu, chụp cắt lớp vi tính sọ ngay | … … |
+| đầu chương | mục 10 | Người già đập đầu, vài tuần đến vài tháng sau đi loạng choạng, chậm chạp, ngủ nhiều, yếu nửa người: đi chụp cắt lớp vi tính sọ | … … |
+| đầu chương | mục 11 | Một chân đột nhiên sưng, căng, ấn đau: đi khám sớm; kèm khó thở hoặc đau ngực thì gọi 115 ngay | … … |
+| đầu chương | mục 12 | Chảy máu nhiều: ấn mạnh lên vết thương, nếu ở tay chân mà ấn không cầm được máu thì đặt dây ga rô, gọi 115 | … … |
+| đầu chương | mục 13 | Bị chó, mèo cắn hoặc cào rách da: rửa bằng nước và xà phòng 15 phút, tới cơ sở tiêm chủng tiêm vắc-xin dại trong ngày | … … |
+| đầu chương | mục 14 | Bỏng: làm mát bằng nước sạch chảy 20 phút, không bôi kem đánh răng hay nước mắm | … … |
+| đầu chương | mục 15 | Đột nhiên nổi mẩn khắp người kèm khó thở hoặc choáng: gọi 115, nói rõ "sốc phản vệ", có sẵn adrenalin thì tiêm bắp ngay | … … |
+| đầu chương | mục 16 | Người co giật ngã xuống: dọn vật cản, cho nằm nghiêng, bấm giờ, tuyệt đối không nhét thìa hay ngón tay vào miệng | … … |
+| đầu chương | mục 17 | Người đái tháo đường đột nhiên run rẩy, vã mồ hôi, nói không rõ: cho 15 gam đường, sau 15 phút kiểm lại | … … |
+| đầu chương | mục 18 | Có người bị điện giật: cắt cầu dao trước, dùng que khô gạt dây ra, tuyệt đối không kéo tay trần | … … |
+| đầu chương | mục 19 | Còi báo khí CO kêu, hoặc cả nhà cùng đau đầu buồn nôn: ra khỏi nhà trước, rồi mới gọi 115 | … … |
+| đầu chương | mục 20 | Uống nhầm chất tẩy rửa, thuốc trừ sâu hay thuốc chữa bệnh: không gây nôn, mang vỏ chai tới cơ sở có chống độc | … … |
+| đầu chương | mục 21 | Axit hoặc kiềm bắn vào người: cởi ngay quần áo nhiễm, rửa nước chảy nhiều, mắt thì banh mi ra rửa đủ lâu | … … |
+| đầu chương | mục 22 | Nắng nóng, chóng mặt buồn nôn, không ra mồ hôi hoặc lú lẫn: đưa ngay vào chỗ mát, cởi bớt áo, làm mát bằng nước, người lú lẫn thì không cho uống, gọi 115 | … … |
+| đầu chương | mục 23 | Người say nắng còn tỉnh: cho uống nước muối loãng hoặc dung dịch bù nước từng ngụm nhỏ, không uống ừng ực, không rượu, không nước ngọt đậm | … … |
+| đầu chương | mục 24 | Cháy nhà: bò sát mặt đất, sờ mu bàn tay lên cửa trước khi mở, cửa nóng thì không mở, đi cầu thang bộ, ra rồi không quay lại | … … |
+| đầu chương | mục 25 | Thấy người đuối nước: gọi người và gọi 115, đưa sào hoặc vật nổi, không tự nhảy xuống | … … |
+| đầu chương | mục 26 | Người hóc dị vật không nói được: từ 1 tuổi trở lên thì đứng sau lưng, 5 lần vỗ lưng xen 5 lần ấn bụng; ngã xuống thì ép tim | … … |
+| đầu chương | mục 27 | Lạc ở núi, rừng biên giới hay bãi biển vắng không có sóng: ở yên tại chỗ hoặc cạnh xe, báo vị trí trước, che nắng giữ ấm, tiết kiệm nước, không đi lung tung | … … |
+| đầu chương | mục 28 | Run rẩy, nói ngọng, đi loạng choạng là hạ thân nhiệt: thay quần áo ướt, ủ ấm, làm ấm từ thân trước, cho uống nước ấm, không rượu | … … |
+| đầu chương | mục 29 | Bị rắn cắn: ngồi yên, tháo nhẫn và đồng hồ, tới cơ sở có huyết thanh kháng nọc; không rạch, không hút, không buộc ga-rô | … … |
+| đầu chương | mục 30 | Động đất: nhà đủ khả năng chịu động đất thì núp tại chỗ, nhà cũ dễ sập mà cửa cách vài bước thì ra ngoài | … … |
+| đầu chương | mục 31 | Gặp gấu, lợn rừng, đàn chó dại: không chạy, nghiêng người lùi chậm | … … |
+| đầu chương | mục 32 | Giông sét khi ở ngoài trời: vào ô tô có mui cứng hoặc vào nhà, tránh đỉnh núi, cây đơn độc, mặt nước và vật kim loại | … … |
+| đầu chương | mục 33 | Lên vùng cao: tăng dần độ cao chỗ ngủ, triệu chứng nặng lên thì xuống thấp, không cố chịu | … … |
+| đầu chương | mục 34 | Bị ve bám: dùng nhíp mũi nhọn kẹp sát da kéo đều, không bôi dầu, không đốt | … … |
+| đầu chương | mục 35 | Nước ở ngoài trời phải đun sôi mới uống, sôi một phút là đủ ở độ cao thường gặp | … … |
+| đầu chương | mục 36 | Bị người lạ chặn đường đòi tiền ở nơi vắng: đưa tiền, không đánh lại, nhớ đặc điểm, thoát ra rồi gọi 113 | … … |
+| đầu chương | mục 37 | Gặp một nhóm đang đánh nhau: lùi ra, không can, không đứng xem, không nhặt vũ khí; muốn báo thì lùi tới chỗ an toàn rồi gọi 113 | … … |
+| đầu chương | mục 38 | Có nguy cơ phơi nhiễm HIV: tới cơ sở y tế trong 72 giờ, càng sớm càng tốt | … … |
+| đầu chương | mục 39 | Cứu người mà bị thương hoặc mất tiền: tìm người gây thiệt hại và dùng bảo hiểm, rồi làm hồ sơ khen thưởng theo quy định | … … |
+| đầu chương | mục 40 | Vật sắc như dao, thanh sắt, mảnh kính đâm vào người: ấn quanh vật để cầm máu, tuyệt đối không rút ra | … … |
+| đầu chương | mục 41 | Nghi gãy xương: không động vào chỗ gãy, nẹp giữ nguyên tư thế, chườm lạnh không quá 20 phút, không tự nắn | … … |
+| đầu chương | mục 42 | Bị xâm hại tình dục: tới nơi an toàn rồi gọi 113; trước khi khám thì không tắm, không giặt quần áo, không dọn phòng; tới bệnh viện trong 72 giờ | … … |
+| đầu chương | mục 43 | Trẻ dưới 1 tuổi hóc dị vật, khóc không ra tiếng: cho nằm sấp vỗ lưng 5 lần, lật lại ấn ngực 5 lần, lặp lại, không ấn bụng | … … |
+| đầu chương | mục 44 | Trẻ dưới 1 tuổi không phản ứng, không thở bình thường: bật loa ngoài gọi 115, ép tim và thổi ngạt theo tỷ lệ 30 lần ép, 2 lần thổi | … … |
+| đầu chương | mục 45 | Trẻ nuốt pin cúc áo, hoặc nuốt từ hai viên nam châm mạnh trở lên: đi ngay bệnh viện có nội soi, không đợi tự thải, không gây nôn | … … |
+| đầu chương | mục 46 | Người say rượu: cho nằm nghiêng, có người trông liên tục, không để ngủ một mình; gọi không tỉnh, thở chậm hoặc không đều, co giật, người lạnh thì gọi 115 | … … |
+| đầu chương | mục 47 | Ngón tay, ngón chân bị đứt lìa: ấn cầm máu, phần đứt bọc gạc ẩm cho vào túi kín, túi ngâm nước đá, tới bệnh viện có vi phẫu | … … |
+| đầu chương | mục 48 | Răng vĩnh viễn bị rơi cả chiếc: cầm phần thân răng rửa nhẹ, đặt lại được thì đặt lại, không thì ngâm trong sữa, đi khám răng ngay; răng sữa thì không đặt lại | … … |
+| mục 45 | mục 43 | Trẻ dưới 1 tuổi hóc dị vật, khóc không ra tiếng: cho nằm sấp vỗ lưng 5 lần, lật lại ấn ngực 5 lần, lặp lại, không ấn bụng | …ở, tím tái thì xử trí hóc dị vật trước theo … |
+| mục 47 | mục 12 | Chảy máu nhiều: ấn mạnh lên vết thương, nếu ở tay chân mà ấn không cầm được máu thì đặt dây ga rô, gọi 115 | … nới garo và tới viện trong vòng 2 giờ, còn … |
+
+## 14-nhung-tai-khoan-va-du-lieu-cua-ban
+
+| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
+| --- | --- | --- | --- |
+| đầu chương | mục 1 | Mật khẩu đúng mà vẫn mất tài khoản: bật xác thực hai lớp, chọn cách xác nhận hiện trên máy thay vì tin nhắn | … … |
+| đầu chương | mục 2 | Một mật khẩu dùng cho mọi nơi: đặt mật khẩu riêng cho hộp thư, vì đó là chỗ lấy lại tất cả | … … |
+| đầu chương | mục 3 | Điện thoại trong tay người khác: đặt mã khoá màn hình và mã PIN cho SIM, đừng để họ đọc được tin nhắn | … … |
+| đầu chương | mục 4 | Mất điện thoại: khoá SIM trước, rồi tới tài khoản ngân hàng, rồi mới đổi mật khẩu | … … |
+| đầu chương | mục 5 | Thẻ bị trừ tiền mà mình không mua: gọi khoá thẻ trước, rồi gửi yêu cầu tra soát bằng văn bản | … … |
+| đầu chương | mục 6 | Vào mục thiết bị và ứng dụng bên thứ ba, đăng xuất máy lạ rồi thu hồi từng quyền truy cập | … … |
+| đầu chương | mục 7 | Nút "đồng ý tất cả": gỡ dấu từng mục đích, chỉ giữ mục bạn thật sự dùng, và chụp lại màn hình | … … |
+| đầu chương | mục 8 | Đòi xem, xin bản sao, sửa và xoá dữ liệu: gửi một email nêu đúng quyền và đếm ngày | … … |
+| đầu chương | mục 9 | Chuyển tiền cho người khác trên 10 triệu: ngân hàng buộc khớp khuôn mặt, đừng tìm dịch vụ "mở khoá" | … … |
+| đầu chương | mục 10 | Dán mã nguồn vào ô chat của dịch vụ AI: khoá bí mật và dữ liệu khách hàng coi như đã ra nước ngoài | … … |
+| đầu chương | mục 11 | Mỗi năm một lần, tự tra xem mình đang đứng tên bao nhiêu thuê bao di động | … … |
+| đầu chương | mục 12 | Đổi số điện thoại: giữ số cũ sống tới khi đổi xong ở ngân hàng và VNeID, rồi mới trả số | … … |
+
+## 15-thue-va-mua-nha
+
+| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
+| --- | --- | --- | --- |
+| đầu chương | mục 1 | Hợp đồng thuê chỉ ghi giá thuê: chép đủ mười một nội dung của Điều 163, nhất là tiền cọc và hạn trả cọc | … … |
+| đầu chương | mục 2 | Chủ nhà cắt điện, thay khoá để đuổi: gửi văn bản yêu cầu khôi phục và lập biên bản trước, đừng dọn đi trong đêm | … … |
+| đầu chương | mục 3 | Trả tiền cọc và tiền thuê: chỉ trả cho người đứng tên trên giấy chứng nhận hoặc người có giấy uỷ quyền, và ghi rõ nội dung chuyển khoản | … … |
+| đầu chương | mục 4 | Thuê phòng trong nhà chia phòng: hỏi toà nhà đó có bao nhiêu căn hộ và xin xem giấy nghiệm thu phòng cháy trước khi đặt cọc | … … |
+| đầu chương | mục 5 | Nhà bị bán khi đang thuê: hợp đồng thuê đi theo nhà, chủ mới phải cho bạn ở tới hết hạn | … … |
+| đầu chương | mục 6 | Ký trước khi xem sổ: mở trang thay đổi của Giấy chứng nhận, đối chiếu tên người ký, và hỏi thẳng chuyện thế chấp | … … |
+| đầu chương | mục 7 | Trả tiền nhà: chuyển khoản vào tài khoản đứng tên người trong hợp đồng, ghi rõ trả cho hợp đồng nào, và giữ lệnh chuyển | … … |
+| đầu chương | mục 8 | Mua qua sàn: tiền vào tài khoản chủ nhà hoặc chủ đầu tư, sàn chỉ đứng ở vai hỗ trợ | … … |
+| đầu chương | mục 9 | Nhà chia phòng: luật không đặt mét vuông tối thiểu cho phòng cho thuê, nhưng đặt điều kiện an toàn và mốc 20 căn hộ | … … |
+| đầu chương | mục 10 | Nhà hình thành trong tương lai: đặt cọc không quá 5%, thanh toán theo tiến độ, có thư bảo lãnh mới chuyển tiền | … … |
+| đầu chương | mục 11 | Hợp đồng mẫu và phụ lục: in bản đã công khai ra, so từng dòng, và ký phụ lục cùng lúc với hợp đồng | … … |
+| đầu chương | mục 12 | Chậm bàn giao: mức phạt phải ghi theo ngày, và giữ lại 30% tới lúc nhận nhà | … … |
+| đầu chương | mục 13 | Trước khi đặt bút: xem quy hoạch, xem giải chấp, xem văn bản đủ điều kiện bán | … … |
+| đầu chương | mục 14 | Ký xong: kiểm tra thế chấp đã vào hồ sơ đất chưa, vì ghi rồi mới có hiệu lực với người thứ ba | … … |
+| đầu chương | mục 15 | Lãi suất thả nổi: ghi công thức điều chỉnh vào hợp đồng trước khi ký, và xin cơ cấu lại trong mười ngày kể từ ngày đến hạn | … … |
+| đầu chương | mục 16 | Vay ưu đãi nhà ở xã hội: thử Ngân hàng Chính sách xã hội trước khi ký hợp đồng vay thương mại | … … |
+| đầu chương | mục 17 | Phí quản lý chung cư: đòi khung giá của tỉnh và hoá đơn, và biết rằng cắt điện để ép đóng phí là cắt điện trái quy định | … … |
+| đầu chương | mục 18 | Nhận nhà: đòi bốn loại giấy trước khi ký biên bản bàn giao, và tính hạn bảo hành từ ngày nghiệm thu | … … |
+| mục 17 | mục 3 | Trả tiền cọc và tiền thuê: chỉ trả cho người đứng tên trên giấy chứng nhận hoặc người có giấy uỷ quyền, và ghi rõ nội dung chuyển khoản | … Điều 3 cùng … |
+
+## 16-benh-man-tinh-song-tiep-the-nao
+
+| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
+| --- | --- | --- | --- |
+| đầu chương | mục 1 | Uống thuốc đủ theo đơn: xin đơn dài ngày cho bệnh mạn tính đã ổn định, và lĩnh thuốc trong 5 ngày | … … |
+| đầu chương | mục 2 | Đi khám đúng hẹn: giữ đơn cũ, ghi chỉ số vào một cuốn sổ, và xin bản tóm tắt hồ sơ bệnh án | … … |
+| đầu chương | mục 3 | Không bỏ thuốc để thử thực phẩm bảo vệ sức khỏe: đọc cụm từ bắt buộc trên nhãn và biết đơn thuốc không được ghi sản phẩm đó | … … |
+| đầu chương | mục 4 | Tiêm chủng và khám sức khỏe định kỳ: người có bệnh mạn tính thuộc diện khám miễn phí ít nhất mỗi năm một lần | … … |
+| đầu chương | mục 5 | Đăng ký nơi khám ban đầu ở trạm y tế hoặc phòng khám gần nhà: mức hưởng tính theo cấp nơi bạn tới, không theo tỉnh | … … |
+| đầu chương | mục 6 | Đơn thuốc ngoại trú: 30 ngày mỗi thuốc, bệnh mạn tính trong danh mục lên 90 ngày, và 5 ngày để lĩnh thuốc | … … |
+| đầu chương | mục 7 | Khám định kỳ ở trạm y tế xã: hưởng 100% chi phí, và trạm là nơi giữ hồ sơ bệnh mạn tính của bạn | … … |
+| đầu chương | mục 8 | Kết quả xét nghiệm ở bệnh viện khác: xin bản tóm tắt hồ sơ bệnh án, và biết rằng chỉ một danh mục được công nhận | … … |
+| đầu chương | mục 9 | Biến chứng mắt: khám đáy mắt theo mốc của từng típ đái tháo đường, không chờ tới lúc nhìn mờ | … … |
+| đầu chương | mục 10 | Bệnh thận: mỗi năm một lần xét nghiệm albumin trong nước tiểu, và mốc 3 tháng để gọi là bệnh thận mạn | … … |
+| đầu chương | mục 11 | Bàn chân: cởi tất để bác sĩ xem cả hai bàn chân mỗi lần khám, và mốc tái khám tính theo mức nguy cơ loét | … … |
+| đầu chương | mục 12 | Gút: acid uric trên 420 ở nam (nữ có ngưỡng riêng) mới là ngưỡng gợi ý, còn mục tiêu điều trị lại thấp hơn ngưỡng đó | … … |
+| đầu chương | mục 13 | Viêm gan B: xét nghiệm HBsAg một lần, rồi giữ nhịp tầm soát ung thư gan theo đúng việc đang điều trị hay chưa | … … |
+| đầu chương | mục 14 | Bệnh phổi tắc nghẽn mạn tính (COPD): hít đúng bốn bước, và tập phục hồi chức năng đủ 6–8 tuần | … … |
+| mục 11 | mục 4 | Tiêm chủng và khám sức khỏe định kỳ: người có bệnh mạn tính thuộc diện khám miễn phí ít nhất mỗi năm một lần | … Phần 8 … |
+
+## 17-trong-nha-co-nguoi-cao-tuoi
+
+| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
+| --- | --- | --- | --- |
+| đầu chương | mục 4 | Tiền dưỡng già: một tài khoản hai tên mở ở quầy, nguyên tắc mọi lệnh phải có cả hai, và một câu từ chối tập sẵn | … Chốt đầu tiên về tiền nằm ở … |
+| đầu chương | mục 1 | Uỷ quyền: làm giấy khi ông bà còn ký được, ghi rõ việc được làm và ghi rõ thời hạn | … … |
+| đầu chương | mục 2 | Di chúc: viết khi còn minh mẫn, bản sau thay bản trước, và công chứng không khoá di chúc lại | … … |
+| đầu chương | mục 3 | Giám hộ: khi ông bà không còn tự quyết thì phải có quyết định của toà, và phần chuẩn bị làm được từ trước | … … |
+| đầu chương | mục 4 | Tiền dưỡng già: một tài khoản hai tên mở ở quầy, nguyên tắc mọi lệnh phải có cả hai, và một câu từ chối tập sẵn | … … |
+| đầu chương | mục 5 | Huy động vốn lãi cao: bốn câu kiểm được trước khi ông bà đưa tiền | … … |
+| đầu chương | mục 6 | "Thế chấp nhà để lấy lương hưu": Việt Nam không có sản phẩm đó | … … |
+| đầu chương | mục 7 | Khi ông bà mất khả năng tự chăm: 540.000 đồng, thẻ bảo hiểm y tế, và hợp đồng uỷ nhiệm chăm sóc | … … |
+| đầu chương | mục 8 | Loét do nằm lâu: nhìn da ở ba chỗ xương lồi mỗi ngày, và trở mình theo giờ | … … |
+| đầu chương | mục 9 | Đục thuỷ tinh thể: chỉ định mổ tính bằng việc mắt còn làm được gì, không bằng một con số thị lực | … … |
+| đầu chương | mục 10 | Dắt chó và chấn thương: một tay giữ dây, và ngã ở tuổi 60 thì đi chụp phim ngay | … … |
+| đầu chương | mục 11 | Nhà dưỡng lão: tra cơ sở trong danh sách đang hoạt động, và đọc hợp đồng theo mẫu trước khi ký | … … |
+| đầu chương | mục 12 | Nghỉ chăm cha mẹ ốm: không có chế độ riêng, nên dùng phép năm và thoả thuận nghỉ không lương | … … |
+| đầu chương | mục 13 | Sa sút trí tuệ: quên gần, lạc đường, giảm chức năng là việc phải đi khám, không phải "lẫn tuổi già" | … … |
+| mục 4 | mục 2 | Di chúc: viết khi còn minh mẫn, bản sau thay bản trước, và công chứng không khoá di chúc lại | …pháp luật, tức lại quay về giấy tờ thừa kế (… |
+| mục 4 | mục 3 | Giám hộ: khi ông bà không còn tự quyết thì phải có quyết định của toà, và phần chuẩn bị làm được từ trước | …(mục 2) và giám hộ theo quyết định của toà (… |
+| mục 9 | mục 5 | Huy động vốn lãi cao: bốn câu kiểm được trước khi ông bà đưa tiền | … Phần D … |
+| mục 9 | mục 4 | Tiền dưỡng già: một tài khoản hai tên mở ở quầy, nguyên tắc mọi lệnh phải có cả hai, và một câu từ chối tập sẵn | … Phần D … |
+| mục 10 | mục 8 | Loét do nằm lâu: nhìn da ở ba chỗ xương lồi mỗi ngày, và trở mình theo giờ | …ài ngày là thêm một vết loét do tì đè, đúng … |
+
+## 18-nuoi-con-tien-bac-va-thoi-gian
+
+| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
+| --- | --- | --- | --- |
+| đầu chương | mục 1 | Năm khoản pháp luật trả thay khi sinh con, và mức đang áp dụng | … … |
+| đầu chương | mục 2 | Nghỉ thai sản: 06 tháng, con thứ hai 07 tháng, và 05 đến 14 ngày của người cha | … … |
+| đầu chương | mục 3 | Mang thai không phải lý do để bị sa thải, cắt lương hay đổi sang việc xấu hơn | … … |
+| đầu chương | mục 4 | Thời gian bị chiếm: sáu tháng của mẹ, 05 đến 14 ngày của cha, và phần không ai trả | … … |
+| đầu chương | mục 5 | Ba giai đoạn chi phí: 0–3 tuổi, chín năm bắt buộc, và phần sau bắt buộc | … … |
+| đầu chương | mục 6 | Sinh vì cha mẹ, vì hôn nhân, vì dưỡng lão: ba kỳ vọng và chỗ pháp luật không hứa thay | … … |
+| đầu chương | mục 7 | Tuổi sinh và việc đi khám: mốc 35, gói sàng lọc bốn bệnh, và phần không có số | … … |
+
+## 19-dang-lam-nghi-viec-va-tai-nan-lao-dong
+
+| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
+| --- | --- | --- | --- |
+| đầu chương | mục 1 | Làm thêm giờ: ba mức 150%, 200%, 300% và ba cái trần quyết định số tiền | … … |
+| đầu chương | mục 2 | Phép năm: 12, 14, 16 ngày, thêm 01 ngày mỗi 05 năm, và không có mức 300% nào để quy đổi | … … |
+| đầu chương | mục 3 | Thử việc: 180, 60, 30, 6 ngày, ít nhất 85% lương, và chỉ một lần cho một công việc | … … |
+| đầu chương | mục 4 | Bị cho nghỉ: nửa tháng lương mỗi năm, hoặc một tháng mỗi năm với sàn 02 tháng | … … |
+| đầu chương | mục 5 | Ba con đường cho nghỉ hợp pháp: không đáp ứng, ốm dài, và thay đổi cơ cấu | … … |
+| đầu chương | mục 6 | Cho nghỉ trái luật: nhận lại việc, 02 tháng lương, và 01 năm để kiện | … … |
+| đầu chương | mục 7 | Đừng ký "đơn xin nghỉ vì lý do cá nhân" khi người đưa tờ đơn là người muốn bạn đi | … … |
+| đầu chương | mục 8 | Giữ chứng cứ trước khi rời: bảng lương, chấm công, quyết định, và một lá đơn yêu cầu bản sao | … … |
+| đầu chương | mục 9 | Khám sức khỏe định kỳ và khám phát hiện bệnh nghề nghiệp: 06 tháng một lần với nghề độc hại, và kết quả phải đến tay bạn | … … |
+| đầu chương | mục 10 | Quyền từ chối công việc không bảo đảm an toàn: được trả đủ lương, nhưng phải báo ngay và đúng người | … … |
+| đầu chương | mục 11 | Khai báo tai nạn lao động: báo ngay trong ngày, không chờ đủ giấy tờ | … … |
+| đầu chương | mục 12 | Cấp cứu trước, giấy tờ sau: không ai được bắt người bị nạn chờ thủ tục | … … |
+| đầu chương | mục 13 | Đơn vị không đóng bảo hiểm tai nạn: chế độ vẫn còn, chỉ đổi người trả | … … |
+| đầu chương | mục 14 | Giám định mức suy giảm: 5% là ngưỡng, và mỗi 1% đổi thành tiền | … … |
+| đầu chương | mục 15 | Chết do tai nạn lao động: bốn khoản tiền, và khoản thứ tư hay bị bỏ | … … |
+| đầu chương | mục 16 | Bị bắt nạt ở nơi làm việc: ghi lại trước, rồi chọn cửa | … … |
+| đầu chương | mục 17 | Giấy xác nhận thôi việc: 14 ngày, và ba thứ phải đòi cùng lúc | … … |
+| đầu chương | mục 18 | Thuế với trợ cấp thôi việc: phần đúng luật không tính, phần thêm thì tính | … … |
+| đầu chương | mục 19 | Đổi tỉnh, đổi việc: giữ thời gian đóng, đừng rút bảo hiểm xã hội một lần | … … |
+| đầu chương | mục 20 | Hợp đồng lao động: ký bằng văn bản trước ngày làm việc đầu tiên, và giữ một bản trong tay | … … |
+| đầu chương | mục 21 | Đơn vị không đóng bảo hiểm: kiểm sổ mỗi quý và đòi bằng văn bản, mức phạt đang áp dụng | … … |
+| đầu chương | mục 22 | Điều khoản phạt vi phạm trong hợp đồng lao động: ba khoản được trừ và trần 30% lương tháng | … … |
+| đầu chương | mục 23 | Điều chuyển công việc và giảm lương: 60 ngày, 85%, và 30 ngày giữ lương cũ | … … |
+| đầu chương | mục 24 | Làm qua công ty cho thuê lại: 12 tháng, ký quỹ 2 tỷ, và 20 công việc được phép | … … |
+| mục 13 | mục 3 | Thử việc: 180, 60, 30, 6 ngày, ít nhất 85% lương, và chỉ một lần cho một công việc | …ao động, bệnh nghề nghiệp theo quy định tại … |
+| mục 13 | mục 3 | Thử việc: 180, 60, 30, 6 ngày, ít nhất 85% lương, và chỉ một lần cho một công việc | … Ba chế độ trong … |
+| mục 24 | mục 20 | Hợp đồng lao động: ký bằng văn bản trước ngày làm việc đầu tiên, và giữ một bản trong tay | …0 đồng, thời hạn giấy phép 60 tháng và danh … |
+| mục 24 | mục 20 | Hợp đồng lao động: ký bằng văn bản trước ngày làm việc đầu tiên, và giữ một bản trong tay | …một công ty dịch vụ nhân sự, trong khi danh … |
+
+## 20-cham-tre-so-sinh
+
+| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
+| --- | --- | --- | --- |
+| đầu chương | mục 1 | Ngủ an toàn: nằm ngửa, mặt phẳng cứng, cùng phòng nhưng khác giường | … … |
+| đầu chương | mục 2 | Mũi vắc-xin viêm gan B trong 24 giờ đầu: miễn phí, và phải hỏi trước khi ra viện | … … |
+| đầu chương | mục 3 | Lịch tiêm chủng mở rộng và tiêm bù: lịch đã đổi, trễ thì tiêm bù chứ không tiêm lại từ đầu | … … |
+| đầu chương | mục 4 | Bú mẹ hoàn toàn 6 tháng, ăn bổ sung từ 6 tháng, bú tiếp đến 24 tháng | … … |
+| đầu chương | mục 5 | Pha sữa công thức: nước không dưới 70 °C, dùng trong 2 giờ, không hâm lại | … … |
+| đầu chương | mục 6 | Không cho trẻ dưới 1 tuổi ăn mật ong, kể cả khi trẻ ho | … … |
+| đầu chương | mục 7 | Tiêm vitamin K: một mũi trong ngày đầu, và câu hỏi phải hỏi trước khi rời viện | … … |
+| đầu chương | mục 8 | Sốt ở trẻ dưới 3 tháng: 38°C là đi khám ngay, kể cả khi trẻ vẫn bú | … … |
+| đầu chương | mục 9 | Không rung lắc trẻ: đặt trẻ xuống rồi ra khỏi phòng, thay vì lắc cho nín | … … |
+| đầu chương | mục 10 | Chọn tã: cỡ theo cân nặng, và đừng tin dấu “đạt chuẩn” trên bao | … … |
+| đầu chương | mục 11 | Đồ dùng lớn: mượn trước, cũ sau, mới sau cùng — trừ ghế ô tô | … … |
+| đầu chương | mục 12 | Dị ứng đậu phộng: trẻ chàm nặng hoặc đã dị ứng trứng không tự cho ăn ở nhà, và cũng đừng tránh cả đời | … … |
+| đầu chương | mục 13 | Vàng da sơ sinh: bốn dấu hiệu đi viện trong ngày, không chờ thêm hôm nào | … … |
+| đầu chương | mục 14 | Mẹ đang ăn chay khi mang thai và cho con bú: B12 là chỗ hụt, và bữa ăn dặm phải có đạm động vật | … … |
+| đầu chương | mục 15 | Xe tập đi có bánh: Việt Nam không cấm bán, nhưng khuyến cáo nhi khoa là không dùng | … … |
+| đầu chương | mục 16 | Vitamin D: 400 đơn vị mỗi ngày, và đừng tự tăng liều | … … |
+| đầu chương | mục 17 | Nước tắm: pha lạnh trước rồi mới thêm nóng, và thử bằng khuỷu tay | … … |
+| mục 2 | mục 14 | Mẹ đang ăn chay khi mang thai và cho con bú: B12 là chỗ hụt, và bữa ăn dặm phải có đạm động vật | …m gan vi rút B ở vị trí thứ nhất trong danh … |
+| mục 3 | mục 14 | Mẹ đang ăn chay khi mang thai và cho con bú: B12 là chỗ hụt, và bữa ăn dặm phải có đạm động vật | … danh … |
+
+## 21-ra-nuoc-ngoai
+
+| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
+| --- | --- | --- | --- |
+| đầu chương | mục 1 | Trước khi mua vé: tra khuyến cáo, kiểm hạn hộ chiếu, và biết rằng cửa khẩu không chặn bạn chỉ vì nước đến nguy hiểm | … … |
+| đầu chương | mục 2 | Lưu số trực bảo hộ công dân vào ba chỗ, và lưu cả số của cơ quan đại diện nước mình đến | … … |
+| đầu chương | mục 3 | Cơ quan đại diện làm được gì và không làm được gì: mười một việc họ không làm | … … |
+| đầu chương | mục 4 | Bảo hiểm ra nước ngoài: đọc hai dòng là giới hạn trách nhiệm và điều khoản vận chuyển y tế | … … |
+| đầu chương | mục 5 | "Việc nhẹ lương cao": kiểm giấy phép, trần tiền dịch vụ, và hợp đồng trước khi đưa hộ chiếu | … … |
+| đầu chương | mục 6 | Mang tiền mặt qua cửa khẩu: ngưỡng phải khai và ngưỡng phải có giấy xác nhận là hai chuyện khác nhau | … … |
+| đầu chương | mục 7 | Sao lưu hộ chiếu và visa: hai ngày để báo mất, và ba mốc thời gian khi làm lại ở nước ngoài | … … |
+| đầu chương | mục 8 | Giấy phép lái xe quốc tế: chỉ bản theo Công ước Viên mới có giá trị, và thông tư cũ đã bị thay | … … |
+| đầu chương | mục 9 | Thuê làm visa, du học, định cư: chỗ có giấy phép tra được, chỗ không có thì đọc hợp đồng | … … |
+| đầu chương | mục 10 | Không cho mượn hộ chiếu, không cho người lạ dùng tên mình làm thủ tục xuất nhập cảnh | … … |
+| đầu chương | mục 11 | Trước khi đi, gửi lịch trình và số hộ chiếu cho một người ở nhà, rồi thống nhất nhịp báo tin | … … |
+| đầu chương | mục 12 | Mang thuốc theo người: ra nước ngoài theo luật nước đến, vào Việt Nam theo hạn mức 7 ngày và 10 ngày | … … |
+| đầu chương | mục 13 | Mang đồ ăn về nước: đồ tươi sống hay mới sơ chế thì đừng mang, đồ chế biến sẵn không quá 5 kg mới được miễn kiểm dịch | … … |

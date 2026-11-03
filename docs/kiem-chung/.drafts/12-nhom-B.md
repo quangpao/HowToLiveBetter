@@ -1,0 +1,44 @@
+# Chương 12 — nhóm B (mục 8–14): bảng nguồn đã đọc
+
+Mọi mốc dưới đây tra ngày **3/11/2026**. Cột "đã đọc bản ký?" ghi cách tôi mở văn bản: tải **bản ký** (PDF có chữ ký số của Cổng TTĐT Chính phủ) hoặc **bản Công báo**, rồi trích xuất lớp text; với các PDF chỉ có ảnh quét, tôi OCR bằng tesseract gói tiếng Việt ở 300 dpi và đối chiếu lại phần số bằng mắt trên ảnh trang.
+
+| mục | văn bản | điều/khoản | đã đọc bản ký? | dùng cho câu nào |
+|---|---|---|---|---|
+| 8 | Nghị định 15/2018/NĐ-CP ngày 2-2-2018 | Điều 11 khoản 1 | có: bản ký 59 trang, `/tmp/luat/nd15.pdf` (OCR trang 9) | cơ sở sản xuất, kinh doanh thực phẩm phải có Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm khi hoạt động, trừ trường hợp tại khoản 1 Điều 12 |
+| 8 | Nghị định 15/2018/NĐ-CP | Điều 12 khoản 1 điểm a, c, d, đ, i; khoản 2 | có: OCR trang 9–10 | nhóm không thuộc diện cấp giấy: sản xuất ban đầu nhỏ lẻ, sơ chế nhỏ lẻ, kinh doanh thực phẩm nhỏ lẻ, kinh doanh thực phẩm bao gói sẵn, thức ăn đường phố; nhóm này vẫn phải giữ điều kiện bảo đảm an toàn thực phẩm |
+| 8 | Nghị định 15/2018/NĐ-CP | Điều 4 khoản 1; Điều 5 khoản 1 điểm b | có: OCR trang 3–4 | nghĩa vụ tự công bố với thực phẩm đã qua chế biến bao gói sẵn, phụ gia, chất hỗ trợ chế biến, dụng cụ, vật liệu bao gói; phiếu kiểm nghiệm trong thời hạn **12 tháng**, cấp bởi phòng được chỉ định hoặc ISO 17025 |
+| 8 | Nghị định 115/2018/NĐ-CP (Công báo 907+908 ngày 14-9-2018) | Điều 18 khoản 1, 2, 3; Điều 20 khoản 4, 5 | có: bản Công báo 47 trang, có lớp text | 20–30 triệu (dịch vụ ăn uống không có giấy); 30–40 triệu (sản xuất, kinh doanh thực phẩm không có giấy); 40–60 triệu (thực phẩm bảo vệ sức khỏe thiếu GMP); 40–50 triệu khi không có bản tự công bố, kèm đình chỉ 1–3 tháng |
+| 8 | Nghị định 124/2021/NĐ-CP ngày 28-12-2021 | khoản 8 Điều 1 | có: bản ký 37 trang (OCR trang 5) | thêm cụm "hoặc có Giấy chứng nhận… nhưng đã hết hiệu lực" vào khoản 1 và khoản 2 Điều 18 |
+| 9 | Nghị định 43/2017/NĐ-CP ngày 14-4-2017 | Điều 10 khoản 1; Điều 7 khoản 1; Điều 11; Điều 14; Điều 16 | có: bản ký 36 trang (OCR trang 4–9) | bốn nhóm nội dung bắt buộc và yêu cầu tiếng Việt; tên hàng không được làm hiểu sai bản chất, công dụng; ngày sản xuất và hạn sử dụng ghi theo thứ tự ngày, tháng, năm, hai chữ số, cho phép viết tắt NSX/HSD/HD; thành phần gồm cả phụ gia |
+| 9 | Nghị định 111/2021/NĐ-CP ngày 9-12-2021 | khoản 3, khoản 5 Điều 1; khoản 12 Điều 1 (bãi bỏ) | có: bản ký 22 trang (OCR trang 2–4) | sửa lại Điều 7 khoản 1 và Điều 10 khoản 1; **bãi bỏ điểm b khoản 2 Điều 5** (mức chữ 1,2 mm) và khoản 2 Điều 8 |
+| 9 | Nghị định 119/2017/NĐ-CP ngày 1-11-2017 | Điều 31 khoản 1, 2, 4 (nguyên bản) | có: bản ký 54 trang (OCR trang 34–37) | đọc để biết cấu trúc bậc phạt theo giá trị lô trước khi đối chiếu bản sửa |
+| 9 | Nghị định 126/2021/NĐ-CP ngày 30-12-2021 | khoản 46 đến khoản 54 Điều 2 (sửa Điều 30, Điều 31) | có: bản ký 65 trang (OCR trang 21–65) | bậc phạt hiện hành: 500.000–1.000.000 đồng cho lô dưới 5.000.000 đồng; bảy bậc từ 1–3 triệu đến 25–30 triệu; **điểm h khoản 2 và điểm i khoản 4 nhân đôi với thực phẩm**; khoản 4 xử riêng hành vi không có nhãn |
+| 10 | Nghị định 115/2018/NĐ-CP (Công báo 907+908 ngày 14-9-2018) | Điều 23 khoản 1, 3, 4, 5 | có: bản Công báo, lớp text | 5–10 triệu khi quảng cáo thực phẩm bảo vệ sức khỏe thiếu câu "không phải là thuốc…"; 20–30 triệu khi dẫn, nêu ý kiến người bệnh mô tả tác dụng điều trị bệnh; 50–70 triệu khi phát hành tài liệu, đăng tin không đúng sự thật; buộc tháo gỡ, cải chính |
+| 10 | Nghị định 43/2017/NĐ-CP | Điều 11 khoản 1 | có: OCR trang 7 | tên hàng hóa không được làm hiểu sai lệch về bản chất, công dụng, thành phần |
+| 11 | Bộ luật Hình sự, bản hợp nhất 135/VBHN-VPQH | Điều 317 khoản 1 điểm a, b, e; khoản 2 | có: `/tmp/blhs.txt`, trang 218–219 bản in | 100–400 triệu hoặc tù 2–5 năm; ngưỡng sản phẩm 10–100 triệu; khoản 2: 400 triệu–1 tỷ hoặc tù 3–7 năm; ngộ độc 5–20 người / 21–100 người |
+| 11 | Bộ luật Hình sự 135/VBHN-VPQH | Điều 193 khoản 1 đến khoản 6 | có: trang 90–92 bản in | tù 2–5 năm ở khoản 1 **không kèm ngưỡng giá trị**; khoản 2: 5–10 năm (150–500 triệu, thu lợi 100–500 triệu); khoản 3: 10–15 năm; khoản 4: 15–20 năm hoặc chung thân; khoản 6: pháp nhân 2–6 tỷ |
+| 11 | Bộ luật Hình sự 135/VBHN-VPQH | Điều 192 khoản 1 | có: trang 88 bản in | 200 triệu–2 tỷ hoặc tù 1–5 năm; ngưỡng 30–150 triệu |
+| 12 | Nghị định 68/2026/NĐ-CP ngày 5-3-2026 | Điều 8 khoản 1 điểm a; khoản 3 điểm a, b, c, e | có: bản ký 19 trang (OCR trang 6–8) | thông báo doanh thu chậm nhất **31/01** năm sau; kỳ quý chậm nhất ngày cuối tháng đầu quý sau; kỳ tháng chậm nhất **ngày 20** tháng sau; quyết toán TNCN chậm nhất **31/3**; hạn nộp thuế bằng hạn nộp hồ sơ khai |
+| 12 | Nghị định 141/2026/NĐ-CP (Công báo 272 ngày 14-5-2026) | Điều 1 khoản 1; Điều 3 | có: bản ký 4 trang + Công báo do đơn vị điều phối mở sẵn | thay "500 triệu đồng" bằng "**01 tỷ đồng**" tại 9 vị trí của Nghị định 68/2026/NĐ-CP; hiệu lực 1-1-2026 |
+| 12 | Nghị định 125/2020/NĐ-CP (Công báo 1015+1016 ngày 2-11-2020) | Điều 13 khoản 1, 2, 3, 4 | có: bản Công báo 44 trang, lớp text | cảnh cáo khi chậm 1–5 ngày có tình tiết giảm nhẹ; 2–5 triệu (1–30 ngày); 5–8 triệu (31–60 ngày); 8–15 triệu (61–90 ngày, hoặc không nộp mà không phát sinh thuế) |
+| 12 | Nghị định 310/2025/NĐ-CP ngày 2-12-2025 | khoản 10 Điều 1 | có: bản ký 16 trang (OCR trang 7) | sửa khoản 5 và điểm a khoản 6 Điều 13; **không đổi** khung 2–5, 5–8, 8–15 triệu của khoản 2, 3, 4 |
+| 13 | Nghị định 254/2026/NĐ-CP ngày 30-6-2026 | Điều 4 khoản 1 | có: bản ký 55 trang (OCR trang 5–6) | buộc lập hoá đơn điện tử cho mọi lần bán, kể cả khuyến mại, hàng mẫu, biếu tặng, trả thay lương, tiêu dùng nội bộ; hoá đơn phải phản ánh đầy đủ, trung thực; người bán chịu trách nhiệm về tính chính xác |
+| 13 | Nghị định 68/2026/NĐ-CP | Điều 8 khoản 5 (được sửa) | có: OCR | doanh thu năm trên 01 tỷ đồng thì bắt buộc hoá đơn điện tử có mã / máy tính tiền kết nối; từ 01 tỷ trở xuống thì đăng ký nếu có nhu cầu |
+| 13 | Nghị định 141/2026/NĐ-CP | Điều 1 khoản 2 | có | hộ vượt ngưỡng trong năm phải đăng ký trong **30 ngày** kể từ ngày cuối cùng của kỳ tính thuế có doanh thu luỹ kế trên 01 tỷ đồng |
+| 13 | Bộ luật Hình sự 135/VBHN-VPQH | Điều 203 khoản 1, 2 | có: trang 102–103 bản in | phôi 50–100 số / hoá đơn đã ghi nội dung 10–30 số / thu lợi 30–100 triệu: 50–200 triệu, cải tạo ≤3 năm hoặc tù 6 tháng–3 năm; khoản 2: 200–500 triệu hoặc tù 1–5 năm |
+| 14 | Bộ luật Hình sự 135/VBHN-VPQH | Điều 174 khoản 1, 2, 3, 4 | có: trang 73–74 bản in | 2–50 triệu: cải tạo ≤3 năm hoặc tù 6 tháng–3 năm; khoản 2: 2–7 năm (50–200 triệu, lợi dụng danh nghĩa cơ quan, tổ chức); khoản 3: 7–15 năm; khoản 4: 12–20 năm hoặc chung thân |
+| 14 | Bộ luật Hình sự 135/VBHN-VPQH | Điều 339 | có: trang 328 bản in | giả mạo chức vụ, cấp bậc, vị trí công tác mà không nhằm chiếm đoạt tài sản: cải tạo ≤2 năm hoặc tù 3 tháng–2 năm |
+| 14 | Nghị định 282/2025/NĐ-CP (Công báo 1583+1584 ngày 17-11-2025) | Điều 18 khoản 2 điểm c | có: `/tmp/nd282.txt` (96 trang, có lớp text) + bản ký | lừa đảo chiếm đoạt tài sản chưa đến mức truy cứu trách nhiệm hình sự: **3–5 triệu đồng** |
+| 14 | Nghị định 68/2026/NĐ-CP | Điều 8 khoản 4 điểm a | có: OCR | hộ kinh doanh, cá nhân kinh doanh nộp hồ sơ khai thuế bằng phương thức điện tử |
+
+## Còn treo
+
+- **Luật An toàn thực phẩm 55/2010/QH12**: trang văn bản trên Cổng TTĐT không trả tệp đính kèm nên tôi không mở được bản ký. Mục 8 vì vậy chỉ dẫn Nghị định 15/2018/NĐ-CP và không nêu số điều của luật.
+- **Nghị định 46/2026/NĐ-CP** và **Nghị quyết 66.13/2026/NQ-CP**: đang bị tạm ngưng hiệu lực bởi Nghị quyết 15/2026/NQ-CP ngày 6-4-2026; tôi mới đọc thông tin trên Cổng TTĐT, chưa mở bản ký hai văn bản này, nên các mục 8–10 dùng Nghị định 15/2018/NĐ-CP.
+- **Nghị định 342/2025/NĐ-CP** (quảng cáo): tôi mở bản ký 28 trang và đọc Điều 18–22, nhưng không định vị được điều khoản riêng về quảng cáo thực phẩm, nên mục 10 không dẫn nghị định này. Cần người rà lại phần đầu (Điều 1–17) trước khi bổ sung.
+- **Luật Quảng cáo** hiện hành: chưa mở bản ký, nên mục 10 không dẫn luật.
+- **Luật Quản lý thuế 108/2025/QH15** (hiệu lực 1-7-2026): chưa mở bản ký. Mục 12 dùng Nghị định 68/2026/NĐ-CP vì đó là văn bản trực tiếp đặt thời hạn khai cho hộ kinh doanh.
+- **Nghị định 123/2020/NĐ-CP**: theo nguồn thứ cấp, nghị định này và Nghị định 70/2025/NĐ-CP đã hết hiệu lực từ 1-7-2026 và được thay bằng Nghị định 254/2026/NĐ-CP; tôi đã mở bản ký nghị định thay thế nên mục 13 không dẫn Nghị định 123/2020.
+- **Nghị định 168/2025/NĐ-CP** (đăng ký doanh nghiệp, thay Nghị định 01/2021/NĐ-CP): chưa mở, và bảy mục này không dùng tới.
+- **Nghị định 291/2026/NĐ-CP**: đã mở bản ký 3 trang, chỉ bổ sung Điều 19a về trao đổi thông tin, không sửa Điều 13 Nghị định 125/2020/NĐ-CP.
+- **Bản án**: không tìm được bản án công bố nào đúng câu hỏi của mục 11 (một vụ ngộ độc do bán thịt động vật chết) và mục 14 (giả danh cán bộ thuế gọi điện), nên hai mục này giữ hạng B.
