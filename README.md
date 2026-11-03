@@ -38,7 +38,7 @@ Không cần làm hết: đây là danh sách để chọn, không phải danh s
 </td></tr>
 <tr><td align="right"><b>Bài dài</b></td><td align="left">
 
-Chưa có. Bài dài sẽ nằm trong `docs/` khi từng chương xong.
+Chưa có. Bài dài theo từng chủ đề sẽ thêm dần vào `docs/`.
 
 </td></tr>
 <tr><td align="right"><b>Bản gốc</b></td><td align="left">
@@ -80,18 +80,18 @@ Chưa có. Bài dài sẽ nằm trong `docs/` khi từng chương xong.
 | Trẻ sơ sinh: việc gì phải đúng ngay? | [20. Chăm trẻ sơ sinh](book/20-cham-tre-so-sinh.md) |
 | Nước nào đang không nên đi; ở ngoài thì đại sứ quán giúp được tới đâu? | [21. Ra nước ngoài](book/21-ra-nuoc-ngoai.md) |
 | Đi karaoke, quán net, phòng giải đố sao cho khỏi vạ; căng thẳng thì làm gì hiệu quả nhất? | [22. Nghỉ ngơi và giải trí](book/22-nghi-ngoi-va-giai-tri.md) |
-| Học nghề gì thì hoàn vốn, học sao cho đỡ tốn thời gian, có nên học tiếp lên? | 23. Học gì thì đáng — đang biên soạn |
-| Cùng một bệnh, khám tuyến xã và bệnh viện tỉnh chênh bao nhiêu; trả tiền ra sao, giấy tờ gì cần giữ? | 24. Đi khám: tốn ít tiền, ít vòng vo — đang biên soạn |
-| Trong nhà có người mất: làm gì trước, lấy lại được khoản nào, khoản nào không phải trả? | 25. Khi có người mất — đang biên soạn |
-| Làm website hay nền tảng thu tiền thì phải xin giấy gì, đặt máy chủ ở đâu? | 26. Làm website hay nền tảng — đang biên soạn |
-| Có thai, sắp sinh: khi nào làm gì, trước khi ra viện phải làm giấy gì? | 27. Mang thai và sinh nở — đang biên soạn |
-| Muốn giảm cân, muốn đẹp hơn, muốn niềng răng: cách nào làm hỏng người? | 28. Đừng vì ngoại hình mà phá sức khoẻ — đang biên soạn |
-| Người thân mất, bị cho nghỉ việc, nhận chẩn đoán nặng: mấy tháng đầu phải lo gì? | 29. Sau một cú đánh lớn — đang biên soạn |
-| Con đi học rồi: việc gì về thân thể và tâm lý không chờ được đến sau kỳ thi? | 30. Trẻ đi học — đang biên soạn |
-| Sau 18 tuổi, ngoài học đại học và đi làm còn đường nào, mỗi đường cần gì? | 31. Sau 18 tuổi có những con đường nào — đang biên soạn |
-| Du học: thân phận, việc làm thêm, bảo hiểm và công nhận bằng khi về nước? | 32. Du học — đang biên soạn |
-| Bản thân hay người nhà bị khuyết tật: phòng biến chứng gì, nhận trợ cấp nào, học hành và giám hộ ra sao? | 33. Khi bị khuyết tật — đang biên soạn |
-| Thuốc cảm, thuốc hạ sốt, thuốc dạ dày mua về tự uống: loại nào không được uống chung, trẻ con và bà bầu phải tránh gì? | 34. Tủ thuốc trong nhà — đang biên soạn |
+| Học nghề gì thì hoàn vốn, học sao cho đỡ tốn thời gian, có nên học tiếp lên? | [23. Học gì thì đáng: trường nghề, chứng chỉ, và cách học](book/23-hoc-gi-thi-dang.md) |
+| Cùng một bệnh, khám tuyến xã và bệnh viện tỉnh chênh bao nhiêu; trả tiền ra sao, giấy tờ gì cần giữ? | [24. Đi khám: đúng cấp, đúng giấy, và không phải đưa phong bì](book/24-di-kham.md) |
+| Trong nhà có người mất: làm gì trước, lấy lại được khoản nào, khoản nào không phải trả? | [25. Người mất rồi thì phải làm gì](book/25-nguoi-mat-roi-phai-lam-gi.md) |
+| Làm website hay nền tảng thu tiền thì phải xin giấy gì, đặt máy chủ ở đâu? | [26. Dựng một website hay nền tảng](book/26-dung-website-hay-nen-tang.md) |
+| Có thai, sắp sinh: khi nào làm gì, trước khi ra viện phải làm giấy gì? | [27. Mang thai và sinh đẻ](book/27-mang-thai-va-sinh-de.md) |
+| Muốn giảm cân, muốn đẹp hơn, muốn niềng răng: cách nào làm hỏng người? | [28. Đừng vì ngoại hình mà phá sức khoẻ](book/28-dung-vi-ngoai-hinh-pha-suc-khoe.md) |
+| Người thân mất, bị cho nghỉ việc, nhận chẩn đoán nặng: mấy tháng đầu phải lo gì? | [29. Ứng phó sau cú sốc lớn](book/29-ung-pho-sau-cu-soc-lon.md) |
+| Con đi học rồi: việc gì về thân thể và tâm lý không chờ được đến sau kỳ thi? | [30. Con đi học rồi](book/30-con-di-hoc.md) |
+| Sau 18 tuổi, ngoài học đại học và đi làm còn đường nào, mỗi đường cần gì? | [31. Sau 18 tuổi có mấy đường](book/31-sau-18-tuoi-co-may-duong.md) |
+| Du học: thân phận, việc làm thêm, bảo hiểm và công nhận bằng khi về nước? | [32. Đi du học](book/32-di-du-hoc.md) |
+| Bản thân hay người nhà bị khuyết tật: phòng biến chứng gì, nhận trợ cấp nào, học hành và giám hộ ra sao? | [33. Sau khi khuyết tật](book/33-sau-khi-khuyet-tat.md) |
+| Thuốc cảm, thuốc hạ sốt, thuốc dạ dày mua về tự uống: loại nào không được uống chung, trẻ con và bà bầu phải tránh gì? | [34. Thuốc trong nhà đừng để ăn hại](book/34-thuoc-trong-nha.md) |
 
 ## Cách đọc
 
@@ -230,7 +230,7 @@ Phần thân bài viết bằng lời thường, nhưng khi dẫn nghiên cứu 
 33. [Sau khi khuyết tật](book/33-sau-khi-khuyet-tat.md) — 21 mục: cơn rối loạn thần kinh thực vật, nguy cơ tự tử mười năm đầu, bắt buộc chữa bệnh, sức khoẻ người chăm, loét do tì đè, đừng mua liệu pháp chữa khỏi, giấy xác nhận khuyết tật, trẻ khuyết tật, sửa nhà, doanh nghiệp nhận người khuyết tật, thuế, chó dẫn đường và vé, thi đại học, nhập học, giấy phép lái xe, phục hồi chức năng, máy trợ thính, mất năng lực hành vi dân sự, người giám hộ, kiện vì bị phân biệt đối xử, bàng quang thần kinh
 34. [Thuốc trong nhà đừng để ăn hại](book/34-thuoc-trong-nha.md) — 13 mục: trùng hoạt chất trong thuốc cảm, trẻ sốt và ba thuốc phải tránh, người trên 60 và người đang uống kháng đông, trẻ dưới 2 tuổi, mang thai từ tuần 20, omeprazol tự mua, cảm thường không cần kháng sinh, oresol pha đúng, đau đầu do lạm dụng giảm đau, thuốc hết hạn, rượu với kháng sinh, thuốc dị ứng và việc lái xe, bưởi với thuốc hạ mỡ
 
-**Đủ 34 chương** đang biên soạn theo đúng định dạng này; mục lục sẽ dài ra khi từng chương xong. Danh sách đủ 34 chương và nội dung từng chương theo bản gốc nằm trong [README.cn.md](README.cn.md).
+Đã đủ **34 chương, 767 mục**, cùng số chương và số mục với bản gốc. Số mục của từng chương khác bản gốc vì nội dung được biên soạn lại theo luật Việt Nam: có mục bản gốc có mà ở đây không áp dụng được, có mục phải thêm. Danh sách chương và nội dung từng chương của bản gốc nằm trong [README.cn.md](README.cn.md).
 
 ## Nội dung
 

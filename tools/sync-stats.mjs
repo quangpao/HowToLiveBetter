@@ -139,11 +139,21 @@ for (const [file, label, pattern, repl] of EDITS) {
 
 // Chương nào có trong book/ mà không có dòng trong mục lục README thì trang tra cứu, EPUB, PDF và
 // bản offline đều lặng lẽ thiếu chương đó — không có cổng nào khác bắt được lỗi này.
+// Mỗi chương phải được link đúng hai chỗ: dòng "N. [Tên](book/…md)" trong ## Mục lục, và ô "Xem ở đâu"
+// của bảng ## Cuốn sách này trả lời câu gì. Chỉ có một link nghĩa là bảng câu hỏi còn ghi
+// "đang biên soạn" dù chương đã viết xong — đúng kiểu lệch đã xảy ra lúc viết tới chương 22.
 const readmeNow = texts.get('README.md') ?? read('README.md');
-const missingChapters = bookFiles.filter(f => !readmeNow.includes(`](book/${f})`));
-if (missingChapters.length) {
-  console.error(`Mục lục README thiếu chương: ${missingChapters.join(', ')}. Thêm dòng "N. [Tên](book/…md) — N mục: …" vào mục ## Mục lục.`);
+const linkCount = f => readmeNow.split(`](book/${f})`).length - 1;
+const missingToc = bookFiles.filter(f => linkCount(f) === 0);
+const missingQuestions = bookFiles.filter(f => linkCount(f) === 1);
+if (missingToc.length) {
+  console.error(`Mục lục README thiếu chương: ${missingToc.join(', ')}. Thêm dòng "N. [Tên](book/…md) — N mục: …" vào mục ## Mục lục.`);
   badWho.push('mục lục README thiếu chương');
+  process.exitCode = 1;
+}
+if (missingQuestions.length) {
+  console.error(`Bảng câu hỏi README chưa link chương: ${missingQuestions.join(', ')}. Ô "Xem ở đâu" phải là "[N. Tên](book/…md)", không để "đang biên soạn".`);
+  badWho.push('bảng câu hỏi README thiếu chương');
   process.exitCode = 1;
 }
 
