@@ -38,7 +38,7 @@ Không cần làm hết: đây là danh sách để chọn, không phải danh s
 </td></tr>
 <tr><td align="right"><b>Bài dài</b></td><td align="left">
 
-Chưa có. Bài dài theo từng chủ đề sẽ thêm dần vào `docs/`.
+[Pháp luật Việt Nam — tra cứu theo vấn đề](docs/phap-luat-viet-nam.md). Các bài dài theo chủ đề khác sẽ bổ sung dần.
 
 </td></tr>
 <tr><td align="right"><b>Bản gốc</b></td><td align="left">
@@ -66,7 +66,7 @@ Chưa có. Bài dài theo từng chủ đề sẽ thêm dần vào `docs/`.
 | Thực phẩm bổ sung, gói khám sức khoẻ, đồ "đáng tiền" nào bỏ qua được? | [6. Danh sách những thứ trông rẻ mà không có tác dụng](book/06-nhung-thu-vo-dung.md) |
 | Mất việc, bị quỵt lương, trong túi không còn tiền thì nhận được gì, cầu cứu ở đâu? | [7. Không có tiền thì sống thế nào](book/07-khong-co-tien-thi-song-the-nao.md) |
 | Tiền cọc, nhà trước hôn nhân, chuyển khoản lớn khi đang yêu là của ai; bị tố giác hay bị vu khống thì làm gì trước? | [8. Đừng tự chuốc hoạ vào thân: pháp luật và tài sản](book/08-dung-tu-chuoc-hoa-vao-than.md) |
-| Việc làm thêm nào, việc tưởng vô hại nào biến người thường thành bị cáo? | [9. Ranh giới pháp luật người thường dễ vấp](book/09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md) |
+| Việc làm thêm nào, việc tưởng vô hại nào biến người thường thành bị cáo? | [9. Ranh giới pháp luật người thường dễ vấp](book/09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md). Bài dài xem [hướng dẫn pháp luật Việt Nam](docs/phap-luat-viet-nam.md). |
 | Nên theo đuổi một người hay quen nhiều người; yêu xa có thành không; đăng ký kết hôn cần gì; chỉ làm đám cưới mà không đăng ký thì có phải vợ chồng? | [10. Yêu và kết hôn có đáng không](book/10-yeu-va-ket-hon-co-dang-khong.md) |
 | Viết code nào, nhận việc nào thì bị truy tố? | [11. Những vạch đỏ mà người làm kỹ thuật hay vấp](book/11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md) |
 | Vay tiền mở shop, mở công ty: nghĩ gì trước tiên, đóng cửa thì mất gì? | [12. Kinh doanh nhỏ: mở, vận hành, đóng cho đúng luật](book/12-kinh-doanh-nho-mo-van-hanh-dong.md) |
@@ -93,11 +93,14 @@ Chưa có. Bài dài theo từng chủ đề sẽ thêm dần vào `docs/`.
 | Bản thân hay người nhà bị khuyết tật: phòng biến chứng gì, nhận trợ cấp nào, học hành và giám hộ ra sao? | [33. Sau khi khuyết tật](book/33-sau-khi-khuyet-tat.md) |
 | Thuốc cảm, thuốc hạ sốt, thuốc dạ dày mua về tự uống: loại nào không được uống chung, trẻ con và bà bầu phải tránh gì? | [34. Thuốc trong nhà đừng để ăn hại](book/34-thuoc-trong-nha.md) |
 
+**Bài dài xem thêm:** [Pháp luật Việt Nam — tra cứu theo vấn đề](docs/phap-luat-viet-nam.md), tổng hợp các điểm cần đọc, cách tra cứu nguồn và giới hạn khi áp dụng quy định.
+
 ## Cách đọc
 
 - **Không cần làm hết**: đây là danh sách để chọn, không phải danh sách phải hoàn thành. Chọn một hai mục cũng đã có ích, còn lại để đó, cần thì quay lại tra.
 - **Muốn lọc theo điều kiện**: mở [trang tra cứu](https://quangpao.github.io/HowToLiveBetter/), lọc được theo từ khoá, theo chương, theo mức bằng chứng, và theo ba thứ phải bỏ ra — tiền, thời gian, ý chí. Các điều kiện chồng lên nhau được. Nội dung trang lấy thẳng từ `book/`, sửa một mục là trang đổi theo.
 - **Muốn biết trước tiên nên làm gì**: lọc mức đáng làm "rất cao" — những mục không tốn tiền, không tốn thời gian, không cần ý chí mà lợi ích lại lớn nhất.
+- **Muốn tra cứu pháp luật Việt Nam**: dùng [bộ lọc pháp luật](https://quangpao.github.io/HowToLiveBetter/?legal=1) hoặc [hướng dẫn tra theo vấn đề](docs/phap-luat-viet-nam.md). Với mục đã tách, mở “Pháp luật Việt Nam” để xem điều khoản; các mục còn lại vẫn ghi quy định trong Lợi ích hoặc Ghi chú. Thời hạn và ngoại lệ quan trọng vẫn nằm ngay trong “Nói dễ hiểu”.
 - **Chỗ nào là nội dung riêng của Việt Nam**: trên trang tra cứu, hai chữ **Việt Nam** được tô nền nhạt. Đó là những chỗ luật, mức phạt, giá và số liệu đã tra theo văn bản Việt Nam — đọc kỹ những chỗ này, vì phần còn lại thường là bằng chứng y khoa quốc tế dùng chung.
 - **Muốn đọc trên máy không có mạng, hoặc gửi cho người khác**: tải [HTML một file](https://github.com/quangpao/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.html). Cả cuốn sách kèm phần lọc nằm trong một file, bấm đúp là mở, không cần máy chủ, không cần mạng, gửi qua Zalo cũng được.
 - **Muốn in hoặc đọc trên điện thoại**: tải [PDF](https://github.com/quangpao/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.pdf). Khổ A4, có mục lục kèm số trang và bookmark, mỗi chương sang trang mới.

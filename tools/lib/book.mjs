@@ -11,6 +11,7 @@ import { execSync } from 'node:child_process';
 export const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
 export const README_FILE = 'README.md';
 export const REPO = 'https://github.com/quangpao/HowToLiveBetter';
+export const REPO_BRANCH = 'vi'; // nhánh phát hành sách tiếng Việt, không dùng main (bản tiếng Trung)
 export const SITE = 'https://quangpao.github.io/HowToLiveBetter/';
 export const TITLE = 'Cẩm nang sống thông minh';
 export const RELEASE = `${REPO}/releases/download/epub-latest`;

@@ -4,7 +4,7 @@
 // liên kết tương đối trong site đổi thành địa chỉ online, ảnh thanh bên chuyển thành data URI, còn lại không đổi một chữ.
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
-import { ROOT, REPO, SITE, README_FILE, read, gitCommit, buildStamp } from '../lib/book.mjs';
+import { ROOT, REPO, REPO_BRANCH, SITE, README_FILE, read, gitCommit, buildStamp } from '../lib/book.mjs';
 
 const OUT = resolve(ROOT, process.argv[2] ?? 'dist/HowToLiveBetter.html');
 const STAMP = buildStamp();
@@ -46,9 +46,9 @@ must(`href="${README_FILE}"`, `liên kết ${README_FILE}`);
 must('href="book/"', ' liên kết book/');
 // Trang tự kiểm tra chưa dịch nên bản Việt chưa trỏ tới; có thì mới đổi sang link tuyệt đối
 html = html
-  .replaceAll(`href="${README_FILE}"`, `href="${REPO}/blob/main/${README_FILE}"`)
+  .replaceAll(`href="${README_FILE}"`, `href="${REPO}/blob/${REPO_BRANCH}/${README_FILE}"`)
   .replaceAll('href="selfcheck.html"', `href="${SITE}selfcheck.html"`)  // nếu trang có link
-  .replaceAll('href="book/"', `href="${REPO}/tree/main/book"`)
+  .replaceAll('href="book/"', `href="${REPO}/tree/${REPO_BRANCH}/book"`)
   .replaceAll('<a class="title" href="./"', `<a class="title" href="${SITE}"`);
 
 // Mã QR ủng hộ tác giả gốc chuyển thành data URI, không thì mở offline sẽ thành ảnh lỗi.

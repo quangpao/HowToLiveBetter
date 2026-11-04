@@ -70,6 +70,19 @@ jobs:
           node-version: 22
       - run: node tools/check-plain.mjs
 
+  # Kiểm trường pháp luật có dẫn nguồn, không thay cho rà soát hiệu lực.
+  legal:
+    name: Kiểm cấu trúc pháp luật Việt Nam
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node tools/check-legal.mjs
+      - run: node tools/test-check-draft.mjs
+      - run: node tools/test-check-legal.mjs
+
   # 拆分规则一致性检查：超长收益、备注和来源的拆分规则有两份（tools/lib/split-items.mjs 给 EPUB、PDF，
   # index.html 里 <split-rules> 那段给网页和离线版），只改了一边就会四个出口长得不一样。理由同上，不挡发布。
   split:
@@ -118,6 +131,8 @@ jobs:
           node-version: 22
           cache: npm
           cache-dependency-path: tools/epub/package-lock.json
+
+      - run: node tools/test-repo-links.mjs
 
       - run: npm ci
         working-directory: tools/epub

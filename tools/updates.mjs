@@ -21,7 +21,7 @@ import { ROOT } from './lib/book.mjs';
 const CHECK = process.argv.includes('--check');
 const SINCE = '2026-11-01';
 const OUT = 'updates.json';
-const FIELDS = ['Tiêu đề', 'Chi phí', 'Nói dễ hiểu', 'Lợi ích', 'Mức bằng chứng', 'Ghi chú'];
+const FIELDS = ['Tiêu đề', 'Chi phí', 'Nói dễ hiểu', 'Lợi ích', 'Pháp luật Việt Nam', 'Mức bằng chứng', 'Ghi chú'];
 
 const day = sec => new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Ho_Chi_Minh' }).format(new Date(sec * 1000));
 const git = (args, input) => {
@@ -47,7 +47,7 @@ function parse(text) {
       out.push(e); continue;
     }
     if (!e) continue;
-    if ((m = /^- (Chi phí|Nói dễ hiểu|Lợi ích|Mức bằng chứng|Ghi chú):(.*)$/.exec(line))) e.f[m[1]] = m[2].trim();
+    if ((m = /^- (Chi phí|Nói dễ hiểu|Lợi ích|Pháp luật Việt Nam|Mức bằng chứng|Ghi chú):(.*)$/.exec(line))) e.f[m[1]] = m[2].trim();
   }
   for (const x of out) x.n = Object.fromEntries(FIELDS.map(k => [k, norm(x.f[k] ?? '')]));
   return out;

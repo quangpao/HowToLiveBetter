@@ -17,7 +17,7 @@
 // Ở bước ① chỉ thay đúng con số, không động vào chữ nào khác.
 // Cách đếm: số mục = số tiêu đề ### trong book/*.md; số chương = số file book/*.md;
 // A/B/C = chữ cái đầu của dòng mức bằng chứng (có hậu tố "(tranh luận)" vẫn tính); tranh luận = số mục có ghi chú mở đầu bằng "tranh luận";
-// TODO = số dòng trong nội dung có "chưa kiểm chứng" hoặc "TODO"; liên kết = tổng số http(s) trong các dòng "- Nguồn:" và "- Ghi chú:";
+// TODO = số dòng trong nội dung có "chưa kiểm chứng" hoặc "TODO"; liên kết = tổng số http(s) trong các dòng "- Nguồn:", "- Ghi chú:" và "- Pháp luật Việt Nam:";
 // Quy tắc ba mức đáng làm nằm trong tools/lib/book.mjs, chép từ index.html.
 // Cắt dòng dùng /\r?\n/, lý do xem phần đầu file check-refs.mjs.
 import { readFileSync, writeFileSync, readdirSync, existsSync, mkdtempSync, rmSync, statSync } from 'node:fs';
@@ -58,7 +58,7 @@ for (const f of bookFiles) {
     if (g) grade[g[1]]++;
     if (/^- Ghi chú:\s*tranh luận/i.test(line)) dispute++;
     if (/^- /.test(line) && /chưa kiểm chứng|chưa tra được|TODO/.test(line)) todo++;
-    if (/^- (Nguồn|Ghi chú):/.test(line)) links += (line.match(/https?:\/\//g) ?? []).length;
+    if (/^- (Nguồn|Ghi chú|Pháp luật Việt Nam):/.test(line)) links += (line.match(/https?:\/\//g) ?? []).length;
     const t = line.match(/<!--\s*nhãn:\s*tiền=(\S+)\s+thời-gian=(\S+)\s+ý-chí=(\S+)\s+lợi-ích=(\S+)\s+thước-đo=/);
     if (t) ratio[ratioOf(W.money[t[1]] + W.time[t[2]] + W.will[t[3]], t[4])]++;
     const w = line.match(/<!--\s*nhãn:.*\snhóm=(\S+)/);

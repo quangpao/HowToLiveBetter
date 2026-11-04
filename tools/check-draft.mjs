@@ -7,6 +7,7 @@ import { readFileSync } from 'node:fs';
 
 const LIMIT = 235;                 // "Nói dễ hiểu": số ký tự KHÔNG tính khoảng trắng
 const FIELDS = ['Chi phí', 'Nói dễ hiểu', 'Lợi ích', 'Mức bằng chứng', 'Nguồn', 'Ghi chú'];
+const OPTIONAL_FIELDS = ['Pháp luật Việt Nam']; // không bắt buộc với các mục không chứa quy định pháp luật
 const LABEL_OK = {
   'tiền': ['0', 'ít', 'nhiều'],
   'thời-gian': ['ít', 'vừa', 'nhiều'],
@@ -48,15 +49,23 @@ function checkBlock(block, problems, file) {
     else if (!v) add(`dòng "- ${f}:" để trống`);
   }
 
+  for (const f of OPTIONAL_FIELDS) {
+    const v = field(f);
+    if (v !== null) {
+      vals[f] = v;
+      if (!v) add(`dòng "- ${f}:" để trống`);
+    }
+  }
+
   if (vals['Mức bằng chứng'] && !/^[ABC]$/.test(vals['Mức bằng chứng'])) add(`Mức bằng chứng "${vals['Mức bằng chứng']}" phải là A, B hoặc C`);
 
   const plain = vals['Nói dễ hiểu'] || '';
   const len = norm(plain).length;
   if (len > LIMIT) add(`Nói dễ hiểu ${len} ký tự (không tính khoảng trắng) — quá ${len - LIMIT}`);
 
-  const allowed = nums((vals['Chi phí'] || '') + ' ' + (vals['Lợi ích'] || ''));
+  const allowed = nums((vals['Chi phí'] || '') + ' ' + (vals['Lợi ích'] || '') + ' ' + (vals['Pháp luật Việt Nam'] || ''));
   const missing = [...nums(plain)].filter(x => !allowed.has(x));
-  if (missing.length) add(`Nói dễ hiểu có số không xuất hiện ở Chi phí/Lợi ích: ${missing.join(', ')}`);
+  if (missing.length) add(`Nói dễ hiểu có số không xuất hiện ở Chi phí/Lợi ích/Pháp luật Việt Nam: ${missing.join(', ')}`);
 
   const src = vals['Nguồn'] || '';
   if (!/https?:\/\//.test(src)) add('Nguồn không có liên kết nào');
