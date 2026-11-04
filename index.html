@@ -221,6 +221,7 @@ html.dark .switch .sun{display:none} html.dark .switch .moon{display:block}
 .badge.r1{background:var(--gray-soft);color:var(--gray-1)}
 .badge.upd{background:none;box-shadow:inset 0 0 0 1px var(--brand-3);color:var(--brand-1);font-weight:500}
 .chips + .chips{margin-top:6px}
+.legal-filter-hint{font-size:12px;line-height:1.5;margin:8px 0 0;color:var(--t3)}
 .human{margin:0 0 14px;padding:10px 14px;border-left:2px solid var(--brand-1);background:var(--brand-soft);border-radius:0 6px 6px 0;font-size:15px;line-height:1.75;color:var(--t1);overflow-wrap:anywhere}
 .rows{display:grid;grid-template-columns:auto 1fr;gap:8px 16px;font-size:14px;line-height:1.75}
 .rows .k{color:var(--t3);font-weight:500;font-size:13px;line-height:1.75;padding-top:1px}
@@ -232,6 +233,14 @@ html.dark .switch .sun{display:none} html.dark .switch .moon{display:block}
 .rows .v ul.chunks li:last-child{margin-bottom:0}
 .rows .v ul.chunks li::before{content:"";position:absolute;left:2px;top:.75em;width:4px;height:4px;border-radius:50%;background:var(--t3)}
 .rows .v strong,.human strong,.intro strong,.src .body strong{font-weight:600;color:var(--t1)}
+.legal-detail{margin-top:14px;border:1px solid var(--divider);border-radius:8px;background:var(--bg-elv);padding:10px 14px}
+.legal-detail summary{cursor:pointer;list-style:none;font-weight:600;font-size:13px;color:var(--t1)}
+.legal-detail summary::-webkit-details-marker{display:none}
+.legal-detail summary::before{content:"▸";display:inline-block;margin-right:8px;color:var(--brand-1)}
+.legal-detail[open] summary::before{content:"▾"}
+.legal-detail .body{padding-top:10px;color:var(--t2);font-size:13px;line-height:1.75;overflow-wrap:anywhere}
+.legal-detail .body ul.chunks{margin:0;padding:0 0 0 18px}
+.legal-detail .body li{margin-bottom:6px}
 .src{margin-top:14px;border-top:1px solid var(--divider);padding-top:10px}
 .src summary{list-style:none;cursor:pointer;font-size:13px;font-weight:500;color:var(--t2);display:flex;align-items:center;gap:6px;user-select:none}
 .src summary::-webkit-details-marker{display:none}
@@ -401,6 +410,14 @@ abbr.term:hover{border-bottom-color:var(--brand-1);color:var(--brand-1)}
   </div>
 
   <div class="group">
+    <div class="gt">Pháp luật Việt Nam</div>
+    <div class="chips" data-dim="legal">
+      <button class="chip" data-v="1" aria-pressed="false">chỉ mục có dẫn quy định</button>
+    </div>
+    <p class="legal-filter-hint"><a href="https://github.com/quangpao/HowToLiveBetter/blob/vi/docs/phap-luat-viet-nam.md" target="_blank" rel="noopener">Cách tra và giới hạn bộ lọc</a></p>
+  </div>
+
+  <div class="group">
     <div class="gt">Chương</div>
     <div class="sec-links" id="f-sec" data-dim="sec"></div>
   </div>
@@ -487,6 +504,7 @@ abbr.term:hover{border-bottom-color:var(--brand-1);color:var(--brand-1)}
       <p>Nội dung trong sách có thể đã cũ và có thể sai. Nhiều chính sách mỗi địa phương áp dụng một khác. Khi thật sự đi làm thủ tục, đi khám, ra toà thì lấy lời cơ quan tại chỗ, bác sĩ và luật sư làm chuẩn. Thấy chỗ nào sai thì mở <a href="https://github.com/quangpao/HowToLiveBetter/issues">issue</a> giúp.</p>
       <div class="stat" aria-live="polite">Đang hiện <b id="cnt">–</b> mục, tổng <span id="tot">–</span> mục</div>
       <div class="doc-links" id="upd-line" hidden></div>
+      <div class="doc-links"><a href="?legal=1">Tra cứu pháp luật Việt Nam</a>: lọc các mục có dẫn văn bản pháp quy; mở “Pháp luật Việt Nam” trên các mục đã tách để xem chi tiết.</div>
       <div class="doc-links"><a href="selfcheck.html">Tự kiểm tra</a>: bộ câu hỏi có/không (65 câu, 7 nhóm) để xem việc nào bạn chưa làm; hiện phủ chương 1, 2 và 3, chương 4 sẽ bổ sung sau.</div>
       <div class="doc-links">Bài dài: 9 bài trong bản gốc tiếng Trung (việc nên làm khi thấy người lạ gặp nạn, danh mục trang bị ứng cứu gia đình, cưới có lợi không, mở nền tảng cần giấy phép gì, nhịp sinh học và ca đêm, bị sa thải thì làm gì trước, giấy tờ quanh việc sinh con, vừa chẩn đoán bệnh mạn tính, trước khi đổi việc đổi thành phố) — chưa dịch sang tiếng Việt.</div>
       <div class="doc-links">Trợ lý AI: dùng skill <code>life-decision-guide</code> trong repo (bản tiếng Việt) để Claude Code hoặc Codex trả lời theo cuốn sách này — cài một lần theo <a href="skills/life-decision-guide/README.md">hướng dẫn</a>, sau đó hỏi thẳng là skill tự kích hoạt.</div>
@@ -568,7 +586,7 @@ function parseReadme(md){
     if ((m = /^#{1,2} (\d+)\. (.+)$/.exec(line))) { flush(); sec = {n:m[1], title:m[2].trim(), intro:[], entries:[]}; sections.push(sec); continue; }
     if (/^#{1,2} /.test(line)) { flush(); sec = null; continue; }
     if (!sec) continue;
-    if ((m = /^### (\d+)\. (.+)$/.exec(line))) { flush(); entry = {sec:sec.n, n:m[1], title:m[2].trim(), cost:'', human:'', gain:'', grade:'', src:'', note:'', money:'', time:'', will:'', level:'', lens:'', who:[]}; continue; }
+    if ((m = /^### (\d+)\. (.+)$/.exec(line))) { flush(); entry = {sec:sec.n, n:m[1], title:m[2].trim(), cost:'', human:'', gain:'', grade:'', src:'', note:'', legal:'', money:'', time:'', will:'', level:'', lens:'', who:[]}; continue; }
     if ((m = /^\x3c!--\s*nhãn:\s*(.*?)\s*-->/.exec(line)) && entry){
       for (const kv of m[1].split(/\s+/)){ const [k,v] = kv.split('='); if(k==='tiền') entry.money=v; if(k==='thời-gian') entry.time=v; if(k==='ý-chí') entry.will=v; if(k==='lợi-ích') entry.level=v; if(k==='thước-đo') entry.lens=v; if(k==='nhóm') entry.who=v.split(',').map(g => g.split('+')); }
       continue;
@@ -577,7 +595,8 @@ function parseReadme(md){
       if ((m = /^- Chi phí:(.*)$/.exec(line))) entry.cost = m[1];
       else if ((m = /^- Nói dễ hiểu:(.*)$/.exec(line))) entry.human = m[1];
       else if ((m = /^- Lợi ích:(.*)$/.exec(line))) entry.gain = m[1];
-      else if ((m = /^- Mức bằng chứng:\s*([ABC])/.exec(line))) entry.grade = m[1];
+      else if ((m = /^- Pháp luật Việt Nam:(.*)$/.exec(line))) entry.legal = m[1];
+       else if ((m = /^- Mức bằng chứng:\s*([ABC])/.exec(line))) entry.grade = m[1];
       else if ((m = /^- Nguồn:(.*)$/.exec(line))) entry.src = m[1];
       else if ((m = /^- Ghi chú:(.*)$/.exec(line))) entry.note = m[1];
       continue;
@@ -586,12 +605,15 @@ function parseReadme(md){
   }
   flush();
   for (const s of sections) for (const e of s.entries){
+    // Dùng căn cứ có số hiệu ở Nguồn để vẫn tra được các mục chưa tách.
+    // Kết quả lọc không phải xác nhận văn bản còn hiệu lực.
+    e.isLegal = !!e.legal.trim() || /(?:Bộ luật|Luật|Nghị định|Thông tư|Nghị quyết)[^;\n]{0,120}\b\d{1,4}\/(?:19|20)\d{2}\b/i.test(e.src);
     e.dispute = /^tranh luận/i.test(e.note);
     e.todo = /chưa kiểm chứng|chưa tra được|TODO/.test(e.src + e.gain + e.note + e.cost);
     e.cs = (COST_W.money[e.money] ?? 0) + (COST_W.time[e.time] ?? 0) + (COST_W.will[e.will] ?? 0);
     e.ratio = e.level === 'lớn' ? (e.cs === 0 ? 'rất cao' : (e.cs <= 2 ? 'cao' : 'trung bình'))
             : e.level === 'vừa' ? (e.cs === 0 ? 'cao' : 'trung bình') : 'trung bình';
-    e.hay = [e.title, e.human, e.cost, e.gain, e.note, e.src, e.grade].join('\n').replace(/\*\*/g, '').replace(/\\([*_])/g, '$1').toLowerCase();
+    e.hay = [e.title, e.human, e.cost, e.gain, e.legal, e.note, e.src, e.grade].join('\n').replace(/\*\*/g, '').replace(/\\([*_])/g, '$1').toLowerCase();
   }
   return sections;
 }
@@ -1171,6 +1193,7 @@ function build(sections){
           <div class="k">Lợi ích</div><div class="v gain"></div>
           <div class="k">Ghi chú</div><div class="v note"></div>
         </div>
+        <details class="legal-detail" hidden><summary>Pháp luật Việt Nam (xem quy định chi tiết)</summary><div class="body"></div></details>
         <details class="src"><summary>Nguồn<span class="cnt"></span></summary><div class="body"></div></details>`;
       const badges = c.querySelector('.badges');
       const add = (cls, text) => { const t=document.createElement('span'); t.className='badge '+cls; t.textContent=text; badges.appendChild(t); };
@@ -1191,7 +1214,7 @@ function build(sections){
         if (e.upd.fields) badges.lastChild.title = 'lần này sửa: ' + e.upd.fields.join(', ');
       }
       block.appendChild(c);
-      const card = {e, el:c, key:null, vis:false, f:{t:c.querySelector('.t'), cost:c.querySelector('.cost'), human:c.querySelector('.human'), gain:c.querySelector('.gain'), note:c.querySelector('.note'), src:c.querySelector('.src .body'), srcN:c.querySelector('.src summary .cnt'), details:c.querySelector('.src')}};
+      const card = {e, el:c, key:null, vis:false, f:{t:c.querySelector('.t'), cost:c.querySelector('.cost'), human:c.querySelector('.human'), gain:c.querySelector('.gain'), note:c.querySelector('.note'), legal:c.querySelector('.legal-detail .body'), legalDetails:c.querySelector('.legal-detail'), src:c.querySelector('.src .body'), srcN:c.querySelector('.src summary .cnt'), details:c.querySelector('.src')}};
       renderCard(card, [], '');
       CARDS.push(card); CARD_OF.set(c, card); CARD_IO.observe(c);
     }
@@ -1211,7 +1234,7 @@ function buildGlossary(){
 }
 
 /* ---------- Trạng thái bộ lọc ---------- */
-const DIMS = ['sec','ratio','lens','grade','money','time','will','who','upd','days'];
+const DIMS = ['legal','sec','ratio','lens','grade','money','time','will','who','upd','days'];
 /* Cập nhật gần đây: updates.json do tools/updates.mjs sinh từ lịch sử git, ghi điều nào thêm ngày nào, nội dung sửa ngày nào（chỉ đổi cách nói thì không tính） */
 let UPD = {};
 const TODAY = Date.parse(new Intl.DateTimeFormat('sv-SE').format(new Date()));
@@ -1245,7 +1268,7 @@ function fitsMe(e){
   const has = v => state.who.has(v) || (v === '45-tuổi' && state.who.has('65-tuổi'));
   return e.who.some(g => g.every(has));
 }
-const state = { q:'', sec:new Set(), ratio:new Set(), lens:new Set(), grade:new Set(), money:new Set(), time:new Set(), will:new Set(), who:new Set(), upd:new Set(), days:new Set(), dispute:false, todo:false };
+const state = { q:'', legal:new Set(), sec:new Set(), ratio:new Set(), lens:new Set(), grade:new Set(), money:new Set(), time:new Set(), will:new Set(), who:new Set(), upd:new Set(), days:new Set(), dispute:false, todo:false };
 function readUrl(){
   const p = new URLSearchParams(location.search);
   state.q = p.get('q') || '';
@@ -1281,9 +1304,14 @@ function renderCard(card, terms, key){
   if (e.human) renderText(f.human, e.human, terms);
   renderGain(f.gain, e.gain, terms);
   renderGain(f.note, e.note, terms);
+  f.legalDetails.hidden = !e.legal;
+  if (e.legal) {
+    renderGain(f.legal, e.legal, terms);
+    if (terms.some(t => e.legal.toLowerCase().includes(t))) f.legalDetails.open = true;
+  }
   const nSrc = renderSrc(f.src, e.src, terms);
   f.srcN.textContent = nSrc > 1 ? ` · ${nSrc} nguồn` : '';
-  const inBody = (e.title+e.human+e.cost+e.gain+e.note).toLowerCase();
+  const inBody = (e.title+e.human+e.cost+e.gain+e.legal+e.note).toLowerCase();
   f.details.open = terms.length > 0 && terms.some(t => e.src.toLowerCase().includes(t)) && !terms.some(t => inBody.includes(t));
   card.key = key;
   markVN(card.el);
@@ -1297,6 +1325,7 @@ function apply(){
   for (const card of CARDS){
     const {e, el} = card;
     let ok = true;
+    if (state.legal.size && !e.isLegal) ok = false;
     if (state.ratio.size && !state.ratio.has(e.ratio)) ok = false;
     if (ok && state.lens.size && !state.lens.has(e.lens)) ok = false;
     if (ok && state.grade.size && !state.grade.has(e.grade)) ok = false;

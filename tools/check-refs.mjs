@@ -21,10 +21,10 @@ const CHECK_ONLY = process.argv.includes('--check');
 
 // Tham chiếu trần trong chương ("xem mục 8") chỉ tìm trong mấy cột này: "mục N" ở cột nguồn gần như đều là
 // số điều khoản luật, quét vào toàn báo nhầm.
-const FIELDS = /^- (Nói dễ hiểu|Lợi ích|Ghi chú|Chi phí):/;
+const FIELDS = /^- (Nói dễ hiểu|Lợi ích|Ghi chú|Chi phí|Pháp luật Việt Nam):/;
 // Nhưng tham chiếu chéo có số chương ("xem chương 11 mục 16") không lẫn với điều luật, cột nguồn cũng có, quét luôn.
 // Chỗ "lưu nhật ký xem chương 11 mục 16" ở mục 103 của book/26 viết ngay trong cột nguồn, suýt bị bỏ sót.
-const CROSS_FIELDS = /^- (Nói dễ hiểu|Lợi ích|Ghi chú|Chi phí|Nguồn):/;
+const CROSS_FIELDS = /^- (Nói dễ hiểu|Lợi ích|Ghi chú|Chi phí|Pháp luật Việt Nam|Nguồn):/;
 
 // Chỉ quét chương bản Việt; chương tiếng Trung còn trong book/ để tham chiếu, không tính vào bảng này.
 const isVi = f => readFileSync(resolve(ROOT, 'book', f), 'utf8').includes('- Chi phí:');

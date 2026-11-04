@@ -88,7 +88,7 @@ const safe = s => s.replace(/^(\d+)([.)])(\s)/, '$1\\$2$3');
 // Cho EPUB và PDF: viết lại trường dài thành "- Lợi ích:" cộng một tầng danh sách con
 export function splitLongItems(md) {
   return md.split('\n').map(line => {
-    const m = line.match(/^(\s*)- (Lợi ích|Ghi chú|Nguồn):(.*)$/);
+    const m = line.match(/^(\s*)- (Lợi ích|Ghi chú|Pháp luật Việt Nam|Nguồn):(.*)$/);
     if (!m) return line;
     const [, indent, label, body] = m;
     const chunks = label === 'Nguồn' ? splitSrc(body) : splitGain(body);

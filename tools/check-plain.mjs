@@ -79,7 +79,7 @@ for (const f of files) {
     const jar = JARGON.filter(([re]) => re.test(plain)).map(([re, name]) => `${name}「${plain.match(re)[0]}」`);
     if (jar.length) { problems.push(...jar); count['thuật ngữ']++; }
     if (NUMBERS) {
-      const pool = numbers([title, fields['Chi phí'] ?? '', fields['Lợi ích'] ?? ''].join(' '));
+      const pool = numbers([title, fields['Chi phí'] ?? '', fields['Lợi ích'] ?? '', fields['Pháp luật Việt Nam'] ?? ''].join(' '));
       const isPhone = n => [111, 112, 113, 114, 115].includes(n) || String(n).startsWith('1900') || /^0\d{9,10}$/.test(String(n));
       // Số nằm giữa hai mốc đã nêu ở Chi phí/Lợi ích ("250.000 đến 400.000") coi như suy ra được
       const sorted = [...pool].sort((a, b) => a - b);
@@ -94,7 +94,7 @@ for (const f of files) {
   for (const line of lines) {
     const h = line.match(/^### (\d+)\. (.*)$/);
     if (h) { flush(); no = Number(h[1]); title = h[2]; fields = {}; continue; }
-    const m = line.match(/^- (Nói dễ hiểu|Chi phí|Lợi ích):(.*)$/);
+    const m = line.match(/^- (Nói dễ hiểu|Chi phí|Lợi ích|Pháp luật Việt Nam):(.*)$/);
     if (m && no) fields[m[1]] = m[2];
   }
   flush();
