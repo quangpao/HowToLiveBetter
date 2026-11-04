@@ -6,7 +6,7 @@ import { resolve, dirname, posix } from 'node:path';
 import { zip } from '../lib/zip.mjs';
 import { Marked, Tokenizer } from 'marked';
 import { splitLongItems } from '../lib/split-items.mjs';
-import { ROOT, REPO, SITE, TITLE, read, readBook, gitCommit, buildStamp, stripBackLink } from '../lib/book.mjs';
+import { ROOT, REPO, REPO_BRANCH, SITE, TITLE, read, readBook, gitCommit, buildStamp, stripBackLink } from '../lib/book.mjs';
 
 const OUT = resolve(ROOT, process.argv[2] ?? 'dist/HowToLiveBetter.epub');
 const RELEASE = `${REPO}/releases/download/epub-latest/HowToLiveBetter.epub`;
@@ -90,7 +90,7 @@ function rewriteHref(href) {
   const page = pageByPath.get(target);
   if (page) return hash ? `${page}#${hash}` : page;
   const kind = target.endsWith('/') ? 'tree' : 'blob';
-  return `${REPO}/${kind}/main/${target}`;
+  return `${REPO}/${kind}/${REPO_BRANCH}/${target}`;
 }
 
 function toXhtml(body) {

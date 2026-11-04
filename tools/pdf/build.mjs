@@ -6,7 +6,7 @@
 import { writeFileSync, mkdirSync, statSync } from 'node:fs';
 import { resolve, dirname, posix, basename } from 'node:path';
 import { execFileSync } from 'node:child_process';
-import { ROOT, REPO, SITE, TITLE, README_FILE, read, readBook, gitCommit, buildStamp, stripBackLink } from '../lib/book.mjs';
+import { ROOT, REPO, REPO_BRANCH, SITE, TITLE, README_FILE, read, readBook, gitCommit, buildStamp, stripBackLink } from '../lib/book.mjs';
 import { splitLongItems } from '../lib/split-items.mjs';
 
 const OUT = resolve(ROOT, process.argv[2] ?? 'dist/HowToLiveBetter.pdf');
@@ -50,13 +50,13 @@ function rewriteLinks(md, src) {
   return md.replace(/\]\(([^)\s]+)(\s+"[^"]*")?\)/g, (all, href, title) => {
     if (/^(https?:|mailto:)/.test(href)) return all;
     // Neo trỏ tới mục của chính README (kiểu #mục-lục) không chắc có trong sách, nên trỏ về README trên GitHub
-    if (href.startsWith('#')) return `](${REPO}/blob/main/README.md${href}${title ?? ''})`;
+    if (href.startsWith('#')) return `](${REPO}/blob/${REPO_BRANCH}/README.md${href}${title ?? ''})`;
     const [path] = href.split('#');
     const target = posix.normalize(posix.join(posix.dirname(src), path));
     const anchor = anchorOf.get(target);
     if (anchor) return `](#${anchor}${title ?? ''})`;
     const kind = target.endsWith('/') ? 'tree' : 'blob';
-    return `](${REPO}/${kind}/main/${target}${title ?? ''})`;
+    return `](${REPO}/${kind}/${REPO_BRANCH}/${target}${title ?? ''})`;
   });
 }
 
