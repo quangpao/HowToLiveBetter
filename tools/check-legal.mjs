@@ -1,10 +1,13 @@
-// CI: kiểm tính toàn vẹn của trường Pháp luật Việt Nam, không thay việc kiểm chứng luật.
+// CI: kiểm cấu trúc trường Pháp luật Việt Nam. Có số hiệu văn bản trong Nguồn chỉ là proxy:
+// không chứng minh rằng điều khoản được dẫn có hiệu lực hoặc thật sự hỗ trợ kết luận của mục.
 import { readFileSync, readdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 const dir = resolve('book');
 let total = 0; const errors = [];
 for (const file of readdirSync(dir).filter(x => /^\d\d-.*\.md$/.test(x))) {
   const content = readFileSync(resolve(dir, file), 'utf8');
+  // Cùng tiêu chí isVi của check-refs.mjs/sync-stats.mjs: không quét bản tiếng Trung.
+  if (!content.includes('- Chi phí:')) continue;
   for (const part of content.split(/(?=^### \d+\. )/m).slice(1)) {
     const head = part.match(/^### \d+\. [^\n]*/)?.[0] || '(unknown)';
     const legal = [...part.matchAll(/^- Pháp luật Việt Nam:(.*)$/gm)];

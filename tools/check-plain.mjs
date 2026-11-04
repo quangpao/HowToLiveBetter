@@ -85,7 +85,7 @@ for (const f of files) {
       const sorted = [...pool].sort((a, b) => a - b);
       const inRange = n => sorted.some((a, i) => { const b = sorted[i + 1]; return b !== undefined && b / a > 1.2 && n > a && n < b; });
       const fresh = [...new Set(numbers(plain))].filter(n => !isPhone(n) && !inRange(n) && !pool.some(p => derived(n, p)));
-      if (fresh.length) { problems.push(`số không có trong Chi phí/Lợi ích: ${fresh.join(', ')}`); count['số mới']++; }
+      if (fresh.length) { problems.push(`số không có trong Chi phí/Lợi ích/Pháp luật Việt Nam: ${fresh.join(', ')}`); count['số mới']++; }
     }
     const vague = VAGUE.filter(w => plain.includes(w));
     if (vague.length) { problems.push(`cách nói trừu tượng "${vague.join('", "')}"`); count['trừu tượng']++; }
