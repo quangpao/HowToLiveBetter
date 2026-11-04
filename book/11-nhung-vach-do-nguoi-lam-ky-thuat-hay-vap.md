@@ -1,6 +1,6 @@
 [← Về mục lục](../README.md)
 
-# 11. Những vạch đỏ mà người làm kỹ thuật hay vấp
+# 11. Những lằn ranh đỏ mà người làm kỹ thuật hay vấp
 
 Chương này nói về một nhóm người khác với các chương trước: người viết code, làm hệ thống, nhận việc qua mạng. Cái đáng lo không phải là làm sai kỹ thuật, mà là **làm đúng kỹ thuật nhưng sai pháp luật**: một đoạn script chạy được, một job cào dữ liệu chạy được, một bản build cài được — tất cả đều có thể biến thành chứng cứ.
 

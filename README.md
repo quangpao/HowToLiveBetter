@@ -33,7 +33,7 @@ Không cần làm hết: đây là danh sách để chọn, không phải danh s
 </td></tr>
 <tr><td align="right"><b>Tự kiểm</b></td><td align="left">
 
-[Việc nào mình đã làm rồi](https://quangpao.github.io/HowToLiveBetter/selfcheck.html): trả lời vài chục câu có/không, xem còn thiếu việc nào và nên làm việc nào trước
+[Việc nào bạn đã làm?](https://quangpao.github.io/HowToLiveBetter/selfcheck.html): trả lời vài chục câu có/không, xem còn thiếu việc nào và nên làm việc nào trước
 
 </td></tr>
 <tr><td align="right"><b>Bài dài</b></td><td align="left">
@@ -59,7 +59,7 @@ Không cần làm hết: đây là danh sách để chọn, không phải danh s
 | Câu hỏi | Xem ở đâu |
 | --- | --- |
 | Việc gần như không tốn tiền mà giảm rõ rệt nguy cơ chết sớm là những việc nào? | [1. Đừng chết sớm](book/01-dung-chet-som.md) |
-| Hút thuốc, uống rượu, ngồi nhiều, thức khuya rút ngắn đời bao nhiêu; cai thuốc cai rượu làm thế nào; chọn và dùng dầu ăn ra sao? | [2. Đừng chết dần](book/02-dung-chet-dan.md) |
+| Hút thuốc, uống rượu, ngồi nhiều, thức khuya rút ngắn đời bao nhiêu; cai thuốc cai rượu làm thế nào; chọn và dùng dầu ăn ra sao? | [2. Đừng để bản thân chết mòn](book/02-dung-chet-dan.md) |
 | Ngày nào cũng hết sức, lúc nào cũng bị ngắt ngang, sửa thế nào? | [3. Đừng lãng phí sức lực](book/03-dung-lang-phi-suc-luc.md) |
 | Việc gì cũng dồn tới hạn mới làm, họp thì dài mà chẳng xong việc, sửa thế nào? | [4. Đừng lãng phí thời gian](book/04-dung-lang-phi-thoi-gian.md) |
 | Tiền tiết kiệm để đâu cho khỏi bị lãi suất, phí và trò lừa ăn mất; mua xe sao cho khỏi bị hớ? | [5. Đừng lãng phí tiền](book/05-dung-lang-phi-tien.md) |
@@ -68,7 +68,7 @@ Không cần làm hết: đây là danh sách để chọn, không phải danh s
 | Tiền cọc, nhà trước hôn nhân, chuyển khoản lớn khi đang yêu là của ai; bị tố giác hay bị vu khống thì làm gì trước? | [8. Đừng tự chuốc hoạ vào thân: pháp luật và tài sản](book/08-dung-tu-chuoc-hoa-vao-than.md) |
 | Việc làm thêm nào, việc tưởng vô hại nào biến người thường thành bị cáo? | [9. Ranh giới pháp luật người thường dễ vấp](book/09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md). Bài dài xem [hướng dẫn pháp luật Việt Nam](docs/phap-luat-viet-nam.md). |
 | Nên theo đuổi một người hay quen nhiều người; yêu xa có thành không; đăng ký kết hôn cần gì; chỉ làm đám cưới mà không đăng ký thì có phải vợ chồng? | [10. Yêu và kết hôn có đáng không](book/10-yeu-va-ket-hon-co-dang-khong.md) |
-| Viết code nào, nhận việc nào thì bị truy tố? | [11. Những vạch đỏ mà người làm kỹ thuật hay vấp](book/11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md) |
+| Viết code nào, nhận việc nào thì bị truy tố? | [11. Những lằn ranh đỏ mà người làm kỹ thuật hay vấp](book/11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md) |
 | Vay tiền mở shop, mở công ty: nghĩ gì trước tiên, đóng cửa thì mất gì? | [12. Kinh doanh nhỏ: mở, vận hành, đóng cho đúng luật](book/12-kinh-doanh-nho-mo-van-hanh-dong.md) |
 | Có người ngã xuống không thở, chảy máu nhiều, cháy, lạc đường: làm gì trước? | [13. Cấp cứu: những phút quyết định](book/13-cap-cuu-nhung-phut-quyet-dinh.md) |
 | Mất tài khoản, mất điện thoại: làm gì trước? | [14. Những tài khoản và dữ liệu của bạn](book/14-nhung-tai-khoan-va-du-lieu-cua-ban.md) |
@@ -91,7 +91,7 @@ Không cần làm hết: đây là danh sách để chọn, không phải danh s
 | Sau 18 tuổi, ngoài học đại học và đi làm còn đường nào, mỗi đường cần gì? | [31. Sau 18 tuổi có mấy đường](book/31-sau-18-tuoi-co-may-duong.md) |
 | Du học: thân phận, việc làm thêm, bảo hiểm và công nhận bằng khi về nước? | [32. Đi du học](book/32-di-du-hoc.md) |
 | Bản thân hay người nhà bị khuyết tật: phòng biến chứng gì, nhận trợ cấp nào, học hành và giám hộ ra sao? | [33. Sau khi khuyết tật](book/33-sau-khi-khuyet-tat.md) |
-| Thuốc cảm, thuốc hạ sốt, thuốc dạ dày mua về tự uống: loại nào không được uống chung, trẻ con và bà bầu phải tránh gì? | [34. Thuốc trong nhà đừng để ăn hại](book/34-thuoc-trong-nha.md) |
+| Thuốc cảm, thuốc hạ sốt, thuốc dạ dày mua về tự uống: loại nào không được uống chung, trẻ con và bà bầu phải tránh gì? | [34. Thuốc trong nhà: đừng để phản tác dụng](book/34-thuoc-trong-nha.md) |
 
 **Bài dài xem thêm:** [Pháp luật Việt Nam — tra cứu theo vấn đề](docs/phap-luat-viet-nam.md), tổng hợp các điểm cần đọc, cách tra cứu nguồn và giới hạn khi áp dụng quy định.
 
@@ -199,7 +199,7 @@ Phần thân bài viết bằng lời thường, nhưng khi dẫn nghiên cứu 
 ## Mục lục
 
 1. [Đừng chết sớm](book/01-dung-chet-som.md) — 48 mục: tai nạn ngoài đường, lửa và gas trong nhà, đuối nước, ngã, ngộ độc, vắc-xin và xét nghiệm sàng lọc có bằng chứng cứng nhất, phòng tự tử, những dấu hiệu thấy là phải đi khám. Đổi lấy: mạng sống hoặc một nguyên nhân tử vong cụ thể.
-2. [Đừng chết dần](book/02-dung-chet-dan.md) — 47 mục: thuốc lá, rượu bia và trầu cau, chế độ ăn, vận động, giấc ngủ — những thứ giết từ từ, kèm cách đổi cụ thể như cai thuốc bằng thuốc hỗ trợ, đặt ngày cai, phòng tư vấn cai thuốc lá. Đổi lấy: mạng sống hoặc một nguyên nhân tử vong cụ thể.
+2. [Đừng để bản thân chết mòn](book/02-dung-chet-dan.md) — 47 mục: thuốc lá, rượu bia và trầu cau, chế độ ăn, vận động, giấc ngủ — những thứ giết từ từ, kèm cách đổi cụ thể như cai thuốc bằng thuốc hỗ trợ, đặt ngày cai, phòng tư vấn cai thuốc lá. Đổi lấy: mạng sống hoặc một nguyên nhân tử vong cụ thể.
 3. [Đừng lãng phí sức lực](book/03-dung-lang-phi-suc-luc.md) — 27 mục: tắt thông báo, giữ giờ thức cố định, chặn ngắt ngang, nói "không", bớt đòi hỏi hoàn hảo, đau kinh, mất ngủ, ngưng thở khi ngủ. Đổi lấy: sức chú ý và thời gian dùng được trong ngày.
 4. [Đừng lãng phí thời gian](book/04-dung-lang-phi-thoi-gian.md) — 18 mục: viết "định làm" thành giờ và địa điểm, viết sẵn điều kiện dừng, chỉ tính phần còn lại, ước theo việc đã làm thật, họp đứng và cắt họp, chia bước nhỏ, đặt tiền cược, thói quen tính theo tháng, giới hạn cứng cho video ngắn, và chọn chỗ ở theo thời gian đi làm. Đổi lấy: số giờ lấy lại được mỗi tuần và tỉ lệ làm xong đúng hạn.
 5. [Đừng lãng phí tiền](book/05-dung-lang-phi-tien.md) — 51 mục: tắt gia hạn tự động và đòi quyền huỷ dịch vụ liên tục (Luật 19/2023/QH15), quyết toán thuế, quỹ nhà ở không có ở VN thì vay ưu đãi, bảo hiểm mua đúng loại, và danh sách bẫy giá từ gói cước tới mua xe. Đổi lấy: số tiền đang rò ra mỗi tháng.
@@ -208,7 +208,7 @@ Phần thân bài viết bằng lời thường, nhưng khi dẫn nghiên cứu 
 8. [Đừng tự chuốc hoạ vào thân](book/08-dung-tu-chuoc-hoa-vao-than.md) — 46 mục: tai nạn, lừa đảo, bị buộc tội, chữ ký và giấy vay, hôn nhân và tài sản, chứng cứ và bạo lực gia đình. Đổi lấy: tiền và tự do.
 9. [Ranh giới pháp luật người thường dễ vấp](book/09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md) — 29 mục: tin giả và phát tán, nhận tiền hộ, vay giả, drone và quay lén, cờ bạc, động vật hoang dã, đòi nợ, giấy tờ, bản quyền, thi hộ. Đổi lấy: tự do và tiền.
 10. [Yêu và kết hôn có đáng không](book/10-yeu-va-ket-hon-co-dang-khong.md) — 23 mục: tìm hiểu, đánh giá quan hệ, sức khoẻ và thời gian, tiền và nợ, đăng ký kết hôn, người cùng giới, ly hôn và cấp dưỡng. Đổi lấy: thời gian và tiền.
-11. [Những vạch đỏ mà người làm kỹ thuật hay vấp](book/11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md) — 21 mục: nhận việc, cheat và bot, script săn sale, crawler, app cờ bạc, nghỉ việc, bí mật kinh doanh, bản quyền, dữ liệu cá nhân, giấy phép, AI, DDoS. Đổi lấy: tự do nghề nghiệp.
+11. [Những lằn ranh đỏ mà người làm kỹ thuật hay vấp](book/11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md) — 21 mục: nhận việc, cheat và bot, script săn sale, crawler, app cờ bạc, nghỉ việc, bí mật kinh doanh, bản quyền, dữ liệu cá nhân, giấy phép, AI, DDoS. Đổi lấy: tự do nghề nghiệp.
 12. [Kinh doanh nhỏ: mở, vận hành, đóng cho đúng luật](book/12-kinh-doanh-nho-mo-van-hanh-dong.md) — 28 mục: tiền bỏ vào và hình thức đứng tên, đứng tên hộ, nhượng quyền, giấy phép con, an toàn thực phẩm, nhãn hàng, thuế và hoá đơn, hợp đồng, người làm, nguồn hàng, giải thể và phá sản, gọi vốn, mặt bằng. Đổi lấy: tài sản gia đình.
 13. [Cấp cứu: những phút quyết định](book/13-cap-cuu-nhung-phut-quyet-dinh.md) — 48 mục: ngừng tim, đột quỵ, đau ngực, chảy máu, bỏng, ngộ độc, phản vệ, co giật, ngộ độc khí CO, cháy nhà, đuối nước, hóc dị vật, lạc rừng, rắn cắn, động đất, thú rừng, sét, độ cao, ve, bị đe doạ, phơi nhiễm HIV, gãy xương, xâm hại, trẻ nhỏ, đứt lìa, răng
 14. [Những tài khoản và dữ liệu của bạn](book/14-nhung-tai-khoan-va-du-lieu-cua-ban.md) — 12 mục: xác thực hai lớp, mật khẩu hộp thư, khoá máy và mã PIN SIM, mất điện thoại, thẻ bị trừ tiền, thiết bị đăng nhập lạ, nút "đồng ý tất cả", quyền xem — sửa — xoá dữ liệu, xác thực khuôn mặt khi chuyển tiền, dán mã nguồn cho dịch vụ AI, thuê bao đứng tên, đổi số điện thoại
@@ -231,7 +231,7 @@ Phần thân bài viết bằng lời thường, nhưng khi dẫn nghiên cứu 
 31. [Sau 18 tuổi có mấy đường](book/31-sau-18-tuoi-co-may-duong.md) — 17 mục: bảy con đường và ngưỡng đầu vào, đăng ký nghĩa vụ quân sự, trốn nghĩa vụ, sinh viên đi nghĩa vụ, ngày xuất ngũ, ba khoản tiền, bốn cửa vào khu vực nhà nước, dạy ở xã khó khăn, công an và quân đội, học lại sau 18, bảo hiểm xã hội tự nguyện, chạy xe công nghệ, học bổng có ràng buộc, đi làm việc ở nước ngoài, nhận lương nước ngoài, vay vốn, chuyện còn là sinh viên mới
 32. [Đi du học](book/32-di-du-hoc.md) — 12 mục: kiểm trước khi đóng tiền, visa F-1 đang giữ tạm, giới hạn giờ làm thêm bốn nước, giảm môn và chuyển trường, báo đổi địa chỉ ở Mỹ, ba cửa cảnh báo, bảo hiểm y tế của visa Úc, phụ phí y tế của visa Anh, công nhận văn bằng sau khi về, tra tên trường, OPT của Mỹ, thư PAL/TAL của Canada
 33. [Sau khi khuyết tật](book/33-sau-khi-khuyet-tat.md) — 21 mục: cơn rối loạn thần kinh thực vật, nguy cơ tự tử mười năm đầu, bắt buộc chữa bệnh, sức khoẻ người chăm, loét do tì đè, đừng mua liệu pháp chữa khỏi, giấy xác nhận khuyết tật, trẻ khuyết tật, sửa nhà, doanh nghiệp nhận người khuyết tật, thuế, chó dẫn đường và vé, thi đại học, nhập học, giấy phép lái xe, phục hồi chức năng, máy trợ thính, mất năng lực hành vi dân sự, người giám hộ, kiện vì bị phân biệt đối xử, bàng quang thần kinh
-34. [Thuốc trong nhà đừng để ăn hại](book/34-thuoc-trong-nha.md) — 13 mục: trùng hoạt chất trong thuốc cảm, trẻ sốt và ba thuốc phải tránh, người trên 60 và người đang uống kháng đông, trẻ dưới 2 tuổi, mang thai từ tuần 20, omeprazol tự mua, cảm thường không cần kháng sinh, oresol pha đúng, đau đầu do lạm dụng giảm đau, thuốc hết hạn, rượu với kháng sinh, thuốc dị ứng và việc lái xe, bưởi với thuốc hạ mỡ
+34. [Thuốc trong nhà: đừng để phản tác dụng](book/34-thuoc-trong-nha.md) — 13 mục: trùng hoạt chất trong thuốc cảm, trẻ sốt và ba thuốc phải tránh, người trên 60 và người đang uống kháng đông, trẻ dưới 2 tuổi, mang thai từ tuần 20, omeprazol tự mua, cảm thường không cần kháng sinh, oresol pha đúng, đau đầu do lạm dụng giảm đau, thuốc hết hạn, rượu với kháng sinh, thuốc dị ứng và việc lái xe, bưởi với thuốc hạ mỡ
 
 Đã đủ **34 chương, 767 mục**, cùng số chương và số mục với bản gốc. Số mục của từng chương khác bản gốc vì nội dung được biên soạn lại theo luật Việt Nam: có mục bản gốc có mà ở đây không áp dụng được, có mục phải thêm. Danh sách chương và nội dung từng chương của bản gốc nằm trong [README.cn.md](README.cn.md).
 

@@ -1,6 +1,6 @@
 # Pháp luật Việt Nam: tra cứu theo vấn đề
 
-Khi cần biết một quy định áp dụng ra sao, hãy bắt đầu từ việc mình đang gặp, không cần học tên luật trước. [Mở chế độ tra cứu pháp luật](https://quangpao.github.io/HowToLiveBetter/?legal=1).
+Khi cần biết một quy định áp dụng ra sao, hãy bắt đầu từ tình huống bạn đang gặp, không cần học tên luật trước. [Mở chế độ tra cứu pháp luật](https://quangpao.github.io/HowToLiveBetter/?legal=1).
 
 - **Lương, nghỉ việc, bảo hiểm xã hội:** [chương 19](../book/19-dang-lam-nghi-viec-va-tai-nan-lao-dong.md), [chương 7](../book/07-khong-co-tien-thi-song-the-nao.md).
 - **Nợ, tài sản, lừa đảo và quyền tự bảo vệ:** [chương 8](../book/08-dung-tu-chuoc-hoa-vao-than.md), [chương 9](../book/09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md).

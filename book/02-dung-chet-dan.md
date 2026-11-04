@@ -1,6 +1,6 @@
 [← Về mục lục](../README.md)
 
-# 2. Đừng chết dần
+# 2. Đừng để bản thân chết mòn
 
 Chương này chỉ gồm hai loại rủi ro mạn tính: loại ảnh hưởng mạnh tới tỷ lệ tử vong chung, và loại có bằng chứng cứng. Mục nào có thử nghiệm chia nhóm ngẫu nhiên thì ghi rõ "thử nghiệm ngẫu nhiên" — kết quả loại đó đáng tin nhất. Các số còn lại đến từ nghiên cứu chỉ theo dõi, không chia nhóm; trong đó người ta vốn đã khác nhau từ trước (có khi đã ốm rồi mới bỏ thuốc), nên những tỷ số nguy cơ kiểu HR, RR chỉ cho biết hướng và độ lớn tương đối, không có nghĩa làm theo là giảm được đúng chừng ấy.
 
