@@ -23,6 +23,56 @@ Mục đích: ghi lại trạng thái biên tập qua **từng chương/từng c
 | 06 | Đã tách 2/35 mục; còn rà soát bổ sung | 06-10, 06-11; commit b0fa891. 06-18 (nghĩa vụ khám sức khỏe định kỳ) và 06-29 (nghĩa vụ huấn luyện lao động) cần nguồn luật tương ứng trước khi tách. 06-31 trích nghiên cứu AI về luật ở Mỹ, không phải quy định luật Việt Nam. |
 | 07–34 | Chưa rà soát và chuyển đầy đủ | Tiếp tục **từ chương 07**. Chương 07 có nhiều mục trực tiếp về quyền lợi, nghĩa vụ và thời hạn; xử lý từng mục, tránh thay cả chương bằng một phép biến đổi máy móc. |
 
+## Trạng thái hoàn tất rà soát cấu trúc — 04/11/2026
+
+Đã rà soát **34/34 chương tiếng Việt, 767/767 mục**, và tách **460 mục** có phần liên quan tới quy định pháp luật Việt Nam sang trường tùy chọn `Pháp luật Việt Nam`. Chương 04 không có đoạn pháp luật Việt Nam đủ rõ để thêm trường. Việc **hoàn tất phân loại và tách cấu trúc** không có nghĩa là đã thẩm định lại độc lập hiệu lực của mọi văn bản hoặc từng kết luận y tế.
+
+| Chương | Số mục có trường pháp luật / tổng số mục | Ghi chú |
+|---|---:|---|
+| 01 | 13/48 | Đã rà soát và tách khi có căn cứ |
+| 02 | 3/47 | Đã rà soát và tách khi có căn cứ |
+| 03 | 3/27 | Đã rà soát và tách khi có căn cứ |
+| 04 | 0/18 | Đã rà soát, không cần tách |
+| 05 | 43/51 | Đã chuyển theo nhiều commit nhỏ |
+| 06 | 2/35 | Giữ các mục thiếu nguồn pháp luật để kiểm chứng |
+| 07 | 21/23 | Đã rà soát và tách khi có căn cứ |
+| 08 | 46/46 | Đã rà soát và tách khi có căn cứ |
+| 09 | 29/29 | Đã rà soát và tách khi có căn cứ |
+| 10 | 16/23 | Đã rà soát và tách khi có căn cứ |
+| 11 | 21/21 | Đã rà soát và tách khi có căn cứ |
+| 12 | 28/28 | Đã rà soát và tách khi có căn cứ |
+| 13 | 6/48 | Đã rà soát và tách khi có căn cứ |
+| 14 | 12/12 | Đã rà soát và tách khi có căn cứ |
+| 15 | 18/18 | Đã rà soát và tách khi có căn cứ |
+| 16 | 8/14 | Đã rà soát và tách khi có căn cứ |
+| 17 | 10/13 | Đã rà soát và tách khi có căn cứ |
+| 18 | 7/7 | Đã rà soát và tách khi có căn cứ |
+| 19 | 24/24 | Đã rà soát và tách khi có căn cứ |
+| 20 | 5/17 | Đã rà soát và tách khi có căn cứ |
+| 21 | 11/13 | Đã rà soát và tách khi có căn cứ |
+| 22 | 6/12 | Đã rà soát và tách khi có căn cứ |
+| 23 | 13/25 | Đã rà soát và tách khi có căn cứ |
+| 24 | 15/15 | Đã rà soát và tách khi có căn cứ |
+| 25 | 12/12 | Đã rà soát và tách khi có căn cứ |
+| 26 | 13/13 | Đã rà soát và tách khi có căn cứ |
+| 27 | 8/20 | Đã rà soát và tách khi có căn cứ |
+| 28 | 8/10 | Đã rà soát và tách khi có căn cứ |
+| 29 | 9/14 | Đã rà soát và tách khi có căn cứ |
+| 30 | 11/21 | Đã rà soát và tách khi có căn cứ |
+| 31 | 17/17 | Đã rà soát và tách khi có căn cứ |
+| 32 | 2/12 | Đã rà soát và tách khi có căn cứ |
+| 33 | 16/21 | Đã rà soát và tách khi có căn cứ |
+| 34 | 4/13 | Đã rà soát và tách khi có căn cứ |
+
+**Kiểm tra đã thực hiện:** trên nhánh PR, tất cả 34 file chương vẫn có tổng cộng 767 mục. Trong 460 mục có trường pháp luật, `Lợi ích` và `Nguồn` đều không trống; không phát hiện trường pháp luật trùng hoặc thiếu dữ liệu khi đối chiếu cấu trúc. GitHub Actions tại commit `341db321`: **7/7 job thành công**, bao gồm build, kiểm thống kê, kiểm tham chiếu, kiểm trường pháp luật, kiểm tách câu, kiểm câu dễ hiểu và trang tự kiểm tra.
+
+**Cần tiếp tục duyệt bằng người trước khi merge:**
+- Rà soát đúng nghĩa từng đoạn được chuyển sang phần pháp luật; ưu tiên quyền, nghĩa vụ, mức phạt, hạn chót, quyền lợi và ngoại lệ thực sự quan trọng.
+- Đối chiếu hiệu lực, văn bản sửa đổi/thay thế và mức tiền chính sách; CI không thể xác minh tính chính xác pháp lý.
+- Duyệt lại đoạn `Lợi ích` được diễn giải lại để bảo đảm không làm mạnh kết luận hoặc thiếu điều kiện áp dụng.
+- Kiểm tra hiển thị ở mobile/desktop và bản EPUB/PDF/offline HTML ngoài việc build thành công.
+- Những mục được ghi là thiếu căn cứ ở phần dưới **không tự động được coi là đã kiểm chứng**.
+
 ## Việc cần kiểm chứng bằng người
 
 - **05-19, 05-27, 05-39:** hiện giữ ở Lợi ích các phần bảo hiểm tiền gửi, phân bổ tài sản và phép so bảo hiểm; chưa ép chuyển vì chúng là ví dụ thực hành pha quy định.
@@ -40,4 +90,4 @@ Nhánh: `feat/legal-vietnam-reference-layer`
 
 Đích: `vi`
 
-Người tiếp tục: mở file này trước, kiểm tra SHA nhánh và CI gần nhất, tiếp tục từ chương 07; khi rà soát chéo, quay lại 02-44, 05-19/27/39, 06-18/29. Không chạy script tìm–thay tự động cho toàn bộ 767 mục.
+Người tiếp tục: kiểm tra CI mới nhất, đối chiếu các mục còn thiếu nguồn và thẩm định chính sách có thể thay đổi trước khi chuyển PR khỏi Draft. Không tự động thay toàn bộ 767 mục bằng regex.
