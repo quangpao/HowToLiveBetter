@@ -17,14 +17,14 @@ Mục đích: ghi lại trạng thái biên tập qua **từng chương/từng c
 
 ## Trạng thái hoàn tất rà soát cấu trúc — 04/11/2026
 
-Đã rà soát **34/34 chương tiếng Việt, 767/767 mục**, và tách **460 mục** có phần liên quan tới quy định pháp luật Việt Nam sang trường tùy chọn `Pháp luật Việt Nam`. Chương 04 không có đoạn pháp luật Việt Nam đủ rõ để thêm trường. Việc **hoàn tất phân loại và tách cấu trúc** không có nghĩa là đã thẩm định lại độc lập hiệu lực của mọi văn bản hoặc từng kết luận y tế.
+Đã rà soát **34/34 chương tiếng Việt, 767/767 mục**, và tách **460 mục** có phần liên quan tới quy định pháp luật Việt Nam sang trường tùy chọn `Pháp luật Việt Nam`. Chương 04 không tách trường pháp luật riêng: mục 04#14 dẫn Nghị định 293/2025/NĐ-CP để so sánh mức lương tối thiểu với giá dịch vụ, nhưng quy định này đang được dùng như dữ liệu tham chiếu, không phải hướng dẫn thực hiện quyền hoặc nghĩa vụ trong mục. Việc **hoàn tất phân loại và tách cấu trúc** không có nghĩa là đã thẩm định lại độc lập hiệu lực của mọi văn bản hoặc từng kết luận y tế.
 
 | Chương | Số mục có trường pháp luật / tổng số mục | Ghi chú |
 |---|---:|---|
 | 01 | 13/48 | Đã rà soát và tách khi có căn cứ |
 | 02 | 3/47 | Đã rà soát và tách khi có căn cứ |
 | 03 | 3/27 | Đã rà soát và tách khi có căn cứ |
-| 04 | 0/18 | Đã rà soát, không cần tách |
+| 04 | 0/18 | 04#14 dùng Nghị định 293/2025/NĐ-CP làm dữ liệu so sánh giá/lương, không phải bước pháp lý cần thực hiện; giữ Lợi ích và Nguồn |
 | 05 | 43/51 | Đã chuyển theo nhiều commit nhỏ |
 | 06 | 2/35 | Giữ các mục thiếu nguồn pháp luật để kiểm chứng |
 | 07 | 21/23 | Đã rà soát và tách khi có căn cứ |
@@ -67,6 +67,7 @@ Mục đích: ghi lại trạng thái biên tập qua **từng chương/từng c
 
 ## Việc cần kiểm chứng bằng người
 
+- **Các mục có luật trong Nguồn nhưng không có trường pháp luật:** bộ lọc tra cứu vẫn hiển thị nếu nhận diện được số hiệu. Đây chỉ là văn bản dẫn chiếu/bối cảnh (ví dụ 04-14), không đồng nghĩa mục đó đã có phần pháp luật chi tiết; cần phân loại kỹ trước khi chuyển trường.
 - **05-19, 05-27, 05-39:** hiện giữ ở Lợi ích các phần bảo hiểm tiền gửi, phân bổ tài sản và phép so bảo hiểm; chưa ép chuyển vì chúng là ví dụ thực hành pha quy định.
 - **06-18, 06-29:** nhắc nghĩa vụ pháp luật nhưng thiếu nguồn luật có số hiệu trực tiếp trong trường Nguồn. Phải xác minh/bổ sung trước khi tách.
 - **02-44:** phần Ghi chú nói tiêm phòng dại cho chó là bắt buộc, có mức phạt theo Nghị định 204/2026/NĐ-CP nhưng trường Nguồn hiện chỉ trích nghiên cứu nuôi chó, chưa dẫn văn bản pháp luật. Không chuyển cho đến khi bổ sung và kiểm chứng nguồn.
