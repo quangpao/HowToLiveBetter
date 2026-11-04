@@ -8,7 +8,8 @@ for (const file of readdirSync(dir).filter(x => /^\d\d-.*\.md$/.test(x))) {
   const content = readFileSync(resolve(dir, file), 'utf8');
   // Cùng tiêu chí isVi của check-refs.mjs/sync-stats.mjs: không quét bản tiếng Trung.
   if (!content.includes('- Chi phí:')) continue;
-  for (const part of content.split(/(?=^### \d+\. )/m).slice(1)) {
+  // Nhận cả file bắt đầu ngay bằng ### 1. (không có lời mở đầu).
+  for (const part of content.split(/(?=^### \d+\. )/m).filter(p => /^### \d+\. /.test(p))) {
     const head = part.match(/^### \d+\. [^\n]*/)?.[0] || '(unknown)';
     const legal = [...part.matchAll(/^- Pháp luật Việt Nam:(.*)$/gm)];
     if (!legal.length) continue;
