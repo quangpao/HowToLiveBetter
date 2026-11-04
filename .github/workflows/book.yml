@@ -60,6 +60,17 @@ jobs:
       - run: node tools/check-refs.mjs --check
 
   # 说人话检查：长度、研究行话、抽象说法。理由同上，单独一个 job，不挡发布。
+  vi-style:
+    name: Kiểm văn phong tiếng Việt
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node tools/test-lint-vi.mjs
+      - run: node tools/lint-vi.mjs
+
   plain:
     name: Kiểm "Nói dễ hiểu"
     runs-on: ubuntu-latest

@@ -1,6 +1,6 @@
 [← Về mục lục](../README.md)
 
-# 34. Thuốc trong nhà đừng để ăn hại
+# 34. Thuốc trong nhà: đừng để phản tác dụng
 
 Chương này viết cho người giữ tủ thuốc của gia đình — thường là người mẹ, người bà, và cũng thường là người phải trực đêm khi con sốt. Không có ý định dạy chữa bệnh; chỉ ghi những chỗ mà cùng một viên thuốc, dùng đúng thì khỏi, dùng chồng lên nhau thì hại.
 
