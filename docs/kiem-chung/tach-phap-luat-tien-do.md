@@ -13,15 +13,7 @@ Mục đích: ghi lại trạng thái biên tập qua **từng chương/từng c
 
 ## Tình trạng
 
-| Chương | Trạng thái | Ghi chú |
-|---|---|---|
-| 01 | Đã tách | 13/48 mục; commit `5e0ee3e`; giữ nguyên 48 mục |
-| 02 | Đã tách | 3/47 mục; commit `c0b8c69`; 02-44 cần bổ sung nguồn quy định tiêm phòng dại trước khi tách |
-| 03 | Đã tách | 3/27 mục; commit `d09de93`; giữ nguyên 27 mục |
-| 04 | Đã rà soát | Không thấy đoạn pháp luật Việt Nam đủ rõ cần chuyển; các tham chiếu mức lương/giá dùng làm bối cảnh |
-| 05 | Đã tách 43/51 mục; còn rà soát bổ sung | 05-01 từ pilot; nhóm tiếp theo theo 9 commit nhỏ (7533b4f → 349d364). Các mục 05-10, 14, 17, 18, 28 không được gắn pháp luật chỉ vì cùng chủ đề; 05-19, 27, 39 còn thông tin quyền lợi/bảo hiểm lồng trong nội dung thực hành, cần phân loại thủ công khi kiểm chứng nguồn. |
-| 06 | Đã tách 2/35 mục; còn rà soát bổ sung | 06-10, 06-11; commit b0fa891. 06-18 (nghĩa vụ khám sức khỏe định kỳ) và 06-29 (nghĩa vụ huấn luyện lao động) cần nguồn luật tương ứng trước khi tách. 06-31 trích nghiên cứu AI về luật ở Mỹ, không phải quy định luật Việt Nam. |
-| 07–34 | Chưa rà soát và chuyển đầy đủ | Tiếp tục **từ chương 07**. Chương 07 có nhiều mục trực tiếp về quyền lợi, nghĩa vụ và thời hạn; xử lý từng mục, tránh thay cả chương bằng một phép biến đổi máy móc. |
+Đã hoàn tất **lượt rà soát và phân loại cấu trúc cả 34 chương**. Chi tiết từng chương và các ngoại lệ nằm trong bảng ngay dưới đây. Công việc **kiểm chứng độc lập hiệu lực pháp lý** và rà soát văn phong sau chuyển đổi vẫn cần thực hiện trước khi merge.
 
 ## Trạng thái hoàn tất rà soát cấu trúc — 04/11/2026
 
