@@ -506,7 +506,7 @@ abbr.term:hover{border-bottom-color:var(--brand-1);color:var(--brand-1)}
       <div class="doc-links" id="upd-line" hidden></div>
       <div class="doc-links"><a href="?legal=1">Tra cứu pháp luật Việt Nam</a>: lọc các mục có dẫn văn bản pháp quy; mở “Pháp luật Việt Nam” trên các mục đã tách để xem chi tiết.</div>
       <div class="doc-links"><a href="selfcheck.html">Tự kiểm tra</a>: bộ câu hỏi có/không (65 câu, 7 nhóm) để xem việc nào bạn chưa làm; hiện phủ chương 1, 2 và 3, chương 4 sẽ bổ sung sau.</div>
-      <div class="doc-links">Bài dài: 9 bài trong bản gốc tiếng Trung (việc nên làm khi thấy người lạ gặp nạn, danh mục trang bị ứng cứu gia đình, cưới có lợi không, mở nền tảng cần giấy phép gì, nhịp sinh học và ca đêm, bị sa thải thì làm gì trước, giấy tờ quanh việc sinh con, vừa chẩn đoán bệnh mạn tính, trước khi đổi việc đổi thành phố) — chưa dịch sang tiếng Việt.</div>
+      <div class="doc-links">Bài dài tiếng Việt: <a href="https://github.com/quangpao/HowToLiveBetter/blob/vi/docs/phap-luat-viet-nam.md">Pháp luật Việt Nam — tra cứu theo vấn đề</a> (mở ngay tại trang này). Bản gốc tiếng Trung có 9 bài dài khác, chưa chuyển sang tiếng Việt.</div>
       <div class="doc-links">Trợ lý AI: dùng skill <code>life-decision-guide</code> trong repo (bản tiếng Việt) để Claude Code hoặc Codex trả lời theo cuốn sách này — cài một lần theo <a href="skills/life-decision-guide/README.md">hướng dẫn</a>, sau đó hỏi thẳng là skill tự kích hoạt.</div>
       <details class="gloss" id="gloss"><summary>Từ viết tắt và thuật ngữ</summary><p>Những từ có gạch chân trong bài, bấm hoặc rê chuột là ra giải thích: 22 thuật ngữ thống kê, lấy từ mục “Đọc con số” trong README.</p><dl></dl></details>
     </div>
@@ -690,7 +690,7 @@ function trimUrl(u){
   return [u, t];
 }
 // Liên kết Markdown [chữ](địa chỉ) hoặc URL trần; đường dẫn tương đối trong repo trỏ tới file nguồn trên GitHub
-const REPO_BLOB = 'https://github.com/quangpao/HowToLiveBetter/blob/main/';
+const REPO_BLOB = 'https://github.com/quangpao/HowToLiveBetter/blob/vi/';
 const MD_LINK_RE = /\[([^\]\n]+)\]\(([^)\s]+)\)/;
 const BOLD_RE = /\*\*((?:\\\*|[^*\n])+)\*\*/;   // in đậm trong nội dung, không chuyển thì lộ dấu sao; trong in đậm cho phép dấu sao thoát \* （HLA-B\*5801）
 const unescMd = (s) => s.replace(/\\([*_])/g, '$1');
@@ -1307,7 +1307,7 @@ function renderCard(card, terms, key){
   f.legalDetails.hidden = !e.legal;
   if (e.legal) {
     renderGain(f.legal, e.legal, terms);
-    if (terms.some(t => e.legal.toLowerCase().includes(t))) f.legalDetails.open = true;
+    f.legalDetails.open = terms.length > 0 && terms.some(t => e.legal.toLowerCase().includes(t));
   }
   const nSrc = renderSrc(f.src, e.src, terms);
   f.srcN.textContent = nSrc > 1 ? ` · ${nSrc} nguồn` : '';

@@ -38,7 +38,7 @@ Không cần làm hết: đây là danh sách để chọn, không phải danh s
 </td></tr>
 <tr><td align="right"><b>Bài dài</b></td><td align="left">
 
-Chưa có. Bài dài theo từng chủ đề sẽ thêm dần vào `docs/`.
+[Pháp luật Việt Nam — tra cứu theo vấn đề](docs/phap-luat-viet-nam.md). Các bài dài theo chủ đề khác sẽ bổ sung dần.
 
 </td></tr>
 <tr><td align="right"><b>Bản gốc</b></td><td align="left">
@@ -66,7 +66,7 @@ Chưa có. Bài dài theo từng chủ đề sẽ thêm dần vào `docs/`.
 | Thực phẩm bổ sung, gói khám sức khoẻ, đồ "đáng tiền" nào bỏ qua được? | [6. Danh sách những thứ trông rẻ mà không có tác dụng](book/06-nhung-thu-vo-dung.md) |
 | Mất việc, bị quỵt lương, trong túi không còn tiền thì nhận được gì, cầu cứu ở đâu? | [7. Không có tiền thì sống thế nào](book/07-khong-co-tien-thi-song-the-nao.md) |
 | Tiền cọc, nhà trước hôn nhân, chuyển khoản lớn khi đang yêu là của ai; bị tố giác hay bị vu khống thì làm gì trước? | [8. Đừng tự chuốc hoạ vào thân: pháp luật và tài sản](book/08-dung-tu-chuoc-hoa-vao-than.md) |
-| Việc làm thêm nào, việc tưởng vô hại nào biến người thường thành bị cáo? | [9. Ranh giới pháp luật người thường dễ vấp](book/09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md) |
+| Việc làm thêm nào, việc tưởng vô hại nào biến người thường thành bị cáo? | [9. Ranh giới pháp luật người thường dễ vấp](book/09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md). Bài dài xem [hướng dẫn pháp luật Việt Nam](docs/phap-luat-viet-nam.md). |
 | Nên theo đuổi một người hay quen nhiều người; yêu xa có thành không; đăng ký kết hôn cần gì; chỉ làm đám cưới mà không đăng ký thì có phải vợ chồng? | [10. Yêu và kết hôn có đáng không](book/10-yeu-va-ket-hon-co-dang-khong.md) |
 | Viết code nào, nhận việc nào thì bị truy tố? | [11. Những vạch đỏ mà người làm kỹ thuật hay vấp](book/11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md) |
 | Vay tiền mở shop, mở công ty: nghĩ gì trước tiên, đóng cửa thì mất gì? | [12. Kinh doanh nhỏ: mở, vận hành, đóng cho đúng luật](book/12-kinh-doanh-nho-mo-van-hanh-dong.md) |
@@ -92,6 +92,8 @@ Chưa có. Bài dài theo từng chủ đề sẽ thêm dần vào `docs/`.
 | Du học: thân phận, việc làm thêm, bảo hiểm và công nhận bằng khi về nước? | [32. Đi du học](book/32-di-du-hoc.md) |
 | Bản thân hay người nhà bị khuyết tật: phòng biến chứng gì, nhận trợ cấp nào, học hành và giám hộ ra sao? | [33. Sau khi khuyết tật](book/33-sau-khi-khuyet-tat.md) |
 | Thuốc cảm, thuốc hạ sốt, thuốc dạ dày mua về tự uống: loại nào không được uống chung, trẻ con và bà bầu phải tránh gì? | [34. Thuốc trong nhà đừng để ăn hại](book/34-thuoc-trong-nha.md) |
+
+**Bài dài xem thêm:** [Pháp luật Việt Nam — tra cứu theo vấn đề](docs/phap-luat-viet-nam.md), tổng hợp các điểm cần đọc, cách tra cứu nguồn và giới hạn khi áp dụng quy định.
 
 ## Cách đọc
 
