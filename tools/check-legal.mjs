@@ -12,7 +12,7 @@ for (const file of readdirSync(dir).filter(x => /^\d\d-.*\.md$/.test(x))) {
     total++;
     if (legal.length !== 1 || !legal[0][1].trim()) errors.push(file + ' ' + head + ': thiếu/trùng trường pháp luật');
     const source = part.match(/^- Nguồn:(.*)$/m)?.[1] || '';
-    if (!source.trim() || !/(?:Luật|Nghị định|Thông tư|Nghị quyết)[^;\n]{0,150}\d{1,4}\/(?:19|20)\d{2}/i.test(source)) {
+    if (!source.trim() || !/(?:Luật|Nghị định|Thông tư|Nghị quyết|Quyết định|QCVN)[^;\n]{0,150}\d{1,4}\/(?:19|20)\d{2}/i.test(source)) {
       errors.push(file + ' ' + head + ': thiếu căn cứ pháp luật có số hiệu trong Nguồn');
     }
   }
