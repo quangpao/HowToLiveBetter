@@ -480,9 +480,11 @@ th[aria-sort=descending] .column-sort:after{content:'↓';color:var(--brand-1)}
 .book-entry h2{font:600 26px/1.45 var(--serif);letter-spacing:-.015em;display:flex;gap:12px;margin:0 0 9px}
 .book-anchor{color:var(--brand-1);font-weight:400;flex:none;text-decoration:none}
 .book-entry-meta{font:11px/1.6 var(--font);color:var(--t3);margin:0 0 22px}
-.book-human{font-size:1.06em;margin:0 0 24px}
 .book-field{margin:22px 0}
 .book-field h3{font:600 12px/1.6 var(--font);letter-spacing:.02em;color:var(--t2);margin:0 0 8px}
+.book-field.book-human{font-size:1.06em;margin:0 0 24px;padding:18px 20px;background:var(--brand-soft);border-left:2px solid var(--brand-1)}
+.book-field.book-human h3{color:var(--brand-1)}
+.book-human p{margin:0}
 .book-field .chunks{margin:0;padding-left:22px}.book-field .chunks li{margin:0 0 12px;padding-left:3px}
 .book-field .chunks li:last-child{margin-bottom:0}
 .book-legal{padding:16px 20px;border-left:2px solid var(--brand-1);background:var(--brand-soft)}
@@ -1695,7 +1697,11 @@ function renderBookChapter(position){
     const title = document.createElement('span'); renderText(title, e.title, [], false); heading.append(a, title); article.appendChild(heading);
     const meta = document.createElement('p'); meta.className = 'book-entry-meta';
     meta.textContent = `Bằng chứng ${e.grade}` + (e.dispute ? ' · Đang tranh luận' : '') + (e.todo ? ' · Còn phải kiểm chứng' : ''); article.appendChild(meta);
-    if (e.human){ const p = document.createElement('p'); p.className = 'book-human'; renderText(p, e.human, []); article.appendChild(p); }
+    if (e.human){
+      const explain = document.createElement('section'); explain.className = 'book-field book-human';
+      const label = document.createElement('h3'); label.textContent = 'Nói dễ hiểu';
+      const p = document.createElement('p'); renderText(p, e.human, []); explain.append(label, p); article.appendChild(explain);
+    }
     for (const [field,label] of [['cost','Chi phí'],['gain','Lợi ích'],['legal','Pháp luật Việt Nam'],['note','Ghi chú']]){
       if (!e[field]?.trim()) continue;
       const box = document.createElement('section'); box.className = 'book-field book-' + field;
