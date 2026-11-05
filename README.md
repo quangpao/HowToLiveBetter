@@ -9,7 +9,7 @@ Cuốn sách tính chuyện đáng hay không đáng làm theo hiệu quả trê
 
 Không cần làm hết: đây là danh sách để chọn, không phải danh sách phải hoàn thành.
 
-Đây là **bản biên soạn lại cho Việt Nam**, không phải bản dịch. Luật, chính sách, thủ tục, giá cả và mức phạt đều tra từ văn bản chính thức của Việt Nam; nội dung y khoa dùng nghiên cứu quốc tế. Vì luật khác nhau, có mục kết luận ngược hẳn bản gốc. Bản gốc tiếng Trung vẫn giữ trong repo để đối chiếu: [README.cn.md](README.cn.md).
+Đây là **bản biên soạn lại cho Việt Nam**, không phải bản dịch. Luật, chính sách, thủ tục, giá cả và mức phạt đều tra từ văn bản chính thức của Việt Nam; nội dung y khoa dùng nghiên cứu quốc tế. Vì luật khác nhau, có mục kết luận ngược hẳn bản gốc.
 
 [![Tra cứu trực tuyến](https://img.shields.io/badge/tra%20cứu-mở%20trang%20này-3451b2?style=flat-square)](https://quangpao.github.io/HowToLiveBetter/)
 [![Số mục](https://img.shields.io/badge/mục-767-18794e?style=flat-square)](#mục-lục)
@@ -18,7 +18,7 @@ Không cần làm hết: đây là danh sách để chọn, không phải danh s
 [![Giấy phép](https://img.shields.io/badge/giấy%20phép-CC%20BY%204.0-565a5f?style=flat-square)](#ghi-công-và-giấy-phép)
 [![Số star](https://img.shields.io/github/stars/quangpao/HowToLiveBetter?style=flat-square&label=star&color=eac54f)](https://github.com/quangpao/HowToLiveBetter)
 
-### [Mở trang tra cứu](https://quangpao.github.io/HowToLiveBetter/) · [Đọc bản gốc tiếng Trung](README.cn.md)
+### [Mở trang tra cứu](https://quangpao.github.io/HowToLiveBetter/)
 
 <table>
 <tr><td align="right"><b>Tải về</b></td><td align="left">
@@ -43,7 +43,7 @@ Không cần làm hết: đây là danh sách để chọn, không phải danh s
 </td></tr>
 <tr><td align="right"><b>Bản gốc</b></td><td align="left">
 
-[高性价比人生指南](README.cn.md) của [eternity4719](https://github.com/eternity4719/HowToLiveBetter), 767 mục trong 34 chương, giấy phép CC BY 4.0. Bản tiếng Việt phát hành theo cùng giấy phép.
+*高性价比人生指南* của [eternity4719](https://github.com/eternity4719/HowToLiveBetter), giấy phép CC BY 4.0. Bản này đã sửa và viết lại nhiều so với bản gốc, phát hành theo cùng giấy phép.
 
 </td></tr>
 </table>
@@ -233,7 +233,7 @@ Phần thân bài viết bằng lời thường, nhưng khi dẫn nghiên cứu 
 33. [Sau khi khuyết tật](book/33-sau-khi-khuyet-tat.md) — 21 mục: cơn rối loạn thần kinh thực vật, nguy cơ tự tử mười năm đầu, bắt buộc chữa bệnh, sức khỏe người chăm, loét do tì đè, đừng mua liệu pháp chữa khỏi, giấy xác nhận khuyết tật, trẻ khuyết tật, sửa nhà, doanh nghiệp nhận người khuyết tật, thuế, chó dẫn đường và vé, thi đại học, nhập học, giấy phép lái xe, phục hồi chức năng, máy trợ thính, mất năng lực hành vi dân sự, người giám hộ, kiện vì bị phân biệt đối xử, bàng quang thần kinh.
 34. [Thuốc trong nhà: đừng để phản tác dụng](book/34-thuoc-trong-nha.md) — 13 mục: trùng hoạt chất trong thuốc cảm, trẻ sốt và ba thuốc phải tránh, người trên 60 và người đang uống kháng đông, trẻ dưới 2 tuổi, mang thai từ tuần 20, omeprazol tự mua, cảm thường không cần kháng sinh, oresol pha đúng, đau đầu do lạm dụng giảm đau, thuốc hết hạn, rượu với kháng sinh, thuốc dị ứng và việc lái xe, bưởi với thuốc hạ mỡ.
 
-Đã đủ **34 chương, 767 mục**, cùng số chương và số mục với bản gốc. Số mục của từng chương khác bản gốc vì nội dung được biên soạn lại theo luật Việt Nam: có mục bản gốc có mà ở đây không áp dụng được, có mục phải thêm. Danh sách chương và nội dung từng chương của bản gốc nằm trong [README.cn.md](README.cn.md).
+Đã đủ **34 chương, 767 mục**, biên soạn theo luật, thủ tục và giá cả của Việt Nam.
 
 ## Nội dung
 
@@ -267,7 +267,7 @@ Sản phẩm ra trong `dist/`. Muốn xem trang tra cứu ở máy thì mở qua
 
 ## Ghi công và giấy phép
 
-Bản gốc: *高性价比人生指南* của [eternity4719](https://github.com/eternity4719/HowToLiveBetter), giấy phép [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Bản gốc tiếng Trung giữ nguyên trong repo này ở [README.cn.md](README.cn.md) và trong các file `book/NN-*.md` không có hậu tố.
+Bản gốc: *高性价比人生指南* của [eternity4719](https://github.com/eternity4719/HowToLiveBetter), giấy phép [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Bản này đã sửa, lược và viết lại nhiều so với bản gốc.
 
 Bản tiếng Việt phát hành theo CC BY 4.0: được sao chép, sửa, dùng cho mục đích thương mại, không cần xin phép, với ba điều kiện — ghi rõ nguồn là *Cẩm nang sống thông minh* kèm liên kết repo này, kèm liên kết giấy phép, và nếu có sửa nội dung thì phải nói rõ đã sửa. Luật, mức phạt và giá trong sách đổi luôn, nên ghi thêm bạn đồng bộ bản ngày nào.
 

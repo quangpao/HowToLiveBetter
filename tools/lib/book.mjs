@@ -2,7 +2,7 @@
 // Chỉ đọc cấu trúc trong README, không giữ danh sách file bằng tay — thêm một chương hay một bài dài,
 // cả hai bộ dựng tự theo kịp.
 //
-// Bản Việt đọc `README.md` (giữ `README.cn.md` của bản gốc tiếng Trung làm tham chiếu).
+// Bản Việt đọc `README.md`.
 import { readFileSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';

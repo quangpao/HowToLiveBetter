@@ -19,11 +19,11 @@ const problems = [];
 let total = 0, split = 0;
 for (const f of files) {
   read(f).split('\n').forEach((line, i) => {
-    const mm = line.match(/^\s*- (Lợi ích|Ghi chú|Pháp luật Việt Nam|Nguồn|收益|备注|来源)[:：](.*)$/);
+    const mm = line.match(/^\s*- (Lợi ích|Ghi chú|Pháp luật Việt Nam|Nguồn):(.*)$/);
     if (!mm) return;
     const [, label, body] = mm;
     const at = `${f}:${i + 1}（${label}）`;
-    const isSrc = label === 'Nguồn' || label === '来源';
+    const isSrc = label === 'Nguồn';
     const lib = isSrc ? splitSrc(body) : splitGain(body);
     const web = isSrc ? ctx.splitSrc(body) : ctx.splitGain(body);
     total++;
