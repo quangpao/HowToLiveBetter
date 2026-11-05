@@ -146,6 +146,7 @@ jobs:
           cache-dependency-path: tools/epub/package-lock.json
 
       - run: node tools/test-repo-links.mjs
+      - run: node tools/test-reader.mjs
 
       - run: npm ci
         working-directory: tools/epub
