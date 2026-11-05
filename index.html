@@ -576,6 +576,15 @@ const PERF = (function(){
 })();
 
 /* ---------- Phân tích README ---------- */
+// Tìm kiếm không phân biệt chỗ đặt dấu thanh: gõ "hoà" hay "hòa", "khoẻ" hay "khỏe", "uỷ" hay "ủy" đều ra cùng kết quả.
+// Chữ chuẩn hoá là kiểu dấu ở nguyên âm sau (hoà, khoẻ, uỷ) vì gõ dở "hoà" vẫn là tiền tố của "hoàn". Đổi từng ký tự một,
+// độ dài không đổi, nên chỉ số trong chuỗi đã chuẩn hoá vẫn dùng được để tô sáng trên chuỗi gốc. Văn bản trong sách ở dạng NFC.
+const FOLD_OA = {'ò':'à','ó':'á','ỏ':'ả','õ':'ã','ọ':'ạ'}, FOLD_OE = {'ò':'è','ó':'é','ỏ':'ẻ','õ':'ẽ','ọ':'ẹ'};
+const FOLD_UY = {'ù':'ỳ','ú':'ý','ủ':'ỷ','ũ':'ỹ','ụ':'ỵ'};
+const FOLD_RE = /([òóỏõọ])([ae])(?![a-zà-ỹđ])|(?<!q)([ùúủũụ])y(?![a-zà-ỹđ])/g;
+function fold(s){
+  return s.toLowerCase().replace(FOLD_RE, (m, o, ae, u) => u ? 'u' + FOLD_UY[u] : 'o' + (ae === 'a' ? FOLD_OA : FOLD_OE)[o]);
+}
 function parseReadme(md){
   const lines = md.split(/\r?\n/);
   const sections = [];
@@ -614,7 +623,8 @@ function parseReadme(md){
     e.cs = (COST_W.money[e.money] ?? 0) + (COST_W.time[e.time] ?? 0) + (COST_W.will[e.will] ?? 0);
     e.ratio = e.level === 'lớn' ? (e.cs === 0 ? 'rất cao' : (e.cs <= 2 ? 'cao' : 'trung bình'))
             : e.level === 'vừa' ? (e.cs === 0 ? 'cao' : 'trung bình') : 'trung bình';
-    e.hay = [e.title, e.human, e.cost, e.gain, e.legal, e.note, e.src, e.grade].join('\n').replace(/\*\*/g, '').replace(/\\([*_])/g, '$1').toLowerCase();
+    e.hay = [e.title, e.human, e.cost, e.gain, e.legal, e.note, e.src, e.grade].join('\n').replace(/\*\*/g, '').replace(/\\([*_])/g, '$1');
+    e.hay = fold(e.hay);
   }
   return sections;
 }
@@ -818,7 +828,7 @@ function renderSrc(el, text, terms){
 }
 function highlightInto(el, s, terms){
   if (!terms.length){ el.appendChild(document.createTextNode(s)); return; }
-  const lower = s.toLowerCase(); let i = 0;
+  const lower = fold(s); let i = 0;
   while (i < s.length){
     let best = -1, bl = 0;
     for (const t of terms){ const k = lower.indexOf(t, i); if (k !== -1 && (best === -1 || k < best)) { best = k; bl = t.length; } }
@@ -1310,18 +1320,18 @@ function renderCard(card, terms, key){
   f.legalSourceHint.hidden = !(e.isLegal && !e.legal);
   if (e.legal) {
     renderGain(f.legal, e.legal, terms);
-    f.legalDetails.open = terms.length > 0 && terms.some(t => e.legal.toLowerCase().includes(t));
+    f.legalDetails.open = terms.length > 0 && terms.some(t => fold(e.legal).includes(t));
   }
   const nSrc = renderSrc(f.src, e.src, terms);
   f.srcN.textContent = nSrc > 1 ? ` · ${nSrc} nguồn` : '';
-  const inBody = (e.title+e.human+e.cost+e.gain+e.legal+e.note).toLowerCase();
-  f.details.open = terms.length > 0 && terms.some(t => e.src.toLowerCase().includes(t)) && !terms.some(t => inBody.includes(t));
+  const inBody = fold(e.title+e.human+e.cost+e.gain+e.legal+e.note);
+  f.details.open = terms.length > 0 && terms.some(t => fold(e.src).includes(t)) && !terms.some(t => inBody.includes(t));
   card.key = key;
   markVN(card.el);
 }
 function apply(){
   const t0 = performance.now();
-  const terms = state.q.toLowerCase().split(/\s+/).filter(Boolean);
+  const terms = fold(state.q.normalize('NFC')).split(/\s+/).filter(Boolean);
   const key = terms.join(' ');
   CUR_TERMS = terms; CUR_KEY = key;
   let shown = 0, rerender = 0, matched = 0; const perSec = {}, tocSec = {};

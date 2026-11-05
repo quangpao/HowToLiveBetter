@@ -5,8 +5,8 @@
 //   node tools/updates.mjs --check    # chỉ so không ghi, cũ rồi thì mã thoát 1 (dùng cho CI, cần fetch-depth: 0)
 //
 // Không dùng thông điệp commit: đó là viết cho người bảo trì ("đồng bộ phần dẫn", "bổ sung neo"), người đọc không hiểu.
-// Mục được nhận theo tiêu đề, không theo số mục: xoá một mục là số mục phía sau đổi hết. Theo quy ước, tiêu đề chỉ được thêm chữ, nên hai bản trước sau
-// khi tiêu đề không khớp thì ghép cặp theo độ giống nhau của tiêu đề và nội dung, cái nào không ghép được mới tính là thêm hoặc xoá.
+// Mục được nhận theo tiêu đề, không theo số mục: xóa một mục là số mục phía sau đổi hết. Theo quy ước, tiêu đề chỉ được thêm chữ, nên hai bản trước sau
+// khi tiêu đề không khớp thì ghép cặp theo độ giống nhau của tiêu đề và nội dung, cái nào không ghép được mới tính là thêm hoặc xóa.
 // Chỉ khi nội dung người đọc nhìn thấy đổi mới tính là "đã sửa": tiêu đề, chi phí, nói dễ hiểu, lợi ích, mức bằng chứng, ghi chú.
 // Cột nguồn, nhãn chi phí, số mục bị dồn, số mục và từ neo trong "mục N (neo)" đổi đều không tính, không thì ngày nào cũng đầy "đã sửa".
 // Chỉ đi theo commit cha thứ nhất của main: PR merge bằng merge --no-ff ở máy được tính vào ngày merge.
@@ -31,8 +31,15 @@ const git = (args, input) => {
 };
 
 // ---------- Phân tích ----------
-// Số mục và từ neo trong tham chiếu đổi theo việc dồn mục và bổ sung neo, nên xoá đi rồi mới so
-const norm = s => s.replace(/\s+/g, '')
+// Số mục và từ neo trong tham chiếu đổi theo việc dồn mục và bổ sung neo, nên xóa đi rồi mới so
+// Đổi chính tả không tính là đổi nội dung: chỗ đặt dấu thanh (hoà/hòa, khoẻ/khỏe, uỷ/ủy) và "vắc-xin/vắc xin/vaccine" được quy về một dạng trước khi so.
+const TONE_OA = { ò: 'à', ó: 'á', ỏ: 'ả', õ: 'ã', ọ: 'ạ' }, TONE_OE = { ò: 'è', ó: 'é', ỏ: 'ẻ', õ: 'ẽ', ọ: 'ẹ' };
+const TONE_UY = { ù: 'ỳ', ú: 'ý', ủ: 'ỷ', ũ: 'ỹ', ụ: 'ỵ' };
+const foldSpelling = s => s.toLowerCase()
+  .replace(/([òóỏõọ])([ae])(?![a-zà-ỹđ])|(?<!q)([ùúủũụ])y(?![a-zà-ỹđ])/g,
+    (m, o, ae, u) => u ? 'u' + TONE_UY[u] : 'o' + (ae === 'a' ? TONE_OA : TONE_OE)[o])
+  .replace(/v[aắ]c[- ]?xin|vaccine/g, 'vắcxin');
+const norm = s => foldSpelling(s).replace(/\s+/g, '')
   .replace(/mục\s*\d+/gi, 'mục #')
   .replace(/chương\s*\d+/gi, 'chương #');
 
