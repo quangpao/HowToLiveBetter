@@ -11,7 +11,7 @@
 <meta name="theme-color" content="#f4f1e8" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#191f1b" media="(prefers-color-scheme: dark)">
 <link rel="canonical" href="https://quangpao.github.io/HowToLiveBetter/">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23267342'/%3E%3Cpath d='M17 33l10 11 20-24' fill='none' stroke='white' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%0A%20%20%3Ctitle%3EHowToLiveBetter%20%E2%80%94%20cu%E1%BB%91n%20s%C3%A1ch%20v%C3%A0%20ch%E1%BB%93i%20l%C3%A1%3C%2Ftitle%3E%0A%20%20%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%23267342%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M32%2025C24%2025%2018%2021%2018%2014c8-1%2014%204%2014%2011Z%22%20fill%3D%22%23d6bf83%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M32%2024c0-8%205-14%2014-14%200%208-5%2014-14%2014Z%22%20fill%3D%22%23f4f1e8%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M32%2022v10M13%2031c7-3%2013-2%2019%202%206-4%2012-5%2019-2v19c-7-3-13-2-19%202-6-4-12-5-19-2V31Zm19%202v19%22%20fill%3D%22none%22%20stroke%3D%22%23f4f1e8%22%20stroke-width%3D%223.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%3C%2Fsvg%3E">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Cẩm nang sống thông minh">
 <meta property="og:locale" content="vi_VN">
@@ -297,8 +297,8 @@ a{text-underline-offset:4px}
 .title{display:flex;align-items:center;font-size:15px;font-weight:650;letter-spacing:-.02em;gap:12px;color:var(--t1);white-space:nowrap}
 .title:hover{color:var(--t1);text-decoration:none}
 .title .logo{display:grid}
-.logo{display:grid;place-items:center;width:36px;height:36px;border-radius:9px;background:var(--brand-1);color:var(--bg);flex:none}
-.logo svg{width:24px;height:24px}
+.logo{display:grid;place-items:center;width:36px;height:36px;border-radius:9px;background:transparent;flex:none}
+.logo svg{width:36px;height:36px}
 .nav-r{display:flex;align-items:center;gap:18px;flex-wrap:wrap;justify-content:flex-end}
 .nav-r a{font-size:13px;color:var(--t2)}
 .utility-btn{font-size:13px;border:1px solid var(--divider);padding:6px 11px;background:var(--bg-soft);border-radius:2px;min-height:36px}
@@ -427,7 +427,7 @@ th[aria-sort=descending] .column-sort:after{content:'↓';color:var(--brand-1)}
 }
 @media(max-width:700px){
   .nav{padding:16px 18px 0}.nav-in{gap:12px;align-items:center}.title{font-size:13px;gap:8px}
-  .logo{width:30px;height:30px}.logo svg{width:20px;height:20px}.nav-r{gap:8px}.nav-r .nav-extra{display:none}
+  .logo{width:30px;height:30px}.logo svg{width:30px;height:30px}.nav-r{gap:8px}.nav-r .nav-extra{display:none}
   .content{padding:0 18px 40px}.cover-grid{grid-template-columns:1fr;gap:24px;padding-top:28px}
   .cover-copy h1{font-size:44px;max-width:460px;margin:14px 0 20px}.deck{font-size:15px;max-width:520px}
   .hero-actions{margin-top:22px;gap:22px}.hero-meta{margin-top:22px}.hero-meta dt{font-size:24px}
@@ -481,7 +481,13 @@ th[aria-sort=descending] .column-sort:after{content:'↓';color:var(--brand-1)}
 <a class="skip" href="#explore">Đi tới phần tra cứu</a>
 <header class="nav">
   <div class="nav-in">
-    <a class="title" href="./"><span class="logo" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 12.5l4 4 8-9.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>HowToLiveBetter</span></a>
+    <a class="title" href="./"><span class="logo" aria-hidden="true"><svg viewBox="0 0 64 64" focusable="false">
+
+  <rect width="64" height="64" rx="14" fill="#267342"/>
+  <path d="M32 25C24 25 18 21 18 14c8-1 14 4 14 11Z" fill="#d6bf83"/>
+  <path d="M32 24c0-8 5-14 14-14 0 8-5 14-14 14Z" fill="#f4f1e8"/>
+  <path d="M32 22v10M13 31c7-3 13-2 19 2 6-4 12-5 19-2v19c-7-3-13-2-19 2-6-4-12-5-19-2V31Zm19 2v19" fill="none" stroke="#f4f1e8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></span><span>HowToLiveBetter</span></a>
     <nav class="nav-r" aria-label="Liên kết chính">
       <a class="nav-extra" href="README.md">Đọc sách</a>
       <a class="nav-extra" href="selfcheck.html">Tự kiểm tra ↗</a>
@@ -504,7 +510,7 @@ th[aria-sort=descending] .column-sort:after{content:'↓';color:var(--brand-1)}
         <div class="hero-actions"><a class="hero-explore" href="#explore">Khám phá cẩm nang <span aria-hidden="true">↓</span></a><a class="hero-secondary" href="selfcheck.html">Tự kiểm tra ↗</a></div>
         <dl class="hero-meta"><div><dt id="hero-count">–</dt><dd>mục để chọn</dd></div><div><dt id="hero-chapters">–</dt><dd>chương</dd></div><div><dt>A/B/C</dt><dd>mức bằng chứng</dd></div></dl>
       </div>
-      <figure class="cover-figure"><img src="assets/life-evidence-cover.jpg" width="1536" height="1024" fetchpriority="high" alt="Minh họa vòng tuổi thân cây, những nhánh lá và một người đang bước đi trên nền giấy màu kem."></figure>
+      <figure class="cover-figure"><img src="assets/life-evidence-cover.jpg" width="1536" height="1024" fetchpriority="high" alt="Cuốn sách mở thành những lối đi qua khu vườn và ngôi nhà Việt, bên cạnh có chồi lá, đồng hồ cát và tiền tiết kiệm."></figure>
     </section>
     <div class="caution"><strong>Không cần làm hết.</strong> Đây là danh sách để chọn. Lấy một hai mục phù hợp với bạn, còn lại khi nào cần thì quay lại tra.</div>
     <details class="reading-guide"><summary>Cách dùng cẩm nang và những điều cần biết</summary><div class="reading-body">

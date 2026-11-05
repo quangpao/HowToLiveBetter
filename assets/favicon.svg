@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>HowToLiveBetter — cuốn sách và chồi lá</title>
+  <rect width="64" height="64" rx="14" fill="#267342"/>
+  <path d="M32 25C24 25 18 21 18 14c8-1 14 4 14 11Z" fill="#d6bf83"/>
+  <path d="M32 24c0-8 5-14 14-14 0 8-5 14-14 14Z" fill="#f4f1e8"/>
+  <path d="M32 22v10M13 31c7-3 13-2 19 2 6-4 12-5 19-2v19c-7-3-13-2-19 2-6-4-12-5-19-2V31Zm19 2v19" fill="none" stroke="#f4f1e8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
