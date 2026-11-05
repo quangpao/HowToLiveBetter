@@ -28,7 +28,7 @@ const MAX = 235;   // ký tự, không tính khoảng trắng; mục tiêu viế
 
 const JARGON = [
   [/\b(HR|RR|OR|CI|RCT|OR值)\b/, 'viết tắt thống kê'],
-  [/phân tích gộp|tổng quan hệ thống|nghiên cứu thuần tập|hồi cứu|tiến cứu|nhóm chứng|nhóm giả dược|mù đôi|ngẫu nhiên hoá/i, 'thiết kế nghiên cứu'],
+  [/phân tích gộp|tổng quan hệ thống|nghiên cứu thuần tập|hồi cứu|tiến cứu|nhóm chứng|nhóm giả dược|mù đôi|ngẫu nhiên h(?:oá|óa)/i, 'thiết kế nghiên cứu'],
   [/\bn\s*=\s*\d/i, 'cỡ mẫu'],
   [/cỡ mẫu|người tham gia|đối tượng tham gia/i, 'cỡ mẫu'],
   [/nhóm đối chứng|nhóm can thiệp|nhóm giả dược|nhóm kia/i, 'chia nhóm'],
