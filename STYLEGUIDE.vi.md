@@ -42,7 +42,7 @@ Chạy `node tools/check-legal.mjs`, `node tools/check-split.mjs`, `node tools/c
 - [ ] **Giải nghĩa viết tắt mỗi chương:** lần đầu phải có "bảo hiểm y tế (BHYT)", "bảo hiểm xã hội (BHXH)", "bảo hiểm thất nghiệp (BHTN)", "thuế thu nhập cá nhân (TNCN)", "thuốc không kê đơn (OTC)", "trị liệu nhận thức hành vi cho chứng mất ngủ (CBT-I)", "hội chứng đột tử ở trẻ sơ sinh (SIDS)" nếu có dùng.
 - [ ] **Từ cần thay:** bệnh mãn tính → bệnh mạn tính; vạch đỏ → lằn ranh đỏ / giới hạn pháp lý; ý định thực hiện → kế hoạch "nếu... thì..."; học tập ngắt khoảng → ôn tập ngắt quãng; tính giá bỉ → hiệu quả chi phí. Không dùng "ăn hại" làm tiêu đề hoặc khuyến cáo y tế. Giữ nguyên nguyên văn trích dẫn luật, tên nguồn nếu phải dẫn chính xác.
 - [ ] **Chương nhạy cảm:** Chương 13 (cấp cứu), 17 (người cao tuổi), 25 (tang sự), 29 (biến cố lớn), 33 (khuyết tật) dùng giọng bình tĩnh, trực diện nhưng tôn trọng; tránh đùa cợt, mắng mỏ, gieo sợ hãi hoặc hứa hẹn tuyệt đối.
-- [ ] **Bảo toàn cấu trúc:** Giữ đủ 34 chương và 767 mục, không đổi số thứ tự, loại bằng chứng, link, slug, số liệu hoặc kết luận pháp luật chỉ để làm đẹp câu.
+- [ ] **Bảo toàn cấu trúc:** Giữ đủ 34 chương và 765 mục, không đổi số thứ tự, loại bằng chứng, link, slug, số liệu hoặc kết luận pháp luật chỉ để làm đẹp câu.
 - [ ] **Máy kiểm và người kiểm:** Chạy các lệnh dưới đây, đọc diff và đối chiếu nguồn cho mọi thay đổi y tế, pháp luật.
 
     node tools/lint-vi.mjs

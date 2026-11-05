@@ -162,7 +162,7 @@ Về bối cảnh Việt Nam: đừng đọc chương này theo sách nước ng
 
 ### 11. Không vào biên chế: bảo hiểm xã hội tự nguyện là đường duy nhất để có lương hưu, còn bảo hiểm thất nghiệp thì không có cho người tự làm
 <!-- nhãn: tiền=nhiều thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
-- Chi phí: Bạn đóng 22% mức thu nhập tự chọn, tức là một mình bạn đóng toàn bộ, không có người sử dụng lao động đóng cùng, nên hãy tính khoản này vào thu nhập thật của nghề tự do. Mức thấp nhất bằng chuẩn hộ nghèo khu vực nông thôn, cao nhất 20 lần mức tham chiếu; cách quy ra tiền và phần ngân sách hỗ trợ đã tính ở chương 5 mục 46, ở đây không lặp lại vì mức sàn đổi theo chuẩn nghèo. Khoản thứ hai không phải tiền mà là tính kiên định: đóng đều từng tháng trong nhiều năm, và tiền không rút ra tùy ý được — chỉ rút một lần trong các trường hợp luật định, nên đừng coi quỹ này là khoản tiết kiệm phòng khi kẹt.
+- Chi phí: Bạn đóng 22% mức thu nhập tự chọn, tức là một mình bạn đóng toàn bộ, không có người sử dụng lao động đóng cùng, nên hãy tính khoản này vào thu nhập thật của nghề tự do. Mức thấp nhất bằng chuẩn hộ nghèo khu vực nông thôn, cao nhất 20 lần mức tham chiếu; cách quy ra tiền và phần ngân sách hỗ trợ đã tính ở chương 5 mục 45, ở đây không lặp lại vì mức sàn đổi theo chuẩn nghèo. Khoản thứ hai không phải tiền mà là tính kiên định: đóng đều từng tháng trong nhiều năm, và tiền không rút ra tùy ý được — chỉ rút một lần trong các trường hợp luật định, nên đừng coi quỹ này là khoản tiết kiệm phòng khi kẹt.
 
 - Nói dễ hiểu: Tự làm thì tự đóng: 22% thu nhập bạn chọn, đủ 15 năm và đủ tuổi là có lương hưu, nữ hưởng 45%, nam hưởng 40%. Bảo hiểm thất nghiệp thì không có, vì nó gắn với hợp đồng lao động. Thẻ y tế mua theo hộ gia đình.
 

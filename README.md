@@ -5,16 +5,16 @@
 # Cẩm nang sống thông minh
 
 Cuốn sách tính chuyện đáng hay không đáng làm theo hiệu quả trên chi phí: sống lâu, ít bệnh, gặp tai nạn thì cứu thế nào; tiêu tiền sao cho khỏi oan; việc gì dễ bị lừa, dễ vướng vào pháp luật; mất việc, hết tiền thì nhận được gì; mở shop, mở công ty, làm website phải xin những giấy gì; cả chuyện yêu đương, kết hôn, sinh con, du học và học nghề.<br>
-767 mục, mỗi mục ghi rõ mất gì, được gì và bằng chứng cứng đến đâu. Nguồn chỉ dẫn bài báo khoa học và văn bản chính thức.
+765 mục, mỗi mục ghi rõ mất gì, được gì và bằng chứng cứng đến đâu. Nguồn chỉ dẫn bài báo khoa học và văn bản chính thức.
 
 Không cần làm hết: đây là danh sách để chọn, không phải danh sách phải hoàn thành.
 
 Đây là **bản biên soạn lại cho Việt Nam**, không phải bản dịch. Luật, chính sách, thủ tục, giá cả và mức phạt đều tra từ văn bản chính thức của Việt Nam; nội dung y khoa dùng nghiên cứu quốc tế. Vì luật khác nhau, có mục kết luận ngược hẳn bản gốc.
 
 [![Tra cứu trực tuyến](https://img.shields.io/badge/tra%20cứu-mở%20trang%20này-3451b2?style=flat-square)](https://quangpao.github.io/HowToLiveBetter/)
-[![Số mục](https://img.shields.io/badge/mục-767-18794e?style=flat-square)](#mục-lục)
-[![Mức bằng chứng](https://img.shields.io/badge/bằng%20chứng-A%20127%20·%20B%20536%20·%20C%20104-915930?style=flat-square)](#mức-bằng-chứng)
-[![Nguồn](https://img.shields.io/badge/nguồn-2080%20liên%20kết-565a5f?style=flat-square)](docs/kiem-chung/)
+[![Số mục](https://img.shields.io/badge/mục-765-18794e?style=flat-square)](#mục-lục)
+[![Mức bằng chứng](https://img.shields.io/badge/bằng%20chứng-A%20127%20·%20B%20535%20·%20C%20103-915930?style=flat-square)](#mức-bằng-chứng)
+[![Nguồn](https://img.shields.io/badge/nguồn-2074%20liên%20kết-565a5f?style=flat-square)](docs/kiem-chung/)
 [![Giấy phép](https://img.shields.io/badge/giấy%20phép-CC%20BY%204.0-565a5f?style=flat-square)](#ghi-công-và-giấy-phép)
 [![Số star](https://img.shields.io/github/stars/quangpao/HowToLiveBetter?style=flat-square&label=star&color=eac54f)](https://github.com/quangpao/HowToLiveBetter)
 
@@ -144,7 +144,7 @@ Con số tử vong, con số thời gian và sức lực, con số tiền và h�
 | B | Nhiều nghiên cứu theo dõi, phân tích gộp lớn, kết quả nhất quán và có liều–đáp ứng, nhưng vẫn là nghiên cứu quan sát nên không chứng minh được nhân quả |
 | C | Chỉ có một nghiên cứu theo dõi duy nhất, hoặc nhiễu nặng, hoặc các nghiên cứu mâu thuẫn nhau, hoặc chỉ có khuyến cáo chuyên môn và kinh nghiệm |
 
-767 mục hiện có: A 127 mục, B 536 mục, C 104 mục. Mục nào có kết quả trái chiều thì ghi "tranh luận" và nêu cả bằng chứng phía ngược lại. Nguồn chỉ dẫn văn bản gốc — bài báo khoa học kèm DOI hoặc PubMed, hoặc văn bản của cơ quan nhà nước; không dẫn lại qua báo tổng hợp.
+765 mục hiện có: A 127 mục, B 535 mục, C 103 mục. Mục nào có kết quả trái chiều thì ghi "tranh luận" và nêu cả bằng chứng phía ngược lại. Nguồn chỉ dẫn văn bản gốc — bài báo khoa học kèm DOI hoặc PubMed, hoặc văn bản của cơ quan nhà nước; không dẫn lại qua báo tổng hợp.
 
 Mức A chỉ nói "có con số cụ thể, tra được", không nói quan hệ đó chắc chắn là nhân quả. Trong mức A có cả thử nghiệm ngẫu nhiên lẫn nghiên cứu chỉ theo dõi; loại sau không phân biệt được là việc đó có tác dụng hay là người làm việc đó vốn đã khỏe hơn. Muốn biết mục thuộc loại nào thì đọc cột "Lợi ích". Với mục về luật và chính sách, mức A nghĩa là đã dẫn được điều khoản hoặc văn bản gốc.
 
@@ -160,7 +160,7 @@ Mức bằng chứng chỉ trả lời "con số này có đáng tin không", kh
 
 Mức thấp nhất của ba chi phí là "không tốn tiền, tốn ít thời gian, không cần ý chí". "Tốn ít thời gian" là làm một lần trong vài phút, hoặc làm luôn tay.
 
-767 mục hiện có: rất cao 42 mục (6%), cao 226 mục (29%), trung bình 499 mục (65%). **Mức này là phán đoán của người biên soạn, không phải bằng chứng** — theo thang của chính cuốn sách thì nó chỉ đáng C. Nó và mức bằng chứng là hai chuyện khác nhau, không ảnh hưởng nhau: một mục có thể bằng chứng A mà đáng làm chỉ trung bình, hoặc bằng chứng C mà đáng làm rất cao. "Trung bình" không có nghĩa là đừng làm — mọi mục trong sách đều là việc nên làm, chỉ là khoản bỏ ra đáng hay không thì tự cân.
+765 mục hiện có: rất cao 42 mục (6%), cao 225 mục (29%), trung bình 498 mục (65%). **Mức này là phán đoán của người biên soạn, không phải bằng chứng** — theo thang của chính cuốn sách thì nó chỉ đáng C. Nó và mức bằng chứng là hai chuyện khác nhau, không ảnh hưởng nhau: một mục có thể bằng chứng A mà đáng làm chỉ trung bình, hoặc bằng chứng C mà đáng làm rất cao. "Trung bình" không có nghĩa là đừng làm — mọi mục trong sách đều là việc nên làm, chỉ là khoản bỏ ra đáng hay không thì tự cân.
 
 ## Đọc con số
 
@@ -202,7 +202,7 @@ Phần thân bài viết bằng lời thường, nhưng khi dẫn nghiên cứu 
 2. [Đừng để bản thân chết mòn](book/02-dung-chet-dan.md) — 47 mục: thuốc lá, rượu bia và trầu cau, chế độ ăn, vận động, giấc ngủ — những thứ giết từ từ, kèm cách đổi cụ thể như cai thuốc bằng thuốc hỗ trợ, đặt ngày cai, phòng tư vấn cai thuốc lá. Đổi lấy: mạng sống hoặc một nguyên nhân tử vong cụ thể.
 3. [Đừng lãng phí sức lực](book/03-dung-lang-phi-suc-luc.md) — 27 mục: tắt thông báo, giữ giờ thức cố định, chặn ngắt ngang, nói "không", bớt đòi hỏi hoàn hảo, đau kinh, mất ngủ, ngưng thở khi ngủ. Đổi lấy: sức chú ý và thời gian dùng được trong ngày.
 4. [Đừng lãng phí thời gian](book/04-dung-lang-phi-thoi-gian.md) — 18 mục: viết "định làm" thành giờ và địa điểm, viết sẵn điều kiện dừng, chỉ tính phần còn lại, ước theo việc đã làm thật, họp đứng và cắt họp, chia bước nhỏ, đặt tiền cược, thói quen tính theo tháng, giới hạn cứng cho video ngắn, và chọn chỗ ở theo thời gian đi làm. Đổi lấy: số giờ lấy lại được mỗi tuần và tỉ lệ làm xong đúng hạn.
-5. [Đừng lãng phí tiền](book/05-dung-lang-phi-tien.md) — 51 mục: tắt gia hạn tự động và đòi quyền hủy dịch vụ liên tục (Luật 19/2023/QH15), quyết toán thuế, quỹ nhà ở không có ở VN thì vay ưu đãi, bảo hiểm mua đúng loại, và danh sách bẫy giá từ gói cước tới mua xe. Đổi lấy: số tiền đang rò ra mỗi tháng.
+5. [Đừng lãng phí tiền](book/05-dung-lang-phi-tien.md) — 50 mục: tắt gia hạn tự động và đòi quyền hủy dịch vụ liên tục (Luật 19/2023/QH15), quyết toán thuế, quỹ nhà ở không có ở VN thì vay ưu đãi, bảo hiểm mua đúng loại, và danh sách bẫy giá từ gói cước tới mua xe. Đổi lấy: số tiền đang rò ra mỗi tháng.
 6. [Danh sách những thứ trông rẻ mà không có tác dụng](book/06-nhung-thu-vo-dung.md) — 35 mục: viên uống và thực phẩm bổ sung, gói khám sức khỏe, sản phẩm thải độc, đồ phong thủy, thủ thuật y tế không cần thiết, và câu trả lời của AI mà nên bỏ qua. Đổi lấy: tiền, thời gian và sự lo lắng không mất vào thứ không có tác dụng.
 7. [Không có tiền thì sống thế nào](book/07-khong-co-tien-thi-song-the-nao.md) — 23 mục: trợ cấp thất nghiệp, đòi lương, trợ giúp pháp lý, trợ cấp xã hội, BHYT, chỗ ở và nợ. Đổi lấy: quyền lợi lấy lại được đúng hạn.
 8. [Đừng tự chuốc họa vào thân](book/08-dung-tu-chuoc-hoa-vao-than.md) — 46 mục: tai nạn, lừa đảo, bị buộc tội, chữ ký và giấy vay, hôn nhân và tài sản, chứng cứ và bạo lực gia đình. Đổi lấy: tiền và tự do.
@@ -214,7 +214,7 @@ Phần thân bài viết bằng lời thường, nhưng khi dẫn nghiên cứu 
 14. [Những tài khoản và dữ liệu của bạn](book/14-nhung-tai-khoan-va-du-lieu-cua-ban.md) — 12 mục: xác thực hai lớp, mật khẩu hộp thư, khóa máy và mã PIN SIM, mất điện thoại, thẻ bị trừ tiền, thiết bị đăng nhập lạ, nút "đồng ý tất cả", quyền xem — sửa — xóa dữ liệu, xác thực khuôn mặt khi chuyển tiền, dán mã nguồn cho dịch vụ AI, thuê bao đứng tên, đổi số điện thoại.
 15. [Thuê và mua nhà](book/15-thue-va-mua-nha.md) — 18 mục: hợp đồng thuê và tiền cọc, bị cắt điện nước hay thay khóa để đuổi, kiểm giấy tờ và thế chấp trước khi ký, nhà chia phòng, đặt cọc và bảo lãnh nhà hình thành trong tương lai, chậm bàn giao, lãi suất thả nổi, nhà ở xã hội, phí quản lý chung cư, nhận nhà và bảo hành.
 16. [Bệnh mạn tính: sống tiếp thế nào](book/16-benh-man-tinh-song-tiep-the-nao.md) — 14 mục: uống thuốc đủ theo đơn và xin đơn dài ngày, đi khám đúng hẹn và giữ sổ chỉ số, không bỏ thuốc để thử thực phẩm bảo vệ sức khỏe, khám định kỳ miễn phí cho người có bệnh mạn tính, dùng bảo hiểm y tế đúng tuyến và đúng mức hưởng, công nhận kết quả xét nghiệm, biến chứng mắt — thận — bàn chân ở đái tháo đường, gút, viêm gan B, phổi tắc nghẽn mạn tính.
-17. [Trong nhà có người cao tuổi](book/17-trong-nha-co-nguoi-cao-tuoi.md) — 13 mục: ủy quyền và di chúc làm khi còn minh mẫn, giám hộ theo quyết định của tòa, tài khoản hai tên, các hình thức huy động tiền nhắm vào người cao tuổi, trợ cấp hưu trí xã hội và bảo hiểm y tế, loét do nằm lâu, đục thủy tinh thể, chấn thương khi dắt chó, nhà dưỡng lão, nghỉ chăm cha mẹ ốm, sa sút trí tuệ.
+17. [Trong nhà có người cao tuổi](book/17-trong-nha-co-nguoi-cao-tuoi.md) — 12 mục: ủy quyền và di chúc làm khi còn minh mẫn, giám hộ theo quyết định của tòa, tài khoản hai tên, các hình thức huy động tiền nhắm vào người cao tuổi, trợ cấp hưu trí xã hội và bảo hiểm y tế, loét do nằm lâu, đục thủy tinh thể, chấn thương khi dắt chó, nhà dưỡng lão, nghỉ chăm cha mẹ ốm, sa sút trí tuệ.
 18. [Nuôi con: tiền bạc và thời gian](book/18-nuoi-con-tien-bac-va-thoi-gian.md) — 7 mục: các khoản pháp luật trả thay khi sinh con, nghỉ thai sản và nghỉ của người cha, quyền không bị sa thải vì mang thai, tính thời gian bị chiếm, chi phí ba giai đoạn, sinh vì ai, và tuổi của người phụ nữ khi muốn sinh muộn.
 19. [Đang làm, nghỉ việc, và tai nạn lao động](book/19-dang-lam-nghi-viec-va-tai-nan-lao-dong.md) — 24 mục: tiền làm thêm, phép năm, thử việc, trợ cấp khi bị cho nghỉ, giữ chứng cứ trước khi rời, khám bệnh nghề nghiệp, khai báo và giám định tai nạn lao động, giấy xác nhận thôi việc, thuế với trợ cấp, giữ thời gian đóng bảo hiểm, điều khoản phạt, điều chuyển công việc, và lao động cho thuê lại.
 20. [Chăm trẻ sơ sinh](book/20-cham-tre-so-sinh.md) — 17 mục: ngủ an toàn, mũi viêm gan B trong 24 giờ, lịch tiêm chủng mở rộng và tiêm bù, bú mẹ và ăn bổ sung, pha sữa công thức, mật ong, vitamin K, sốt ở trẻ dưới 3 tháng, không rung lắc trẻ, chọn tã, đồ dùng lớn, dị ứng đậu phộng, vàng da sơ sinh, ăn chay, xe tập đi, vitamin D, và an toàn nước tắm.
@@ -233,7 +233,7 @@ Phần thân bài viết bằng lời thường, nhưng khi dẫn nghiên cứu 
 33. [Sau khi khuyết tật](book/33-sau-khi-khuyet-tat.md) — 21 mục: cơn rối loạn thần kinh thực vật, nguy cơ tự tử mười năm đầu, bắt buộc chữa bệnh, sức khỏe người chăm, loét do tì đè, đừng mua liệu pháp chữa khỏi, giấy xác nhận khuyết tật, trẻ khuyết tật, sửa nhà, doanh nghiệp nhận người khuyết tật, thuế, chó dẫn đường và vé, thi đại học, nhập học, giấy phép lái xe, phục hồi chức năng, máy trợ thính, mất năng lực hành vi dân sự, người giám hộ, kiện vì bị phân biệt đối xử, bàng quang thần kinh.
 34. [Thuốc trong nhà: đừng để phản tác dụng](book/34-thuoc-trong-nha.md) — 13 mục: trùng hoạt chất trong thuốc cảm, trẻ sốt và ba thuốc phải tránh, người trên 60 và người đang uống kháng đông, trẻ dưới 2 tuổi, mang thai từ tuần 20, omeprazol tự mua, cảm thường không cần kháng sinh, oresol pha đúng, đau đầu do lạm dụng giảm đau, thuốc hết hạn, rượu với kháng sinh, thuốc dị ứng và việc lái xe, bưởi với thuốc hạ mỡ.
 
-Đã đủ **34 chương, 767 mục**, biên soạn theo luật, thủ tục và giá cả của Việt Nam.
+Đã đủ **34 chương, 765 mục**, biên soạn theo luật, thủ tục và giá cả của Việt Nam.
 
 ## Nội dung
 
