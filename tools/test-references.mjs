@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
 import { read } from './lib/book.mjs';
-import { refs, readCatalog, prepareMarkdown } from './lib/references.mjs';
+import { refs, readCatalog, prepareMarkdown, withChapterIndex } from './lib/references.mjs';
 
 const c = readCatalog(), aliases = JSON.parse(read('data/entry-aliases.json')).aliases;
 const manifest = JSON.parse(read('data/entries.json'));
@@ -15,12 +15,19 @@ for (const e of c.entries) {
 let targets = 0;
 for (const s of c.sections) {
   const md = read(s.file);
+  const indexed = withChapterIndex(md,s.file,c), rows = indexed.split('\n').filter(l=>/^\| \d+ \|/.test(l));
+  assert.equal(rows.length,s.entries.length,'One lookup row per entry in ' + s.file);
+  for (const [i,e] of s.entries.entries()) assert.ok(rows[i].includes('#entry-' + e.id + ') | ' + e.grade.trim() + ' |'),'Lookup target/grade: ' + e.id);
+  const entryStart = /^### \d+\. /m;
+  assert.equal(indexed.slice(indexed.search(entryStart)),md.slice(md.search(entryStart)),'Chapter lookup must not alter entry content');
+  assert.ok(!/^\*\*Nhóm mục\*\*|^Các mục trong chương chia theo nhóm/m.test(indexed),'No duplicate group navigation in PDF/EPUB');
   const pdf = prepareMarkdown(md,s.file,c);
   for (const e of s.entries) assert.ok(pdf.includes('{#entry-' + e.id + '}'),'PDF destination missing: ' + e.id);
   assert.equal(refs.refreshLinks(md,c,s.file),md,'Stale location/number in ' + s.file);
   for (const link of refs.links(md)) for (const id of link.ids) { assert.ok(c.byId.has(id),id); targets++; }
 }
 const fixture = (chapter,number,title,id,legacy='') => `# ${chapter}. Test\n### ${number}. ${title}\n<!-- nhãn: tiền=0 -->\n<a name="entry-${id}"${legacy ? ` data-legacy="${legacy}"` : ''}></a>\n- Nói dễ hiểu: Text.\n`;
+assert.equal(withChapterIndex('# Tài liệu\nGiữ nguyên.', 'docs/guide.md',c),'# Tài liệu\nGiữ nguyên.','Long reads do not receive a chapter lookup');
 const moved = refs.catalog({'book/02-test.md':fixture(2,8,'Changed title','seat-belt','1-1')});
 const linked = '[chương 1 mục 1](01-old.md#entry-seat-belt)';
 assert.equal(refs.refreshLinks(linked,moved,'book/03-test.md'),'[chương 2 mục 8](02-test.md#entry-seat-belt)');
@@ -43,6 +50,25 @@ assert.deepEqual(refs.links(crossList).flatMap(l=>l.ids),['a','b'],'A repeated m
 const main = read('index.html');
 const mdLink = vm.runInNewContext(main.match(/const MD_LINK_RE = ([^\n]+);/)[1]);
 assert.ok(mdLink.test(range),'The website must recognize range metadata without exposing Markdown');
+// Render the real inline formatter with a minimal DOM: nested bold links must not
+// expose Markdown or reset the outer regex and lose following siblings.
+class InlineNode {
+  constructor(tag='') { this.tag = tag; this.children = []; this.dataset = {}; }
+  appendChild(child) { this.children.push(child); return child; }
+  set textContent(value) { this.children = [{textContent:String(value)}]; }
+  get textContent() { return this.children.map(n=>n.textContent).join(''); }
+}
+const inlineDOM = {createElement:tag=>new InlineNode(tag),createTextNode:text=>({textContent:text})};
+const appendText = (el,text)=>el.appendChild(inlineDOM.createTextNode(text));
+const renderContext = {document:inlineDOM,BookReferences:refs,ENTRY_IDS:c.byId,state:{view:'chapters'},xrefInto:appendText,highlightInto:appendText,termify:()=>{}};
+vm.runInNewContext(main.slice(main.indexOf('const URL_RE ='),main.indexOf('// <split-rules>')),renderContext);
+const output = new InlineNode('p'), examples = c.entries.slice(0,3);
+const linkText = examples.map((e,i)=>(i<2?'**':'') + `[mục ${i+1}](test.md#entry-${e.id})` + (i<2?'**':'')).join(' và ');
+renderContext.renderText(output,linkText + ' **Ghi chú**.',[]);
+const inlineLinks = node => (node.children || []).flatMap(child=>child.tag==='a'?[child]:inlineLinks(child));
+assert.equal(output.textContent,'mục 1 và mục 2 và mục 3 Ghi chú.');
+assert.deepEqual(inlineLinks(output).map(a=>a.href),examples.map(e=>'?view=chapters#entry-' + e.id));
+assert.equal(output.children.filter(n=>n.tag==='strong').length,3);
 assert.equal(refs.migrateLine('Điều 24 khoản 1; Luật 12/2020/QH14 mục 2.',1,small,'book/01-test.md'),'Điều 24 khoản 1; Luật 12/2020/QH14 mục 2.');
 assert.equal(refs.references('mục 2',1,small,{source:true}).length,0,'Source-law section numbers are not book references');
 assert.equal(refs.references('mục 2',1,small,{doc:true}).length,0,'Bare numbers in long reads are not inferred');

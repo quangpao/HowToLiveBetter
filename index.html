@@ -874,9 +874,11 @@ function parseReadme(md){
       else if ((m = /^- Ghi chú:(.*)$/.exec(line))) entry.note = m[1];
       continue;
     }
-    if (line) sec.intro.push(line);   // Gom mọi đoạn dẫn nhập trước điều đầu tiên, không chỉ đoạn đầu
+    if (line) sec.intro.push(line);
   }
   flush();
+  // Cùng quy tắc với PDF/EPUB: bảng Tra nhanh thay danh sách nhóm; giữ các đoạn giải thích riêng.
+  for (const s of sections) s.intro = BookReferences.withoutGroupIndex(s.intro);
   for (const s of sections) for (const e of s.entries){
     // Dùng căn cứ có số hiệu ở Nguồn để vẫn tra được các mục chưa tách.
     // Kết quả lọc không phải xác nhận văn bản còn hiệu lực.
@@ -1001,7 +1003,9 @@ function renderText(el, text, terms, withTerms = true, urlsLast = false){
     pushText(text.slice(last, m.index));
     last = m.index + m[0].length;
     if (m[4] !== undefined){
-      const b = document.createElement('strong'); highlightInto(b, unescMd(m[4]), terms); el.appendChild(b); justHeld = false;
+      const b = document.createElement('strong'), next = LINK_RE.lastIndex;
+      renderText(b,m[4],terms,false); LINK_RE.lastIndex = next;
+      el.appendChild(b); justHeld = false;
       continue;
     }
     if (m[3]){

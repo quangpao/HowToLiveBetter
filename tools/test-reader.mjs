@@ -1,8 +1,8 @@
 // Bookmarks must survive renumbering and malformed browser storage.
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
-import { read, readBook } from './lib/book.mjs';
-import { readCatalog } from './lib/references.mjs';
+import { read, readBook, COST_W } from './lib/book.mjs';
+import { refs, readCatalog } from './lib/references.mjs';
 
 const html = read('index.html');
 const rules = html.match(/\/\/ <reader-rules>[\s\S]*?\/\/ <\/reader-rules>/);
@@ -11,6 +11,29 @@ const ctx = { URLSearchParams };
 vm.runInNewContext(rules[0], ctx);
 const { readerFont, readerPosition, readerUrlPosition } = ctx;
 const sections = readCatalog().sections;
+// Exercise the actual Web parser across every chapter, not a copy of its navigation rules.
+const parser = html.match(/function parseReadme\(md\)\{[\s\S]*?\n\}/);
+assert.ok(parser,'Missing website parser');
+const browser = {BookReferences:refs,COST_W,fold:s=>s};
+vm.runInNewContext(parser[0],browser);
+const web = browser.parseReadme(readBook().bookFiles.map(read).join('\n\n'));
+assert.equal(web.length,sections.length);
+for (const [i,s] of sections.entries()) {
+  assert.equal(web[i].entries.length,s.entries.length);
+  assert.ok(!web[i].intro.some(p=>p.startsWith('**Nhóm mục**') || p.startsWith('Các mục trong chương chia theo nhóm')),'Duplicate group navigation: ' + s.file);
+  for (const line of s.intro.filter(p=>/^(?:Chương này|Về thang bằng chứng:|Về bối cảnh Việt Nam:|Ở Việt Nam,|Phần lớn con số|Ba mục 5, 6 và 40)/.test(p))) {
+    assert.ok(web[i].intro.includes(line),'Meaningful introduction was dropped: ' + s.file);
+  }
+  for (const [j,e] of s.entries.entries()) {
+    assert.equal(web[i].entries[j].id,e.id);
+    for (const field of ['cost','human','gain','legal','note','src']) assert.equal(web[i].entries[j][field],e[field] || '');
+  }
+}
+assert.equal(web[0].intro.length,1,'Chapter 1 keeps its introduction without the multi-paragraph group list');
+assert.equal(web[1].intro.length,2,'Keep the Vietnam-specific explanation after chapter 2’s group list');
+assert.equal(web[2].intro.length,3,'Keep chapter 3’s evidence and local context paragraphs');
+const introFixture = '# 1. Test\n\nMở đầu.\n\nCác mục trong chương chia theo nhóm như sau, số trong ngoặc là số mục.\n\n**Nhóm thử**: [mục 1](test.md#entry-test).\n\nGiải thích riêng sau nhóm.\n\n**Lưu ý**: xem [mục 1](test.md#entry-test) trước khi bắt đầu.\n\n### 1. Test\n- Nói dễ hiểu: Nội dung mục.\n';
+assert.deepEqual(Array.from(browser.parseReadme(introFixture)[0].intro),['Mở đầu.','Giải thích riêng sau nhóm.','**Lưu ý**: xem [mục 1](test.md#entry-test) trước khi bắt đầu.']);
 let total = 0;
 for (const s of sections) for (const entry of s.entries) {
   const key = `${s.n}-${entry.n}`;
@@ -51,4 +74,4 @@ assert.equal(readerUrlPosition('?view=book&chapter=1','#entry-original',moved).c
 assert.equal(readerUrlPosition('?view=book&chapter=1','#e-1-1',moved).entry,'2-8');
 assert.equal(readerUrlPosition('?view=book&chapter=2','#e-2-8',moved).entry,'intro','Unassigned old link must not jump to an unrelated current position');
 assert.equal(readerPosition({id:'deleted',chapter:'2',entry:'2-8'},moved).entry,'intro');
-console.log(`PASS: reader links for ${total} entries in ${sections.length} chapters; bookmark recovery and font bounds`);
+console.log(`PASS: reader links and unchanged fields for ${total} entries in ${sections.length} chapters; clean introductions, bookmark recovery and font bounds`);

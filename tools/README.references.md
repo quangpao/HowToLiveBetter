@@ -1,6 +1,6 @@
 # ID, bảng tra cứu và căn cứ pháp luật
 
-Markdown trong `book/` vẫn là nguồn nội dung duy nhất. Số chương và số mục phục vụ việc đọc; ID cố định phục vụ liên kết. Web sinh bảng tra cứu của từng chương từ chính các mục đó, không duy trì một bảng nội dung thứ hai.
+Markdown trong `book/` vẫn là nguồn nội dung duy nhất. Số chương và số mục phục vụ việc đọc; ID cố định phục vụ liên kết. Web, HTML offline, PDF và EPUB sinh bảng Tra nhanh của từng chương từ chính các mục đó, với số mục, tiêu đề bấm được và mức bằng chứng. Cả bốn đầu ra bỏ phần “Nhóm mục” cùng danh sách nhóm nhiều đoạn ở đầu chương để không lặp với bảng; vẫn giữ phần giới thiệu, bằng chứng và bối cảnh Việt Nam, kể cả đoạn nằm sau danh sách nhóm. Quy tắc bỏ nhóm dùng chung trong `assets/book-references.js`; Markdown gốc được giữ nguyên.
 
 ## Sửa và thêm mục
 

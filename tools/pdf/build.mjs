@@ -1,14 +1,14 @@
 // Dàn README + book/*.md + docs/*.md thành một quyển PDF: pandoc chuyển Markdown sang typst, typst dàn trang.
 // Cách dùng: node tools/pdf/build.mjs [đường dẫn đầu ra]   mặc định ghi dist/HowToLiveBetter.pdf
 // Cần pandoc (≥3.1, phải có đầu ra typst) và typst (≥0.13) trên PATH, hoặc dùng biến môi trường PANDOC, TYPST trỏ đường dẫn.
-// Bố cục nằm trong tools/pdf/template.typ; không sửa một chữ nào của nội dung, chỉ làm ba việc:
-// bỏ dòng "← Về mục lục", gắn neo cho tiêu đề mỗi chương, đổi liên kết trong repo thành nhảy trong sách hoặc địa chỉ GitHub.
+// Bố cục nằm trong tools/pdf/template.typ; giữ nội dung các mục, sinh bảng Tra nhanh thay dẫn hướng nhóm,
+// bỏ dòng "← Về mục lục", gắn neo từng mục và chuyển liên kết sang nhảy trong sách hoặc địa chỉ GitHub.
 import { writeFileSync, mkdirSync, statSync } from 'node:fs';
 import { resolve, dirname, posix, basename } from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { ROOT, REPO, REPO_BRANCH, SITE, TITLE, README_FILE, read, readBook, gitCommit, buildStamp, stripBackLink } from '../lib/book.mjs';
 import { splitLongItems } from '../lib/split-items.mjs';
-import { readCatalog, prepareMarkdown } from '../lib/references.mjs';
+import { readCatalog, prepareMarkdown, withChapterIndex } from '../lib/references.mjs';
 import { validateCitations, annotateCitations, citationNotesMarkdown } from '../lib/citations.mjs';
 
 const OUT = resolve(ROOT, process.argv[2] ?? 'dist/HowToLiveBetter.pdf');
@@ -30,7 +30,7 @@ docFiles.forEach((f, i) => anchorOf.set(f, `doc-${i + 1}`));
 const pages = [
   { src: README_FILE, md: `# Lời mở\n\n${description}\n\n${frontMd}`, anchor: 'front' },
   { src: README_FILE, md: contentsMd.replace(/^## Mục lục/, '# Tóm tắt các chương'), anchor: 'contents' },
-  ...[...bookFiles, ...docFiles].map(src => ({ src, md: splitLongItems(stripBackLink(read(src))), anchor: anchorOf.get(src) })),
+  ...[...bookFiles, ...docFiles].map(src => ({ src, md: splitLongItems(withChapterIndex(stripBackLink(read(src)),src,catalog)), anchor: anchorOf.get(src) })),
   { src: 'legal-notes', md: citationNotesMarkdown(catalog,{heading:ref => ' {#law-' + ref.id + '}'}), anchor:'legal-notes' },
   { src: README_FILE, md: aboutMd(), anchor: 'about' },
 ];

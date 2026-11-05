@@ -10,6 +10,10 @@ code { font-family: monospace; font-size: 0.9em; }
 pre { white-space: pre-wrap; word-break: break-all; font-size: 0.85em; border: 1px solid #cccccc; padding: 0.5em; }
 table { border-collapse: collapse; width: 100%; font-size: 0.9em; margin: 0.8em 0; }
 th, td { border: 1px solid #999999; padding: 0.3em 0.4em; vertical-align: top; text-align: left; }
+.chapter-index th:first-child, .chapter-index td:first-child { width: 2em; }
+.chapter-index th:last-child, .chapter-index td:last-child { width: 5em; }
+.chapter-index a { word-break: normal; overflow-wrap: anywhere; }
+.chapter-index tr { break-inside: avoid; page-break-inside: avoid; }
 blockquote { margin: 1em 0; padding-left: 1em; border-left: 3px solid #cccccc; color: #555555; }
 hr { border: 0; border-top: 1px solid #cccccc; margin: 1.5em 0; }
 .cover { text-align: center; }

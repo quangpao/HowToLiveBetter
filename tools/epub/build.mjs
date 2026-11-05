@@ -7,7 +7,7 @@ import { zip } from '../lib/zip.mjs';
 import { Marked, Tokenizer } from 'marked';
 import { splitLongItems } from '../lib/split-items.mjs';
 import { ROOT, REPO, REPO_BRANCH, SITE, TITLE, read, readBook, gitCommit, buildStamp, stripBackLink } from '../lib/book.mjs';
-import { refs, readCatalog } from '../lib/references.mjs';
+import { refs, readCatalog, withChapterIndex } from '../lib/references.mjs';
 import { registry, validateCitations, annotateCitations, citationNotesMarkdown } from '../lib/citations.mjs';
 
 const OUT = resolve(ROOT, process.argv[2] ?? 'dist/HowToLiveBetter.epub');
@@ -31,7 +31,7 @@ const contentsMd = book.contentsMd.replace(/^## (?:Mục lục)/, '# Giới thi�
 const pages = [
   { file: 'front.xhtml', src: 'README.md', title: 'Lời mở', md: `# ${TITLE}\n\n${description}\n\n${frontMd}` },
   { file: 'contents.xhtml', src: 'README.md', title: 'Giới thiệu các chương', md: contentsMd },
-  ...bookFiles.map((src, i) => ({ file: `ch${String(i + 1).padStart(2, '0')}.xhtml`, src, md: splitLongItems(stripBackLink(read(src))) })),
+  ...bookFiles.map((src, i) => ({ file: `ch${String(i + 1).padStart(2, '0')}.xhtml`, src, md: splitLongItems(withChapterIndex(stripBackLink(read(src)),src,catalog)) })),
   ...docFiles.map((src, i) => ({ file: `doc${i + 1}.xhtml`, src, md: splitLongItems(stripBackLink(read(src))) })),
   { file:'legal-notes.xhtml', src:'legal-notes', title:'Trích dẫn pháp luật đã đối chiếu', md:citationNotesMarkdown(catalog) },
   { file: 'about.xhtml', src: 'README.md', title: 'Thông tin phiên bản', md: aboutMd() },
@@ -106,6 +106,7 @@ function rewriteHref(href) {
 
 function toXhtml(body) {
   return body
+    .replace(/<(th|td) align="(left|right|center)">/g,'<$1 style="text-align:$2">')
     .replace(/<(br|hr)>/g, '<$1/>')
     .replace(/<(img|input)\b([^>]*?)\s*\/?>/g, '<$1$2/>')
     .replace(/&(?!(amp|lt|gt|quot|apos|#\d+|#x[0-9a-fA-F]+);)/g, '&amp;');
@@ -129,7 +130,8 @@ for (const p of pages) {
   current = p;
   p.headings = [];
   const annotated = annotateCitations(p.md,p.src,catalog,ref => '#law-' + ref.id);
-  const body = toXhtml(marked.parse(refs.refreshLinks(annotated,catalog,p.src)));
+  let body = toXhtml(marked.parse(refs.refreshLinks(annotated,catalog,p.src)));
+  if (bookFiles.includes(p.src)) body = body.replace('<table>','<table class="chapter-index">');
   p.title ??= p.headings[0]?.text ?? p.file;
   p.xhtml = wrap(p.title, `<section epub:type="chapter">\n${body}</section>\n`);
 }

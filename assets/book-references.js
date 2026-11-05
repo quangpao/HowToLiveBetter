@@ -82,6 +82,16 @@
   function links(text) {
     return [...text.matchAll(LINK)].map(m => ({index:m.index,text:m[0],label:m[1],href:m[2],ids:idsOf(m[2],m[3])})).filter(x => x.ids.length);
   }
+  function withoutGroupIndex(lines) {
+    let inGroupIndex = false;
+    return lines.filter(line => {
+      if (/^\*\*Nhóm mục\*\*\s*:/.test(line)) return false;
+      if (/^Các mục trong chương chia theo nhóm như sau,/.test(line)) { inGroupIndex = true; return false; }
+      if (!line.trim()) return true;
+      if (inGroupIndex && /^\*\*[^*]+\*\*\s*:/.test(line) && links(line).length) return false;
+      inGroupIndex = false; return true;
+    });
+  }
   const RANGE = '\\d+(?:\\s*(?:đến|–|-)\\s*(?:mục\\s*)?\\d+)?';
   const SPEC = RANGE + '(?:\\s*(?:,|và)\\s*(?:mục\\s*)?' + RANGE + ')*';
   function references(text, sec, c, {source = false, doc = false} = {}) {
@@ -120,5 +130,5 @@
     }
     return out + text.slice(last);
   }
-  return {identity,section,catalog,slug,plainText,idsOf,hrefFor,labelFor,refreshLinks,links,references,migrateLine,fieldNames:FIELDS};
+  return {identity,section,catalog,slug,plainText,idsOf,hrefFor,labelFor,refreshLinks,links,withoutGroupIndex,references,migrateLine,fieldNames:FIELDS};
 });
