@@ -21,7 +21,7 @@ Cách tính từ neo: hai từ liền nhau trùng tiêu đề đích, hoặc m�
 như 12356, AED, BMI, LPR) xuất hiện trong tiêu đề. Chỉ trùng một từ chung chung ("người", "tiền")
 thì không tính.
 
-Tổng 710 chỗ tham chiếu.
+Tổng 708 chỗ tham chiếu.
 
 ## 01-dung-chet-som
 
@@ -232,21 +232,20 @@ Tổng 710 chỗ tham chiếu.
 | --- | --- | --- | --- |
 | đầu chương | mục 1 | Tắt hết gia hạn tự động, tới hạn thì tự bấm | … chi tiêu hằng ngày (… |
 | đầu chương | mục 5 | Không mua vé số: mỗi 10.000 đồng luật chỉ cho trả thưởng tối đa 5.000 đồng | …21, 23, 24) · mua bốc đồng và tiền của con (… |
-| đầu chương | mục 7 | Trả đủ dư nợ thẻ mỗi tháng; nếu buộc phải vay, đổi mọi con số về %/năm rồi mới so | …5, 8, 9, 10, 33, 34, 35) · vay và lãi suất (… |
-| đầu chương | mục 15 | Giao dịch càng nhiều thì tiền ở lại càng ít — thị trường dựng đứng càng phải ngồi yên | …35) · vay và lãi suất (mục 7, 28) · đầu tư (… |
-| đầu chương | mục 25 | Mua bảo hiểm thuần bảo vệ; tiền "hoàn lại" và "chia lãi" là phần không được đảm bảo | …16, 17, 18, 19, 37, 38, 45, 51) · bảo hiểm (… |
-| đầu chương | mục 2 | Mỗi năm làm một lần quyết toán thuế thu nhập cá nhân, và điền hết người phụ thuộc | …43, 44) · thuế, lương hưu, bảo hiểm xã hội (… |
-| đầu chương | mục 22 | Trả tiền trước thì lấy hợp đồng và hóa đơn — phần chưa dùng vẫn là tiền của bạn | …c 2, 3, 13, 20, 46) · mua sắm và khiếu nại (… |
-| đầu chương | mục 47 | Nhận xe mới: kiểm ngay tại chỗ, và biết rằng Việt Nam không có "7 ngày đổi xe" | …ả tiền trước, 29, 30, 31, 32, 36, 50) · xe (… |
-| đầu chương | mục 6 | Ai hứa lãi cao gấp mấy lần tiết kiệm thì đó không phải cơ hội, mà là chỗ mất tiền | …0) · xe (mục 47, 48, 49) · tiết kiệm và nợ (… |
+| đầu chương | mục 7 | Trả đủ dư nợ thẻ mỗi tháng; nếu buộc phải vay, đổi mọi con số về %/năm rồi mới so | …mục 5, 8, 9, 10, 33, 34) · vay và lãi suất (… |
+| đầu chương | mục 15 | Giao dịch càng nhiều thì tiền ở lại càng ít — thị trường dựng đứng càng phải ngồi yên | …34) · vay và lãi suất (mục 7, 28) · đầu tư (… |
+| đầu chương | mục 25 | Mua bảo hiểm thuần bảo vệ; tiền "hoàn lại" và "chia lãi" là phần không được đảm bảo | …16, 17, 18, 19, 36, 37, 44, 50) · bảo hiểm (… |
+| đầu chương | mục 2 | Mỗi năm làm một lần quyết toán thuế thu nhập cá nhân, và điền hết người phụ thuộc | …42, 43) · thuế, lương hưu, bảo hiểm xã hội (… |
+| đầu chương | mục 22 | Trả tiền trước thì lấy hợp đồng và hóa đơn — phần chưa dùng vẫn là tiền của bạn | …c 2, 3, 13, 20, 45) · mua sắm và khiếu nại (… |
+| đầu chương | mục 46 | Nhận xe mới: kiểm ngay tại chỗ, và biết rằng Việt Nam không có "7 ngày đổi xe" | …ả tiền trước, 29, 30, 31, 32, 35, 49) · xe (… |
+| đầu chương | mục 6 | Ai hứa lãi cao gấp mấy lần tiết kiệm thì đó không phải cơ hội, mà là chỗ mất tiền | …9) · xe (mục 46, 47, 48) · tiết kiệm và nợ (… |
 | mục 4 | mục 1 | Tắt hết gia hạn tự động, tới hạn thì tự bấm | …p tiền thì gói vẫn sống tới hết chu kỳ (xem … |
 | mục 8 | mục 9 | Con bạn nạp tiền vào game: dưới 15 tuổi còn đòi lại được, từ 15 tuổi thì gần như mất | …ộc độ tuổi, cách giao dịch và chứng cứ (xem … |
 | mục 8 | mục 9 | Con bạn nạp tiền vào game: dưới 15 tuổi còn đòi lại được, từ 15 tuổi thì gần như mất | … của con, và cách đó hẹp dần theo tuổi (xem … |
 | mục 16 | mục 7 | Trả đủ dư nợ thẻ mỗi tháng; nếu buộc phải vay, đổi mọi con số về %/năm rồi mới so | … lãi thẻ tín dụng 30,5%–44,5%/năm (… |
 | mục 27 | mục 7 | Trả đủ dư nợ thẻ mỗi tháng; nếu buộc phải vay, đổi mọi con số về %/năm rồi mới so | … lãi thẻ tín dụng 30,5%–44,5%/năm (… |
 | mục 28 | mục 27 | Để riêng ba đến sáu tháng chi tiêu, ở chỗ rút được trong ngày | … luôn giữ quỹ dự phòng (… |
-| mục 33 | mục 34 | Đá quý chỉ tin phiếu của phòng đã được công nhận, và tra mã đó trên trang của Văn phòng Công nhận Chất lượng | … xem … |
-| mục 42 | mục 41 | Hợp đồng bảo hiểm trên một năm có 21 ngày cân nhắc: hủy trong hạn thì lấy lại được phần lớn phí | …à chỉ trong 21 ngày đầu mới gần như đủ (xem … |
+| mục 41 | mục 40 | Hợp đồng bảo hiểm trên một năm có 21 ngày cân nhắc: hủy trong hạn thì lấy lại được phần lớn phí | …à chỉ trong 21 ngày đầu mới gần như đủ (xem … |
 
 ## 06-nhung-thu-vo-dung
 
@@ -488,19 +487,18 @@ Tổng 710 chỗ tham chiếu.
 | đầu chương | mục 3 | Giám hộ: khi ông bà không còn tự quyết thì phải có quyết định của tòa, và phần chuẩn bị làm được từ trước | … … |
 | đầu chương | mục 4 | Tiền dưỡng già: một tài khoản hai tên mở ở quầy, nguyên tắc mọi lệnh phải có cả hai, và một câu từ chối tập sẵn | … … |
 | đầu chương | mục 5 | Huy động vốn lãi cao: bốn câu kiểm được trước khi ông bà đưa tiền | … … |
-| đầu chương | mục 6 | "Thế chấp nhà để lấy lương hưu": Việt Nam không có sản phẩm đó | … … |
-| đầu chương | mục 7 | Khi ông bà mất khả năng tự chăm: 540.000 đồng, thẻ bảo hiểm y tế, và hợp đồng ủy nhiệm chăm sóc | … … |
-| đầu chương | mục 8 | Loét do nằm lâu: nhìn da ở ba chỗ xương lồi mỗi ngày, và trở mình theo giờ | … … |
-| đầu chương | mục 9 | Đục thủy tinh thể: chỉ định mổ tính bằng việc mắt còn làm được gì, không bằng một con số thị lực | … … |
-| đầu chương | mục 10 | Dắt chó và chấn thương: một tay giữ dây, và ngã ở tuổi 60 thì đi chụp phim ngay | … … |
-| đầu chương | mục 11 | Nhà dưỡng lão: tra cơ sở trong danh sách đang hoạt động, và đọc hợp đồng theo mẫu trước khi ký | … … |
-| đầu chương | mục 12 | Nghỉ chăm cha mẹ ốm: không có chế độ riêng, nên dùng phép năm và thỏa thuận nghỉ không lương | … … |
-| đầu chương | mục 13 | Sa sút trí tuệ: quên gần, lạc đường, giảm chức năng là việc phải đi khám, không phải "lẫn tuổi già" | … … |
+| đầu chương | mục 6 | Khi ông bà mất khả năng tự chăm: 540.000 đồng, thẻ bảo hiểm y tế, và hợp đồng ủy nhiệm chăm sóc | … … |
+| đầu chương | mục 7 | Loét do nằm lâu: nhìn da ở ba chỗ xương lồi mỗi ngày, và trở mình theo giờ | … … |
+| đầu chương | mục 8 | Đục thủy tinh thể: chỉ định mổ tính bằng việc mắt còn làm được gì, không bằng một con số thị lực | … … |
+| đầu chương | mục 9 | Dắt chó và chấn thương: một tay giữ dây, và ngã ở tuổi 60 thì đi chụp phim ngay | … … |
+| đầu chương | mục 10 | Nhà dưỡng lão: tra cơ sở trong danh sách đang hoạt động, và đọc hợp đồng theo mẫu trước khi ký | … … |
+| đầu chương | mục 11 | Nghỉ chăm cha mẹ ốm: không có chế độ riêng, nên dùng phép năm và thỏa thuận nghỉ không lương | … … |
+| đầu chương | mục 12 | Sa sút trí tuệ: quên gần, lạc đường, giảm chức năng là việc phải đi khám, không phải "lẫn tuổi già" | … … |
 | mục 4 | mục 2 | Di chúc: viết khi còn minh mẫn, bản sau thay bản trước, và công chứng không khóa di chúc lại | …pháp luật, tức lại quay về giấy tờ thừa kế (… |
 | mục 4 | mục 3 | Giám hộ: khi ông bà không còn tự quyết thì phải có quyết định của tòa, và phần chuẩn bị làm được từ trước | …(mục 2) và giám hộ theo quyết định của tòa (… |
-| mục 9 | mục 5 | Huy động vốn lãi cao: bốn câu kiểm được trước khi ông bà đưa tiền | … Phần D … |
-| mục 9 | mục 4 | Tiền dưỡng già: một tài khoản hai tên mở ở quầy, nguyên tắc mọi lệnh phải có cả hai, và một câu từ chối tập sẵn | … Phần D … |
-| mục 10 | mục 8 | Loét do nằm lâu: nhìn da ở ba chỗ xương lồi mỗi ngày, và trở mình theo giờ | …ài ngày là thêm một vết loét do tì đè, đúng … |
+| mục 8 | mục 5 | Huy động vốn lãi cao: bốn câu kiểm được trước khi ông bà đưa tiền | … Phần D … |
+| mục 8 | mục 4 | Tiền dưỡng già: một tài khoản hai tên mở ở quầy, nguyên tắc mọi lệnh phải có cả hai, và một câu từ chối tập sẵn | … Phần D … |
+| mục 9 | mục 7 | Loét do nằm lâu: nhìn da ở ba chỗ xương lồi mỗi ngày, và trở mình theo giờ | …ài ngày là thêm một vết loét do tì đè, đúng … |
 
 ## 18-nuoi-con-tien-bac-va-thoi-gian
 
@@ -833,7 +831,7 @@ Tổng 710 chỗ tham chiếu.
 | đầu chương | mục 16 | Vay vốn để tự tạo việc làm: hỏi Ngân hàng Chính sách xã hội trước khi tìm vay nóng | … … |
 | đầu chương | mục 17 | Chuyện "còn là sinh viên mới tốt nghiệp": không có trong luật tuyển dụng, chỉ có trong từng thông báo | … … |
 | mục 9 | mục 5 | Xuất ngũ về thì việc làm tính từ ba chỗ, và cửa đăng ký chỉ mở 15 ngày làm việc | …m việc vẫn phải đi đăng ký ngạch dự bị, như … |
-| mục 11 | chương 5 mục 46 | Không có lương hưu công ty: đóng bảo hiểm xã hội tự nguyện ở mức thấp nhất, đủ 15 năm, khoảng 8 năm là hoàn vốn | … ra tiền và phần ngân sách hỗ trợ đã tính ở … |
+| mục 11 | chương 5 mục 45 | Không có lương hưu công ty: đóng bảo hiểm xã hội tự nguyện ở mức thấp nhất, đủ 15 năm, khoảng 8 năm là hoàn vốn | … ra tiền và phần ngân sách hỗ trợ đã tính ở … |
 
 ## 32-di-du-hoc
 
