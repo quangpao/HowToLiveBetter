@@ -2,7 +2,7 @@
 
 File này do `node tools/check-refs.mjs` sinh ra, đừng sửa tay.
 
-Tham chiếu trong sách chỉ ghi số mục, không ghi nội dung; chèn hay xoá một mục thì số của
+Tham chiếu trong sách chỉ ghi số mục, không ghi nội dung; chèn hay xóa một mục thì số của
 mọi mục sau đổi hết, mà số mới thường vẫn nằm trong khoảng hợp lệ nên chỉ kiểm "vượt quá số mục"
 không bắt được. Vì vậy mỗi tham chiếu được mở ra thành **tiêu đề mà nó thực sự trỏ tới** và ghi vào
 đây: sửa xong chạy lại, chỗ nào số mục không đổi mà tiêu đề đổi thì `git diff` chỉ ra ngay.
@@ -21,7 +21,7 @@ Cách tính từ neo: hai từ liền nhau trùng tiêu đề đích, hoặc m�
 như 12356, AED, BMI, LPR) xuất hiện trong tiêu đề. Chỉ trùng một từ chung chung ("người", "tiền")
 thì không tính.
 
-Tổng 709 chỗ tham chiếu.
+Tổng 710 chỗ tham chiếu.
 
 ## 01-dung-chet-som
 
@@ -111,17 +111,17 @@ Tổng 709 chỗ tham chiếu.
 | đầu chương | mục 38 | Thức khuya thì ngủ bù ngay đêm sau — đừng để dồn tới cuối tuần | …7), thức khuya thì đêm hôm sau ngủ bù ngay (… |
 | đầu chương | mục 39 | Làm ca đêm — chuyển sang ca ngày khi còn chuyển được | …), làm ca đêm thì chuyển việc sớm nếu được (… |
 | đầu chương | mục 29 | Đừng đốt than, củi trong nhà để nấu ăn hay sưởi | … nấu ăn, sưởi không đốt than và củi (… |
-| đầu chương | mục 40 | Đừng mua dầu lạc ép thủ công bán rời — chiên không phá huỷ được aflatoxin | …29), không mua dầu lạc ép thủ công bán rời (… |
+| đầu chương | mục 40 | Đừng mua dầu lạc ép thủ công bán rời — chiên không phá hủy được aflatoxin | …29), không mua dầu lạc ép thủ công bán rời (… |
 | đầu chương | mục 41 | Dùng dầu thực vật thay mỡ lợn và bơ — nhưng đừng chiên lại dầu nhiều lần | …c 40), dùng dầu thực vật thay mỡ lợn và bơ (… |
 | đầu chương | mục 42 | Bật máy hút mùi từ lúc bắt đầu nấu, tắt sau khi dọn xong | …út mùi từ lúc bắt đầu nấu đến lúc dọn xong (… |
 | đầu chương | mục 10 | Đánh răng hai lần một ngày bằng kem có fluor, và làm sạch kẽ răng — đừng tin quảng cáo | …ẩn thận, mỗi ngày làm sạch kẽ răng một lần (… |
 | đầu chương | mục 12 | Uống thuốc theo đơn đều đặn — bỏ thuốc là chỗ chết người nhất trong điều trị bệnh mạn tính | …10), uống thuốc đều theo đơn, đừng tự dừng (… |
 | đầu chương | mục 31 | Ban ngày ra ngoài trời — nhưng là nắng sớm, không phải nắng trưa | …ng (mục 12), ban ngày ra ngoài cho có nắng (… |
 | đầu chương | mục 36 | Có bồn thì tắm — nhưng ngâm bồn là chỗ dễ ngất, phải cẩn thận | …có nắng (mục 31), có điều kiện thì tắm bồn (… |
-| đầu chương | mục 43 | Bốc hoả, vã mồ hôi tuổi mãn kinh mà ảnh hưởng sinh hoạt thì đi khám — đừng tự chịu | … thì đi khám để đánh giá liệu pháp hormone (… |
+| đầu chương | mục 43 | Bốc hỏa, vã mồ hôi tuổi mãn kinh mà ảnh hưởng sinh hoạt thì đi khám — đừng tự chịu | … thì đi khám để đánh giá liệu pháp hormone (… |
 | đầu chương | mục 5 | Gọi tổng đài tư vấn cai thuốc, hoặc đi phòng tư vấn cai thuốc lá | … **… |
 | đầu chương | mục 6 | Thuốc lá điện tử: ở Việt Nam đã bị cấm, đừng coi là cách cai | … Việt Nam, không phải số của nước ngoài), **… |
-| đầu chương | mục 40 | Đừng mua dầu lạc ép thủ công bán rời — chiên không phá huỷ được aflatoxin | … nên kết luận ngược với nơi còn cho bán), **… |
+| đầu chương | mục 40 | Đừng mua dầu lạc ép thủ công bán rời — chiên không phá hủy được aflatoxin | … nên kết luận ngược với nơi còn cho bán), **… |
 | mục 1 | mục 3 | Cai thuốc đừng chỉ dựa vào ý chí: uống thuốc trước đã | …c hỗ trợ và có người tư vấn — hai việc đó ở … |
 | mục 1 | mục 4 | Đặt một ngày cai, đến ngày đó bỏ hẳn — đừng giảm dần trước | …ư vấn — hai việc đó ở mục 3 (dùng thuốc) và … |
 | mục 5 | mục 3 | Cai thuốc đừng chỉ dựa vào ý chí: uống thuốc trước đã | … là đủ, và đừng dùng tư vấn thay cho thuốc (… |
@@ -201,7 +201,7 @@ Tổng 709 chỗ tham chiếu.
 | mục 17 | mục 14 | Thấy mình cứ nghĩ vòng vo về một chuyện khó chịu thì đổi sang việc cần tay chân | …rửa mặt, sang phòng khác làm việc tay chân (… |
 | mục 18 | mục 2 | Giữ giờ thức cố định, cuối tuần cũng vậy | …i đó** là hai việc đã có bằng chứng riêng ở … |
 | mục 18 | mục 8 | Một giờ trước khi ngủ không nhìn màn hình phát sáng | … phải buổi tối (buổi tối thì ngược lại, xem … |
-| mục 20 | mục 1 | Tắt thông báo không cần thiết, để điện thoại ra ngoài tầm mắt | … Sức khoẻ kỹ thuật số), tắt thông báo (… |
+| mục 20 | mục 1 | Tắt thông báo không cần thiết, để điện thoại ra ngoài tầm mắt | … Sức khỏe kỹ thuật số), tắt thông báo (… |
 | mục 22 | mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám Thêm vào tiêu đề: "khi không tự khá lên được | … đi khám (… |
 | mục 23 | mục 17 | Đang giận thì rời chỗ trước, coi người kia như thời tiết chứ không như kẻ thù | … rời chỗ (… |
 | mục 24 | mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám Thêm vào tiêu đề: "khi không tự khá lên được | … hại bản thân, thì **dừng lại và đi khám** (… |
@@ -236,24 +236,25 @@ Tổng 709 chỗ tham chiếu.
 | đầu chương | mục 15 | Giao dịch càng nhiều thì tiền ở lại càng ít — thị trường dựng đứng càng phải ngồi yên | …35) · vay và lãi suất (mục 7, 28) · đầu tư (… |
 | đầu chương | mục 25 | Mua bảo hiểm thuần bảo vệ; tiền "hoàn lại" và "chia lãi" là phần không được đảm bảo | …16, 17, 18, 19, 37, 38, 45, 51) · bảo hiểm (… |
 | đầu chương | mục 2 | Mỗi năm làm một lần quyết toán thuế thu nhập cá nhân, và điền hết người phụ thuộc | …43, 44) · thuế, lương hưu, bảo hiểm xã hội (… |
-| đầu chương | mục 22 | Trả tiền trước thì lấy hợp đồng và hoá đơn — phần chưa dùng vẫn là tiền của bạn | …c 2, 3, 13, 20, 46) · mua sắm và khiếu nại (… |
+| đầu chương | mục 22 | Trả tiền trước thì lấy hợp đồng và hóa đơn — phần chưa dùng vẫn là tiền của bạn | …c 2, 3, 13, 20, 46) · mua sắm và khiếu nại (… |
 | đầu chương | mục 47 | Nhận xe mới: kiểm ngay tại chỗ, và biết rằng Việt Nam không có "7 ngày đổi xe" | …ả tiền trước, 29, 30, 31, 32, 36, 50) · xe (… |
 | đầu chương | mục 6 | Ai hứa lãi cao gấp mấy lần tiết kiệm thì đó không phải cơ hội, mà là chỗ mất tiền | …0) · xe (mục 47, 48, 49) · tiết kiệm và nợ (… |
 | mục 4 | mục 1 | Tắt hết gia hạn tự động, tới hạn thì tự bấm | …p tiền thì gói vẫn sống tới hết chu kỳ (xem … |
+| mục 8 | mục 9 | Con bạn nạp tiền vào game: dưới 15 tuổi còn đòi lại được, từ 15 tuổi thì gần như mất | …ộc độ tuổi, cách giao dịch và chứng cứ (xem … |
 | mục 8 | mục 9 | Con bạn nạp tiền vào game: dưới 15 tuổi còn đòi lại được, từ 15 tuổi thì gần như mất | … của con, và cách đó hẹp dần theo tuổi (xem … |
 | mục 16 | mục 7 | Trả đủ dư nợ thẻ mỗi tháng; nếu buộc phải vay, đổi mọi con số về %/năm rồi mới so | … lãi thẻ tín dụng 30,5%–44,5%/năm (… |
 | mục 27 | mục 7 | Trả đủ dư nợ thẻ mỗi tháng; nếu buộc phải vay, đổi mọi con số về %/năm rồi mới so | … lãi thẻ tín dụng 30,5%–44,5%/năm (… |
 | mục 28 | mục 27 | Để riêng ba đến sáu tháng chi tiêu, ở chỗ rút được trong ngày | … luôn giữ quỹ dự phòng (… |
 | mục 33 | mục 34 | Đá quý chỉ tin phiếu của phòng đã được công nhận, và tra mã đó trên trang của Văn phòng Công nhận Chất lượng | … xem … |
-| mục 42 | mục 41 | Hợp đồng bảo hiểm trên một năm có 21 ngày cân nhắc: huỷ trong hạn thì lấy lại được phần lớn phí | …à chỉ trong 21 ngày đầu mới gần như đủ (xem … |
+| mục 42 | mục 41 | Hợp đồng bảo hiểm trên một năm có 21 ngày cân nhắc: hủy trong hạn thì lấy lại được phần lớn phí | …à chỉ trong 21 ngày đầu mới gần như đủ (xem … |
 
 ## 06-nhung-thu-vo-dung
 
 | Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
 | --- | --- | --- | --- |
 | đầu chương | mục 1 | Đừng uống viên đa vitamin để sống lâu hay để phòng bệnh tim mạch | … viên uống và thực phẩm bổ sung (… |
-| đầu chương | mục 7 | Đừng tự đi chụp PET-CT toàn thân hay làm gói chất chỉ điểm ung thư khi chưa có triệu chứng | … khám sức khoẻ và những thứ "phát hiện ra" (… |
-| đầu chương | mục 8 | Đừng mong vòng tay hay đồng hồ đếm bước giúp bạn giảm cân | … 20, 21, 33) · các thuyết giữ gìn sức khoẻ (… |
+| đầu chương | mục 7 | Đừng tự đi chụp PET-CT toàn thân hay làm gói chất chỉ điểm ung thư khi chưa có triệu chứng | … khám sức khỏe và những thứ "phát hiện ra" (… |
+| đầu chương | mục 8 | Đừng mong vòng tay hay đồng hồ đếm bước giúp bạn giảm cân | … 20, 21, 33) · các thuyết giữ gìn sức khỏe (… |
 | đầu chương | mục 15 | Đừng trả tiền cho thầy bói, tarot hay tử vi để quyết định thay mình | …26, 29, 35) · tiền mua may mắn và cảm giác (… |
 | đầu chương | mục 25 | Đừng tin "ý chí như cơ bắp, dùng một lúc là hết" | …ục 15, 22, 23, 24, 32) · ý chí và tình dục (… |
 | đầu chương | mục 31 | Đừng để chatbot AI tự phán bệnh và phán luật; tìm đúng câu gốc trước khi đi khám, đi kiện hay tiêu tiền lớn | … dục (mục 25, 27, 28) · câu trả lời của AI (… |
@@ -261,7 +262,7 @@ Tổng 709 chỗ tham chiếu.
 | mục 10 | mục 1 | Đừng uống viên đa vitamin để sống lâu hay để phòng bệnh tim mạch | …droitin, vitamin C phòng cảm — lần lượt ở **… |
 | mục 10 | mục 2 | Đừng uống dầu cá thường để phòng bệnh tim mạch | …droitin, vitamin C phòng cảm — lần lượt ở **… |
 | mục 10 | mục 3 | Đừng bổ sung vitamin D cho người không thiếu, với hy vọng sống lâu | …droitin, vitamin C phòng cảm — lần lượt ở **… |
-| mục 10 | mục 4 | Đừng uống viên chống oxy hoá để phòng ung thư | …droitin, vitamin C phòng cảm — lần lượt ở **… |
+| mục 10 | mục 4 | Đừng uống viên chống oxy hóa để phòng ung thư | …droitin, vitamin C phòng cảm — lần lượt ở **… |
 | mục 10 | mục 5 | Đừng trông vào glucosamine hay chondroitin để chữa đau khớp gối | …droitin, vitamin C phòng cảm — lần lượt ở **… |
 | mục 10 | mục 6 | Đừng trông vào vitamin C để phòng cảm | …droitin, vitamin C phòng cảm — lần lượt ở **… |
 | mục 22 | chương 5 mục 33 | Đồng hồ, đá quý, đồ chơi sưu tầm: tính bằng tiền đã ra khỏi túi, không bằng "giá trị sau này" | … vì sao đừng tính món này là đầu tư đã có ở … |
@@ -276,7 +277,7 @@ Tổng 709 chỗ tham chiếu.
 | đầu chương | mục 3 | Không đủ tiền thuê luật sư thì xin trợ giúp pháp lý nhà nước — miễn phí, nhưng chỉ cho nhóm luật định | …hưng không ai đo được số tiền tiết kiệm** — … |
 | đầu chương | mục 1 | Mất việc thì nộp hồ sơ trợ cấp thất nghiệp ngay: hạn là 3 tháng | … mất việc, thu nhập và tìm việc (… |
 | đầu chương | mục 4 | Đường cùng thì vào cơ sở trợ giúp xã hội, đừng tìm nhà tạm trú tự phát | … 14, 18) · trợ giúp xã hội, giấy tờ, chỗ ở (… |
-| đầu chương | mục 2 | Bị quỵt lương thì tìm thanh tra lao động, hoà giải viên, trọng tài — ra toà đòi lương cũng được miễn án phí | …, 16, 17, 21) · pháp lý lao động, y tế, nợ (… |
+| đầu chương | mục 2 | Bị quỵt lương thì tìm thanh tra lao động, hòa giải viên, trọng tài — ra tòa đòi lương cũng được miễn án phí | …, 16, 17, 21) · pháp lý lao động, y tế, nợ (… |
 | mục 6 | mục 7 | Thu nhập dưới chuẩn nghèo thì đăng ký hộ nghèo, trên một chút thì xin các chính sách hỗ trợ khác | … Thu nhập thấp kéo dài thì xem … |
 | mục 16 | mục 4 | Đường cùng thì vào cơ sở trợ giúp xã hội, đừng tìm nhà tạm trú tự phát | …hoát cho đêm nay — đang mất chỗ ngủ thì xem … |
 | mục 16 | mục 21 | Không còn chỗ ngủ đêm nay: chỗ mở 24 giờ chỉ để một đêm, còn cửa thật là cơ sở trợ giúp xã hội | …đêm nay — đang mất chỗ ngủ thì xem mục 4 và … |
@@ -293,13 +294,13 @@ Tổng 709 chỗ tham chiếu.
 | đầu chương | mục 17 | Đọc hết tờ giấy trước khi ký, không ký hộ, không ký vào tờ còn trống | … … |
 | đầu chương | mục 10 | Đụng chuyện thì lùi lại gọi công an, đừng ra tay trước | … … |
 | đầu chương | mục 23 | Quà lớn trong chuyện tình cảm: nghĩ trước khi trao, vì trao rồi thì gần như không đòi lại được | … … |
-| đầu chương | mục 5 | Bị giữ, bị gọi lên làm việc thì im lặng và gọi luật sư; không tự giải thích cho êm, không đưa tiền, không xoá tin nhắn | … … |
+| đầu chương | mục 5 | Bị giữ, bị gọi lên làm việc thì im lặng và gọi luật sư; không tự giải thích cho êm, không đưa tiền, không xóa tin nhắn | … … |
 | đầu chương | mục 16 | Trên mạng: không chửi, không bịa, không chia sẻ thứ chưa kiểm chứng; bị tấn công thì lưu bằng chứng trước | … … |
 | đầu chương | mục 31 | Người đang ngủ, đang say mất ý thức, hoặc chưa đủ tuổi thì không có sự đồng ý | … … |
 | đầu chương | mục 1 | Gây tai nạn thì dừng lại, cứu người, gọi 113 và ở lại hiện trường — bỏ đi là sang khung nặng hơn | … … |
 | mục 11 | mục 10 | Đụng chuyện thì lùi lại gọi công an, đừng ra tay trước | …mặc định vẫn là lùi, gọi công an, ghi hình (… |
 | mục 12 | mục 16 | Trên mạng: không chửi, không bịa, không chia sẻ thứ chưa kiểm chứng; bị tấn công thì lưu bằng chứng trước | …hể bị kiện ngược về làm nhục hoặc vu khống (… |
-| mục 13 | mục 14 | Nghĩ tới "chết chung cho xong" thì coi là cấp cứu: rời khỏi chỗ đó, đưa chìa khoá và dao cho người khác | … nhờ người giữ hộ hung khí là việc nên làm (… |
+| mục 13 | mục 14 | Nghĩ tới "chết chung cho xong" thì coi là cấp cứu: rời khỏi chỗ đó, đưa chìa khóa và dao cho người khác | … nhờ người giữ hộ hung khí là việc nên làm (… |
 | mục 32 | mục 39 | Báo án: lấy biên bản tiếp nhận, không khởi tố phải nêu lý do bằng văn bản | … ngày thì không có mốc để hỏi tiếp, nên xem … |
 
 ## 09-ranh-gioi-phap-luat-nguoi-thuong-de-vap
@@ -321,12 +322,12 @@ Tổng 709 chỗ tham chiếu.
 | --- | --- | --- | --- |
 | đầu chương | mục 4 | Quan hệ tốt hay xấu thì đo bằng cảm giác của chính bạn, không bằng lý lịch của người kia | … chương này có **2 mục hạng A** — … |
 | đầu chương | mục 20 | Kẹt trong cãi nhau và chiến tranh lạnh thì đi trị liệu cùng nhau: ngồi đợi thì gần như không tự khỏi | …ứu theo dõi dọc** về chất lượng quan hệ) và … |
-| đầu chương | mục 8 | Cộng phần sức khoẻ của hôn nhân vào, nhưng chiết khấu vì đó là dữ liệu quan sát | … **1 mục hạng C** là … |
+| đầu chương | mục 8 | Cộng phần sức khỏe của hôn nhân vào, nhưng chiết khấu vì đó là dữ liệu quan sát | … **1 mục hạng C** là … |
 | đầu chương | mục 1 | Quen nhiều người thay vì dồn hết vào một người: hai người có hợp nhau không thì gặp mới biết | … … |
 | đầu chương | mục 4 | Quan hệ tốt hay xấu thì đo bằng cảm giác của chính bạn, không bằng lý lịch của người kia | … … |
 | đầu chương | mục 7 | Nghe số đăng ký trước khi nghe "ngày xưa người ta cưới sớm": số kết hôn và số ly hôn không cùng một phép chia | … … |
-| đầu chương | mục 13 | Đăng ký kết hôn ở xã, phường: giấy tờ tuỳ thân, miễn lệ phí, thường xong trong ngày | … … |
-| đầu chương | mục 10 | Tiền trong hôn nhân: đọc luật mặc định trước, rồi mới quyết có lập văn bản thoả thuận | … … |
+| đầu chương | mục 13 | Đăng ký kết hôn ở xã, phường: giấy tờ tùy thân, miễn lệ phí, thường xong trong ngày | … … |
+| đầu chương | mục 10 | Tiền trong hôn nhân: đọc luật mặc định trước, rồi mới quyết có lập văn bản thỏa thuận | … … |
 | đầu chương | mục 18 | Người cùng giới sống với nhau thì phải làm ba loại giấy khi cả hai còn tỉnh: văn bản chọn người đại diện, văn bản lựa chọn người giám hộ, di chúc | … … |
 | mục 8 | mục 4 | Quan hệ tốt hay xấu thì đo bằng cảm giác của chính bạn, không bằng lý lịch của người kia | …uật riêng và có biện pháp cấm tiếp xúc (xem … |
 
@@ -344,7 +345,7 @@ Tổng 709 chỗ tham chiếu.
 | đầu chương | mục 7 | Nghỉ việc không mang theo mã nguồn, danh sách khách hàng, tài liệu kỹ thuật; không đưa lên ổ cá nhân; không dùng lại ở công ty mới | … … |
 | đầu chương | mục 14 | Dùng code GPL để làm sản phẩm thì phải theo giấy phép: mở mã nguồn hoặc đổi giấy phép, đừng dựa vào "không ai quản" | … … |
 | đầu chương | mục 11 | Không bán tài khoản VPN, không dựng node hộ người khác: ở Việt Nam không có tội danh riêng, nhưng có điều kiện kinh doanh và bạn chịu trách nhiệm về đường mình mở | … … |
-| mục 4 | mục 9 | Không kiểm thử hệ thống của người khác khi chưa có văn bản cho phép: ý tốt và việc báo lại sau đó không xoá được hành vi | … Điều 289 khoản 1 Bộ luật Hình sự, như ở … |
+| mục 4 | mục 9 | Không kiểm thử hệ thống của người khác khi chưa có văn bản cho phép: ý tốt và việc báo lại sau đó không xóa được hành vi | … Điều 289 khoản 1 Bộ luật Hình sự, như ở … |
 | mục 20 | chương 9 mục 24 | Dịch, chép, đăng lại phim truyện và sách lậu: không bán cũng là xâm phạm quyền tác giả; có thu tiền thì có thể thành tội hình sự | …u bạn phát hành phim hoặc sách lậu, hãy xem … |
 
 ## 12-kinh-doanh-nho-mo-van-hanh-dong
@@ -422,14 +423,14 @@ Tổng 709 chỗ tham chiếu.
 | --- | --- | --- | --- |
 | đầu chương | mục 1 | Mật khẩu đúng mà vẫn mất tài khoản: bật xác thực hai lớp, chọn cách xác nhận hiện trên máy thay vì tin nhắn | … … |
 | đầu chương | mục 2 | Một mật khẩu dùng cho mọi nơi: đặt mật khẩu riêng cho hộp thư, vì đó là chỗ lấy lại tất cả | … … |
-| đầu chương | mục 3 | Điện thoại trong tay người khác: đặt mã khoá màn hình và mã PIN cho SIM, đừng để họ đọc được tin nhắn | … … |
-| đầu chương | mục 4 | Mất điện thoại: khoá SIM trước, rồi tới tài khoản ngân hàng, rồi mới đổi mật khẩu | … … |
-| đầu chương | mục 5 | Thẻ bị trừ tiền mà mình không mua: gọi khoá thẻ trước, rồi gửi yêu cầu tra soát bằng văn bản | … … |
+| đầu chương | mục 3 | Điện thoại trong tay người khác: đặt mã khóa màn hình và mã PIN cho SIM, đừng để họ đọc được tin nhắn | … … |
+| đầu chương | mục 4 | Mất điện thoại: khóa SIM trước, rồi tới tài khoản ngân hàng, rồi mới đổi mật khẩu | … … |
+| đầu chương | mục 5 | Thẻ bị trừ tiền mà mình không mua: gọi khóa thẻ trước, rồi gửi yêu cầu tra soát bằng văn bản | … … |
 | đầu chương | mục 6 | Vào mục thiết bị và ứng dụng bên thứ ba, đăng xuất máy lạ rồi thu hồi từng quyền truy cập | … … |
 | đầu chương | mục 7 | Nút "đồng ý tất cả": gỡ dấu từng mục đích, chỉ giữ mục bạn thật sự dùng, và chụp lại màn hình | … … |
-| đầu chương | mục 8 | Đòi xem, xin bản sao, sửa và xoá dữ liệu: gửi một email nêu đúng quyền và đếm ngày | … … |
-| đầu chương | mục 9 | Chuyển tiền cho người khác trên 10 triệu: ngân hàng buộc khớp khuôn mặt, đừng tìm dịch vụ "mở khoá" | … … |
-| đầu chương | mục 10 | Dán mã nguồn vào ô chat của dịch vụ AI: khoá bí mật và dữ liệu khách hàng coi như đã ra nước ngoài | … … |
+| đầu chương | mục 8 | Đòi xem, xin bản sao, sửa và xóa dữ liệu: gửi một email nêu đúng quyền và đếm ngày | … … |
+| đầu chương | mục 9 | Chuyển tiền cho người khác trên 10 triệu: ngân hàng buộc khớp khuôn mặt, đừng tìm dịch vụ "mở khóa" | … … |
+| đầu chương | mục 10 | Dán mã nguồn vào ô chat của dịch vụ AI: khóa bí mật và dữ liệu khách hàng coi như đã ra nước ngoài | … … |
 | đầu chương | mục 11 | Mỗi năm một lần, tự tra xem mình đang đứng tên bao nhiêu thuê bao di động | … … |
 | đầu chương | mục 12 | Đổi số điện thoại: giữ số cũ sống tới khi đổi xong ở ngân hàng và VNeID, rồi mới trả số | … … |
 
@@ -438,9 +439,9 @@ Tổng 709 chỗ tham chiếu.
 | Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
 | --- | --- | --- | --- |
 | đầu chương | mục 1 | Hợp đồng thuê chỉ ghi giá thuê: chép đủ mười một nội dung của Điều 163, nhất là tiền cọc và hạn trả cọc | … … |
-| đầu chương | mục 2 | Chủ nhà cắt điện, thay khoá để đuổi: gửi văn bản yêu cầu khôi phục và lập biên bản trước, đừng dọn đi trong đêm | … … |
-| đầu chương | mục 3 | Trả tiền cọc và tiền thuê: chỉ trả cho người đứng tên trên giấy chứng nhận hoặc người có giấy uỷ quyền, và ghi rõ nội dung chuyển khoản | … … |
-| đầu chương | mục 4 | Thuê phòng trong nhà chia phòng: hỏi toà nhà đó có bao nhiêu căn hộ và xin xem giấy nghiệm thu phòng cháy trước khi đặt cọc | … … |
+| đầu chương | mục 2 | Chủ nhà cắt điện, thay khóa để đuổi: gửi văn bản yêu cầu khôi phục và lập biên bản trước, đừng dọn đi trong đêm | … … |
+| đầu chương | mục 3 | Trả tiền cọc và tiền thuê: chỉ trả cho người đứng tên trên giấy chứng nhận hoặc người có giấy ủy quyền, và ghi rõ nội dung chuyển khoản | … … |
+| đầu chương | mục 4 | Thuê phòng trong nhà chia phòng: hỏi tòa nhà đó có bao nhiêu căn hộ và xin xem giấy nghiệm thu phòng cháy trước khi đặt cọc | … … |
 | đầu chương | mục 5 | Nhà bị bán khi đang thuê: hợp đồng thuê đi theo nhà, chủ mới phải cho bạn ở tới hết hạn | … … |
 | đầu chương | mục 6 | Ký trước khi xem sổ: mở trang thay đổi của Giấy chứng nhận, đối chiếu tên người ký, và hỏi thẳng chuyện thế chấp | … … |
 | đầu chương | mục 7 | Trả tiền nhà: chuyển khoản vào tài khoản đứng tên người trong hợp đồng, ghi rõ trả cho hợp đồng nào, và giữ lệnh chuyển | … … |
@@ -453,9 +454,9 @@ Tổng 709 chỗ tham chiếu.
 | đầu chương | mục 14 | Ký xong: kiểm tra thế chấp đã vào hồ sơ đất chưa, vì ghi rồi mới có hiệu lực với người thứ ba | … … |
 | đầu chương | mục 15 | Lãi suất thả nổi: ghi công thức điều chỉnh vào hợp đồng trước khi ký, và xin cơ cấu lại trong mười ngày kể từ ngày đến hạn | … … |
 | đầu chương | mục 16 | Vay ưu đãi nhà ở xã hội: thử Ngân hàng Chính sách xã hội trước khi ký hợp đồng vay thương mại | … … |
-| đầu chương | mục 17 | Phí quản lý chung cư: đòi khung giá của tỉnh và hoá đơn, và biết rằng cắt điện để ép đóng phí là cắt điện trái quy định | … … |
+| đầu chương | mục 17 | Phí quản lý chung cư: đòi khung giá của tỉnh và hóa đơn, và biết rằng cắt điện để ép đóng phí là cắt điện trái quy định | … … |
 | đầu chương | mục 18 | Nhận nhà: đòi bốn loại giấy trước khi ký biên bản bàn giao, và tính hạn bảo hành từ ngày nghiệm thu | … … |
-| mục 17 | mục 3 | Trả tiền cọc và tiền thuê: chỉ trả cho người đứng tên trên giấy chứng nhận hoặc người có giấy uỷ quyền, và ghi rõ nội dung chuyển khoản | … Điều 3 cùng … |
+| mục 17 | mục 3 | Trả tiền cọc và tiền thuê: chỉ trả cho người đứng tên trên giấy chứng nhận hoặc người có giấy ủy quyền, và ghi rõ nội dung chuyển khoản | … Điều 3 cùng … |
 
 ## 16-benh-man-tinh-song-tiep-the-nao
 
@@ -482,21 +483,21 @@ Tổng 709 chỗ tham chiếu.
 | Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
 | --- | --- | --- | --- |
 | đầu chương | mục 4 | Tiền dưỡng già: một tài khoản hai tên mở ở quầy, nguyên tắc mọi lệnh phải có cả hai, và một câu từ chối tập sẵn | … Chốt đầu tiên về tiền nằm ở … |
-| đầu chương | mục 1 | Uỷ quyền: làm giấy khi ông bà còn ký được, ghi rõ việc được làm và ghi rõ thời hạn | … … |
-| đầu chương | mục 2 | Di chúc: viết khi còn minh mẫn, bản sau thay bản trước, và công chứng không khoá di chúc lại | … … |
-| đầu chương | mục 3 | Giám hộ: khi ông bà không còn tự quyết thì phải có quyết định của toà, và phần chuẩn bị làm được từ trước | … … |
+| đầu chương | mục 1 | Ủy quyền: làm giấy khi ông bà còn ký được, ghi rõ việc được làm và ghi rõ thời hạn | … … |
+| đầu chương | mục 2 | Di chúc: viết khi còn minh mẫn, bản sau thay bản trước, và công chứng không khóa di chúc lại | … … |
+| đầu chương | mục 3 | Giám hộ: khi ông bà không còn tự quyết thì phải có quyết định của tòa, và phần chuẩn bị làm được từ trước | … … |
 | đầu chương | mục 4 | Tiền dưỡng già: một tài khoản hai tên mở ở quầy, nguyên tắc mọi lệnh phải có cả hai, và một câu từ chối tập sẵn | … … |
 | đầu chương | mục 5 | Huy động vốn lãi cao: bốn câu kiểm được trước khi ông bà đưa tiền | … … |
 | đầu chương | mục 6 | "Thế chấp nhà để lấy lương hưu": Việt Nam không có sản phẩm đó | … … |
-| đầu chương | mục 7 | Khi ông bà mất khả năng tự chăm: 540.000 đồng, thẻ bảo hiểm y tế, và hợp đồng uỷ nhiệm chăm sóc | … … |
+| đầu chương | mục 7 | Khi ông bà mất khả năng tự chăm: 540.000 đồng, thẻ bảo hiểm y tế, và hợp đồng ủy nhiệm chăm sóc | … … |
 | đầu chương | mục 8 | Loét do nằm lâu: nhìn da ở ba chỗ xương lồi mỗi ngày, và trở mình theo giờ | … … |
-| đầu chương | mục 9 | Đục thuỷ tinh thể: chỉ định mổ tính bằng việc mắt còn làm được gì, không bằng một con số thị lực | … … |
+| đầu chương | mục 9 | Đục thủy tinh thể: chỉ định mổ tính bằng việc mắt còn làm được gì, không bằng một con số thị lực | … … |
 | đầu chương | mục 10 | Dắt chó và chấn thương: một tay giữ dây, và ngã ở tuổi 60 thì đi chụp phim ngay | … … |
 | đầu chương | mục 11 | Nhà dưỡng lão: tra cơ sở trong danh sách đang hoạt động, và đọc hợp đồng theo mẫu trước khi ký | … … |
-| đầu chương | mục 12 | Nghỉ chăm cha mẹ ốm: không có chế độ riêng, nên dùng phép năm và thoả thuận nghỉ không lương | … … |
+| đầu chương | mục 12 | Nghỉ chăm cha mẹ ốm: không có chế độ riêng, nên dùng phép năm và thỏa thuận nghỉ không lương | … … |
 | đầu chương | mục 13 | Sa sút trí tuệ: quên gần, lạc đường, giảm chức năng là việc phải đi khám, không phải "lẫn tuổi già" | … … |
-| mục 4 | mục 2 | Di chúc: viết khi còn minh mẫn, bản sau thay bản trước, và công chứng không khoá di chúc lại | …pháp luật, tức lại quay về giấy tờ thừa kế (… |
-| mục 4 | mục 3 | Giám hộ: khi ông bà không còn tự quyết thì phải có quyết định của toà, và phần chuẩn bị làm được từ trước | …(mục 2) và giám hộ theo quyết định của toà (… |
+| mục 4 | mục 2 | Di chúc: viết khi còn minh mẫn, bản sau thay bản trước, và công chứng không khóa di chúc lại | …pháp luật, tức lại quay về giấy tờ thừa kế (… |
+| mục 4 | mục 3 | Giám hộ: khi ông bà không còn tự quyết thì phải có quyết định của tòa, và phần chuẩn bị làm được từ trước | …(mục 2) và giám hộ theo quyết định của tòa (… |
 | mục 9 | mục 5 | Huy động vốn lãi cao: bốn câu kiểm được trước khi ông bà đưa tiền | … Phần D … |
 | mục 9 | mục 4 | Tiền dưỡng già: một tài khoản hai tên mở ở quầy, nguyên tắc mọi lệnh phải có cả hai, và một câu từ chối tập sẵn | … Phần D … |
 | mục 10 | mục 8 | Loét do nằm lâu: nhìn da ở ba chỗ xương lồi mỗi ngày, và trở mình theo giờ | …ài ngày là thêm một vết loét do tì đè, đúng … |
@@ -593,13 +594,13 @@ Tổng 709 chỗ tham chiếu.
 | Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
 | --- | --- | --- | --- |
 | đầu chương | mục 6 | Người đủ tiêu chuẩn trầm cảm: đi bộ nhanh hoặc chạy, tính trung bình trong các nghiên cứu thì hiệu quả tăng theo cường độ | …tâm trạng, bằng chứng đều có giới hạn, và ở … |
-| đầu chương | mục 1 | Vào quán karaoke hay bar thì nhìn lối thoát hiểm trước, cửa bị khoá thì đổi quán | … … |
+| đầu chương | mục 1 | Vào quán karaoke hay bar thì nhìn lối thoát hiểm trước, cửa bị khóa thì đổi quán | … … |
 | đầu chương | mục 2 | Gọi món thì xin bảng giá trước: bán cao hơn giá đã niêm yết là vi phạm | … … |
 | đầu chương | mục 3 | Trong quán có người mời thử "đồ" thì đứng dậy đi, đừng ngồi lại xem | … … |
 | đầu chương | mục 4 | Không nhận đồ ăn, điếu hay pod từ người lạ; ly đã rời mắt thì đổi ly khác | … … |
 | đầu chương | mục 5 | Phòng giải đố, nhà ma: hỏi lối ra thứ hai trước khi trả tiền | … … |
 | đầu chương | mục 6 | Người đủ tiêu chuẩn trầm cảm: đi bộ nhanh hoặc chạy, tính trung bình trong các nghiên cứu thì hiệu quả tăng theo cường độ | … … |
-| đầu chương | mục 7 | Đã được chẩn đoán lo âu: trong một thử nghiệm, khoá chánh niệm 8 tuần có người dạy không kém thuốc escitalopram, nhưng đừng tự ngừng thuốc | … … |
+| đầu chương | mục 7 | Đã được chẩn đoán lo âu: trong một thử nghiệm, khóa chánh niệm 8 tuần có người dạy không kém thuốc escitalopram, nhưng đừng tự ngừng thuốc | … … |
 | đầu chương | mục 8 | Muốn có một bài thở hạ căng thẳng: 5 phút thở kiểu "thở dài có chủ ý" mỗi ngày, bài báo đo kết quả sau 28 ngày | … … |
 | đầu chương | mục 9 | Giữ việc gặp người khác đều đặn, đừng đợi buồn mới tìm ai | … … |
 | đầu chương | mục 10 | Chọn chỗ ở thì tính mảng xanh quanh nhà, nhưng đừng tưởng đi công viên là tăng thọ | … … |
@@ -620,20 +621,20 @@ Tổng 709 chỗ tham chiếu.
 | đầu chương | mục 17 | Trộn vài dạng bài vào nhau, nhưng chỉ với loại nội dung cần phân biệt dạng | … Bảy mục A gần như đều nằm ở nhóm cách học (… |
 | đầu chương | mục 18 | Đừng chia người học thành kiểu nhìn, kiểu nghe rồi dạy theo kiểu đó | … Bảy mục A gần như đều nằm ở nhóm cách học (… |
 | đầu chương | mục 19 | Tự ra đề theo đúng cách mình sẽ phải dùng, không chỉ đọc lại cho thuộc | … Bảy mục A gần như đều nằm ở nhóm cách học (… |
-| đầu chương | mục 7 | Mốc để so các khoá học: thêm một năm đi học, thu nhập của chính người học cao hơn khoảng 9% | … đến 19) và một mục ở nhóm lợi tức học vấn (… |
+| đầu chương | mục 7 | Mốc để so các khóa học: thêm một năm đi học, thu nhập của chính người học cao hơn khoảng 9% | … đến 19) và một mục ở nhóm lợi tức học vấn (… |
 | đầu chương | mục 1 | Dưới 16 tuổi vẫn được đi làm, nhưng chỉ việc nhẹ hoặc việc luật cho phép theo từng nhóm tuổi: thuê sai bị phạt tới 150 triệu đồng | … … |
 | đầu chương | mục 2 | Mỗi năm học thêm đi kèm nguy cơ tử vong của người lớn thấp hơn trung bình khoảng 1,9% | … … |
 | đầu chương | mục 3 | Trước khi nói bằng đại học mất giá, nhìn cơ cấu: khoảng 11,6% dân số từ 15 tuổi trở lên có bằng đại học trở lên | … … |
 | đầu chương | mục 4 | "Không có tiền học" thường là tính thiếu ba tầng: trần học phí, miễn giảm, và vay | … … |
 | đầu chương | mục 5 | Trượt công lập không phải hết đường: từ năm 2026 có thêm chương trình trung học nghề | … … |
 | đầu chương | mục 6 | "Đi làm sớm ba năm" lời hay lỗ: viết ra ba con số trước khi quyết | … … |
-| đầu chương | mục 7 | Mốc để so các khoá học: thêm một năm đi học, thu nhập của chính người học cao hơn khoảng 9% | … … |
+| đầu chương | mục 7 | Mốc để so các khóa học: thêm một năm đi học, thu nhập của chính người học cao hơn khoảng 9% | … … |
 | đầu chương | mục 8 | Trả tiền cho một tấm chứng chỉ thì hỏi trước ba câu: ai cấp, theo văn bản nào, tra được ở đâu | … … |
-| đầu chương | mục 9 | Học có người trả tiền hộ: quỹ thất nghiệp trả tới 4,5 triệu đồng một khoá, cộng 50.000 đồng mỗi ngày học | … … |
+| đầu chương | mục 9 | Học có người trả tiền hộ: quỹ thất nghiệp trả tới 4,5 triệu đồng một khóa, cộng 50.000 đồng mỗi ngày học | … … |
 | đầu chương | mục 10 | Chọn việc khó bị máy thay: việc phải dùng tay, việc phải ra hiện trường, việc phải quyết tại chỗ | … … |
 | đầu chương | mục 11 | Kỹ năng có bậc mới lên được giá: khung 8 bậc, chứng chỉ kỹ năng nghề, và cái bậc chỉ có trong khối nhà nước | … … |
 | đầu chương | mục 12 | Đừng lấy tin "lương cao" làm bằng chứng thiếu người: hỏi trung tâm dịch vụ việc làm ở tỉnh | … … |
-| đầu chương | mục 13 | Chọn khoá ngắn theo một câu hỏi: học xong có vị trí cụ thể nào để nộp đơn ngay không | … … |
+| đầu chương | mục 13 | Chọn khóa ngắn theo một câu hỏi: học xong có vị trí cụ thể nào để nộp đơn ngay không | … … |
 | đầu chương | mục 14 | Học xong một bài thì gấp sách lại tự trả lời, đừng mở ra đọc lại ngay | … … |
 | đầu chương | mục 15 | Cùng chừng ấy giờ, chia ra nhiều ngày thay vì học một mạch | … … |
 | đầu chương | mục 16 | Đừng lấy tô màu, gạch chân và đọc lại làm cách học chính | … … |
@@ -652,7 +653,7 @@ Tổng 709 chỗ tham chiếu.
 | Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
 | --- | --- | --- | --- |
 | đầu chương | mục 1 | Ốm nhẹ thì khám ở trạm y tế trước, rồi để nơi đó chuyển lên: không phải vì luật bắt buộc, mà vì tiền trả khác nhau | … … |
-| đầu chương | mục 2 | Cùng một hoá đơn, cấp nơi bạn tới quyết định mức hưởng: cấp ban đầu 100%, cấp cơ bản và cấp chuyên sâu 80%, tự vào nội trú cấp chuyên sâu còn 40% mức hưởng | … … |
+| đầu chương | mục 2 | Cùng một hóa đơn, cấp nơi bạn tới quyết định mức hưởng: cấp ban đầu 100%, cấp cơ bản và cấp chuyên sâu 80%, tự vào nội trú cấp chuyên sâu còn 40% mức hưởng | … … |
 | đầu chương | mục 3 | Muốn lên bệnh viện lớn thì xin phiếu chuyển tại nơi đang khám: phiếu dùng trong 10 ngày làm việc, bệnh mạn tính trong danh mục thì 1 năm | … … |
 | đầu chương | mục 4 | Khám ở tỉnh khác không phải đăng ký trước, không phải xin ai duyệt: mức hưởng tính theo cấp nơi tới, không còn tính theo tỉnh | … … |
 | đầu chương | mục 5 | Mỗi lần khám xong tự giữ một bộ: hồ sơ bệnh án là quyền của bạn, nhưng phải xin bằng văn bản | … … |
@@ -671,17 +672,17 @@ Tổng 709 chỗ tham chiếu.
 
 | Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
 | --- | --- | --- | --- |
-| đầu chương | mục 5 | Khai tử trong 15 ngày, xoá đăng ký thường trú sau đó: không có hạn nào buộc xong trước đám tang | … … |
-| đầu chương | mục 9 | Tiền rải rác phải đi lấy từng chỗ: trợ cấp mai táng, trợ cấp tuất, tiền gửi | … mục 5 (khai tử và xoá đăng ký thường trú), … |
-| đầu chương | mục 12 | Thứ tự giấy tờ sau khi mất: khai tử trước, rồi văn bản phân chia di sản, rồi mới sang tên nhà đất và rút tiền | …oá đăng ký thường trú), mục 9 (tiền gửi) và … |
+| đầu chương | mục 5 | Khai tử trong 15 ngày, xóa đăng ký thường trú sau đó: không có hạn nào buộc xong trước đám tang | … … |
+| đầu chương | mục 9 | Tiền rải rác phải đi lấy từng chỗ: trợ cấp mai táng, trợ cấp tuất, tiền gửi | … mục 5 (khai tử và xóa đăng ký thường trú), … |
+| đầu chương | mục 12 | Thứ tự giấy tờ sau khi mất: khai tử trước, rồi văn bản phân chia di sản, rồi mới sang tên nhà đất và rút tiền | …óa đăng ký thường trú), mục 9 (tiền gửi) và … |
 | đầu chương | mục 1 | Trong nhà có người mất: xác định chết bình thường hay bất thường trước khi gọi ai | … … |
 | đầu chương | mục 2 | Giấy báo tử và trích lục khai tử: ai cấp, xin ở đâu, trong bao lâu | … … |
-| đầu chương | mục 3 | Đưa tang và hoả táng: cơ sở nào được làm, giá phải niêm yết, giấy tờ phải giữ | … … |
+| đầu chương | mục 3 | Đưa tang và hỏa táng: cơ sở nào được làm, giá phải niêm yết, giấy tờ phải giữ | … … |
 | đầu chương | mục 4 | Nghi ngờ nguyên nhân mất: lên tiếng trước khi an táng, đừng đợi chôn hoặc thiêu xong mới thắc mắc | … … |
-| đầu chương | mục 5 | Khai tử trong 15 ngày, xoá đăng ký thường trú sau đó: không có hạn nào buộc xong trước đám tang | … … |
+| đầu chương | mục 5 | Khai tử trong 15 ngày, xóa đăng ký thường trú sau đó: không có hạn nào buộc xong trước đám tang | … … |
 | đầu chương | mục 6 | Xin bảng giá trước khi đặt cọc: giá dịch vụ tang lễ phải niêm yết, và không được thu cao hơn giá đã niêm yết | … … |
-| đầu chương | mục 7 | Bị ép mua kèm hay thu thêm ngoài giá niêm yết: xin bảng giá, giữ hoá đơn, rồi khiếu nại | … … |
-| đầu chương | mục 8 | Môi giới mai táng không có sổ đăng ký để tra: kiểm bằng đăng ký kinh doanh, hợp đồng, hoá đơn | … … |
+| đầu chương | mục 7 | Bị ép mua kèm hay thu thêm ngoài giá niêm yết: xin bảng giá, giữ hóa đơn, rồi khiếu nại | … … |
+| đầu chương | mục 8 | Môi giới mai táng không có sổ đăng ký để tra: kiểm bằng đăng ký kinh doanh, hợp đồng, hóa đơn | … … |
 | đầu chương | mục 9 | Tiền rải rác phải đi lấy từng chỗ: trợ cấp mai táng, trợ cấp tuất, tiền gửi | … … |
 | đầu chương | mục 10 | Tài khoản mạng và dữ liệu của người đã mất: không có luật riêng cho người chết, nên đi bằng giấy tờ thừa kế và yêu cầu bằng văn bản | … … |
 | đầu chương | mục 11 | Nợ của người đã mất: người thừa kế chỉ trả trong phạm vi di sản, muốn buông thì phải từ chối bằng văn bản trước khi chia | … … |
@@ -693,7 +694,7 @@ Tổng 709 chỗ tham chiếu.
 | --- | --- | --- | --- |
 | đầu chương | mục 1 | Đừng để tiền của người mua đi qua tài khoản của bạn rồi mới trả cho người bán | … … |
 | đầu chương | mục 2 | Loại nội dung quyết định giấy phép, không phải việc website có thu tiền hay không | … … |
-| đầu chương | mục 3 | Livestream và video: không có "giấy phép văn hoá mạng", nhưng mạng xã hội phải có giấy phép mới được mở livestream | … … |
+| đầu chương | mục 3 | Livestream và video: không có "giấy phép văn hóa mạng", nhưng mạng xã hội phải có giấy phép mới được mở livestream | … … |
 | đầu chương | mục 4 | Máy chủ và tên miền: không có mã ICP, nhưng có ba việc phải làm trước khi chạy | … … |
 | đầu chương | mục 5 | Cho người khác bán trên nền tảng của mình: đăng ký trước khi chạy, xác thực người bán, giữ dữ liệu | … … |
 | đầu chương | mục 6 | Người dùng đăng gì vi phạm trên nền tảng thì mình phải gỡ: 24 giờ khi có yêu cầu, 48 giờ với khiếu nại | … … |
@@ -703,7 +704,7 @@ Tổng 709 chỗ tham chiếu.
 | đầu chương | mục 10 | Dữ liệu người dùng ra nước ngoài: hồ sơ đánh giá tác động trong 60 ngày, không chia theo số người | … … |
 | đầu chương | mục 11 | Chọn máy chủ: xét nghĩa vụ lưu dữ liệu và người trả lời khi hỏng trước, so giá sau | … … |
 | đầu chương | mục 12 | Lộ dữ liệu người dùng: chặn lỗ hổng trước, báo cơ quan chuyên trách trong 72 giờ, và báo cả người dùng khi dữ liệu là vị trí, sinh trắc học hay tài chính | … … |
-| đầu chương | mục 13 | Bán gói tự động gia hạn: nhắc trước khi hết hạn, nhắc lại trước mỗi lần trừ tiền, và để nút huỷ được tìm thấy trong một lần bấm | … … |
+| đầu chương | mục 13 | Bán gói tự động gia hạn: nhắc trước khi hết hạn, nhắc lại trước mỗi lần trừ tiền, và để nút hủy được tìm thấy trong một lần bấm | … … |
 
 ## 27-mang-thai-va-sinh-de
 
@@ -721,7 +722,7 @@ Tổng 709 chỗ tham chiếu.
 | đầu chương | mục 10 | Mổ lấy thai: làm khi có chỉ định, đừng chọn ngày đẹp hay giờ tốt | … … |
 | đầu chương | mục 11 | Bảo hiểm thai sản: bảo hiểm xã hội trả tiền nghỉ, bảo hiểm y tế trả viện phí | … … |
 | đầu chương | mục 12 | Giấy chứng sinh và giấy khai sinh: hai tờ giấy, hai nơi cấp, đừng gộp làm một | … … |
-| đầu chương | mục 13 | Sàng lọc sơ sinh: lấy máu gót chân, đo thính lực, đo độ bão hoà oxy | … … |
+| đầu chương | mục 13 | Sàng lọc sơ sinh: lấy máu gót chân, đo thính lực, đo độ bão hòa oxy | … … |
 | đầu chương | mục 14 | Thẻ bảo hiểm y tế cho trẻ: ngân sách đóng, không cần chờ có hộ khẩu | … … |
 | đầu chương | mục 15 | Đăng ký khai sinh: 60 ngày, làm ở xã nơi cha hoặc mẹ cư trú, không phải về quê | … … |
 | đầu chương | mục 16 | Khám lại sau sinh: đừng bỏ mốc sáu tuần, và nói thẳng chuyện tâm trạng | … … |
@@ -736,7 +737,7 @@ Tổng 709 chỗ tham chiếu.
 | --- | --- | --- | --- |
 | đầu chương | mục 1 | Đừng giảm cân bằng cách ăn quá ít, nhịn ăn hay móc họng; muốn giảm thì hãy tăng vận động | … … |
 | đầu chương | mục 2 | Tiêm, chích, bơm hay mổ để đổi ngoại hình là khám chữa bệnh: xem giấy phép hoạt động của cơ sở và phạm vi hành nghề của người cầm kim trước khi trả tiền | … … |
-| đầu chương | mục 5 | Đừng dùng thuốc đồng hoá steroid để lên cơ | … … |
+| đầu chương | mục 5 | Đừng dùng thuốc đồng hóa steroid để lên cơ | … … |
 | đầu chương | mục 6 | Muốn dùng thuốc giảm cân hoặc thuốc tiêm giảm cân thì đi khám để lấy đơn, đừng đặt qua mạng | … … |
 | đầu chương | mục 7 | Thuốc nội tiết sinh dục: chỉ dùng khi có đơn và có lịch xét nghiệm, đừng tự mua và tự tăng liều | … … |
 | đầu chương | mục 10 | Kem trị nám và kem làm trắng: tra số tiếp nhận Phiếu công bố trên cổng của Cục Quản lý Dược trước khi bôi, đừng mua kem trộn | … mục 5 đến 7 và … |
@@ -752,11 +753,11 @@ Tổng 709 chỗ tham chiếu.
 | đầu chương | mục 2 | Tuần nhận chẩn đoán nặng: đừng đi lấy kết quả một mình, và để những quyết định không lấy lại được sang buổi khám sau | … … |
 | đầu chương | mục 3 | Mất việc: giữ giờ thức giấc, giữ thẻ bảo hiểm y tế, và xếp việc tìm việc thành lịch | … … |
 | đầu chương | mục 4 | Người thân mất vì tự tử, tai nạn hay tội phạm: đừng tự chống đỡ, đi khám chuyên khoa sớm | … … |
-| đầu chương | mục 5 | Nửa năm đầu sau khi goá: giao việc ăn, ngủ, uống thuốc và tái khám cho một người có tên | … … |
-| đầu chương | mục 6 | Không còn thân nhân nào: thay "người để ý mình" bằng hàng xóm giữ chìa khoá, tổ dân phố và một số khẩn cấp cài sẵn | … … |
+| đầu chương | mục 5 | Nửa năm đầu sau khi góa: giao việc ăn, ngủ, uống thuốc và tái khám cho một người có tên | … … |
+| đầu chương | mục 6 | Không còn thân nhân nào: thay "người để ý mình" bằng hàng xóm giữ chìa khóa, tổ dân phố và một số khẩn cấp cài sẵn | … … |
 | đầu chương | mục 7 | Cha hoặc mẹ mất: nói thật với trẻ đã xảy ra chuyện gì, và để trẻ dự lễ tiễn biệt nếu trẻ muốn | … … |
 | đầu chương | mục 8 | Tang chế kéo dài quá nửa năm, ăn ngủ làm việc đều đổ: đi khám tâm thần, đó là một chẩn đoán có tên | … … |
-| đầu chương | mục 9 | Đừng vội trả tiền cho một khoá tư vấn đau buồn — soát xem mình có kẹt thật không | … … |
+| đầu chương | mục 9 | Đừng vội trả tiền cho một khóa tư vấn đau buồn — soát xem mình có kẹt thật không | … … |
 | đầu chương | mục 10 | Ly thân, ly hôn: đừng để thẻ bảo hiểm y tế đứt, và đừng lấy rượu làm chỗ dựa | … … |
 | đầu chương | mục 11 | Cần người nói chuyện thì gọi ai: 115 khi nguy cấp, 111 khi liên quan tới trẻ em, còn lại là khoa tâm thần của bệnh viện | … … |
 | đầu chương | mục 12 | Sau cú sốc, ba tháng đầu hãy hoãn mọi quyết định không lấy lại được | … … |
@@ -769,12 +770,12 @@ Tổng 709 chỗ tham chiếu.
 | mục 9 | mục 8 | Tang chế kéo dài quá nửa năm, ăn ngủ làm việc đều đổ: đi khám tâm thần, đó là một chẩn đoán có tên | …ạng (mục 4) và người đã có những dấu hiệu ở … |
 | mục 10 | chương 2 mục 20 | Run tay, vã mồ hôi khi thiếu rượu thì đừng tự cai — đi cơ sở y tế | … đừng tự cắt đột ngột, phải tới cơ sở y tế (… |
 | mục 11 | mục 8 | Tang chế kéo dài quá nửa năm, ăn ngủ làm việc đều đổ: đi khám tâm thần, đó là một chẩn đoán có tên | … có bác sĩ, và người đã có những dấu hiệu ở … |
-| mục 12 | chương 17 mục 1 | Uỷ quyền: làm giấy khi ông bà còn ký được, ghi rõ việc được làm và ghi rõ thời hạn | …i thứ hai còn là chuyện giấy uỷ quyền — xem … |
-| mục 12 | mục 2 | Tuần nhận chẩn đoán nặng: đừng đi lấy kết quả một mình, và để những quyết định không lấy lại được sang buổi khám sau | …ứ hai còn là chuyện giấy uỷ quyền — xem  và … |
+| mục 12 | chương 17 mục 1 | Ủy quyền: làm giấy khi ông bà còn ký được, ghi rõ việc được làm và ghi rõ thời hạn | …i thứ hai còn là chuyện giấy ủy quyền — xem … |
+| mục 12 | mục 2 | Tuần nhận chẩn đoán nặng: đừng đi lấy kết quả một mình, và để những quyết định không lấy lại được sang buổi khám sau | …ứ hai còn là chuyện giấy ủy quyền — xem  và … |
 | mục 13 | chương 8 mục 38 | Mua bảo hiểm rồi giết người để lấy tiền: không có cửa, mất tiền và tội chồng tội | …n cái chết thành khoản tiền trả được nợ, và … |
 | mục 13 | chương 1 mục 25 | Khi trầm cảm hoặc có ý nghĩ tự tử: gọi tổng đài, và đừng để thuốc ngủ hay thuốc trừ sâu trong nhà | … Danh sách đầy đủ các số ở … |
 | mục 13 | chương 1 mục 32 | Ý nghĩ tự tử vừa xuất hiện thì nói ngay với một người bên cạnh, nhờ họ ở bên bạn trong lúc đó | … cách xử lý cơn thôi thúc ở … |
-| mục 13 | mục 4 | Người thân mất vì tự tử, tai nạn hay tội phạm: đừng tự chống đỡ, đi khám chuyên khoa sớm | …ởng đến sức khoẻ của người ở lại được nêu ở … |
+| mục 13 | mục 4 | Người thân mất vì tự tử, tai nạn hay tội phạm: đừng tự chống đỡ, đi khám chuyên khoa sớm | …ởng đến sức khỏe của người ở lại được nêu ở … |
 
 ## 30-con-di-hoc
 
@@ -782,10 +783,10 @@ Tổng 709 chỗ tham chiếu.
 | --- | --- | --- | --- |
 | đầu chương | mục 1 | Đau dữ dội đột ngột rồi tăng dần thì đưa trẻ đi viện ngay trong ngày, đừng bắt con chịu đến hết buổi học | … … |
 | đầu chương | mục 2 | Điều trị có cửa sổ thì làm theo cửa sổ, đừng dời lại cho xong kỳ thi: nẹp chỉnh hình là ví dụ có thử nghiệm | … … |
-| đầu chương | mục 3 | Con bị bắt nạt: báo trường ngay trong ngày và đòi ghi nhận bằng văn bản; bị đánh, bị tống tiền, bị đe doạ thì báo công an, và gọi 111 khi cần người can thiệp | … … |
+| đầu chương | mục 3 | Con bị bắt nạt: báo trường ngay trong ngày và đòi ghi nhận bằng văn bản; bị đánh, bị tống tiền, bị đe dọa thì báo công an, và gọi 111 khi cần người can thiệp | … … |
 | đầu chương | mục 4 | Cho trẻ ra ngoài trời mỗi ngày: thêm 40 phút mỗi ngày ở trường đã giảm số trẻ mới cận thị | … … |
 | đầu chương | mục 5 | Màn hình: dưới 1 tuổi không cho xem, 2 đến 4 tuổi không quá 1 giờ mỗi ngày, và đây là khuyến cáo quốc tế chứ không phải quy định của Việt Nam | … … |
-| đầu chương | mục 6 | Cận thị là tổn thương để lại: độ càng sâu thì nguy cơ bong võng mạc, thoái hoá hoàng điểm, glôcôm càng cao | … … |
+| đầu chương | mục 6 | Cận thị là tổn thương để lại: độ càng sâu thì nguy cơ bong võng mạc, thoái hóa hoàng điểm, glôcôm càng cao | … … |
 | đầu chương | mục 7 | Phiếu kiểm tra sức khỏe đầu năm học: đọc hết, và nếu có bất thường thì mang con đi khám chuyên khoa ngay trong năm đó | … … |
 | đầu chương | mục 8 | Con buồn kéo dài: bài kiểm tra ở trường chỉ là sàng lọc, chẩn đoán phải do bác sĩ làm | … … |
 | đầu chương | mục 9 | Không mua sản phẩm hứa "chữa khỏi cận thị", "giảm độ", "phục hồi thị lực" | … … |
@@ -796,8 +797,8 @@ Tổng 709 chỗ tham chiếu.
 | đầu chương | mục 14 | Con mê game thì soát giấc ngủ, bài tập và giờ ra ngoài trước, đừng chỉ đếm giờ chơi | … … |
 | đầu chương | mục 15 | Con nói thích người cùng giới: đừng mắng, đừng đuổi ra khỏi nhà, đừng đưa đi "chữa" | … … |
 | đầu chương | mục 16 | Dạy con thì đừng đánh, cũng đừng mắng con là dốt: trẻ thường xuyên bị đánh, bị mắng có nhiều vấn đề hành vi và cảm xúc hơn | … … |
-| đầu chương | mục 17 | Con khó dạy, mình hay nổi nóng: học một khoá dạy con kéo dài nhiều tuần, có luyện tại lớp và bài tập về nhà | … … |
-| đầu chương | mục 18 | Đừng gửi con vào "trại rèn luyện", "trung tâm cai nghiện game": hệ thống giáo dục không có loại trường đó, và giữ con trong phòng khoá là hành vi bị luật cấm | … … |
+| đầu chương | mục 17 | Con khó dạy, mình hay nổi nóng: học một khóa dạy con kéo dài nhiều tuần, có luyện tại lớp và bài tập về nhà | … … |
+| đầu chương | mục 18 | Đừng gửi con vào "trại rèn luyện", "trung tâm cai nghiện game": hệ thống giáo dục không có loại trường đó, và giữ con trong phòng khóa là hành vi bị luật cấm | … … |
 | đầu chương | mục 19 | Dạy con vùng riêng tư và quy tắc "ai bảo giữ kín thì phải nói": con nói ra thì tin con trước, đừng mắng, và gọi 111 | … … |
 | đầu chương | mục 20 | Tuổi đi xe: đủ 16 mới được đi xe gắn máy; xe đạp và xe đạp điện thì luật không đặt tuổi, nhưng con gây tai nạn là bố mẹ trả | … … |
 | đầu chương | mục 21 | Con chơi thể thao bị đụng đầu: cho ra khỏi sân ngay, hôm đó không vào lại; nôn nhiều, càng lúc càng lơ mơ, đau đầu tăng thì đi cấp cứu | … … |
@@ -806,10 +807,10 @@ Tổng 709 chỗ tham chiếu.
 | mục 12 | mục 7 | Phiếu kiểm tra sức khỏe đầu năm học: đọc hết, và nếu có bất thường thì mang con đi khám chuyên khoa ngay trong năm đó | …đó ra tiệm cắt kính là bỏ qua bước cần làm (… |
 | mục 12 | mục 4 | Cho trẻ ra ngoài trời mỗi ngày: thêm 40 phút mỗi ngày ở trường đã giảm số trẻ mới cận thị | … chuyện giữ cho độ đừng tăng nhanh nằm ở … |
 | mục 12 | mục 9 | Không mua sản phẩm hứa "chữa khỏi cận thị", "giảm độ", "phục hồi thị lực" | …ng nhanh nằm ở mục 4 (ra ngoài mỗi ngày) và … |
-| mục 14 | mục 18 | Đừng gửi con vào "trại rèn luyện", "trung tâm cai nghiện game": hệ thống giáo dục không có loại trường đó, và giữ con trong phòng khoá là hành vi bị luật cấm | … nếu con bị đánh hoặc bị nhốt thì gọi 111 (… |
+| mục 14 | mục 18 | Đừng gửi con vào "trại rèn luyện", "trung tâm cai nghiện game": hệ thống giáo dục không có loại trường đó, và giữ con trong phòng khóa là hành vi bị luật cấm | … nếu con bị đánh hoặc bị nhốt thì gọi 111 (… |
 | mục 15 | mục 8 | Con buồn kéo dài: bài kiểm tra ở trường chỉ là sàng lọc, chẩn đoán phải do bác sĩ làm | …bài kiểm tra ở trường không phải chẩn đoán (… |
-| mục 16 | mục 17 | Con khó dạy, mình hay nổi nóng: học một khoá dạy con kéo dài nhiều tuần, có luyện tại lớp và bài tập về nhà | …t trước và giữ đúng lời — cách làm cụ thể ở … |
-| mục 16 | mục 3 | Con bị bắt nạt: báo trường ngay trong ngày và đòi ghi nhận bằng văn bản; bị đánh, bị tống tiền, bị đe doạ thì báo công an, và gọi 111 khi cần người can thiệp | … bị đánh ở trường hoặc ở nhà người khác thì … |
+| mục 16 | mục 17 | Con khó dạy, mình hay nổi nóng: học một khóa dạy con kéo dài nhiều tuần, có luyện tại lớp và bài tập về nhà | …t trước và giữ đúng lời — cách làm cụ thể ở … |
+| mục 16 | mục 3 | Con bị bắt nạt: báo trường ngay trong ngày và đòi ghi nhận bằng văn bản; bị đánh, bị tống tiền, bị đe dọa thì báo công an, và gọi 111 khi cần người can thiệp | … bị đánh ở trường hoặc ở nhà người khác thì … |
 
 ## 31-sau-18-tuoi-co-may-duong
 
@@ -856,13 +857,13 @@ Tổng 709 chỗ tham chiếu.
 
 | Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
 | --- | --- | --- | --- |
-| đầu chương | mục 1 | Tổn thương tuỷ sống mà đột ngột đau đầu dữ dội, vã mồ hôi: cho ngồi dậy, nới quần áo, gọi 115 — đừng chờ cho hết cơn | … … |
-| đầu chương | mục 2 | Những năm đầu sau tổn thương tuỷ sống là quãng nguy hiểm nhất: có ý định tự tử thì gọi 115 và đừng để người đó ở một mình | … … |
+| đầu chương | mục 1 | Tổn thương tủy sống mà đột ngột đau đầu dữ dội, vã mồ hôi: cho ngồi dậy, nới quần áo, gọi 115 — đừng chờ cho hết cơn | … … |
+| đầu chương | mục 2 | Những năm đầu sau tổn thương tủy sống là quãng nguy hiểm nhất: có ý định tự tử thì gọi 115 và đừng để người đó ở một mình | … … |
 | đầu chương | mục 3 | Không ai được giữ một người ở lại khoa tâm thần chỉ vì gia đình muốn: luật chỉ cho bắt buộc chữa bệnh trong vài trường hợp | … … |
-| đầu chương | mục 4 | Người chăm sóc người khuyết tật trong nhà cũng cần có người để ý sức khoẻ: cái đáng lo là sự quá tải, không phải việc chăm | … … |
+| đầu chương | mục 4 | Người chăm sóc người khuyết tật trong nhà cũng cần có người để ý sức khỏe: cái đáng lo là sự quá tải, không phải việc chăm | … … |
 | đầu chương | mục 5 | Ngồi xe lăn lâu: đệm giảm áp và một phút soi da mỗi ngày, trước khi loét thành lỗ | … … |
 | đầu chương | mục 6 | Đừng mua liệu trình hay máy quảng cáo "chữa khỏi bại liệt, mù, điếc" | … … |
-| đầu chương | mục 7 | Giấy xác nhận khuyết tật do xã cấp, và nó chỉ là chìa khoá — từng quyền lợi phải xin riêng | … … |
+| đầu chương | mục 7 | Giấy xác nhận khuyết tật do xã cấp, và nó chỉ là chìa khóa — từng quyền lợi phải xin riêng | … … |
 | đầu chương | mục 8 | Trẻ khuyết tật: xin giấy và bắt đầu can thiệp sớm, đừng chờ đủ tuổi | … … |
 | đầu chương | mục 9 | Sửa nhà cho người đi lại khó: dốc, tay vịn, phòng tắm — và cái không có ở Việt Nam | … … |
 | đầu chương | mục 10 | Doanh nghiệp nhận nhiều người khuyết tật: ưu đãi có thật, nhưng phần "miễn thuế" đã đổi luật | … … |
@@ -873,13 +874,13 @@ Tổng 709 chỗ tham chiếu.
 | đầu chương | mục 15 | Không có hạng C5: người khuyết tật lái ô tô số tự động được cấp hạng B | … … |
 | đầu chương | mục 16 | Phục hồi chức năng: vào nơi có nhóm đa chuyên khoa, liều do bác sĩ và kỹ thuật viên quyết | … … |
 | đầu chương | mục 17 | Nghe kém thì đi đo thính lực trước, rồi mới tính chuyện máy trợ thính; lý do đeo máy là nghe được bây giờ, không phải để phòng sa sút trí tuệ | … … |
-| đầu chương | mục 18 | Muốn nói một người lớn "không tự quyết được việc của mình" thì phải ra toà, và toà có ba mức chứ không phải hai | … … |
+| đầu chương | mục 18 | Muốn nói một người lớn "không tự quyết được việc của mình" thì phải ra tòa, và tòa có ba mức chứ không phải hai | … … |
 | đầu chương | mục 19 | Người giám hộ của người lớn theo thứ tự luật định; người được giám hộ gây thiệt hại thì lấy tài sản của họ trả trước | … … |
 | đầu chương | mục 20 | Vì khuyết tật mà bị từ chối tuyển, không cho lên chính thức hay trả lương thấp hơn: kiện được, nhưng phải tính trước tiền và thời gian | … … |
-| đầu chương | mục 21 | Sau tổn thương tuỷ sống mà bí tiểu: cách làm rỗng bàng quang do bác sĩ và người bệnh cùng quyết, và phải theo dõi thận, bàng quang suốt đời | … … |
-| mục 4 | mục 2 | Những năm đầu sau tổn thương tuỷ sống là quãng nguy hiểm nhất: có ý định tự tử thì gọi 115 và đừng để người đó ở một mình | … Người chăm cũng nên đọc … |
-| mục 17 | mục 7 | Giấy xác nhận khuyết tật do xã cấp, và nó chỉ là chìa khoá — từng quyền lợi phải xin riêng | …hận khuyết tật — giấy này làm ở cấp xã, xem … |
-| mục 21 | mục 1 | Tổn thương tuỷ sống mà đột ngột đau đầu dữ dội, vã mồ hôi: cho ngồi dậy, nới quần áo, gọi 115 — đừng chờ cho hết cơn | … dữ dội, vã mồ hôi, huyết áp vọt — xử trí ở … |
+| đầu chương | mục 21 | Sau tổn thương tủy sống mà bí tiểu: cách làm rỗng bàng quang do bác sĩ và người bệnh cùng quyết, và phải theo dõi thận, bàng quang suốt đời | … … |
+| mục 4 | mục 2 | Những năm đầu sau tổn thương tủy sống là quãng nguy hiểm nhất: có ý định tự tử thì gọi 115 và đừng để người đó ở một mình | … Người chăm cũng nên đọc … |
+| mục 17 | mục 7 | Giấy xác nhận khuyết tật do xã cấp, và nó chỉ là chìa khóa — từng quyền lợi phải xin riêng | …hận khuyết tật — giấy này làm ở cấp xã, xem … |
+| mục 21 | mục 1 | Tổn thương tủy sống mà đột ngột đau đầu dữ dội, vã mồ hôi: cho ngồi dậy, nới quần áo, gọi 115 — đừng chờ cho hết cơn | … dữ dội, vã mồ hôi, huyết áp vọt — xử trí ở … |
 
 ## 34-thuoc-trong-nha
 

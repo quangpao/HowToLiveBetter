@@ -30,7 +30,7 @@ function checkBlock(block, problems, file) {
   else {
     const kv = Object.fromEntries(labelLine[1].trim().split(/\s+/).map(x => x.split('=')));
     for (const [k, ok] of Object.entries(LABEL_OK)) {
-      if (!(k in kv)) add(`nhãn thiếu khoá "${k}"`);
+      if (!(k in kv)) add(`nhãn thiếu khóa "${k}"`);
       else if (ok && !ok.includes(kv[k])) add(`nhãn ${k}=${kv[k]} không hợp lệ (chỉ ${ok.join('/')})`);
     }
   }
