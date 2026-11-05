@@ -10,10 +10,12 @@ Khác biệt thứ hai là **cơ sở y tế**: không phải bệnh viện nào
 
 Về thang bằng chứng: **không mục nào ở chương này xếp hạng A**, vì hướng dẫn cấp cứu là khuyến cáo chuyên môn chứ không phải chế tài có mức phạt, và Việt Nam chưa công bố thống kê kết cục cho từng tình huống. **45 mục hạng B** — đứng trên văn bản của Bộ Y tế có số hiệu (quyết định, thông tư) hoặc hướng dẫn đã công bố của bệnh viện tuyến cuối. **3 mục hạng C** — chỉ còn kinh nghiệm thực hành hoặc nguồn báo dẫn lời bác sĩ, và mục nào cũng nói rõ giới hạn đó trong Ghi chú.
 
-**Nhóm mục**: **Ngừng tim, đột quỵ, mắt, tim**: mục 1 đến 7 · **Đau dữ dội, máu tụ, huyết khối, chảy máu, vết cắn, bỏng**: mục 8 đến 14 · **Phản vệ, co giật, hạ đường huyết, điện, khí CO, ngộ độc, hóa chất**: mục 15 đến 21 · **Nắng nóng, cháy, đuối nước, hóc, lạc đường, hạ thân nhiệt**: mục 22 đến 28 · **Rắn cắn, động đất, thú rừng, sét, độ cao, ve, nước uống**: mục 29 đến 35 · **Bị đe dọa, ẩu đả, phơi nhiễm HIV, cứu người, vật đâm, gãy xương, xâm hại**: mục 36 đến 42 · **Trẻ nhỏ, rượu, đứt lìa, răng**: mục 43 đến 48
+**Nhóm mục**: **Ngừng tim, đột quỵ, mắt, tim**: [mục 1 đến 7](13-cap-cuu-nhung-phut-quyet-dinh.md#entry-nguoi-guc-goi-khong-tinh-khong-tho-binh-thuong-ep-tim-ngoai "refs:nguoi-guc-goi-khong-tinh-khong-tho-binh-thuong-ep-tim-ngoai,nguoi-gia-nga-nguoi-nam-duoi-dat-khom-xuong-goi-hoi-goi,mot-ben-mieng-meo-mot-tay-yeu-noi-khong-ro-goi-115,chong-mat-dung-khong-vung-nhin-mot-thanh-hai-mot-ben-mat,mot-mat-toi-nhu-co-man-che-du-vai-phut-tu-het,mat-sung-dau-do-nhin-den-thay-quang-cau-vong-dau-dau,dau-nguc-that-bop-nghen-keo-dai-hoac-kem-va-mo-hoi") · **Đau dữ dội, máu tụ, huyết khối, chảy máu, vết cắn, bỏng**: [mục 8 đến 14](13-cap-cuu-nhung-phut-quyet-dinh.md#entry-dau-du-doi-nhu-bi-xe-tu-nguc-chay-ra-sau-lung "refs:dau-du-doi-nhu-bi-xe-tu-nguc-chay-ra-sau-lung,dau-dau-du-doi-nhat-doi-len-toi-dinh-trong-vong-mot,nguoi-gia-dap-dau-vai-tuan-den-vai-thang-sau-di-loang,mot-chan-dot-nhien-sung-cang-an-dau-di-kham-som-kem,chay-mau-nhieu-an-manh-len-vet-thuong-neu-o-tay-chan,bi-cho-meo-can-hoac-cao-rach-da-rua-bang-nuoc-va,bong-lam-mat-bang-nuoc-sach-chay-20-phut-khong-boi-kem") · **Phản vệ, co giật, hạ đường huyết, điện, khí CO, ngộ độc, hóa chất**: [mục 15 đến 21](13-cap-cuu-nhung-phut-quyet-dinh.md#entry-dot-nhien-noi-man-khap-nguoi-kem-kho-tho-hoac-choang-goi "refs:dot-nhien-noi-man-khap-nguoi-kem-kho-tho-hoac-choang-goi,nguoi-co-giat-nga-xuong-don-vat-can-cho-nam-nghieng-bam,nguoi-dai-thao-duong-dot-nhien-run-ray-va-mo-hoi-noi,co-nguoi-bi-dien-giat-cat-cau-dao-truoc-dung-que-kho,coi-bao-khi-co-keu-hoac-ca-nha-cung-dau-dau-buon,uong-nham-chat-tay-rua-thuoc-tru-sau-hay-thuoc-chua-benh,axit-hoac-kiem-ban-vao-nguoi-coi-ngay-quan-ao-nhiem-rua") · **Nắng nóng, cháy, đuối nước, hóc, lạc đường, hạ thân nhiệt**: [mục 22 đến 28](13-cap-cuu-nhung-phut-quyet-dinh.md#entry-nang-nong-chong-mat-buon-non-khong-ra-mo-hoi-hoac-lu "refs:nang-nong-chong-mat-buon-non-khong-ra-mo-hoi-hoac-lu,nguoi-say-nang-con-tinh-cho-uong-nuoc-muoi-loang-hoac-dung,chay-nha-bo-sat-mat-dat-so-mu-ban-tay-len-cua,thay-nguoi-duoi-nuoc-goi-nguoi-va-goi-115-dua-sao-hoac,nguoi-hoc-di-vat-khong-noi-duoc-tu-1-tuoi-tro-len,lac-o-nui-rung-bien-gioi-hay-bai-bien-vang-khong-co,run-ray-noi-ngong-di-loang-choang-la-ha-than-nhiet-thay") · **Rắn cắn, động đất, thú rừng, sét, độ cao, ve, nước uống**: [mục 29 đến 35](13-cap-cuu-nhung-phut-quyet-dinh.md#entry-bi-ran-can-ngoi-yen-thao-nhan-va-dong-ho-toi-co "refs:bi-ran-can-ngoi-yen-thao-nhan-va-dong-ho-toi-co,dong-dat-nha-du-kha-nang-chiu-dong-dat-thi-nup-tai,gap-gau-lon-rung-dan-cho-dai-khong-chay-nghieng-nguoi-lui,giong-set-khi-o-ngoai-troi-vao-o-to-co-mui-cung,len-vung-cao-tang-dan-do-cao-cho-ngu-trieu-chung-nang,bi-ve-bam-dung-nhip-mui-nhon-kep-sat-da-keo-deu,nuoc-o-ngoai-troi-phai-dun-soi-moi-uong-soi-mot-phut") · **Bị đe dọa, ẩu đả, phơi nhiễm HIV, cứu người, vật đâm, gãy xương, xâm hại**: [mục 36 đến 42](13-cap-cuu-nhung-phut-quyet-dinh.md#entry-bi-nguoi-la-chan-duong-doi-tien-o-noi-vang-dua-tien "refs:bi-nguoi-la-chan-duong-doi-tien-o-noi-vang-dua-tien,gap-mot-nhom-dang-danh-nhau-lui-ra-khong-can-khong-dung,co-nguy-co-phoi-nhiem-hiv-toi-co-so-y-te-trong,cuu-nguoi-ma-bi-thuong-hoac-mat-tien-tim-nguoi-gay-thiet,vat-sac-nhu-dao-thanh-sat-manh-kinh-dam-vao-nguoi-an,nghi-gay-xuong-khong-dong-vao-cho-gay-nep-giu-nguyen-tu,bi-xam-hai-tinh-duc-toi-noi-an-toan-roi-goi-113") · **Trẻ nhỏ, rượu, đứt lìa, răng**: [mục 43 đến 48](13-cap-cuu-nhung-phut-quyet-dinh.md#entry-tre-duoi-1-tuoi-hoc-di-vat-khoc-khong-ra-tieng-cho "refs:tre-duoi-1-tuoi-hoc-di-vat-khoc-khong-ra-tieng-cho,tre-duoi-1-tuoi-khong-phan-ung-khong-tho-binh-thuong-bat,tre-nuot-pin-cuc-ao-hoac-nuot-tu-hai-vien-nam-cham,nguoi-say-ruou-cho-nam-nghieng-co-nguoi-trong-lien-tuc-khong,ngon-tay-ngon-chan-bi-dut-lia-an-cam-mau-phan-dut,rang-vinh-vien-bi-roi-ca-chiec-cam-phan-than-rang-rua")
 
 ### 1. Người gục, gọi không tỉnh, không thở bình thường: ép tim ngoài lồng ngực ngay, gọi 115, nhờ người tìm máy sốc điện tự động
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-nguoi-guc-goi-khong-tinh-khong-tho-binh-thuong-ep-tim-ngoai" data-legacy="13-1"></a>
+
 - Chi phí: Người nhà không mất tiền để bắt đầu: cuộc gọi 115 không tính phí, học một buổi sơ cứu ở hội chữ thập đỏ hoặc ở bệnh viện tỉnh cũng gần như không mất tiền. Khoản phải trả nằm ở phía sau: tiền khám cấp cứu, tiền chụp cắt lớp, tiền nằm hồi sức, quỹ bảo hiểm y tế trả phần lớn nhưng người bệnh vẫn ứng trước một phần. Thứ tốn thật sự là sức: một người ép liên tục cho tới khi xe tới, và phải có người thứ hai để ép tiếp khi người đầu mệt.
 - Nói dễ hiểu: Đặt người nằm ngửa trên nền cứng, hai tay chồng nhau ở 1/3 dưới xương ức, ấn thẳng góc sâu 4 đến 5 cm, mỗi phút 100 lần trở lên, đổi người ép mỗi 2 phút; ấn 30 lần rồi thổi ngạt 2 lần; gọi 115, nhờ tìm máy sốc điện tự động.
 - Lợi ích: Quyết định 1904/QĐ-BYT ngày 30/5/2014 ban hành tài liệu Hướng dẫn quy trình kỹ thuật chuyên ngành Hồi sức - Cấp cứu và Chống độc. Quy trình cấp cứu ngừng tuần hoàn trong tài liệu đó xếp việc gọi thêm người hỗ trợ và chuẩn bị máy sốc điện lên trước, rồi kiểm tra mạch trong 10 giây, rồi khởi đầu 30 lần ép tim và 2 lần hỗ trợ hô hấp; vị trí ép là 1/3 dưới xương ức, tần số từ 100 lần/phút trở lên, biên độ từ 4 đến 5 cm ở người lớn, và người ép phải đổi tay mỗi 2 phút. Bài truyền thông của Trung tâm Kiểm soát bệnh tật Thành phố Hồ Chí Minh đăng ngày 30/9/2025 trên trang của Trung tâm Y tế khu vực Phú Lâm ghi vị trí 1/2 dưới xương ức, độ sâu 5 đến 6 cm, tần số 100 lần/phút trở lên, dùng máy khử rung tim tự động nếu có, và gọi 115. Bài đó cũng xếp ba dấu hiệu ngừng tim gồm mất ý thức, ngừng thở hoặc thở ngáp cá, không bắt được mạch; và ghi rõ tuyệt đối không để người bệnh tự lái xe. Hai tài liệu lệch nhau ở chỗ một bên ghi 1/3 dưới xương ức, một bên ghi 1/2 dưới xương ức; điểm chung là ấn vào nửa dưới xương ức.
@@ -23,6 +25,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 2. Người già ngã, người nằm dưới đất: khom xuống gọi hỏi, gọi 115, đừng vội bế dậy
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-nguoi-gia-nga-nguoi-nam-duoi-dat-khom-xuong-goi-hoi-goi" data-legacy="13-2"></a>
+
 - Chi phí: Gọi 115 không mất tiền. Khoản phải trả là tiền chụp X-quang hoặc chụp cắt lớp để loại trừ gãy cổ xương đùi và chảy máu trong sọ, cộng tiền xe cấp cứu, thường vài trăm nghìn tới vài triệu đồng và quỹ bảo hiểm y tế trả một phần. Cái mất thật là buổi làm việc: ngồi chờ ở khoa cấp cứu, và nếu người nhà tự bế lên xe thì mất luôn cơ hội biết cơn ngã do đâu.
 - Nói dễ hiểu: Khom xuống ngang mặt người ngã, gọi to xem có tỉnh, nhìn ngực xem có thở; không bế hay kéo ngồi dậy; gọi 115 nếu người không đứng dậy được, hoặc có yếu tay, méo miệng, nói khó.
 - Lợi ích: Bài của Trung tâm Kiểm soát bệnh tật Thành phố Hồ Chí Minh đăng ngày 2/10/2026 dẫn số liệu tai nạn thương tích của thành phố năm 2025: 117.328 ca mắc và 218 ca chết, trong đó té ngã là 35.272 ca, chiếm 30%, với 29 ca chết; riêng nhóm trên 60 tuổi có 8.536 ca, chiếm 24%, và 11 ca chết. Bài đó cũng dặn người cao tuổi đứng lên từ từ sau khi ngồi hoặc nằm, và khi thấy choáng thì dừng lại, ngồi hoặc nằm ở nơi an toàn rồi báo người thân. Phần chuyên môn nằm ở Quyết định 3312/QĐ-BYT: tài liệu xếp liệt mặt, liệt nửa người, rối loạn ngôn ngữ, nhìn đôi, thất điều và chóng mặt vào nhóm biểu hiện khởi phát của nhồi máu não, và ghi rằng thời điểm khởi phát triệu chứng hoặc thời điểm cuối cùng thấy người bệnh còn bình thường là rất quan trọng để xét điều trị tái tưới máu; nếu ngủ dậy đã có triệu chứng hoặc không có người chứng kiến thì gọi là đột quỵ không rõ thời điểm khởi phát, và khi đó bác sĩ phải dựa vào hình ảnh học chứ không dựa vào giờ.
@@ -32,6 +36,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 3. Một bên miệng méo, một tay yếu, nói không rõ: gọi 115 ngay, đừng chờ, đừng tự chở bằng xe máy
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-mot-ben-mieng-meo-mot-tay-yeu-noi-khong-ro-goi-115" data-legacy="13-3"></a>
+
 - Chi phí: Gọi 115 không mất tiền, và ba động tác kiểm tra cũng không mất gì: bảo người bệnh cười, giơ hai tay, nói một câu. Khoản phải trả là tiền chụp cắt lớp vi tính, tiền thuốc tiêu huyết khối và tiền nằm đơn vị đột quỵ, quỹ bảo hiểm y tế trả phần lớn. Cái mất thật là mấy chục phút đầu: mỗi phút chờ là một phần vùng não chết thêm và không mọc lại.
 - Nói dễ hiểu: Bảo người bệnh cười, giơ hai tay và nói một câu; thấy méo miệng, yếu một bên, nói ngọng thì gọi 115 ngay, ghi lại giờ khởi phát, không cho ăn uống, không chở bằng xe máy.
 - Lợi ích: Quyết định 3312/QĐ-BYT ngày 05/11/2024 dành mục 4.2.2 cho điều kiện thời gian của tiêu huyết khối: người bệnh phải có triệu chứng khởi phát đột quỵ rõ ràng dưới 270 phút trước khi dùng thuốc, và tài liệu ghi rằng điều trị tiêu huyết khối đường tĩnh mạch trong 3 giờ đầu, gần đây mở rộng cửa sổ điều trị lên 4,5 giờ, đã được áp dụng thường quy tại Hoa Kỳ và châu Âu, nên việc xác định chính xác thời gian khởi phát đột quỵ là rất quan trọng. Cùng tài liệu, mục 1.1.2 định nghĩa cơn thiếu máu não thoáng qua là khởi phát đột ngột triệu chứng thần kinh khu trú, kéo dài không quá 24 giờ và không có tổn thương nhồi máu não cấp trên hình ảnh. Phần lâm sàng liệt kê các biểu hiện khởi phát hay gặp gồm liệt nửa người, liệt một chi, liệt mặt, rối loạn ngôn ngữ, mất ngôn ngữ, nhìn đôi, thất điều, chóng mặt, rối loạn tri giác đột ngột; và tài liệu buộc đánh giá mức độ nặng bằng thang điểm đột quỵ của Viện Sức khỏe Quốc gia Hoa Kỳ để quyết định có tiêu huyết khối hay không.
@@ -41,6 +47,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 4. Chóng mặt đứng không vững, nhìn một thành hai, một bên mắt tối: xử như đột quỵ, gọi 115
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-chong-mat-dung-khong-vung-nhin-mot-thanh-hai-mot-ben-mat" data-legacy="13-4"></a>
+
 - Chi phí: Gọi 115 không mất tiền. Phần tốn là tiền chụp cắt lớp hoặc chụp cộng hưởng từ, tiền khám chuyên khoa thần kinh, và một ngày nằm theo dõi, quỹ bảo hiểm y tế trả phần lớn. Cái mất thật là vài giờ đầu: nếu nguyên nhân là mạch máu não thì cửa sổ can thiệp tính bằng giờ, còn nếu là tiền đình thì cũng phải loại trừ mạch máu trước đã.
 - Nói dễ hiểu: Đỡ người bệnh ngồi xuống chỗ an toàn, hỏi xem có nhìn đôi, một bên mắt tối, đi loạng choạng; có một trong ba dấu hiệu đó thì gọi 115, ghi giờ khởi phát, không để tự đi bộ hay tự lái xe.
 - Lợi ích: Quyết định 3312/QĐ-BYT ngày 05/11/2024 liệt kê nhìn đôi, thất điều và chóng mặt vào nhóm biểu hiện khởi phát hay gặp của nhồi máu não, kèm ghi chú rằng chóng mặt hiếm khi xuất hiện đơn độc, tức là khi người bệnh chỉ kêu chóng mặt thì phải hỏi thêm các dấu hiệu đi kèm. Tài liệu cũng ghi nhận đột quỵ không rõ thời điểm khởi phát khi người bệnh ngủ dậy đã có triệu chứng hoặc không có người chứng kiến, và việc xác định thời điểm là rất quan trọng để xét tái tưới máu. Lưu đồ hình ảnh học của tài liệu đặt các mốc: tiêu huyết khối trong cửa sổ 4,5 giờ, lấy huyết khối cơ học trong cửa sổ 6 giờ với người bệnh có điểm ASPECTS từ 6 trở lên, mở rộng sang cửa sổ 6 đến 12 giờ và 6 đến 24 giờ khi hình ảnh tưới máu còn vùng tranh tối tranh sáng, và với lõi nhồi máu lớn thì tài liệu cho mở rộng lấy huyết khối tới cửa sổ 24 giờ nếu thể tích lõi trên 50 ml hoặc điểm ASPECTS từ 3 đến 5 mà còn bất tương xứng rõ.
@@ -50,6 +58,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 5. Một mắt tối như có màn che, dù vài phút tự hết: đi khám mắt ngay, đừng chờ sang hôm sau
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-mot-mat-toi-nhu-co-man-che-du-vai-phut-tu-het" data-legacy="13-5"></a>
+
 - Chi phí: Khám mắt không mất nhiều: tiền khám và tiền chụp mạch huỳnh quang võng mạc, thường vài trăm nghìn đồng, bảo hiểm y tế trả một phần. Khoản đắt là đi lại và chờ: phải tới bệnh viện có khoa mắt và có máy chụp mạch, không phải phòng khám gần nhà. Nếu phải khám thêm tim mạch để tìm nguồn tắc thì phát sinh thêm một buổi nữa.
 - Nói dễ hiểu: Một mắt tối sầm như có màn che, có khi vài phút rồi sáng lại: đi khám mắt ngay, càng sớm càng tốt, nói rõ giờ bị, không chờ xem có tái lại, không nhỏ thuốc rồi nằm nghỉ.
 - Lợi ích: Quyết định 40/QĐ-BYT ngày 12/01/2015 ban hành Hướng dẫn chẩn đoán và điều trị các bệnh về mắt. Bài 27 của tài liệu, về tắc động mạch trung tâm võng mạc, mô tả triệu chứng cơ năng là mù đột ngột một mắt, không kèm chớp sáng, không đau nhức, không đỏ mắt, không cộm chói, và ghi rằng đôi khi có tiền triệu là những đợt mù thoáng qua ở một bên. Cùng bài đó đặt nguyên tắc điều trị: đây là cấp cứu số một của nhãn khoa, cần xử lý sớm trong vòng 2 giờ đầu, vì mục tiêu là tạo lại lưu thông mạch máu. Tài liệu cũng nói thẳng rằng đây là tai biến gây mù một mắt đột ngột và không hồi phục dù có được điều trị cấp cứu kịp thời, nên giá trị của việc đi ngay không nằm ở chỗ hứa cứu lại thị lực, mà ở chỗ tìm nguyên nhân tim mạch và chặn cơn nặng hơn.
@@ -59,6 +69,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 6. Mắt sưng đau, đỏ, nhìn đèn thấy quầng cầu vồng, đau đầu buồn nôn: đi khám mắt ngay trong ngày
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-mat-sung-dau-do-nhin-den-thay-quang-cau-vong-dau-dau" data-legacy="13-6"></a>
+
 - Chi phí: Khám mắt mất tiền khám và tiền đo nhãn áp, soi góc tiền phòng, thường vài trăm nghìn đồng và bảo hiểm y tế trả một phần. Nếu phải mổ cắt bè hoặc cắt mống mắt bằng laser thì chi phí lớn hơn nhiều, và đó là lý do phải đi sớm. Cái mất thật là một ngày: chờ ở phòng khám, rồi có thể phải nằm lại để truyền thuốc hạ nhãn áp.
 - Nói dễ hiểu: Mắt đau nhức dữ dội, đỏ, nhìn đèn thấy quầng như cầu vồng, kèm đau đầu và buồn nôn: đi khám mắt ngay trong ngày, không nhỏ thuốc giảm đau, không chườm nóng, không chờ hết đau.
 - Lợi ích: Quyết định 40/QĐ-BYT ngày 12/01/2015 dành bài 17 cho glôcôm góc đóng nguyên phát. Phần lâm sàng của thể cơn cấp mô tả khởi phát đột ngột, diễn biến rầm rộ, thường vào chiều tối hoặc sau một xúc động mạnh: người bệnh đau nhức mắt, nhức quanh hố mắt, nhức lan lên nửa đầu cùng bên, nhìn mờ như qua màn sương, nhìn đèn có quầng xanh đỏ, sợ ánh sáng, chói và chảy nước mắt, có thể buồn nôn hoặc nôn, đau bụng, vã mồ hôi, sốt; khám thấy nhãn áp tăng rất cao, mi sưng nề, mắt cương tụ đỏ, giác mạc phù mờ, đồng tử giãn méo, tiền phòng nông, góc tiền phòng đóng. Nguyên tắc điều trị mà tài liệu đặt ra là tích cực, khẩn trương làm hạ nhãn áp bằng thuốc để chống tổn hại thêm cho thị thần kinh. Phác đồ cụ thể ghi tra thuốc co đồng tử 15 đến 20 phút một lần cho tới khi đồng tử co lại và nhãn áp hạ, tra thuốc chẹn beta giao cảm 2 lần mỗi ngày, uống acetazolamid 0,25 g từ 2 đến 4 viên mỗi ngày hoặc tiêm tĩnh mạch khi nôn nhiều, truyền mannitol 20% 200 ml khi nhãn áp rất cao, và ghi rõ điều trị bằng phẫu thuật là bắt buộc với hình thái glôcôm góc đóng. Tài liệu cũng dặn tra pilocacpin 1% cho mắt thứ hai để dự phòng cơn tăng nhãn áp.
@@ -68,6 +80,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 7. Đau ngực thắt, bóp nghẹn kéo dài, hoặc kèm vã mồ hôi, buồn nôn, khó thở: gọi 115, không tự lái xe
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-dau-nguc-that-bop-nghen-keo-dai-hoac-kem-va-mo-hoi" data-legacy="13-7"></a>
+
 - Chi phí: Gọi 115 không mất tiền, và việc đầu tiên là ngồi nghỉ cũng không mất gì. Khoản phải trả nằm ở buổi can thiệp: tiền chụp động mạch vành, tiền đặt stent, tiền nằm đơn vị tim mạch, quỹ bảo hiểm y tế trả phần lớn nhưng vật tư có loại phải cùng chi trả. Cái mất thật là giờ: bác sĩ chỉ mở được mạch trong một khoảng thời gian nhất định, và khoảng đó tính từ lúc khởi phát triệu chứng chứ không phải từ lúc tới cổng bệnh viện.
 - Nói dễ hiểu: Đau ngực như có vật nặng đè, bóp nghẹn, lan lên cổ, hàm, tay trái mà không đỡ: gọi 115 ngay, cho ngồi nghỉ, nới áo, không tự lái xe, không chờ xem có đỡ không.
 - Lợi ích: Quyết định 5332/QĐ-BYT ngày 23/12/2020 ban hành tài liệu Thực hành chẩn đoán và điều trị bệnh động mạch vành. Mục 4.3 của tài liệu đặt cửa sổ can thiệp tính từ lúc khởi phát triệu chứng là 0 đến 12 giờ, và với người bệnh nhồi máu cơ tim cấp có ST chênh lên thì can thiệp thì đầu được ưu tiên; nếu thời gian từ lúc chẩn đoán tới lúc đưa được dây dẫn qua tổn thương dưới 2 giờ thì chuyển người bệnh tới cơ sở can thiệp. Mục 4.3.2 nói rõ hơn: chọn can thiệp thì đầu nếu thời gian dự tính từ lúc tiếp cận nhân viên y tế ban đầu đến lúc mở thông mạch vành không quá 2 giờ khi chuyển từ nơi khác, không quá 90 phút khi người bệnh đến thẳng cơ sở làm được can thiệp, và lý tưởng là không quá 60 phút với ca đến sớm trong 2 giờ đầu; nếu không can thiệp được trong khoảng đó thì ưu tiên dùng thuốc tiêu sợi huyết, bảo đảm tiêm trong vòng 10 phút kể từ lúc có chẩn đoán, rồi chuyển tới cơ sở can thiệp trong vòng 2 đến 24 giờ. Tài liệu cũng ghi thời gian tiêu sợi huyết là trong 12 giờ đầu, nên sớm, đặc biệt trong 4 giờ đầu. Bài truyền thông của Trung tâm Kiểm soát bệnh tật Thành phố Hồ Chí Minh đăng ngày 30/9/2025 mô tả cơn nhồi máu cơ tim là đau, nặng ngực lan lên vai, cổ, hàm, cánh tay, kèm vã mồ hôi, buồn nôn, chóng mặt; bài đó dặn gọi cấp cứu 115 và tuyệt đối không để người bệnh tự lái xe, chần chừ quan sát thêm hay tự ý dùng thuốc giảm đau.
@@ -77,6 +91,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 8. Đau dữ dội như bị xé, từ ngực chạy ra sau lưng xuống thắt lưng: gọi 115 và nói rõ "đau như bị xé"
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-dau-du-doi-nhu-bi-xe-tu-nguc-chay-ra-sau-lung" data-legacy="13-8"></a>
+
 - Chi phí: Người bệnh không mất đồng nào cho cuộc gọi 115. Tiền thật nằm ở chuyến xe cấp cứu, phim chụp cắt lớp vi tính và ca mổ tim mạch, con số tùy bệnh viện và tùy loại vật tư; phần mất thêm là vài giờ nằm chờ ở phòng cấp cứu trước khi có kết quả hình ảnh.
 - Nói dễ hiểu: Gọi 115 ngay, nói rõ đau dữ dội như bị xé, từ ngực chạy ra sau lưng; đừng tự lái xe, đừng ghé tuyến gần, mà yêu cầu đưa thẳng tới bệnh viện mổ được động mạch chủ.
 - Lợi ích: Bệnh viện Hữu nghị Việt Đức nêu rõ lóc tách động mạch chủ loại A cấp tính là bệnh lý tim mạch rất nặng, phải được chẩn đoán và phẫu thuật cấp cứu kịp thời; khi đã chẩn đoán thì chuyển ngay tới bệnh viện có khả năng phẫu thuật, tránh đi qua nhiều tuyến trung gian. Bệnh viện này đã mổ cấp cứu thường quy hơn 250 ca trong gần 10 năm, những năm gần đây thành công trên 90%. Vinmec mô tả cơn đau điển hình là đau ngực dữ dội như dao đâm hay như xé ngực, xuyên ra sau lưng, kéo dài nhiều giờ, và ghi chụp cắt lớp vi tính đa dãy dựng hình động mạch chủ là cách chẩn đoán chính xác nhất. Số 115 là số cấp cứu y tế mà Bộ Y tế ghi cho xe cấp cứu trong Quyết định 636/QĐ-BYT 2025.
@@ -86,6 +102,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 9. Đau đầu dữ dội nhất đời, lên tới đỉnh trong vòng một giờ: đi cấp cứu, chụp cắt lớp vi tính sọ ngay
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-dau-dau-du-doi-nhat-doi-len-toi-dinh-trong-vong-mot" data-legacy="13-9"></a>
+
 - Chi phí: Một lần khám cấp cứu và một phim chụp cắt lớp vi tính sọ, cộng tiền đi lại; nếu bác sĩ quyết định chọc dò dịch não tủy thì thêm một thủ thuật và một ngày nằm theo dõi.
 - Nói dễ hiểu: Đau đầu dữ dội nhất đời, lên đỉnh trong vòng một giờ, kèm nôn hoặc cứng gáy: gọi 115 hoặc tới ngay cơ sở có máy chụp cắt lớp vi tính sọ, nói rõ cơn đau bắt đầu lúc mấy giờ.
 - Lợi ích: Quyết định 3312/QĐ-BYT 2024 ghi bệnh cảnh chảy máu dưới nhện: 10% người bệnh tử vong mà không kịp cấp cứu; đau đầu dữ dội như đau đầu sét đánh, đau như muốn vỡ tung đầu, lan xuống vùng gáy chẩm; nôn và cứng gáy là dấu hiệu thường gặp. Cùng văn bản chỉ đường chẩn đoán: chụp cắt lớp vi tính sọ não không tiêm thuốc cản quang là bước đầu, nếu hình ảnh bình thường mà vẫn nghi thì chọc dịch não tủy, và nguyên tắc chung là nhanh chóng vận chuyển người bệnh tới cơ sở có khả năng điều trị đột quỵ não. Số 115 là số cấp cứu y tế mà Bộ Y tế ghi cho xe cấp cứu trong Quyết định 636/QĐ-BYT 2025.
@@ -95,6 +113,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 10. Người già đập đầu, vài tuần đến vài tháng sau đi loạng choạng, chậm chạp, ngủ nhiều, yếu nửa người: đi chụp cắt lớp vi tính sọ
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-nguoi-gia-dap-dau-vai-tuan-den-vai-thang-sau-di-loang" data-legacy="13-10"></a>
+
 - Chi phí: Một buổi khám ngoại thần kinh và một phim chụp cắt lớp vi tính sọ; nếu có máu tụ phải mổ thì thêm vài ngày nằm viện và tiền phẫu thuật, còn không mổ thì phần lớn chi phí dừng ở lần chụp và lần khám lại.
 - Nói dễ hiểu: Người già đã đập đầu, vài tuần đến vài tháng sau bỗng đi loạng choạng, nói chậm, ngủ nhiều hoặc yếu một bên người: đưa đi khám ngoại thần kinh và chụp cắt lớp vi tính sọ, đừng cho là tuổi già.
 - Lợi ích: Bệnh viện Đại học Y-Dược Huế ghi triệu chứng máu tụ dưới màng cứng mạn tính thường xuất hiện sau một khoảng dài, từ 3 tuần đến vài tháng, với đau đầu, lú lẫn, yếu liệt nửa người, thay đổi tính cách, và chẩn đoán nhờ CT-scan sọ não; tỷ lệ khoảng 5/100.000 dân, tăng lên 58/100.000 ở nhóm trên 70 tuổi. Bệnh viện Trung ương Quân đội 108 ghi người cao tuổi đang dùng thuốc chống đông và người nghiện rượu là nhóm nguy cơ, nhiều ca không nhớ rõ chấn thương đầu, và một ca 72 tuổi vào viện vì đau đầu liên tục đã được chụp cắt lớp vi tính sọ não rồi mổ lấy máu tụ.
@@ -104,6 +124,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 11. Một chân đột nhiên sưng, căng, ấn đau: đi khám sớm; kèm khó thở hoặc đau ngực thì gọi 115 ngay
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-mot-chan-dot-nhien-sung-cang-an-dau-di-kham-som-kem" data-legacy="13-11"></a>
+
 - Chi phí: Một buổi khám chuyên khoa tim mạch và một lần siêu âm Doppler tĩnh mạch chi dưới, cộng tiền thuốc chống đông nếu bác sĩ kê; phần đắt là thời gian, vì chờ vài ngày cho chân xẹp thì cục máu có thể đã đi lên phổi.
 - Nói dễ hiểu: Một chân đột nhiên sưng, căng, ấn đau: đi khám sớm để siêu âm Doppler. Nếu cùng lúc khó thở, đau ngực hoặc ngất thì gọi 115 ngay, đừng chờ xem chân có xẹp.
 - Lợi ích: Quyết định 3908/QĐ-BYT 2023 định nghĩa huyết khối tĩnh mạch sâu chi dưới và thuyên tắc động mạch phổi là hai biểu hiện cấp tính của cùng một quá trình bệnh lý, và mô tả cục máu bứt khỏi thành mạch sẽ theo dòng máu về tim phải rồi lên phổi. Bệnh viện Bạch Mai ghi 90% ca thuyên tắc phổi khởi nguồn từ một cục máu đông ở chân, dấu hiệu là sưng to bất thường một bên, nặng chân, đau chân, và khuyên làm siêu âm Doppler; bác sĩ Viện Tim mạch của bệnh viện này ghi giai đoạn cấp có chân sưng nhiều, đau dọc theo đường đi của tĩnh mạch, và khoảng một nửa số người bệnh không có triệu chứng. Số 115 là số cấp cứu y tế mà Bộ Y tế ghi cho xe cấp cứu trong Quyết định 636/QĐ-BYT 2025.
@@ -113,6 +135,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 12. Chảy máu nhiều: ấn mạnh lên vết thương, nếu ở tay chân mà ấn không cầm được máu thì đặt dây ga rô, gọi 115
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-chay-mau-nhieu-an-manh-len-vet-thuong-neu-o-tay-chan" data-legacy="13-12"></a>
+
 - Chi phí: Việc cầm máu ban đầu không mất tiền: một miếng vải sạch, một cuộn băng, một sợi dây và một mẩu giấy ghi giờ. Tiền thật nằm ở chuyến xe cấp cứu và ca xử lý vết thương ở bệnh viện, cộng tiền truyền máu nếu mất máu nhiều.
 - Nói dễ hiểu: Ấn mạnh bằng cả hai tay lên đúng vết thương, giữ liên tục và đừng bỏ tay ra xem. Tay hoặc chân vẫn chảy thì đặt dây ga rô sát trên vết thương, ghi giờ đặt lên trước ngực, rồi gọi 115.
 - Lợi ích: Quyết định 636/QĐ-BYT 2025 của Bộ Y tế liệt kê các bước cầm máu theo thứ tự, từ ấn chẹn động mạch, băng ép đến ga rô, và chỉ định ga rô gồm vết thương đứt động mạch lớn làm máu chảy ồ ạt, vết thương đã áp dụng biện pháp cầm máu tạm thời mà không kết quả, chi đã bị cắt cụt vẫn chảy máu, chi dập nát quá nhiều không bảo tồn được. Văn bản buộc đặt ga rô sát ngay trên vết thương và để lộ ra ngoài, vết thương lớn cách 5 cm, vết thương nhỏ cách 2 cm, không ga rô chặt quá hoặc lỏng quá, ghi phiếu thời gian đặt và giờ nới rồi đặt trước ngực người bị nạn; nới ga rô chỉ do nhân viên y tế làm. Văn bản cũng ghi đoạn chi bị thiếu máu nuôi quá 60-90 phút sẽ chết hoàn toàn, và người đã đặt ga rô phải được chuyển nhanh tới bệnh viện, tốt nhất bằng xe cấp cứu 115.
@@ -122,6 +146,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 13. Bị chó, mèo cắn hoặc cào rách da: rửa bằng nước và xà phòng 15 phút, tới cơ sở tiêm chủng tiêm vắc xin dại trong ngày
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-bi-cho-meo-can-hoac-cao-rach-da-rua-bang-nuoc-va" data-legacy="13-13"></a>
+
 - Chi phí: Một chai nước sạch, xà phòng và 15 phút đứng rửa, sau đó là tiền khám và tiền vắc xin dại tính theo mũi và theo loại vắc xin cơ sở tiêm chủng đang có, cộng tiền đi lại cho các lần tiêm sau.
 - Nói dễ hiểu: Rửa vết cắn dưới vòi nước với xà phòng liên tục 15 phút, sát khuẩn bằng cồn, rồi tới cơ sở tiêm chủng để tiêm vắc xin dại ngay trong ngày, đừng chờ xem con vật có ốm không.
 - Lợi ích: Viện Pasteur TP.HCM, trong bài cập nhật tháng 11/2024 dẫn Quyết định 1622/QĐ-BYT 2014, hướng dẫn xối rửa kỹ mọi vết cắn hoặc vết cào trong 15 phút bằng nước và xà phòng, sau đó sát khuẩn bằng cồn 45-70 độ hoặc cồn i-ốt, không làm dập nát thêm vết thương và tránh khâu kín ngay. Với vết xước, vết cào hoặc chỗ da bị tổn thương do động vật liếm, chỉ định là tiêm vắc xin dại ngay; vết cắn sâu, nhiều vết, ở đầu mặt cổ hoặc gần thần kinh trung ương thì tiêm thêm huyết thanh kháng dại. Bài viết ghi thời gian ủ bệnh thường 1-3 tháng, tỷ lệ tử vong gần 100% khi đã lên cơn, và việc theo dõi con vật trong 10 ngày; lịch tiêm và số mũi do bác sĩ tại cơ sở tiêm chủng chỉ định.
@@ -131,6 +157,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 14. Bỏng: làm mát bằng nước sạch chảy 20 phút, không bôi kem đánh răng hay nước mắm
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-bong-lam-mat-bang-nuoc-sach-chay-20-phut-khong-boi-kem" data-legacy="13-14"></a>
+
 - Chi phí: Việc làm mát chỉ tốn nước sạch và khoảng hai mươi phút đứng giữ; tiền thật là chuyến đi viện khi bỏng rộng hoặc bỏng ở mặt, bàn tay, bàn chân, vùng sinh dục, vì những vị trí đó cần được băng và theo dõi tại cơ sở y tế.
 - Nói dễ hiểu: Đưa vùng bỏng vào vòi nước sạch mát chảy liên tục 20 phút, càng sớm càng tốt trong 30 phút đầu; không bôi kem đánh răng, nước mắm, mỡ trăn; không chọc nốt phồng; bỏng mặt, tay, chân hay rộng hơn hai bàn tay thì đi viện.
 - Lợi ích: Viện Bỏng Quốc gia Lê Hữu Trác hướng dẫn ngâm rửa vùng bỏng bằng nước sạch càng sớm càng tốt, tốt nhất trong 30 phút sau khi bỏng; nước sạch ở nhiệt độ 16-20 độ C; thời gian ngâm rửa 15-30-45 phút, thường tới khi hết đau rát; không dùng nước đá, không ngâm nước ấm. Hướng dẫn cấm đắp thuốc mỡ, dầu, nước mắm, nước tương khi chưa có ý kiến của nhân viên y tế, cấm làm vỡ nốt phồng, và buộc đưa tới cơ sở y tế khi bỏng rộng hơn hoặc bằng hai bàn tay, bỏng ở đầu mặt cổ bàn tay bàn chân sinh dục, hoặc khi người bị bỏng lơ mơ, sốt cao, khó thở.
@@ -140,6 +168,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 15. Đột nhiên nổi mẩn khắp người kèm khó thở hoặc choáng: gọi 115, nói rõ "sốc phản vệ", có sẵn adrenalin thì tiêm bắp ngay
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-dot-nhien-noi-man-khap-nguoi-kem-kho-tho-hoac-choang-goi" data-legacy="13-15"></a>
+
 - Chi phí: Không tốn tiền cho việc gọi điện và việc tiêm. Khoản đắt là ống adrenalin 1mg/1ml, thứ thuốc kê đơn, một hộp vài trăm nghìn và hạn dùng ngắn nên phải thay định kỳ. Việc khó là giữ được giọng bình tĩnh để nói đúng ba chữ "sốc phản vệ" với tổng đài, thay vì kể lể triệu chứng rồi bị hỏi lại.
 - Nói dễ hiểu: Gọi 115 ngay và nói rõ "sốc phản vệ". Có sẵn ống adrenalin 1mg/1ml thì tiêm bắp nửa ống đến một ống vào bắp đùi, tiêm nhắc sau 3 đến 5 phút nếu chưa đỡ. Đừng chờ xem có dịu không.
 - Lợi ích: Điều 5 khoản 1 Thông tư 51/2017/TT-BYT gọi adrenalin là thuốc thiết yếu, quan trọng hàng đầu, sẵn có để sử dụng cấp cứu phản vệ; Điều 6 khoản 1 buộc tiêm bắp ngay khi chẩn đoán phản vệ từ độ II trở lên. Điều 6 khoản 3 mở đường cho người không phải nhân viên y tế: người bệnh có tiền sử phản vệ mang sẵn adrenalin thì chính người bệnh hoặc người khác được phép dùng thuốc để tiêm bắp trong trường hợp khẩn cấp khi không có nhân viên y tế. Phụ lục III mục IV ghi liều tiêm bắp: adrenalin 1mg bằng 1ml bằng 1 ống, người lớn 0,5 đến 1 ml tương đương nửa đến một ống, tiêm nhắc lại 3 đến 5 phút một lần cho tới khi huyết áp và mạch ổn định. Phụ lục III cũng buộc theo dõi ít nhất 24 giờ vì phản vệ có pha thứ hai. Phụ lục VII in trên thẻ dị ứng ba điều, trong đó điều thứ ba ghi nguyên văn "Tiêm bắp adrenalin ngay lập tức" và "Gọi 115 hoặc đến cơ sở khám, chữa bệnh gần nhất". Hướng dẫn của Bạch Mai về bút tiêm tự động nói thêm rằng cách dùng là tiêm thẳng vào bắp đùi.
@@ -149,6 +179,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 16. Người co giật ngã xuống: dọn vật cản, cho nằm nghiêng, bấm giờ, tuyệt đối không nhét thìa hay ngón tay vào miệng
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-nguoi-co-giat-nga-xuong-don-vat-can-cho-nam-nghieng-bam" data-legacy="13-16"></a>
+
 - Chi phí: Không tốn tiền. Việc dọn vật cứng mất vài giây, cái áo gấp làm gối thì có sẵn, đồng hồ hay điện thoại để bấm giờ thì ai cũng cầm. Việc khó là giữ tay mình lại, vì phản xạ đầu tiên của người chứng kiến là ôm chặt lấy người đang co giật.
 - Nói dễ hiểu: Dọn vật cứng quanh người bệnh, kê áo mềm dưới đầu, cho nằm nghiêng và bấm giờ. Không giữ tay chân, không nhét thìa, ngón tay hay bất cứ vật gì vào miệng. Cơn quá 5 phút, hoặc cơn đầu tiên, hoặc thôi co giật mà không tỉnh thì gọi 115.
 - Lợi ích: Bệnh viện Trung ương Quân đội 108 đặt bốn việc nên làm lên trước: ở lại bên người bệnh, lập tức xem đồng hồ để biết độ dài cơn, đặt người bệnh ở vị trí an toàn tránh vật sắc nhọn và vật cứng, kê gối hoặc áo gấp dưới đầu và xoay nghiêng sang một bên khi người bệnh mất ý thức. Bệnh viện 108 liệt bốn việc không nên làm: không nhét bất cứ vật gì vào miệng vì người bệnh có thể cắn gãy răng hoặc để vật rơi vào làm tắc thở, không giữ người bệnh vì có thể trật khớp và gãy xương, không cho uống nước, uống thuốc hay ăn, không ấn nhân trung và không ấn ngực. Bệnh viện 108 nêu tám trường hợp gọi 115, trong đó có cơn kéo dài hơn 5 phút, cơn lặp lại liên tiếp, người bệnh không tỉnh lại sau cơn, ngừng thở sau cơn, bị thương trong cơn và cơn đầu tiên của đời người bệnh. Bài của bệnh viện cũng ghi cơn động kinh thường kéo dài 2 đến 3 phút rồi người bệnh phục hồi, nên con số 5 phút là mốc để gọi chứ không phải mốc để chờ thêm.
@@ -158,6 +190,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 17. Người đái tháo đường đột nhiên run rẩy, vã mồ hôi, nói không rõ: cho 15 gam đường, sau 15 phút kiểm lại
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-nguoi-dai-thao-duong-dot-nhien-run-ray-va-mo-hoi-noi" data-legacy="13-17"></a>
+
 - Chi phí: Gần như không tốn tiền. Vài gói đường hoặc nắm kẹo trong túi giá vài nghìn đồng. Khoản đắt là máy đo đường huyết và que thử, vài trăm nghìn đến vài triệu, nhưng không có máy thì vẫn cho được đường và vẫn phải đếm đúng 15 phút bằng đồng hồ.
 - Nói dễ hiểu: Người bệnh còn tỉnh thì cho uống 15 gam đường ngay: 3 thìa cà phê đường pha nước, nửa cốc nước ngọt hoặc 3 viên kẹo. Đúng 15 phút sau kiểm đường huyết lại, còn thấp thì lặp lại một lần nữa. Người mê man thì không đút gì, gọi 115.
 - Lợi ích: Trung tâm Kiểm soát bệnh tật Thành phố Hồ Chí Minh gọi đây là quy tắc 15-15 và định nghĩa hạ đường huyết khi glucose huyết tương dưới 70 mg/dL, tức dưới 3,9 mmol/L. Bài của trung tâm hướng dẫn: khi đường máu xuống dưới ngưỡng đó thì cung cấp ngay 15g glucose đường miệng, tương đương 3 thìa cà phê đường hoặc mật ong pha trong nước, một cốc 300 ml nước trái cây hoặc 3 chiếc bánh quy; kiểm tra lại đường máu sau 15 phút; nếu vẫn thấp thì lặp lại 15g glucose; không dùng thực phẩm nhiều chất béo hoặc protein vì làm chậm hấp thu. Bài cũng buộc đưa người bệnh tới cơ sở y tế nếu tình trạng không cải thiện sau hai lần xử trí. Với người rối loạn ý thức hoặc hôn mê, bài ghi tuyệt đối không cho ăn uống vì có thể sặc vào đường hô hấp, và nếu có sẵn thì tiêm bắp glucagon 1 mg rồi gọi cấp cứu; số gọi cấp cứu y tế ở Việt Nam là 115.
@@ -167,6 +201,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 18. Có người bị điện giật: cắt cầu dao trước, dùng que khô gạt dây ra, tuyệt đối không kéo tay trần
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-co-nguoi-bi-dien-giat-cat-cau-dao-truoc-dung-que-kho" data-legacy="13-18"></a>
+
 - Chi phí: Không tốn tiền cho việc cắt điện và gọi người. Một aptomat chống giật và một cầu dao có tiếp địa tốn vài trăm nghìn, lắp một lần dùng nhiều năm. Việc khó là không lao vào kéo người ngay, vì bàn tay trần chạm vào người còn dòng điện sẽ biến người đi cứu thành nạn nhân thứ hai.
 - Nói dễ hiểu: Cắt cầu dao hoặc aptomat trước khi chạm vào người bị nạn. Không cắt được thì đứng trên vật khô, dùng cán chổi hay que gỗ khô gạt dây điện ra. Không kéo tay trần. Sau đó gọi 115, người bệnh ngừng thở thì ép tim ngay tại chỗ.
 - Lợi ích: Trung tâm Kiểm soát bệnh tật Thành phố Hồ Chí Minh in năm bước sơ cấp cứu điện giật: ngắt nguồn điện và nhanh chóng đưa nạn nhân ra khỏi hiện trường, đánh giá tình trạng, kiểm tra mạch và nhịp thở, hồi sức tim phổi ngay nếu nạn nhân ngừng tim ngừng thở, gọi cấp cứu 115 và cơ sở y tế gần nhất, rồi trong lúc chờ vẫn ép tim liên tục. Tờ rơi của trung tâm ghi phần lưu ý bằng một câu: phải đảm bảo nguyên tắc cách điện trước khi tiếp xúc với bệnh nhân. Về hậu quả, bài của bệnh viện bỏng kể hai ca điện cao thế năm 2022 phải cắt cụt một phần cẳng tay và cẳng chân, trong đó một người mất 85% sức lao động, nên đây không phải tai nạn chỉ gây bỏng ngoài da.
@@ -176,6 +212,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 19. Còi báo khí CO kêu, hoặc cả nhà cùng đau đầu buồn nôn: ra khỏi nhà trước, rồi mới gọi 115
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-coi-bao-khi-co-keu-hoac-ca-nha-cung-dau-dau-buon" data-legacy="13-19"></a>
+
 - Chi phí: Không tốn tiền cho việc mở cửa và bước ra ngoài. Một chiếc máy báo khí CO tốn vài trăm nghìn, nhưng nhiều nhà không có. Việc khó là bỏ lại căn nhà và đồ đạc để ra ngoài trước, trong khi phản xạ thường là ở lại tìm chỗ rò.
 - Nói dễ hiểu: Mở cửa, đưa mọi người ra ngoài ngay, kể cả người còn tỉnh. Ra tới chỗ thoáng mới gọi 115. Đừng quay lại tìm nguyên nhân hay đi đóng van bình gas. Người bất tỉnh thì đặt nằm nghiêng và chờ xe cấp cứu tới.
 - Lợi ích: Bệnh viện Bỏng Quốc gia Lê Hữu Trác mô tả khí carbon monoxide là loại khí không màu, không mùi nên không phát hiện được bằng mắt thường, và khí tích tụ nhanh trong không gian kín. Bệnh viện ghi triệu chứng khởi đầu rất khó nhận biết, thường chỉ là buồn nôn và đau đầu, nên nạn nhân không được cấp cứu đúng cách; hít lượng cao gây biến chứng thần kinh, tim mạch và có thể tử vong chỉ sau vài phút. Nguồn khí mà bệnh viện liệt kê gồm khói động cơ, bếp gas, bếp than, bếp củi, lò nung, đồ nướng, máy phát điện và khói trong đám cháy. Bệnh viện cũng ghi kết quả điều trị tốt nhất khi người bệnh được điều trị lần đầu trong vòng 6 giờ sau khi ngộ độc, nên việc ra khỏi nhà rồi tới viện sớm là phần quyết định. Số gọi cấp cứu y tế ở Việt Nam là 115.
@@ -185,6 +223,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 20. Uống nhầm chất tẩy rửa, thuốc trừ sâu hay thuốc chữa bệnh: không gây nôn, mang vỏ chai tới cơ sở có chống độc
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-uong-nham-chat-tay-rua-thuoc-tru-sau-hay-thuoc-chua-benh" data-legacy="13-20"></a>
+
 - Chi phí: Không tốn tiền cho việc rửa và việc giữ lại vỏ chai. Khoản tốn là chặng đường tới cơ sở có chống độc, có khi phải qua tỉnh khác, và tiền xe cấp cứu nếu gọi. Việc khó là cầm lòng không móc họng cho nôn, vì ai cũng nghĩ nôn ra là sạch.
 - Nói dễ hiểu: Không móc họng cho nôn, không cho uống sữa hay nước. Giữ lại vỏ chai, hộp thuốc rồi đưa người bệnh tới cơ sở có chống độc. Chất dính vào da hoặc mắt thì rửa dưới vòi nước chảy ít nhất 15 phút, với mắt thì phải banh mi ra rửa.
 - Lợi ích: Bệnh viện Nhi Trung ương hướng dẫn gọi cấp cứu 115 hoặc đưa trẻ tới ngay cơ sở y tế, và dặn mang theo thuốc hoặc hóa chất nghi ngờ gây ngộ độc để bác sĩ gợi được nguyên nhân và chọn phương án giải độc. Bài của bệnh viện nêu rõ phải chống chỉ định gây nôn khi chất độc là chất ăn mòn như axit, kiềm, thuốc tẩy, khi là chất bay hơi như xăng dầu, và khi người bệnh đang hôn mê hoặc co giật. Với da và niêm mạc, bệnh viện dặn tháo bỏ ngay quần áo dính hóa chất và rửa vùng tiếp xúc liên tục dưới vòi nước sạch. Bệnh viện Mắt Hà Nội ghi thời gian rửa mắt khi hóa chất bắn vào là ít nhất 15 đến 30 phút dưới vòi nước sạch hoặc nước muối sinh lý, phải lộn mi trên và mi dưới để rửa sạch hóa chất đọng trong túi kết mạc, và không băng kín mắt khi chưa rửa sạch. Nơi tiếp nhận ngộ độc nặng ở phía bắc là Trung tâm Chống độc nằm trong Bệnh viện Bạch Mai, số 78 đường Giải Phóng, Hà Nội, một đơn vị có phòng xét nghiệm độc chất riêng và bộ phận thông tin chống độc.
@@ -194,6 +234,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 21. Axit hoặc kiềm bắn vào người: cởi ngay quần áo nhiễm, rửa nước chảy nhiều, mắt thì banh mi ra rửa đủ lâu
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-axit-hoac-kiem-ban-vao-nguoi-coi-ngay-quan-ao-nhiem-rua" data-legacy="13-21"></a>
+
 - Chi phí: Không tốn tiền. Việc rửa chỉ cần một vòi nước và 30 phút đứng đó. Khoản tốn là thời gian nghỉ làm và chặng đường tới cơ sở có chuyên khoa mắt hoặc bỏng. Việc khó là chịu đứng dưới nước lâu hơn cảm giác cần thiết, vì nước lạnh làm người ta muốn dừng sớm.
 - Nói dễ hiểu: Cởi ngay quần áo, giày, đồng hồ dính hóa chất. Rửa vùng bỏng dưới vòi nước mát chảy liên tục ít nhất 30 phút. Hóa chất vào mắt thì lộn mi, banh mắt ra rửa 15 đến 30 phút rồi tới viện mắt. Không thoa kem đánh răng, dầu ăn hay vôi. Gọi 115 nếu bỏng rộng hoặc người choáng.
 - Lợi ích: Bệnh viện Bỏng Quốc gia Lê Hữu Trác chia sơ cứu bỏng hóa chất thành ba bước. Bước một là tách người bị nạn khỏi tác nhân gây bỏng và nhanh chóng cởi bỏ quần áo dính hóa chất, tránh tiếp xúc với vật liệu còn dính hóa chất. Bước ba là ngâm rửa vùng bỏng bằng nước sạch càng sớm càng tốt, với thời gian 30 đến 60 phút, và bệnh viện ghi rõ thời gian này thường kéo dài hơn so với bỏng nhiệt. Bệnh viện dặn không dùng nước ấm rửa vì làm tăng khả năng ngấm của hóa chất, và việc trung hòa chỉ tiến hành sau khi đã ngâm rửa bằng nước sạch. Với mắt, Bệnh viện Mắt Hà Nội ghi rửa liên tục ít nhất 15 đến 30 phút dưới vòi nước sạch hoặc nước muối sinh lý, lộn mi trên và mi dưới để rửa sạch hóa chất đọng trong túi kết mạc, gắp bỏ mảnh hóa chất bám vào mắt, và không băng kín mắt khi chưa rửa sạch. Bệnh viện cũng xếp bỏng kiềm nguy hiểm hơn bỏng axit vì kiềm thẩm thấu sâu vào nhãn cầu. Bỏng rộng, bỏng ở mặt hoặc người bị choáng thì gọi 115 và đưa tới cơ sở có chuyên khoa bỏng.
@@ -203,6 +245,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 22. Nắng nóng, chóng mặt buồn nôn, không ra mồ hôi hoặc lú lẫn: đưa ngay vào chỗ mát, cởi bớt áo, làm mát bằng nước, người lú lẫn thì không cho uống, gọi 115
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-nang-nong-chong-mat-buon-non-khong-ra-mo-hoi-hoac-lu" data-legacy="13-22"></a>
+
 - Chi phí: Không mất tiền, mất vài phút và một chậu nước mát, mấy chiếc khăn hoặc chai nước lạnh. Khó ở chỗ người bệnh hay nói mình chỉ hơi mệt, trong khi dấu hiệu nặng là da nóng, không ra mồ hôi và nói năng lộn xộn.
 - Nói dễ hiểu: Đưa ngay người bệnh vào chỗ mát, cởi bớt áo, dội nước mát lên người, đặt khăn lạnh ở cổ, nách, bẹn. Người lú lẫn thì không cho uống nước, đặt nằm nghiêng và gọi 115.
 - Lợi ích: Bệnh viện Bạch Mai xếp sốc nhiệt là tăng thân nhiệt quá mức, thường trên 40 độ, kèm tổn thương thần kinh và bí mồ hôi; bài của khoa Cấp cứu hướng dẫn cởi bỏ quần áo, lau bằng nước ấm rồi quạt, đặt gói đá ở cổ, nách, bẹn, hạ nhiệt nhanh và dừng khi thân nhiệt về 38 độ. Bệnh viện TWQĐ 108 hướng dẫn cấp cứu ngoài bệnh viện: đưa ra chỗ bóng râm, bỏ bớt quần áo bên ngoài, đặt trong phòng 20–22 độ, xối nước 25–30 độ, phủ gạc ướt 20–25 độ rồi quạt, và chỉ cho uống nước hoặc dung dịch điện giải khi người bệnh tỉnh táo, uống được. Khuyến cáo đăng trên Báo Điện tử Chính phủ cũng chỉ cho uống khi nạn nhân uống được nước, còn mức độ nặng thì gọi ngay cấp cứu 115. Người đang lú lẫn, co giật hoặc hôn mê dễ sặc nước vào đường thở, nên đặt nằm nghiêng, không đưa gì vào miệng và chuyển tới cơ sở y tế.
@@ -212,6 +256,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 23. Người say nắng còn tỉnh: cho uống nước muối loãng hoặc dung dịch bù nước từng ngụm nhỏ, không uống ừng ực, không rượu, không nước ngọt đậm
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=tử-vong -->
+<a name="entry-nguoi-say-nang-con-tinh-cho-uong-nuoc-muoi-loang-hoac-dung" data-legacy="13-23"></a>
+
 - Chi phí: Một gói dung dịch bù nước vài nghìn đồng, một nhúm muối với ca nước thì gần như không đáng kể. Khó ở chỗ người đang khát thường uống một hơi thật nhanh, và người nhà hay dỗ bằng nước ngọt cho dễ uống.
 - Nói dễ hiểu: Chỉ cho người còn tỉnh uống, từng ngụm nhỏ nước mát pha chút muối hoặc dung dịch bù nước pha đúng liều; không uống ừng ực, không cho rượu bia, không cho nước ngọt đậm.
 - Lợi ích: Khuyến cáo xử trí đăng trên Báo Điện tử Chính phủ viết: nếu nạn nhân uống được nước thì cho uống từng ngụm nhỏ nước mát, tốt nhất là nước có bổ sung muối và khoáng chất như nước Oresol pha đúng liều lượng theo hướng dẫn sử dụng. Bệnh viện TWQĐ 108 khuyên uống nước có pha một chút muối hoặc dung dịch oresol, tránh nước ngọt có ga và đồ uống năng lượng. Bài chuyên môn của khoa Cấp cứu chỉ cho uống dung dịch muối natri clorua 0,1% ở mức lả nhiệt nhẹ, còn người tụt huyết áp hoặc nhiều triệu chứng nặng thì truyền dịch qua đường tĩnh mạch. Bài phỏng vấn bác sĩ Trung tâm Cấp cứu A9, Bệnh viện Bạch Mai, đăng trên báo Sức khỏe và Đời sống nêu rõ không uống rượu vì rượu gây giãn mạch và dễ mất nước khi ở lâu ngoài trời nắng nóng, kèm mốc bù nước 600–800 ml trước khi vận động và 200 ml mỗi 20 phút.
@@ -221,6 +267,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 24. Cháy nhà: bò sát mặt đất, sờ mu bàn tay lên cửa trước khi mở, cửa nóng thì không mở, đi cầu thang bộ, ra rồi không quay lại
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-chay-nha-bo-sat-mat-dat-so-mu-ban-tay-len-cua" data-legacy="13-24"></a>
+
 - Chi phí: Một chiếc đèn pin vài chục nghìn đồng, mười phút đi xem cầu thang bộ của tòa nhà. Khó ở chỗ lúc khói đã kín hành lang thì không ai còn bình tĩnh nhớ thứ tự các bước.
 - Nói dễ hiểu: Bò sát mặt đất men theo tường, sờ mu bàn tay lên cửa trước khi mở, cửa nóng thì không mở mà tìm lối khác. Đi thang bộ, không đi thang máy, ra được rồi thì không quay lại; gọi 114.
 - Lợi ích: Cục Cảnh sát Phòng cháy, chữa cháy và Cứu nạn, cứu hộ hướng dẫn trên Cổng Thông tin điện tử Chính phủ: khi di chuyển phải thấp người hoặc bò và men theo tường, kiểm tra nhiệt độ của cửa trước khi mở, mở thì tránh mặt sang một bên, còn cửa quá nóng thì tuyệt đối không mở và tìm ngay lối thoát khác. Công an tỉnh Hà Tĩnh dẫn khuyến cáo của Cục về việc dùng mu bàn tay kiểm tra độ nóng của cửa và không bao giờ quay lại bên trong ngôi nhà đang cháy sau khi đã ra. Phòng Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ Công an tỉnh Khánh Hòa nhắc không sử dụng thang máy và không quay lại khu vực cháy để lấy tài sản.
@@ -231,6 +279,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 25. Thấy người đuối nước: gọi người và gọi 115, đưa sào hoặc vật nổi, không tự nhảy xuống
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-thay-nguoi-duoi-nuoc-goi-nguoi-va-goi-115-dua-sao-hoac" data-legacy="13-25"></a>
+
 - Chi phí: Không mất tiền, mất một phút hô hoán và tìm cây sào, dây thừng, can nhựa rỗng hoặc phao. Khó ở chỗ phản xạ tự nhiên là lao ngay xuống nước.
 - Nói dễ hiểu: Hô thật to cho người xung quanh nghe và gọi 115; ở biển hoặc vùng sông nước rộng thì gọi 112. Đưa sào, dây hoặc vật nổi cho người đang chìm bám vào, không nhảy xuống khi mình không biết bơi.
 - Lợi ích: Công an tỉnh Điện Biên xếp 112 vào nhóm cứu nạn khẩn cấp, nhận cả sự cố sông biển như tàu trôi dạt, mất liên lạc, chìm tàu, còn 115 là số cấp cứu y tế. Bệnh viện Đa khoa tỉnh Lạng Sơn hướng dẫn: tuyệt đối không nhảy xuống nước nếu không biết bơi, vì nạn nhân lúc đó hoảng loạn và níu chặt lấy bất cứ thứ gì với được, kể cả người cứu; người không biết bơi thì ném khúc gỗ, phao xuống cho nạn nhân bám hoặc chạy tìm người, và chỉ xuống cứu khi mình biết bơi. Bài đó cũng xếp việc dốc ngược nạn nhân cho nước chảy ra là sai, vì lượng nước trong phổi không nhiều và động tác đó làm mất thời gian ép tim.
@@ -241,6 +291,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 26. Người hóc dị vật không nói được: từ 1 tuổi trở lên thì đứng sau lưng, 5 lần vỗ lưng xen 5 lần ấn bụng; ngã xuống thì ép tim
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-nguoi-hoc-di-vat-khong-noi-duoc-tu-1-tuoi-tro-len" data-legacy="13-26"></a>
+
 - Chi phí: Không mất tiền, mất một phút học hai động tác. Khó ở chỗ phải phân biệt người còn ho được với người đã tắc hoàn toàn, và phải làm ngay tại chỗ chứ không chờ xe cứu thương.
 - Nói dễ hiểu: Hỏi người đó có nói được không; còn ho, còn nói thì để tự ho. Không nói được, với người từ 1 tuổi trở lên: đứng sau lưng, vỗ 5 lần giữa hai bả vai rồi ấn bụng 5 lần, lặp lại; ngã xuống thì ép tim và gọi 115.
 - Lợi ích: Trung tâm Cấp cứu 115 Thành phố Hồ Chí Minh mô tả dấu hiệu điển hình là người bệnh đột ngột hoảng hốt ôm chặt cổ, mặt tím tái, không thể ho, nói hay khóc; với người lớn và trẻ lớn, người sơ cứu đứng phía sau, một tay đỡ trước ngực, dùng gót bàn tay kia vỗ mạnh 5 nhát vào giữa hai bả vai, nếu dị vật chưa ra thì vòng hai tay ôm eo, đặt nắm tay lên vùng trên rốn, tay kia bọc lấy và giật ép mạnh 5 lần theo hướng từ ngoài vào trong, từ dưới lên trên, lặp lại theo chu kỳ. Cùng bài đó ghi: nếu nạn nhân bất tỉnh thì thực hiện hồi sinh tim phổi ngay và nhờ người xung quanh gọi tổng đài 115, tuyệt đối không dùng kỹ thuật ấn bụng cho trẻ dưới 1 tuổi, và từ hướng dẫn của Hội Tim mạch Hoa Kỳ năm 2025 thì gọi tên động tác là ấn bụng thay cho tên cũ.
@@ -250,6 +302,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 27. Lạc ở núi, rừng biên giới hay bãi biển vắng không có sóng: ở yên tại chỗ hoặc cạnh xe, báo vị trí trước, che nắng giữ ấm, tiết kiệm nước, không đi lung tung
 <!-- nhãn: tiền=ít thời-gian=nhiều ý-chí=có lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-lac-o-nui-rung-bien-gioi-hay-bai-bien-vang-khong-co" data-legacy="13-27"></a>
+
 - Chi phí: Một bình nước hai lít, một áo khoác mỏng và một lần nói rõ lịch trình cho người ở nhà, điện thoại tắt dữ liệu di động để giữ pin. Khó ở chỗ phải ngồi yên trong khi chân tay muốn đi tìm đường.
 - Nói dễ hiểu: Dừng lại ở chỗ đang đứng hoặc cạnh xe, còn bắt được sóng thì gọi 112 báo vị trí và số người trước, rồi che nắng hoặc giữ ấm, chia nước từng ngụm, không đi lung tung tìm đường khi trời đã tối.
 - Lợi ích: Bài của báo Công an nhân dân về kỹ năng khi bị lạc trong rừng khuyên: nếu trời sắp tối mà chưa chắc ra được thì tính chuyện ở lại qua đêm, tìm hốc đá, hang hoặc gốc cây lớn để trú, che mưa bằng lá, đốt lửa sưởi và giữ lửa cẩn thận, ban ngày định hướng theo khói bếp, ánh đèn hoặc âm thanh như tiếng xe, tiếng nước chảy, thay vì đi lòng vòng trong đêm.
@@ -260,6 +314,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 28. Run rẩy, nói ngọng, đi loạng choạng là hạ thân nhiệt: thay quần áo ướt, ủ ấm, làm ấm từ thân trước, cho uống nước ấm, không rượu
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-run-ray-noi-ngong-di-loang-choang-la-ha-than-nhiet-thay" data-legacy="13-28"></a>
+
 - Chi phí: Một bộ quần áo khô, một chiếc chăn và một ca nước ấm; túi chườm hoặc chăn giữ nhiệt thì vài chục nghìn đồng. Khó ở chỗ người đã hạ thân nhiệt thường không còn thấy lạnh và không muốn cởi bộ đồ ướt.
 - Nói dễ hiểu: Đưa vào chỗ kín gió, thay ngay quần áo ướt, quấn chăn khô và ủ ấm ngực, bụng trước; cho uống nước ấm từng ngụm, không cho rượu, không chà xát tay chân. Người lú lẫn, gọi không đáp thì gọi 115.
 - Lợi ích: Bài của khoa Chấn thương chỉnh hình và Cột sống, Bệnh viện Bạch Mai, xác định hạ thân nhiệt là thân nhiệt xuống dưới 35 độ, với dấu hiệu da lạnh, ngón tay và môi xanh, giảm tỉnh táo, lú lẫn nhẹ, nói lắp, và lưu ý người cao tuổi có thể không rùng mình hay không kêu lạnh; cách xử trí là gọi trợ giúp y tế, đưa tới nơi ấm và khô, thay ngay quần áo ướt, cuộn trong chăn, để nằm yên và cho uống nước ấm. Bài của báo Sức khỏe và Đời sống hướng dẫn đắp gạc ấm lên cổ, lồng ngực và háng, không chườm nóng trực tiếp, không dùng nước nóng hay đèn sưởi, không cố làm ấm tay và chân trước vì máu lạnh dồn về tim, phổi và não, không cho uống rượu, không xoa bóp hay chà xát; bài đó cũng nêu mốc thân nhiệt trên 33 độ chỉ cần ủ ấm thông thường, từ 28 đến 33 độ phải chuyển viện, dưới 28 độ phải điều trị bằng tuần hoàn ngoài cơ thể. Số gọi cấp cứu y tế ở Việt Nam là 115, theo mô tả của Công an tỉnh Điện Biên và theo quy định về liên thông giữa các tổng đài khẩn cấp tại khoản 4 Điều 3 Nghị định 200/2025/NĐ-CP.
@@ -269,6 +325,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 29. Bị rắn cắn: ngồi yên, tháo nhẫn và đồng hồ, tới cơ sở có huyết thanh kháng nọc; không rạch, không hút, không buộc ga-rô
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-bi-ran-can-ngoi-yen-thao-nhan-va-dong-ho-toi-co" data-legacy="13-29"></a>
+
 - Chi phí: Không mất tiền để làm đúng, chỉ mất một cuộc điện thoại hỏi trước cơ sở nào đang có huyết thanh. Cái đắt là chặng đường: người bị cắn ở huyện phải đi lên tuyến tỉnh hoặc vào trung tâm chống độc, có khi qua hai tỉnh, và mỗi giờ chậm là thêm phần nọc đã ngấm.
 - Nói dễ hiểu: Ngồi hoặc nằm yên, để tay chân bị cắn bất động ngang tầm tim, tháo ngay nhẫn, vòng, đồng hồ trước khi sưng. Nhờ người chở tới cơ sở có huyết thanh kháng nọc, đi sớm nhất có thể. Không rạch, không hút bằng miệng, không chườm đá, không buộc ga-rô.
 - Lợi ích: Hướng dẫn của Bộ Y tế đặt điều kiện cho nơi điều trị: bệnh nhân bị rắn lục cắn có rối loạn đông máu phải được điều trị ở nơi có khả năng truyền máu và có huyết thanh kháng nọc rắn lục, tức không phải bệnh viện nào cũng đủ điều kiện. Cùng văn bản đó liệt kê việc phải làm: trấn an, rửa vết thương, cởi bỏ đồ trang sức ở chi bị cắn để tránh chèn ép khi chi sưng nề, bất động chi bằng nẹp, không để bệnh nhân tự đi lại, chuyển đi ngay chứ không mất thời gian tìm thầy lang. Nhóm việc bị xếp vào loại gây hại thêm gồm ga-rô động mạch, trích, rạch, trâm, chọc tại vùng vết cắn, chườm đá, đắp thuốc dân gian và cố bắt hoặc giết rắn. Huyết thanh được dùng càng sớm càng tốt; người đến muộn mà vẫn còn rối loạn đông máu thì vẫn còn chỉ định. Ở Việt Nam huyết thanh kháng nọc rắn tập trung ở bệnh viện tuyến tỉnh và trung tâm chống độc của các bệnh viện tuyến cuối như Bạch Mai, Chợ Rẫy, còn tuyến huyện và trạm y tế xã thường không có, nên phải hỏi trước cơ sở nào có huyết thanh trước khi lên đường. Cấp cứu y tế ở Việt Nam gọi 115.
@@ -278,6 +336,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 30. Động đất: nhà đủ khả năng chịu động đất thì núp tại chỗ, nhà cũ dễ sập mà cửa cách vài bước thì ra ngoài
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-dong-dat-nha-du-kha-nang-chiu-dong-dat-thi-nup-tai" data-legacy="13-30"></a>
+
 - Chi phí: Không mất tiền. Việc phải làm là một buổi đi một vòng trong nhà: đếm xem từ chỗ hay ngồi ra sân là mấy bước, cái bàn nào chắc, cầu thang thoát ra đâu, và hỏi xem nhà mình xây năm nào, có bản vẽ thiết kế không.
 - Nói dễ hiểu: Đang ở nhà xây theo tiêu chuẩn kháng chấn thì chui xuống gầm bàn chắc, hai tay ôm đầu che gáy, bám chân bàn cho tới khi hết rung. Ở nhà cũ, tường gạch không giằng, cửa ra sân chỉ vài bước thì chạy ra bãi trống. Không nhảy lầu, không vào thang máy, không chen xuống cầu thang lúc đang rung.
 - Lợi ích: Tiêu chuẩn quốc gia về thiết kế công trình chịu động đất đặt yêu cầu không sụp đổ: kết cấu phải được thiết kế và thi công để chịu được tác động động đất thiết kế mà không bị sụp đổ cục bộ hay sụp đổ toàn phần, đồng thời giữ được tính toàn vẹn và còn một phần khả năng chịu tải sau khi động đất xảy ra. Tiêu chuẩn chia ba trường hợp theo gia tốc nền thiết kế: động đất mạnh từ 0,08g trở lên phải tính toán và cấu tạo kháng chấn; động đất yếu từ 0,04g đến dưới 0,08g chỉ cần giải pháp kháng chấn giảm nhẹ; dưới 0,04g không cần thiết kế kháng chấn. Bảng phân vùng gia tốc nền theo địa danh hành chính trong phụ lục của tiêu chuẩn ghi nội thành Hà Nội ở mức 0,0976g đến 0,1032g, tức nằm trong nhóm phải tính kháng chấn. Từ ba con số đó, việc cần xem là chỗ nào trong căn nhà mình chịu được rung mà không đổ.
@@ -287,6 +347,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 31. Gặp gấu, lợn rừng, đàn chó dại: không chạy, nghiêng người lùi chậm
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=tai-nạn -->
+<a name="entry-gap-gau-lon-rung-dan-cho-dai-khong-chay-nghieng-nguoi-lui" data-legacy="13-31"></a>
+
 - Chi phí: Không mất tiền, chỉ mất thời gian đi chậm vài phút. Cái đắt là chuyến đi rừng bị hủy giữa chừng, và với người bị chó cắn thì là vài mũi tiêm phòng dại cùng một vết thương phải theo dõi.
 - Nói dễ hiểu: Đứng lại, không quay lưng bỏ chạy, không leo cây, không nằm xuống. Nói to giọng trầm, giơ hai tay cho mình trông lớn hơn. Khi con vật ngừng lại thì nghiêng người, lùi từng bước chậm, mắt vẫn nhìn nó. Bị chó cắn thì rửa vết thương dưới vòi nước chảy 15 phút.
 - Lợi ích: Với vết chó cắn, hướng dẫn của ngành y tế Việt Nam đòi xối rửa kỹ tất cả vết cắn hoặc vết cào dưới vòi nước chảy liên tục trong ít nhất 15 phút, dùng xà phòng hoặc chất tẩy rửa thông thường, rồi sát khuẩn bằng cồn 70 độ; không băng kín, không nặn máu, không khâu kín ngay, nếu buộc phải khâu thì trì hoãn vài giờ đến ba ngày và khâu thưa sau khi đã tiêm huyết thanh kháng dại. Sau khi sơ cứu, người bị cắn tới ngay cơ sở y tế để bác sĩ đánh giá theo tình trạng con vật, vị trí và độ sâu vết cắn, rồi quyết định tiêm vắc xin, và tiêm kháng thể nếu vết thương nặng. Với gấu và lợn rừng, phần đứng yên, không quay lưng chạy, lùi chéo người là kinh nghiệm leo núi, chưa có văn bản nào của cơ quan Việt Nam quy định động tác này.
@@ -296,6 +358,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 32. Giông sét khi ở ngoài trời: vào ô tô có mui cứng hoặc vào nhà, tránh đỉnh núi, cây đơn độc, mặt nước và vật kim loại
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-giong-set-khi-o-ngoai-troi-vao-o-to-co-mui-cung" data-legacy="13-32"></a>
+
 - Chi phí: Không mất tiền, chỉ mất chuyến đi. Giá của nó là nửa giờ đứng chờ trong nhà hoặc trong xe, và một lần quay lại giữa đường dù mới đi được nửa chặng.
 - Nói dễ hiểu: Đếm giây từ lúc thấy chớp tới lúc nghe tiếng sấm. Dưới 30 giây là sét đã ở trong tầm với, phải vào nhà có cột thu lôi hoặc vào ô tô kín, không chạm vào vỏ xe. Không trú dưới tán cây, không đứng trên đỉnh hay sườn núi nhô cao, không đứng gần ao hồ và hàng rào sắt. Đứng tản ra, đừng túm thành đám.
 - Lợi ích: Trang hướng dẫn của Cục Quản lý đê điều và Phòng, chống thiên tai cho quy tắc nhìn và nghe: chia số giây đếm được từ lúc chớp lóe tới lúc nghe sấm cho 3 thì ra khoảng cách tới tia sét, ví dụ đếm được 3 giây là sét cách 1 km; nếu khoảng thời gian đó dưới 30 giây thì người đang nằm trong tầm ngắm, dưới 20 giây thì phải di chuyển tới nơi an toàn hơn. Cùng trang ghi sét có thể đánh cách xa nơi có mưa tới 15 đến 20 km, và sau khi nghe tiếng sét cuối cùng 30 phút mới nên trở lại làm việc bình thường. Chỗ được xếp là an toàn gồm tòa nhà có hệ thống chống sét và các vật có vỏ kim loại kín như ô tô, tàu hỏa, xe buýt, với điều kiện không thò người ra ngoài và không chạm vào vỏ; ô tô để hở hoặc không có vỏ bọc kim loại thì bị xếp là nguy hiểm. Những chỗ bị loại: dùng cây cối làm chỗ trú, khu vực cao hơn xung quanh, gần vật dụng kim loại, gần bãi biển, ao hồ, mương, đỉnh núi và sườn núi nhô cao.
@@ -305,6 +369,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 33. Lên vùng cao: tăng dần độ cao chỗ ngủ, triệu chứng nặng lên thì xuống thấp, không cố chịu
 <!-- nhãn: tiền=ít thời-gian=nhiều ý-chí=có lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-len-vung-cao-tang-dan-do-cao-cho-ngu-trieu-chung-nang" data-legacy="13-33"></a>
+
 - Chi phí: Một đến hai đêm nghỉ thêm trên đường, tiền phòng và tiền ăn của mấy ngày đó. Cái đắt là quãng đường phải quay lại: xuống núi giữa chuyến là bỏ tiền xe, tiền tour, có khi bỏ luôn vé máy bay đã mua.
 - Nói dễ hiểu: Tính độ cao của chỗ mình ngủ đêm, không tính đỉnh đã chạm ban ngày. Qua 3.000 mét thì đêm sau chỉ ngủ cao hơn đêm trước khoảng 500 mét, mỗi 1.000 mét thêm một đêm nghỉ. Đau đầu, buồn nôn thì đêm đó ngủ lại chỗ cũ; nặng lên, đi loạng choạng hoặc thở dốc khi ngồi yên thì xuống thấp ngay.
 - Lợi ích: Mốc cao nhất của Việt Nam là đỉnh Phan Xi Păng 3.147,3 mét, do Cục Đo đạc, Bản đồ và Thông tin địa lý Việt Nam đo bằng GNSS và thủy chuẩn, công bố năm 2019; thị trấn Sa Pa nơi đông người ở nhất của vùng núi cao nằm ở 1.600 mét. Nghĩa là Việt Nam không có vùng dân cư nào sống thường xuyên ở độ cao lớn, và chuyện say độ cao ở đây gắn với leo núi, trekking, du lịch chứ không phải với nơi ở. Phần quy tắc lấy từ hướng dẫn của Trung tâm Kiểm soát và Phòng ngừa dịch bệnh Hoa Kỳ: người chưa thích nghi lên ngủ ở 2.450 mét trở lên đã có nguy cơ; qua 3.000 mét thì mỗi đêm chỉ tăng 500 mét độ cao chỗ ngủ, mỗi 1.000 mét thêm một ngày nghỉ; có triệu chứng thì không lên cao hơn để ngủ, bất kể nhẹ; nghỉ cùng độ cao mà vẫn nặng lên thì xuống; giảm 300 mét trở lên thường đỡ nhanh; nghi phù não hoặc phù phổi thì phải xuống và thở oxy, vì xuống và oxy hiệu quả hơn thuốc.
@@ -314,6 +380,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 34. Bị ve bám: dùng nhíp mũi nhọn kẹp sát da kéo đều, không bôi dầu, không đốt
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=tai-nạn -->
+<a name="entry-bi-ve-bam-dung-nhip-mui-nhon-kep-sat-da-keo-deu" data-legacy="13-34"></a>
+
 - Chi phí: Một cái nhíp mũi nhọn và một lọ cồn, vài chục nghìn đồng, dùng được nhiều năm. Mất mấy phút ngồi yên cho người khác gắp, và một tờ giấy ghi ngày bị bám để sau này còn đối chiếu với bác sĩ.
 - Nói dễ hiểu: Kẹp nhíp mũi nhọn sát mặt da, đúng chỗ đầu con ve cắm vào, kéo thẳng lên với lực đều, không xoay, không giật. Không bôi dầu, không châm lửa, không đè bóp bụng nó. Rửa chỗ cắn bằng xà phòng, ghi lại ngày. Sốt trong ba tuần sau thì nói với bác sĩ là mình từng bị ve bám.
 - Lợi ích: Hướng dẫn chẩn đoán và điều trị của Bộ Y tế về bệnh sốt mò cho biết thời gian ủ bệnh kéo dài từ 6 đến 21 ngày, trung bình 9 đến 12 ngày, và dấu hiệu đặc hiệu là vết loét ngoài da hình bầu dục, kích thước 0,5 đến 2 cm, có vẩy đen hoặc đã bong vẩy tạo thành vết loét có gờ, thường không đau, khu trú ở vùng da mềm như nách, ngực, cổ, bẹn, bụng. Hạch sưng tại chỗ vết loét và hạch toàn thân, cỡ 1,5 đến 2 cm. Không điều trị kháng sinh thích hợp thì bệnh tiến triển nặng, có thể tử vong; có điều trị thì hết sốt trong 1 đến 3 ngày. Phác đồ ghi doxycyclin 0,1 g, ngày uống 2 viên chia 2 lần, trong 5 ngày; phụ nữ có thai, trẻ dưới 10 tuổi dùng azithromycin 500 mg, ngày một lần, 1 đến 3 hôm. Phần phòng bệnh của cùng văn bản khuyên mặc quần áo kín và ngâm tẩm hóa chất chống côn trùng khi vào vùng có bệnh lưu hành.
@@ -323,6 +391,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 35. Nước ở ngoài trời phải đun sôi mới uống, sôi một phút là đủ ở độ cao thường gặp
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=tai-nạn -->
+<a name="entry-nuoc-o-ngoai-troi-phai-dun-soi-moi-uong-soi-mot-phut" data-legacy="13-35"></a>
+
 - Chi phí: Một bộ nồi và bếp nhỏ, tiền gas hoặc cồn cho mỗi lần nấu, vài chục nghìn một chuyến. Mất thời gian chờ nước nguội vài chục phút, và cân nặng của bình nước đã đun sẵn trên lưng.
 - Nói dễ hiểu: Đun cho nước sôi thật, giữ sôi thêm một phút rồi mới uống. Ở độ cao hay đi du lịch, nước vẫn đạt nhiệt độ đủ giết mầm bệnh, không cần đun lâu hơn. Nước khe nhìn trong vẫn mang trứng giun, sán, vi khuẩn. Không đun được thì dùng bộ lọc hoặc viên khử trùng, nhưng hai thứ đó không diệt hết mọi mầm.
 - Lợi ích: Hướng dẫn xử lý nước ăn uống mùa bão lũ mà ngành y tế phổ biến nêu thẳng một mốc: đun sôi nước trong ít nhất 1 phút. Hướng dẫn của Bộ Y tế về xử lý nước sinh hoạt đặt nguyên tắc chỉ dùng nước để uống trực tiếp sau khi đã đun sôi, và nói rõ nước đã khử trùng bằng cloramin vẫn phải đun sôi rồi mới uống trực tiếp. Cùng hướng dẫn đó cho liều khử trùng để so: một viên cloramin B 0,25 g cho 25 lít nước, một viên Aquatabs 67 mg cho 20 lít, khuấy đều, đậy nắp, chờ 30 phút. Lý do phải đun chứ không chỉ lọc: hướng dẫn của Trung tâm Kiểm soát và Phòng ngừa dịch bệnh Hoa Kỳ ghi mọi vi sinh vật gây bệnh qua đường uống bị giết trong vài giây ở nhiệt độ sôi, nhiều bộ lọc xách tay không giữ được vi rút, và clo, i-ốt ở nồng độ dùng thực tế diệt rất kém loại ký sinh trùng gây tiêu chảy kéo dài.
@@ -332,6 +402,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 36. Bị người lạ chặn đường đòi tiền ở nơi vắng: đưa tiền, không đánh lại, nhớ đặc điểm, thoát ra rồi gọi 113
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-bi-nguoi-la-chan-duong-doi-tien-o-noi-vang-dua-tien" data-legacy="13-36"></a>
+
 - Chi phí: Số tiền trong ví, có khi cả điện thoại và đồng hồ. Sau đó mất một buổi ra công an trình báo và một lần bị hỏi lại để làm rõ. Khó ở chỗ nuốt cơn tức, không đuổi theo, không chửi lại.
 - Nói dễ hiểu: Đưa tiền, đừng giằng co, đừng đuổi theo. Nhìn kỹ mặt, giọng nói, xe và hướng đi, rồi đi ra chỗ đông người và gọi 113.
 - Lợi ích: Công an tỉnh Điện Biên công bố đầu số 113 tiếp nhận tin báo về cướp giật, gây rối, bạo hành và các hành vi có dấu hiệu tội phạm, gọi miễn phí trên toàn quốc. Bạn kiếm lại được số tiền đó; còn cú đánh vào đầu thì để lại di chứng.
@@ -342,6 +414,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 37. Gặp một nhóm đang đánh nhau: lùi ra, không can, không đứng xem, không nhặt vũ khí; muốn báo thì lùi tới chỗ an toàn rồi gọi 113
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=tử-vong -->
+<a name="entry-gap-mot-nhom-dang-danh-nhau-lui-ra-khong-can-khong-dung" data-legacy="13-37"></a>
+
 - Chi phí: Không mất tiền. Mất vài phút đi đường vòng, và có thể nửa ngày nếu được mời làm chứng hoặc bị ghi tên vì có mặt tại chỗ. Khó ở chỗ vừa sợ vừa muốn biết chuyện gì đang xảy ra.
 - Nói dễ hiểu: Lùi ra khỏi tầm với, đừng can, đừng đứng xem, đừng nhặt vũ khí dưới đất. Muốn báo thì đi tới chỗ an toàn rồi gọi 113, nói rõ địa chỉ, số người, có hung khí hay không.
 - Lợi ích: Bạn vào can một nhóm đang đánh nhau thì rất khó chứng minh mình chỉ can, vì không ai đo được ai ra tay trước và ai đánh ai. Công an tỉnh Điện Biên công bố 113 là số tiếp nhận tin báo về cướp giật, gây rối, bạo hành và các hành vi có dấu hiệu tội phạm, và 115 là số cấp cứu y tế cho tai nạn, chấn thương nặng; cả hai miễn phí, bấm trực tiếp không cần mã vùng khi đang ở cùng khu vực. Đứng xem cũng không phải lựa chọn trung tính: người có mặt tại chỗ thường là người được hỏi đầu tiên, và bạn có thể phải ở lại nói mình đã thấy gì.
@@ -352,6 +426,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 38. Có nguy cơ phơi nhiễm HIV: tới cơ sở y tế trong 72 giờ, càng sớm càng tốt
 <!-- nhãn: tiền=nhiều thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=mắc-bệnh -->
+<a name="entry-co-nguy-co-phoi-nhiem-hiv-toi-co-so-y-te-trong" data-legacy="13-38"></a>
+
 - Chi phí: Tiền thuốc kháng vi rút cho 28 ngày và tiền xét nghiệm HIV, viêm gan; một buổi tới cơ sở y tế ngay trong ngày, tốt nhất là trong 24 giờ đầu. Khó ở chỗ phải tự nhận với chính mình là có chuyện vừa xảy ra, rồi đi ngay chứ không để hôm sau.
 - Nói dễ hiểu: Tới cơ sở y tế ngay trong ngày, tốt nhất trong 24 giờ đầu, muộn nhất 72 giờ sau khi nghi phơi nhiễm. Uống thuốc đủ 28 ngày, đừng tự dừng khi thấy khỏe.
 - Lợi ích: Quyết định 5968/QĐ-BYT ngày 31/12/2021 của Bộ Y tế ban hành Hướng dẫn điều trị và chăm sóc HIV/AIDS; nội dung dự phòng sau phơi nhiễm được Bệnh viện Bệnh Nhiệt đới Trung ương dẫn lại: thuốc kháng vi rút dùng "càng sớm càng tốt, tốt nhất trong vòng 24 giờ và không muộn hơn 72 giờ sau khi phơi nhiễm HIV", thời gian điều trị chuẩn là "28 ngày liên tục". Chỉ định dự phòng khi có phơi nhiễm với nguồn HIV dương tính hoặc không rõ tình trạng, và phơi nhiễm xảy ra trong vòng 72 giờ. Phác đồ ưu tiên cho người từ 10 tuổi là TDF + 3TC (hoặc FTC) + Dolutegravir. Theo dõi gồm xét nghiệm lại HIV sau 1 tháng và 3 tháng kể từ lúc phơi nhiễm. Con số đáng nhớ là 24 giờ chứ không phải 72 giờ: 72 giờ là cái chốt cuối, không phải hạn được hưởng.
@@ -361,6 +437,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 39. Cứu người mà bị thương hoặc mất tiền: tìm người gây thiệt hại và dùng bảo hiểm, rồi làm hồ sơ khen thưởng theo quy định
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-cuu-nguoi-ma-bi-thuong-hoac-mat-tien-tim-nguoi-gay-thiet" data-legacy="13-39"></a>
+
 - Chi phí: Viện phí và tiền thuốc: bảo hiểm y tế trả phần thuộc quyền lợi, phần còn lại bạn trả. Mất vài buổi chạy giấy: giấy ra viện, hóa đơn, biên bản của công an, báo cáo thành tích có xác nhận của cơ quan hoặc xã phường. Khó ở chỗ đang đau vẫn phải đi xin giấy.
 - Nói dễ hiểu: Vào viện trước, giữ hóa đơn, giấy ra viện và biên bản công an. Dùng bảo hiểm y tế; có người gây thiệt hại thì đòi bồi thường. Rồi nhờ xã phường lập hồ sơ khen thưởng đột xuất: mức thưởng Huân chương Dũng cảm là 4,5 lần lương cơ sở.
 - Lợi ích: Cứu người đúng cách và bảo đảm an toàn cho chính mình là việc quan trọng nhất. Người bị thương cần được điều trị kịp thời; việc xem xét khen thưởng hoặc hỗ trợ chỉ tính sau khi đã xử lý tình huống khẩn cấp.
@@ -371,6 +449,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 40. Vật sắc như dao, thanh sắt, mảnh kính đâm vào người: ấn quanh vật để cầm máu, tuyệt đối không rút ra
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-vat-sac-nhu-dao-thanh-sat-manh-kinh-dam-vao-nguoi-an" data-legacy="13-40"></a>
+
 - Chi phí: Không mất tiền. Cần một miếng gạc hoặc vải sạch và một dải vải để chèn quanh vật; mất vài phút chờ cấp cứu tới. Khó ở chỗ phải chống lại phản xạ muốn rút vật ra cho gọn.
 - Nói dễ hiểu: Đừng rút vật đó ra. Ép quanh chỗ vật cắm để cầm máu, chèn vòng vải quanh vật cho nó khỏi lay, rồi gọi 115. Vật ở bụng hay ngực thì để nguyên, không ấn lên vật.
 - Lợi ích: Bệnh viện Nhi Trung ương hướng dẫn: vết thương có dị vật như mảnh gỗ, kim loại hay bất kỳ vật gì đâm vào mà vẫn cắm ở vết thương thì "KHÔNG được rút dị vật ra"; bịt kín vết thương bằng cách ép mép vết thương sát với dị vật; dùng miếng vải vuông hoặc khăn tam giác quấn thành vòng đệm quanh dị vật rồi băng ép lại như với vết thương không có dị vật, "chú ý không gây áp lực trực tiếp lên dị vật". Cùng trang dặn không băng quá chặt như kiểu ga rô, và gọi cấp cứu 115 càng sớm càng tốt khi vết thương nặng. Rút vật ra là bỏ thứ đang bịt chỗ rách của mạch máu, và bạn phải cầm máu đúng chỗ đó ngay tại hiện trường.
@@ -380,6 +460,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 41. Nghi gãy xương: không động vào chỗ gãy, nẹp giữ nguyên tư thế, chườm lạnh không quá 20 phút, không tự nắn
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=tàn-tật -->
+<a name="entry-nghi-gay-xuong-khong-dong-vao-cho-gay-nep-giu-nguyen-tu" data-legacy="13-41"></a>
+
 - Chi phí: Không mất tiền. Cần một vật cứng làm nẹp tạm, vải hoặc quần áo để đệm, và một khăn bọc đá. Khó ở chỗ phải chịu đau mà không sửa lại tư thế cho thẳng.
 - Nói dễ hiểu: Để nguyên tư thế, nẹp hoặc buộc tạm vào vật cứng, không nắn, không ấn chỗ xương chồi. Chườm lạnh 15 đến 20 phút một lần, bọc đá trong khăn, rồi tới viện chụp phim.
 - Lợi ích: Khoa Chấn thương chỉnh hình và Cột sống, Bệnh viện Bạch Mai, hướng dẫn bất động ngay sau khi xác định chi gãy để ngăn tổn thương thêm phần mềm do đầu xương sắc gây ra, giảm đau, ngăn sốc và giảm nguy cơ gãy hở do đầu xương chọc thủng da; nguyên tắc đặt nẹp ghi rõ "không nắn lại xương, không ấn xương chồi", phải đệm lót nẹp, theo dõi tuần hoàn ngoại vi trước và sau khi nẹp. Trang hướng dẫn của Trạm y tế phường Chợ Lớn thuộc Sở Y tế Thành phố Hồ Chí Minh viết: dùng túi đá hoặc khăn lạnh chườm lên vùng bị thương trong 15 đến 20 phút giúp giảm sưng và đau, "không chườm trực tiếp đá lên da để tránh bỏng lạnh", sau đó đưa đến cơ sở y tế để chụp X-quang. Bạn nẹp để hai đầu xương không cọ vào nhau; nắn tay là đẩy đầu xương vào dây thần kinh và mạch máu nằm sát đó.
@@ -389,6 +471,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 42. Bị xâm hại tình dục: tới nơi an toàn rồi gọi 113; trước khi khám thì không tắm, không giặt quần áo, không dọn phòng; tới bệnh viện trong 72 giờ
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-bi-xam-hai-tinh-duc-toi-noi-an-toan-roi-goi-113" data-legacy="13-42"></a>
+
 - Chi phí: Gọi 113 không mất tiền. Mất tiền khám, xét nghiệm và thuốc dự phòng, và một buổi ở bệnh viện; có bảo hiểm y tế thì phần thuộc quyền lợi được quỹ trả. Khó ở chỗ việc đầu tiên ai cũng muốn làm là đi tắm.
 - Nói dễ hiểu: Tới chỗ an toàn rồi gọi 113. Đừng tắm, đừng giặt quần áo, đừng dọn phòng; cho quần áo, đồ lót vào túi giấy. Tới bệnh viện trong 72 giờ để được khám, lấy chứng cứ và dự phòng.
 - Lợi ích: Tài liệu "Hướng dẫn chăm sóc và hỗ trợ y tế cho người bị xâm hại tình dục" ban hành kèm Quyết định 3133/QĐ-BYT ngày 17/7/2020 của Bộ Y tế dặn cán bộ y tế hỏi người bị hại đã tắm, tiểu tiện, đại tiện, nôn, dùng dung dịch rửa hay thay quần áo chưa, vì những việc đó "có thể ảnh hưởng đến chứng cứ pháp y", và khuyến khích giữ lại quần áo, đồ lót, tóc, dịch, máu để kịp thu thập bằng chứng. Cùng tài liệu ghi: khám bộ phận sinh dục trong vòng 72 giờ sau vụ việc chỉ xác định được tổn thương thực thể ở khoảng gần 50% trường hợp, nên không thấy thương tích không có nghĩa là không có chuyện; xử trí gồm thuốc tránh thai khẩn cấp khi có nguy cơ mang thai, điều trị dự phòng các bệnh lây truyền qua đường tình dục và chuyển gửi đến cơ sở có chuyên môn để dự phòng lây nhiễm HIV. Phụ lục 3 của tài liệu nêu đường dây nóng toàn quốc 111 cho trẻ em là nạn nhân bạo lực, xâm hại tình dục. Mốc 72 giờ cũng là mốc của thuốc dự phòng sau phơi nhiễm HIV theo Quyết định 5968/QĐ-BYT: tốt nhất trong 24 giờ, không muộn hơn 72 giờ, uống đủ 28 ngày. Về phía tố tụng, Điều 71 Bộ luật Tố tụng hình sự buộc cơ quan tiến hành tố tụng giải thích quyền được trợ giúp pháp lý cho người bị hại thuộc diện được trợ giúp và thông báo cho Trung tâm trợ giúp pháp lý nhà nước.
@@ -398,6 +482,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 43. Trẻ dưới 1 tuổi hóc dị vật, khóc không ra tiếng: cho nằm sấp vỗ lưng 5 lần, lật lại ấn ngực 5 lần, lặp lại, không ấn bụng
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-tre-duoi-1-tuoi-hoc-di-vat-khoc-khong-ra-tieng-cho" data-legacy="13-43"></a>
+
 - Chi phí: Bố mẹ không mất đồng nào, chỉ mất một buổi đọc kỹ động tác và tập một lần trên gối hoặc búp bê. Cái khó nằm ở chỗ phải làm ngay khi trẻ đang tím, không dừng lại gọi người thân hay mở điện thoại tra cách làm.
 - Nói dễ hiểu: Trẻ còn khóc được thì để trẻ tự ho. Khóc không ra tiếng, môi tím: gọi 115, đặt trẻ nằm sấp trên cẳng tay, đầu thấp, vỗ lưng 5 lần; lật ngửa, ấn giữa ngực 5 lần; lặp lại. Không ấn bụng, không móc họng.
 - Lợi ích: Bệnh viện Nhi Trung ương hướng dẫn ngày 20/12/2024: trẻ còn hồng hào, khóc được, nói được, ho có hiệu quả thì người chăm sóc khuyến khích trẻ ho và đưa trẻ đến cơ sở y tế; trẻ tím tái, khóc yếu, ho không hiệu quả thì người chăm sóc gọi cấp cứu và làm thủ thuật ngay. Với trẻ nhỏ, người cấp cứu đặt trẻ nằm sấp, đầu thấp, dọc theo cánh tay một bên, bàn tay đỡ vùng ngực và xương hàm dưới, rồi dùng gót bàn tay còn lại vỗ 5 cái vào lưng giữa hai bả vai theo hướng xuống dưới và ra trước. Dị vật chưa ra thì người cấp cứu lật ngửa trẻ, vẫn để trẻ dọc cánh tay, ấn mạnh vùng 1/2 dưới xương ức 5 cái với tần suất 1 lần mỗi giây, rồi luân phiên vỗ lưng và ấn ngực cho tới khi dị vật rơi khỏi đường thở. Bệnh viện chỉ dùng nghiệm pháp Heimlich cho trẻ lớn, không dùng cho trẻ nhỏ. Trung tâm cấp cứu 115 thành phố Hồ Chí Minh ghi cách gọi cấp cứu là bấm số 115 trên điện thoại.
@@ -407,6 +493,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 44. Trẻ dưới 1 tuổi không phản ứng, không thở bình thường: bật loa ngoài gọi 115, ép tim và thổi ngạt theo tỷ lệ 30 lần ép, 2 lần thổi
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-tre-duoi-1-tuoi-khong-phan-ung-khong-tho-binh-thuong-bat" data-legacy="13-44"></a>
+
 - Chi phí: Bố mẹ không mất tiền, mất một buổi học ép tim và thổi ngạt cho trẻ dưới 1 tuổi, thường ở lớp sơ cấp cứu của bệnh viện hoặc của hội chữ thập đỏ. Cái khó là dám ấn đủ sâu trên lồng ngực một đứa trẻ vài tháng tuổi.
 - Nói dễ hiểu: Gọi 115, bật loa ngoài, đồng thời tiếp tục ép tim và thổi ngạt. Đặt trẻ nằm ngửa trên nền cứng. Ép giữa ngực cho lún khoảng 1/3 bề dày lồng ngực, mỗi phút khoảng 100 lần; cứ 30 lần ép thì thổi ngạt 2 lần, miệng bạn trùm cả mũi lẫn miệng trẻ.
 - Lợi ích: Bệnh viện Nhi Trung ương hướng dẫn ngày 02/06/2023 năm bước cấp cứu trẻ: gọi cấp cứu 115, đưa trẻ ra khỏi nước, kiểm tra trẻ còn thở không, và nếu trẻ không thở thì bắt đầu hồi sinh tim phổi ngay. Người cấp cứu đặt trẻ nằm ngửa trên nền cứng, thổi ngạt 5 nhịp đầu tiên, với trẻ nhỏ thì trùm miệng lên cả mũi và miệng trẻ. Ngay sau 5 nhịp thở đó, người cấp cứu ép tim ở 1/2 dưới xương ức, ấn sâu khoảng 1/3 đến 1/2 đường kính trước sau của lồng ngực, rồi tiếp tục theo chu kỳ 30 lần ép tim và 2 lần thổi ngạt. Quy trình kỹ thuật của Bộ Y tế tại Quyết định 1904/QĐ-BYT ghi tỷ lệ ép tim và thông khí 30:2 khi có một người cấp cứu, 15:2 khi có từ hai người trở lên, và với trẻ nhũ nhi dưới 1 tuổi thì ép ở nửa dưới xương ức, lún từ 1/3 đến 1/2 bề dày lồng ngực, tần số 100 lần mỗi phút.
@@ -416,15 +504,19 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 45. Trẻ nuốt pin cúc áo, hoặc nuốt từ hai viên nam châm mạnh trở lên: đi ngay bệnh viện có nội soi, không đợi tự thải, không gây nôn
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-tre-nuot-pin-cuc-ao-hoac-nuot-tu-hai-vien-nam-cham" data-legacy="13-45"></a>
+
 - Chi phí: Gia đình không mất tiền để quyết định đi viện, tiền chụp phim và nội soi gắp dị vật thì trả theo bảo hiểm và bảng giá của bệnh viện. Việc phải làm trước là cất pin và nam châm khỏi tầm tay trẻ, và nhớ mang theo chiếc pin cùng loại hoặc vỏ thiết bị vừa tháo pin.
 - Nói dễ hiểu: Nghi trẻ nuốt pin cúc áo, hoặc từ 2 viên nam châm mạnh trở lên: đưa trẻ đi ngay bệnh viện có nội soi, không đợi. Pin kẹt ở thực quản gây bỏng hóa học, ca nặng có thể tử vong trong 2 giờ. Không gây nôn, không cho ăn, mang theo pin cùng loại.
 - Lợi ích: Bệnh viện Nhi Hà Nội nội soi cấp cứu gắp pin cúc áo cho một bé trai 4 tuổi; khi vào nội soi, thực quản quanh viên pin đã loét hết, phía trên và phía dưới dị vật đều phù nề chít hẹp. Bác sĩ Ninh Quốc Đạt của bệnh viện cho biết pin cúc áo gây tổn thương nặng nề chỉ trong vài giờ đầu, vì hai cực sát nhau, gặp dịch sẽ sinh dòng điện, giải phóng gốc hydroxyl, làm pH tăng nhanh, gây ăn mòn mạnh và rất dễ thủng thực quản, thủng sang khí quản, động mạch chủ, và trường hợp nặng có thể tử vong trong vòng 2 giờ. Bệnh viện Nhi Trung ương đã mổ cấp cứu một bệnh nhi bị rò khí - thực quản sau khi nuốt pin, tức tổn thương đi xuyên qua thành thực quản. Với nam châm, trẻ nuốt từ hai viên trở lên thì các viên hút nhau qua thành ruột, thành ruột bị chèn giữa hai viên nên hoại tử và thủng, và việc gắp chỉ làm được ở cơ sở có nội soi cùng phẫu thuật.
 - Mức bằng chứng: B
 - Nguồn: VOV (10/03/2025), "Nội soi cấp cứu thành công bé trai 4 tuổi nuốt phải pin cúc áo", lời TS.BS Ninh Quốc Đạt, Bệnh viện Nhi Hà Nội — https://vov.gov.vn/noi-soi-cap-cuu-thanh-cong-be-trai-4-tuoi-nuot-phai-pin-cuc-ao-dtnew-1070104 ; Bệnh viện Nhi Trung ương, "Phẫu thuật thành công cứu sống bệnh nhi rò khí - thực quản do nuốt phải pin" — https://benhviennhitrunguong.gov.vn/phau-thuat-thanh-cong-cuu-song-benh-nhi-ro-khi-thuc-quan-do-nuot-phai-pin.html . Tra ngày 3/11/2026.
-- Ghi chú: Mốc thời gian và cơ chế bỏng có trong công bố của bệnh viện và lời bác sĩ điều trị, nhưng chưa có thống kê Việt Nam về số ca tử vong để lên hạng A. Người nhà hay sập ở ba chỗ. Một: thấy trẻ vẫn chơi, vẫn ăn được nên chờ xem có ra không, trong khi tổn thương thực quản bắt đầu từ giờ đầu và trẻ thường không có triệu chứng. Hai: móc họng hoặc cho uống nước để "trôi xuống", động tác này đẩy dị vật vào sâu và làm bỏng lan rộng. Ba: đưa trẻ tới trạm y tế xã hoặc phòng khám không có máy nội soi, rồi mất thêm vài giờ chuyển tuyến. Trẻ nuốt pin mà đang khó thở, tím tái thì xử trí hóc dị vật trước theo mục 43, rồi chuyển viện ngay. Mục này không có nghĩa là cứ nuốt pin là phải mổ: phần lớn ca gắp được bằng nội soi, và cái quyết định là tới sớm.
+- Ghi chú: Mốc thời gian và cơ chế bỏng có trong công bố của bệnh viện và lời bác sĩ điều trị, nhưng chưa có thống kê Việt Nam về số ca tử vong để lên hạng A. Người nhà hay sập ở ba chỗ. Một: thấy trẻ vẫn chơi, vẫn ăn được nên chờ xem có ra không, trong khi tổn thương thực quản bắt đầu từ giờ đầu và trẻ thường không có triệu chứng. Hai: móc họng hoặc cho uống nước để "trôi xuống", động tác này đẩy dị vật vào sâu và làm bỏng lan rộng. Ba: đưa trẻ tới trạm y tế xã hoặc phòng khám không có máy nội soi, rồi mất thêm vài giờ chuyển tuyến. Trẻ nuốt pin mà đang khó thở, tím tái thì xử trí hóc dị vật trước theo [mục 43](13-cap-cuu-nhung-phut-quyet-dinh.md#entry-tre-duoi-1-tuoi-hoc-di-vat-khoc-khong-ra-tieng-cho), rồi chuyển viện ngay. Mục này không có nghĩa là cứ nuốt pin là phải mổ: phần lớn ca gắp được bằng nội soi, và cái quyết định là tới sớm.
 
 ### 46. Người say rượu: cho nằm nghiêng, có người trông liên tục, không để ngủ một mình; gọi không tỉnh, thở chậm hoặc không đều, co giật, người lạnh thì gọi 115
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-nguoi-say-ruou-cho-nam-nghieng-co-nguoi-trong-lien-tuc-khong" data-legacy="13-46"></a>
+
 - Chi phí: Người nhà không mất tiền, mất một đêm thức trông và vài lần đánh thức người say dậy. Cái khó là ai cũng nghĩ "để ngủ cho tỉnh", và người ngồi trông thường cũng đã uống vài ly.
 - Nói dễ hiểu: Cho người say nằm nghiêng, đầu kê cao, có người ngồi cạnh và đánh thức vài giờ một lần. Không để người say ngủ một mình; phải có người trông trong lúc ngủ. Gọi không tỉnh, thở chậm hoặc không đều, co giật, da lạnh tím thì gọi 115.
 - Lợi ích: Trung tâm chống độc Bệnh viện Bạch Mai hướng dẫn ngày 03/02/2017: sau khi uống rượu, người say phải được đặt nằm nghiêng sang bên phải, gọi là tư thế nghiêng an toàn, để dẫn lưu đờm dãi ra ngoài và hạn chế hít vào phổi, nhất là khi người đó nôn; người trông phải đánh thức vài giờ một lần để tránh hôn mê mà không biết. Bệnh viện liệt kê các dấu hiệu phải đưa vào viện ngay: bất tỉnh gọi hỏi không biết; co giật; thở khò khè, ứ đọng đờm dãi, thở yếu, nhịp thở không đều, thở chậm hoặc ngừng thở; da, môi, móng tay tím tái hoặc nhợt và lạnh; đái, ỉa ra quần. Mức cồn trong máu từ 200 đến 400 mg/dL đã gây ức chế hô hấp, thở yếu, giảm thân nhiệt và hôn mê. Trung tâm cấp cứu 115 thành phố Hồ Chí Minh ghi cách gọi cấp cứu là bấm số 115 trên điện thoại.
@@ -434,15 +526,19 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 47. Ngón tay, ngón chân bị đứt lìa: ấn cầm máu, phần đứt bọc gạc ẩm cho vào túi kín, túi ngâm nước đá, tới bệnh viện có vi phẫu
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=tàn-tật -->
+<a name="entry-ngon-tay-ngon-chan-bi-dut-lia-an-cam-mau-phan-dut" data-legacy="13-47"></a>
+
 - Chi phí: Người bị nạn không mất tiền, gia đình mất vài phút lấy gạc sạch, một túi nylon và ít đá. Tiền mổ vi phẫu thì trả theo bảo hiểm và bảng giá của bệnh viện. Cái khó là vừa ép cầm máu vừa giữ phần đứt không chạm vào đá, và nhiều nhà chỉ nghĩ tới trạm y tế xã gần nhất.
 - Nói dễ hiểu: Ép mạnh chỗ chảy máu bằng gạc sạch. Phần đứt bọc gạc ẩm, cho vào túi kín, đặt túi đó trong nước đá, không để đá chạm trực tiếp. Tới bệnh viện có vi phẫu ngay: thời gian vàng 6 đến 8 giờ, muộn hơn vẫn phải đi.
 - Lợi ích: Bệnh viện Bãi Cháy hướng dẫn ngày 04/03/2026: thời gian vàng để vi phẫu nối chi thể đạt hiệu quả cao nhất thường trong vòng 6 đến 8 giờ đầu kể từ lúc tổn thương, và bảo quản lạnh đúng cách thì kéo dài được; người sơ cứu rửa phần đứt bằng nước muối sinh lý hoặc nước sạch, bọc trong vải sạch hoặc gạc, cho vào túi nilon sạch rồi đặt túi trong thùng nước đá đang tan với tỉ lệ đá và nước là 1/4, tránh để phần đứt tiếp xúc trực tiếp với đá. Bệnh viện dặn băng ép nhẹ vùng chảy máu, nếu phải dùng garo thì nới lỏng garo và đến viện trong vòng 2 giờ. Bệnh viện Hữu nghị Việt Đức kể ca nối lại ngón trỏ bị đứt rời sau 25 giờ thiếu máu, nhờ phần đứt được bảo quản trong bình giữ nhiệt ngay trên tàu, và bệnh viện dặn không rửa, không ngâm phần đứt vào bất kỳ dung dịch nào, bọc bằng gạc sạch, cho vào túi nylon buộc kín rồi đặt vào túi khác có đá lạnh.
 - Mức bằng chứng: B
 - Nguồn: Bệnh viện Bãi Cháy, Sở Y tế Quảng Ninh (04/03/2026), "Vi phẫu tái lập tuần hoàn trong 'thời gian vàng', bảo tồn bàn ngón tay bị chấn thương phức tạp" — http://phacdo.soytequangninh.gov.vn/news/tin-tuc-su-kien/benh-vien-bai-chay-vi-phau-tai-lap-tuan-hoan-trong-thoi-gian-vang-bao-ton-ban-ngon-tay-bi-chan-thuong-phuc-tap-dut-gan-roi-cho-nguoi-benh-tai-nan-lao-dong.html ; Bệnh viện Hữu nghị Việt Đức (09/12/2025), "Vi phẫu thuật thành công cứu sống ngón tay thủy thủ bị đứt rời sau 25 giờ" — https://benhvienvietduc.org/ky-tich-lan-dau-tien-tai-viet-nam-vi-phau-thuat-thanh-cong-cuu-song-ngon-tay-thuy-thu-bi-dut-roi-sau-25-gio.html . Tra ngày 3/11/2026.
-- Ghi chú: Mốc giờ và cách bảo quản có trong hướng dẫn của hai bệnh viện tuyến cuối, nhưng chưa có nghiên cứu Việt Nam so tỷ lệ sống của ngón tay theo cách bảo quản, nên mục dừng ở B. Người sơ cứu hay sập ở ba chỗ. Một: ướp thẳng phần đứt vào đá hoặc ngâm vào nước, nước đá làm mô lạnh cóng và nước làm dây chằng trương lên, cả hai đều làm hỏng phần đứt. Hai: cột garo thật chặt rồi để đó, trong khi hướng dẫn của Bệnh viện Bãi Cháy dặn nới garo và tới viện trong vòng 2 giờ, còn mục 12 dành việc nới cho nhân viên y tế. Ba: đưa vào trạm y tế xã hoặc bệnh viện huyện không có kính vi phẫu, chờ sơ cứu ở đó rồi mới chuyển, làm mất vài giờ trong khung 6 đến 8 giờ; nơi nhận phải là khoa chấn thương chỉnh hình hoặc phẫu thuật tạo hình có kính vi phẫu. Hai bệnh viện dặn khác nhau một chỗ: Bãi Cháy cho rửa phần đứt bằng nước muối, Việt Đức dặn không rửa, không ngâm; phần đứt dính bùn đất thì rửa nhanh dưới vòi nước sạch rồi bọc lại, còn phần sạch thì bọc luôn. Dù đã quá 8 giờ, bạn vẫn cần đưa người bị nạn tới nơi có vi phẫu: đã có ca nối được sau 25 giờ.
+- Ghi chú: Mốc giờ và cách bảo quản có trong hướng dẫn của hai bệnh viện tuyến cuối, nhưng chưa có nghiên cứu Việt Nam so tỷ lệ sống của ngón tay theo cách bảo quản, nên mục dừng ở B. Người sơ cứu hay sập ở ba chỗ. Một: ướp thẳng phần đứt vào đá hoặc ngâm vào nước, nước đá làm mô lạnh cóng và nước làm dây chằng trương lên, cả hai đều làm hỏng phần đứt. Hai: cột garo thật chặt rồi để đó, trong khi hướng dẫn của Bệnh viện Bãi Cháy dặn nới garo và tới viện trong vòng 2 giờ, còn [mục 12](13-cap-cuu-nhung-phut-quyet-dinh.md#entry-chay-mau-nhieu-an-manh-len-vet-thuong-neu-o-tay-chan) dành việc nới cho nhân viên y tế. Ba: đưa vào trạm y tế xã hoặc bệnh viện huyện không có kính vi phẫu, chờ sơ cứu ở đó rồi mới chuyển, làm mất vài giờ trong khung 6 đến 8 giờ; nơi nhận phải là khoa chấn thương chỉnh hình hoặc phẫu thuật tạo hình có kính vi phẫu. Hai bệnh viện dặn khác nhau một chỗ: Bãi Cháy cho rửa phần đứt bằng nước muối, Việt Đức dặn không rửa, không ngâm; phần đứt dính bùn đất thì rửa nhanh dưới vòi nước sạch rồi bọc lại, còn phần sạch thì bọc luôn. Dù đã quá 8 giờ, bạn vẫn cần đưa người bị nạn tới nơi có vi phẫu: đã có ca nối được sau 25 giờ.
 
 ### 48. Răng vĩnh viễn bị rơi cả chiếc: cầm phần thân răng rửa nhẹ, đặt lại được thì đặt lại, không thì ngâm trong sữa, đi khám răng ngay; răng sữa thì không đặt lại
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tàn-tật -->
+<a name="entry-rang-vinh-vien-bi-roi-ca-chiec-cam-phan-than-rang-rua" data-legacy="13-48"></a>
+
 - Chi phí: Gia đình không mất tiền, mất vài phút và một hộp sữa tươi trong tủ lạnh. Tiền khám và cố định răng thì trả theo bảo hiểm và bảng giá của bệnh viện. Cái khó là phải cầm đúng phần thân răng và không lau răng bằng giấy.
 - Nói dễ hiểu: Răng vĩnh viễn rơi cả chiếc: cầm phần thân răng, không chạm chân răng, rửa nhẹ bằng sữa tươi hoặc nước muối, đặt lại vào ổ nếu làm được rồi cắn gạc giữ. Không đặt lại được thì ngâm răng trong sữa, đi khám răng ngay. Răng sữa không đặt lại.
 - Lợi ích: Bệnh viện Răng Hàm Mặt Trung ương Hà Nội hướng dẫn ngày 20/09/2021 sáu bước cho răng vĩnh viễn rơi khỏi ổ răng: tìm lại răng; chỉ cầm vào thân răng, không chạm vùng chân răng kể cả lúc rửa; cắm lại răng ngay tại hiện trường nếu có thể, sau khi rửa nhẹ bằng sữa tươi không đường, nước muối sinh lý hoặc nước bọt của người bị nạn, không dùng nước máy; không cắm lại được thì tuyệt đối không để răng khô, ngâm ngay vào sữa tươi không đường, nước muối sinh lý hoặc nước bọt; cho người bị nạn cắn gạc hoặc khăn tay sạch ở vị trí răng; đến cơ sở y tế ngay. Bệnh viện Trung ương Quân đội 108 ghi rõ với răng sữa rơi khỏi huyệt ổ răng thì không có chỉ định đặt lại như với răng vĩnh viễn, mà chỉ theo dõi và tái khám định kỳ mầm răng vĩnh viễn.
@@ -452,6 +548,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 49. Phân đen, dẻo, dính như hắc ín thì đi cấp cứu trong ngày; chóng mặt, vã mồ hôi hoặc nôn ra máu thì gọi 113 hoặc 115
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-phan-den-deo-dinh-nhu-hac-in-thi-di-cap-cuu-trong" data-legacy="13-49"></a>
+
 - Chi phí: Một buổi ở khoa cấp cứu, cộng một lần nội soi dạ dày nếu bác sĩ chỉ định. Đi bằng xe nhà, hoặc gọi cấp cứu. Đang chóng mặt thì đừng tự lái xe.
 - Nói dễ hiểu: Phân đen, dẻo, dính như hắc ín và nặng mùi thường là máu từ dạ dày hay tá tràng chảy xuống. Đi cấp cứu trong ngày, đừng chờ đến khi hết đen. Người chỉ có phân đen mà không nôn ra máu là nhóm hay chần chừ nhất, và trong nghiên cứu dưới đây họ đến viện muộn hơn hẳn.
 - Lợi ích: Sáu bệnh viện ghi nhận liên tiếp 2944 người vào cấp cứu vì xuất huyết tiêu hoá trên. Trong đó 36% đến trong vòng 6 giờ, 20% đến sau 48 giờ. Người chỉ có phân đen đến muộn hơn: tỷ số odds 0,22 (khoảng tin cậy 95% 0,18–0,28). Nhóm đến trong 6 giờ phải truyền máu 27%, nhóm đến muộn hơn phải truyền máu 42%, chênh 15 điểm phần trăm (khoảng tin cậy 95% −19% đến −12%).

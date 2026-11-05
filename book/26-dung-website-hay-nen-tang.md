@@ -8,10 +8,12 @@ Về thang bằng chứng: **không mục nào hạng A, 12 mục hạng B, 1 m�
 
 Về bối cảnh Việt Nam: đúng chỗ dễ hiểu sai nhất là **giữ tiền hộ người bán**. Nền tảng tự thu tiền rồi chuyển cho người bán là hoạt động trung gian thanh toán, phải có giấy phép của Ngân hàng Nhà nước. Chương cũng chỉ rõ loại nội dung nào cần giấy nào, để bạn khỏi xin nhầm giấy hoặc bỏ sót giấy cần có.
 
-**Nhóm mục**: **Thu tiền và giấy phép**: mục 1 đến 4 · **Nền tảng có người khác vào bán**: mục 5 đến 8 · **Bản quyền và dữ liệu ra nước ngoài**: mục 9 đến 11 · **Lộ dữ liệu và gia hạn tự động**: mục 12 đến 13
+**Nhóm mục**: **Thu tiền và giấy phép**: [mục 1 đến 4](26-dung-website-hay-nen-tang.md#entry-dung-de-tien-cua-nguoi-mua-di-qua-tai-khoan-cua-ban "refs:dung-de-tien-cua-nguoi-mua-di-qua-tai-khoan-cua-ban,loai-noi-dung-quyet-dinh-giay-phep-khong-phai-viec-website-co,livestream-va-video-chi-mang-xa-hoi-co-giay-phep-moi-duoc,may-chu-va-ten-mien-ba-viec-phai-lam-truoc-khi-chay") · **Nền tảng có người khác vào bán**: [mục 5 đến 8](26-dung-website-hay-nen-tang.md#entry-cho-nguoi-khac-ban-tren-nen-tang-cua-minh-dang-ky-truoc "refs:cho-nguoi-khac-ban-tren-nen-tang-cua-minh-dang-ky-truoc,nguoi-dung-dang-gi-vi-pham-tren-nen-tang-thi-minh-phai,cho-nguoi-ta-viet-bai-binh-luan-chat-thi-phai-xac-thuc,nguoi-duoi-16-tuoi-khong-co-luat-rieng-cho-livestream-va-tien") · **Bản quyền và dữ liệu ra nước ngoài**: [mục 9 đến 11](26-dung-website-hay-nen-tang.md#entry-co-thong-bao-xam-pham-ban-quyen-thi-phai-go-nhanh-khong "refs:co-thong-bao-xam-pham-ban-quyen-thi-phai-go-nhanh-khong,du-lieu-nguoi-dung-ra-nuoc-ngoai-ho-so-danh-gia-tac,chon-may-chu-xet-nghia-vu-luu-du-lieu-va-nguoi-tra") · **Lộ dữ liệu và gia hạn tự động**: [mục 12 đến 13](26-dung-website-hay-nen-tang.md#entry-lo-du-lieu-nguoi-dung-chan-lo-hong-truoc-bao-co-quan "refs:lo-du-lieu-nguoi-dung-chan-lo-hong-truoc-bao-co-quan,ban-goi-tu-dong-gia-han-nhac-truoc-khi-het-han-nhac")
 
 ### 1. Đừng để tiền của người mua đi qua tài khoản của bạn rồi mới trả cho người bán
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-dung-de-tien-cua-nguoi-mua-di-qua-tai-khoan-cua-ban" data-legacy="26-1"></a>
+
 - Chi phí: Không có lệ phí giấy phép, nhưng có phí của đơn vị được phép giữ tiền: mỗi giao dịch đi qua cổng thanh toán, ví điện tử hoặc tài khoản ngân hàng chuyên dụng đều mất một khoản phí theo tỷ lệ, và phần đó lấy từ biên lợi nhuận của người bán trên sàn. Cái đắt hơn là thời gian: đàm phán hợp đồng với đơn vị cung ứng dịch vụ thanh toán, rồi viết lại luồng đơn hàng để tiền vào thẳng tài khoản người bán, còn bạn chỉ thu phí nền tảng của mình.
 - Nói dễ hiểu: Người mua trả vào tài khoản của bạn, bạn giữ rồi chuyển cho người bán — đó là làm dịch vụ trung gian thanh toán, phải có giấy phép của Ngân hàng Nhà nước. Không có giấy phép thì để tiền đi thẳng: người mua trả cho người bán qua đơn vị được phép, bạn thu phí của mình bằng một hóa đơn riêng.
 - Lợi ích: Vì vậy câu hỏi thiết kế không phải "có nên xin giấy phép không" mà là "tiền có nhất thiết phải đi qua tài khoản của mình không". Có ba cách để tiền của người mua không đi qua tài khoản của bạn: một, để người mua chuyển thẳng cho người bán qua cổng thanh toán hoặc ví điện tử, bạn chỉ ghi nhận đơn và thu phí nền tảng; hai, ký hợp đồng dịch vụ với một đơn vị được cấp phép; chính đơn vị đó nhận tiền và chia tiền cho người bán, bạn là khách hàng của họ; ba, với mô hình nhỏ, cho người bán tự thu tiền của khách rồi bạn thu phí định kỳ. Cả ba cách đều có một điểm chung: số dư tiền của người mua không nằm trong tài khoản của bạn chờ ngày chuyển đi.
@@ -22,6 +24,8 @@ Về bối cảnh Việt Nam: đúng chỗ dễ hiểu sai nhất là **giữ ti
 
 ### 2. Loại nội dung quyết định giấy phép, không phải việc website có thu tiền hay không
 <!-- nhãn: tiền=ít thời-gian=nhiều ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-loai-noi-dung-quyet-dinh-giay-phep-khong-phai-viec-website-co" data-legacy="26-2"></a>
+
 - Chi phí: Không tốn tiền xin giấy phép trang thông tin điện tử nếu trang chỉ bán hàng của chính bạn và không cho người khác đăng tin. Có giấy phép thì tốn tiền thuê người chịu trách nhiệm nội dung, tiền duy trì tên miền, tiền hạ tầng đủ để lưu dữ liệu trong nước, và thời gian đi lại giữa Bộ Thông tin và Truyền thông với Sở Thông tin và Truyền thông. Cái đắt nhất là thời gian chờ và chi phí sửa lại sản phẩm nếu xin phép sau khi đã chạy.
 - Nói dễ hiểu: Trang bán hàng không cho người lạ đăng bài thì không phải xin giấy phép trang thông tin điện tử, nhưng vẫn phải thông báo hoặc đăng ký theo pháp luật thương mại điện tử. Hễ đăng lại tin tổng hợp từ nơi khác thì phải có giấy phép; mở cho người lạ đăng bài thì thành mạng xã hội, phải có giấy phép.
 - Lợi ích: Website cung cấp nội dung và nền tảng cho người dùng tương tác có thể thuộc những nhóm dịch vụ khác nhau. Xác định đúng loại trước khi xây tính năng.
@@ -32,6 +36,8 @@ Về bối cảnh Việt Nam: đúng chỗ dễ hiểu sai nhất là **giữ ti
 
 ### 3. Livestream và video: chỉ mạng xã hội có giấy phép mới được mở livestream, còn trò chơi và phim theo quy định riêng
 <!-- nhãn: tiền=ít thời-gian=nhiều ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-livestream-va-video-chi-mang-xa-hoi-co-giay-phep-moi-duoc" data-legacy="26-3"></a>
+
 - Chi phí: Không tốn tiền nếu bạn chỉ phát trực tiếp trên nền tảng của người khác. Tự dựng nền tảng có livestream thì tốn nhất: phải là doanh nghiệp, có người chịu trách nhiệm nội dung, có tên miền .vn còn hạn, có máy chủ đặt tại Việt Nam, và có quy trình duyệt nội dung trước khi phát. Cộng thêm thời gian xin giấy phép và thời gian chờ duyệt từng nội dung.
 - Nói dễ hiểu: Chỉ mạng xã hội đã được cấp giấy phép mới được mở livestream hoặc cho người dùng kiếm tiền trên đó. Trò chơi điện tử và phim trên mạng theo quy định riêng: trò chơi có giấy phép hoặc giấy chứng nhận, phim theo Luật Điện ảnh và pháp luật báo chí.
 - Lợi ích: Livestream và nội dung do người dùng đăng tải không tự nhiên được phép chỉ vì có tài khoản trên website. Cần biết sản phẩm của mình thuộc loại mạng xã hội hay dịch vụ khác.
@@ -42,6 +48,8 @@ Về bối cảnh Việt Nam: đúng chỗ dễ hiểu sai nhất là **giữ ti
 
 ### 4. Máy chủ và tên miền: ba việc phải làm trước khi chạy
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-may-chu-va-ten-mien-ba-viec-phai-lam-truoc-khi-chay" data-legacy="26-4"></a>
+
 - Chi phí: Tên miền .vn có lệ phí đăng ký và phí duy trì hằng năm; tên miền quốc tế rẻ hơn nhưng kéo theo nghĩa vụ thông báo. Máy chủ đặt tại Việt Nam đắt hơn máy chủ nước ngoài cùng cấu hình, và nếu bạn cần giấy phép thì đây là điều kiện cứng chứ không phải lựa chọn. Thời gian: đăng ký tên miền vài giờ, chờ nhà cung cấp hạ tầng xác nhận thì lâu hơn, còn xin giấy phép thì tính bằng tuần.
 - Nói dễ hiểu: Trang có giấy phép thì hiển thị số giấy phép ở chân trang. Ba việc: đăng ký tên miền qua nhà đăng ký hợp lệ, thông báo khi dùng tên miền quốc tế, và xin giấy phép theo loại nội dung. Trang tổng hợp, mạng xã hội phải dùng tên miền .vn làm chính, dữ liệu phải ở máy chủ có IP trong nước.
 - Lợi ích: Mua tên miền hoặc thuê máy chủ không đồng nghĩa website đã đáp ứng mọi nghĩa vụ. Trước khi mở dịch vụ, kiểm tra đăng ký tên miền và cách quản lý thông tin liên hệ.
@@ -52,6 +60,8 @@ Về bối cảnh Việt Nam: đúng chỗ dễ hiểu sai nhất là **giữ ti
 
 ### 5. Cho người khác bán trên nền tảng của mình: đăng ký trước khi chạy, xác thực người bán, giữ dữ liệu
 <!-- nhãn: tiền=ít thời-gian=nhiều ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-cho-nguoi-khac-ban-tren-nen-tang-cua-minh-dang-ky-truoc" data-legacy="26-5"></a>
+
 - Chi phí: Không có lệ phí đăng ký, nhưng có ba khoản thật phải bỏ ra trước ngày chạy: một pháp nhân đứng tên nền tảng, một người chuyên trách quản lý hoạt động thương mại điện tử, và một đề án hoạt động viết ra được. Khoản đắt nhất là hạ tầng lưu trữ và đối soát: thông tin hàng hóa phải truy cập lại được ít nhất 01 năm kể từ ngày đăng, dữ liệu hợp đồng ít nhất 03 năm kể từ ngày giao kết, và dữ liệu hợp đồng của người bán vẫn phải tải về được 03 năm sau khi tài khoản của họ bị tạm ngừng. Nếu nền tảng được phép giữ tiền của người bán thì thêm một lớp nữa: cơ chế giữ tiền, đối soát, thanh toán, rút tiền, ghi thành hợp đồng điện tử có giá trị chứng cứ.
 - Nói dễ hiểu: Cho người khác bán trên nền tảng thì phải là pháp nhân, có người chuyên trách và đề án, đăng ký với Bộ Công Thương trước khi chạy. Xác thực danh tính người bán bằng số định danh, công khai tên và địa chỉ, giữ dữ liệu hàng hóa 01 năm, dữ liệu hợp đồng 03 năm.
 - Lợi ích: Khi cho người khác bán trên nền tảng của mình, cần thiết kế xác minh người bán, lưu giao dịch và cơ chế khiếu nại từ đầu. Việc này khác hẳn một cửa hàng chỉ bán hàng của chính mình.
@@ -62,6 +72,8 @@ Về bối cảnh Việt Nam: đúng chỗ dễ hiểu sai nhất là **giữ ti
 
 ### 6. Người dùng đăng gì vi phạm trên nền tảng thì mình phải gỡ: 24 giờ khi có yêu cầu, 48 giờ với khiếu nại
 <!-- nhãn: tiền=nhiều thời-gian=nhiều ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-nguoi-dung-dang-gi-vi-pham-tren-nen-tang-thi-minh-phai" data-legacy="26-6"></a>
+
 - Chi phí: Khoản đắt nhất là người: một bộ phận trực kiểm duyệt, trực đường dây nhận báo cáo, làm cả ngày lễ, vì đồng hồ 24 giờ chạy kể cả lúc không có ai làm. Cộng vào đó là hệ thống lọc từ khóa, công cụ cảnh báo, và chỗ lưu nhật ký xử lý — nhật ký của mạng xã hội phải giữ tối thiểu 02 năm, của trang thông tin điện tử tổng hợp là 90 ngày nội dung và 02 năm nhật ký. Phần không nhìn thấy được là quy trình viết sẵn: ai duyệt, duyệt cái gì, gỡ trong bao lâu, ai ký biên bản.
 - Nói dễ hiểu: Phải có quy trình duyệt bài, bộ lọc, chỗ nhận báo cáo và người trực. Có yêu cầu của Bộ Thông tin và Truyền thông hay Bộ Công an thì gỡ trong 24 giờ; khiếu nại của người dùng thì 48 giờ. Muốn mở mạng xã hội phải có giấy phép hoặc giấy xác nhận thông báo trước, không phải làm rồi bổ sung.
 - Lợi ích: Nếu người dùng có thể đăng nội dung, phải chuẩn bị công cụ báo vi phạm và gỡ nội dung. Cần phân quyền nhân viên, lưu dấu thao tác và lịch xử lý khiếu nại.
@@ -72,6 +84,8 @@ Về bối cảnh Việt Nam: đúng chỗ dễ hiểu sai nhất là **giữ ti
 
 ### 7. Cho người ta viết bài, bình luận, chat thì phải xác thực tài khoản bằng số điện thoại
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=vừa thước-đo=khác -->
+<a name="entry-cho-nguoi-ta-viet-bai-binh-luan-chat-thi-phai-xac-thuc" data-legacy="26-7"></a>
+
 - Chi phí: Tiền không lớn: một cổng gửi mã xác thực qua tin nhắn, một bảng tra số điện thoại với dữ liệu thuê bao, và công sức viết luồng đăng ký cho đúng. Khoản mất thật là người dùng: mỗi bước xác thực thêm vào là một phần người đăng ký bỏ đi, và với cộng đồng nhỏ thì đó là phần lớn tương tác. Cộng thêm chi phí lưu trữ: họ tên, ngày tháng năm sinh, số điện thoại hoặc số định danh của người dùng phải lưu cùng tài khoản, kèm nhật ký đăng nhập, đăng xuất và địa chỉ mạng.
 - Nói dễ hiểu: Chỉ tài khoản đã xác thực mới được đăng bài, bình luận, livestream và chia sẻ. Xác thực bằng số điện thoại Việt Nam, người không có thì bằng số định danh cá nhân; livestream bán hàng thì bắt buộc bằng số định danh. Không được đòi ảnh chụp giấy tờ tùy thân để xác thực.
 - Lợi ích: Tính năng bình luận, chat và đăng bài có thể kéo theo nghĩa vụ xác thực người dùng. Thiết kế dữ liệu và quy trình xử lý tài khoản trước khi mở cho công chúng.
@@ -82,6 +96,8 @@ Về bối cảnh Việt Nam: đúng chỗ dễ hiểu sai nhất là **giữ ti
 
 ### 8. Người dưới 16 tuổi: không có luật riêng cho livestream và tiền thưởng, nhưng có ba tầng chặn
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-nguoi-duoi-16-tuoi-khong-co-luat-rieng-cho-livestream-va-tien" data-legacy="26-8"></a>
+
 - Chi phí: Gần như không có tiền mặt, nhưng có ba khoản công: dựng luồng để cha, mẹ hoặc người giám hộ đăng ký tài khoản bằng thông tin của chính mình, viết chính sách dữ liệu của trẻ, và xử lý các yêu cầu hoàn tiền khi phụ huynh phát hiện con đã chuyển tiền hoặc nạp tiền. Khoản đắt nhất là khoản bị đòi lại: một giao dịch của trẻ từ đủ 6 tuổi đến chưa đủ 15 tuổi mà không có người đại diện đồng ý thì có thể bị tuyên vô hiệu, và khi vô hiệu thì các bên phải hoàn trả cho nhau những gì đã nhận.
 - Nói dễ hiểu: Trẻ dưới 16 tuổi không tự mở tài khoản: cha mẹ đăng ký bằng thông tin của mình và phải giám sát. Giao dịch của trẻ từ đủ 6 đến chưa đủ 15 tuổi phải có người đại diện đồng ý, không thì có thể bị tòa tuyên vô hiệu và phải trả lại tiền. Không có thang tuổi cho tiền tặng, quà tặng trên livestream.
 - Lợi ích: Dịch vụ có trẻ em sử dụng cần thiết kế biện pháp bảo vệ theo độ tuổi và loại tài khoản. Không dùng một điều khoản chung chung để thay phần kiểm soát.
@@ -92,6 +108,8 @@ Về bối cảnh Việt Nam: đúng chỗ dễ hiểu sai nhất là **giữ ti
 
 ### 9. Có thông báo xâm phạm bản quyền thì phải gỡ nhanh; không có mốc nào để nội dung tự quay lại
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-co-thong-bao-xam-pham-ban-quyen-thi-phai-go-nhanh-khong" data-legacy="26-9"></a>
+
 - Chi phí: Không tốn tiền để tuân thủ, nhưng tốn một quy trình phải viết ra trước: một hộp thư nhận thông báo, một biểu mẫu ghi ai gửi, gửi cái gì, kèm chứng cứ nào, một chỗ lưu hồ sơ từng lần gỡ. Cái đắt nhất là quyết định gỡ ngay trong lúc chưa chắc ai đúng, rồi tự giải thích với người bán hàng đang mất doanh thu, và giữ được bình tĩnh khi bên gửi thông báo dọa kiện.
 - Nói dễ hiểu: Nhận thông báo có căn cứ là phải gỡ hoặc chặn ngay, đừng chờ cơ quan. Gỡ xong thì báo cho người đăng biết và giữ lại hồ sơ. Không có mốc nào để nội dung tự quay lại: muốn đăng lại thì phải có thỏa thuận với bên gửi thông báo hoặc có kết luận của cơ quan có thẩm quyền.
 - Lợi ích: Cơ chế nhận và xử lý báo cáo vi phạm bản quyền cần có thông tin người báo, liên kết nội dung và lịch sử xử lý. Đừng chờ đến khi tranh chấp mới tạo công cụ gỡ.
@@ -102,6 +120,8 @@ Về bối cảnh Việt Nam: đúng chỗ dễ hiểu sai nhất là **giữ ti
 
 ### 10. Dữ liệu người dùng ra nước ngoài: hồ sơ đánh giá tác động trong 60 ngày, không chia theo số người
 <!-- nhãn: tiền=0 thời-gian=nhiều ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-du-lieu-nguoi-dung-ra-nuoc-ngoai-ho-so-danh-gia-tac" data-legacy="26-10"></a>
+
 - Chi phí: Không tốn phí nộp, nhưng tốn việc làm hồ sơ: rà xem dữ liệu nào đang đi qua đâu — máy chủ, dịch vụ gửi thư, công cụ phân tích, dịch vụ nhắn tin, nhà cung cấp thanh toán — rồi viết một bộ hồ sơ cho mỗi luồng có dữ liệu ra nước ngoài. Với một site nhỏ, việc này tính bằng vài ngày làm việc và một buổi ngồi với người làm kỹ thuật để lập bảng dữ liệu đi tới đâu; hồ sơ phải gửi trong 60 ngày kể từ ngày đầu tiên chuyển dữ liệu.
 - Nói dễ hiểu: Đưa dữ liệu người dùng ra khỏi Việt Nam là chuyển dữ liệu xuyên biên giới. Phải tự lập hồ sơ đánh giá tác động và gửi cơ quan chuyên trách trong 60 ngày đầu; cơ quan này vẫn có quyền kiểm tra và yêu cầu ngừng chuyển. Dữ liệu người dùng Việt Nam còn phải lưu tại Việt Nam.
 - Lợi ích: Chuyển dữ liệu cá nhân người dùng sang dịch vụ ở nước ngoài cần được xem xét từ lúc thiết kế kiến trúc. Ghi rõ dữ liệu nào đi đâu, ai xử lý và bằng hợp đồng nào.
@@ -112,6 +132,8 @@ Về bối cảnh Việt Nam: đúng chỗ dễ hiểu sai nhất là **giữ ti
 
 ### 11. Chọn máy chủ: xét nghĩa vụ lưu dữ liệu và người trả lời khi hỏng trước, so giá sau
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-chon-may-chu-xet-nghia-vu-luu-du-lieu-va-nguoi-tra" data-legacy="26-11"></a>
+
 - Chi phí: Ba tầng chi phí, và chỉ tầng đầu là con số trên hóa đơn: tiền thuê máy chủ hằng tháng, tiền cho người biết xử lý khi hệ thống chết, và tiền cho lần sự cố đầu tiên — dựng lại từ bản sao lưu, viết thông báo cho khách, chịu mất đơn trong mấy ngày. Bảng giá mỗi nhà cung cấp một khác và đổi theo cấu hình, nên đừng chốt giá qua lời giới thiệu: xin báo giá bằng văn bản, hỏi rõ phí vượt băng thông và phí sao lưu.
 - Nói dễ hiểu: Chọn theo thứ tự: chỗ đặt máy chủ có đáp ứng nghĩa vụ lưu dữ liệu người dùng tại Việt Nam không; nhà cung cấp có đăng ký, thông báo cung cấp dịch vụ và có người trả lời khi hỏng không; cuối cùng mới so giá. Rẻ hơn mà mất dữ liệu thì phần chênh không bù được.
 - Lợi ích: Chọn máy chủ phải cân nhắc dữ liệu, bảo mật và nghĩa vụ xử lý sự cố, không chỉ giá VPS. Khi dịch vụ mở rộng, cần biết ai chịu trách nhiệm trước người dùng và cơ quan quản lý.
@@ -122,6 +144,8 @@ Về bối cảnh Việt Nam: đúng chỗ dễ hiểu sai nhất là **giữ ti
 
 ### 12. Lộ dữ liệu người dùng: chặn lỗ hổng trước, báo cơ quan chuyên trách trong 72 giờ, và báo cả người dùng khi dữ liệu là vị trí, sinh trắc học hay tài chính
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-lo-du-lieu-nguoi-dung-chan-lo-hong-truoc-bao-co-quan" data-legacy="26-12"></a>
+
 - Chi phí: Không mất tiền để báo. Cái mất là mấy ngày đầu, đúng lúc bạn cần người nhất: người chốt việc, người chặn lỗ hổng, người viết thông báo, người trực điện thoại cho khách đang hoang mang. Thuê ngoài điều tra sự cố thì có hóa đơn, nhưng luật không buộc phải thuê. Phần đắt nhất là thời gian chứ không phải tiền: sửa lỗ hổng, lập biên bản và gửi thông báo chạy song song trong cùng mấy ngày đó, không phải làm lần lượt rồi mới tính giờ.
 - Nói dễ hiểu: Khi lộ dữ liệu người dùng, bạn cần chặn lỗ hổng và báo cơ quan chuyên trách của Bộ Công an trong 72 giờ. Bị tấn công thì báo sự cố an ninh mạng, 24 giờ nếu nghiêm trọng. Báo cho chính người dùng chỉ bắt buộc với dữ liệu vị trí, sinh trắc học và tài chính; các vụ khác vẫn nên báo.
 - Lợi ích: Có sự cố lộ dữ liệu, phải ưu tiên cô lập rủi ro, lưu chứng cứ và thông báo qua kênh phù hợp. Thời hạn thông báo được tính theo điều kiện luật định, không theo lúc đội kỹ thuật thấy đủ yên tâm.
@@ -132,6 +156,8 @@ Về bối cảnh Việt Nam: đúng chỗ dễ hiểu sai nhất là **giữ ti
 
 ### 13. Bán gói tự động gia hạn: nhắc trước khi hết hạn, nhắc lại trước mỗi lần trừ tiền, và để nút hủy được tìm thấy trong một lần bấm
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-ban-goi-tu-dong-gia-han-nhac-truoc-khi-het-han-nhac" data-legacy="26-13"></a>
+
 - Chi phí: Không mất tiền để làm đúng. Cái mất là một phần doanh thu, và đây là chỗ người làm sản phẩm hay tự lừa mình: nhắc đúng lúc thì một phần khách hủy thật, nên mục tiêu không phải nhắc cho có lệ. Công việc nằm ở ba chỗ — chèn thông báo trước ngày hết hạn, gửi nhắc riêng trước mỗi kỳ trừ tiền, và làm một lối hủy chạy được ngay trong ứng dụng thay vì bắt gọi tổng đài giờ hành chính. Bạn cần lưu bằng chứng đã nhắc ai, qua kênh nào, lúc nào, để có thể đưa ra khi khách khiếu nại, tránh chỉ dựa vào trí nhớ.
 - Nói dễ hiểu: Bán gói tự động gia hạn thì phải nhắc trước ngày hết hạn 07 ngày làm việc và nhắc lại trước mỗi lần trừ tiền, bằng cách người dùng thật sự thấy. Nút hủy phải dễ tìm; nếu các bên không có thỏa thuận khác, khách được hủy bất cứ lúc nào và chỉ trả phần đã dùng.
 - Lợi ích: Gói tự gia hạn cần thông báo rõ giá, chu kỳ, thời điểm thu và cách hủy. Nút hủy dễ tìm giúp tránh tranh chấp và giảm cảm giác khách bị giữ lại bằng thủ thuật.

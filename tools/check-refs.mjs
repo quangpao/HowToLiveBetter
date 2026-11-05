@@ -15,9 +15,11 @@
 import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
 import { resolve, dirname, basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { refs, readCatalog } from './lib/references.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const CHECK_ONLY = process.argv.includes('--check');
+const identities = readCatalog();
 
 // Tham chiếu trần trong chương ("xem mục 8") chỉ tìm trong mấy cột này: "mục N" ở cột nguồn gần như đều là
 // số điều khoản luật, quét vào toàn báo nhầm.
@@ -149,6 +151,15 @@ for (const { f, dir, isDoc } of targets) {
     const inEntry = !isDoc && cur > 0;
     if (inEntry ? !CROSS_FIELDS.test(line) : !line.trim()) return;
 
+    for (const link of refs.links(line)) {
+      for (const id of link.ids) {
+        const e = identities.byId.get(id);
+        rows.push({from:unit,range:link.ids.length > 1,stable:true,ref:link.label,title:e?.title,line:i+1,ctx:ctxOf(line,link.index),narrow:'',after:''});
+        if (!e) problems.push(`${f}:${i+1} ID không tồn tại: ${id}`);
+        if (inEntry && e?.sec === String(num) && e?.n === String(cur)) problems.push(`${f}:${i+1} tự trỏ chính nó: ${id}`);
+      }
+    }
+    line = line.replace(/\[[^\]]+\]\([^)]*#entry-[^)]*\)/g, m => ' '.repeat(m.length));
     // Chỉ dẫn tương đối ("xem mục dưới", "chế tài xem mục trên") nhất loạt cấm: nó không kèm số mục, khi chèn mục thì
     // dịch theo cả khối, lệch rồi diff của bảng đối chiếu cũng không thấy, kiểm tham chiếu trần của --check lại càng không quét tới.
     // 2026-09-20 một lần quét ra ngay ba chỗ trỏ sai từ lâu: "xem mục dưới" ở mục vắc-xin HPV trỏ sang tầm soát
@@ -228,7 +239,7 @@ for (const { f, dir, isDoc } of targets) {
   // Chuỗi số và chữ tiếng Anh cũng là neo: 12356, AED, CT, BMI, LPR thường chính là thứ tham chiếu muốn trỏ tới
   const token = (text, title) => (text.match(/[0-9A-Za-z]{2,}/g) ?? []).some(t => title.includes(t));
   for (const r of rows) {
-    if (!r.title || r.range) continue;
+    if (!r.title || r.range || r.stable) continue;
     const wide = r.ctx + r.after;
     if (token(wide, r.title) || longest(wide, r.title) >= 3) continue;
     if (longest(r.narrow + r.after, r.title) >= 2) continue;
@@ -254,10 +265,9 @@ const body = [
   '',
   'File này do `node tools/check-refs.mjs` sinh ra, đừng sửa tay.',
   '',
-  'Tham chiếu trong sách chỉ ghi số mục, không ghi nội dung; chèn hay xóa một mục thì số của',
-  'mọi mục sau đổi hết, mà số mới thường vẫn nằm trong khoảng hợp lệ nên chỉ kiểm "vượt quá số mục"',
-  'không bắt được. Vì vậy mỗi tham chiếu được mở ra thành **tiêu đề mà nó thực sự trỏ tới** và ghi vào',
-  'đây: sửa xong chạy lại, chỗ nào số mục không đổi mà tiêu đề đổi thì `git diff` chỉ ra ngay.',
+  'Tham chiếu dùng liên kết tới ID cố định; số chương/mục chỉ là nhãn để đọc. Bảng này mở từng',
+  'liên kết thành **tiêu đề mà nó thực sự trỏ tới** để đối chiếu khi sửa sách. Những tham chiếu số',
+  'chưa chuyển sang ID vẫn được kiểm bằng quy tắc từ neo bên dưới.',
   '',
   'Phạm vi: phần thân từng mục và đoạn mở đầu mỗi chương trong `book/`, cộng các bài dài trong `docs/`.',
   'Trong bài dài không có "chương này" nên "mục N" trần được coi là điều khoản pháp luật và bỏ qua —',
@@ -302,7 +312,7 @@ if (process.argv.includes('--suspect') && weak.length) {
 }
 
 if (CHECK_ONLY) {
-  const fatal = problems.filter(p => p.includes('dùng chỉ dẫn tương đối') || p.includes('tự trỏ chính nó') || p.includes('chương đó không có mục'));
+  const fatal = problems.filter(p => p.includes('dùng chỉ dẫn tương đối') || p.includes('tự trỏ chính nó') || p.includes('chương đó không có mục') || p.includes('ID không tồn tại'));
   for (const p of fatal) console.log('  ' + p);
   // Số mục trần (quanh tham chiếu không có từ nào khớp tiêu đề đích) cũng tính là hỏng: tham chiếu kiểu này một khi bị dồn lệch
   // thì không ai thấy được. Cách sửa là bổ sung neo — "xem mục 16 (giấy vay và bảo lãnh)",

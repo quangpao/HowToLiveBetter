@@ -6,12 +6,14 @@ Chương này dành cho người mở quán, mở xưởng, bán hàng online, n
 
 Điều dễ sai nhất ở Việt Nam là **ba cái tên nghe giống nhau nhưng chịu trách nhiệm khác hẳn**: hộ kinh doanh, công ty trách nhiệm hữu hạn, và hợp danh. Chỉ một trong ba loại đó giới hạn trách nhiệm ở phần vốn đã góp; hai loại còn lại lấy toàn bộ tài sản của người đứng tên ra trả. Chọn sai hình thức trước khi mở là sai lầm đắt nhất và cũng khó sửa nhất, vì muốn chuyển sang loại khác thì phải làm thủ tục riêng.
 
-Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên một điều luật hoặc nghị định có mức phạt, thời hạn hay điều kiện đọc được nguyên văn: Luật Doanh nghiệp 59/2020 (sửa bởi Luật 76/2025), Nghị định 168/2025, Nghị định 141/2026, Nghị định 15/2018, Nghị định 43/2017, Bộ luật Hình sự (Điều 174, 192, 193, 317), Bộ luật Lao động và Luật Phục hồi, phá sản 142/2025. **4 mục hạng C** — mục 18 (đơn đặt hàng và lô nhỏ), 19 (rà danh mục hàng loạt), 22 (việc nằm ngoài quy trình), 24 (thuê người vận hành shop): đây là kinh nghiệm vận hành, Việt Nam không có quy định nào đo được, nên mục chỉ giữ một mốc kiểm được liên quan và nói rõ giới hạn đó.
+Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên một điều luật hoặc nghị định có mức phạt, thời hạn hay điều kiện đọc được nguyên văn: Luật Doanh nghiệp 59/2020 (sửa bởi Luật 76/2025), Nghị định 168/2025, Nghị định 141/2026, Nghị định 15/2018, Nghị định 43/2017, Bộ luật Hình sự (Điều 174, 192, 193, 317), Bộ luật Lao động và Luật Phục hồi, phá sản 142/2025. **4 mục hạng C** — [mục 18](12-kinh-doanh-nho-mo-van-hanh-dong.md#entry-ban-truoc-roi-moi-san-xuat-dung-don-dat-truoc-va-lo) (đơn đặt hàng và lô nhỏ), 19 (rà danh mục hàng loạt), 22 (việc nằm ngoài quy trình), 24 (thuê người vận hành shop): đây là kinh nghiệm vận hành, Việt Nam không có quy định nào đo được, nên mục chỉ giữ một mốc kiểm được liên quan và nói rõ giới hạn đó.
 
-**Nhóm mục**: **Tiền bỏ vào và hình thức đứng tên**: mục 1 (chỉ bỏ số tiền mất hết vẫn còn chỗ ở), 2 (bảo lãnh cá nhân), 3 (hộ kinh doanh và hợp danh trả bằng toàn bộ tài sản), 6 (chốt vốn điều lệ và hạn góp vốn) · **Đứng tên hộ, nhượng quyền, giấy phép con**: mục 4 (đứng tên hộ cổ đông), 5 (hợp đồng nhượng quyền), 7 (ngành có điều kiện) · **Bán đồ ăn, nhãn hàng, lời quảng cáo**: mục 8 (giấy chứng nhận cơ sở đủ điều kiện), 9 (nhãn hàng), 10 (nói thực phẩm chữa bệnh), 11 (đường hình sự của nghề thực phẩm) · **Thuế, hóa đơn, bị gọi điện đòi tiền**: mục 12 (khai thuế đúng hạn), 13 (ngưỡng 1 tỷ), 14 (tự xưng cán bộ thuế) · **Hợp đồng và người làm**: mục 15 (đặt cọc khác trả trước), 16 (ký hợp đồng trước ngày đầu tiên), 17 (trả lương đúng hợp đồng) · **Sản phẩm và nguồn hàng**: mục 18 (đơn đặt hàng và lô nhỏ), 19 (rà danh mục hàng loạt), 20 (giữ hóa đơn từng lô nhập), 21 (hình ảnh trên bao bì) · **Vận hành và rút lui**: mục 22 (việc ngoài quy trình), 23 (giải thể hoặc phá sản), 24 (thuê người vận hành shop) · **Báo cáo, gọi vốn, mặt bằng, góp vốn**: mục 25 (báo cáo tài chính và quyết toán thuế), 26 (gọi vốn từ người quen), 27 (thuê mặt bằng), 28 (góp vốn với vài người)
+**Nhóm mục**: **Tiền bỏ vào và hình thức đứng tên**: [mục 1](12-kinh-doanh-nho-mo-van-hanh-dong.md#entry-chi-bo-vao-viec-kinh-doanh-so-tien-mat-het-van-con) (chỉ bỏ số tiền mất hết vẫn còn chỗ ở), 2 (bảo lãnh cá nhân), 3 (hộ kinh doanh và hợp danh trả bằng toàn bộ tài sản), 6 (chốt vốn điều lệ và hạn góp vốn) · **Đứng tên hộ, nhượng quyền, giấy phép con**: [mục 4](12-kinh-doanh-nho-mo-van-hanh-dong.md#entry-khong-dung-ten-ho-co-dong-khong-nhan-dung-ten-cong-ty) (đứng tên hộ cổ đông), 5 (hợp đồng nhượng quyền), 7 (ngành có điều kiện) · **Bán đồ ăn, nhãn hàng, lời quảng cáo**: [mục 8](12-kinh-doanh-nho-mo-van-hanh-dong.md#entry-ban-do-an-che-bien-de-ban-va-mo-quan-phai-co) (giấy chứng nhận cơ sở đủ điều kiện), 9 (nhãn hàng), 10 (nói thực phẩm chữa bệnh), 11 (đường hình sự của nghề thực phẩm) · **Thuế, hóa đơn, bị gọi điện đòi tiền**: [mục 12](12-kinh-doanh-nho-mo-van-hanh-dong.md#entry-co-dang-ky-kinh-doanh-la-co-nghia-vu-khai-thue-khai) (khai thuế đúng hạn), 13 (ngưỡng 1 tỷ), 14 (tự xưng cán bộ thuế) · **Hợp đồng và người làm**: [mục 15](12-kinh-doanh-nho-mo-van-hanh-dong.md#entry-hop-dong-mua-ban-ghi-dat-coc-khac-tra-truoc-ve-hau) (đặt cọc khác trả trước), 16 (ký hợp đồng trước ngày đầu tiên), 17 (trả lương đúng hợp đồng) · **Sản phẩm và nguồn hàng**: [mục 18](12-kinh-doanh-nho-mo-van-hanh-dong.md#entry-ban-truoc-roi-moi-san-xuat-dung-don-dat-truoc-va-lo) (đơn đặt hàng và lô nhỏ), 19 (rà danh mục hàng loạt), 20 (giữ hóa đơn từng lô nhập), 21 (hình ảnh trên bao bì) · **Vận hành và rút lui**: [mục 22](12-kinh-doanh-nho-mo-van-hanh-dong.md#entry-lam-dung-quy-trinh-o-cho-lam-viec-tot-nam-ngoai-quy) (việc ngoài quy trình), 23 (giải thể hoặc phá sản), 24 (thuê người vận hành shop) · **Báo cáo, gọi vốn, mặt bằng, góp vốn**: [mục 25](12-kinh-doanh-nho-mo-van-hanh-dong.md#entry-nghia-vu-bao-cao-hang-nam-nop-bao-cao-tai-chinh-quyet) (báo cáo tài chính và quyết toán thuế), 26 (gọi vốn từ người quen), 27 (thuê mặt bằng), 28 (góp vốn với vài người)
 
 ### 1. Chỉ bỏ vào việc kinh doanh số tiền mất hết vẫn còn chỗ ở, không đụng tiền nhà, không vay để mở
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-chi-bo-vao-viec-kinh-doanh-so-tien-mat-het-van-con" data-legacy="12-1"></a>
+
 - Chi phí: Người mở hàng không mất đồng nào để làm việc này, chỉ mất một buổi ngồi tách tiền: một khoản để riêng cho việc kinh doanh, lấy từ phần không dính tới tiền trả góp nhà, tiền học của con, tiền khám bệnh. Khó ở chỗ tháng thứ tư hết vốn thì bạn dễ lấy tiền từ khoản khác bù vào, và quyết định lấy thêm tiền thường đến đúng lúc cửa hàng bắt đầu có khách.
 - Nói dễ hiểu: Hộ kinh doanh lấy toàn bộ tài sản của người đứng tên ra trả nợ, gồm cả nhà đứng tên bạn. Vay để mở hàng thì phải trả đủ, lãi thỏa thuận quá 20%/năm bị cắt phần vượt. Người mở hàng chốt trước một số mà mất hết vẫn còn chỗ ở.
 - Lợi ích: Kinh doanh nhỏ vẫn có thể làm mất tài sản cá nhân nếu chịu trách nhiệm vô hạn. Trước khi mở, xác định khoản vốn có thể mất mà không ảnh hưởng tiền nhà, tiền ăn và quỹ dự phòng.
@@ -22,6 +24,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 2. Không ký bảo lãnh cá nhân cho khoản vay của công ty, càng đừng để vợ hoặc chồng cùng ký
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-khong-ky-bao-lanh-ca-nhan-cho-khoan-vay-cua-cong-ty" data-legacy="12-2"></a>
+
 - Chi phí: Người vay không mất tiền để từ chối, chỉ mất thời gian đàm phán lại với ngân hàng hoặc nhà cung cấp. Cái giá thật là mất khoản vay nếu bên cho vay nhất định đòi chữ ký của chủ doanh nghiệp, và nhiều bộ hồ sơ vay nhỏ đều gắn điều kiện đó.
 - Nói dễ hiểu: Ký bảo lãnh nghĩa là bạn nhận trả nợ thay công ty khi công ty không trả. Bên cho vay đòi thẳng bạn, gồm lãi, tiền phạt và tiền chậm trả. Vợ hoặc chồng cùng ký thì khoản nợ thành nợ chung của hai người.
 - Lợi ích: Bảo lãnh cá nhân có thể biến khoản nợ của doanh nghiệp thành nghĩa vụ của chính mình. Đọc kỹ phạm vi cam kết và đừng ký chỉ để được giải ngân nhanh.
@@ -32,6 +36,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 3. Chọn đúng hình thức trước khi mở: hộ kinh doanh và hợp danh trả bằng toàn bộ tài sản, chỉ công ty trách nhiệm hữu hạn mới giới hạn ở phần vốn góp
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-chon-dung-hinh-thuc-truoc-khi-mo-ho-kinh-doanh-va-hop" data-legacy="12-3"></a>
+
 - Chi phí: Người mở hàng mất một buổi đọc và so ba loại hình, không mất tiền tư vấn. Sau khi chọn công ty trách nhiệm hữu hạn thì phát sinh chi phí đều: sổ sách, kê khai thuế, báo cáo, và muốn chuyển sang loại hình khác về sau thì phải làm thủ tục riêng.
 - Nói dễ hiểu: Chủ hộ kinh doanh và thành viên hợp danh lấy toàn bộ tài sản của mình ra trả nợ; thành viên góp vốn của công ty hợp danh chỉ chịu tới số vốn đã cam kết. Chỉ công ty trách nhiệm hữu hạn giới hạn ở phần vốn góp, mà phải góp đủ trong 90 ngày; góp thiếu thì chủ sở hữu trả bằng cả tài sản của mình.
 - Lợi ích: Chọn loại hình kinh doanh quyết định trách nhiệm với khoản nợ và cách quản lý tài sản. Phải cân nhắc quy mô, số người góp vốn và nghĩa vụ phát sinh trước khi đăng ký.
@@ -42,6 +48,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 4. Không đứng tên hộ cổ đông, không nhận đứng tên công ty cho người khác
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-khong-dung-ten-ho-co-dong-khong-nhan-dung-ten-cong-ty" data-legacy="12-4"></a>
+
 - Chi phí: Người được nhờ đứng tên mất một câu từ chối và có thể mất luôn quan hệ với người nhờ. Cái bạn mất khi từ chối là khoản tiền công đứng tên, thường trả một lần và không giúp được gì khi phát sinh nợ thuế.
 - Nói dễ hiểu: Đứng tên giúp người khác thì bạn thành người phải khai báo, phải nộp thuế và làm việc với cơ quan điều tra. Giấu người hưởng lợi thật là khai không trung thực hồ sơ đăng ký. Công ty trốn thuế 100.000.000 đồng là mốc bắt đầu bị xử lý hình sự.
 - Lợi ích: Không đứng tên hộ người khác để thành lập doanh nghiệp hoặc làm cổ đông. Quyền sở hữu thực tế và trách nhiệm người đứng tên cần được xác định bằng hồ sơ rõ ràng.
@@ -52,6 +60,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 5. Trước khi ký hợp đồng nhượng quyền: đọc kỹ, đòi bản giới thiệu về nhượng quyền, và biết rằng Việt Nam không có thời gian suy nghĩ lại do luật định
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-truoc-khi-ky-hop-dong-nhuong-quyen-doc-ky-doi-ban-gioi" data-legacy="12-5"></a>
+
 - Chi phí: Người nhận quyền mất vài buổi đọc hợp đồng mẫu và bản giới thiệu hệ thống, không mất tiền để đòi hai thứ đó. Cái đắt là tiền nhượng quyền trả trước và tiền sửa mặt bằng theo thiết kế của bên nhượng quyền, hai khoản thường không lấy lại được nếu đổi ý sau khi ký.
 - Nói dễ hiểu: Trước khi ký, bên nhượng quyền phải đưa hợp đồng mẫu và bản giới thiệu trước ít nhất 15 ngày làm việc. Hệ thống đem nhượng quyền phải chạy thật ít nhất một năm. Luật Việt Nam không cho bạn mấy ngày suy nghĩ lại để rút.
 - Lợi ích: Nhượng quyền không phải công thức bảo đảm có lãi. Trước khi ký, yêu cầu bộ thông tin, mẫu hợp đồng, các khoản phí và điều kiện chấm dứt.
@@ -62,6 +72,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 6. Trước khi đăng ký: chốt tên, địa chỉ, ngành nghề, vốn điều lệ; hiểu đúng về thời hạn góp vốn
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-truoc-khi-dang-ky-chot-ten-dia-chi-nganh-nghe-von-dieu" data-legacy="12-6"></a>
+
 - Chi phí: Người thành lập bỏ một buổi chuẩn bị hồ sơ và nộp lệ phí đăng ký theo biểu phí của tỉnh, không phải thuê dịch vụ. Cái tốn là thời gian sửa lại: hồ sơ sai tên hoặc sai ngành nghề thì phải nộp lại, và mọi thứ đứng sau giấy chứng nhận như hóa đơn, tài khoản ngân hàng, hợp đồng thuê nhà đều chậm theo.
 - Nói dễ hiểu: Người mở hàng chốt tên, địa chỉ, ngành nghề và vốn điều lệ trước khi nộp. Vốn cam kết phải góp đủ trong 90 ngày, góp thiếu thì đăng ký giảm vốn trong 30 ngày. Hộ kinh doanh có doanh thu năm từ một tỷ đồng trở xuống không phải chịu thuế giá trị gia tăng và thuế thu nhập cá nhân.
 - Lợi ích: Đăng ký doanh nghiệp thuận lợi hơn khi thống nhất từ đầu tên, địa chỉ, ngành nghề, vốn và người đại diện. Giữ lịch góp vốn và chứng từ chuyển tiền để tránh tranh chấp.
@@ -72,6 +84,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 7. Ngành có điều kiện thì phải có giấy phép con trước khi hoạt động
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-nganh-co-dieu-kien-thi-phai-co-giay-phep-con-truoc-khi" data-legacy="12-7"></a>
+
 - Chi phí: Người mở hàng trả lệ phí cấp phép và thường phải sửa mặt bằng, thiết bị cho đúng điều kiện, nên chi phí thật nằm ở phần sửa chứ không ở tờ giấy. Cái đắt nhất là thời gian chờ: mở cửa trước khi có giấy phép thì mỗi ngày bán được đều là mỗi ngày vi phạm.
 - Nói dễ hiểu: Danh mục ngành, nghề đầu tư kinh doanh có điều kiện của Luật Đầu tư có 227 ngành, nghề. Bán hàng thuộc danh mục đó mà chưa có giấy phép thì bị phạt 10.000.000 đồng đến 15.000.000 đồng. Vẫn bán trong thời gian bị đình chỉ thì mức cao nhất là 20.000.000 đồng.
 - Lợi ích: Không nên bắt đầu kinh doanh ngành có điều kiện rồi mới tìm giấy phép. Kiểm tra cơ quan cấp phép, yêu cầu nhân sự, cơ sở vật chất và phạm vi hoạt động từ đầu.
@@ -82,6 +96,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 8. Bán đồ ăn: chế biến để bán và mở quán phải có giấy chứng nhận cơ sở đủ điều kiện, bán hàng bao gói sẵn chỉ tự công bố, bán nông sản tươi sống thì không cần giấy
 <!-- nhãn: tiền=nhiều thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-ban-do-an-che-bien-de-ban-va-mo-quan-phai-co" data-legacy="12-8"></a>
+
 - Chi phí: Bạn phải sửa mặt bằng trước khi bán: khu sơ chế tách khỏi khu bán, bồn rửa tay có xà phòng, lưới chắn côn trùng, kệ kê hàng cách nền, tủ lạnh có nhiệt kế, nhà vệ sinh không mở thẳng vào chỗ chế biến. Bạn phải trả tiền kiểm nghiệm mẫu để có phiếu kết quả còn hạn, và chờ cán bộ xuống thẩm định tại cơ sở trước khi cấp giấy. Cái mất lớn nhất không nằm ở tiền sửa: ai mở bán trước rồi làm giấy sau thì suốt mấy tháng đầu bán hàng mà không có giấy, và việc bán trong thời gian đó vẫn là vi phạm.
 - Nói dễ hiểu: Chế biến để bán và mở quán phải có giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm. Bán đồ đã chế biến, bao gói sẵn thì chỉ tự công bố. Bán nông sản tươi sống và bán nhỏ lẻ thì không cần. Cơ sở sản xuất, kinh doanh thực phẩm làm mà không có giấy bị phạt 30.000.000 đồng đến 40.000.000 đồng.
 - Lợi ích: Kinh doanh đồ ăn cần phân biệt cơ sở chế biến, quán ăn và hàng bao gói sẵn. Điều kiện an toàn thực phẩm và giấy tờ tương ứng khác nhau theo hình thức bán.
@@ -92,6 +108,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 9. Nhãn hàng: bắt buộc tên hàng, tên và địa chỉ người chịu trách nhiệm, xuất xứ, ghi bằng tiếng Việt; thiếu nội dung bắt buộc thì mức phạt chạy theo giá trị lô và nhân đôi với thực phẩm
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=khác -->
+<a name="entry-nhan-hang-bat-buoc-ten-hang-ten-va-dia-chi-nguoi-chiu" data-legacy="12-9"></a>
+
 - Chi phí: Bạn trả tiền in nhãn và tiền một buổi ngồi đối chiếu. Việc phải làm gồm: viết lại danh mục nội dung bắt buộc cho từng mã hàng, kiểm xem mặt hàng đó thuộc nhóm nào trong Phụ lục I, in lại bản nhãn đang dùng, và bỏ tồn kho tem cũ. Cái mất khi làm ẩu không phải tiền in mà là cả lô: hàng ghi thiếu nội dung bắt buộc bị buộc thu hồi, và tiền phạt tính theo giá trị lô chứ không theo số nhãn in sai.
 - Nói dễ hiểu: Nhãn phải ghi bằng tiếng Việt: tên hàng, tên và địa chỉ người chịu trách nhiệm, xuất xứ, và nội dung bắt buộc theo loại hàng. Lô dưới 5.000.000 đồng ghi thiếu thì phạt 500.000 đồng đến 1.000.000 đồng; lô thực phẩm từ 100.000.000 đồng trở lên phạt 50.000.000 đồng đến 60.000.000 đồng.
 - Lợi ích: Nhãn hàng hóa phải giúp người mua nhận diện sản phẩm, nhà sản xuất hoặc bên chịu trách nhiệm và thông tin bắt buộc. In nhãn trước khi chốt bao bì để tránh phải thu hồi hoặc in lại.
@@ -102,6 +120,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 10. Không nói thực phẩm chữa bệnh: nhãn, tờ rơi, bài đăng và lời nói trong buổi phát trực tiếp đều bị tính như nhau
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-khong-noi-thuc-pham-chua-benh-nhan-to-roi-bai-dang-va" data-legacy="12-10"></a>
+
 - Chi phí: Bạn bỏ tiền in lại tờ rơi và sửa lại nội dung trên trang bán hàng. Việc phải làm gồm: rà từng câu giới thiệu sản phẩm, xóa các từ chỉ bệnh và các từ chỉ kết quả xét nghiệm, bỏ phần kể của người đã dùng, và tập cho người bán hàng một câu trả lời cố định khi khách hỏi "uống cái này khỏi bệnh không". Cái mất là doanh số ngắn hạn: câu "hỗ trợ điều trị" bán tốt hơn câu mô tả thành phần, nên bỏ nó đi thì đơn hàng đầu tiên giảm.
 - Nói dễ hiểu: Nói thực phẩm chữa bệnh, hoặc dẫn lời người bệnh kể uống vào khỏi bệnh, bị phạt 20.000.000 đồng đến 30.000.000 đồng. Quảng cáo thực phẩm bảo vệ sức khỏe thiếu câu "không phải là thuốc, không thay thế thuốc chữa bệnh" bị phạt 5.000.000 đồng đến 10.000.000 đồng.
 - Lợi ích: Không quảng cáo thực phẩm bảo vệ sức khỏe như thuốc chữa bệnh. Nội dung nhãn, bài đăng và lời nói khi bán hàng cần thống nhất với công dụng được phép công bố.
@@ -112,6 +132,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 11. Đường hình sự của nghề thực phẩm: bán thịt từ con vật chết vì bệnh, bán hàng có chất cấm vượt ngưỡng, và làm hàng giả là thực phẩm
 <!-- nhãn: tiền=nhiều thời-gian=nhiều ý-chí=không lợi-ích=lớn thước-đo=khác -->
+<a name="entry-duong-hinh-su-cua-nghe-thuc-pham-ban-thit-tu-con-vat" data-legacy="12-11"></a>
+
 - Chi phí: Bạn trả tiền cho ba thứ giấy tờ và một quy trình. Thứ nhất là hợp đồng với lò mổ hoặc nhà cung cấp có địa chỉ, kèm giấy kiểm dịch cho từng lô. Thứ hai là sổ ghi nguyên liệu theo ngày, để khi có đoàn kiểm tra thì biết lô thịt nào đi vào mẻ nào. Thứ ba là tiền kiểm nghiệm định kỳ cho chỉ tiêu mà ngành hàng của bạn hay bị vượt. Không làm thì cái mất không chỉ là tiền phạt mà còn là thời gian, vì hồ sơ hình sự kéo theo tạm giữ, tạm hoãn xuất cảnh và một vụ án mà bạn là người bị truy cứu.
 - Nói dễ hiểu: Bán thịt từ con vật chết vì bệnh, hoặc bán hàng có chất cấm mà giá trị lô vượt ngưỡng, thì Điều 317 Bộ luật Hình sự phạt tiền 100.000.000 đồng đến 400.000.000 đồng hoặc tù 2 năm đến 5 năm. Hàng giả là thực phẩm thì Điều 193 phạt tù 2 năm đến 5 năm, và điều này không đặt ngưỡng giá trị.
 - Lợi ích: Vi phạm an toàn thực phẩm có thể dẫn tới hậu quả hình sự chứ không chỉ hoàn tiền hoặc nộp phạt. Cần kiểm soát nguồn nguyên liệu, chất cấm và hồ sơ từng lô.
@@ -122,6 +144,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 12. Có đăng ký kinh doanh là có nghĩa vụ khai thuế: khai đúng hạn, không có doanh thu vẫn phải thông báo, và ngưỡng 1 tỷ đồng không phải giấy miễn khai
 <!-- nhãn: tiền=ít thời-gian=nhiều ý-chí=có lợi-ích=vừa thước-đo=thời-gian -->
+<a name="entry-co-dang-ky-kinh-doanh-la-co-nghia-vu-khai-thue-khai" data-legacy="12-12"></a>
+
 - Chi phí: Bạn mất một buổi học dùng cổng thuế điện tử và vài chục phút mỗi kỳ. Việc phải làm quay vòng theo lịch: mở sổ ghi doanh thu theo ngày bán, đối chiếu với sao kê tài khoản, rồi khai trước hạn. Cái khó đều đặn nhất là phải nhớ hạn: hạn khai không trùng với ngày bán, không trùng với ngày trả tiền nhà, nên ai không đặt lịch nhắc thì trượt hạn đúng vào tháng bận.
 - Nói dễ hiểu: Có đăng ký kinh doanh là phải khai thuế. Hộ có doanh thu năm từ 1 tỷ đồng trở xuống vẫn phải thông báo doanh thu, chậm nhất ngày 31 tháng 01 năm sau. Khai theo quý thì hạn là ngày cuối tháng đầu quý sau, theo tháng là ngày 20 tháng sau. Chậm 1 đến 30 ngày bị phạt 2.000.000 đồng đến 5.000.000 đồng.
 - Lợi ích: Đăng ký hoạt động kinh doanh kéo theo nghĩa vụ kê khai và nộp thuế đúng kỳ. Lưu doanh thu, chứng từ bán hàng và thời điểm khai để tránh để thiếu hồ sơ lâu ngày.
@@ -132,6 +156,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 13. Hóa đơn chỉ lập theo giao dịch có thật; hộ kinh doanh dùng đúng ngưỡng 1 tỷ đồng để biết mình có bắt buộc dùng hóa đơn điện tử hay không
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-hoa-don-chi-lap-theo-giao-dich-co-that-ho-kinh-doanh" data-legacy="12-13"></a>
+
 - Chi phí: Bạn trả tiền cho một tài khoản hóa đơn điện tử, có khi thêm một máy tính tiền kết nối với cơ quan thuế, và mất một buổi cài đặt. Việc phải làm gồm: chọn nhà cung cấp, đăng ký mẫu số và ký hiệu, dán mã tra cứu ở quầy, và tập cho người bán thao tác xuất hóa đơn ngay lúc thu tiền. Cái mất là thói quen cũ: bán xong ghi vào sổ tay rồi cuối ngày mới nhớ.
 - Nói dễ hiểu: Hóa đơn chỉ lập cho giao dịch có thật, đúng người mua, đúng số tiền. Hộ có doanh thu năm trên 1 tỷ đồng bắt buộc dùng hóa đơn điện tử có mã của cơ quan thuế. Mua bán hóa đơn trái phép loại đã ghi nội dung từ 10 số đến dưới 30 số có thể bị phạt tù 6 tháng đến 3 năm.
 - Lợi ích: Hóa đơn phải gắn với giao dịch có thật và được lập đúng trường hợp bắt buộc. Đừng mua bán hóa đơn hoặc xuất khống chỉ để giải quyết chi phí cho bên khác.
@@ -142,6 +168,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 14. Người tự xưng cán bộ thuế gọi điện đòi chuyển tiền vào tài khoản là lừa đảo; nộp thuế chỉ đi qua cổng dịch vụ công và kênh chính thức
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-nguoi-tu-xung-can-bo-thue-goi-dien-doi-chuyen-tien-vao" data-legacy="12-14"></a>
+
 - Chi phí: Không mất tiền, nhưng bạn mất một thói quen. Việc đầu tiên là tự hỏi một câu trước khi nghe tiếp: cơ quan thuế có bao giờ cho số tài khoản để nộp không. Bạn cần ghi ra ba thứ và dán ở quầy: tên cơ quan thuế quản lý, số điện thoại cố định của cơ quan đó, và đường dẫn cổng dịch vụ công mà bạn tự mở bằng trình duyệt. Cái mất khi đã trót chuyển: tiền đi qua tài khoản của người lạ, và mỗi giờ chậm là một giờ ngân hàng khó tra soát hơn.
 - Nói dễ hiểu: Người tự xưng cán bộ thuế gọi điện đòi chuyển tiền vào tài khoản là lừa đảo. Chiếm đoạt từ 2.000.000 đồng trở lên bị truy cứu theo Điều 174 Bộ luật Hình sự, khung nhẹ nhất tù 6 tháng đến 3 năm, số tiền càng lớn khung càng nặng. Dưới mức đó thì phạt hành chính 3.000.000 đồng đến 5.000.000 đồng.
 - Lợi ích: Người tự xưng cán bộ thuế qua điện thoại không phải căn cứ để chuyển tiền. Chỉ đối chiếu nghĩa vụ qua kênh thuế chính thức và giữ chứng từ nộp hợp lệ.
@@ -152,6 +180,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 15. Hợp đồng mua bán: ghi "đặt cọc" khác "trả trước" về hậu quả pháp lý; ghi rõ số tiền phạt vi phạm; điều khoản trả chậm phải viết như một khoản cho vay
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-hop-dong-mua-ban-ghi-dat-coc-khac-tra-truoc-ve-hau" data-legacy="12-15"></a>
+
 - Chi phí: Bạn mất một buổi sửa ba chỗ trong hợp đồng: tên khoản tiền nhận trước, con số phạt vi phạm, lãi suất nếu cho trả chậm. Việc sửa không tốn tiền nếu bạn tự làm; thuê luật sư rà lại thì mất vài trăm nghìn đến vài triệu một hợp đồng. Chỗ khó là thuyết phục bên kia chấp nhận con số phạt, vì bên mạnh hơn thường muốn để trống.
 - Nói dễ hiểu: Ghi "đặt cọc" thì bên nhận cọc bỏ ngang phải trả lại tiền và thêm một khoản bằng đúng số đó, còn ghi "trả trước" thì chỉ đòi lại theo hợp đồng. Mức phạt vi phạm do hai bên tự ghi, riêng hợp đồng thương mại chặn ở 8%. Cho trả chậm mà không ghi lãi thì bên chậm trả chịu 10%/năm, có ghi tối đa 20%/năm.
 - Lợi ích: Hợp đồng mua bán rõ giá, thanh toán, bàn giao và trách nhiệm khi chậm tiến độ giúp tránh tranh chấp. Cần phân biệt khoản đặt cọc với tiền trả trước và điều khoản phạt.
@@ -162,6 +192,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 16. Nhận người vào làm: ký hợp đồng bằng văn bản trước ngày đầu tiên, nộp hồ sơ bảo hiểm xã hội trong 30 ngày
 <!-- nhãn: tiền=nhiều thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-nhan-nguoi-vao-lam-ky-hop-dong-bang-van-ban-truoc-ngay" data-legacy="12-16"></a>
+
 - Chi phí: Khoản đắt nhất là bảo hiểm, không phải giấy tờ. Mỗi tháng bạn đóng 17% quỹ lương vào bảo hiểm xã hội (3% quỹ ốm đau và thai sản, 14% quỹ hưu trí và tử tuất), người lao động đóng 8%. In hợp đồng hai bản và photo giấy tờ thì gần như không tốn tiền. Việc khó là duy trì khoản đóng đó vào tháng ế khách.
 - Nói dễ hiểu: Ký hợp đồng bằng văn bản trước ngày người ta bắt đầu làm; chỉ việc dưới 1 tháng mới được thỏa thuận miệng. Để người làm từ đủ 1 tháng mà không có bản giấy thì bị phạt 2.000.000 đến 5.000.000 đồng. Hồ sơ bảo hiểm phải nộp trong 30 ngày, và mỗi tháng bạn đóng 17%, người lao động đóng 8%.
 - Lợi ích: Nhận người vào làm phải chuẩn bị hợp đồng, hồ sơ và nghĩa vụ bảo hiểm ngay từ đầu. Đừng coi thời gian thử việc là khoảng trống không cần giấy tờ.
@@ -172,6 +204,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 17. Trả lương đúng hợp đồng và đúng luật; tăng lương, cho vay, thưởng đều phải có giấy
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-tra-luong-dung-hop-dong-va-dung-luat-tang-luong-cho-vay" data-legacy="12-17"></a>
+
 - Chi phí: Không tốn tiền, tốn một buổi lập ba biểu mẫu: bảng kê lương mỗi kỳ, quy chế thưởng dán ở nơi làm việc, giấy vay có chữ ký. Việc khó là giữ đúng kỷ luật đó vào tháng bạn hết tiền mặt và muốn trả chậm vài hôm.
 - Nói dễ hiểu: Mỗi lần trả lương phải kèm bảng kê; không có bảng kê thì bị phạt 5.000.000 đến 10.000.000 đồng. Chậm lương quá 30 ngày là trái luật, và chậm từ 15 ngày phải trả thêm khoản lãi. Khấu trừ tối đa 30% một tháng. Tiền bạn cho nhân viên vay mà không có giấy thì rất khó đòi.
 - Lợi ích: Trả lương đúng hạn, đúng thỏa thuận và ghi rõ phụ cấp, thưởng, khoản vay giúp cả hai bên đối chiếu được. Không thay tiền lương bằng lời hứa thưởng miệng.
@@ -182,6 +216,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 18. Bán trước rồi mới sản xuất: dùng đơn đặt trước và lô nhỏ để kiểm chứng có người mua, rồi mới bỏ tiền
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-ban-truoc-roi-moi-san-xuat-dung-don-dat-truoc-va-lo" data-legacy="12-18"></a>
+
 - Chi phí: Bạn bỏ vài trăm nghìn đến vài triệu cho một mẫu thử hoặc một trang bán hàng, rồi xin cọc của vài chục khách trước khi đặt lô. Mất thêm vài tuần so với việc sản xuất ngay. Việc khó là chịu mất mặt khi không ai đặt, và phải từ chối những đơn lớn đến trước khi có mẫu.
 - Nói dễ hiểu: Dùng lời gian dối để nhận tiền trước rồi không giao hàng, cũng không trả lại, thì bị xử như lừa đảo ngay từ 2.000.000 đồng. Vì vậy chỉ nhận cọc khi đã có ngày giao và cách hoàn tiền viết trong đơn. Việc bán trước để thử cầu là cách làm ăn, không phải quy định của luật.
 - Lợi ích: Bán trước rồi sản xuất theo lô nhỏ giúp kiểm tra nhu cầu trước khi bỏ vốn lớn. Nhưng phải quản lý đơn đặt hàng, thời hạn giao và cam kết với khách để không tạo rủi ro mới.
@@ -192,6 +228,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 19. Mẫu thử xong thì rà danh mục sản xuất hàng loạt trước khi nhận đơn lớn
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-mau-thu-xong-thi-ra-danh-muc-san-xuat-hang-loat-truoc" data-legacy="12-19"></a>
+
 - Chi phí: Bạn mất vài ngày lập danh mục: sản phẩm thuộc nhóm nào, phải công bố hay chứng nhận gì, nhãn ghi những gì, ai chịu trách nhiệm. Chi phí thử nghiệm và chứng nhận tính theo lô mẫu, thường vài triệu đến vài chục triệu tùy ngành. Việc khó là dừng lại rà soát đúng lúc khách đang giục giao lô đầu.
 - Nói dễ hiểu: Sản phẩm thuộc nhóm 2 phải có chứng nhận hợp quy và bản công bố trước khi bán, không phải bổ sung sau. Nếu là thực phẩm, một lô sai chuẩn gây ngộ độc cho 5 đến 20 người đã đủ khung 100.000.000 đến 400.000.000 đồng hoặc 2 đến 5 năm tù.
 - Lợi ích: Khi mẫu thử đạt yêu cầu, chưa chắc cả lô hàng đã được phép lưu thông. Kiểm tra tiêu chuẩn, công bố hợp quy và điều kiện sản xuất trước khi nhận đơn lớn.
@@ -202,6 +240,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 20. Mỗi lô nhập phải giữ hóa đơn và thông tin người bán; giá nhập thấp bất thường thì không nhập — nhân viên mua hàng giả cho công ty thì công ty và người đứng đầu cùng chịu
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-moi-lo-nhap-phai-giu-hoa-don-va-thong-tin-nguoi-ban" data-legacy="12-20"></a>
+
 - Chi phí: Không tốn tiền, tốn một thư mục cho mỗi lô: hợp đồng, hóa đơn, ảnh chuyển khoản, giấy phép kinh doanh và giấy ủy quyền của người bán, phiếu kiểm đếm có chữ ký người nhận hàng. Việc khó là từ chối món hàng rẻ bằng nửa giá thị trường khi tháng đó chưa đủ chỉ tiêu.
 - Nói dễ hiểu: Bán hàng giả trị giá từ 30.000.000 đồng là đã vào khung hình sự: phạt tiền 200.000.000 đến 2.000.000.000 đồng hoặc 1 đến 5 năm tù. Công ty bị xử thì người đứng đầu vẫn có thể bị xử riêng, trách nhiệm của bên này không trừ vào bên kia. Hàng ăn uống giả thì khung khởi điểm là 2 đến 5 năm tù.
 - Lợi ích: Lưu nguồn gốc hàng nhập và thông tin người bán theo từng lô giúp xử lý khi hàng có vấn đề. Mức giá bất thường cần được kiểm tra, không phải lý do để bỏ qua chứng từ.
@@ -212,6 +252,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 21. Hình ảnh trên sản phẩm, bao bì, tem, ảnh quảng cáo: tự làm hoặc mua bản quyền; đổi màu, thêm icon không phải là "đã đổi"
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-hinh-anh-tren-san-pham-bao-bi-tem-anh-quang-cao-tu" data-legacy="12-21"></a>
+
 - Chi phí: Ảnh có giấy phép thương mại thường từ vài chục nghìn đến vài trăm nghìn một ảnh, thuê vẽ mới thì vài trăm nghìn đến vài triệu một hình. Mỗi ảnh dùng cho sản phẩm phải lưu hóa đơn và trang điều khoản giấy phép. Việc khó là bỏ thói quen tải ảnh từ kết quả tìm kiếm.
 - Nói dễ hiểu: Ảnh chụp và hình vẽ trên bao bì là tác phẩm được bảo hộ, không cần đăng ký gì. Đổi màu, đổi nền, thêm icon vẫn là làm tác phẩm phái sinh từ ảnh của người khác. Bán được 100.000.000 đồng hàng in hình đó là mốc hình sự, và tòa có thể buộc bồi thường tới năm trăm triệu đồng.
 - Lợi ích: Ảnh và thiết kế trên bao bì, nhãn, quảng cáo đều cần quyền sử dụng hợp pháp. Đừng nghĩ thay màu, ghép biểu tượng là đã tạo sản phẩm hoàn toàn mới.
@@ -222,6 +264,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 22. Làm đúng quy trình ở chỗ làm; việc tốt nằm ngoài quy trình thì hỏi trước ai chịu trách nhiệm
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=khác -->
+<a name="entry-lam-dung-quy-trinh-o-cho-lam-viec-tot-nam-ngoai-quy" data-legacy="12-22"></a>
+
 - Chi phí: Không mất tiền, mất một buổi đọc lại quy trình của chỗ làm và hỏi người phụ trách một câu: việc này nằm ngoài quy trình thì ai ký. Khó ở chỗ câu hỏi đó thường rơi đúng lúc khách đang chờ, và người nhờ hay nói "làm giúp một tay thôi".
 - Nói dễ hiểu: Chủ shop hay công ty phải đứng ra bồi thường thiệt hại do người làm công gây ra trong khi làm việc được giao, rồi đòi lại phần lỗi của người đó. Gây thiệt hại để cứu người trong tình thế không còn cách nào khác thì không bị coi là tội, nhưng vượt quá mức cần thiết thì vẫn bị xử.
 - Lợi ích: Làm ngoài quy trình đã giao có thể làm phát sinh thiệt hại khó xác định trách nhiệm. Khi thấy cần đổi cách làm, yêu cầu người có thẩm quyền chấp thuận và lưu lại hướng dẫn.
@@ -232,6 +276,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 23. Kinh doanh thua thì rút đúng thủ tục: còn trả được nợ thì giải thể, mất khả năng thanh toán thì nộp đơn phá sản, đừng bỏ mặc
 <!-- nhãn: tiền=nhiều thời-gian=nhiều ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-kinh-doanh-thua-thi-rut-dung-thu-tuc-con-tra-duoc-no" data-legacy="12-23"></a>
+
 - Chi phí: Giải thể tốn phí dịch vụ kế toán và vài buổi chạy giấy, có khi vài triệu đồng thuê làm hồ sơ. Phá sản tốn lệ phí và tạm ứng chi phí quản lý, thanh lý tài sản, kéo dài nhiều tháng. Khó ở chỗ đang lỗ thì không ai muốn bỏ thêm tiền để đóng cho gọn.
 - Nói dễ hiểu: Còn trả được nợ thì giải thể, gửi quyết định trong 7 ngày làm việc và nộp hồ sơ trong 5 ngày sau khi hết nợ. Không trả được khoản nợ sau 6 tháng kể từ ngày đến hạn thì người đại diện phải nộp đơn phá sản; không nộp mà gây thiệt hại thì phải bồi thường.
 - Lợi ích: Khi kinh doanh thua lỗ, xử lý sổ sách, tài sản và khoản nợ theo đúng thủ tục. Không tự rút hết tài sản hoặc đóng cửa bỏ đi khi còn nghĩa vụ chưa giải quyết.
@@ -242,6 +288,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 24. Trước khi thuê người vận hành shop, mua khóa học mở shop hay làm "không cần tồn kho": hỏi rõ còn khoản nào phải trả thêm và doanh số đến từ đâu
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-truoc-khi-thue-nguoi-van-hanh-shop-mua-khoa-hoc-mo-shop" data-legacy="12-24"></a>
+
 - Chi phí: Mất vài buổi đọc hợp đồng và bản giới thiệu, mất một cuộc gọi hỏi thẳng người bán. Nếu tự đi xác minh thì tốn thêm chút tiền chạy thử một đơn hàng nhỏ trước khi ký gói lớn. Khó ở chỗ bên bán luôn có sẵn ảnh chụp doanh số để trả lời thay bạn.
 - Nói dễ hiểu: Bên bán quyền kinh doanh phải đưa hợp đồng mẫu và bản giới thiệu trước 15 ngày làm việc, trừ khi hai bên thỏa thuận khác. Hệ thống kinh doanh phải chạy ít nhất 01 năm mới được đem ra nhượng quyền, và bên nhận không còn phải qua khâu xét điều kiện riêng.
 - Lợi ích: Dịch vụ mở shop hoặc mô hình 'không cần tồn kho' vẫn có thể có nhiều khoản phí và ràng buộc. Phải hỏi rõ nguồn hàng, người chịu trách nhiệm và điều kiện dừng hợp tác.
@@ -252,6 +300,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 25. Nghĩa vụ báo cáo hằng năm: nộp báo cáo tài chính, quyết toán thuế, và báo khi thông tin đăng ký thay đổi
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-nghia-vu-bao-cao-hang-nam-nop-bao-cao-tai-chinh-quyet" data-legacy="12-25"></a>
+
 - Chi phí: Không mất tiền nếu tự làm, mất khoảng một buổi mỗi năm để khóa sổ, lập báo cáo và nộp. Thuê dịch vụ kế toán thì tốn vài triệu đồng một năm. Khó ở chỗ việc này lặp lại mỗi năm một lần nên rất dễ quên cho tới khi bị gọi.
 - Nói dễ hiểu: Báo cáo tài chính năm phải nộp trong 90 ngày kể từ ngày kết thúc năm; nộp hồ sơ khai thuế chậm quá 90 ngày mà thiếu thuế thì bị xử như trốn thuế. Đổi thông tin chủ sở hữu hưởng lợi thì phải báo cơ quan đăng ký kinh doanh trong 10 ngày.
 - Lợi ích: Quản lý doanh nghiệp không kết thúc ở việc có giấy đăng ký. Nên lập lịch báo cáo, quyết toán, công bố và thay đổi thông tin để tránh quên nghĩa vụ định kỳ.
@@ -262,6 +312,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 26. Gọi vốn từ người quen: chỉ nói trực tiếp với người thân và nhân viên, không đăng công khai kêu gọi, không để người khác đi gọi tiếp
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-goi-von-tu-nguoi-quen-chi-noi-truc-tiep-voi-nguoi-than" data-legacy="12-26"></a>
+
 - Chi phí: Không mất tiền, mất vài buổi ngồi nói chuyện riêng với từng người và viết ra giấy ai góp bao nhiêu, góp bằng gì, khi nào. Khó ở chỗ cách nhanh nhất là đăng một bài lên nhóm, mà đó đúng là việc dễ làm hỏng hồ sơ về sau.
 - Nói dễ hiểu: Công ty nhỏ gọi thêm vốn từ người quen thì làm theo Luật Doanh nghiệp, không phải xin phép Ủy ban Chứng khoán. Có 30 tỷ đồng vốn góp và 100 nhà đầu tư ngoài cổ đông lớn giữ 10% cổ phần thì thành công ty đại chúng, phải đăng ký trong 90 ngày. Gian dối lấy tiền là tội lừa đảo, ngưỡng 2 triệu đồng.
 - Lợi ích: Nhận vốn từ người quen cần ghi thỏa thuận về quyền sở hữu, cách sử dụng vốn và rủi ro. Đừng biến một lời kêu gọi công khai thành hoạt động huy động vốn chưa được phép.
@@ -272,6 +324,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 27. Thuê mặt bằng: kiểm trước xem địa chỉ đó có được kinh doanh ngành của bạn không
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-thue-mat-bang-kiem-truoc-xem-dia-chi-do-co-duoc-kinh" data-legacy="12-27"></a>
+
 - Chi phí: Không mất tiền, mất vài buổi chạy hỏi trước khi đặt cọc: giấy tờ nhà, quy hoạch, giấy phép phòng cháy, nội quy tòa nhà. Khó ở chỗ môi giới luôn nói "chỗ này người trước làm được", mà câu đó không thay được giấy tờ.
 - Nói dễ hiểu: Căn hộ chung cư thì không được dùng vào việc khác ngoài để ở. Đổi công năng nhà thành cửa hàng mà làm thay đổi điều kiện an toàn cháy nổ thì phải thẩm định lại thiết kế phòng cháy. Lập địa điểm kinh doanh ở địa chỉ khác trụ sở thì báo cơ quan đăng ký trong 10 ngày.
 - Lợi ích: Trước khi thuê mặt bằng, cần kiểm tra địa chỉ có thể dùng cho ngành nghề dự định kinh doanh không. Một hợp đồng thuê dài hạn cũng không thay thế giấy phép phù hợp.
@@ -282,6 +336,8 @@ Về thang bằng chứng: **24 mục hạng B** — mỗi mục đứng trên m
 
 ### 28. Góp vốn với vài người: trước khi mở phải có văn bản ghi ai góp gì, chia lãi thế nào, ai quyết, ai nhận lương, ra thì thế nào
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-gop-von-voi-vai-nguoi-truoc-khi-mo-phai-co-van-ban" data-legacy="12-28"></a>
+
 - Chi phí: Không mất tiền, mất hai buổi ngồi lại và một buổi đánh máy, in ra cho từng người ký. Thuê luật sư soạn thì tốn vài triệu đồng. Khó ở chỗ người quen ngại nói thẳng chuyện chia tiền và chuyện ai ra trước.
 - Nói dễ hiểu: Hợp tác làm ăn phải lập thành văn bản, ghi 9 nhóm nội dung: góp gì, chia lãi sao, ai đại diện, điều kiện rút. Góp vốn vào công ty thì có 90 ngày để góp đủ; chưa góp thì mất tư cách thành viên.
 - Lợi ích: Nhiều người góp vốn phải thống nhất bằng văn bản về số tiền, trách nhiệm, quyền biểu quyết và cách chia lợi nhuận. Không để mọi thứ dựa vào tình cảm lúc còn thuận lợi.

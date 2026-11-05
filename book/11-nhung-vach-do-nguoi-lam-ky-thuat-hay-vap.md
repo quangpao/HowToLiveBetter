@@ -8,12 +8,14 @@ Bạn dễ hiểu nhầm vì **cơ chế quản lý ở Việt Nam khác với c
 
 Bạn cần xem hành vi cụ thể, chế tài và số hiệu văn bản áp dụng; với những cơ chế Việt Nam **không có**, đừng suy diễn từ luật nước khác.
 
-Về thang bằng chứng: **17 mục hạng B** — mỗi mục đứng trên một điều luật có khung tiền hoặc khung tù đọc được nguyên văn trong bản Công báo hoặc bản hợp nhất, phần lớn là Bộ luật Hình sự (Điều 225, 285, 286, 287, 289, 290) và Nghị định 147/2024/NĐ-CP. **4 mục hạng C** — mục 10 (báo lỗ hổng cho chủ hệ thống), mục 11 (không bán tài khoản VPN), mục 17 (cung cấp AI cho công chúng), mục 19 (trạm trung chuyển bán lại API). Bốn mục đó vẫn có rủi ro thật, chỉ là rủi ro suy ra từ nguyên tắc chứ không từ một điều khoản có sẵn.
+Về thang bằng chứng: **17 mục hạng B** — mỗi mục đứng trên một điều luật có khung tiền hoặc khung tù đọc được nguyên văn trong bản Công báo hoặc bản hợp nhất, phần lớn là Bộ luật Hình sự (Điều 225, 285, 286, 287, 289, 290) và Nghị định 147/2024/NĐ-CP. **4 mục hạng C** — [mục 10](11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md#entry-bao-lo-hong-cho-chu-he-thong-truoc-va-truoc-khi-va) (báo lỗ hổng cho chủ hệ thống), [mục 11](11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md#entry-khong-ban-tai-khoan-vpn-khong-dung-node-ho-nguoi-khac-dung) (không bán tài khoản VPN), [mục 17](11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md#entry-cung-cap-ai-cho-cong-chung-luat-buoc-tu-phan-loai-rui) (cung cấp AI cho công chúng), [mục 19](11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md#entry-khong-dung-tram-trung-chuyen-ban-lai-api-mo-hinh-nuoc-ngoai) (trạm trung chuyển bán lại API). Bốn mục đó vẫn có rủi ro thật, chỉ là rủi ro suy ra từ nguyên tắc chứ không từ một điều khoản có sẵn.
 
-**Nhóm mục**: **Trước khi nhận việc**: mục 1 · **Không làm sản phẩm gây hại cho hệ thống người khác**: mục 2, 3, 5, 6, 8, 9, 10, 21 · **Dữ liệu và crawler**: mục 4, 15, 16 · **Nghỉ việc và cạnh tranh**: mục 7, 12, 13 · **Bản quyền và giấy phép phần mềm**: mục 14, 20 · **Nền tảng, nội dung và AI**: mục 11 (tài khoản VPN), 17 (cung cấp AI), 18 (chặn quảng cáo), 19 (bán lại API)
+**Nhóm mục**: **Trước khi nhận việc**: [mục 1](11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md#entry-truoc-khi-nhan-lam-hoi-ro-ai-tra-tien-san-pham-dung) · **Không làm sản phẩm gây hại cho hệ thống người khác**: [mục 2](11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md#entry-khong-lam-khong-ban-cheat-game-va-bot-ho-tro-ke-ca), [3](11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md#entry-khong-viet-khong-ban-script-giu-cho-ve-san-sale-don-khong), [5](11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md#entry-khong-nhan-don-lam-app-co-bac-lua-dao-khieu-dam-khong), [6](11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md#entry-nghi-viec-thi-ban-giao-quyen-truy-cap-khong-xoa-du-lieu), [8](11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md#entry-khong-chay-chuong-trinh-cua-minh-tren-may-may-chu-hay-camera), [9](11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md#entry-khong-kiem-thu-he-thong-cua-nguoi-khac-khi-chua-co-van), [10](11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md#entry-bao-lo-hong-cho-chu-he-thong-truoc-va-truoc-khi-va), [21](11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md#entry-khong-nhan-danh-ddos-khong-ban-hay-cho-thue-test-tai-de) · **Dữ liệu và crawler**: [mục 4](11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md#entry-crawler-chi-cao-trang-cong-khai-khong-can-dang-nhap-khong-vuot), [15](11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md#entry-chi-thu-du-lieu-ca-nhan-that-su-can-cho-nghiep-vu), [16](11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md#entry-trang-tin-tong-hop-va-mang-xa-hoi-phai-co-giay-phep) · **Nghỉ việc và cạnh tranh**: [mục 7](11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md#entry-nghi-viec-khong-mang-theo-ma-nguon-danh-sach-khach-hang-tai), [12](11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md#entry-thoa-thuan-han-che-canh-tranh-sau-khi-nghi-viec-chi-dung), [13](11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md#entry-code-viet-trong-gio-lam-tren-may-cong-ty-quyen-tai-san) · **Bản quyền và giấy phép phần mềm**: [mục 14](11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md#entry-dung-code-gpl-de-lam-san-pham-thi-phai-theo-giay-phep), [20](11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md#entry-khong-viet-khong-ban-khong-chia-se-ban-be-khoa-cong-cu) · **Nền tảng, nội dung và AI**: [mục 11](11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md#entry-khong-ban-tai-khoan-vpn-khong-dung-node-ho-nguoi-khac-dung) (tài khoản VPN), 17 (cung cấp AI), 18 (chặn quảng cáo), 19 (bán lại API)
 
 ### 1. Trước khi nhận làm, hỏi rõ ai trả tiền, sản phẩm dùng để làm gì, người đặt có giấy phép không; bị hỏi thì gọi luật sư hình sự ngay, đừng tự giải thích trước
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-truoc-khi-nhan-lam-hoi-ro-ai-tra-tien-san-pham-dung" data-legacy="11-1"></a>
+
 - Chi phí: Không mất tiền, mất một buổi ngồi viết ra ba câu hỏi và gửi bằng tin nhắn có lưu lại: ai trả tiền, sản phẩm dùng để làm gì, người đặt có giấy phép cho việc đó không. Khó ở chỗ câu trả lời thường mơ hồ, và bạn phải chấp nhận mất đơn hàng thay vì đoán tiếp.
 - Nói dễ hiểu: Biết rõ người ta đang làm việc phạm pháp mà không tố giác thì chính bạn cũng bị truy cứu, mức 6 tháng đến 3 năm tù; chỉ người thân trong nhà mới được miễn. Bị giữ thì luật sư được vào từ lúc bạn có mặt ở trụ sở điều tra. Bạn không buộc phải nhận tội.
 - Lợi ích: Nhận việc kỹ thuật cần kiểm tra khách hàng, mục đích dùng sản phẩm và quyền hạn được cấp. Một hợp đồng mập mờ có thể khiến người làm không lường được rủi ro pháp lý.
@@ -24,6 +26,8 @@ Về thang bằng chứng: **17 mục hạng B** — mỗi mục đứng trên m
 
 ### 2. Không làm, không bán cheat game và bot hỗ trợ — kể cả loại "chỉ đọc màn hình, không động vào bộ nhớ" — và không bán bản sửa của app người khác để thêm chức năng
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-khong-lam-khong-ban-cheat-game-va-bot-ho-tro-ke-ca" data-legacy="11-2"></a>
+
 - Chi phí: Không mất tiền. Bỏ một nguồn thu thường trả rất nhanh: bán tool theo tháng, bán key theo máy, nhận viết mod cho app của người khác. Khó ở chỗ người mua không bao giờ hỏi giấy phép, còn bạn thì đã quen tay nghề đó.
 - Nói dễ hiểu: Bán bản sửa của app người khác hay bán tool phá khóa game không phải chuyện kỹ thuật: luật xếp vào xâm phạm quyền tác giả. Bán được 50 triệu đồng tiền lời là mức khởi điểm để bị phạt tiền hoặc cải tạo không giam giữ tới 3 năm.
 - Lợi ích: Không bán công cụ giúp gian lận trò chơi hoặc vượt biện pháp bảo vệ phần mềm khi chưa rõ quyền hợp pháp. 'Chỉ đọc màn hình' không tự bảo đảm rằng hoạt động được phép.
@@ -34,6 +38,8 @@ Về thang bằng chứng: **17 mục hạng B** — mỗi mục đứng trên m
 
 ### 3. Không viết, không bán script giữ chỗ vé, săn sale, đơn khống, hưởng khuyến mại ảo — dù chỉ là "tự động bấm nút"
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-khong-viet-khong-ban-script-giu-cho-ve-san-sale-don-khong" data-legacy="11-3"></a>
+
 - Chi phí: Không mất tiền. Bỏ một nghề tay trái kiếm đều: nhận viết tool giữ chỗ, tool canh sale, tool tạo đơn ảo cho shop. Khó ở chỗ khách trả theo đầu tháng và luôn nói "chỉ là tự động bấm nút thôi mà".
 - Nói dễ hiểu: Hành vi vượt hàng chờ hoặc mã xác nhận của sàn để giữ chỗ, canh sale, tạo đơn khống được luật gọi là xâm nhập trái phép, có khung tù 1 năm đến 5 năm và không phụ thuộc số tiền. Đơn khống để lấy khuyến mại thì tính là lừa đảo, ngưỡng 2 triệu đồng.
 - Lợi ích: Tự động hóa mua vé, săn hàng hoặc nhận khuyến mại phải tôn trọng điều kiện dịch vụ và quyền truy cập. Một script sinh đơn khống có thể gây thiệt hại cho người khác.
@@ -44,16 +50,20 @@ Về thang bằng chứng: **17 mục hạng B** — mỗi mục đứng trên m
 
 ### 4. Crawler chỉ cào trang công khai không cần đăng nhập, không vượt chặn bot, không lấy dữ liệu cá nhân, không bán dữ liệu cào được
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-crawler-chi-cao-trang-cong-khai-khong-can-dang-nhap-khong-vuot" data-legacy="11-4"></a>
+
 - Chi phí: Không mất tiền, mất thời gian đọc trước khi viết dòng đầu: tệp robots của trang, điều khoản sử dụng, và danh sách trường bạn định lấy. Khó ở chỗ bỏ hẳn nhóm trường cá nhân nghĩa là mất phần dữ liệu có giá nhất.
 - Nói dễ hiểu: Trang công khai, không cần đăng nhập thì cào được, miễn là không lấy dữ liệu cá nhân. Vượt cảnh báo hoặc mã truy cập để lấy dữ liệu nằm sau lớp đăng nhập là xâm nhập trái phép, tù 1 năm đến 5 năm. Bán dữ liệu cá nhân bị phạt tới 10 lần khoản thu, cá nhân chịu nửa mức của tổ chức.
 - Lợi ích: Thu thập dữ liệu công khai không đồng nghĩa có quyền vượt chặn, lấy thông tin cá nhân hay tái phân phối. Xác định mục đích, phạm vi và quyền được cấp trước khi chạy crawler.
-- Pháp luật Việt Nam: Điều 289 khoản 1 Bộ luật Hình sự, như ở mục 9 (kiểm thử hệ thống người khác khi chưa có văn bản), phạt tù từ 1 năm đến 5 năm với người vượt qua cảnh báo, mã truy cập, tường lửa hoặc dùng quyền quản trị của người khác để xâm nhập; điều luật không nhắc tới robots, tốc độ gửi yêu cầu hay số lượt tải, nên cái quyết định là bạn có đi qua lớp bảo vệ hay không. Với dữ liệu cá nhân, Luật Bảo vệ dữ liệu cá nhân, Điều 7 khoản 6, ghi thẳng vào danh sách hành vi bị nghiêm cấm việc mua, bán dữ liệu cá nhân, trừ trường hợp luật có quy định khác; Điều 8 khoản 3 đặt mức phạt tiền tối đa cho hành vi mua, bán dữ liệu cá nhân bằng 10 lần khoản thu có được từ hành vi vi phạm, khoản 5 đặt mức chung 3 tỷ đồng cho các hành vi khác, và khoản 6 hạ mức của cá nhân xuống một phần hai mức của tổ chức. Luật có hiệu lực từ ngày 1/1/2026.
+- Pháp luật Việt Nam: Điều 289 khoản 1 Bộ luật Hình sự, như ở [mục 9](11-nhung-vach-do-nguoi-lam-ky-thuat-hay-vap.md#entry-khong-kiem-thu-he-thong-cua-nguoi-khac-khi-chua-co-van) (kiểm thử hệ thống người khác khi chưa có văn bản), phạt tù từ 1 năm đến 5 năm với người vượt qua cảnh báo, mã truy cập, tường lửa hoặc dùng quyền quản trị của người khác để xâm nhập; điều luật không nhắc tới robots, tốc độ gửi yêu cầu hay số lượt tải, nên cái quyết định là bạn có đi qua lớp bảo vệ hay không. Với dữ liệu cá nhân, Luật Bảo vệ dữ liệu cá nhân, Điều 7 khoản 6, ghi thẳng vào danh sách hành vi bị nghiêm cấm việc mua, bán dữ liệu cá nhân, trừ trường hợp luật có quy định khác; Điều 8 khoản 3 đặt mức phạt tiền tối đa cho hành vi mua, bán dữ liệu cá nhân bằng 10 lần khoản thu có được từ hành vi vi phạm, khoản 5 đặt mức chung 3 tỷ đồng cho các hành vi khác, và khoản 6 hạ mức của cá nhân xuống một phần hai mức của tổ chức. Luật có hiệu lực từ ngày 1/1/2026.
 - Mức bằng chứng: B
 - Nguồn: Bộ luật Hình sự, bản hợp nhất 135/VBHN-VPQH (Điều 289 khoản 1) — https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf ; Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15, Công báo 971+972 ngày 24/7/2025 (Điều 7 khoản 6, Điều 8 khoản 3, 5, 6) — https://congbao.chinhphu.vn/van-ban/luat-so-91-2025-qh15-45578.htm . Tra ngày 3/11/2026.
 - Ghi chú: Cả hai văn bản đều có mức phạt đọc được nguyên văn và Luật 91/2025 đã có hiệu lực từ 1/1/2026, nhưng chưa có bản án công bố nào ở Việt Nam về crawler bán dữ liệu để lên hạng A. Ba cái bẫy hay gặp. Một: đọc robots.txt rồi coi như đã xin phép — robots là tuyên bố của chủ trang, không phải giấy phép, và việc đi tiếp qua ô đăng nhập hay mã xác nhận vẫn là chuyện của Điều 289 khoản 1 chứ không phải chuyện của robots. Hai: để crawler tự đăng nhập bằng tài khoản dùng thử rồi cào phần sau đăng nhập, vì "tôi có tài khoản hợp pháp" — cái bạn có là quyền dùng, không phải quyền tải toàn bộ dữ liệu về máy mình; dùng quyền truy cập hợp lệ cho mục đích khác là chỗ dễ bị xếp vào xâm nhập. Ba: bán lại tập dữ liệu đã cào, kể cả khi mỗi trường đều công khai — Điều 7 khoản 6 Luật 91/2025 cấm mua, bán dữ liệu cá nhân, và dữ liệu công khai vẫn là dữ liệu cá nhân; mức phạt tính theo khoản thu, không theo số bản ghi. Mục này không có nghĩa là cấm crawler, hay mọi tập dữ liệu công khai đều không dùng được: nó nói rằng đừng đi qua lớp bảo vệ, đừng lấy trường định danh được người, và đừng bán thứ mình cào được.
 
 ### 5. Không nhận đơn làm app cờ bạc, lừa đảo, khiêu dâm; không dựng kênh thanh toán hộ; không mở khóa tài khoản bị phong
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-khong-nhan-don-lam-app-co-bac-lua-dao-khieu-dam-khong" data-legacy="11-5"></a>
+
 - Chi phí: Không mất tiền. Bỏ nhóm đơn trả cao nhất trong hộp thư: đơn có ví, có nạp rút, có bảng tỉ lệ, và đơn "làm giúp cái app xem phim". Khó ở chỗ yêu cầu kỹ thuật viết rất gọn, không có chữ nào phạm pháp.
 - Nói dễ hiểu: Nhận viết app đánh bạc là bị xử như người tổ chức đánh bạc: 1 năm đến 5 năm tù, dùng mạng thì 5 năm đến 10 năm. App khiêu dâm, từ 1GB dữ liệu hoặc 100 ảnh trở lên là đã đủ khung 6 tháng đến 3 năm.
 - Lợi ích: Từ chối phát triển công cụ phục vụ lừa đảo, đánh bạc trái phép hoặc thu tiền hộ không rõ nguồn. Tiền công kỹ thuật không xóa trách nhiệm khi biết mục đích bất hợp pháp.
@@ -64,6 +74,8 @@ Về thang bằng chứng: **17 mục hạng B** — mỗi mục đứng trên m
 
 ### 6. Nghỉ việc thì bàn giao quyền truy cập, không xóa dữ liệu, không để cửa sau, không đổi mật khẩu khóa hệ thống — dù công ty còn nợ lương
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-nghi-viec-thi-ban-giao-quyen-truy-cap-khong-xoa-du-lieu" data-legacy="11-6"></a>
+
 - Chi phí: Không mất tiền, mất nửa ngày cuối cùng ở công ty: liệt kê tài khoản, gỡ khóa SSH, gỡ token, ghi lại ai nhận. Khó ở chỗ đúng lúc bị nợ lương thì việc gỡ quyền truy cập của mình là việc cuối cùng bạn muốn làm.
 - Nói dễ hiểu: Tài khoản và mật khẩu là của công ty, không phải của bạn. Công ty phải tất toán trong 14 ngày làm việc, nên nợ lương thì đòi ở đó. Nghỉ rồi còn đăng nhập, đặt lại mật khẩu thì khung tù 1 năm đến 5 năm; xóa dữ liệu tới mức hệ thống tê liệt là tội khác, khung 6 tháng đến 3 năm.
 - Lợi ích: Bàn giao tài khoản và tài sản công ty theo biên bản khi nghỉ việc. Giữ bản xác nhận đã bàn giao giúp tránh tranh chấp về dữ liệu, mật khẩu và trách nhiệm vận hành.
@@ -74,6 +86,8 @@ Về thang bằng chứng: **17 mục hạng B** — mỗi mục đứng trên m
 
 ### 7. Nghỉ việc không mang theo mã nguồn, danh sách khách hàng, tài liệu kỹ thuật; không đưa lên ổ cá nhân; không dùng lại ở công ty mới
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-nghi-viec-khong-mang-theo-ma-nguon-danh-sach-khach-hang-tai" data-legacy="11-7"></a>
+
 - Chi phí: Không mất tiền, mất một buổi dọn máy: gỡ repo, xóa bản sao trong ổ ngoài và thư mục đồng bộ, trả lại sổ tay và tài liệu giấy. Khó ở chỗ phần lớn mã đó do chính bạn viết, và bạn tin là không có nó thì không làm được việc mới.
 - Nói dễ hiểu: Mã nguồn viết trong giờ làm thường thuộc về công ty, danh sách khách hàng được coi là bí mật kinh doanh. Mang sang công ty mới là xâm phạm bí mật kinh doanh; nếu là bản sao phần mềm thì còn vào khung hình sự, mốc 50 triệu đồng tiền lời.
 - Lợi ích: Không mang mã nguồn, dữ liệu khách hàng hoặc tài liệu nội bộ lên kho cá nhân khi chuyển việc. Kiểm tra rõ phần được phép công khai và quyền sở hữu trước khi tái sử dụng.
@@ -84,6 +98,8 @@ Về thang bằng chứng: **17 mục hạng B** — mỗi mục đứng trên m
 
 ### 8. Không chạy chương trình của mình trên máy, máy chủ hay camera của người khác, và không đào coin bằng máy công ty
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=khác -->
+<a name="entry-khong-chay-chuong-trinh-cua-minh-tren-may-may-chu-hay-camera" data-legacy="11-8"></a>
+
 - Chi phí: Không mất tiền. Bạn cần bỏ bốn thói quen nhỏ: quét cổng một dải mạng không phải của mình, thử mật khẩu mặc định của camera, để lại một tiến trình lạ trên máy chủ của khách, và cài phần mềm đào coin lên máy công ty. Nếu đã làm, bạn khó lấy lại những gì đã mất: quyền truy cập bị thu hồi, hợp đồng lao động bị chấm dứt, và một hồ sơ hình sự đứng tên bạn.
 - Nói dễ hiểu: Vào máy của người khác mà không được phép, kể cả chỉ để xem hoặc để thử, bị phạt 50.000.000 đồng đến 300.000.000 đồng hoặc tù 1 năm đến 5 năm. Điều luật không đặt ngưỡng số máy, nên một cái camera cũng đủ.
 - Lợi ích: Chạy chương trình hoặc khai thác tài nguyên trên thiết bị người khác chỉ khi có quyền và sự đồng ý phù hợp. Lợi ích cá nhân không biện minh được cho việc chiếm dụng máy chủ.
@@ -94,6 +110,8 @@ Về thang bằng chứng: **17 mục hạng B** — mỗi mục đứng trên m
 
 ### 9. Không kiểm thử hệ thống của người khác khi chưa có văn bản cho phép: ý tốt và việc báo lại sau đó không xóa được hành vi
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-khong-kiem-thu-he-thong-cua-nguoi-khac-khi-chua-co-van" data-legacy="11-9"></a>
+
 - Chi phí: Không mất tiền, nhưng bạn phải chờ. Trước khi gõ dòng lệnh đầu tiên, bạn cần một văn bản ghi rõ bốn thứ: tên chủ hệ thống, danh sách mục tiêu được thử, khung thời gian được thử, và người có thẩm quyền ký. Bạn cũng cần đặt giới hạn cho mình: chứng minh lỗ hổng tồn tại rồi dừng, không kéo dữ liệu ra. Bạn phải dẹp cảm giác "thử một chút thôi, có gì tôi báo lại".
 - Nói dễ hiểu: Thiếu giấy phép thì việc thử hệ thống là xâm nhập, và luật xét hành vi chứ không xét ý định. Khung nhẹ nhất là 50.000.000 đồng đến 300.000.000 đồng hoặc tù 1 năm đến 5 năm. Lấy dữ liệu ra để chứng minh lỗ hổng làm hồ sơ nặng thêm.
 - Lợi ích: Kiểm thử bảo mật phải có văn bản xác định phạm vi, thời gian và người cho phép. Tìm được lỗ hổng không làm cho việc truy cập ngoài phạm vi trở thành hợp pháp.
@@ -104,6 +122,8 @@ Về thang bằng chứng: **17 mục hạng B** — mỗi mục đứng trên m
 
 ### 10. Báo lỗ hổng cho chủ hệ thống trước, và trước khi vá thì không đăng chi tiết, không phát hành công cụ khai thác, không đẩy dữ liệu ra nước ngoài
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=khác -->
+<a name="entry-bao-lo-hong-cho-chu-he-thong-truoc-va-truoc-khi-va" data-legacy="11-10"></a>
+
 - Chi phí: Không mất tiền, mất thời gian chờ. Bạn cần viết một báo cáo đủ để chủ hệ thống tái hiện được lỗi mà không cần bạn thao tác lại, gửi thẳng cho họ, rồi giữ im lặng cho tới khi họ vá. Bạn phải chịu mất phần thưởng về danh tiếng: đăng bài trước, khoe PoC trước, nhận credit trước. PoC là đoạn mã chứng minh lỗ hổng khai thác được.
 - Nói dễ hiểu: Đăng một công cụ khai thác còn dùng được cho người khác tải về có thể bị tính là tặng cho công cụ tấn công: 20.000.000 đồng đến 100.000.000 đồng hoặc tù 3 tháng đến 2 năm. Báo cho chủ hệ thống trước, đừng đăng chi tiết trước khi họ vá.
 - Lợi ích: Báo lỗ hổng cho chủ hệ thống qua kênh phù hợp, hạn chế tiết lộ chi tiết có thể bị lạm dụng trước khi khắc phục. Lưu lịch sử thông báo và phạm vi kiểm thử.
@@ -114,6 +134,8 @@ Về thang bằng chứng: **17 mục hạng B** — mỗi mục đứng trên m
 
 ### 11. Không bán tài khoản VPN, không dựng node hộ người khác: dùng VPN không phạm luật, nhưng mở đường truy nhập để thu tiền thì phải đăng ký và bạn chịu trách nhiệm về đường mình mở
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=khác -->
+<a name="entry-khong-ban-tai-khoan-vpn-khong-dung-node-ho-nguoi-khac-dung" data-legacy="11-11"></a>
+
 - Chi phí: Không mất tiền, mất một khoản thu nhập. Bạn cần bỏ việc bán "slot" cho nhóm chat, bỏ việc mở một đường truyền rồi chia lại cho người lạ, và bỏ thói quen mua VPS bằng thẻ hay tài khoản của người khác. Nếu đã làm thì tuyến đó đứng tên bạn, log đứng tên bạn, và người đầu tiên bị gọi lên làm việc là bạn.
 - Nói dễ hiểu: Dùng VPN không phải tội ở Việt Nam, và không có điều luật nào cấm bán. Cái có là điều kiện kinh doanh: mở điểm truy nhập cho người khác dùng mà thu tiền thì phải đăng ký, và bạn chịu trách nhiệm về đường mình mở.
 - Lợi ích: Khi vận hành dịch vụ trung chuyển mạng cho người khác, cần kiểm tra quyền cung cấp dịch vụ, hợp đồng và nghĩa vụ dữ liệu. Đừng dùng tên gọi VPN để mặc định hoạt động được miễn mọi quy định.
@@ -124,6 +146,8 @@ Về thang bằng chứng: **17 mục hạng B** — mỗi mục đứng trên m
 
 ### 12. Thỏa thuận hạn chế cạnh tranh sau khi nghỉ việc: chỉ đứng được bằng việc bảo vệ bí mật kinh doanh, không kèm tiền bồi hoàn hằng tháng
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-thoa-thuan-han-che-canh-tranh-sau-khi-nghi-viec-chi-dung" data-legacy="11-12"></a>
+
 - Chi phí: Không mất tiền, mất một buổi đọc giấy tờ. Bạn cần đọc lại ba thứ trước khi ký: điều khoản bảo mật trong hợp đồng lao động, bản thỏa thuận cấm cạnh tranh nếu có, và danh mục tài liệu công ty đánh dấu mật. Bạn đừng tin rằng một điều khoản cấm cạnh tranh không kèm tiền sẽ bảo vệ được bạn, hoặc rằng nó trói được bạn.
 - Nói dễ hiểu: Cái có thật trong luật là thỏa thuận bảo mật thông tin, bí mật kinh doanh và bồi thường khi vi phạm; không có cơ chế cấm cạnh tranh kèm tiền bồi hoàn hằng tháng. Nghỉ ngang không báo trước thì bồi thường nửa tháng lương.
 - Lợi ích: Trước khi ký điều khoản bảo mật hoặc không cạnh tranh, đọc rõ nội dung, thời hạn và phạm vi. Khi nghỉ việc, không tự suy luận rằng mọi thỏa thuận đều vô hiệu hoặc luôn ràng buộc.
@@ -134,6 +158,8 @@ Về thang bằng chứng: **17 mục hạng B** — mỗi mục đứng trên m
 
 ### 13. Code viết trong giờ làm trên máy công ty: quyền tài sản thường thuộc công ty, quyền đứng tên vẫn của bạn; dự án riêng phải làm bằng máy và thời gian của bạn
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-code-viet-trong-gio-lam-tren-may-cong-ty-quyen-tai-san" data-legacy="11-13"></a>
+
 - Chi phí: Không mất tiền, mất một buổi đọc hợp đồng và một buổi dọn máy. Bạn cần đọc điều khoản sở hữu trí tuệ trong hợp đồng lao động, rồi tách hẳn hai môi trường: một máy, một tài khoản, một kho mã cho việc công ty; một máy, một tài khoản, một kho mã cho việc riêng. Nếu bạn để lẫn, cả dự án cá nhân bị coi là sản phẩm của công ty, và bạn không giữ được gì.
 - Nói dễ hiểu: Công ty giao việc thì quyền tài sản và quyền công bố thuộc công ty, trừ khi hợp đồng ghi khác; quyền đứng tên và quyền bảo vệ toàn vẹn vẫn của bạn. Cái quyết định là bạn có được giao việc hay không, không phải đồng hồ.
 - Lợi ích: Mã nguồn tạo ra khi làm việc có thể chịu điều khoản sở hữu của hợp đồng lao động và quy định quyền tác giả. Muốn sử dụng lại trong dự án riêng, kiểm tra thỏa thuận trước.
@@ -144,6 +170,8 @@ Về thang bằng chứng: **17 mục hạng B** — mỗi mục đứng trên m
 
 ### 14. Dùng code GPL để làm sản phẩm thì phải theo giấy phép: mở mã nguồn hoặc đổi giấy phép, đừng dựa vào "không ai quản"
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-dung-code-gpl-de-lam-san-pham-thi-phai-theo-giay-phep" data-legacy="11-14"></a>
+
 - Chi phí: Không mất tiền, mất thời gian rà soát. Bạn cần một buổi liệt kê mọi thư viện trong dự án và ghi giấy phép của từng cái vào một file, rồi đọc ba giấy phép hay gặp nhất: MIT, Apache, GPL. Có thể bạn phải ngừng dùng một thư viện đã quen, nếu nó là GPL và sản phẩm của bạn đóng gói bán. Nếu để tới lúc khách kiểm, bạn sẽ phải mở mã nguồn hoặc viết lại phần phụ thuộc đó.
 - Nói dễ hiểu: GPL buộc sản phẩm phát hành có dùng nó cũng phải mở mã nguồn. Bán phần mềm đóng có code GPL bên trong là xâm phạm quyền tác giả: bồi thường theo thiệt hại, và thu lợi từ 50.000.000 đồng thì có thể bị truy cứu hình sự.
 - Lợi ích: Dùng mã nguồn mở trong sản phẩm phải tuân thủ đúng giấy phép từng thành phần. Với GPL, cần kiểm tra nghĩa vụ phân phối và cung cấp mã nguồn trước khi phát hành.
@@ -154,6 +182,8 @@ Về thang bằng chứng: **17 mục hạng B** — mỗi mục đứng trên m
 
 ### 15. Chỉ thu dữ liệu cá nhân thật sự cần cho nghiệp vụ, viết chính sách riêng tư đọc được, và xin đồng ý riêng khi đụng dữ liệu trẻ em
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-chi-thu-du-lieu-ca-nhan-that-su-can-cho-nghiep-vu" data-legacy="11-15"></a>
+
 - Chi phí: Không mất tiền. Bạn cần dành một buổi rà từng trường trong cơ sở dữ liệu và từng quyền mà app xin, rồi xóa những trường không phục vụ việc gì đang chạy. Khó ở chỗ đội sản phẩm muốn giữ lại để sau này phân tích, còn bạn phải viết ra lý do cho từng trường tồn tại.
 - Nói dễ hiểu: Chỉ thu đúng thứ nghiệp vụ cần, nói rõ mục đích, mỗi mục đích một lần đồng ý riêng; im lặng không tính là đồng ý. Công bố thông tin riêng tư của trẻ từ bảy tuổi cần cả trẻ và người đại diện đồng ý. Phạt tối đa 3.000.000.000 đồng.
 - Lợi ích: Dữ liệu cá nhân nên được thu thập đúng nhu cầu, giải thích mục đích rõ và hạn chế quyền truy cập. Một mẫu đồng ý mơ hồ không thay thế được nghĩa vụ bảo vệ thông tin.
@@ -164,6 +194,8 @@ Về thang bằng chứng: **17 mục hạng B** — mỗi mục đứng trên m
 
 ### 16. Trang tin tổng hợp và mạng xã hội phải có giấy phép hoặc giấy xác nhận thông báo trước khi chạy, giữ nội dung tối thiểu 90 ngày và nhật ký tối thiểu 02 năm
 <!-- nhãn: tiền=0 thời-gian=nhiều ý-chí=ít lợi-ích=vừa thước-đo=thời-gian -->
+<a name="entry-trang-tin-tong-hop-va-mang-xa-hoi-phai-co-giay-phep" data-legacy="11-16"></a>
+
 - Chi phí: Không mất tiền để tra, nhưng mất thời gian. Hồ sơ xin phép cần tên miền .vn còn hạn ít nhất 06 tháng, ít nhất 01 hệ thống máy chủ đặt tại Việt Nam, và người chịu trách nhiệm quản lý nội dung có quốc tịch Việt Nam. Bạn cần bật phần ghi nhật ký trước ngày mở, vì bật sau thì những ngày đầu không có gì để xuất trình.
 - Nói dễ hiểu: Trang tin tổng hợp và mạng xã hội quy mô lớn phải có giấy phép trước khi chạy, mạng xã hội nhỏ hơn cần giấy xác nhận thông báo; trang tin cá nhân chỉ cần thông báo. Nội dung đã đăng giữ 90 ngày, nhật ký xử lý thông tin giữ 02 năm, và gỡ nội dung vi phạm trong 24 giờ.
 - Lợi ích: Đừng tự đặt nhãn 'trang cá nhân' cho sản phẩm có chức năng mạng xã hội hoặc trang tổng hợp tin. Kiểm tra loại dịch vụ, giấy phép và nghĩa vụ lưu trữ trước khi ra mắt.
@@ -174,6 +206,8 @@ Về thang bằng chứng: **17 mục hạng B** — mỗi mục đứng trên m
 
 ### 17. Cung cấp AI cho công chúng: luật buộc tự phân loại rủi ro và thông báo trước khi chạy, chưa có thủ tục nộp hồ sơ thuật toán để xin phép
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=ít lợi-ích=vừa thước-đo=thời-gian -->
+<a name="entry-cung-cap-ai-cho-cong-chung-luat-buoc-tu-phan-loai-rui" data-legacy="11-17"></a>
+
 - Chi phí: Không mất tiền để phân loại, nhưng mất thời gian. Bạn cần viết hồ sơ phân loại rủi ro cho hệ thống, khai qua Cổng thông tin điện tử một cửa về trí tuệ nhân tạo, và với hệ thống rủi ro cao thì phải đánh giá sự phù hợp trước khi đưa vào sử dụng. Khó ở chỗ sửa mô hình hoặc đổi chức năng làm phát sinh rủi ro mới thì phải phân loại lại.
 - Nói dễ hiểu: Từ 01/3/2026, luật buộc tự phân loại rủi ro, thông báo cho Bộ Khoa học và Công nghệ trước khi chạy, đánh giá sự phù hợp với hệ thống rủi ro cao, và gắn nhãn nội dung do AI tạo. Chưa có cơ chế nộp hồ sơ thuật toán để được cấp phép, và chưa có án nào về việc này.
 - Lợi ích: Trước khi cung cấp hệ thống AI cho công chúng, cần đánh giá mức rủi ro, thông tin đầu ra và trách nhiệm của bên triển khai. Không phải cứ gọi sản phẩm là thử nghiệm thì được bỏ qua nghĩa vụ.
@@ -184,6 +218,8 @@ Về thang bằng chứng: **17 mục hạng B** — mỗi mục đứng trên m
 
 ### 18. Không phát hành công cụ tự động bỏ qua hay chặn quảng cáo của app khác: miễn phí vẫn có thể bị kiện
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-khong-phat-hanh-cong-cu-tu-dong-bo-qua-hay-chan-quang" data-legacy="11-18"></a>
+
 - Chi phí: Không mất tiền để không làm. Nếu vẫn làm, bạn cần trả tiền luật sư và nhiều buổi làm việc với tòa, chưa kể thời gian gỡ bản phát hành và trả lời người dùng. Khó ở chỗ công cụ này rất được người dùng thích, nên áp lực làm tiếp không đến từ tòa mà từ chính người dùng của bạn.
 - Nói dễ hiểu: Công cụ tự bấm bỏ qua hoặc chặn quảng cáo trong app của người khác có thể bị coi là gây rối hoạt động kinh doanh của họ. Mức phạt tối đa 2.000.000.000 đồng với tổ chức, 1.000.000.000 đồng với cá nhân, chưa tính tiền bồi thường cho bên bị thiệt hại.
 - Lợi ích: Công cụ chặn quảng cáo hoặc can thiệp vào ứng dụng khác có thể gây tranh chấp khi làm gián đoạn hoạt động hợp pháp. Cần đánh giá quyền can thiệp và phạm vi sử dụng thay vì chỉ xét miễn phí hay thu tiền.
@@ -194,6 +230,8 @@ Về thang bằng chứng: **17 mục hạng B** — mỗi mục đứng trên m
 
 ### 19. Không dựng trạm trung chuyển bán lại API mô hình nước ngoài giá rẻ: chưa có án, nhưng bạn có thể gặp rủi ro về dữ liệu, hợp đồng, thuế và tiền khách trả trước.
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-khong-dung-tram-trung-chuyen-ban-lai-api-mo-hinh-nuoc-ngoai" data-legacy="11-19"></a>
+
 - Chi phí: Không mất tiền để không làm. Nếu vẫn làm, bạn cần vốn mua tài khoản và thuê máy chủ nước ngoài, cộng một khoản dự phòng để trả lại tiền cho người dùng khi nhà cung cấp khóa hàng loạt. Khó ở chỗ doanh thu đến trước, còn hóa đơn và hồ sơ dữ liệu thì đến sau.
 - Nói dễ hiểu: Đẩy dữ liệu người dùng Việt Nam ra nước ngoài để chạy mô hình thì phải lập hồ sơ đánh giá tác động và gửi trong 60 ngày kể từ lần chuyển đầu tiên; vi phạm bị phạt tới 5% doanh thu năm trước. Việt Nam chưa có án công bố nào về việc bán lại API.
 - Lợi ích: Dịch vụ trung chuyển API phải xem kỹ hợp đồng nhà cung cấp, dữ liệu khách hàng và việc chuyển dữ liệu ra nước ngoài. Giá rẻ hơn không bù được rủi ro khi dữ liệu hoặc quyền truy cập bị lạm dụng.
@@ -204,16 +242,20 @@ Về thang bằng chứng: **17 mục hạng B** — mỗi mục đứng trên m
 
 ### 20. Không viết, không bán, không chia sẻ bản bẻ khóa, công cụ tạo khóa, hay bản "đã bẻ khóa"
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-khong-viet-khong-ban-khong-chia-se-ban-be-khoa-cong-cu" data-legacy="11-20"></a>
+
 - Chi phí: Không mất tiền để không làm. Đằng sau mỗi bản bẻ khóa là một chuỗi bán hàng: nhận đơn, gửi tệp, giữ lịch sử chuyển khoản. Bạn cần dọn cả chuỗi đó, không chỉ xóa tệp cài đặt, vì lịch sử đơn và tin nhắn giao key là thứ được dùng để tính số lần và số tiền.
 - Nói dễ hiểu: Bẻ khóa phần mềm là xâm phạm quyền tác giả, không thu tiền cũng phải bồi thường. Bán hoặc phát hành có thể thành tội hình sự: phạt tiền 50.000.000 đồng đến 300.000.000 đồng hoặc tù 06 tháng đến 03 năm, và bán với quy mô thương mại là đủ, không cần đạt ngưỡng tiền.
 - Lợi ích: Không phân phối phần mềm bẻ khóa hoặc công cụ tạo khóa nhằm vượt biện pháp bảo vệ bản quyền. Việc chia sẻ miễn phí không mặc nhiên làm cho hành vi hợp pháp.
 - Pháp luật Việt Nam: Luật Sở hữu trí tuệ Điều 28 khoản 4 xếp việc cố ý hủy bỏ hoặc làm vô hiệu biện pháp công nghệ hữu hiệu do tác giả, chủ sở hữu quyền tác giả thực hiện để bảo vệ tác phẩm vào nhóm hành vi xâm phạm quyền tác giả; khoản 5 xếp việc sản xuất, phân phối, nhập khẩu, chào bán, bán, cho thuê hoặc tàng trữ nhằm mục đích thương mại các thiết bị, sản phẩm, linh kiện, hoặc cung cấp dịch vụ mà biết hoặc có cơ sở để biết chúng được sản xuất, sử dụng nhằm vô hiệu hóa biện pháp công nghệ bảo vệ quyền tác giả. Điều 225 Bộ luật Hình sự: người không được phép của chủ thể quyền tác giả mà cố ý sao chép tác phẩm hoặc phân phối đến công chúng bản sao tác phẩm, xâm phạm quyền tác giả đang được bảo hộ tại Việt Nam với quy mô thương mại, hoặc thu lợi bất chính từ 50.000.000 đồng đến dưới 300.000.000 đồng, hoặc gây thiệt hại từ 100.000.000 đồng đến dưới 500.000.000 đồng, hoặc hàng hóa vi phạm trị giá từ 100.000.000 đồng đến dưới 500.000.000 đồng, thì bị phạt tiền từ 50.000.000 đồng đến 300.000.000 đồng hoặc phạt cải tạo không giam giữ đến 03 năm. Khoản 2 nâng lên phạt tiền từ 300.000.000 đồng đến 1.000.000.000 đồng hoặc phạt tù từ 06 tháng đến 03 năm khi phạm tội có tổ chức, phạm tội 02 lần trở lên, thu lợi bất chính 300.000.000 đồng trở lên, gây thiệt hại 500.000.000 đồng trở lên hoặc hàng hóa vi phạm trị giá 500.000.000 đồng trở lên. Khoản 3 cho phép phạt thêm tiền 20.000.000 đồng đến 200.000.000 đồng và cấm đảm nhiệm chức vụ, cấm hành nghề từ 01 năm đến 05 năm.
 - Mức bằng chứng: B
 - Nguồn: Bộ luật Hình sự, văn bản hợp nhất 135/VBHN-VPQH (Điều 225) — https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf ; Luật Sở hữu trí tuệ, văn bản hợp nhất 155/VBHN-VPQH (Điều 28 khoản 4 và 5) — https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/155-vbhn-vpqh.pdf . Tra ngày 3/11/2026.
-- Ghi chú: Khung tiền và khung tù đọc được nguyên văn trong Điều 225, nhưng nhóm viết không mở được bản án nào của Việt Nam về đúng hành vi bẻ khóa phần mềm, nên không lên A. Phần dân sự thì chắc hơn phần hình sự: khoản 4 và khoản 5 Điều 28 áp dụng kể cả khi bạn không thu một đồng nào. **Ba cái bẫy hay gặp.** Một: bán "bản quyền vĩnh viễn" giá rẻ trên sàn thương mại điện tử và giao key qua tin nhắn; sàn giữ lịch sử đơn, ví giữ lịch sử chuyển tiền, nên số lần và doanh thu có sẵn trong máy người khác. Hai: tự viết công cụ tạo khóa rồi cho tải miễn phí kèm ô quyên góp; phần miễn phí không đủ yếu tố hình sự, nhưng vẫn là xâm phạm dân sự, và ô quyên góp là chỗ biến nó thành có thu. Ba: nhận bẻ khóa theo đơn cho doanh nghiệp, nhất là phần mềm kế toán, thiết bị y tế, phần mềm điều khiển; tính thương mại hiện ra ở hợp đồng, hóa đơn và số máy được cài. Bạn vẫn có thể nghiên cứu bảo mật bằng cách tự phân tích, thử nghiệm trên phần mềm của mình hoặc khi được chủ sở hữu cho phép; hành vi bị xem xét ở đây là phát hành và bán công cụ cho người khác. Nếu bạn phát hành phim hoặc sách lậu, hãy xem chương 9 mục 24; với phần mềm, hãy chú ý cả công cụ bẻ khóa và khóa bản quyền.
+- Ghi chú: Khung tiền và khung tù đọc được nguyên văn trong Điều 225, nhưng nhóm viết không mở được bản án nào của Việt Nam về đúng hành vi bẻ khóa phần mềm, nên không lên A. Phần dân sự thì chắc hơn phần hình sự: khoản 4 và khoản 5 Điều 28 áp dụng kể cả khi bạn không thu một đồng nào. **Ba cái bẫy hay gặp.** Một: bán "bản quyền vĩnh viễn" giá rẻ trên sàn thương mại điện tử và giao key qua tin nhắn; sàn giữ lịch sử đơn, ví giữ lịch sử chuyển tiền, nên số lần và doanh thu có sẵn trong máy người khác. Hai: tự viết công cụ tạo khóa rồi cho tải miễn phí kèm ô quyên góp; phần miễn phí không đủ yếu tố hình sự, nhưng vẫn là xâm phạm dân sự, và ô quyên góp là chỗ biến nó thành có thu. Ba: nhận bẻ khóa theo đơn cho doanh nghiệp, nhất là phần mềm kế toán, thiết bị y tế, phần mềm điều khiển; tính thương mại hiện ra ở hợp đồng, hóa đơn và số máy được cài. Bạn vẫn có thể nghiên cứu bảo mật bằng cách tự phân tích, thử nghiệm trên phần mềm của mình hoặc khi được chủ sở hữu cho phép; hành vi bị xem xét ở đây là phát hành và bán công cụ cho người khác. Nếu bạn phát hành phim hoặc sách lậu, hãy xem [chương 9 mục 24](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-dich-chep-dang-lai-phim-truyen-va-sach-lau-khong-ban-cung); với phần mềm, hãy chú ý cả công cụ bẻ khóa và khóa bản quyền.
 
 ### 21. Không nhận đánh DDoS, không bán hay cho thuê "test tải" để dội lưu lượng, và thua game cũng không đánh sập server đối thủ
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-khong-nhan-danh-ddos-khong-ban-hay-cho-thue-test-tai-de" data-legacy="11-21"></a>
+
 - Chi phí: Không mất tiền để không làm. Nếu bạn đang bị dội lưu lượng, cần giữ nguyên log, ảnh chụp cấu hình và báo cơ quan chức năng thay vì tự xử lý. Nếu bạn định thuê người đánh, cần biết hành vi mình trả tiền thuê có thể bị xử lý hình sự, và thông tin giao dịch vẫn được lưu trên thiết bị của cả hai bên.
 - Nói dễ hiểu: Dội lưu lượng làm sập hệ thống người khác bị phạt tiền 30.000.000 đồng đến 200.000.000 đồng hoặc tù 06 tháng đến 03 năm; làm tê liệt từ 30 phút là đủ, gây thiệt hại 500.000.000 đồng trở lên thì sang khung 03 năm đến 07 năm. Người bỏ tiền thuê cũng bị xử lý.
 - Lợi ích: Kiểm thử tải phải được chủ hệ thống cho phép và có giới hạn rõ. Không thực hiện hoặc bán dịch vụ gây gián đoạn mạng của người khác dưới tên gọi 'test tải'.

@@ -17,6 +17,7 @@ import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { ROOT } from './lib/book.mjs';
+import { refs } from './lib/references.mjs';
 
 const CHECK = process.argv.includes('--check');
 const SINCE = '2026-11-01';
@@ -39,7 +40,7 @@ const foldSpelling = s => s.toLowerCase()
   .replace(/([òóỏõọ])([ae])(?![a-zà-ỹđ])|(?<!q)([ùúủũụ])y(?![a-zà-ỹđ])/g,
     (m, o, ae, u) => u ? 'u' + TONE_UY[u] : 'o' + (ae === 'a' ? TONE_OA : TONE_OE)[o])
   .replace(/v[aắ]c[- ]?xin|vaccine/g, 'vắcxin');
-const norm = s => foldSpelling(s).replace(/\s+/g, '')
+const norm = s => foldSpelling(refs.plainText(s)).replace(/\s+/g, '')
   .replace(/mục\s*\d+/gi, 'mục #')
   .replace(/chương\s*\d+/gi, 'chương #');
 

@@ -6,22 +6,26 @@ Trong tuần đầu sau khi trong nhà có người mất, bạn có thể khó 
 
 Về thang bằng chứng: **không mục nào hạng A, 11 mục hạng B, 1 mục hạng C**. Không có mục A vì chương này không đo kết quả sức khỏe mà chỉ nói về thủ tục, và thủ tục thì căn cứ vào câu chữ văn bản. Mười một mục B là chỗ đọc được nguyên văn: thời hạn khai tử, nghĩa vụ cấp giấy báo tử, giá niêm yết, trợ cấp mai táng, phạm vi trả nợ của người thừa kế. Một mục C là chỗ Việt Nam **chưa có cơ chế để tra**: không có sổ đăng ký hành nghề môi giới mai táng để người dân tra một đơn vị có đúng phép hay không, nên cách duy nhất là kiểm bằng giấy tờ do đơn vị xuất trình.
 
-Về bối cảnh Việt Nam: trình tự pháp lý ở Việt Nam khác với trình tự mà phần lớn sách hướng dẫn nước ngoài mô tả, và khác ở đúng ba chỗ dễ mất tiền hoặc mất quyền: thứ tự khai tử và xóa đăng ký thường trú, thủ tục rút tiền gửi của người đã chết, và chuyện có cần công chứng hoặc chứng thực khi chia di sản là nhà đất hay không. Vì vậy, khi làm thủ tục, bạn đi theo đúng ba chỗ đó: mục 5 (khai tử và xóa đăng ký thường trú), mục 9 (tiền gửi) và mục 12 (thứ tự giấy tờ).
+Về bối cảnh Việt Nam: trình tự pháp lý ở Việt Nam khác với trình tự mà phần lớn sách hướng dẫn nước ngoài mô tả, và khác ở đúng ba chỗ dễ mất tiền hoặc mất quyền: thứ tự khai tử và xóa đăng ký thường trú, thủ tục rút tiền gửi của người đã chết, và chuyện có cần công chứng hoặc chứng thực khi chia di sản là nhà đất hay không. Vì vậy, khi làm thủ tục, bạn đi theo đúng ba chỗ đó: [mục 5](25-nguoi-mat-roi-phai-lam-gi.md#entry-khai-tu-trong-15-ngay-xoa-dang-ky-thuong-tru-sau-do) (khai tử và xóa đăng ký thường trú), [mục 9](25-nguoi-mat-roi-phai-lam-gi.md#entry-tien-rai-rac-phai-di-lay-tung-cho-tro-cap-mai-tang) (tiền gửi) và [mục 12](25-nguoi-mat-roi-phai-lam-gi.md#entry-thu-tu-giay-to-sau-khi-mat-khai-tu-truoc-roi-van) (thứ tự giấy tờ).
 
-**Nhóm mục**: **Việc phải làm ngay và giấy báo tử**: mục 1 đến 3 · **Khám nghiệm, khai tử, giá tang lễ**: mục 4 đến 6 · **Bị thu thêm và tiền rải rác**: mục 7 đến 9 · **Dữ liệu, nợ và thứ tự giấy tờ**: mục 10 đến 12
+**Nhóm mục**: **Việc phải làm ngay và giấy báo tử**: [mục 1 đến 3](25-nguoi-mat-roi-phai-lam-gi.md#entry-trong-nha-co-nguoi-mat-xac-dinh-chet-binh-thuong-hay-bat "refs:trong-nha-co-nguoi-mat-xac-dinh-chet-binh-thuong-hay-bat,giay-bao-tu-va-trich-luc-khai-tu-ai-cap-xin-o,dua-tang-va-hoa-tang-co-so-nao-duoc-lam-gia-phai") · **Khám nghiệm, khai tử, giá tang lễ**: [mục 4 đến 6](25-nguoi-mat-roi-phai-lam-gi.md#entry-nghi-ngo-nguyen-nhan-mat-len-tieng-truoc-khi-an-tang-dung "refs:nghi-ngo-nguyen-nhan-mat-len-tieng-truoc-khi-an-tang-dung,khai-tu-trong-15-ngay-xoa-dang-ky-thuong-tru-sau-do,xin-bang-gia-truoc-khi-dat-coc-gia-dich-vu-tang-le") · **Bị thu thêm và tiền rải rác**: [mục 7 đến 9](25-nguoi-mat-roi-phai-lam-gi.md#entry-bi-ep-mua-kem-hay-thu-them-ngoai-gia-niem-yet-xin "refs:bi-ep-mua-kem-hay-thu-them-ngoai-gia-niem-yet-xin,moi-gioi-mai-tang-khong-co-so-dang-ky-de-tra-kiem,tien-rai-rac-phai-di-lay-tung-cho-tro-cap-mai-tang") · **Dữ liệu, nợ và thứ tự giấy tờ**: [mục 10 đến 12](25-nguoi-mat-roi-phai-lam-gi.md#entry-tai-khoan-mang-va-du-lieu-cua-nguoi-da-mat-khong-co "refs:tai-khoan-mang-va-du-lieu-cua-nguoi-da-mat-khong-co,no-cua-nguoi-da-mat-nguoi-thua-ke-chi-tra-trong-pham,thu-tu-giay-to-sau-khi-mat-khai-tu-truoc-roi-van")
 
 ### 1. Trong nhà có người mất: xác định chết bình thường hay bất thường trước khi gọi ai
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-trong-nha-co-nguoi-mat-xac-dinh-chet-binh-thuong-hay-bat" data-legacy="25-1"></a>
+
 - Chi phí: Không tốn tiền, chỉ một cuộc gọi. Bạn phải dành thời gian chờ người có thẩm quyền tới xác nhận; trong lúc chờ, bạn không dọn dẹp, không tắm rửa hay mặc quần áo khác cho người đã mất, không cất vỏ thuốc, đơn thuốc, điện thoại, giấy tờ. Nếu là chết bất thường thì chờ lâu hơn: công an khám nghiệm hiện trường, giám định viên pháp y khám nghiệm tử thi, có trường hợp mất gần một ngày.
 - Nói dễ hiểu: Có bệnh nền, đang được bác sĩ theo dõi mà mất ở nhà: gọi cơ sở y tế hoặc trạm y tế xã lại xác nhận, đừng tự di chuyển thi thể. Tai nạn, chết đột ngột, chết có nghi vấn, hoặc ở một mình lâu mới phát hiện: gọi công an trước, giữ nguyên hiện trường, đừng động vào đồ đạc.
 - Lợi ích: Khi trong nhà có người mất, trước tiên cần xác định có dấu hiệu bất thường hay không để liên hệ đúng cơ quan. Đừng vội di chuyển hoặc thay đổi hiện trường nếu nghi có nguyên nhân cần điều tra.
 - Pháp luật Việt Nam: Điều 73 khoản 2 Luật Khám bệnh, chữa bệnh 15/2023/QH15 buộc cơ sở khám bệnh, chữa bệnh làm các việc sau: cấp giấy báo tử, kiểm thảo tử vong, hoàn thiện và lưu hồ sơ bệnh án, thông báo cho thân nhân để tổ chức mai táng; nếu người bệnh tử vong mà không có người nhận hoặc bị từ chối tiếp nhận thì cơ sở phải thông báo cho Ủy ban nhân dân cấp xã nơi đặt trụ sở trong vòng 24 giờ, và Ủy ban nhân dân cấp xã tiếp nhận thi thể, tổ chức mai táng chậm nhất trong 48 giờ kể từ khi nhận thông báo. Với cái chết không đi qua bệnh viện, Điều 4 khoản 2 điểm d Nghị định 123/2015/NĐ-CP liệt kê đúng nhóm phải qua công an: người chết trên phương tiện giao thông, chết do tai nạn, bị giết, chết đột ngột hoặc chết có nghi vấn thì văn bản xác nhận của cơ quan công an hoặc kết quả giám định của cơ quan giám định pháp y được dùng thay giấy báo tử. Thủ tục khám nghiệm tử thi nằm ở Điều 202 khoản 1 Bộ luật Tố tụng hình sự: việc khám nghiệm do giám định viên pháp y tiến hành dưới sự chủ trì của Điều tra viên và phải có người chứng kiến; Điều 147 khoản 3 cùng bộ luật cho phép khám nghiệm tử thi ngay ở giai đoạn xác minh tố giác, tin báo, tức trước khi có quyết định khởi tố.
 - Mức bằng chứng: B
 - Nguồn: Luật Khám bệnh, chữa bệnh số 15/2023/QH15 ngày 09/01/2023 (Điều 73 khoản 2): https://vbpl.vn/van-ban/chi-tiet/luat-kham-benh-chua-benh-2023-so-15-2023-qh15--168125 ; Nghị định 123/2015/NĐ-CP ngày 15/11/2015 quy định chi tiết một số điều và biện pháp thi hành Luật Hộ tịch (Điều 4 khoản 2): https://vbpl.vn/van-ban/chi-tiet/nghi-dinh-so-123-2015-nd-cp-quy-dinh-chi-tiet-mot-so-dieu-va-bien-phap-thi-hanh-luat-ho-tich--92897 ; Bộ luật Tố tụng hình sự số 101/2015/QH13 ngày 27/11/2015 (Điều 147 khoản 3, Điều 202 khoản 1): https://vbpl.vn/van-ban/chi-tiet/bo-luat-to-tung-hinh-su-so-101-2015-qh13--96172 . Tra ngày 3/11/2026.
-- Ghi chú: Cả ba chỗ dẫn đều là câu chữ đọc được nguyên văn trong văn bản đang có hiệu lực, nhưng không có số liệu Việt Nam nào đo được việc giữ hiện trường tiết kiệm cho gia đình bao nhiêu thời gian, nên đây là mục về quyền và trình tự, không phải mục có số đo kết cục. Bốn cái bẫy. Một: dọn nhà trước khi gọi — lau sàn, đổ bỏ cốc nước, cất vỏ thuốc, tắm và thay đồ cho người đã mất — rồi mới báo; hiện trường mất dấu, nguyên nhân chết không xác định được, và chính giấy báo tử là thứ bị chậm, kéo theo khai tử, mai táng, bảo hiểm. Hai: người nhà tưởng không ai cấp giấy báo tử cho người mất ở nhà nên cứ chờ mà không liên hệ nơi cấp giấy. Điều 4 khoản 2 điểm đ Nghị định 123/2015/NĐ-CP giao Ủy ban nhân dân cấp xã nơi người đó chết cấp giấy báo tử cho những trường hợp không thuộc bốn nhóm còn lại nêu ở mục 2. Ba: gọi dịch vụ mai táng tới đưa thi thể đi trước khi có người xác nhận, vì cổng nhiều bệnh viện có dán số điện thoại của họ; hồ sơ sau đó thiếu mốc thời gian và nơi chết, mà cơ sở không có thẩm quyền cấp giấy báo tử thì không sửa được hộ bạn. Bốn: coi "chết có nghi vấn" là chuyện của nhà khác. Mục này không nói nhà nào có người mất cũng phải gọi công an: phần lớn cái chết do bệnh là bình thường và gọi y tế là đủ; nhưng khi bạn không trả lời được câu "vì sao người này chết hôm nay", gọi công an trước không làm ai bị quy tội, và không có nghĩa là bạn tố giác người trong nhà.
+- Ghi chú: Cả ba chỗ dẫn đều là câu chữ đọc được nguyên văn trong văn bản đang có hiệu lực, nhưng không có số liệu Việt Nam nào đo được việc giữ hiện trường tiết kiệm cho gia đình bao nhiêu thời gian, nên đây là mục về quyền và trình tự, không phải mục có số đo kết cục. Bốn cái bẫy. Một: dọn nhà trước khi gọi — lau sàn, đổ bỏ cốc nước, cất vỏ thuốc, tắm và thay đồ cho người đã mất — rồi mới báo; hiện trường mất dấu, nguyên nhân chết không xác định được, và chính giấy báo tử là thứ bị chậm, kéo theo khai tử, mai táng, bảo hiểm. Hai: người nhà tưởng không ai cấp giấy báo tử cho người mất ở nhà nên cứ chờ mà không liên hệ nơi cấp giấy. Điều 4 khoản 2 điểm đ Nghị định 123/2015/NĐ-CP giao Ủy ban nhân dân cấp xã nơi người đó chết cấp giấy báo tử cho những trường hợp không thuộc bốn nhóm còn lại nêu ở [mục 2](25-nguoi-mat-roi-phai-lam-gi.md#entry-giay-bao-tu-va-trich-luc-khai-tu-ai-cap-xin-o). Ba: gọi dịch vụ mai táng tới đưa thi thể đi trước khi có người xác nhận, vì cổng nhiều bệnh viện có dán số điện thoại của họ; hồ sơ sau đó thiếu mốc thời gian và nơi chết, mà cơ sở không có thẩm quyền cấp giấy báo tử thì không sửa được hộ bạn. Bốn: coi "chết có nghi vấn" là chuyện của nhà khác. Mục này không nói nhà nào có người mất cũng phải gọi công an: phần lớn cái chết do bệnh là bình thường và gọi y tế là đủ; nhưng khi bạn không trả lời được câu "vì sao người này chết hôm nay", gọi công an trước không làm ai bị quy tội, và không có nghĩa là bạn tố giác người trong nhà.
 
 ### 2. Giấy báo tử và trích lục khai tử: ai cấp, xin ở đâu, trong bao lâu
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-giay-bao-tu-va-trich-luc-khai-tu-ai-cap-xin-o" data-legacy="25-2"></a>
+
 - Chi phí: Không tốn tiền mặt, tốn thời gian: một buổi tới cơ sở y tế hoặc Ủy ban nhân dân cấp xã, và một buổi nữa để đăng ký khai tử. Nếu nơi cư trú cuối cùng của người mất ở tỉnh khác với nơi bạn đang sống thì bạn phải tới đúng nơi đó, trừ khi không xác định được nơi cư trú cuối cùng. Nếu đi muộn, bạn có thể bị chậm khi lo mai táng, xóa đăng ký thường trú, bảo hiểm, ngân hàng và chia di sản vì chưa có tờ trích lục.
 - Nói dễ hiểu: Giấy báo tử xin ở nơi xác nhận cái chết: bệnh viện nếu mất ở đó, công an nếu tai nạn hay nghi vấn, Ủy ban xã nếu mất ở nhà. Cầm giấy đó ra Ủy ban xã nơi cư trú cuối cùng đăng ký khai tử trong 15 ngày; xong mới có trích lục khai tử — tờ giấy các nơi khác đòi.
 - Lợi ích: Giấy báo tử và trích lục khai tử là hai giấy tờ có mục đích khác nhau. Chuẩn bị đúng giấy do cơ sở y tế hoặc cơ quan được phép cấp giúp việc đăng ký khai tử thuận lợi hơn.
@@ -32,6 +36,8 @@ Về bối cảnh Việt Nam: trình tự pháp lý ở Việt Nam khác với t
 
 ### 3. Đưa tang và hỏa táng: cơ sở nào được làm, giá phải niêm yết, giấy tờ phải giữ
 <!-- nhãn: tiền=nhiều thời-gian=vừa ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-dua-tang-va-hoa-tang-co-so-nao-duoc-lam-gia-phai" data-legacy="25-3"></a>
+
 - Chi phí: Đây là việc tốn tiền nhất trong ba mục đầu chương, và không có mức trần nào: giá phụ thuộc cơ sở, số km vận chuyển, số ngày lưu lạnh, loại tiểu quách, số người đi đưa. Phần không được phép mặc cả là phần lễ nghi trong nhà; phần hay bị đẩy giá là phần dịch vụ — xe, lạnh, quan tài, hoa, nhang, thuê người khóc, thuê nhà bạt. Ngoài tiền, gia đình còn phải dành thời gian đi lại giữa nhà, cơ sở hỏa táng và Ủy ban xã; người thân ở xa về cũng phải nghỉ việc để lo tang lễ.
 - Nói dễ hiểu: Cơ sở hỏa táng phải được xây theo quy hoạch đã được duyệt, và cơ sở ngoài nghĩa trang phải cách khu dân cư tối thiểu 500 m. Giá dịch vụ phải niêm yết công khai: hỏi bảng giá trước, giữ hợp đồng và hóa đơn, đừng để ai tự cộng thêm hạng mục.
 - Lợi ích: Khi tổ chức tang lễ hoặc hỏa táng, kiểm tra cơ sở, bảng giá và giấy tờ phải được bàn giao. Giữ hóa đơn và giấy xác nhận để làm các thủ tục về sau.
@@ -42,6 +48,8 @@ Về bối cảnh Việt Nam: trình tự pháp lý ở Việt Nam khác với t
 
 ### 4. Nghi ngờ nguyên nhân mất: lên tiếng trước khi an táng, đừng đợi chôn hoặc thiêu xong mới thắc mắc
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-nghi-ngo-nguyen-nhan-mat-len-tieng-truoc-khi-an-tang-dung" data-legacy="25-4"></a>
+
 - Chi phí: Không mất tiền để đặt câu hỏi. Nếu phải trưng cầu giám định pháp y thì bên yêu cầu tạm ứng chi phí, và mức cụ thể phải hỏi thẳng cơ sở giám định trước khi ký, vì không có một bảng giá chung cho loại việc này. Phần đắt hơn là thời gian: mỗi ngày chờ là một ngày thi thể phải bảo quản, mà bảo quản cũng là dịch vụ tính tiền theo ngày.
 - Nói dễ hiểu: Nếu nghi ngờ nguyên nhân mất thì bạn phải lên tiếng trước khi chôn hoặc thiêu. Chết ở nhà mà không rõ vì sao: gọi công an, không lau dọn, không thay đồ cho người mất. Chết trong bệnh viện mà lời giải thích không khớp: yêu cầu bằng văn bản, xin bản sao hồ sơ bệnh án, đề nghị giám định pháp y.
 - Lợi ích: Nếu có nghi ngờ chính đáng về nguyên nhân tử vong, cần nêu ngay trước khi an táng. Hồ sơ y tế và tài liệu liên quan sẽ khó thu thập hơn nếu để quá muộn.
@@ -52,6 +60,8 @@ Về bối cảnh Việt Nam: trình tự pháp lý ở Việt Nam khác với t
 
 ### 5. Khai tử trong 15 ngày, xóa đăng ký thường trú sau đó: không có hạn nào buộc xong trước đám tang
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=khác -->
+<a name="entry-khai-tu-trong-15-ngay-xoa-dang-ky-thuong-tru-sau-do" data-legacy="25-5"></a>
+
 - Chi phí: Không đáng kể: một lượt tới UBND cấp xã, mang tờ khai và giấy báo tử. Lệ phí hộ tịch theo mức từng tỉnh quy định, hỏi ở bộ phận một cửa trước khi đi để khỏi quay lại lần hai, và xin luôn nhiều bản trích lục trong cùng buổi vì mỗi nơi giữ một bản.
 - Nói dễ hiểu: Trong 15 ngày kể từ ngày có người mất, vợ chồng, con, cha mẹ hoặc người thân khác phải đi khai tử ở UBND cấp xã nơi người đó cư trú cuối cùng. Khai tử xong mới xóa đăng ký thường trú. Không có hạn nào buộc phải làm xong mấy việc này trước đám tang.
 - Lợi ích: Đăng ký khai tử đúng hạn là bước mở đầu nhiều thủ tục về cư trú, tài sản và trợ cấp. Có thể làm sau tang lễ trong thời hạn luật quy định, không cần hoảng vì chưa làm ngay trong ngày.
@@ -62,6 +72,8 @@ Về bối cảnh Việt Nam: trình tự pháp lý ở Việt Nam khác với t
 
 ### 6. Xin bảng giá trước khi đặt cọc: giá dịch vụ tang lễ phải niêm yết, và không được thu cao hơn giá đã niêm yết
 <!-- nhãn: tiền=nhiều thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-xin-bang-gia-truoc-khi-dat-coc-gia-dich-vu-tang-le" data-legacy="25-6"></a>
+
 - Chi phí: Không mất tiền để hỏi giá, và đây là câu hỏi rẻ nhất trong cả chương: một cuộc gọi, một tin nhắn. Khoản chênh nằm ở chỗ khác — giá gói ban đầu thường chỉ gồm vài thứ, phần còn lại được đẩy thành "phát sinh" đúng lúc trong nhà không ai còn sức mặc cả, nên tổng tiền cuối cùng phải trả mới là con số cần chốt.
 - Nói dễ hiểu: Trước khi ký giấy hay đặt cọc, xin bảng giá và chụp lại. Giá niêm yết đã gồm thuế, phí; thu cao hơn giá đã niêm yết là sai. Khoản nào không có trong bảng thì đừng đồng ý trả — hỏi lại bằng tin nhắn hoặc giấy để còn căn cứ.
 - Lợi ích: Chi phí tang lễ có thể phát sinh nhiều khoản nhỏ. Xin bảng giá trọn gói, ghi rõ khoản nào tùy chọn trước khi đặt cọc và giữ chứng từ.
@@ -72,6 +84,8 @@ Về bối cảnh Việt Nam: trình tự pháp lý ở Việt Nam khác với t
 
 ### 7. Bị ép mua kèm hay thu thêm ngoài giá niêm yết: xin bảng giá, giữ hóa đơn, rồi khiếu nại
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-bi-ep-mua-kem-hay-thu-them-ngoai-gia-niem-yet-xin" data-legacy="25-7"></a>
+
 - Chi phí: Không tốn tiền để đòi: một tờ giấy ghi từng khoản, ảnh chụp bảng giá, hóa đơn, tin nhắn. Bạn phải bỏ thời gian và chịu khó chịu: hỏi lại ngay lúc cả nhà đang mệt, rồi ngồi viết đơn khiếu nại khi đã an táng xong.
 - Nói dễ hiểu: Giá niêm yết là giá đã gồm thuế và phí, và người bán không được thu cao hơn con số đã niêm yết. Bị ép mua thêm thứ mình không muốn, hay bị cộng một khoản chưa ai đồng ý, thì xin bảng giá, giữ hóa đơn, ghi lại tên người thu tiền, rồi khiếu nại.
 - Lợi ích: Khi bị yêu cầu mua thêm dịch vụ ngoài thỏa thuận, đối chiếu bảng giá, hợp đồng và hóa đơn. Hỏi bằng văn bản thay vì trả tiền dưới sức ép lúc gia đình đang có tang.
@@ -82,6 +96,8 @@ Về bối cảnh Việt Nam: trình tự pháp lý ở Việt Nam khác với t
 
 ### 8. Môi giới mai táng không có sổ đăng ký để tra: kiểm bằng đăng ký kinh doanh, hợp đồng, hóa đơn
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-moi-gioi-mai-tang-khong-co-so-dang-ky-de-tra-kiem" data-legacy="25-8"></a>
+
 - Chi phí: Không tốn tiền: hai câu hỏi và một lượt xem giấy tờ. Bạn phải chịu khó đọc hợp đồng trong lúc tang gia đang rối, và có khi phải từ chối một người quen giới thiệu; phần khó nhất ở đây không phải tiền.
 - Nói dễ hiểu: Không có sổ đăng ký hành nghề môi giới mai táng, cũng không có danh sách của nhà nước để tra trước ai được phép làm. Thứ kiểm được là giấy chứng nhận đăng ký kinh doanh đứng tên người nhận tiền, hợp đồng ghi từng hạng mục và giá, và hóa đơn; thiếu một trong ba thì chưa đặt cọc.
 - Lợi ích: Với người môi giới dịch vụ tang lễ, kiểm tra tên cơ sở, hợp đồng và nơi nhận tiền. Đừng dựa vào lời giới thiệu hoặc một thẻ hành nghề không xác định được nguồn.
@@ -92,6 +108,8 @@ Về bối cảnh Việt Nam: trình tự pháp lý ở Việt Nam khác với t
 
 ### 9. Tiền rải rác phải đi lấy từng chỗ: trợ cấp mai táng, trợ cấp tuất, tiền gửi
 <!-- nhãn: tiền=0 thời-gian=nhiều ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-tien-rai-rac-phai-di-lay-tung-cho-tro-cap-mai-tang" data-legacy="25-9"></a>
+
 - Chi phí: Không mất phí làm hồ sơ, nhưng mất thời gian: một lượt tới cơ quan bảo hiểm xã hội hoặc qua người sử dụng lao động, một lượt tới ngân hàng cho sổ tiết kiệm, và thêm lượt đi lại nếu thiếu giấy. Với nhà đang lo đám, đây là việc phải chia người đi chứ đừng để một người vừa lo đám vừa chạy giấy.
 - Nói dễ hiểu: Nếu người mất thuộc diện được hưởng, trợ cấp mai táng bằng 10 lần mức tham chiếu, trả cho người đứng ra lo đám. Trợ cấp tuất một lần tính theo số năm đóng và lương bình quân, còn trợ cấp tuất hằng tháng tính theo mức tham chiếu, nên đừng lấy khoản này suy ra khoản kia. Hồ sơ nộp trong 90 ngày.
 - Lợi ích: Tiền trợ cấp, bảo hiểm, tài khoản ngân hàng và quyền lợi của người mất có thể nằm ở nhiều nơi khác nhau. Lập danh sách từng khoản và giấy tờ cần nộp để tránh bỏ sót.
@@ -102,6 +120,8 @@ Về bối cảnh Việt Nam: trình tự pháp lý ở Việt Nam khác với t
 
 ### 10. Tài khoản mạng và dữ liệu của người đã mất: không có luật riêng cho người chết, nên đi bằng giấy tờ thừa kế và yêu cầu bằng văn bản
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-tai-khoan-mang-va-du-lieu-cua-nguoi-da-mat-khong-co" data-legacy="25-10"></a>
+
 - Chi phí: Không mất tiền để hỏi và để gửi một yêu cầu. Bạn phải chờ và nhắc nhiều lần: một yêu cầu gửi đi, giấy tờ chứng minh quan hệ, vài lần hỏi lại cùng một chỗ, và giấy tờ thừa kế nếu trong tài khoản có tiền. Kiện ra tòa thì tốn tiền và tốn cả năm, nên trước hết hãy gửi yêu cầu bằng văn bản và xin trả lời bằng văn bản.
 - Nói dễ hiểu: Luật bảo vệ dữ liệu của Việt Nam không có điều nào nói về dữ liệu của người đã chết. Muốn lấy lại tài khoản, ảnh, tin nhắn, bạn cần dùng giấy tờ thừa kế đối với phần có giá trị bằng tiền và gửi yêu cầu bằng văn bản tới nền tảng đối với phần chỉ là dữ liệu. Đừng đăng nhập bằng mật khẩu của người đã mất.
 - Lợi ích: Tài khoản mạng và dữ liệu của người đã mất cần được xử lý theo chính sách nền tảng và giấy tờ thừa kế phù hợp. Đừng mặc định người thân có quyền truy cập tất cả mật khẩu.
@@ -112,6 +132,8 @@ Về bối cảnh Việt Nam: trình tự pháp lý ở Việt Nam khác với t
 
 ### 11. Nợ của người đã mất: người thừa kế chỉ trả trong phạm vi di sản, muốn buông thì phải từ chối bằng văn bản trước khi chia
 <!-- nhãn: tiền=nhiều thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-no-cua-nguoi-da-mat-nguoi-thua-ke-chi-tra-trong-pham" data-legacy="25-11"></a>
+
 - Chi phí: Viết một văn bản từ chối không mất tiền, còn đem công chứng thì hỏi phí trước. Bạn mất phần di sản: từ chối nhận di sản thì mất luôn nhà, đất, tiền trong tài khoản, không chỉ mất phần vừa đủ trả nợ. Nhận rồi mới thấy nợ nhiều hơn di sản thì phần chênh không phải trả, nhưng phải giữ được giấy tờ chứng minh di sản đáng bao nhiêu, và có thể phải ra tòa để chứng minh; tiền thuê luật sư thì bên thuê tự chịu.
 - Nói dễ hiểu: Nợ không mất khi người vay mất. Người thừa kế chỉ trả bằng giá trị di sản nhận được. Không muốn dính thì từ chối nhận di sản bằng văn bản trước khi chia, nhưng từ chối là mất luôn nhà và tiền, và không được từ chối để trốn nghĩa vụ tài sản của chính mình.
 - Lợi ích: Khi nhận thừa kế, hãy kiểm tra cả khoản nợ liên quan đến di sản. Không nên tự lấy tiền riêng trả nợ khi chưa xác định nghĩa vụ và phạm vi tài sản được nhận.
@@ -122,6 +144,8 @@ Về bối cảnh Việt Nam: trình tự pháp lý ở Việt Nam khác với t
 
 ### 12. Thứ tự giấy tờ sau khi mất: khai tử trước, rồi văn bản phân chia di sản, rồi mới sang tên nhà đất và rút tiền
 <!-- nhãn: tiền=ít thời-gian=nhiều ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-thu-tu-giay-to-sau-khi-mat-khai-tu-truoc-roi-van" data-legacy="25-12"></a>
+
 - Chi phí: Nếu công chứng văn bản phân chia di sản thì phí theo biểu do cơ quan nhà nước ban hành, nên bạn hãy hỏi trước ở tổ chức hành nghề công chứng. Cái đắt hơn tiền là thời gian: chờ niêm yết ở tổ chức hành nghề công chứng, chờ cơ quan đăng ký đất đai trả kết quả, và mỗi người thừa kế phải có mặt đúng buổi. Có người không liên lạc được hoặc không đồng ý cách chia thì có thể phải chuyển sang tòa, và đó là nhiều tháng; người ở nước ngoài thì phải có giấy ủy quyền hợp lệ.
 - Nói dễ hiểu: Sau khi có người mất, đăng ký khai tử làm trước, rồi mới tới văn bản phân chia di sản, rồi mới sang tên nhà đất và rút tiền. Đừng tự chia miệng rồi đi làm giấy sau. Chỗ hay tắc là việc công chứng hoặc chứng thực văn bản phân chia khi nơi nhận hồ sơ yêu cầu, và việc ngân hàng đòi giấy tờ thừa kế.
 - Lợi ích: Làm thủ tục theo thứ tự khai tử, xác định di sản, lập văn bản thừa kế rồi mới sang tên hoặc rút tiền giúp tránh phải làm lại hồ sơ. Giữ bản gốc và các bản sao chứng thực cần thiết.

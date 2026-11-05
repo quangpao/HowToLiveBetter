@@ -10,10 +10,12 @@ Ba khoản tiền và giấy tờ được nhắc nhiều lần vì chúng là c
 
 Về thang bằng chứng: **cả 13 mục hạng B**. Mỗi mục đứng trên văn bản đã mở nguyên văn — luật xuất nhập cảnh, luật cơ quan đại diện, thông tư của Ngân hàng Nhà nước về mang ngoại tệ, nghị định về hải quan và kiểm dịch, luật về người lao động đi làm việc ở nước ngoài. **Không mục nào hạng A** vì không có thống kê Việt Nam nào đo được kết cục của việc chuẩn bị đúng hay sai trước khi ra nước ngoài, và **không mục nào hạng C** vì cả 13 mục đều có câu chữ đọc được. Chỗ nào phải viết "Việt Nam không có cơ chế tương đương" thì đó là kết quả của một phép kiểm phủ định, không phải suy đoán.
 
-**Nhóm mục**: **Trước khi đi và chỗ dựa khi có chuyện**: mục 1 đến 5 · **Tiền, giấy tờ, và dịch vụ**: mục 6 đến 9 · **Mang đồ qua cửa khẩu**: mục 10 đến 13
+**Nhóm mục**: **Trước khi đi và chỗ dựa khi có chuyện**: [mục 1 đến 5](21-ra-nuoc-ngoai.md#entry-truoc-khi-mua-ve-tra-khuyen-cao-cua-bo-ngoai-giao-kiem "refs:truoc-khi-mua-ve-tra-khuyen-cao-cua-bo-ngoai-giao-kiem,luu-so-truc-bao-ho-cong-dan-vao-ba-cho-va-luu,co-quan-dai-dien-lam-duoc-gi-va-khong-lam-duoc-gi,bao-hiem-ra-nuoc-ngoai-doc-hai-dong-la-gioi-han-trach,viec-nhe-luong-cao-kiem-giay-phep-tran-tien-dich-vu-va") · **Tiền, giấy tờ, và dịch vụ**: [mục 6 đến 9](21-ra-nuoc-ngoai.md#entry-mang-tien-mat-qua-cua-khau-nguong-phai-khai-va-nguong-phai "refs:mang-tien-mat-qua-cua-khau-nguong-phai-khai-va-nguong-phai,sao-luu-ho-chieu-va-visa-hai-ngay-de-bao-mat-va,giay-phep-lai-xe-quoc-te-chi-ban-theo-cong-uoc-vien,thue-lam-visa-du-hoc-dinh-cu-cho-co-giay-phep-tra") · **Mang đồ qua cửa khẩu**: [mục 10 đến 13](21-ra-nuoc-ngoai.md#entry-khong-cho-muon-ho-chieu-khong-cho-nguoi-la-dung-ten-minh "refs:khong-cho-muon-ho-chieu-khong-cho-nguoi-la-dung-ten-minh,truoc-khi-di-gui-lich-trinh-va-so-ho-chieu-cho-mot,mang-thuoc-theo-nguoi-ra-nuoc-ngoai-theo-luat-nuoc-den-vao,mang-do-an-ve-nuoc-do-tuoi-song-hay-moi-so-che")
 
 ### 1. Trước khi mua vé: tra khuyến cáo của Bộ Ngoại giao, kiểm hạn hộ chiếu và thị thực, vì cửa khẩu không chặn bạn chỉ vì nước đến nguy hiểm
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=khác -->
+<a name="entry-truoc-khi-mua-ve-tra-khuyen-cao-cua-bo-ngoai-giao-kiem" data-legacy="21-1"></a>
+
 - Chi phí: Không mất tiền, chỉ mất một buổi tối đọc ba trang. Cái đắt là cái không đọc: vé đã xuất, khách sạn đã trả, ra tới sân bay mới biết hộ chiếu còn dưới 6 tháng thì không được đi và không ai đền vé. Đi vào vùng đang có xung đột hay dịch bệnh thì phần sau còn đắt hơn: đổi vé, tìm chỗ ở, xin gia hạn thị thực, và nếu phải sơ tán thì tự trả. Không có khoản ngân sách nào chi cho việc đưa một công dân ra khỏi vùng chiến sự, nên chi phí sơ tán nằm ở túi người đi hoặc ở hợp đồng bảo hiểm.
 - Nói dễ hiểu: Trước khi mua vé, mở lanhsuvietnam.gov.vn xem khuyến cáo cho nước mình đến, kiểm hộ chiếu còn hạn ít nhất 6 tháng và kiểm thị thực. Khuyến cáo không chia thành bậc đánh số và cửa khẩu không chặn bạn chỉ vì nước đến nguy hiểm, nên việc tra là việc của bạn.
 - Lợi ích: Trước khi đặt vé quốc tế, kiểm hạn hộ chiếu, giấy tờ nhập cảnh và khuyến cáo điểm đến. Một thiếu sót giấy tờ có thể khiến chuyến đi bị hủy từ quầy làm thủ tục.
@@ -24,6 +26,8 @@ Về thang bằng chứng: **cả 13 mục hạng B**. Mỗi mục đứng trên
 
 ### 2. Lưu số trực bảo hộ công dân vào ba chỗ, và lưu cả số của cơ quan đại diện nước mình đến
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=khác -->
+<a name="entry-luu-so-truc-bao-ho-cong-dan-vao-ba-cho-va-luu" data-legacy="21-2"></a>
+
 - Chi phí: Không mất tiền; mất chừng mười phút để lưu ba chỗ và một lần thử gọi. Cái mất khi bỏ qua: lúc đang bị giữ ở sân bay hoặc đang nằm viện ở nước ngoài, người ta thường gọi về nhà trước, rồi người nhà mới đi tìm số; mỗi vòng như vậy mất vài giờ, và với người bị tạm giữ thì vài giờ là khoảng cách giữa có người biết mình đang ở đâu và không ai biết. Chi phí phụ là tiền gọi quốc tế nếu gọi bằng sim Việt Nam, nên lưu số dạng có mã quốc gia để gọi được từ máy của người khác.
 - Nói dễ hiểu: Số trực bảo hộ công dân của Cục Lãnh sự là (+84) 981.84.84.84, trực 24/24. Lưu vào danh bạ, chép ra giấy để trong ví, gửi một bản cho người nhà. Lưu thêm số đại sứ quán hoặc tổng lãnh sự quán nước mình đến.
 - Lợi ích: Trang chính thức của Cục Lãnh sự ghi nguyên văn: "Số điện thoại trực công tác bảo hộ công dân (trực 24/24 giờ, 7 ngày trong tuần và 365 ngày trong năm): (+84) 981.84.84.84. Địa chỉ hòm thư: baohocongdan@gmail.com". Cùng cổng ghi địa chỉ 40 Trần Phú, Ba Đình, Hà Nội; trang Thông tin liên hệ ghi điện thoại Cục 024 3799.3388 và email cls.mfa@mofa.gov.vn, riêng Phòng Bảo hộ Công dân có số (+84) 24 3799.2364. Vì sao phải lưu thêm số tại chỗ: khoản 4 Điều 8 Văn bản hợp nhất số 108/VBHN-VPQH giao việc cấp hộ chiếu và giấy tờ khác có giá trị xuất cảnh, nhập cảnh cho cơ quan đại diện, khoản 12 cùng điều giao việc đăng ký công dân — tức giấy thông hành cho bạn về nước do cơ quan ở nước sở tại cấp, không phải Cục ở Hà Nội cấp thay. Đăng ký công dân với cơ quan đại diện khi tới nơi là cách để họ biết bạn đang ở đâu nếu có thiên tai, dịch bệnh hay bất ổn, và cũng là thông tin để người nhà hỏi khi mất liên lạc.
@@ -33,6 +37,8 @@ Về thang bằng chứng: **cả 13 mục hạng B**. Mỗi mục đứng trên
 
 ### 3. Cơ quan đại diện làm được gì và không làm được gì: mười một việc họ không làm
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=khác -->
+<a name="entry-co-quan-dai-dien-lam-duoc-gi-va-khong-lam-duoc-gi" data-legacy="21-3"></a>
+
 - Chi phí: Không mất tiền; mất thời gian đọc một trang. Cái mất khi không đọc lại tính bằng tiền thật: người nhà bay sang, thuê luật sư, trả tiền khách sạn và vé về, trong khi vẫn tưởng cơ quan đại diện sẽ lo — và đến lúc ấy mới biết các khoản đó không ai trả hộ. Với người bị giữ, cái mất còn là thời gian: mỗi ngày không có luật sư là một ngày lời khai được ghi mà không có ai tư vấn trước.
 - Nói dễ hiểu: Cơ quan đại diện cấp hộ chiếu hay giấy thông hành về nước, thăm khi bạn bị giữ, báo cho gia đình, đưa danh sách luật sư, ứng tiền qua Quỹ bảo hộ nếu có đặt cọc hoặc cam kết hoàn trả. Họ không trả tiền phạt hay viện phí, không bảo lãnh bạn ra, không can thiệp vào tiến trình tư pháp nước sở tại.
 - Lợi ích: Cổng của Cục Lãnh sự in hai danh sách cạnh nhau. Danh sách làm được: cấp hộ chiếu để tiếp tục hành trình hoặc cấp giấy thông hành để về nước; thăm lãnh sự khi công dân bị bắt, bị giam giữ hoặc bị tù; thăm công dân ốm đau đột xuất phải cấp cứu tại bệnh viện và thông báo cho gia đình; cung cấp danh sách, địa chỉ bệnh viện, luật sư; liên hệ với gia đình, giúp thuê luật sư với điều kiện bản thân hoặc gia đình chịu chi phí; can thiệp khi công dân bị giam giữ trong điều kiện phi nhân đạo; tìm kiếm thông tin khi công dân mất tích; thông báo cho gia đình khi công dân chết; giúp hồi hương người ốm đau, tai nạn hoặc đưa thi hài về nước với chi phí của gia đình. Danh sách không làm được có đúng 11 mục: cấp đổi giấy phép lái xe; trả tiền khách sạn, tiền phạt hoặc viện phí; trả tiền cho công dân mất tiền bạc để tiếp tục hành trình; ứng tiền đặt cọc hoặc lệ phí thuê luật sư; cử viên chức lãnh sự ra sân bay cấp hộ chiếu; tiến hành điều tra tội phạm; can thiệp vào tiến trình tư pháp hoặc yêu cầu nhà chức trách sở tại thả công dân bị bắt; hành động thay thế luật sư; hành động thay thế đại lý du lịch, bảo hiểm y tế hoặc ngân hàng; trả chi phí cho hoạt động tìm kiếm, cứu nạn do cơ quan dịch vụ nước sở tại tiến hành; trả chi phí hồi hương thi hài. Phía văn bản, khoản 2 Điều 8 bản hợp nhất là việc thăm lãnh sự và liên hệ với công dân bị bắt, tạm giữ, tạm giam, xét xử hoặc đang chấp hành án tại nước tiếp nhận; khoản 3 là việc tạm thời đại diện hoặc thu xếp người đại diện trước tòa khi công dân không tự bảo vệ được quyền của mình; khoản 4 là cấp hộ chiếu và giấy tờ có giá trị xuất nhập cảnh; khoản 10 là tiếp nhận đơn và chứng cứ để chuyển cho cơ quan có thẩm quyền trong nước. Chỗ dễ hiểu sai nhất là Quỹ Bảo hộ công dân: quỹ ứng trước tiền viện phí, thuốc men, vé về nước, tiền ăn ở trong lúc chờ làm thủ tục, nhưng chỉ khi đương sự có đặt cọc hoặc bảo lãnh của thân nhân, tổ chức trong nước, hoặc có cam kết bằng văn bản về việc hoàn trả. Trang về nạn nhân ốm đau còn ghi rõ cơ quan đại diện đến thăm trong vòng 48 giờ kể từ khi nhận thông báo, nếu việc thăm phù hợp với tình trạng sức khỏe và trụ sở đóng tại cùng thành phố với bệnh viện.
@@ -42,6 +48,8 @@ Về thang bằng chứng: **cả 13 mục hạng B**. Mỗi mục đứng trên
 
 ### 4. Bảo hiểm ra nước ngoài: đọc hai dòng là giới hạn trách nhiệm và điều khoản vận chuyển y tế
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-bao-hiem-ra-nuoc-ngoai-doc-hai-dong-la-gioi-han-trach" data-legacy="21-4"></a>
+
 - Chi phí: Một hợp đồng bảo hiểm cho một chuyến đi ngắn thường chỉ vài trăm nghìn đồng, nhưng mức phí tùy theo tuổi, nước đến và hạn mức, và không có bảng giá chính thức nào để dẫn. Cái đắt là khi không mua: toàn bộ viện phí ở nước ngoài là tiền túi, và một ca nằm viện dài ngày ở nước phát triển có thể lớn hơn nhiều lần giá vé. Cái mất thêm khi mua mà không đọc là phí đã đóng vẫn không dùng được, vì lý do từ chối nằm đúng ở điều khoản loại trừ hoặc ở việc hợp đồng chưa có hiệu lực lúc xảy ra tai nạn.
 - Nói dễ hiểu: Đại sứ quán không trả viện phí, và bảo hiểm y tế trong nước không đi theo bạn ra nước ngoài. Mua bảo hiểm du lịch, rồi đọc hai dòng: giới hạn trách nhiệm và hạn mức vận chuyển y tế. Hỏi rõ điều khoản loại trừ và ngày hợp đồng bắt đầu có hiệu lực.
 - Lợi ích: Bảo hiểm du lịch chỉ hữu ích nếu hiểu được hạn mức, loại chi phí y tế được trả và điều kiện vận chuyển về nước. Đọc điều khoản loại trừ trước khi đi.
@@ -52,6 +60,8 @@ Về thang bằng chứng: **cả 13 mục hạng B**. Mỗi mục đứng trên
 
 ### 5. "Việc nhẹ lương cao": kiểm giấy phép, trần tiền dịch vụ, và hợp đồng trước khi đưa hộ chiếu
 <!-- nhãn: tiền=nhiều thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-viec-nhe-luong-cao-kiem-giay-phep-tran-tien-dich-vu-va" data-legacy="21-5"></a>
+
 - Chi phí: Khoản phải bỏ ra là tiền dịch vụ, và mức trần đã có luật: không quá 01 tháng tiền lương theo hợp đồng cho mỗi 12 tháng làm việc, hợp đồng từ 36 tháng trở lên thì không quá 03 tháng lương, còn thời gian gia hạn thì không quá 0,5 tháng lương cho mỗi 12 tháng gia hạn. Cộng thêm tiền khám sức khỏe, tiền hộ chiếu, tiền học giáo dục định hướng và vé máy bay, tùy chương trình. Cái đắt không nằm ở các khoản đó mà ở khoản không có trần: tiền "làm hồ sơ", tiền "đặt cọc giữ chỗ", tiền môi giới thu từ người lao động — thứ bị cấm, và thường được gọi bằng tên khác trên giấy.
 - Nói dễ hiểu: Chỉ doanh nghiệp có giấy phép của Bộ Nội vụ mới được đưa người đi làm việc ở nước ngoài. Tiền dịch vụ tối đa 01 tháng lương cho mỗi 12 tháng làm việc. Không có hợp đồng thì không đưa hộ chiếu. Bị giữ giấy tờ hay bị đòi thêm tiền: gọi ngay số bảo hộ.
 - Lợi ích: Công việc ở nước ngoài cần kiểm giấy phép đơn vị tuyển, hợp đồng và toàn bộ phí. Đừng giao hộ chiếu hoặc chuyển khoản lớn chỉ vì lời hứa được đưa đi nhanh.
@@ -62,6 +72,8 @@ Về thang bằng chứng: **cả 13 mục hạng B**. Mỗi mục đứng trên
 
 ### 6. Mang tiền mặt qua cửa khẩu: ngưỡng phải khai và ngưỡng phải có giấy xác nhận là hai chuyện khác nhau
 <!-- nhãn: tiền=nhiều thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-mang-tien-mat-qua-cua-khau-nguong-phai-khai-va-nguong-phai" data-legacy="21-6"></a>
+
 - Chi phí: Không có lệ phí khai báo — tờ khai là tờ giấy, không phải một khoản thu, nên phần bỏ ra tính bằng thời gian chứ không bằng tiền: một lượt xếp hàng ở luồng hải quan, một tờ khai viết đúng số tiền thực mang, và nếu phải mang ra nước ngoài nhiều hơn con số 5.000 USD hoặc 15.000.000 đồng thì thêm một buổi ra ngân hàng xin giấy xác nhận, nơi tổ chức tín dụng có 03 ngày làm việc để cấp hoặc trả lời bằng văn bản rằng không cấp. Khoản đắt là khoản phạt khi không khai hoặc khai sai, và mức phạt tính theo trị giá phần vượt: từ 5.000.000 đến dưới 30.000.000 đồng phạt 1.000.000 đến 3.000.000 đồng; từ 30.000.000 đến dưới 70.000.000 đồng phạt 5.000.000 đến 15.000.000 đồng; từ 70.000.000 đến dưới 100.000.000 đồng phạt 15.000.000 đến 25.000.000 đồng; từ 100.000.000 đồng trở lên phạt 30.000.000 đến 50.000.000 đồng. Mất thêm là chênh lệch tỷ giá khi phải đổi lại số tiền bị giữ, và một chuyến bay bị lỡ vì phải làm việc với hải quan tại cửa khẩu.
 - Nói dễ hiểu: Mang tiền mặt qua cửa khẩu: trên 5.000 USD hoặc trên 15.000.000 đồng phải khai hải quan. Đó là ngưỡng khai, không phải ngưỡng cấm. Mang ra nước ngoài quá số đã khai lúc nhập cảnh thì phải có giấy xác nhận của ngân hàng.
 - Lợi ích: Mang ngoại tệ qua cửa khẩu phải phân biệt nghĩa vụ khai báo với yêu cầu chứng minh nguồn tiền. Đếm số tiền mặt trước khi lên đường và giữ chứng từ liên quan.
@@ -72,6 +84,8 @@ Về thang bằng chứng: **cả 13 mục hạng B**. Mỗi mục đứng trên
 
 ### 7. Sao lưu hộ chiếu và visa: hai ngày để báo mất, và ba mốc thời gian khi làm lại ở nước ngoài
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-sao-luu-ho-chieu-va-visa-hai-ngay-de-bao-mat-va" data-legacy="21-7"></a>
+
 - Chi phí: Phần bỏ ra trước chuyến đi gần như bằng không: một bản chụp trang thông tin và trang có thị thực, một tệp ảnh trong điện thoại, một bản gửi cho người ở nhà, và một tờ giấy ghi số hộ chiếu cùng ngày hết hạn. Khoản đắt nằm ở lúc mất, và nó tính bằng ngày: 02 ngày làm việc kể từ ngày phát hiện mất là hạn nộp đơn báo mất, sau đó 01 ngày làm việc để cơ quan tiếp nhận thông báo và 01 ngày làm việc để hộ chiếu bị hủy giá trị; ở nước ngoài, cấp hộ chiếu phổ thông lần đầu mất 05 ngày làm việc, từ lần thứ hai là 03 ngày làm việc, và hộ chiếu cấp theo thủ tục rút gọn chỉ có thời hạn không quá 12 tháng, dùng một lần. Tiền phí cấp lại tính theo biểu phí hiện hành, cộng tiền một thị thực mới nếu thị thực cũ dán trong hộ chiếu bị mất, cộng những đêm ở lại thêm và một vé máy bay đổi ngày. Cuốn hộ chiếu phổ thông cấp cho người từ 14 tuổi trở lên có thời hạn 10 năm, nên một lần mất là mất luôn quãng dài còn lại của cuốn đó, không phải chỉ mất chuyến đi.
 - Nói dễ hiểu: Hộ chiếu phổ thông cấp cho người từ 14 tuổi có thời hạn 10 năm. Mất hộ chiếu phải nộp đơn báo mất trong 02 ngày làm việc; hộ chiếu còn hạn cũng bị hủy giá trị. Ở nước ngoài, cơ quan đại diện cấp hộ chiếu lần đầu trong 05 ngày làm việc.
 - Lợi ích: Sao lưu hộ chiếu, visa, giấy tờ cư trú và thông tin liên lạc cơ quan đại diện. Khi mất giấy tờ ở nước ngoài, báo đúng cơ quan sớm để tránh mất quyền di chuyển.
@@ -82,6 +96,8 @@ Về thang bằng chứng: **cả 13 mục hạng B**. Mỗi mục đứng trên
 
 ### 8. Giấy phép lái xe quốc tế: chỉ bản theo Công ước Viên mới có giá trị, và thông tư cũ đã bị thay
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=khác -->
+<a name="entry-giay-phep-lai-xe-quoc-te-chi-ban-theo-cong-uoc-vien" data-legacy="21-8"></a>
+
 - Chi phí: Một lần nộp hồ sơ, một ảnh, bản chính giấy phép lái xe quốc gia bằng vật liệu PET còn giá trị và hộ chiếu để đối chiếu; cơ quan nhận có 02 ngày làm việc để báo nếu đơn thiếu, và 05 ngày làm việc để cấp. Lệ phí tính theo biểu phí hiện hành, không phải khoản lớn. Khoản đắt là khoản mua sai: một "giấy phép lái xe quốc tế" bán trên mạng giá vài trăm nghìn tới vài triệu đồng, giao trong vài ngày, không cần bản chính giấy phép lái xe Việt Nam, và không có giá trị khi bị kiểm tra — mất tiền, mất luôn thời gian, và ở nước ngoài thì bị coi là lái xe không có giấy phép. Khoản mất thêm với người đi đường dài là thời hạn: giấy phép lái xe quốc tế không quá 03 năm và không dài hơn giấy phép lái xe quốc gia, nên làm sát ngày bay mà giấy phép quốc gia sắp hết hạn thì giấy mới cũng ngắn theo.
 - Nói dễ hiểu: Giấy phép lái xe quốc tế chỉ có giá trị khi do nước thành viên Công ước Viên cấp theo mẫu thống nhất, thời hạn không quá 03 năm. Thủ tục trong nước mất 05 ngày làm việc. Số giấy mở đầu bằng VN và 12 chữ số lấy từ giấy phép quốc gia; giấy bán trên mạng như IAA không phải giấy đó.
 - Lợi ích: Trước khi tự lái ở nước ngoài, kiểm nước đến có công nhận loại giấy phép lái xe quốc tế mình có không. Giấy dịch thuật không tự trở thành giấy phép hợp lệ.
@@ -92,6 +108,8 @@ Về thang bằng chứng: **cả 13 mục hạng B**. Mỗi mục đứng trên
 
 ### 9. Thuê làm visa, du học, định cư: chỗ có giấy phép tra được, chỗ không có thì đọc hợp đồng
 <!-- nhãn: tiền=nhiều thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-thue-lam-visa-du-hoc-dinh-cu-cho-co-giay-phep-tra" data-legacy="21-9"></a>
+
 - Chi phí: Với nghề đưa người lao động đi làm việc ở nước ngoài, con số phải bỏ ra có trần và trần đó tính bằng tháng lương: tiền dịch vụ thu từ người lao động không quá 01 tháng tiền lương theo hợp đồng cho mỗi 12 tháng làm việc, không quá 1,5 tháng với sĩ quan và thuyền viên tàu vận tải biển, không quá 03 tháng khi hợp đồng từ 36 tháng trở lên, và không quá 0,5 tháng cho mỗi 12 tháng gia hạn. Khoản đắt nhất là khoản thu trước: nhiều nơi đòi đặt cọc trước khi có hợp đồng, và nếu doanh nghiệp không có giấy phép thì số tiền đó đi vào chỗ không có ai bảo đảm. Mức phạt cho thấy chuyện đó bị coi nặng tới đâu: thu tiền dịch vụ không đúng quy định bị phạt 80.000.000 đến 100.000.000 đồng và có thể bị đình chỉ hoạt động; thu tiền của người lao động trái pháp luật hoặc thu tiền tuyển chọn bị phạt 50.000.000 đến 70.000.000 đồng cho mỗi người lao động, tối đa 200.000.000 đồng; dùng giấy phép của doanh nghiệp khác để hoạt động bị phạt 180.000.000 đến 200.000.000 đồng. Còn với dịch vụ làm visa, tư vấn du học và định cư thì không có giấy phép nào để tra, nên phần bỏ ra không có trần: một hợp đồng trọn gói có thể gấp nhiều lần chi phí thật, và khi không đi được thì phần hoàn lại phụ thuộc đúng câu chữ trong hợp đồng.
 - Nói dễ hiểu: Đưa người đi làm việc ở nước ngoài là nghề phải có giấy phép; tra danh sách của cơ quan đang cấp phép — hiện là Bộ Nội vụ, còn luật vẫn ghi tên cũ tới 01/3/2027. Tiền dịch vụ không quá 01 tháng lương cho mỗi 12 tháng làm việc, chỉ thu sau khi ký hợp đồng; đòi trước là dấu hiệu sai.
 - Lợi ích: Dịch vụ visa, du học hoặc định cư cần kiểm pháp nhân, loại giấy phép và hợp đồng. Khoản phí, điều kiện hoàn tiền và lời hứa kết quả phải có chứng từ.
@@ -102,6 +120,8 @@ Về thang bằng chứng: **cả 13 mục hạng B**. Mỗi mục đứng trên
 
 ### 10. Không cho mượn hộ chiếu, không cho người lạ dùng tên mình làm thủ tục xuất nhập cảnh
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-khong-cho-muon-ho-chieu-khong-cho-nguoi-la-dung-ten-minh" data-legacy="21-10"></a>
+
 - Chi phí: Không mất tiền mặt, nhưng mất thứ khó lấy lại hơn. Một lần hộ chiếu bị giữ ở cửa khẩu là mất luôn chuyến đi đã trả tiền, vé và phòng không đòi lại được. Nếu cơ quan chức năng lập biên bản thì hồ sơ xử phạt đi theo mình nhiều năm. Cái mất thêm là thời gian: một buổi lên cơ quan quản lý xuất nhập cảnh để giải trình, cộng những tuần chờ cấp lại giấy tờ. Khi hộ chiếu đang nằm trong tay người khác thì mình cũng không báo mất được, vì báo mất một giấy tờ mà mình đã tự đưa đi là khai không đúng sự thật.
 
 - Nói dễ hiểu: Hộ chiếu là giấy tờ Nhà nước cấp cho mình dùng, nên cho mượn, cho thuê hay cầm cố đều là việc bị cấm. Chưa chấp hành xong quyết định xử phạt thì chưa được cấp hộ chiếu mới, nên một lần cho mượn có thể chặn chuyến đi sang năm.
@@ -115,6 +135,8 @@ Về thang bằng chứng: **cả 13 mục hạng B**. Mỗi mục đứng trên
 
 ### 11. Trước khi đi, gửi lịch trình và số hộ chiếu cho một người ở nhà, rồi thống nhất nhịp báo tin
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=thời-gian -->
+<a name="entry-truoc-khi-di-gui-lich-trinh-va-so-ho-chieu-cho-mot" data-legacy="21-11"></a>
+
 - Chi phí: Bạn gần như không tốn tiền: chỉ cần một tin nhắn, một tấm ảnh chụp trang thông tin hộ chiếu, một tờ lịch trình viết trong mười phút. Thứ khó hơn một chút là thỏa thuận mà nhiều nhà ngại nói: ai sẽ gọi khi ba ngày không thấy tin, và ai là người thứ hai nếu người thứ nhất không nghe máy. Cái mất thêm là quyền riêng tư: bản chụp hộ chiếu trong điện thoại của người khác là một tài liệu có ảnh, số và ngày sinh, nên chỉ gửi cho đúng một người và nói rõ khi nào thì xóa.
 
 - Nói dễ hiểu: Trước khi lên đường, gửi cho một người ở nhà lịch trình, số hộ chiếu, tên khách sạn và số của cơ quan đại diện, rồi thống nhất mấy ngày báo tin một lần. Khi bạn bị giữ, người ở nhà biết bạn đang ở đâu thì mới đề nghị được cơ quan đại diện tiếp xúc với bạn.
@@ -128,6 +150,8 @@ Về thang bằng chứng: **cả 13 mục hạng B**. Mỗi mục đứng trên
 
 ### 12. Mang thuốc theo người: ra nước ngoài theo luật nước đến, vào Việt Nam theo hạn mức 7 ngày và 10 ngày
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=vừa thước-đo=thời-gian -->
+<a name="entry-mang-thuoc-theo-nguoi-ra-nuoc-ngoai-theo-luat-nuoc-den-vao" data-legacy="21-12"></a>
+
 - Chi phí: Tiền thuốc đã mua là phần nhỏ; phần đắt là tiền khám lại và thời gian xin giấy. Muốn mang quá hạn mức thì phải có đơn thuốc của bác sĩ ghi rõ tên, tuổi, tên thuốc, hàm lượng, số lượng hoặc số ngày dùng, liều dùng, chữ ký và địa chỉ nơi hành nghề, rồi nộp hồ sơ đề nghị cấp phép cho cơ quan quản lý dược; đơn của bác sĩ nước ngoài không phải tiếng Việt hay tiếng Anh thì phải dịch và chứng thực chữ ký người dịch. Cái mất thêm là chuyến đi bị chậm ở cửa khẩu: thuốc thuộc diện phải xem giấy tờ thì mất thời gian đối chiếu, và thuốc không có giấy hợp lệ thì bị giữ lại chứ không được mang vào.
 
 - Nói dễ hiểu: Mang thuốc vào Việt Nam: tối đa 7 ngày với thuốc gây nghiện, 10 ngày với thuốc hướng thần, tính theo đơn, quá thì phải xin phép. Khi mang thuốc ra nước ngoài, bạn phải theo luật nước đến; hạn mức của Việt Nam không quyết định lượng thuốc bạn được mang vào nước đó.
@@ -141,6 +165,8 @@ Về thang bằng chứng: **cả 13 mục hạng B**. Mỗi mục đứng trên
 
 ### 13. Mang đồ ăn về nước: đồ tươi sống hay mới sơ chế thì đừng mang, đồ chế biến sẵn không quá 5 kg mới được miễn kiểm dịch
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=khác -->
+<a name="entry-mang-do-an-ve-nuoc-do-tuoi-song-hay-moi-so-che" data-legacy="21-13"></a>
+
 - Chi phí: Tiền hàng mua ở nước ngoài coi như mất, vì hàng vi phạm có thể bị tiêu hủy ngay tại khu vực gần cửa khẩu chứ không trả lại. Khoản phạt đi kèm là 5.000.000 đồng đến 6.000.000 đồng cho một hành vi, và mức đó áp cho cá nhân; tổ chức vi phạm cùng hành vi thì gấp đôi. Cái mất thêm là thời gian đứng chờ: hàng thuộc diện kiểm dịch phải khai báo tại cơ quan kiểm dịch động vật cửa khẩu, và với sản phẩm mang theo người không phải lấy mẫu, giấy chứng nhận kiểm dịch được cấp trong 1 ngày làm việc kể từ khi kiểm dịch.
 
 - Nói dễ hiểu: Nếu mang về đồ ăn tươi sống hoặc mới sơ chế thuộc nhóm sản phẩm động vật — thịt, cá, trứng, sữa — bạn bị phạt 5.000.000 đến 6.000.000 đồng, còn đồ ăn bị tiêu hủy tại cửa khẩu. Đồ đã chế biến, bao gói sẵn, không quá 5 kg cho tự dùng và không thuộc danh mục cấm thì được miễn kiểm dịch.

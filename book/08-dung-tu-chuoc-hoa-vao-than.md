@@ -4,14 +4,16 @@
 
 Chương này không quy đổi ra tuổi thọ. Nó tính bằng hai thứ khó lấy lại hơn: tiền và tự do. Cả chương trả lời ba câu — việc này pháp luật bắt bạn chịu trách nhiệm gì, làm đúng thì giữ được bao nhiêu tiền, và khi đã bị giữ, bị buộc tội hay bị đòi thì bạn có quyền gì. Mỗi con số đều gắn với một văn bản có số hiệu, điều và khoản, để người đọc tự mở lại được chứ không phải tin lời sách.
 
-Thang bằng chứng ở chương này khác các chương về sức khỏe, và phải đọc đúng. Chương **không có mục nào hạng A**: không có thử nghiệm ngẫu nhiên nào trả lời được câu "có nên bỏ chạy khỏi hiện trường hay không", nên chỗ chắc ở đây là **văn bản**, không phải nghiên cứu. **43 mục hạng B** là những mục mà quy tắc và con số được viết thẳng trong luật — khung hình phạt, mức phạt, thời hiệu, thời hạn; **3 mục hạng C** là mục 3 và mục 4 (bốn câu chống lừa đảo, và nguyên tắc cúp máy gọi lại) cùng mục 42 (cách quay hiện trường): đó là **mẹo nghề**, hữu ích nhưng không có văn bản nào quy định và không ai đo được chúng tiết kiệm bao nhiêu tiền.
+Thang bằng chứng ở chương này khác các chương về sức khỏe, và phải đọc đúng. Chương **không có mục nào hạng A**: không có thử nghiệm ngẫu nhiên nào trả lời được câu "có nên bỏ chạy khỏi hiện trường hay không", nên chỗ chắc ở đây là **văn bản**, không phải nghiên cứu. **43 mục hạng B** là những mục mà quy tắc và con số được viết thẳng trong luật — khung hình phạt, mức phạt, thời hiệu, thời hạn; **3 mục hạng C** là [mục 3](08-dung-tu-chuoc-hoa-vao-than.md#entry-bon-cau-chong-lua-dao-khong-tin-nguoi-goi-den-khong-doc) và [mục 4](08-dung-tu-chuoc-hoa-vao-than.md#entry-nhin-thay-mat-nghe-thay-giong-deu-khong-phai-la-xac-thuc) (bốn câu chống lừa đảo, và nguyên tắc cúp máy gọi lại) cùng [mục 42](08-dung-tu-chuoc-hoa-vao-than.md#entry-hien-truong-quay-canh-rong-truoc-roi-vi-tri-roi-thiet-hai) (cách quay hiện trường): đó là **mẹo nghề**, hữu ích nhưng không có văn bản nào quy định và không ai đo được chúng tiết kiệm bao nhiêu tiền.
 
 Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế định quen thuộc trong sách nước ngoài **không tồn tại ở đây** — không có tổng đài chống lừa đảo riêng, không có lệnh cấm tiêu dùng, không có danh sách tín dụng do nhà nước công bố, không có quỹ bảo hiểm tiền gửi cho mọi khoản. Chỗ nào Việt Nam không có thứ tương đương thì mục nói thẳng là không có, thay vì dịch tên gọi sang rồi để người đọc đi tìm một thủ tục không tồn tại.
 
-**Nhóm mục**: **Phòng lừa đảo**: mục 2 (chuyển tiền), 3, 4, 8, 9, 22, 27, 29, 45 · **Ký giấy, vay tiền và nợ**: mục 17 (tờ giấy), 18, 19, 20, 21, 28, 44 · **Xung đột và oán hận**: mục 10 (công an), 11, 12, 13, 14, 15, 38 · **Yêu và hôn nhân**: mục 23, 24, 25, 26, 43 · **Báo công an, bị buộc tội, lấy chứng cứ**: mục 5 (luật sư), 6, 33, 34, 35, 39, 40, 41, 42 · **Nói trên mạng**: mục 16, 37 · **Quan hệ và bị cưỡng đoạt**: mục 31, 32, 36 · **Lái xe, nuôi chó, chống trộm**: mục 1 (tai nạn), 7, 30, 46
+**Nhóm mục**: **Phòng lừa đảo**: [mục 2](08-dung-tu-chuoc-hoa-vao-than.md#entry-nghi-bi-lua-chuyen-tien-thi-goi-113-ngay-dung-tu-di) (chuyển tiền), 3, 4, 8, 9, 22, 27, 29, 45 · **Ký giấy, vay tiền và nợ**: [mục 17](08-dung-tu-chuoc-hoa-vao-than.md#entry-doc-het-to-giay-truoc-khi-ky-khong-ky-ho-khong-ky) (tờ giấy), 18, 19, 20, 21, 28, 44 · **Xung đột và oán hận**: [mục 10](08-dung-tu-chuoc-hoa-vao-than.md#entry-dung-chuyen-thi-lui-lai-goi-cong-an-dung-ra-tay-truoc) (công an), 11, 12, 13, 14, 15, 38 · **Yêu và hôn nhân**: [mục 23](08-dung-tu-chuoc-hoa-vao-than.md#entry-qua-lon-trong-chuyen-tinh-cam-nghi-truoc-khi-trao-vi-trao), [24](08-dung-tu-chuoc-hoa-vao-than.md#entry-sinh-le-thi-chuyen-khoan-va-ghi-ro-noi-dung-cuoi-khong), [25](08-dung-tu-chuoc-hoa-vao-than.md#entry-tai-san-co-truoc-ngay-cuoi-van-la-cua-rieng-ban-nhung), [26](08-dung-tu-chuoc-hoa-vao-than.md#entry-truoc-khi-dang-ky-yeu-cau-doi-phuong-xin-giay-xac-nhan), [43](08-dung-tu-chuoc-hoa-vao-than.md#entry-bi-bao-luc-trong-nha-bao-cong-an-lay-bien-ban-roi) · **Báo công an, bị buộc tội, lấy chứng cứ**: [mục 5](08-dung-tu-chuoc-hoa-vao-than.md#entry-bi-giu-bi-goi-len-lam-viec-thi-im-lang-va-goi) (luật sư), 6, 33, 34, 35, 39, 40, 41, 42 · **Nói trên mạng**: [mục 16](08-dung-tu-chuoc-hoa-vao-than.md#entry-tren-mang-khong-chui-khong-bia-khong-chia-se-thu-chua-kiem), [37](08-dung-tu-chuoc-hoa-vao-than.md#entry-bi-bao-luc-mang-luu-bang-chung-truoc-roi-bat-chan-roi) · **Quan hệ và bị cưỡng đoạt**: [mục 31](08-dung-tu-chuoc-hoa-vao-than.md#entry-nguoi-dang-ngu-dang-say-mat-y-thuc-hoac-chua-du-tuoi), [32](08-dung-tu-chuoc-hoa-vao-than.md#entry-bi-doi-tien-sau-khi-quan-he-tinh-duc-hoac-gui-anh), [36](08-dung-tu-chuoc-hoa-vao-than.md#entry-minh-la-nguoi-bi-hai-di-doi-tien-doi-bang-van-ban) · **Lái xe, nuôi chó, chống trộm**: [mục 1](08-dung-tu-chuoc-hoa-vao-than.md#entry-gay-tai-nan-thi-dung-lai-cuu-nguoi-goi-113-va-o) (tai nạn), 7, 30, 46
 
 ### 1. Gây tai nạn thì dừng lại, cứu người, gọi 113 và ở lại hiện trường — bỏ đi là sang khung nặng hơn
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-gay-tai-nan-thi-dung-lai-cuu-nguoi-goi-113-va-o" data-legacy="8-1"></a>
+
 - Chi phí: Không mất tiền để dừng lại: bật đèn cảnh báo, đặt biển báo, đưa người bị nạn đi cấp cứu, gọi 113 hoặc 115. Bạn phải dành thời gian chờ làm việc với công an, thường một buổi đến nửa ngày. Bạn cũng cần mang theo các giấy tờ của người lái và phương tiện: chứng nhận đăng ký xe, giấy phép lái xe, chứng nhận kiểm định, chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự (Luật Trật tự, an toàn giao thông đường bộ 36/2024/QH15, Điều 56 khoản 1). Nếu phải dùng chính chiếc xe gây tai nạn để chở nạn nhân đi viện thì phải đánh dấu vị trí xe và vị trí nạn nhân trước khi di chuyển.
 - Nói dễ hiểu: Dừng lại, cứu người, gọi 113, ở lại hiện trường. Bỏ đi thì khung hình phạt nhảy từ tù 1 năm đến 5 năm lên 3 năm đến 10 năm, vì bỏ chạy để trốn tránh trách nhiệm là tình tiết định khung.
 - Lợi ích: Dừng lại, cứu người và trình báo giúp bạn thực hiện nghĩa vụ tại hiện trường. Bỏ chạy để trốn tránh trách nhiệm có thể khiến khung hình phạt nặng hơn; các mức phạt và điều kiện cụ thể nằm trong phần Pháp luật Việt Nam.
@@ -22,6 +24,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 2. Nghi bị lừa chuyển tiền thì gọi 113 ngay, đừng tự đi xác minh trước
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-nghi-bi-lua-chuyen-tien-thi-goi-113-ngay-dung-tu-di" data-legacy="8-2"></a>
+
 - Chi phí: Không mất tiền. Cần chuẩn bị trong lúc gọi: số tài khoản nhận, tên chủ tài khoản, số tiền, giờ chuyển, mã giao dịch, ảnh chụp tin nhắn và sao kê. Đi lại một lượt ra công an cấp xã nơi mình cư trú hoặc cơ quan cảnh sát điều tra cấp tỉnh để trình báo và ký biên bản (bộ máy công an địa phương nay chỉ còn hai cấp, nên đừng đi tìm công an cấp huyện).
 - Nói dễ hiểu: Tiền vừa chuyển còn trong tài khoản thì còn giữ được. Gọi 113 ngay, đọc đúng số tài khoản nhận, số tiền và giờ chuyển. Công an có văn bản yêu cầu thì ngân hàng phải phong tỏa. Đừng tự đi tra trước rồi mới báo.
 - Lợi ích: Khi vừa chuyển tiền cho kẻ lừa đảo, báo ngay số tài khoản nhận, thời điểm và số tiền cho công an và ngân hàng. Phản ứng sớm làm tăng cơ hội còn tiền để truy vết và xử lý.
@@ -32,6 +36,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 3. Bốn câu chống lừa đảo: không tin người gọi đến, không đọc mã, không bấm link, không chuyển tiền trước khi gọi lại số đã lưu
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-bon-cau-chong-lua-dao-khong-tin-nguoi-goi-den-khong-doc" data-legacy="8-3"></a>
+
 - Chi phí: Không mất tiền. Bạn cần gọi lại, chờ vài phút và chịu sức ép từ bên kia: họ thường nói việc đang khẩn cấp, có hạn chót, nếu cúp máy thì sẽ mất cơ hội. Bốn câu phải thuộc lòng: không tin người gọi đến, không đọc mã xác thực, không bấm vào link được gửi, không chuyển tiền khi chưa gọi lại bằng số đã lưu.
 - Nói dễ hiểu: Nhiều vụ lừa đảo khép lại ở một bước: bạn tự tay bấm chuyển tiền. Bốn câu để nhớ — không tin người gọi đến, không đọc mã xác thực, không bấm link, không chuyển tiền trước khi gọi lại số cũ. Nghi thì gọi 113, phản ánh số lạ tới 156.
 - Lợi ích: Bốn câu này không phải khẩu hiệu mà dựa trên những cơ chế có thật. Mã xác thực một lần (OTP) chính là chìa khóa mở tài khoản: nếu bạn đọc mã cho người khác, họ có thể dùng mã đó để xác nhận giao dịch, còn bạn thì khó chứng minh mình không thực hiện giao dịch ấy. Ba số để dùng: 113 gọi công an khi đã lỡ chuyển tiền; 156 là tổng đài miễn phí của Bộ Thông tin và Truyền thông để phản ánh cuộc gọi, tin nhắn rác và cuộc gọi có dấu hiệu lừa đảo (Nghị định 91/2020/NĐ-CP là khung pháp lý về chống tin nhắn rác, thư điện tử rác, cuộc gọi rác); 115 gọi cấp cứu nếu bị đe dọa đến sức khỏe.
@@ -42,6 +48,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 4. Nhìn thấy mặt, nghe thấy giọng đều không phải là xác thực: cứ cúp máy rồi gọi lại số đã lưu
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-nhin-thay-mat-nghe-thay-giong-deu-khong-phai-la-xac-thuc" data-legacy="8-4"></a>
+
 - Chi phí: Không mất tiền. Bạn cần gọi lại, chờ vài phút và hỏi người thân câu có thể khiến họ khó chịu: "có đúng là anh/em đang nói chuyện với tôi không". Bình thường thì nên hạn chế đăng video thấy rõ khuôn mặt và đoạn ghi âm dài ở chế độ công khai, vì đó chính là nguyên liệu để làm giả giọng và mặt.
 - Nói dễ hiểu: Mặt và giọng đều làm giả được, nên nhìn thấy mặt không phải là xác thực. Hễ ai giục chuyển tiền thì cúp máy, gọi lại bằng số đã lưu trong danh bạ hoặc nhờ người thứ ba hỏi hộ. Đừng gọi lại số vừa gọi tới, đừng mở chia sẻ màn hình.
 - Lợi ích: Gọi lại bằng số điện thoại đã lưu là cách kiểm tra đáng tin hơn hình ảnh hoặc giọng nói trên một cuộc gọi lạ. Đừng chuyển tiền chỉ vì trông thấy người quen trên màn hình.
@@ -52,6 +60,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 5. Bị giữ, bị gọi lên làm việc thì im lặng và gọi luật sư; không tự giải thích cho êm, không đưa tiền, không xóa tin nhắn
 <!-- nhãn: tiền=ít thời-gian=nhiều ý-chí=có lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-bi-giu-bi-goi-len-lam-viec-thi-im-lang-va-goi" data-legacy="8-5"></a>
+
 - Chi phí: Luật sư là khoản tiền thật, thường tính theo buổi hoặc theo vụ, và mức cao thấp tùy nơi và tùy giai đoạn; người thuộc diện trợ giúp pháp lý thì được cử người bào chữa miễn phí (Luật Trợ giúp pháp lý 11/2017/QH14). Cái đắt hơn tiền là thời gian: quãng từ lúc bị giữ đến lúc có kết luận thường tính bằng tuần, có khi bằng tháng, và bạn phải chịu trọn quãng đó.
 - Nói dễ hiểu: Từ lúc bị giữ, bạn đã có quyền không khai chống lại mình và quyền gọi luật sư. Không tự giải thích cho êm, không đưa tiền cho ai để lo, không xóa tin nhắn. Lời nhận tội đứng một mình không đủ kết tội. Thời hạn tạm giữ tối đa 9 ngày.
 - Lợi ích: Khi bị giữ hoặc triệu tập làm việc, biết quyền của mình và nhờ luật sư sớm sẽ tránh những quyết định khó sửa. Giữ lại giấy tờ làm việc và không đưa tiền cho người tự nhận có thể 'lo'.
@@ -62,6 +72,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 6. Gây chuyện rồi thì tự đến cơ quan có thẩm quyền trình báo trước: tự thú là tình tiết giảm nhẹ, nhưng không có mức giảm cố định
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-gay-chuyen-roi-thi-tu-den-co-quan-co-tham-quyen-trinh" data-legacy="8-6"></a>
+
 - Chi phí: Không mất tiền để ra trình báo. Cái bỏ ra là việc phải kể lại đúng sự việc, ký biên bản, và ở lại làm việc; sau đó là cả quãng tố tụng. Khó nhất là bước đi đầu tiên, khi chưa ai gọi tên mình.
 - Nói dễ hiểu: Tự thú là tình tiết giảm nhẹ, nhưng không có mức giảm hình phạt cố định. Tự thú cộng thêm một tình tiết giảm nhẹ nữa thì tòa mới được tuyên dưới khung. Bỏ trốn mà đã bị truy nã thì thời hiệu tính lại từ lúc ra đầu thú.
 - Lợi ích: Tự đến trình báo và hợp tác đúng thủ tục có thể được xem xét khi giải quyết vụ án, nhưng không có công thức cố định để giảm hình phạt. Hãy tìm trợ giúp pháp lý thay vì làm theo lời hứa 'chạy án'.
@@ -72,6 +84,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 7. Đã uống thì không cầm lái, kể cả xe máy điện và cái "chỉ dời xe một chút", và đừng giao xe cho người đã uống
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-da-uong-thi-khong-cam-lai-ke-ca-xe-may-dien-va" data-legacy="8-7"></a>
+
 - Chi phí: Một cuốc xe công nghệ hoặc taxi trong thành phố thường vài chục nghìn đến vài trăm nghìn đồng, rẻ hơn nhiều so với mức phạt thấp nhất. Cái khó không phải tiền mà là câu nói trước bữa nhậu: "hôm nay tôi không uống vì tôi lái", và việc giữ đúng câu đó đến cuối buổi.
 - Nói dễ hiểu: Việt Nam không có ngưỡng một chút thì được: trong máu hoặc hơi thở có cồn là đã vi phạm. Người lái xe máy bị phạt tới 10.000.000 đồng và tước giấy phép 24 tháng; người đi xe đạp điện cũng bị phạt tiền.
 - Lợi ích: Không lái xe sau khi uống rượu bia, kể cả quãng ngắn. Nếu đã uống, gọi xe hoặc nhờ người hoàn toàn tỉnh táo đưa về; đừng giao xe cho người cũng không đủ điều kiện điều khiển.
@@ -82,6 +96,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 8. Không cho thuê, cho mượn, bán tài khoản ngân hàng, thẻ hay sim: đó không phải việc làm thêm
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-khong-cho-thue-cho-muon-ban-tai-khoan-ngan-hang-the-hay" data-legacy="8-8"></a>
+
 - Chi phí: Không mất gì: chỉ là từ chối. Cái bị mất khi đã cho mượn thì lớn hơn nhiều: tài khoản bị phong tỏa, không rút được tiền lương, mất quyền dùng các dịch vụ ngân hàng trực tuyến, và phải đi giải trình với ngân hàng cùng cơ quan điều tra trong khi vẫn phải trả các khoản vay đứng tên mình.
 - Nói dễ hiểu: Cho thuê, cho mượn, bán tài khoản hay thẻ ngân hàng là hành vi bị cấm, không phải việc làm thêm. Ăn tiền hoa hồng mà tài khoản thành chỗ nhận tiền lừa đảo thì người bị gọi lên làm việc là bạn, và có thể bị truy cứu hình sự.
 - Lợi ích: Giữ tài khoản và thẻ ngân hàng cho chính mình, không bán, cho mượn hay nhận tiền thuê tài khoản. Một khoản hoa hồng nhỏ có thể kéo theo trách nhiệm lớn khi tài khoản bị dùng để nhận tiền bất hợp pháp.
@@ -92,6 +108,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 9. Mỗi năm tự kiểm tra báo cáo tín dụng một lần, tìm khoản vay và thẻ không phải do mình mở
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-moi-nam-tu-kiem-tra-bao-cao-tin-dung-mot-lan-tim" data-legacy="8-9"></a>
+
 - Chi phí: Không mất tiền. Nghị định 58/2021/NĐ-CP (Điều 26 khoản 1 điểm a) buộc công ty thông tin tín dụng cấp miễn phí tối thiểu 1 lần trong một năm báo cáo tín dụng của chính khách hàng vay, nếu người đó có yêu cầu. Cái phải bỏ ra là một buổi ngồi đối chiếu từng khoản vay và từng thẻ với giấy tờ của mình.
 - Nói dễ hiểu: Mỗi năm bạn được xem báo cáo tín dụng của mình miễn phí ít nhất 1 lần, qua CIC hoặc ứng dụng ngân hàng. Xem để phát hiện khoản vay, thẻ không phải do bạn mở. Thông tin xấu chỉ được dùng để lập báo cáo tối đa 5 năm tính từ ngày sự việc kết thúc; thấy sai thì gửi yêu cầu chỉnh sửa.
 - Lợi ích: Kiểm tra báo cáo tín dụng định kỳ giúp phát hiện khoản vay hoặc thẻ lạ đứng tên mình. Khi có sai sót, lưu báo cáo và yêu cầu đơn vị cung cấp thông tin xác minh, điều chỉnh.
@@ -102,6 +120,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 10. Đụng chuyện thì lùi lại gọi công an, đừng ra tay trước
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-dung-chuyen-thi-lui-lai-goi-cong-an-dung-ra-tay-truoc" data-legacy="8-10"></a>
+
 - Chi phí: Không mất tiền để lùi lại và gọi 113. Nếu bạn là người ra tay: phạt tiền 6.000.000 đồng đến 8.000.000 đồng khi thương tích chưa tới mức bị truy cứu trách nhiệm hình sự (Nghị định 282/2025/NĐ-CP, Điều 8 khoản 5 điểm a), cộng tiền bồi thường cho người bị đánh theo thỏa thuận hoặc theo bản án. Khó nhất là nuốt cơn giận khi người kia đang chửi vào mặt mình.
 - Nói dễ hiểu: Người ra tay trước thường là người bị xử lý. Đánh mà chưa tới mức thương tích đáng kể thì phạt 6.000.000 đồng đến 8.000.000 đồng; tổn thương cơ thể từ 11% trở lên là chuyển sang án hình sự. Lùi ra chỗ đông người, gọi 113, giữ nguyên hiện trường và xin thông tin liên lạc của người làm chứng.
 - Lợi ích: Lùi lại và gọi người hỗ trợ giúp giảm nguy cơ cả hai bên bị thương và bị xử lý. Hành động trong lúc tức giận có thể để lại hậu quả pháp lý lâu dài.
@@ -112,36 +132,44 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 11. Bị tấn công thì được chống trả, nhưng chỉ nhắm người đang ra tay và dừng khi người đó dừng
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-bi-tan-cong-thi-duoc-chong-tra-nhung-chi-nham-nguoi-dang" data-legacy="8-11"></a>
+
 - Chi phí: Khoản đắt nhất là luật sư và thời gian. Bị tạm giữ thì tối đa 9 ngày trước khi phải trả tự do hoặc chuyển sang tạm giam (3 ngày, gia hạn 3 ngày, trường hợp đặc biệt gia hạn lần thứ hai 3 ngày — Điều 118 Bộ luật Tố tụng hình sự, văn bản hợp nhất 17/VBHN-VPQH). Trong mấy ngày đó bạn phải nghỉ làm, thu xếp người chăm con và giữ lời khai thống nhất qua nhiều buổi hỏi.
 - Nói dễ hiểu: Bạn được chống trả người đang xâm phạm mình hoặc người khác, nhưng chỉ nhắm đúng người đó và dừng ngay khi người đó dừng, bỏ chạy hoặc đã gục. Đánh tiếp sau đó là hết phòng vệ. Vẫn có thể bị tạm giữ tới 9 ngày dù cuối cùng được xác định là phòng vệ chính đáng.
 - Lợi ích: Phòng vệ giúp chặn hành vi xâm hại đang diễn ra, không phải để trả thù sau khi nguy hiểm đã qua. Khi đối phương ngừng hoặc rời đi, phải dừng việc chống trả.
 - Pháp luật Việt Nam: Điều 22 khoản 1 Bộ luật Hình sự: phòng vệ chính đáng là chống trả lại một cách cần thiết người đang có hành vi xâm phạm, và "phòng vệ chính đáng không phải là tội phạm". Khoản 2: vượt quá giới hạn phòng vệ chính đáng là "chống trả rõ ràng quá mức cần thiết", người vượt quá vẫn phải chịu trách nhiệm hình sự, nhưng đó là tình tiết giảm nhẹ theo Điều 51 khoản 1 điểm c. Người tấn công chết cũng không tự động làm bạn hết trách nhiệm: việc đó vẫn xét theo đúng tiêu chuẩn "chống trả cần thiết" của khoản 1, vượt quá thì vẫn bị xử. Về thời gian bị giữ: Điều 118 khoản 1 và khoản 2 Bộ luật Tố tụng hình sự, thời hạn tạm giữ không quá 3 ngày, gia hạn không quá 3 ngày, đặc biệt gia hạn lần thứ hai không quá 3 ngày, cộng lại tối đa 9 ngày.
 - Mức bằng chứng: B
 - Nguồn: Bộ luật Hình sự, văn bản hợp nhất 135/VBHN-VPQH (Điều 22, 51) — https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf ; Bộ luật Tố tụng hình sự, văn bản hợp nhất 17/VBHN-VPQH (Điều 118) — https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-17-vbhn-vpqh-468961.htm . Tra ngày 2/11/2026.
-- Ghi chú: Quan niệm sai là "cứ bị tấn công thì đánh tới cùng cũng không sao, cùng lắm là phòng vệ". Thực tế phần lớn hồ sơ mở ra theo hướng cố ý gây thương tích, và người chống trả phải tự chứng minh mình đang bị xâm phạm, chứ không phải cơ quan điều tra phải chứng minh ngược lại. Bốn cái bẫy ở Việt Nam. **(1)** Nhiều bài viết dẫn "Điều 23 vượt quá giới hạn phòng vệ chính đáng"; Điều 23 Bộ luật Hình sự là tình thế cấp thiết, còn vượt quá giới hạn phòng vệ nằm ở Điều 22 khoản 2 — trích sai điều là mất căn cứ ngay trước tòa. **(2)** Người tấn công ngã xuống hoặc bỏ chạy là xâm phạm đã chấm dứt; đánh thêm một cái vào lúc đó biến vụ việc thành tội cố ý gây thương tích, và chính bạn thành bị can. **(3)** Bỏ về trước khi công an tới có thể bị hiểu là bỏ trốn, dù bạn là người bị đánh; hãy ở lại, gọi 113, giữ nguyên quần áo, dấu vết thương tích và lưu hình ảnh camera. **(4)** Khai lần đầu trong lúc hoảng rất dễ mâu thuẫn với lần sau, và biên bản lần đầu được dùng để đối chiếu. Mục này **không** khuyến khích đánh trả: mặc định vẫn là lùi, gọi công an, ghi hình (mục 10), và chỉ chống trả khi không còn đường lùi.
+- Ghi chú: Quan niệm sai là "cứ bị tấn công thì đánh tới cùng cũng không sao, cùng lắm là phòng vệ". Thực tế phần lớn hồ sơ mở ra theo hướng cố ý gây thương tích, và người chống trả phải tự chứng minh mình đang bị xâm phạm, chứ không phải cơ quan điều tra phải chứng minh ngược lại. Bốn cái bẫy ở Việt Nam. **(1)** Nhiều bài viết dẫn "Điều 23 vượt quá giới hạn phòng vệ chính đáng"; Điều 23 Bộ luật Hình sự là tình thế cấp thiết, còn vượt quá giới hạn phòng vệ nằm ở Điều 22 khoản 2 — trích sai điều là mất căn cứ ngay trước tòa. **(2)** Người tấn công ngã xuống hoặc bỏ chạy là xâm phạm đã chấm dứt; đánh thêm một cái vào lúc đó biến vụ việc thành tội cố ý gây thương tích, và chính bạn thành bị can. **(3)** Bỏ về trước khi công an tới có thể bị hiểu là bỏ trốn, dù bạn là người bị đánh; hãy ở lại, gọi 113, giữ nguyên quần áo, dấu vết thương tích và lưu hình ảnh camera. **(4)** Khai lần đầu trong lúc hoảng rất dễ mâu thuẫn với lần sau, và biên bản lần đầu được dùng để đối chiếu. Mục này **không** khuyến khích đánh trả: mặc định vẫn là lùi, gọi công an, ghi hình ([mục 10](08-dung-tu-chuoc-hoa-vao-than.md#entry-dung-chuyen-thi-lui-lai-goi-cong-an-dung-ra-tay-truoc)), và chỉ chống trả khi không còn đường lùi.
 
 ### 12. Có thù thì đi khiếu nại, hòa giải, kiện; đừng đi tìm người ta tính sổ
 <!-- nhãn: tiền=0 thời-gian=nhiều ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-co-thu-thi-di-khieu-nai-hoa-giai-kien-dung-di-tim" data-legacy="8-12"></a>
+
 - Chi phí: Gần như không mất tiền: hòa giải và trọng tài lao động do ngân sách nhà nước trả, khởi kiện đòi lương, trợ cấp thôi việc, bảo hiểm xã hội được miễn án phí (Nghị quyết 326/2016/UBTVQH14, Điều 12 khoản 1 điểm a). Cái đắt là thời gian: vài tháng tới vài năm, nhiều buổi phải có mặt đúng giờ, và phải giữ bình tĩnh mỗi lần chạm mặt người đã quỵt mình.
 - Nói dễ hiểu: Bị quỵt lương, bị đuổi trái luật, bị lừa tiền thì đi đúng cửa: khiếu nại, hòa giải, trọng tài, tòa. Thời hiệu khởi kiện tranh chấp lao động là 1 năm, để quá là mất quyền. Còn tự đi tính sổ mà có người chết thì khung nhẹ nhất đã 7 năm tù, và tiền vẫn không đòi được.
 - Lợi ích: Giữ chứng cứ và chọn kênh khiếu nại, hòa giải hoặc khởi kiện giúp đòi quyền lợi mà không biến mình thành người vi phạm. Kiểm tra thời hạn từ đầu.
 - Pháp luật Việt Nam: Bộ luật Lao động 2019 Điều 190: thời hiệu yêu cầu tòa án giải quyết tranh chấp lao động cá nhân là 1 năm, hòa giải viên lao động 6 tháng, hội đồng trọng tài 9 tháng, tính từ ngày phát hiện hành vi vi phạm. Nghị định 12/2022/NĐ-CP Điều 17 khoản 2: trả lương chậm hoặc không đủ cho 1 đến 10 người lao động bị phạt 5.000.000 đồng đến 10.000.000 đồng và buộc trả đủ. Còn đường trả thù thì tính theo Bộ luật Hình sự Điều 123: khoản 2, giết người không thuộc tình tiết tăng nặng, phạt tù 7 năm đến 15 năm; khoản 1, giết 2 người trở lên hoặc giết bằng phương pháp có khả năng làm chết nhiều người, phạt 12 năm đến 20 năm, tù chung thân hoặc tử hình.
 - Mức bằng chứng: B
 - Nguồn: Bộ luật Lao động 2019, văn bản hợp nhất 18/VBHN-VPQH (Điều 190) — https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/02/18-vbhn-vpqh.pdf ; Nghị quyết 326/2016/UBTVQH14 (Điều 12 khoản 1 điểm a) — https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-326-2016-ubtvqh14-22191.htm ; Bộ luật Hình sự, văn bản hợp nhất 135/VBHN-VPQH (Điều 123) — https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf . Tra ngày 2/11/2026.
-- Ghi chú: Quan niệm sai là "kiện thì mất tiền, mất thời gian, mà có khi cũng chẳng đòi được; đánh cho nó một trận thì nhanh hơn". Đường trả thù không trả lại đồng nào và biến người bị quỵt thành người phạm tội giết người. Bốn cái bẫy ở Việt Nam. **(1)** Có ba mốc thời hiệu khác nhau, và mốc ngắn nhất là mốc dễ lỡ nhất: hòa giải 6 tháng, trọng tài 9 tháng, tòa 1 năm; chờ cho "đòi mãi không được" rồi mới đi là đã mất chặng rẻ nhất. **(2)** Thắng kiện chưa chắc đã lấy được tiền: công ty không còn tài sản thì bản án chỉ là tờ giấy, nên ngay từ đầu phải xin tòa áp dụng biện pháp khẩn cấp tạm thời (phong tỏa tài khoản) và tự tìm hiểu tài khoản, xe, máy móc của công ty trước khi tòa xử xong. **(3)** Nhắn tin "mày chờ đó", gọi điện dọa cả nhà trong lúc tức là tự biến mình thành người bị điều tra về tội đe dọa giết người, đúng lúc mình đang là người bị hại. **(4)** Đăng bài bóc phốt kèm ảnh, tên, nơi làm của người ta cũng có thể bị kiện ngược về làm nhục hoặc vu khống (mục 16). Mục này **không** có nghĩa là kiện lúc nào cũng có lợi: có vụ chỉ nên gửi đơn, lấy giấy biên nhận, rồi đi tiếp bằng con đường khác, nhưng vẫn phải bằng giấy tờ chứ không phải bằng nắm đấm.
+- Ghi chú: Quan niệm sai là "kiện thì mất tiền, mất thời gian, mà có khi cũng chẳng đòi được; đánh cho nó một trận thì nhanh hơn". Đường trả thù không trả lại đồng nào và biến người bị quỵt thành người phạm tội giết người. Bốn cái bẫy ở Việt Nam. **(1)** Có ba mốc thời hiệu khác nhau, và mốc ngắn nhất là mốc dễ lỡ nhất: hòa giải 6 tháng, trọng tài 9 tháng, tòa 1 năm; chờ cho "đòi mãi không được" rồi mới đi là đã mất chặng rẻ nhất. **(2)** Thắng kiện chưa chắc đã lấy được tiền: công ty không còn tài sản thì bản án chỉ là tờ giấy, nên ngay từ đầu phải xin tòa áp dụng biện pháp khẩn cấp tạm thời (phong tỏa tài khoản) và tự tìm hiểu tài khoản, xe, máy móc của công ty trước khi tòa xử xong. **(3)** Nhắn tin "mày chờ đó", gọi điện dọa cả nhà trong lúc tức là tự biến mình thành người bị điều tra về tội đe dọa giết người, đúng lúc mình đang là người bị hại. **(4)** Đăng bài bóc phốt kèm ảnh, tên, nơi làm của người ta cũng có thể bị kiện ngược về làm nhục hoặc vu khống ([mục 16](08-dung-tu-chuoc-hoa-vao-than.md#entry-tren-mang-khong-chui-khong-bia-khong-chia-se-thu-chua-kiem)). Mục này **không** có nghĩa là kiện lúc nào cũng có lợi: có vụ chỉ nên gửi đơn, lấy giấy biên nhận, rồi đi tiếp bằng con đường khác, nhưng vẫn phải bằng giấy tờ chứ không phải bằng nắm đấm.
 
 ### 13. Giận ai cũng đừng đánh vào người không liên quan
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-gian-ai-cung-dung-danh-vao-nguoi-khong-lien-quan" data-legacy="8-13"></a>
+
 - Chi phí: Không mất tiền để dừng lại. Cái mất là tự do, và mất theo năm: một vụ lao xe vào đám đông hay cầm dao giữa chợ được xử về tội giết người, không phải tội giao thông, nên không có khung nào dưới mức tù có thời hạn vài năm. Thêm vào đó là án phí, tiền bồi thường cho gia đình nạn nhân và việc cả nhà bạn phải sống với tên mình trên bản án.
 - Nói dễ hiểu: Trút giận bằng cách lao xe vào đám đông hay cầm dao giữa chợ bị xử như các tội thông thường. Làm chết người thì xử về tội giết người: khung thường từ 7 năm tù, giết từ 2 người trở lên thì 12 năm đến tử hình, và dù chưa ai bị thương thì người làm vẫn bị truy tố.
 - Lợi ích: Đừng kéo người không liên quan vào mâu thuẫn. Bạo lực trong lúc mất kiểm soát có thể gây hậu quả không thể đảo ngược cho cả nạn nhân và gia đình.
 - Pháp luật Việt Nam: Bộ luật Hình sự Điều 123 khoản 2: giết người không thuộc các tình tiết của khoản 1 thì phạt tù 7 năm đến 15 năm. Khoản 1: giết 2 người trở lên (điểm a), hoặc giết bằng phương pháp có khả năng làm chết nhiều người (điểm l) thì phạt 12 năm đến 20 năm, tù chung thân hoặc tử hình. Khoản 3: chuẩn bị phạm tội giết người phạt 1 năm đến 5 năm. Nếu nạn nhân chỉ bị thương thì người gây thương tích bị xử theo Điều 134 với các khung 6 tháng đến 3 năm, 2 năm đến 6 năm, 5 năm đến 10 năm tùy tỷ lệ tổn thương cơ thể. Nếu hoàn toàn vô ý thì chuyển sang Điều 260 (vi phạm quy định về tham gia giao thông đường bộ), khung nhẹ hơn hẳn, nhưng chỉ khi không chứng minh được ý định.
 - Mức bằng chứng: B
 - Nguồn: Bộ luật Hình sự, văn bản hợp nhất 135/VBHN-VPQH (Điều 123, 134, 260) — https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf . Tra ngày 2/11/2026.
-- Ghi chú: Hai quan niệm sai là "tôi cũng định chết, chết luôn thì tòa cũng không làm gì được tôi nữa" và "chưa chết ai thì chỉ là tai nạn giao thông". Cả hai đều sai. Ý định chết không phải tình tiết giảm nhẹ, còn chết hay chưa chết chỉ đổi khung, không đổi tội danh. Ba cái bẫy ở Việt Nam. **(1)** Say rồi lái vào đám đông mà khai "không nhớ gì" không tự động thành vô ý: camera, lịch sử tìm kiếm, tin nhắn trước đó được dùng để chứng minh ý chí, và một bài đăng "tôi sẽ cho tất cả biết tay" là chứng cứ. **(2)** Nhắn tin hoặc gọi điện dọa giết trước khi làm là hành vi riêng, bị xử theo tội đe dọa giết người, và cũng là chứng cứ cho vụ sau. **(3)** Quay clip, phát trực tiếp lúc gây án vừa là tình tiết tăng nặng, vừa làm mất mọi khả năng xin giảm nhẹ; người thân đăng lại cũng bị xử lý. Mục này **không** nói ai từng có ý nghĩ đó là tội phạm: ý nghĩ không bị xử, và đi khám, điều trị, nhờ người giữ hộ hung khí là việc nên làm (mục 14), nhưng hành vi thì bị xử rất nặng.
+- Ghi chú: Hai quan niệm sai là "tôi cũng định chết, chết luôn thì tòa cũng không làm gì được tôi nữa" và "chưa chết ai thì chỉ là tai nạn giao thông". Cả hai đều sai. Ý định chết không phải tình tiết giảm nhẹ, còn chết hay chưa chết chỉ đổi khung, không đổi tội danh. Ba cái bẫy ở Việt Nam. **(1)** Say rồi lái vào đám đông mà khai "không nhớ gì" không tự động thành vô ý: camera, lịch sử tìm kiếm, tin nhắn trước đó được dùng để chứng minh ý chí, và một bài đăng "tôi sẽ cho tất cả biết tay" là chứng cứ. **(2)** Nhắn tin hoặc gọi điện dọa giết trước khi làm là hành vi riêng, bị xử theo tội đe dọa giết người, và cũng là chứng cứ cho vụ sau. **(3)** Quay clip, phát trực tiếp lúc gây án vừa là tình tiết tăng nặng, vừa làm mất mọi khả năng xin giảm nhẹ; người thân đăng lại cũng bị xử lý. Mục này **không** nói ai từng có ý nghĩ đó là tội phạm: ý nghĩ không bị xử, và đi khám, điều trị, nhờ người giữ hộ hung khí là việc nên làm ([mục 14](08-dung-tu-chuoc-hoa-vao-than.md#entry-nghi-toi-chet-chung-cho-xong-thi-coi-la-cap-cuu-roi)), nhưng hành vi thì bị xử rất nặng.
 
 ### 14. Nghĩ tới "chết chung cho xong" thì coi là cấp cứu: rời khỏi chỗ đó, đưa chìa khóa và dao cho người khác
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-nghi-toi-chet-chung-cho-xong-thi-coi-la-cap-cuu-roi" data-legacy="8-14"></a>
+
 - Chi phí: Không mất tiền để làm ba việc đầu tiên: đứng dậy rời khỏi chỗ đang ngồi, đưa chìa khóa xe và dao bếp cho người khác giữ, gọi 115 hoặc gọi cho một người thân đang ở gần. Khó ở chỗ phải nói ra câu "lúc này em không kiểm soát được", và khó ở chỗ người thân phải giữ đồ mà không giảng đạo.
 - Nói dễ hiểu: Có ý nghĩ làm người khác chết cùng mình là tình huống cần cấp cứu, không phải chuyện triết lý. Trong 82 người từng tìm cách tự sát, 47,6% nói từ lúc nghĩ tới lúc làm chỉ 10 phút hoặc ít hơn. Việc phải làm: rời khỏi chỗ đó, đưa chìa khóa và dao cho người khác, gọi 115.
 - Lợi ích: Thời gian để can thiệp rất ngắn: Deisenhammer và cộng sự (2009) phỏng vấn 82 người được đưa vào bệnh viện tâm thần trong vòng 3 ngày sau khi tìm cách tự sát; 47,6% (39 người) nói khoảng thời gian từ lần đầu nghĩ tới lúc thực hiện là 10 phút hoặc ít hơn; 76,8% (63 người) nói trong lúc đó có ít nhất một lần liên lạc với người khác. Về phía can thiệp, tổng quan 10 năm của Zalsman và cộng sự (2016) trên 1.797 nghiên cứu kết luận bằng chứng cho việc hạn chế phương tiện gây chết đã mạnh lên: kiểm soát thuốc giảm đau giảm 43% kể từ 2005, rào chắn ở điểm nhảy lầu giảm 86% (khoảng 79% đến 91%).
@@ -152,6 +180,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 15. Người nhà nói "đừng hòng ai sống yên" thì đừng coi là nói cho hết giận
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-nguoi-nha-noi-dung-hong-ai-song-yen-thi-dung-coi-la" data-legacy="8-15"></a>
+
 - Chi phí: Một buổi đưa người nhà đi khám chuyên khoa tâm thần: tiền khám và xét nghiệm trả theo bảng giá của bệnh viện, cộng một ngày nghỉ làm. Nếu phải xin quyết định cấm tiếp xúc thì thêm giấy tờ, thêm lần lên xã, và thời gian chờ. Khó nhất là dám nói với người ngoài rằng trong nhà đang có chuyện, thay vì giữ kín cho khỏi xấu hổ.
 - Nói dễ hiểu: Gia đình không tự quyết đưa người nhà vào điều trị nội trú, nhưng có đường đề nghị: người đang kích động, có thể gây nguy hại thì thuộc diện bắt buộc chữa bệnh. Việc làm ngay: gọi 115, báo công an xã, xin cấm tiếp xúc.
 - Lợi ích: Nếu người nhà đe dọa gây hại cho người khác, giữ an toàn trước và báo người có thẩm quyền. Đừng coi những lời đe dọa nghiêm trọng chỉ là chuyện riêng trong nhà.
@@ -162,6 +192,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 16. Trên mạng: không chửi, không bịa, không chia sẻ thứ chưa kiểm chứng; bị tấn công thì lưu bằng chứng trước
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-tren-mang-khong-chui-khong-bia-khong-chia-se-thu-chua-kiem" data-legacy="8-16"></a>
+
 - Chi phí: Không đăng thì không mất tiền. Nếu đăng: cá nhân bị phạt 10.000.000 đồng đến 15.000.000 đồng (Nghị định 174/2026/NĐ-CP, Điều 95 khoản 1 điểm a; mức ghi trong nghị định áp cho tổ chức, còn cá nhân chịu một nửa — Điều 4 khoản 3), và còn bị buộc gỡ nội dung. Bị tấn công thì mất thời gian: chụp màn hình, lưu đường dẫn, gửi khiếu nại cho nền tảng, rồi làm đơn.
 - Nói dễ hiểu: Chửi hay bịa chuyện về người khác trên mạng: cá nhân bị phạt 10.000.000 đồng đến 15.000.000 đồng, nặng thì thành tội làm nhục hoặc vu khống, tù tới 3 năm. Bị chửi thì đừng chửi lại: chụp màn hình, lưu đường dẫn, báo nền tảng (phải gỡ trong 48 giờ), rồi trình báo.
 - Lợi ích: Khi bị xúc phạm hoặc bịa chuyện trên mạng, lưu đường dẫn, ảnh chụp và bằng chứng trước khi chặn hoặc yêu cầu gỡ. Đừng đáp trả bằng lời bịa đặt hoặc đe dọa.
@@ -172,6 +204,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 17. Đọc hết tờ giấy trước khi ký, không ký hộ, không ký vào tờ còn trống
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-doc-het-to-giay-truoc-khi-ky-khong-ky-ho-khong-ky" data-legacy="8-17"></a>
+
 - Chi phí: Không mất đồng nào. Mất một buổi đọc hết hợp đồng cùng mọi phụ lục, bảng biểu, giấy cam kết đi kèm; chỗ không hiểu thì hỏi ngay tại chỗ và bắt họ ghi câu trả lời vào giấy, rồi chụp ảnh toàn bộ tập giấy trước khi ra về. Không ký hộ ai, không ký tờ còn trống, bản photo căn cước thì ghi rõ một dòng lên mặt giấy là dùng cho việc gì.
 - Nói dễ hiểu: Ký rồi thì phải làm đúng tờ giấy đó, ký hộ người khác cũng bị tính là ký. Câu "em không đọc kỹ" gần như không gỡ được trách nhiệm: muốn xin tòa tuyên hợp đồng vô hiệu vì bị lừa dối thì chỉ có 02 năm. Nên đọc hết, chụp lại, và tuyệt đối không ký vào tờ còn trống.
 - Lợi ích: Đọc đủ nội dung, kiểm tra tên người ký và giữ bản sao trước khi ký bất kỳ giấy tờ nào. Đừng ký hộ hoặc ký vào giấy còn để trống phần quan trọng.
@@ -182,6 +216,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 18. Viết giấy vay cho rõ; trước khi đứng ra bảo lãnh, tự hỏi mình có sẵn sàng trả thay không
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-viet-giay-vay-cho-ro-truoc-khi-dung-ra-bao-lanh-tu" data-legacy="8-18"></a>
+
 - Chi phí: Không mất tiền. Một tờ giấy ghi rõ họ tên, số căn cước, địa chỉ của hai bên, số tiền, lãi suất, ngày hẹn trả, cách trả; mỗi bên giữ một bản. Cho vay thì chuyển khoản, ghi nội dung "cho vay", đừng đưa tiền mặt. Đứng ra bảo lãnh cho ai thì đọc hết tờ giấy rồi mới ký, và giữ lại một bản.
 - Nói dễ hiểu: Giấy vay thiếu tên, lãi suất hay ngày trả thì lúc đòi rất khó. Bảo lãnh thì đừng tin câu "người vay không trả được mới đến lượt tôi": giấy ghi không rõ là chủ nợ đòi thẳng người bảo lãnh; muốn chỉ trả thay khi người vay hết khả năng trả thì phải ghi rõ trong giấy.
 - Lợi ích: Giấy vay ghi rõ người vay, số tiền, lãi, thời hạn và cách trả giúp tránh tranh chấp. Với bảo lãnh, hãy tự hỏi mình có sẵn sàng trả thay toàn bộ nghĩa vụ đã cam kết không.
@@ -192,6 +228,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 19. Đòi quyền lợi phải trong thời hạn: tranh chấp hợp đồng 03 năm, việc lao động ngắn hơn nhiều
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-doi-quyen-loi-phai-trong-thoi-han-tranh-chap-hop-dong-03" data-legacy="8-19"></a>
+
 - Chi phí: Không mất tiền. Việc phải làm là giữ bằng chứng: tin nhắn, email, biên bản, giấy giao nhận, sao kê. Không cần luật sư để biết mình còn hạn hay không; cái tốn là thời gian đi lại và một lần hỏi tại tòa hoặc trung tâm trợ giúp pháp lý.
 - Nói dễ hiểu: Đòi nợ có hạn: hợp đồng là 03 năm kể từ ngày biết mình bị thiệt. Việc lao động ngắn hơn: hòa giải viên 06 tháng, trọng tài 09 tháng, tòa án 01 năm. Quá hạn thì bên kia chỉ cần yêu cầu áp dụng thời hiệu là yêu cầu khởi kiện của bạn bị bác; tin nhắn đòi nợ của bạn không làm thời hiệu bắt đầu lại.
 - Lợi ích: Biết trước thời hiệu yêu cầu giúp giữ cơ hội giải quyết tranh chấp. Cất hồ sơ và ghi lại ngày phát hiện quyền bị xâm phạm thay vì chờ đến sát hạn.
@@ -202,6 +240,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 20. Bị thi hành án thì khai thật tài sản, trả được bao nhiêu trả bấy nhiêu, đừng sang tên cho người thân
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-bi-thi-hanh-an-thi-khai-that-tai-san-tra-duoc-bao" data-legacy="8-20"></a>
+
 - Chi phí: Không mất tiền để khai. Phải có mặt theo giấy triệu tập, kê khai tài sản và thu nhập đúng sự thật, chịu trách nhiệm về lời khai của mình. Nếu muốn trả dần thì làm việc với người được thi hành án để thỏa thuận, rồi đề nghị cơ quan thi hành án ghi nhận. Riêng việc khai thì chỉ mất thời gian và uy tín, không tốn thêm tiền.
 - Nói dễ hiểu: Bị thi hành án thì khai thật và trả được bao nhiêu trả bấy nhiêu. Giấu tài sản, sang tên cho người thân hay bán rẻ để khỏi trả là tẩu tán tài sản: hình phạt riêng từ 02 năm đến 05 năm tù. Còn nếu thật sự không có gì thì cứ khai đúng, không ai bắt bạn đi vay để trả.
 - Lợi ích: Khi phải thi hành án, kê khai trung thực và hợp tác theo quyết định giúp tránh phát sinh thêm trách nhiệm. Không chuyển tài sản sang tên người thân để né nghĩa vụ.
@@ -212,6 +252,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 21. Bị cưỡng chế thi hành án thì đối chiếu từng quyết định; không có "danh sách đen" nào để xin xóa tên
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-bi-cuong-che-thi-hanh-an-thi-doi-chieu-tung-quyet-dinh" data-legacy="8-21"></a>
+
 - Chi phí: Không mất tiền để xem và khiếu nại. Phải đến cơ quan thi hành án nơi đang tổ chức thi hành để xin xem quyết định và bản xác minh điều kiện thi hành, rồi tự đối chiếu từng khoản: tiền gốc, lãi, chi phí. Mỗi lần đi là một buổi; nếu nhờ luật sư viết đơn thì có phí.
 - Nói dễ hiểu: Tòa không ra lệnh cấm bạn tiêu tiền, cũng không lập "danh sách đen" người mắc nợ. Cái có là cưỡng chế: kê biên, trừ tối đa 30% lương, và tạm hoãn xuất cảnh. Muốn gỡ thì đối chiếu từng quyết định, thấy sai thì khiếu nại trong 15 ngày.
 - Lợi ích: Đối chiếu từng quyết định và số tiền đang bị cưỡng chế thay vì tin lời hứa xóa tên khỏi một 'danh sách đen'. Cần phân biệt nghĩa vụ trả nợ với những biện pháp cụ thể được áp dụng.
@@ -222,6 +264,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 22. Mua online hoặc mua đồ cũ bị lừa: khiếu nại trên sàn trước, rồi trình báo, cuối cùng mới tính chuyện kiện
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-mua-online-hoac-mua-do-cu-bi-lua-khieu-nai-tren-san" data-legacy="8-22"></a>
+
 - Chi phí: Khiếu nại trên sàn và trình báo công an đều không mất tiền. Ra tòa thì phải nộp án phí dân sự sơ thẩm có giá ngạch: tranh chấp đến 6.000.000 đồng là 300.000 đồng, từ trên 6.000.000 đồng đến 400.000.000 đồng là 5% giá trị tranh chấp (Nghị quyết 326/2016/UBTVQH14). Cái đắt nhất là thời gian: mỗi lần lên tòa, mỗi lần chờ hòa giải.
 - Nói dễ hiểu: Thứ tự từ rẻ đến đắt: khiếu nại trên sàn trước, vì sàn phải xác thực danh tính người bán và trả lời bạn trong 03 ngày làm việc. Không xong thì trình báo công an, từ 2.000.000 đồng là đã đủ cấu thành tội lừa đảo. Cuối cùng mới tính chuyện ra tòa, sau khi cân nhắc án phí và thời gian phải bỏ ra.
 - Lợi ích: Khi mua hàng bị lừa, bắt đầu bằng yêu cầu giải quyết trên sàn và lưu mã đơn, chứng từ, trao đổi. Nếu nghi có tội phạm, trình báo với hồ sơ càng cụ thể càng tốt.
@@ -232,6 +276,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 23. Quà lớn trong chuyện tình cảm: nghĩ trước khi trao, vì trao rồi thì gần như không đòi lại được
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-qua-lon-trong-chuyen-tinh-cam-nghi-truoc-khi-trao-vi-trao" data-legacy="8-23"></a>
+
 - Chi phí: Không mất tiền. Một câu hỏi trước khi chuyển khoản: đây là cho hay là cho vay. Nếu là cho vay thì ghi giấy, chuyển khoản có ghi nội dung; nếu là tặng cho mà có kèm điều kiện (sau này cưới, cùng đứng tên nhà) thì ghi điều kiện đó vào giấy tặng cho. Nhà đất phải công chứng, chứng thực.
 - Nói dễ hiểu: Tiền đã chuyển, xe đã giao, nhà đã sang tên thì gần như không đòi lại được. Trước khi trao thì còn kịp: tặng cho đồ vật chỉ có hiệu lực từ lúc giao, còn nhà đất từ lúc đăng ký. Muốn đòi lại về sau thì phải ghi điều kiện ngay trong giấy tặng cho.
 - Lợi ích: Trước khi tặng tiền hoặc tài sản lớn, hãy xác định đó là quà tặng, khoản vay hay giao dịch có điều kiện. Chuyển quyền sở hữu rồi thì việc đòi lại có thể rất khó.
@@ -242,6 +288,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 24. Sính lễ thì chuyển khoản và ghi rõ nội dung; cưới không thành thì đòi lại được
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-sinh-le-thi-chuyen-khoan-va-ghi-ro-noi-dung-cuoi-khong" data-legacy="8-24"></a>
+
 - Chi phí: Không mất đồng nào, chỉ mất vài phút trước khi trao tiền. Chuyển khoản thay vì đưa tiền mặt, ghi nội dung "sính lễ cưới ngày…". Giữ lại tin nhắn hai bên thỏa thuận, ảnh đám hỏi, và tên người làm chứng. Việc phải làm là trước khi trao, không phải sau khi hủy hôn.
 - Nói dễ hiểu: Việt Nam không có luật riêng về sính lễ. Tiền trao để cưới được xem là tặng cho có điều kiện: cưới không thành thì đòi lại được, cưới rồi thì thôi. Luật cấm yêu sách của cải trong hôn nhân, nên đừng coi đó là nghĩa vụ phải trả.
 - Lợi ích: Sính lễ hoặc tiền đưa để tổ chức kết hôn cần có chứng từ và nội dung chuyển khoản rõ ràng. Việc hoàn lại phụ thuộc thỏa thuận, điều kiện tặng cho và việc kết hôn thực tế.
@@ -252,6 +300,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 25. Tài sản có trước ngày cưới vẫn là của riêng bạn, nhưng giấy tờ mới là thứ chứng minh điều đó
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-tai-san-co-truoc-ngay-cuoi-van-la-cua-rieng-ban-nhung" data-legacy="8-25"></a>
+
 - Chi phí: Tự viết một bản thỏa thuận thì không mất tiền, nhưng phải công chứng hoặc chứng thực mới dùng được, và phí công chứng tính theo giá trị tài sản. Thêm tên vào sổ nhà thì phải làm hợp đồng tặng cho có công chứng rồi đăng ký biến động, kèm lệ phí và thuế. Thời gian: một buổi ra phòng công chứng, và vài tuần chờ sang tên.
 - Nói dễ hiểu: Đồ đạc, nhà, tiền có trước ngày cưới vẫn là của riêng bạn, dù hai vợ chồng sống với nhau bao nhiêu năm. Nhưng điều quyết định là giấy tờ đứng tên ai và tiền dùng để mua tài sản có từ đâu. Muốn chia rõ tài sản thì phải làm văn bản có công chứng trước khi đăng ký kết hôn.
 - Lợi ích: Lưu giấy tờ hình thành tài sản trước hôn nhân, chứng từ thừa kế hoặc tặng cho riêng để chứng minh nguồn gốc. Đừng chỉ dựa vào lời nói khi tranh chấp.
@@ -262,6 +312,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 26. Trước khi đăng ký, yêu cầu đối phương xin giấy xác nhận tình trạng hôn nhân
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-truoc-khi-dang-ky-yeu-cau-doi-phuong-xin-giay-xac-nhan" data-legacy="8-26"></a>
+
 - Chi phí: Lệ phí cấp giấy do Hội đồng nhân dân cấp tỉnh quy định, nên hỏi trước ở bộ phận một cửa. Thời gian: 3 ngày làm việc kể từ khi nhận đủ hồ sơ, và giấy chỉ có giá trị 6 tháng. Người từng ly hôn hoặc từng đăng ký thường trú ở nhiều nơi phải tự nộp giấy tờ chứng minh, nên có khi mất thêm một chuyến.
 - Nói dễ hiểu: Muốn biết người mình sắp cưới có đang có vợ hoặc chồng hay không, xin giấy xác nhận tình trạng hôn nhân ở xã, phường nơi họ thường trú. Bị lừa để kết hôn thì có quyền yêu cầu tòa hủy việc kết hôn. Hứa cưới để lừa lấy tiền có thể bị xử về tội lừa đảo.
 - Lợi ích: Giấy xác nhận tình trạng hôn nhân giúp kiểm tra thông tin đăng ký kết hôn qua kênh chính thức. Cả hai nên chuẩn bị hồ sơ minh bạch trước khi thực hiện thủ tục.
@@ -272,6 +324,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 27. Thợ đến nhà thì hỏi giá trước, xin báo giá bằng tin nhắn, và đứng xem họ làm
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-tho-den-nha-thi-hoi-gia-truoc-xin-bao-gia-bang-tin" data-legacy="8-27"></a>
+
 - Chi phí: Không mất tiền, mất một buổi ngồi nhà. Trước khi cho thợ động vào máy, hỏi giá và hỏi sẽ thay những gì, rồi yêu cầu nhắn lại bằng tin nhắn. Xong việc thì xin phiếu thu hoặc hóa đơn, và giữ lại linh kiện cũ. Cái đắt nhất là thời gian đứng xem, vì thợ thường muốn làm lúc không có ai.
 - Nói dễ hiểu: Người bán hàng và người cung cấp dịch vụ phải niêm yết giá, và không được thu cao hơn giá đã niêm yết. Thợ sửa tại nhà cũng vậy. Hỏi giá trước khi cho thợ tháo máy, xin báo giá bằng tin nhắn, giữ phiếu thu, và đứng xem họ làm.
 - Lợi ích: Đề nghị báo giá và xác nhận phạm vi công việc bằng tin nhắn trước khi thợ sửa đồ tại nhà. Giữ hóa đơn hoặc ảnh hiện trạng để tránh bất đồng về khoản phải trả.
@@ -282,6 +336,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 28. Đừng cho mượn tên để đứng làm người đại diện theo pháp luật của công ty
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-dung-cho-muon-ten-de-dung-lam-nguoi-dai-dien-theo-phap" data-legacy="8-28"></a>
+
 - Chi phí: Không mất đồng nào, chỉ mất một câu từ chối. Nếu đã trót đứng tên thì phải làm thủ tục thay đổi người đại diện theo pháp luật tại cơ quan đăng ký kinh doanh, kèm hồ sơ và lệ phí công bố thay đổi nội dung đăng ký doanh nghiệp. Cái đắt là thời gian đi lại và việc phải chứng minh mình không tham gia điều hành.
 - Nói dễ hiểu: Người đại diện theo pháp luật là người ký giấy tờ và trả lời thay công ty. Đã nhận làm người đại diện theo pháp luật thì phải thực hiện công việc trung thực, cẩn trọng và tự chịu trách nhiệm cá nhân với thiệt hại mình gây ra. Câu "tôi chỉ đứng tên, không biết gì" không gỡ được trách nhiệm đó.
 - Lợi ích: Đứng tên đại diện theo pháp luật cho doanh nghiệp là trách nhiệm thực sự, không phải dịch vụ 'cho mượn tên'. Chỉ nhận khi hiểu và kiểm soát được hoạt động phải ký, báo cáo và đại diện.
@@ -292,6 +348,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 29. Không xách đồ của người lạ, không nhận hộ gói hàng không rõ trong đó có gì
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-khong-xach-do-cua-nguoi-la-khong-nhan-ho-goi-hang-khong" data-legacy="8-29"></a>
+
 - Chi phí: Không mất đồng nào. Một câu từ chối, và đôi khi mất một mối quen. Nếu đã nhận rồi thì đừng tự mở, đừng tự vứt: gọi hải quan hoặc công an, khai đúng sự việc, giữ lại tin nhắn của người nhờ.
 - Nói dễ hiểu: Trong hành lý của bạn có gì thì bạn là người khai với hải quan và là người bị hỏi trước tiên. Chở thuê ma túy bị phạt tù, mức thấp nhất cũng tính bằng năm. Nói "không biết trong túi có gì" chưa chắc đã thoát tội, nên cách chắc nhất là không cầm.
 - Lợi ích: Đừng nhận giữ hoặc vận chuyển hàng không rõ nguồn gốc cho người lạ. Khi không biết bên trong có gì, cách an toàn là từ chối và yêu cầu người gửi tự làm thủ tục.
@@ -302,6 +360,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 30. Chó ra đường phải có dây và rọ mõm; chó cắn thì chủ phải đền
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-cho-ra-duong-phai-co-day-va-ro-mom-cho-can-thi" data-legacy="8-30"></a>
+
 - Chi phí: Một sợi dây và một cái rọ mõm, vài chục nghìn. Tiêm phòng dại theo lịch của cơ quan thú y địa phương và khám định kỳ thì tốn hơn, tùy phòng khám. Không tiêm phòng dại bị phạt 1.000.000 đến 2.000.000 đồng; thả rông trong đô thị hoặc nơi công cộng bị phạt 500.000 đến 1.000.000 đồng; để chó gây thương tích cho người khác thì bị phạt 2.000.000 đến 3.000.000 đồng.
 - Nói dễ hiểu: Chó cắn thì chủ phải đền, kể cả khi chủ không có lỗi; chỉ khi người bị cắn hoàn toàn có lỗi mới được miễn. Không xích, không rọ mõm khi ra đường là bị phạt, và không tiêm phòng dại cũng bị phạt. Đền theo thiệt hại thật, không theo mức cố định.
 - Lợi ích: Giữ chó an toàn khi ra nơi công cộng và tiêm phòng đầy đủ giúp bảo vệ người xung quanh. Nếu xảy ra sự cố, thông tin về chủ nuôi, tình trạng con vật và thiệt hại cần được ghi lại.
@@ -312,6 +372,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 31. Người đang ngủ, đang say mất ý thức, hoặc chưa đủ tuổi thì không có sự đồng ý
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-nguoi-dang-ngu-dang-say-mat-y-thuc-hoac-chua-du-tuoi" data-legacy="8-31"></a>
+
 - Chi phí: Không mất đồng nào. Cái phải trả là dừng lại đúng lúc, và đưa người kia về nhà an toàn: giao cho bạn cùng đi, gọi người nhà, hoặc gọi xe và ghi lại việc đã giao cho ai. Không có khoản tiền nào mua được việc đó.
 - Nói dễ hiểu: Đồng ý phải là đồng ý lúc còn tỉnh. Người đang ngủ hoặc say đến mất ý thức thì không đồng ý được, và giao cấu lúc đó là hiếp dâm. Quan hệ với người chưa đủ tuổi vẫn là tội, kể cả khi người đó gật đầu.
 - Lợi ích: Sự đồng ý chỉ có ý nghĩa khi người đó có khả năng và quyền đồng ý. Khi người khác đang ngủ, mất ý thức hoặc thuộc nhóm tuổi được pháp luật bảo vệ, tuyệt đối không suy diễn rằng họ đã đồng ý.
@@ -322,16 +384,20 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 32. Bị đòi tiền sau khi quan hệ tình dục hoặc gửi ảnh khỏa thân: không trả một đồng, không xóa gì, ra công an
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-bi-doi-tien-sau-khi-quan-he-tinh-duc-hoac-gui-anh" data-legacy="8-32"></a>
+
 - Chi phí: Không mất đồng nào. Bạn cần dành một buổi ra công an cấp xã hoặc cơ quan điều tra cấp huyện, mang theo điện thoại chứa tin nhắn gốc chứ không chỉ bản sao tin nhắn. Trước khi đi thì chụp màn hình: tài khoản người nhắn, nội dung đe dọa, số tài khoản nhận tiền, giờ nhắn. Cái đắt nhất là bỏ ý định trả cho xong.
 - Nói dễ hiểu: Đe dọa tung ảnh, báo cho nơi làm việc hoặc vợ hay chồng của bạn để lấy tiền là cưỡng đoạt tài sản. Ở Việt Nam không có mức tiền tối thiểu: đe dọa là đã cấu thành tội. Đừng trả, đừng xóa tin nhắn, ra công an ngay.
 - Lợi ích: Khi bị đe dọa phát tán hình ảnh hoặc thông tin riêng tư để lấy tiền, đừng tự trả tiền để 'mua im lặng'. Giữ nguyên tin nhắn, tài khoản, số tiền yêu cầu rồi tìm hỗ trợ từ cơ quan có thẩm quyền.
 - Pháp luật Việt Nam: Điều 170 khoản 1 Bộ luật Hình sự 100/2015/QH13 (bản hợp nhất 135/VBHN-VPQH): đe dọa sẽ dùng vũ lực hoặc thủ đoạn khác uy hiếp tinh thần nhằm chiếm đoạt tài sản thì phạt tù từ 1 năm đến 5 năm. Điều đáng chú ý: luật không đặt mức tiền tối thiểu, nên đòi vài triệu cũng đã là tội. Khoản 2 (3 năm đến 10 năm) áp khi chiếm đoạt 50 triệu đến dưới 200 triệu hoặc có tình tiết như phạm tội với người dưới 16 tuổi, người không có khả năng tự vệ; khoản 3 (7 năm đến 15 năm) khi 200 triệu đến dưới 500 triệu; khoản 4 (12 năm đến 20 năm) khi từ 500 triệu trở lên. Nếu ảnh bị phát tán: Điều 155 khoản 2 điểm e (dùng mạng máy tính hoặc mạng viễn thông để làm nhục) phạt tù 3 tháng đến 2 năm. Về gỡ ảnh: Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15 Điều 10 cho quyền rút lại đồng ý và yêu cầu hạn chế xử lý, Điều 14 quy định việc xóa dữ liệu; Nghị định 147/2024/NĐ-CP Điều 23 khoản 3 điểm i buộc nền tảng xuyên biên giới thuộc diện áp dụng gỡ nội dung vi phạm trong 48 giờ kể từ khi nhận khiếu nại của người dùng, Điều 35 khoản 5 buộc mạng xã hội trong nước gỡ trong 24 giờ kể từ khi phát hiện.
 - Mức bằng chứng: B
 - Nguồn: Bộ luật Hình sự 100/2015/QH13, bản hợp nhất 135/VBHN-VPQH (Điều 155, 170): <https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/9/135-vbhn-vpqh.pdf>; Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15 (Điều 10, 14): <https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/91qh.signed.pdf>; Nghị định 147/2024/NĐ-CP (Điều 23, 35), Công báo số 1261+1262 ngày 20/11/2024: <https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/11/43155/52693-1-20241261-1262147-2024-nd-cp.pdf>; tra ngày 2/11/2026.
-- Ghi chú: **Mức B ở đây là mức chắc của văn bản**, không phải tỉ lệ thắng kiện. Quan niệm sai hay gặp nhất là "trả rồi thì yên" — trả tiền không làm hành vi đe dọa biến mất, mà chứng minh người kia đã đạt mục đích, nên lần sau họ đòi tiếp; ngược lại, xóa tin nhắn là tự bỏ thứ chứng cứ duy nhất. Ba bẫy Việt Nam. **(1) Bị đòi mà lại tự đi "thương lượng" một mình ở quán cà phê, mang tiền theo**: vừa mất tiền vừa không có biên nhận, và nếu sau đó bạn dọa ngược lại thì chính bạn thành người bị tố ở Điều 170. **(2) Tưởng công an chỉ nhận đơn khi số tiền lớn**: luật Việt Nam không có ngưỡng tiền, nhưng công an cấp xã thường chỉ lập biên bản rồi chuyển; thiếu bản biên bản có ngày thì không có mốc để hỏi tiếp, nên xem mục 39 trước khi đi. **(3) Nghĩ ảnh đã gỡ là xong**: bản sao vẫn nằm trong máy người kia và trong nhóm chat, nên yêu cầu xóa dữ liệu bằng văn bản gửi tới nền tảng và lưu lại ảnh chụp trang bài viết trước khi nó biến mất. Mục này không nói "cứ ra công an là vụ án được khởi tố" — cưỡng đoạt không cần đơn yêu cầu của bị hại, nhưng kết quả còn tùy chứng cứ bạn giữ được.
+- Ghi chú: **Mức B ở đây là mức chắc của văn bản**, không phải tỉ lệ thắng kiện. Quan niệm sai hay gặp nhất là "trả rồi thì yên" — trả tiền không làm hành vi đe dọa biến mất, mà chứng minh người kia đã đạt mục đích, nên lần sau họ đòi tiếp; ngược lại, xóa tin nhắn là tự bỏ thứ chứng cứ duy nhất. Ba bẫy Việt Nam. **(1) Bị đòi mà lại tự đi "thương lượng" một mình ở quán cà phê, mang tiền theo**: vừa mất tiền vừa không có biên nhận, và nếu sau đó bạn dọa ngược lại thì chính bạn thành người bị tố ở Điều 170. **(2) Tưởng công an chỉ nhận đơn khi số tiền lớn**: luật Việt Nam không có ngưỡng tiền, nhưng công an cấp xã thường chỉ lập biên bản rồi chuyển; thiếu bản biên bản có ngày thì không có mốc để hỏi tiếp, nên xem [mục 39](08-dung-tu-chuoc-hoa-vao-than.md#entry-bao-an-lay-bien-ban-tiep-nhan-khong-khoi-to-phai-neu) trước khi đi. **(3) Nghĩ ảnh đã gỡ là xong**: bản sao vẫn nằm trong máy người kia và trong nhóm chat, nên yêu cầu xóa dữ liệu bằng văn bản gửi tới nền tảng và lưu lại ảnh chụp trang bài viết trước khi nó biến mất. Mục này không nói "cứ ra công an là vụ án được khởi tố" — cưỡng đoạt không cần đơn yêu cầu của bị hại, nhưng kết quả còn tùy chứng cứ bạn giữ được.
 
 ### 33. Bị người khác bịa chuyện tố cáo: đó là tội vu khống, nhẹ thì phạt tiền, nặng tới 7 năm tù
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-bi-nguoi-khac-bia-chuyen-to-cao-do-la-toi-vu-khong" data-legacy="8-33"></a>
+
 - Chi phí: Không mất tiền để gửi đơn. Cái khó là chứng minh hai điều: chuyện họ nói là bịa đặt, và họ biết rõ chuyện đó là sai sự thật. Giấy tờ nên có: đơn tố cáo của họ (xin bản sao hoặc trích sao nơi đã nhận), quyết định không khởi tố hoặc văn bản trả lời, tin nhắn, ghi âm, người làm chứng. Đơn yêu cầu khởi tố phải do chính bạn viết và ký.
 - Nói dễ hiểu: Bịa chuyện rồi tố cáo để người khác bị xử lý là tội vu khống. Mức nhẹ nhất ở Việt Nam là phạt tiền, không có bước tạm giữ hành chính, và án nhẹ chỉ khởi tố khi chính bạn có đơn yêu cầu.
 - Lợi ích: Nếu bị tố cáo bằng nội dung bịa đặt, lưu nguyên văn phát ngôn, nguồn phát tán và các tài liệu phản bác. Đừng dùng một lời vu khống khác để đáp trả.
@@ -342,6 +408,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 34. Không đủ chứng cứ thì phải kết luận không có tội; lời nhận tội không được dùng làm chứng cứ duy nhất
 <!-- nhãn: tiền=ít thời-gian=nhiều ý-chí=ít lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-khong-du-chung-cu-thi-phai-ket-luan-khong-co-toi-loi" data-legacy="8-34"></a>
+
 - Chi phí: Thủ tục không mất tiền, nhưng thời gian thì mất thật: điều tra 2 tháng với tội ít nghiêm trọng, 3 tháng với tội nghiêm trọng, 4 tháng với tội rất nghiêm trọng và đặc biệt nghiêm trọng, chưa kể các lần gia hạn. Luật sư thì thù lao do hai bên thỏa thuận, không có khung của nhà nước; người thuộc diện trợ giúp pháp lý được cử người miễn phí (Luật Trợ giúp pháp lý 11/2017/QH14).
 - Nói dễ hiểu: Bị buộc tội thì mặc định vô tội cho tới khi có bản án có hiệu lực. Chứng cứ thu sai trình tự không có giá trị; lời nhận tội đứng một mình không đủ buộc tội. Bản án đã có hiệu lực vẫn có thể được đề nghị xem xét lại; đề nghị xem xét theo hướng có lợi thì không hạn chế thời gian.
 - Lợi ích: Biết quyền được suy đoán vô tội và yêu cầu chứng cứ hợp pháp giúp tránh bị gây sức ép phải nhận tội. Khi tham gia tố tụng, cần được tư vấn từ người có chuyên môn.
@@ -352,6 +420,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 35. Bị giam oan rồi được đình chỉ hay tuyên vô tội: xin bồi thường nhà nước, tính theo ngày
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-bi-giam-oan-roi-duoc-dinh-chi-hay-tuyen-vo-toi-xin" data-legacy="8-35"></a>
+
 - Chi phí: Không mất tiền. Hồ sơ 4 thứ: văn bản yêu cầu bồi thường, văn bản làm căn cứ (quyết định đình chỉ, quyết định không khởi tố, bản án tuyên vô tội), giấy tờ nhân thân, tài liệu chứng cứ (Điều 41). Nộp cho chính cơ quan đã ra quyết định đó — cơ quan điều tra, viện kiểm sát hoặc tòa án (Điều 34, 35, 36). Cơ quan phải thụ lý trong 2 ngày làm việc (Điều 43 khoản 1), thương lượng trong 10 ngày, phức tạp thì 15 ngày (Điều 46 khoản 1).
 - Nói dễ hiểu: Mỗi ngày bị tạm giam oan được bồi thường 5 ngày lương cơ sở, cộng phần thu nhập thực tế bị mất. Thời hiệu là 3 năm kể từ ngày nhận văn bản đình chỉ hay bản án tuyên vô tội, không tính từ ngày được thả.
 - Lợi ích: Khi có quyết định xác định bị bắt giữ hoặc kết án oan, giữ đầy đủ bản án, quyết định và chứng từ thiệt hại để làm thủ tục yêu cầu bồi thường đúng hạn.
@@ -362,6 +432,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 36. Mình là người bị hại đi đòi tiền: đòi bằng văn bản, có giấy tờ, đừng một mình đến chỗ hẹn
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-minh-la-nguoi-bi-hai-di-doi-tien-doi-bang-van-ban" data-legacy="8-36"></a>
+
 - Chi phí: Không mất tiền để gửi yêu cầu. Nếu khởi kiện thì có án phí dân sự, và luật sư thì thù lao thỏa thuận. Cái phải bỏ ra là thời gian và sự kiên nhẫn: gửi văn bản, chờ trả lời, giữ biên nhận. Đừng đi một mình đến chỗ họ hẹn, đừng nhận tiền mặt không giấy tờ.
 - Nói dễ hiểu: Người bị hại có quyền đòi tiền, đòi cao không tự động thành tội. Nhưng đừng một mình đến chỗ họ hẹn và đừng nói câu đổi tiền lấy im lặng. Gửi yêu cầu bằng văn bản, giữ tin nhắn, để luật sư hoặc tòa đứng giữa.
 - Lợi ích: Muốn yêu cầu bồi thường, làm việc bằng văn bản và có chứng từ để chứng minh thiệt hại. Ưu tiên địa điểm an toàn; không thỏa thuận bằng lời đe dọa hay đi một mình đến nơi lạ.
@@ -372,6 +444,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 37. Bị bạo lực mạng: lưu bằng chứng trước, rồi bật chặn, rồi chọn đường gỡ bài — tố giác — kiện
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-bi-bao-luc-mang-luu-bang-chung-truoc-roi-bat-chan-roi" data-legacy="8-37"></a>
+
 - Chi phí: Không mất tiền. Mười lăm đến hai mươi phút đầu là quan trọng nhất: chụp màn hình có ngày giờ, lưu đường dẫn bài viết, quay màn hình khi cuộn bình luận, ghi lại tên tài khoản. Sau đó mới bật chặn, tắt thông báo, đổi mật khẩu. Ra tòa thì còn tốn thêm thời gian và án phí.
 - Nói dễ hiểu: Nền tảng trong nước phải gỡ nội dung vi phạm trong 24 giờ kể từ khi phát hiện, nền tảng nước ngoài trong 48 giờ kể từ khi nhận khiếu nại. Việc đầu tiên là lưu bằng chứng, sau đó mới bật chặn, vì gỡ xong là mất dấu.
 - Lợi ích: Bị tấn công trên mạng, lưu dấu vết trước khi chặn hoặc yêu cầu gỡ. Chọn đúng kênh báo cáo nền tảng, tố giác hoặc yêu cầu bồi thường tùy mức độ và chứng cứ.
@@ -382,6 +456,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 38. Mua bảo hiểm rồi giết người để lấy tiền: không có cửa, mất tiền và tội chồng tội
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-mua-bao-hiem-roi-giet-nguoi-de-lay-tien-khong-co-cua" data-legacy="8-38"></a>
+
 - Chi phí: Không mất đồng nào để biết là không có cửa. Cái mất nếu vẫn làm: phí bảo hiểm không lấy lại, hợp đồng vô hiệu, quyền thừa kế mất, và phải chịu bản án về tội giết người.
 - Nói dễ hiểu: Mua bảo hiểm tính mạng cho người khác mà họ không đồng ý bằng văn bản thì hợp đồng không có giá trị. Giết người để lấy tiền bảo hiểm thì công ty không trả, còn người làm bị xử về cả tội giết người lẫn tội gian lận bảo hiểm.
 - Lợi ích: Bảo hiểm tính mạng không phải con đường giải quyết khó khăn tài chính bằng cách gây hại cho người khác. Hồ sơ và quyền lợi bảo hiểm đều chịu điều kiện pháp luật nghiêm ngặt.
@@ -392,6 +468,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 39. Báo án: lấy biên bản tiếp nhận, không khởi tố phải nêu lý do bằng văn bản
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-bao-an-lay-bien-ban-tiep-nhan-khong-khoi-to-phai-neu" data-legacy="8-39"></a>
+
 - Chi phí: Không mất tiền. Đi một buổi, mang theo đơn viết sẵn hai bản và bản photo giấy tờ, để một bản có dấu nhận của công an. Cái khó là quay lại hỏi nhiều lần, và mỗi lần đều xin văn bản chứ đừng nghe trả lời miệng.
 - Nói dễ hiểu: Công an phải lập biên bản tiếp nhận và đưa bạn một bản. Trong 20 ngày họ phải ra quyết định khởi tố hay không; phức tạp thì 2 tháng, gia hạn thêm 2 tháng. Không khởi tố phải nêu lý do, và bạn có 15 ngày để khiếu nại.
 - Lợi ích: Khi báo tin về tội phạm, yêu cầu ghi nhận việc tiếp nhận và giữ giấy tờ liên quan. Theo dõi quyết định xử lý bằng văn bản thay vì chỉ chờ thông báo miệng.
@@ -402,6 +480,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 40. Đừng đưa tiền, đưa quà cho người đang giải quyết việc của mình: người đưa cũng bị truy tố, không phải chỉ người nhận
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-dung-dua-tien-dua-qua-cho-nguoi-dang-giai-quyet-viec-cua" data-legacy="8-40"></a>
+
 - Chi phí: Không mất đồng nào để làm đúng; cái mất là cái cửa "chạy" mà bạn tưởng mình đang có. Nếu đã trót đưa thì phần đã đưa bị tịch thu, và mức khởi điểm của tội này là tiền, tài sản hoặc lợi ích vật chất trị giá từ 2.000.000 đồng đến dưới 100.000.000 đồng. Khung nhẹ nhất đã là phạt tiền từ 20.000.000 đồng đến 200.000.000 đồng, cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm, cộng thêm khoản phạt tiền 10.000.000 đồng đến 50.000.000 đồng.
 - Nói dễ hiểu: Đưa tiền cho người đang giải quyết việc của mình là tội riêng; người đưa cũng bị truy tố, không phải chỉ người nhận. Cùng một món tiền, người nhận chịu khung nặng hơn người đưa. Bị họ đòi thì đừng đưa: ghi âm, báo cấp trên hoặc cơ quan điều tra, giữ giấy tờ.
 - Lợi ích: Không đưa tiền hoặc lợi ích để nhờ người có thẩm quyền giải quyết nhanh việc riêng. Ngay cả người chủ động đưa cũng có thể phải chịu trách nhiệm.
@@ -412,6 +492,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 41. Cuộc gọi hay buổi nói chuyện mà đối phương có thể trở mặt: cứ ghi âm, mình là người trong cuộc thì không phải xin phép
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-cuoc-goi-hay-buoi-noi-chuyen-ma-doi-phuong-co-the-tro" data-legacy="8-41"></a>
+
 - Chi phí: Không mất tiền: điện thoại nào cũng có chức năng ghi âm, hoặc cài một ứng dụng ghi âm. Bạn cần thêm dung lượng lưu trữ và phải bỏ thói quen xóa: file gốc trong máy là thứ duy nhất chứng minh đoạn ghi không bị cắt ghép, nên đừng xóa nó để giải phóng dung lượng.
 - Nói dễ hiểu: Khi nói chuyện tiền nong, lương hoặc va chạm, hãy bật ghi âm từ đầu cuộc nói chuyện. Mình là người trong cuộc thì ghi lại không phải xin phép ai; cái bị cấm là nghe lén chuyện mình không tham gia, gài máy trong nhà người khác, hay ép người ta nói. Giữ file gốc, đừng cắt, đừng xóa.
 - Lợi ích: Ghi lại cuộc nói chuyện mình trực tiếp tham gia có thể giúp lưu dấu các thỏa thuận. Cần bảo quản bản gốc và không công khai dữ liệu riêng tư tùy tiện.
@@ -422,6 +504,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 42. Hiện trường: quay cảnh rộng trước, rồi vị trí, rồi thiệt hại — và giữ nguyên ảnh, video gốc
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-hien-truong-quay-canh-rong-truoc-roi-vi-tri-roi-thiet-hai" data-legacy="8-42"></a>
+
 - Chi phí: Không mất tiền. Mất vài phút, và phải quay trước khi dọn, trước khi kéo xe ra khỏi vị trí, trước khi người ta xúm vào nhặt đồ. Điều kiện đi kèm: chỉ quay khi đã gọi người đến cứu giúp người bị nạn và đã đứng ở chỗ an toàn — không có tấm ảnh nào đáng để đổi bằng việc bỏ mặc người đang chảy máu.
 - Nói dễ hiểu: Đứng chỗ an toàn, quay một vòng thật rộng: số nhà, ngã tư, cả chiếc xe, người xung quanh. Rồi quay chỗ hai thứ chạm nhau. Cuối cùng mới cận cảnh vết vỡ, vết xước, vết thương. Ảnh gốc giữ trong máy, đừng chỉ giữ bản gửi qua tin nhắn.
 - Lợi ích: Ảnh và video gốc, ghi thời gian và vị trí rõ ràng có thể giúp cơ quan có thẩm quyền xác minh sự việc. Quay từ nơi an toàn, không cản trở cứu hộ hoặc khám nghiệm.
@@ -432,6 +516,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 43. Bị bạo lực trong nhà: báo công an lấy biên bản, rồi xin quyết định cấm tiếp xúc — không phải ly hôn trước
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-bi-bao-luc-trong-nha-bao-cong-an-lay-bien-ban-roi" data-legacy="8-43"></a>
+
 - Chi phí: Không mất tiền để nhờ xã: quyết định cấm tiếp xúc của Chủ tịch Ủy ban nhân dân cấp xã không phải một vụ kiện và không có án phí. Với tòa án, quyết định đó nằm trong vụ án dân sự đang giải quyết, nên cũng không phát sinh khoản án phí riêng — nhưng bản thân vụ án, thường là ly hôn, thì có án phí, và không ai bắt buộc phải có luật sư. Cái phải bỏ ra là thời gian — ra xã trình bày, đi khám lấy giấy xác nhận thương tích, viết đơn — và nhiều hơn thế là can đảm nói với người ngoài cuộc.
 - Nói dễ hiểu: Bị đánh thì báo công an trước, giữ biên bản và giấy khám thương tích. Rồi xin cấm tiếp xúc: chủ tịch xã ra quyết định trong 12 giờ, nhưng mỗi lần chỉ 03 ngày; tòa án ra được quyết định tới 04 tháng, nhưng phải đang có vụ án dân sự giữa hai người. Không phải ly hôn trước mới xin được.
 - Lợi ích: Khi bị bạo lực gia đình, ưu tiên nơi an toàn, khám và lưu hồ sơ thương tích, báo tin cho người có thẩm quyền. Có thể đề nghị biện pháp bảo vệ và hạn chế tiếp xúc theo điều kiện áp dụng.
@@ -442,6 +528,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 44. Người nhà ghiền cờ bạc: đừng vội trả nợ thay — nợ cờ bạc không được pháp luật bảo vệ, và cũng không phải nợ chung của vợ chồng
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-nguoi-nha-ghien-co-bac-dung-voi-tra-no-thay-no-co" data-legacy="8-44"></a>
+
 - Chi phí: Không mất tiền — cái phải bỏ ra là chịu được câu "mày thấy chết mà không cứu", và chịu được việc hàng xóm, họ hàng đánh giá. Nếu chủ nợ kiện thì mất thời gian ra tòa và có thể mất một khoản án phí dân sự; nhưng khoản đó nhỏ so với việc lấy sổ đỏ hay tiền tiết kiệm ra trả thay một món nợ mà pháp luật không buộc mình phải trả.
 - Nói dễ hiểu: Với khoản nợ do thua trên chiếu bạc, chủ nợ không đòi được tiền qua tòa án. Người cho vay dù biết rõ bên vay dùng tiền để đánh bạc cũng không đòi được khoản nợ đó bằng tòa. Khoản vay để đánh bạc là nợ riêng của người vay, không phải nợ chung của hai vợ chồng, nên đừng lấy tiền của mình trả thay.
 - Lợi ích: Không vội dùng tiền gia đình trả nợ cờ bạc cho người khác. Trước khi đưa tiền, cần xác minh khoản nợ, mục đích vay và trách nhiệm pháp lý thực sự.
@@ -452,6 +540,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 45. Ai nhờ "đứng tên giùm, chỉ cần quét mặt, đọc mã xác nhận" để vay: người vay là bạn, không phải người bảo lãnh
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-ai-nho-dung-ten-gium-chi-can-quet-mat-doc-ma-xac" data-legacy="8-45"></a>
+
 - Chi phí: Không mất gì để từ chối — chỉ mất lòng một người quen. Nếu đã lỡ ký, bạn phải trả toàn bộ số tiền ghi trong hợp đồng cộng lãi, phạt và lãi trên số tiền chậm trả. Lịch sử tín dụng gắn với khoản vay này còn có thể ảnh hưởng đến khả năng vay của bạn sau đó. Bạn còn phải bỏ thời gian và án phí để yêu cầu hủy giao dịch tại tòa.
 - Nói dễ hiểu: Ai đứng tên trên hợp đồng vay với ngân hàng là người vay, phải trả, kể cả khi tiền vào tay người khác. Bảo lãnh là chuyện khác: người bảo lãnh ký hợp đồng bảo lãnh với ngân hàng, không đứng tên vay. Giấy "tao sẽ trả" của người quen không ràng buộc được ngân hàng.
 - Lợi ích: Đừng quét mặt, đọc mã hay ký hợp đồng vay đứng tên hộ người khác. Khi giấy tờ ghi tên bạn, nghĩa vụ với bên cho vay có thể thuộc về bạn dù tiền đi đâu.
@@ -462,6 +552,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng nữa: nhiều chế đ�
 
 ### 46. Khóa cửa, khóa cửa sổ, một đèn cảm ứng ngoài cửa — và lần nào ra khỏi nhà cũng khóa thật
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-khoa-cua-khoa-cua-so-mot-den-cam-ung-ngoai-cua-va" data-legacy="8-46"></a>
+
 - Chi phí: Vài trăm nghìn đến vài triệu đồng cho khóa cửa, khóa cửa sổ và một đèn cảm ứng; thay cả bộ cửa chống trộm thì tốn hơn nhiều. Cái đắt nhất không phải tiền mà là thói quen: lần nào ra cũng phải nhìn lại cửa sổ, cửa ban công, kể cả khi chỉ xuống nhà lấy đồ hay sang nhà hàng xóm.
 - Nói dễ hiểu: Lắp khóa cửa loại phải vặn chìa mới chốt được, thêm khóa cửa sổ và đèn cảm ứng ngoài cửa; mỗi lần ra khỏi nhà đều phải khóa cửa. Còi báo động không thay được mấy thứ đó: nhà chỉ gắn báo động mà không khóa cửa lại dễ bị trộm đột nhập hơn nhà không gắn gì.
 - Lợi ích: Thay “cho ít bảo vệ hơn cả nhà không lắp gì” bằng “có hiệu quả bảo vệ thấp hơn cả trường hợp nhà không lắp gì”. Đây là số của nước ngoài, là quan sát chứ không phải thử nghiệm có nhóm đối chứng.

@@ -8,10 +8,12 @@ Về thang bằng chứng: **không mục nào hạng A, 12 mục hạng B, 3 m�
 
 Về bối cảnh Việt Nam: phần lớn chương đứng trên văn bản Việt Nam — luật khám bệnh, quy định chuyển tuyến, mức hưởng bảo hiểm, giá dịch vụ. Có những cơ chế bạn có thể nghe nói ở nước khác nhưng Việt Nam không có, và chỗ nào như vậy thì sách ghi thẳng là không có. Chỗ nào không có số của Việt Nam thì để trống và ghi rõ là chưa có, tuyệt đối không lấy số nước khác.
 
-**Nhóm mục**: **Đúng tuyến và mức hưởng**: mục 1 đến 4 · **Giấy tờ và cấp cứu**: mục 5 đến 8 · **Giám định, khuyết tật, phong bì, giá răng**: mục 9 đến 12 · **Thuốc, tái khám, bảng kê**: mục 13 đến 15
+**Nhóm mục**: **Đúng tuyến và mức hưởng**: [mục 1 đến 4](24-di-kham.md#entry-om-nhe-thi-kham-o-tram-y-te-truoc-roi-de-noi "refs:om-nhe-thi-kham-o-tram-y-te-truoc-roi-de-noi,cung-mot-hoa-don-cap-noi-ban-toi-quyet-dinh-muc-huong,muon-len-benh-vien-lon-thi-xin-phieu-chuyen-tai-noi-dang,kham-o-tinh-khac-khong-phai-dang-ky-truoc-khong-phai-xin") · **Giấy tờ và cấp cứu**: [mục 5 đến 8](24-di-kham.md#entry-moi-lan-kham-xong-tu-giu-mot-bo-ho-so-benh-an "refs:moi-lan-kham-xong-tu-giu-mot-bo-ho-so-benh-an,nghi-ngo-cach-dieu-tri-luat-khong-co-thu-tuc-niem-phong,cap-cuu-thi-vao-thang-khu-cap-cuu-va-tim-ban-phan,khong-tien-khong-giay-to-khong-noi-duoc-minh-la-ai-cap") · **Giám định, khuyết tật, phong bì, giá răng**: [mục 9 đến 12](24-di-kham.md#entry-giam-dinh-chi-co-nghia-khi-vet-thuong-da-on-dinh "refs:giam-dinh-chi-co-nghia-khi-vet-thuong-da-on-dinh,giay-xac-nhan-khuyet-tat-xin-o-cap-xa-va-no-khong,cam-on-bac-si-bang-thu-va-bang-danh-gia-dung-bang,truoc-khi-dong-y-lam-rang-xin-bang-gia-ghi-tung-buoc") · **Thuốc, tái khám, bảng kê**: [mục 13 đến 15](24-di-kham.md#entry-benh-vien-bao-het-thuoc-trong-danh-muc-bao-hiem-xin-dieu "refs:benh-vien-bao-het-thuoc-trong-danh-muc-bao-hiem-xin-dieu,benh-man-da-on-dinh-muon-xin-lai-don-ma-khong-phai,ra-vien-xin-bang-ke-chi-phi-doi-chieu-tung-dong-lech")
 
 ### 1. Ốm nhẹ thì khám ở trạm y tế trước, rồi để nơi đó chuyển lên: không phải vì luật bắt buộc, mà vì tiền trả khác nhau
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-om-nhe-thi-kham-o-tram-y-te-truoc-roi-de-noi" data-legacy="24-1"></a>
+
 - Chi phí: Không mất khoản phí nào để khám ở trạm y tế xã, phường: phần thuộc phạm vi được quỹ bảo hiểm trả đủ, bạn không trả phần cùng chi trả. Cái mất là một buổi đi lại và một lần chờ, thường ngắn hơn ở bệnh viện. Khoản đắt nằm ở thói quen: vượt qua trạm để tới thẳng bệnh viện tỉnh thì mỗi lần như vậy trả thêm phần cùng chi trả cộng tiền xe. Không có khoản nào phải mua trước, không có hồ sơ nào phải nộp trước.
 - Nói dễ hiểu: Ốm nhẹ hoặc bệnh mạn đã ổn định thì khám ở trạm y tế xã trước: ở đó bảo hiểm trả đủ phần thuộc phạm vi được quỹ trả, không mất 20% cùng chi trả như ở bệnh viện. Cần lên bệnh viện thì xin phiếu chuyển ngay tại nơi đang khám. Cấp cứu thì vào thẳng cơ sở gần nhất, đừng chờ giấy tờ.
 - Lợi ích: Khi bệnh chưa cần cấp cứu, cơ sở khám ban đầu gần nhà thường giúp theo dõi thuận tiện và giảm chi phí. Tuyến khám ảnh hưởng mức hưởng BHYT nên cần xem nơi mình đăng ký.
@@ -22,6 +24,8 @@ Về bối cảnh Việt Nam: phần lớn chương đứng trên văn bản Vi�
 
 ### 2. Cùng một hóa đơn, cấp nơi bạn tới quyết định mức hưởng: cấp ban đầu 100%, cấp cơ bản và cấp chuyên sâu 80%, tự vào nội trú cấp chuyên sâu còn 40% mức hưởng
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-cung-mot-hoa-don-cap-noi-ban-toi-quyet-dinh-muc-huong" data-legacy="24-2"></a>
+
 - Chi phí: Không tốn thêm đồng nào để chọn đúng nơi khám, nên phần đắt không phải là phí mà là phần cùng chi trả — khoản này tăng theo cấp nơi bạn tới chứ không theo bệnh nặng hay nhẹ. Cùng một bệnh, cùng một đợt điều trị, đi đúng nơi thì tự trả một phần nhỏ, tự vào nội trú cấp chuyên sâu thì tự trả phần lớn. Cái mất thêm là thời gian chờ và tiền đi lại, nhưng khoản quyết định số tiền vẫn là mức hưởng của lần khám đó.
 - Nói dễ hiểu: Mức hưởng tính theo cấp nơi bạn tới, không theo tỉnh ghi trên thẻ. Với mức phổ thông, cấp ban đầu 100% chi phí, cấp cơ bản và cấp chuyên sâu 80%, tự vào nội trú cấp chuyên sâu mà không có phiếu chuyển thì chỉ còn 40% mức hưởng. Cấp cứu thì 100% mức hưởng ở bất kỳ cơ sở nào.
 - Lợi ích: Cùng một dịch vụ y tế có thể được BHYT thanh toán khác nhau theo nhóm người bệnh và cấp cơ sở. Hỏi bảng kê và phần đồng chi trả trước khi thanh toán khoản lớn.
@@ -32,6 +36,8 @@ Về bối cảnh Việt Nam: phần lớn chương đứng trên văn bản Vi�
 
 ### 3. Muốn lên bệnh viện lớn thì xin phiếu chuyển tại nơi đang khám: phiếu dùng trong 10 ngày làm việc, bệnh mạn tính trong danh mục thì 1 năm
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-muon-len-benh-vien-lon-thi-xin-phieu-chuyen-tai-noi-dang" data-legacy="24-3"></a>
+
 - Chi phí: Không mất tiền để có phiếu chuyển, và không mua được phiếu ở ngoài. Cái mất là một lần quay lại nơi đang điều trị để bác sĩ ghi phiếu, cộng thời gian chờ tới lượt ở bệnh viện nhận. Nếu bỏ qua bước này thì khoản mất không phải là phí mà là phần mức hưởng bị hạ, tính trên toàn bộ đợt điều trị ở cấp chuyên sâu.
 - Nói dễ hiểu: Đang cấp cứu thì vào thẳng cơ sở gần nhất; còn lại, muốn lên bệnh viện lớn thì xin phiếu chuyển tại nơi đang khám, không mua ở ngoài. Phiếu dùng 10 ngày làm việc; bệnh mạn tính trong danh mục thì 1 năm. Có phiếu thì bạn giữ đủ mức hưởng; tự vào nội trú cấp chuyên sâu thì chỉ còn 40% mức hưởng.
 - Lợi ích: Phiếu chuyển cơ sở giúp bảo đảm đường đi điều trị và quyền lợi BHYT trong nhiều trường hợp. Cần kiểm thời hạn phiếu và ngoại lệ với bệnh mạn tính.
@@ -42,6 +48,8 @@ Về bối cảnh Việt Nam: phần lớn chương đứng trên văn bản Vi�
 
 ### 4. Khám ở tỉnh khác không phải đăng ký trước, không phải xin ai duyệt: mức hưởng tính theo cấp nơi tới, không còn tính theo tỉnh
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-kham-o-tinh-khac-khong-phai-dang-ky-truoc-khong-phai-xin" data-legacy="24-4"></a>
+
 - Chi phí: Tiền xe, chỗ ở và một lần sắp xếp công việc, cộng phần cùng chi trả của lần khám. Không có lệ phí đăng ký, không có khoản nộp cho cơ quan bảo hiểm để được đi khám ở tỉnh khác. Khoản đắt là tiền đi lại và thời gian, nhất là khi phải quay lại nhiều lần cho một đợt điều trị; khoản này cộng thêm vào phần cùng chi trả của lần khám.
 - Nói dễ hiểu: Đi khám ở tỉnh khác không phải đăng ký trước, không phải xin ai duyệt. Cái quyết định là cấp nơi bạn tới và bạn có phiếu chuyển hay không: tự vào nội trú cấp chuyên sâu thì còn 40% mức hưởng, ngoại trú ở cơ sở từng là tuyến tỉnh từ ngày 01/7/2026 là 50%.
 - Lợi ích: Khám ở tỉnh khác không nhất thiết phải thay ngay đăng ký ban đầu, nhưng quyền lợi phụ thuộc cấp cơ sở và lý do đến khám. Đối chiếu trường hợp của mình trước khi đi.
@@ -52,6 +60,8 @@ Về bối cảnh Việt Nam: phần lớn chương đứng trên văn bản Vi�
 
 ### 5. Mỗi lần khám xong tự giữ một bộ: hồ sơ bệnh án là quyền của bạn, nhưng phải xin bằng văn bản
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-moi-lan-kham-xong-tu-giu-mot-bo-ho-so-benh-an" data-legacy="24-5"></a>
+
 - Chi phí: Không mất khoản phí nào để hỏi và để yêu cầu. Bản sao thì trả tiền photo hoặc tiền in theo bảng giá của bệnh viện, cộng một lần đi tới phòng hồ sơ hoặc phòng hành chính. Khoản đắt nằm ở chỗ để mất: không có hồ sơ cũ thì lần khám sau phải làm lại xét nghiệm và chụp lại phim, số tiền đó thường lớn hơn tiền photo nhiều lần. Cái khó là thói quen, vì bệnh viện không tự gửi bản sao cho bạn sau mỗi lần khám.
 - Nói dễ hiểu: Bạn có quyền đọc, xem, sao chụp hồ sơ bệnh án của mình và xin bản tóm tắt. Mỗi lần khám xong, viết một tờ yêu cầu gửi phòng hồ sơ, xin bản sao có đóng dấu: đơn thuốc, kết quả xét nghiệm, phim, giấy ra viện. Khi chuyển viện hay mua bảo hiểm, bạn đã có sẵn bộ hồ sơ trong tay.
 - Lợi ích: Lưu hồ sơ, xét nghiệm và đơn thuốc sau mỗi lần khám giúp theo dõi lâu dài và tránh phải làm lại. Có thể yêu cầu bản sao hoặc bản tóm tắt bệnh án theo thủ tục.
@@ -62,6 +72,8 @@ Về bối cảnh Việt Nam: phần lớn chương đứng trên văn bản Vi�
 
 ### 6. Nghi ngờ cách điều trị: luật không có thủ tục niêm phong hồ sơ, nên làm ba việc có thật
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-nghi-ngo-cach-dieu-tri-luat-khong-co-thu-tuc-niem-phong" data-legacy="24-6"></a>
+
 - Chi phí: Không mất khoản phí nào để gửi văn bản, chỉ trả tiền photo bản sao. Bạn mất một buổi viết đơn và đi lại giữa phòng hồ sơ với phòng tiếp nhận, cộng thời gian chờ hội đồng chuyên môn họp. Phần khó không phải tiền mà là nói ra: ngồi trước người vừa điều trị cho mình và đề nghị giữ nguyên hồ sơ, không sửa, là việc nhiều người né tới lúc quá muộn.
 - Nói dễ hiểu: Luật không có thủ tục niêm phong hồ sơ như một quyền riêng, nên đừng ngồi chờ ai niêm phong giúp. Làm ba việc: gửi văn bản xin bản sao hồ sơ ngay; gửi văn bản đề nghị giữ nguyên, không sửa; có tranh chấp thì đề nghị lập hội đồng chuyên môn. Đang cấp cứu thì cứu trước.
 - Lợi ích: Khi nghi ngờ việc khám chữa bệnh, giữ hồ sơ và yêu cầu giải thích bằng văn bản là bước thực tế hơn tìm một thủ tục 'niêm phong' không rõ căn cứ. Ưu tiên tiếp tục điều trị an toàn.
@@ -72,6 +84,8 @@ Về bối cảnh Việt Nam: phần lớn chương đứng trên văn bản Vi�
 
 ### 7. Cấp cứu thì vào thẳng khu cấp cứu và tìm bàn phân loại, đừng xếp hàng lấy số
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=tử-vong -->
+<a name="entry-cap-cuu-thi-vao-thang-khu-cap-cuu-va-tim-ban-phan" data-legacy="24-7"></a>
+
 - Chi phí: Tìm đúng bàn phân loại không mất tiền, và bạn không phải làm thủ tục gì trước. Cái mất là vài phút đi tìm đúng cửa và một câu nói rõ ràng với người phân loại. Không cần ý chí, chỉ cần bỏ thói quen xếp hàng ở quầy đăng ký.
 - Nói dễ hiểu: Cấp cứu không xếp theo thứ tự đến. Đau ngực, khó thở, nói ngọng hay yếu nửa người thì gọi 115; đã tới viện thì hỏi ngay khu cấp cứu và bàn phân loại, đừng lấy số ở quầy đăng ký. Nói câu nêu dấu hiệu nặng nhất trước. Đang chờ mà thấy nặng lên thì bạn quay lại bàn đó nói ngay.
 - Lợi ích: Tình huống cấp cứu cần được phân loại và xử lý theo mức nguy hiểm, không giống hàng chờ khám thường. Tìm đúng khu cấp cứu và cung cấp thông tin triệu chứng ngay.
@@ -82,6 +96,8 @@ Về bối cảnh Việt Nam: phần lớn chương đứng trên văn bản Vi�
 
 ### 8. Không tiền, không giấy tờ, không nói được mình là ai: cấp cứu vẫn phải làm trước
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tử-vong -->
+<a name="entry-khong-tien-khong-giay-to-khong-noi-duoc-minh-la-ai-cap" data-legacy="24-8"></a>
+
 - Chi phí: Bạn không cần có sẵn tiền mới được cấp cứu, và không phải nộp giấy tờ trước. Nhưng cấp cứu không phải miễn phí. Hóa đơn vẫn còn đó, phần không được bảo hiểm trả thì mình trả sau, và người không có thẻ bảo hiểm y tế vẫn có nghĩa vụ chi trả theo luật.
 - Nói dễ hiểu: Không tiền, không thẻ, không giấy tờ, không nói được mình là ai: vẫn phải được cấp cứu trước. Cứ gọi 115 hoặc vào thẳng khu cấp cứu gần nhất; thẻ và giấy tờ nộp sau, trước khi kết thúc đợt điều trị. Viện phí vẫn phải trả sau, nhưng không ai được lấy chuyện tiền ra làm lý do chậm cấp cứu.
 - Lợi ích: Không có tiền hay giấy tờ trong tay không có nghĩa người bệnh được phép bị bỏ mặc trong cấp cứu. Khi ổn định, mới hoàn tất thông tin và thủ tục thanh toán.
@@ -92,6 +108,8 @@ Về bối cảnh Việt Nam: phần lớn chương đứng trên văn bản Vi�
 
 ### 9. Giám định chỉ có nghĩa khi vết thương đã ổn định
 <!-- nhãn: tiền=ít thời-gian=nhiều ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-giam-dinh-chi-co-nghia-khi-vet-thuong-da-on-dinh" data-legacy="24-9"></a>
+
 - Chi phí: Tiền mặt không nhiều, nhưng không phải bằng không: phí giám định do bên trưng cầu hoặc bên đề nghị trả trước, và hãy hỏi mức phí tại cơ sở giám định trước khi nộp. Cái đắt nhất là thời gian chờ: phải đợi đúng lúc bác sĩ điều trị nói vết thương đã ổn định, mà quãng đó tính bằng tháng chứ không tính bằng ngày, và trong lúc chờ thì hồ sơ bồi thường, hồ sơ bảo hiểm, hồ sơ xin việc đều đứng lại.
 - Nói dễ hiểu: Mức tổn thương chỉ chốt được khi vết thương đã ổn định, nên giám định sớm rồi xin làm lại là mất thêm một vòng. Trong lúc chờ, giữ đủ hồ sơ và để ý thời hiệu; bác sĩ điều trị nói đã ổn định thì đi.
 - Lợi ích: Giám định mức tổn thương hoặc suy giảm cần đúng thời điểm và hồ sơ điều trị. Kết luận giám định khác với giấy khám bệnh thông thường, không nên tự đồng nhất.
@@ -102,6 +120,8 @@ Về bối cảnh Việt Nam: phần lớn chương đứng trên văn bản Vi�
 
 ### 10. Giấy xác nhận khuyết tật xin ở cấp xã, và nó không thay kết luận giám định
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=vừa thước-đo=khác -->
+<a name="entry-giay-xac-nhan-khuyet-tat-xin-o-cap-xa-va-no-khong" data-legacy="24-10"></a>
+
 - Chi phí: Chủ yếu là công đi lại và thời gian chờ, không phải một khoản tiền lớn: một lượt ra Ủy ban nhân dân cấp xã nộp hồ sơ, một lượt tới cơ sở y tế được chỉ định để khám, rồi chờ hội đồng xét và chờ kết quả. Cái đắt là đi lại nhiều lần vì thiếu giấy, và với người đang yếu thì mỗi chuyến là một ngày mất.
 - Nói dễ hiểu: Giấy xác nhận khuyết tật là cửa vào các chính sách hỗ trợ, và nó do cấp xã cấp sau khi hội đồng xét. Kết luận giám định thương tích không thay được giấy này, nên đừng mang kết luận giám định đi làm thủ tục cần giấy xác nhận khuyết tật, hoặc ngược lại.
 - Lợi ích: Giấy xác nhận mức độ khuyết tật và kết luận giám định có mục đích, cơ quan và thủ tục riêng. Trước khi nộp hồ sơ, hỏi chính xác loại giấy tờ cơ quan tiếp nhận yêu cầu.
@@ -112,6 +132,8 @@ Về bối cảnh Việt Nam: phần lớn chương đứng trên văn bản Vi�
 
 ### 11. Cảm ơn bác sĩ bằng thư và bằng đánh giá, đừng bằng phong bì
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=khác -->
+<a name="entry-cam-on-bac-si-bang-thu-va-bang-danh-gia-dung-bang" data-legacy="24-11"></a>
+
 - Chi phí: Không tốn tiền: một lá thư viết tay hoặc một lượt góp ý qua kênh của bệnh viện, mất vài chục phút. Bạn phải bỏ công nhớ lại tên người, khoa, ngày — mà đó chính là phần làm cho lời cảm ơn có giá trị, vì thư không có tên thì bệnh viện không biết ghi nhận cho ai.
 - Nói dễ hiểu: Tiền đưa sau khi đã được cứu không mua thêm được gì, mà người nhận thì vướng quy định của ngành. Muốn cảm ơn thì viết thư, góp ý qua kênh của bệnh viện, hoặc đánh giá đúng những gì đã xảy ra.
 - Lợi ích: Không đưa phong bì để đổi lấy quyền được khám hoặc được chăm sóc tốt. Gửi lời cảm ơn, đánh giá và phản ánh bằng kênh chính thức sẽ minh bạch hơn.
@@ -122,6 +144,8 @@ Về bối cảnh Việt Nam: phần lớn chương đứng trên văn bản Vi�
 
 ### 12. Trước khi đồng ý làm răng, xin bảng giá ghi từng bước và so với giá đã niêm yết
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-truoc-khi-dong-y-lam-rang-xin-bang-gia-ghi-tung-buoc" data-legacy="24-12"></a>
+
 - Chi phí: Không tốn tiền để hỏi: một lượt xem bảng giá tại quầy hoặc trên trang của cơ sở, một câu hỏi rõ ràng với người tư vấn. Bạn phải dành công sức đọc từng dòng, đối chiếu với giá đã niêm yết và chịu sự khó chịu khi phải hỏi lại lần hai trước mặt người đang tư vấn cho bạn.
 - Nói dễ hiểu: Giá báo trên tờ rơi thường chỉ là một hạng mục. Trước khi đồng ý, xin bảng giá ghi từng bước và hỏi rõ bước nào nằm ngoài gói, để so với giá đã niêm yết tại cơ sở.
 - Lợi ích: Làm răng có thể phát sinh tiền khám, chụp, vật liệu và phục hồi. Xin bảng giá chia theo từng bước và nội dung điều trị trước khi đồng ý.
@@ -132,6 +156,8 @@ Về bối cảnh Việt Nam: phần lớn chương đứng trên văn bản Vi�
 
 ### 13. Bệnh viện báo hết thuốc trong danh mục bảo hiểm: xin điều chuyển thuốc hoặc xin chuyển sang cơ sở có thuốc, đừng tự mua rồi chờ hoàn
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-benh-vien-bao-het-thuoc-trong-danh-muc-bao-hiem-xin-dieu" data-legacy="24-13"></a>
+
 - Chi phí: Không mất tiền để hỏi, nhưng mất thời gian đi lại giữa phòng khám, quầy dược và phòng kế hoạch tổng hợp, có khi hết buổi. Nếu tự mua ở nhà thuốc bên ngoài thì bạn trả trước toàn bộ giá bán lẻ, và phần lớn trường hợp khoản đó không được quỹ thanh toán lại. Cái đắt nhất là mua xong mới đi hỏi: tiền thuốc đã ra khỏi túi, mà đường đề nghị thanh toán chỉ mở cho thuốc hiếm và thiết bị loại C, D, và cũng cần phiếu xác nhận tình trạng thiếu thuốc.
 - Nói dễ hiểu: Bệnh viện báo hết thuốc trong danh mục bảo hiểm không có nghĩa bạn phải tự mua; việc đầu tiên là hỏi bác sĩ điều trị. Khi bệnh viện hết thuốc, bạn hãy hỏi về việc điều chuyển thuốc từ cơ sở khác hoặc chuyển sang nơi có thuốc, rồi hỏi rõ phần chênh ai trả.
 - Lợi ích: Khi thiếu thuốc hoặc vật tư thuộc phạm vi BHYT, hỏi bệnh viện về phương án điều chuyển, cung ứng hoặc chuyển cơ sở. Giữ đơn và chỉ định để đối chiếu phần phải tự trả.
@@ -142,6 +168,8 @@ Về bối cảnh Việt Nam: phần lớn chương đứng trên văn bản Vi�
 
 ### 14. Bệnh mạn đã ổn định, muốn xin lại đơn mà không phải đi lại: hỏi bệnh viện đang theo dõi bạn có khám từ xa không, và đừng tính trước khoản bảo hiểm trả
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=thời-gian -->
+<a name="entry-benh-man-da-on-dinh-muon-xin-lai-don-ma-khong-phai" data-legacy="24-14"></a>
+
 - Chi phí: Một lần khám từ xa vẫn là một lần khám: bạn trả phí khám theo giá đã niêm yết của cơ sở, cộng tiền thuốc, cộng phí gửi thuốc nếu chọn nhận tại nhà. Nghị định hướng dẫn hiện hành không có mức thanh toán riêng cho lần khám từ xa, nên hãy hỏi giá trước khi đặt lịch thay vì giả định sẽ được trừ như khám tại quầy. Bạn mất thời gian chờ xác nhận lịch, cài ứng dụng, xác thực tài khoản và ngồi chờ bác sĩ gọi trong buổi khám đầu.
 - Nói dễ hiểu: Bệnh đã ổn định, muốn xin lại đơn thuốc mà không đi lại: hỏi bệnh viện đang theo dõi bạn xem có khám từ xa không; bệnh nặng lên hay có dấu hiệu mới thì phải đi khám trực tiếp. Luật cho phép khám từ xa theo danh mục bệnh của Bộ Y tế, nhưng bảo hiểm chưa có mức trả riêng, nên hỏi giá trước khi đặt lịch.
 - Lợi ích: Với bệnh mạn tính đã ổn định, khám từ xa có thể giảm thời gian đi lại trong trường hợp được phép. Hỏi bệnh viện đang theo dõi về điều kiện và giới hạn kê đơn.
@@ -152,6 +180,8 @@ Về bối cảnh Việt Nam: phần lớn chương đứng trên văn bản Vi�
 
 ### 15. Ra viện xin bảng kê chi phí, đối chiếu từng dòng; lệch thì kiến nghị bằng văn bản chứ đừng chỉ nói miệng
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-ra-vien-xin-bang-ke-chi-phi-doi-chieu-tung-dong-lech" data-legacy="24-15"></a>
+
 - Chi phí: Không mất tiền. Mất khoảng 15 phút ngồi đối chiếu và vài lần hỏi lại quầy thu ngân hoặc phòng kế hoạch tổng hợp. Nếu phải kiến nghị thì mất thêm thời gian viết và chờ trả lời, và phải giữ đủ giấy: bảng kê, hóa đơn, phiếu chỉ định, ảnh chụp màn hình. Cái khó là phải hỏi thẳng người đang thu tiền của mình, ngay lúc vừa ra viện và đang mệt.
 - Nói dễ hiểu: Ra viện, xin bảng kê chi phí có tên, đơn giá, số lượng và ngày của từng mục, rồi đối chiếu với những gì bạn thấy được làm. Lệch thì gửi kiến nghị bằng văn bản cho bệnh viện và giữ lại bảng kê, đừng chỉ nói miệng ở quầy thu ngân.
 - Lợi ích: Bảng kê ra viện giúp biết mình đã trả cho dịch vụ, thuốc và vật tư nào. Nếu có khoản không rõ, yêu cầu giải thích và gửi kiến nghị có mã tiếp nhận.

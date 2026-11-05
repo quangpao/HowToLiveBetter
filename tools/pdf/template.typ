@@ -11,6 +11,8 @@ $--
 
 #let horizontalRule = line(start: (25%, 0%), end: (75%, 0%))
 #let divider = if "divider" in std { divider } else { horizontalRule }
+// pandoc 3.1 gọi helper này khi gặp trích dẫn; các bản mới dùng quote() trực tiếp.
+#let blockquote(body) = block(inset: (left: 12pt), stroke: (left: 0.5pt + luma(180)), body)
 
 #show figure.where(kind: table): set figure.caption(position: top)
 #show figure.where(kind: image): set figure.caption(position: bottom)

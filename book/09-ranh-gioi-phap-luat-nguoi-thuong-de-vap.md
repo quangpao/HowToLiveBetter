@@ -4,14 +4,16 @@
 
 Chương này tính hai thứ: tự do và tiền. Những việc dưới đây phần lớn người bình thường coi là "không có gì" — một cái story, một lần nhận tiền hộ, một cái drone, một ván bài — nhưng đều có mức phạt hành chính ghi rõ trong nghị định, và một số có khung hình sự. Bạn có thể tra lại các mức phạt theo số hiệu văn bản và điều khoản được ghi kèm.
 
-Thang bằng chứng ở chương này khác các chương về sức khỏe: đây là chương **quy tắc**, không phải chương thử nghiệm. Không có mục nào hạng A — không ai làm thử nghiệm ngẫu nhiên để xem có nên ném chai xuống đường hay không. **26 mục hạng B** (quy tắc và khung tiền viết thẳng trong luật, nghị định, đã mở bản ký) và **3 mục hạng C** — mục 8, 25, 29. Ba mục đó là chỗ văn bản chỉ nói chung chung: khuyến mại ảo, viết tiếp truyện của người khác, và thi hộ — không có khung tiền riêng để đối chiếu, nên không dám xếp ngang với một điều có mức phạt rõ ràng.
+Thang bằng chứng ở chương này khác các chương về sức khỏe: đây là chương **quy tắc**, không phải chương thử nghiệm. Không có mục nào hạng A — không ai làm thử nghiệm ngẫu nhiên để xem có nên ném chai xuống đường hay không. **26 mục hạng B** (quy tắc và khung tiền viết thẳng trong luật, nghị định, đã mở bản ký) và **3 mục hạng C** — [mục 8](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-khuyen-mai-thi-lay-bang-than-phan-that-mot-tai-khoan-mot), [25](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-viet-tiep-truyen-cua-nguoi-khac-roi-ban-hoac-xuat-ban-phai), [29](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-khong-thi-ho-khong-thue-nguoi-thi-ho-khong-mua-ban-dap). Ba mục đó là chỗ văn bản chỉ nói chung chung: khuyến mại ảo, viết tiếp truyện của người khác, và thi hộ — không có khung tiền riêng để đối chiếu, nên không dám xếp ngang với một điều có mức phạt rõ ràng.
 
 Ở Việt Nam, bạn còn dễ nhầm mức phạt vì khung xử phạt hành chính **vừa được cập nhật**. — Nghị định 282/2025/NĐ-CP (hiệu lực 15/12/2025) đã thay Nghị định 144/2021, và Nghị định 174/2026/NĐ-CP (hiệu lực 1/7/2026) đã bãi bỏ Điều 101 Nghị định 15/2020 về thông tin sai sự thật trên mạng. Con số cũ vẫn đang được báo chí và các trang tư vấn đăng lại, nên mục nào cũng ghi rõ văn bản đang dùng và ngày tra.
 
-**Nhóm mục**: **Đăng và chia sẻ trên mạng**: mục 1, 2, 3, 4 · **Nhận tiền hộ, vay giả và bảo hiểm giả**: mục 5, 6, 7, 8, 16, 21 · **Việc nhỏ hằng ngày**: mục 9 (ném đồ từ ban công), 10, 11, 13, 14, 27, 28 · **Xung đột và công an**: mục 15, 17, 19, 26 · **Tình dục, trẻ em và cơ thể**: mục 12, 18, 20, 22, 23 · **Bản quyền và sáng tạo lại**: mục 24 (phim, sách lậu), 25 · **Thi cử**: mục 29 (thi hộ)
+**Nhóm mục**: **Đăng và chia sẻ trên mạng**: [mục 1](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-tin-bao-dich-cong-an-khong-ro-that-gia-thi-khong-chuyen), [2](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-khong-dang-khong-chuyen-anh-che-va-binh-luan-xuc-pham-anh), [3](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-trang-nuoc-ngoai-doc-xong-thi-dong-khong-chup-lai-khong-chuyen), [4](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-phim-khieu-dam-tu-xem-thi-tu-chiu-nhung-dung-gui-vao) · **Nhận tiền hộ, vay giả và bảo hiểm giả**: [mục 5](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-viec-nhe-luong-cao-ma-bat-ban-dung-the-cua-minh-de), [6](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-co-nguoi-ru-lam-ho-so-cho-dep-de-vay-roi-chia), [7](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-nhat-duoc-the-dien-thoai-vi-khong-rut-tien-tim-chu-hoac), [8](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-khuyen-mai-thi-lay-bang-than-phan-that-mot-tai-khoan-mot), [16](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-khong-cho-muon-cho-thue-can-cuoc-khong-dung-giay-to-cua), [21](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-dung-dan-dung-tai-nan-hay-khai-khong-thiet-hai-de-doi) · **Việc nhỏ hằng ngày**: [mục 9](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-ban-cong-cua-so-khong-nem-bat-cu-thu-gi-xuong-dau) (ném đồ từ ban công), 10, 11, 13, 14, 27, 28 · **Xung đột và công an**: [mục 15](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-doi-no-thi-khoi-kien-khong-giu-nguoi-khong-giu-giay-to), [17](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-bi-cong-an-giu-lai-thi-dung-yen-khong-day-khong-giat), [19](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-truoc-khi-ra-tay-thi-tinh-phat-hanh-chinh-boi-thuong-roi), [26](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-dung-mua-dui-cui-roi-dien-binh-xit-cay-hay-dao-gam) · **Tình dục, trẻ em và cơ thể**: [mục 12](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-khong-lap-camera-trong-phong-nguoi-khac-thue-khong-quay-len-roi), [18](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-khong-quan-he-tinh-duc-voi-nguoi-duoi-16-tuoi-dong-y), [20](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-khong-nuoi-duoc-con-thi-di-dang-ky-cho-lam-con-nuoi), [22](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-khong-ban-than-khong-ban-gan-cung-dung-dung-ra-tim-nguoi), [23](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-mua-dam-ban-dam-o-viet-nam-bi-phat-hanh-chinh-khong) · **Bản quyền và sáng tạo lại**: [mục 24](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-dich-chep-dang-lai-phim-truyen-va-sach-lau-khong-ban-cung) (phim, sách lậu), 25 · **Thi cử**: [mục 29](09-ranh-gioi-phap-luat-nguoi-thuong-de-vap.md#entry-khong-thi-ho-khong-thue-nguoi-thi-ho-khong-mua-ban-dap) (thi hộ)
 
 ### 1. Tin bão, dịch, công an không rõ thật giả thì không chuyển tiếp, không chế ảnh, không dựng ảnh hiện trường bằng AI
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-tin-bao-dich-cong-an-khong-ro-that-gia-thi-khong-chuyen" data-legacy="9-1"></a>
+
 - Chi phí: Không mất tiền. Bạn cần dành một phút trước khi bấm chuyển để mở trang của cơ quan phát ngôn, kiểm tra thông tin, và chấp nhận biết tin chậm hơn nhóm khác vài phút. Ảnh chế, ảnh dựng bằng AI, clip cắt ghép cũng phải bỏ, kể cả khi chỉ để "cho vui".
 - Nói dễ hiểu: Nếu bạn vẫn chuyển tiếp tin bão, dịch hay tin công an dù biết là sai, bạn bị phạt 10.000.000 đồng đến 15.000.000 đồng; nếu làm dân hoang mang thì 15.000.000 đồng đến 25.000.000 đồng. Nặng hơn nữa là án tù 6 tháng đến 3 năm.
 - Lợi ích: Không chia sẻ hoặc tự chế hình ảnh, tin tức nhạy cảm chưa được kiểm chứng. Khi thấy thông tin gây hoang mang, tìm thông báo gốc của cơ quan có thẩm quyền trước khi bình luận hoặc chuyển tiếp.
@@ -22,6 +24,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 2. Không đăng, không chuyển ảnh chế và bình luận xúc phạm anh hùng liệt sĩ, không lấy quốc kỳ quốc ca ra đùa
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-khong-dang-khong-chuyen-anh-che-va-binh-luan-xuc-pham-anh" data-legacy="9-2"></a>
+
 - Chi phí: Không mất tiền. Bạn cần nhịn nói một câu khi cả nhóm đang cười và chờ bạn góp một câu cho vui. Không chế ảnh, không cắt clip, không viết chú thích dưới ảnh liệt sĩ hay dưới quốc kỳ.
 - Nói dễ hiểu: Chế ảnh, bình luận nhạo liệt sĩ hay quốc kỳ: nhẹ nhất 3.000.000 đồng đến 4.000.000 đồng. Xúc phạm danh dự người khác thì 10.000.000 đồng đến 30.000.000 đồng, đăng lên mạng thì khung tù 3 tháng đến 2 năm.
 - Lợi ích: Tôn trọng danh dự và biểu tượng quốc gia, tránh dùng hình chế hoặc bình luận có tính xúc phạm để gây chú ý. Một lần đăng lại cũng có thể gây hậu quả.
@@ -32,6 +36,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 3. Trang nước ngoài đọc xong thì đóng: không chụp lại, không chuyển vào nhóm, không bình luận hùa theo
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-trang-nuoc-ngoai-doc-xong-thi-dong-khong-chup-lai-khong-chuyen" data-legacy="9-3"></a>
+
 - Chi phí: Không mất tiền. Cái phải bỏ ra là thói quen lưu lại: không chụp màn hình, không tải về, không dịch rồi đăng lại, không dẫn link vào nhóm. Khó ở chỗ nội dung càng gây sốc thì tay càng muốn lưu.
 - Nói dễ hiểu: Đọc thì không sao; bạn có thể bị xử lý khi đăng lại, chuyển vào nhóm hoặc lưu lại để phát tán. Một khung hình phạt của nhóm tội này là 5 năm đến 12 năm tù, và ở Việt Nam tàng trữ cũng nằm trong tội danh, không chỉ phát tán.
 - Lợi ích: Khi đọc nội dung từ nguồn lạ, cần phân biệt việc tiếp nhận thông tin với việc chủ động phát tán hoặc tham gia hành vi bị cấm. Đừng chia sẻ vào nhóm chỉ vì muốn người khác xem.
@@ -42,6 +48,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 4. Phim khiêu dâm tự xem thì tự chịu, nhưng đừng gửi vào nhóm, đừng bán "tài nguyên", đừng lập nhóm
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-phim-khieu-dam-tu-xem-thi-tu-chiu-nhung-dung-gui-vao" data-legacy="9-4"></a>
+
 - Chi phí: Không mất tiền. Bỏ ba việc: không gửi vào nhóm chat, không để trong thư mục chia sẻ của nhóm, không nhận làm quản trị viên nhóm có nội dung này.
 - Nói dễ hiểu: Không có điều luật nào trong mục này xử phạt việc tự xem. Gửi vào nhóm là hành vi "phổ biến" theo luật: nhóm từ 10 người trở lên đã đủ mức truyền bá văn hóa phẩm đồi trụy, khung 6 tháng đến 3 năm tù; gửi cho người dưới 18 tuổi thì khung 3 năm đến 10 năm.
 - Lợi ích: Không phát tán hoặc kinh doanh nội dung khiêu dâm trái pháp luật. Việc lưu riêng, chia sẻ vào nhóm và tổ chức phát tán có rủi ro pháp lý rất khác nhau.
@@ -52,6 +60,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 5. "Việc nhẹ lương cao" mà bắt bạn dùng thẻ của mình để nhận tiền, rút tiền, chuyển tiền: trả bao nhiêu cũng không làm
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-viec-nhe-luong-cao-ma-bat-ban-dung-the-cua-minh-de" data-legacy="9-5"></a>
+
 - Chi phí: Không mất tiền, chỉ mất cơ hội kiếm vài trăm nghìn một ngày. Cái mất khi đã làm thì khó lấy lại: tài khoản bị phong tỏa, không nhận được lương, phải giải trình với ngân hàng và cơ quan điều tra, và các giao dịch đó vẫn đứng tên bạn.
 - Nói dễ hiểu: Không có mức tiền công nào bù được: chỉ cần biết hoặc có cơ sở để biết tiền trong tài khoản là tiền phạm tội, khung đã là 1 năm đến 5 năm tù. Cho thuê, cho mượn tài khoản tự nó đã là hành vi bị cấm.
 - Lợi ích: Từ chối mọi lời mời nhận tiền hộ, rút tiền rồi chuyển tiếp không rõ nguồn gốc. Tiền được hứa trả không bù nổi rủi ro khi tài khoản bị dùng che giấu nguồn tiền bất hợp pháp.
@@ -62,6 +72,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 6. Có người rủ "làm hồ sơ cho đẹp" để vay rồi chia phần trăm theo món vay: không làm một món nào
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-co-nguoi-ru-lam-ho-so-cho-dep-de-vay-roi-chia" data-legacy="9-6"></a>
+
 - Chi phí: Không mất tiền. Bỏ khoản phần trăm, không cho mượn giấy tờ, không ký giấy tờ mình chưa đọc, không đi "phỏng vấn vay" thay người khác, không đứng tên người vay hộ.
 - Nói dễ hiểu: Đứng tên vay hộ để lấy phần trăm: làm giấy tờ giả là tội riêng, khung 6 tháng đến 2 năm tù; chiếm đoạt từ 2.000.000 đồng đã là tội lừa đảo, từ 50.000.000 đồng lên khung 2 năm đến 7 năm. Khoản nợ vẫn đứng tên bạn.
 - Lợi ích: Không làm giả giấy tờ, số liệu hoặc tài sản bảo đảm để giúp người khác vay tiền. Một bộ hồ sơ được 'làm đẹp' có thể khiến người lập lẫn người sử dụng phải chịu trách nhiệm.
@@ -72,6 +84,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 7. Nhặt được thẻ, điện thoại, ví: không rút tiền, tìm chủ hoặc nộp công an, không giữ lại
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-nhat-duoc-the-dien-thoai-vi-khong-rut-tien-tim-chu-hoac" data-legacy="9-7"></a>
+
 - Chi phí: Không mất tiền, mất một buổi đi lại nếu phải mang tới công an xã, phường. Việc phải làm rất ngắn: gọi vào số trong máy nếu mở được, hoặc mang tới công an xã, phường gần nhất và lấy biên bản giao nhận.
 - Nói dễ hiểu: Giữ lại điện thoại, ví nhặt được: dưới 10.000.000 đồng thì phạt 3.000.000 đồng đến 5.000.000 đồng; từ 10.000.000 đồng mà không chịu trả thì vào tội chiếm giữ trái phép, khung 3 tháng đến 2 năm tù. Rút tiền bằng thẻ nhặt được là lấy tài sản, không phải "dùng thử".
 - Lợi ích: Nhặt được tài sản có giá trị thì cố tìm chủ sở hữu hoặc giao nộp theo thủ tục. Không rút tiền, đăng nhập hoặc sử dụng đồ vật trước khi xác định quyền của mình.
@@ -82,6 +96,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 8. Khuyến mại thì lấy bằng thân phận thật, một tài khoản một lần: không mua sim, không mua tài khoản, không khai thác lỗi hệ thống
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-khuyen-mai-thi-lay-bang-than-phan-that-mot-tai-khoan-mot" data-legacy="9-8"></a>
+
 - Chi phí: Không mất tiền. Bỏ nhóm "việc làm online" chuyên săn mã giảm giá, bỏ thói quen đăng ký nhiều tài khoản bằng số điện thoại rác, và bỏ luôn ý định thử xem lỗi hệ thống có lặp lại được không.
 - Nói dễ hiểu: Dùng giấy tờ thật, một tài khoản, một lần nhận là bình thường. Mua số điện thoại, mua tài khoản để đăng ký hàng loạt rồi bán lại mã giảm giá: từ 2.000.000 đồng chiếm đoạt đã là tội lừa đảo; mua bán 20 tài khoản trở lên có tội danh riêng.
 - Lợi ích: Không mua SIM hoặc tài khoản giả để lợi dụng chương trình khuyến mại nhiều lần. Một khoản lợi nhỏ có thể thành hành vi chiếm đoạt hoặc vi phạm điều khoản dịch vụ.
@@ -92,6 +108,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 9. Ban công, cửa sổ không ném bất cứ thứ gì xuống: đầu thuốc, túi rác, chai rượu đều tính
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-ban-cong-cua-so-khong-nem-bat-cu-thu-gi-xuong-dau" data-legacy="9-9"></a>
+
 - Chi phí: Không mất tiền, không mất thời gian. Chỉ đổi một thói quen: mọi thứ đều mang vào nhà bỏ vào thùng rác, kể cả đầu thuốc lá và túi rác buộc vội. Nếu đang có trẻ nhỏ hoặc người say, cần khóa cửa ban công.
 - Nói dễ hiểu: Ném đồ từ trên cao xuống bị xử theo hậu quả gây ra. Ném trúng người: 4.000.000 đồng đến 6.000.000 đồng nếu chưa gây thương tích đáng kể; gây thương tích là sang Điều 134, khung 6 tháng đến 3 năm tù; gây chết là tội giết hoặc vô ý làm chết, nặng nhất 15 năm.
 - Lợi ích: Không ném bất kỳ thứ gì từ cửa sổ hay ban công, kể cả đầu thuốc hoặc túi rác. Tổn thương người bên dưới có thể gây thiệt hại và trách nhiệm lớn.
@@ -102,6 +120,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 10. Không đặt mua súng đồ chơi bắn đạn nhựa, súng cồn, súng hơi qua mạng, không mua "súng đồ chơi" không rõ nguồn
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-khong-dat-mua-sung-do-choi-ban-dan-nhua-sung-con-sung" data-legacy="9-10"></a>
+
 - Chi phí: Không mất tiền. Bỏ đơn hàng, và nếu đã lỡ nhận thì mang nộp công an xã, phường thay vì giữ trong nhà. Muốn bắn thì ra trường bắn, câu lạc bộ thể thao có phép.
 - Nói dễ hiểu: Súng đồ chơi bắn đạn nhựa, súng cồn, súng hơi mua qua mạng: tàng trữ trái phép bị phạt 30.000.000 đồng đến 40.000.000 đồng; nếu giám định là vũ khí quân dụng thì khung hình sự 1 năm đến 7 năm tù, không cần đã bị phạt lần nào trước.
 - Lợi ích: Không mua hay tự chế vật có khả năng gây sát thương chỉ vì người bán gọi đó là đồ chơi. Nếu không rõ phân loại pháp lý và mức độ nguy hiểm, đừng nhận hàng.
@@ -112,6 +132,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 11. Mua drone thì đăng ký và xin phép bay trước, không bay gần sân bay hay khu quân sự, không bẻ giới hạn độ cao
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-mua-drone-thi-dang-ky-va-xin-phep-bay-truoc-khong-bay" data-legacy="9-11"></a>
+
 - Chi phí: Đăng ký phương tiện, đăng ký người điều khiển và xin phép bay trước mỗi lần bay (Nghị định 288/2025/NĐ-CP). Bay khi chưa có phép bay: 20.000.000 đồng đến 30.000.000 đồng, kèm tịch thu phương tiện. Bay đã được cấp phép nhưng sai thời gian, địa điểm, khu vực, tọa độ hoặc giới hạn cho phép: 2.000.000 đồng đến 3.000.000 đồng. Quay phim, chụp ảnh từ trên không khi không được phép: 8.000.000 đồng đến 9.000.000 đồng. Bay cản trở hoặc gây mất an toàn cho phương tiện bay khác: 30.000.000 đồng đến 40.000.000 đồng, kèm tước quyền sử dụng phép bay 3 tháng đến 6 tháng.
 - Nói dễ hiểu: Bay khi chưa có phép bay bị phạt 20.000.000 đồng đến 30.000.000 đồng và mất luôn drone; bay sai vùng đã xin phép chỉ 2.000.000 đồng đến 3.000.000 đồng. Quay từ trên không khi không được phép: 8.000.000 đồng đến 9.000.000 đồng.
 - Lợi ích: Đăng ký, kiểm tra vùng cấm và xin phép phù hợp trước khi cho drone cất cánh. Đừng bay gần sân bay, khu quân sự hoặc vượt giới hạn được phép.
@@ -122,6 +144,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 12. Không lắp camera trong phòng người khác thuê, không quay lén rồi phát tán
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-khong-lap-camera-trong-phong-nguoi-khac-thue-khong-quay-len-roi" data-legacy="9-12"></a>
+
 - Chi phí: Không lắp thì không mất tiền. Nếu lắp và bị xử: xâm nhập trái pháp luật chỗ ở của người khác bị phạt cải tạo không giam giữ đến 2 năm hoặc tù 3 tháng đến 2 năm (Điều 158 khoản 1 Bộ luật Hình sự). Clip được tung lên mạng có thể thành tội làm nhục: phạt 10.000.000 đồng đến 30.000.000 đồng hoặc tù 3 tháng đến 2 năm (Điều 155 khoản 1 và khoản 2 điểm e). Việc ghi hình đời sống riêng tư của người khác còn là xử lý dữ liệu cá nhân không có sự đồng ý.
 - Nói dễ hiểu: Lắp camera trong phòng người khác đang thuê có thể bị xử về xâm phạm chỗ ở: tù 3 tháng đến 2 năm. Tung clip lên mạng: phạt 10.000.000 đồng đến 30.000.000 đồng, tù tới 2 năm.
 - Lợi ích: Tôn trọng không gian riêng tư của người khác và không đặt camera tại nơi họ có kỳ vọng riêng tư. Đừng đăng tải hình ảnh thu được khi chưa có căn cứ hợp pháp.
@@ -132,6 +156,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 13. Đánh bài ăn tiền thì biết mốc: 5 triệu là sang hình sự, đứng ra tổ chức là có thể ngồi tù
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-danh-bai-an-tien-thi-biet-moc-5-trieu-la-sang-hinh" data-legacy="9-13"></a>
+
 - Chi phí: Đánh bạc trái phép chưa tới mức hình sự: 1.000.000 đồng đến 2.000.000 đồng (Điều 36 khoản 2 Nghị định 282/2025/NĐ-CP). Nhận gửi tiền, cầm đồ, cho vay tại chiếu bạc: 2.000.000 đồng đến 5.000.000 đồng (khoản 3). Rủ rê, lôi kéo hoặc dùng nhà để chứa đánh bạc: 5.000.000 đồng đến 10.000.000 đồng (khoản 4). Làm chủ lô, đề: 10.000.000 đồng đến 20.000.000 đồng (khoản 5). Hình sự: tiền hoặc hiện vật dùng đánh bạc từ 5.000.000 đồng đến dưới 50.000.000 đồng thì tù 6 tháng đến 3 năm (Điều 321 khoản 1 Bộ luật Hình sự); tổ chức đánh bạc hoặc gá bạc thì 50.000.000 đồng đến 300.000.000 đồng hoặc tù 1 năm đến 5 năm (Điều 322 khoản 1).
 - Nói dễ hiểu: Đánh bài ăn tiền bị phạt 1.000.000 đồng đến 2.000.000 đồng; giữ tiền, cho vay ngay tại chiếu bạc 2.000.000 đồng đến 5.000.000 đồng. Tiền dùng đánh bạc từ 5.000.000 đồng là sang hình sự, tù 6 tháng đến 3 năm; đứng ra tổ chức thì tù 1 năm đến 5 năm.
 - Lợi ích: Tránh đánh bạc ăn tiền hoặc tổ chức cho người khác chơi. Số tiền, tiền sự và vai trò tổ chức có thể làm thay đổi mức độ xử lý.
@@ -142,6 +168,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 14. Không ăn thịt thú rừng, không mua bán hay nuôi nhốt động vật, thực vật hoang dã trái phép
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-khong-an-thit-thu-rung-khong-mua-ban-hay-nuoi-nhot-dong" data-legacy="9-14"></a>
+
 - Chi phí: Không mất tiền để không mua. Nếu vi phạm: săn bắt, giết, nuôi nhốt, tàng trữ, vận chuyển, buôn bán trái phép động vật thuộc Nhóm IIB hoặc Phụ lục II Công ước CITES trị giá từ 150.000.000 đồng, hoặc động vật hoang dã khác trị giá từ 300.000.000 đồng, thì phạt 50.000.000 đồng đến 300.000.000 đồng, cải tạo không giam giữ đến 3 năm hoặc tù 6 tháng đến 3 năm (Điều 234 khoản 1). Với loài nguy cấp, quý, hiếm Nhóm IB hoặc Phụ lục I: phạt 1.000.000.000 đồng đến 4.000.000.000 đồng hoặc tù 1 năm đến 5 năm (Điều 244 khoản 1). Khai thác thực vật rừng ngoài gỗ Nhóm IIA trị giá từ 50.000.000 đồng: phạt 50.000.000 đồng đến 300.000.000 đồng hoặc tù 6 tháng đến 3 năm (Điều 232 khoản 1 điểm g).
 - Nói dễ hiểu: Săn, nhốt, mua bán động vật hoang dã trái phép trị giá từ 150.000.000 đồng: 50.000.000 đồng đến 300.000.000 đồng hoặc tù 6 tháng đến 3 năm. Loài nguy cấp, quý, hiếm: 1.000.000.000 đồng đến 4.000.000.000 đồng hoặc tù 1 năm đến 5 năm.
 - Lợi ích: Không mua bán, sử dụng hoặc nuôi nhốt động vật hoang dã không rõ giấy tờ nguồn gốc. Đừng dựa vào lời nói 'hàng được phép' của người bán.
@@ -152,6 +180,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 15. Đòi nợ thì khởi kiện, không giữ người, không giữ giấy tờ, không đến nhà ngồi lì
 <!-- nhãn: tiền=ít thời-gian=nhiều ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-doi-no-thi-khoi-kien-khong-giu-nguoi-khong-giu-giay-to" data-legacy="9-15"></a>
+
 - Chi phí: Không mất tiền để lùi lại. Nếu tự đòi bằng sức: dùng vũ lực, đe dọa dùng vũ lực hoặc biện pháp khác mà pháp luật không cho phép để đòi nợ bị phạt 20.000.000 đồng đến 40.000.000 đồng (Điều 15 khoản 5 điểm d Nghị định 282/2025/NĐ-CP). Bắt, giữ hoặc giam người trái pháp luật: tù 6 tháng đến 3 năm (Điều 157 khoản 1 Bộ luật Hình sự); cưỡng đoạt tài sản: tù 1 năm đến 5 năm (Điều 170 khoản 1); xâm phạm chỗ ở: tù 3 tháng đến 2 năm (Điều 158 khoản 1). Đi đường dân sự thì mất thời gian: hòa giải, xét xử, thi hành án.
 - Nói dễ hiểu: Đến nhà ngồi lì, giữ người, dọa nạt để đòi nợ: phạt 20.000.000 đồng đến 40.000.000 đồng, nặng hơn là tù 6 tháng đến 3 năm. Có nợ thật cũng không được làm vậy. Đường đúng là khởi kiện rồi yêu cầu thi hành án.
 - Lợi ích: Đòi nợ bằng giấy tờ và thủ tục hợp pháp. Không đe dọa, giữ người, giữ giấy tờ hay gây sức ép tại nơi ở hoặc nơi làm việc.
@@ -162,6 +192,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 16. Không cho mượn, cho thuê căn cước; không dùng giấy tờ của người khác để đăng ký, mở thẻ, mua vé
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-khong-cho-muon-cho-thue-can-cuoc-khong-dung-giay-to-cua" data-legacy="9-16"></a>
+
 - Chi phí: Không mất tiền để từ chối. Nếu vi phạm: chiếm đoạt hoặc sử dụng trái phép thẻ căn cước của người khác bị phạt 2.000.000 đồng đến 4.000.000 đồng; thuê, cho thuê hoặc cầm cố thẻ căn cước bị phạt 8.000.000 đồng đến 10.000.000 đồng (Điều 11 khoản 2 điểm a, khoản 4 điểm b và điểm c Nghị định 282/2025/NĐ-CP). Làm giả hoặc dùng giấy tờ giả: phạt 30.000.000 đồng đến 100.000.000 đồng, cải tạo không giam giữ đến 3 năm hoặc tù 6 tháng đến 2 năm (Điều 341 khoản 1 Bộ luật Hình sự).
 - Nói dễ hiểu: Cho thuê, cho mượn thẻ căn cước: phạt 8.000.000 đồng đến 10.000.000 đồng. Dùng thẻ của người khác: 2.000.000 đồng đến 4.000.000 đồng. Làm hoặc dùng giấy tờ giả: tù 6 tháng đến 2 năm, phạt tới 100.000.000 đồng.
 - Lợi ích: Không cho mượn hoặc thuê căn cước, cũng không dùng giấy tờ của người khác để đăng ký dịch vụ. Giữ giấy tờ cá nhân và báo sớm khi phát hiện bị lạm dụng.
@@ -172,6 +204,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 17. Bị công an giữ lại thì đứng yên, không đẩy, không giật máy ghi hình, đừng cãi bằng tay
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-bi-cong-an-giu-lai-thi-dung-yen-khong-day-khong-giat" data-legacy="9-17"></a>
+
 - Chi phí: Không mất tiền để đứng yên. Nếu phản ứng: cản trở, không chấp hành yêu cầu của người thi hành công vụ, hoặc có lời nói, hành động đe dọa, lăng mạ, xúc phạm họ bị phạt 4.000.000 đồng đến 6.000.000 đồng (Điều 26 khoản 2 Nghị định 282/2025/NĐ-CP). Dùng vũ lực, đe dọa dùng vũ lực hoặc thủ đoạn khác cản trở người thi hành công vụ: cải tạo không giam giữ đến 3 năm hoặc tù 6 tháng đến 3 năm (Điều 330 khoản 1 Bộ luật Hình sự); có tổ chức hoặc phạm tội 2 lần trở lên: tù 2 năm đến 7 năm (khoản 2).
 - Nói dễ hiểu: Cãi, xô, giằng điện thoại khi bị kiểm tra: phạt 4.000.000 đồng đến 6.000.000 đồng. Đánh hoặc đe dọa: tù 6 tháng đến 3 năm. Say rượu không làm nhẹ tội.
 - Lợi ích: Khi làm việc với lực lượng chức năng, giữ bình tĩnh và yêu cầu giải thích bằng lời hoặc văn bản. Không dùng tay đẩy, giật thiết bị hay cản trở việc thi hành công vụ.
@@ -182,6 +216,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 18. Không quan hệ tình dục với người dưới 16 tuổi, "đồng ý" không phải là căn cứ
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-khong-quan-he-tinh-duc-voi-nguoi-duoi-16-tuoi-dong-y" data-legacy="9-18"></a>
+
 - Chi phí: Không mất tiền để dừng lại. Nếu vi phạm: giao cấu hoặc thực hiện hành vi quan hệ tình dục khác với người dưới 13 tuổi bị phạt tù 7 năm đến 15 năm, không cần biết người đó có đồng ý hay không (Điều 142 khoản 1 điểm b Bộ luật Hình sự). Với người từ đủ 13 tuổi đến dưới 16 tuổi, người đủ 18 tuổi trở lên giao cấu hoặc thực hiện hành vi quan hệ tình dục khác thì bị phạt tù 1 năm đến 5 năm (Điều 145 khoản 1). Dâm ô với người dưới 16 tuổi: tù 6 tháng đến 3 năm (Điều 146 khoản 1).
 - Nói dễ hiểu: Dưới 13 tuổi: tù 7 năm đến 15 năm, "em đồng ý" không có giá trị. Từ 13 đến dưới 16 tuổi: người đủ 18 tuổi quan hệ là tù 1 năm đến 5 năm. Dâm ô dưới 16 tuổi: tù 6 tháng đến 3 năm.
 - Lợi ích: Không suy diễn sự 'đồng ý' của người chưa đủ tuổi là căn cứ được phép quan hệ tình dục. Tuổi của người liên quan làm thay đổi nghiêm trọng trách nhiệm pháp lý.
@@ -192,6 +228,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 19. Trước khi ra tay thì tính: phạt hành chính, bồi thường, rồi án
 <!-- nhãn: tiền=nhiều thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-truoc-khi-ra-tay-thi-tinh-phat-hanh-chinh-boi-thuong-roi" data-legacy="9-19"></a>
+
 - Chi phí: Cố ý gây thương tích chưa tới mức truy cứu trách nhiệm hình sự: 6.000.000 đồng đến 8.000.000 đồng (Điều 8 khoản 5 điểm a Nghị định 282/2025/NĐ-CP). Tổn thương cơ thể từ 11% đến 30%: cải tạo không giam giữ đến 3 năm hoặc tù 6 tháng đến 3 năm (Điều 134 khoản 1 Bộ luật Hình sự); từ 31% đến 60%: tù 2 năm đến 6 năm; từ 61% trở lên: tù 5 năm đến 10 năm. Tiền bồi thường tổn thất tinh thần tối đa 126.500.000 đồng, tính bằng 50 lần mức lương cơ sở 2.530.000 đồng (Điều 590 khoản 2 Bộ luật Dân sự, Nghị định 161/2026/NĐ-CP), chưa kể viện phí và thu nhập bị mất.
 - Nói dễ hiểu: Một cú đấm: phạt 6.000.000 đồng đến 8.000.000 đồng. Thương tích từ 11% là án hình sự, tù 6 tháng đến 3 năm, cộng bồi thường tới 126.500.000 đồng tiền tổn thất tinh thần.
 - Lợi ích: Không dùng bạo lực để giải quyết bất đồng, dù chỉ một cái tát hoặc cú đẩy. Thiệt hại thể chất nhỏ vẫn có thể phát sinh nghĩa vụ bồi thường và chế tài.
@@ -202,6 +240,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 20. Không nuôi được con thì đi đăng ký cho làm con nuôi, không nhận tiền, không bỏ mặc
 <!-- nhãn: tiền=ít thời-gian=nhiều ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-khong-nuoi-duoc-con-thi-di-dang-ky-cho-lam-con-nuoi" data-legacy="9-20"></a>
+
 - Chi phí: Đăng ký việc nuôi con nuôi tại Ủy ban nhân dân cấp xã, có lệ phí và thời gian kiểm tra hồ sơ, lấy ý kiến, đánh giá (Luật Nuôi con nuôi 52/2010/QH12, Điều 9 khoản 1 và Điều 12). Cha mẹ đẻ chỉ được đồng ý cho con làm con nuôi sau khi con đã được sinh ra ít nhất 15 ngày (Điều 21 khoản 4). Nếu chuyển giao trẻ để nhận tiền: tù 7 năm đến 12 năm (Điều 151 khoản 1 Bộ luật Hình sự); lợi dụng việc cho, nhận con nuôi để phạm tội: tù 12 năm đến 20 năm (khoản 2 điểm b). Bỏ mặc, không nuôi dưỡng người đang nuôi con dưới 36 tháng tuổi: 10.000.000 đồng đến 20.000.000 đồng (Điều 38 khoản 1 điểm a Nghị định 282/2025/NĐ-CP). Vứt bỏ con mới đẻ dẫn tới chết: tù 3 tháng đến 2 năm (Điều 124 khoản 2 Bộ luật Hình sự).
 - Nói dễ hiểu: Muốn cho con làm con nuôi thì đăng ký ở xã, phường; con phải sinh ra ít nhất 15 ngày. Nhận tiền để cho con: tù 7 năm đến 12 năm. Bỏ mặc bé đang tuổi bú: phạt 10.000.000 đồng đến 20.000.000 đồng, nặng hơn là tù.
 - Lợi ích: Khi không thể nuôi dưỡng trẻ, tìm sự trợ giúp chính thức và thủ tục cho nhận con nuôi hợp pháp. Không giao trẻ đổi lấy tiền hoặc bỏ mặc trẻ.
@@ -212,6 +252,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 21. Đừng dàn dựng tai nạn hay khai khống thiệt hại để đòi bảo hiểm: đó là gian lận bảo hiểm, và người làm chứng, thợ sửa xe, người giám định cùng bị tính
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-dung-dan-dung-tai-nan-hay-khai-khong-thiet-hai-de-doi" data-legacy="9-21"></a>
+
 - Chi phí: Không mất tiền và gần như không mất thời gian: chỉ là không làm. Cái phải bỏ ra khi đã trót làm là thời gian làm việc với công an và công ty bảo hiểm, tiền thuê luật sư, và khoản tiền bảo hiểm đã nhận phải nộp lại. Nếu vụ việc chuyển sang hình sự thì mất luôn quyền hành nghề nếu nghề của bạn cần lý lịch sạch, và mất khả năng xin việc ở nhiều chỗ.
 - Nói dễ hiểu: Dàn dựng tai nạn hay khai khống thiệt hại để đòi bảo hiểm là gian lận bảo hiểm. Chiếm đoạt từ 20.000.000 đồng là đã bị xử lý hình sự, phạt tiền từ 30.000.000 đồng hoặc cải tạo không giam giữ tới 3 năm. Người cùng làm cũng bị tính là đồng phạm.
 - Lợi ích: Khai báo thiệt hại bảo hiểm phải đúng thực tế và có chứng từ. Không cùng người khác dựng hồ sơ tai nạn hoặc ký xác nhận sai sự thật.
@@ -222,6 +264,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 22. Không bán thận, không bán gan, cũng đừng đứng ra tìm người hiến: mua bán mô, bộ phận cơ thể người là tội, khung 3 đến 7 năm
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-khong-ban-than-khong-ban-gan-cung-dung-dung-ra-tim-nguoi" data-legacy="9-22"></a>
+
 - Chi phí: Không mất tiền, không mất thời gian: chỉ là từ chối. Cái mất khi đã nhận tiền: số tiền bị thu, cơ thể mất một bộ phận không mọc lại, và không có hồ sơ bệnh án nào theo dõi bạn sau mổ.
 - Nói dễ hiểu: Bán hay mua mô, bộ phận cơ thể người là tội, khung 3 đến 7 năm tù. Có tổ chức hoặc vì mục đích thương mại thì 7 đến 15 năm. Người môi giới, người trả tiền và người nhận tiền đều bị xử lý.
 - Lợi ích: Không mua bán bộ phận cơ thể hoặc đứng ra môi giới cho giao dịch như vậy. Hiến tặng hợp pháp và mua bán mô, tạng là hai việc khác nhau.
@@ -232,6 +276,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 23. Mua dâm, bán dâm ở Việt Nam bị phạt hành chính, không phải tội hình sự — nhưng chứa, môi giới, mua dâm người dưới 18 tuổi thì vào tù
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-mua-dam-ban-dam-o-viet-nam-bi-phat-hanh-chinh-khong" data-legacy="9-23"></a>
+
 - Chi phí: Về tiền, mức phạt hành chính rất thấp: mua dâm 1.000.000 đồng đến 2.000.000 đồng, bán dâm 300.000 đồng đến 500.000 đồng. Cái đắt hơn là thời gian và những thứ đi kèm: bị đưa về trụ sở, lập biên bản, tạm giữ tang vật, và với người nước ngoài thì có thể bị trục xuất.
 - Nói dễ hiểu: Ở Việt Nam, mua dâm bị phạt 1.000.000 đến 2.000.000 đồng, bán dâm 300.000 đến 500.000 đồng; đây là vi phạm hành chính, không phải tội hình sự. Nhưng chứa mại dâm thì 1 đến 5 năm tù, môi giới 6 tháng đến 3 năm, mua dâm người dưới 18 tuổi 1 đến 5 năm.
 - Lợi ích: Cần phân biệt hành vi bị xử phạt hành chính với việc tổ chức, môi giới và hành vi liên quan người chưa đủ tuổi. Không đánh đồng mọi trường hợp thành cùng một tội danh.
@@ -242,6 +288,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 24. Dịch, chép, đăng lại phim truyện và sách lậu: không bán cũng là xâm phạm quyền tác giả; có thu tiền thì có thể thành tội hình sự
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-dich-chep-dang-lai-phim-truyen-va-sach-lau-khong-ban-cung" data-legacy="9-24"></a>
+
 - Chi phí: Không mất tiền để không làm. Cái mất khi đã làm: công sức và tiền của cả một dự án dịch, nội dung bị gỡ, và khoản bồi thường. Muốn làm đúng thì phải xin phép người giữ bản quyền, thường chờ vài tuần đến vài tháng, và nhiều trường hợp phải trả tiền bản quyền.
 - Nói dễ hiểu: Dịch, chép hay đăng lại tác phẩm của người khác mà không xin phép là xâm phạm quyền tác giả, kể cả khi không thu tiền. Làm vì tiền thì có thể thành tội: quy mô thương mại, thu lợi 50.000.000 đồng hoặc thiệt hại 100.000.000 đồng.
 - Lợi ích: Trước khi dịch, sao chép, đăng lại hoặc bán tác phẩm, kiểm tra quyền và giấy phép sử dụng. Không thu tiền không có nghĩa là được tự do phát tán bản sao trái phép.
@@ -252,6 +300,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 25. Viết tiếp truyện của người khác rồi bán hoặc xuất bản: phải xin phép chủ quyền, hoặc bỏ hẳn tên nhân vật và quan hệ đã mượn
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-viet-tiep-truyen-cua-nguoi-khac-roi-ban-hoac-xuat-ban-phai" data-legacy="9-25"></a>
+
 - Chi phí: Không mất tiền. Cái phải bỏ ra là một cuộc trao đổi với chủ quyền trước khi in, và có thể là việc viết lại: đổi tên nhân vật, đổi quan hệ, đổi bối cảnh cho tới khi không còn nhận ra. Cả hai đường đều mất thời gian hơn là viết xong rồi mới tính.
 - Nói dễ hiểu: Dùng nhân vật, tên và quan hệ của truyện người khác để viết tiếp rồi đem bán là dùng quyền làm tác phẩm phái sinh mà chưa xin phép. Ở Việt Nam chưa có bản án nào về truyện cùng nhân vật, nên rủi ro tùy vào người giữ bản quyền.
 - Lợi ích: Muốn viết phần tiếp theo dựa trên nhân vật, cốt truyện của người khác, cần tìm hiểu quyền tác giả và xin phép trong trường hợp phải xin. Đừng nghĩ đổi vài chi tiết là đủ tránh tranh chấp.
@@ -262,6 +312,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 26. Đừng mua dùi cui, roi điện, bình xịt cay hay dao găm để phòng thân: cá nhân không được sở hữu, để trong cốp xe cũng bị tính
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-dung-mua-dui-cui-roi-dien-binh-xit-cay-hay-dao-gam" data-legacy="9-26"></a>
+
 - Chi phí: Không mất tiền để không mua. Khi đã mua, bạn mất tiền mua, bị tịch thu tang vật và phải nộp phạt. Nếu đã từng bị xử phạt hành chính về hành vi này mà còn vi phạm thì không còn là chuyện hành chính nữa.
 - Nói dễ hiểu: Cá nhân không được sở hữu công cụ hỗ trợ. Tàng trữ, mua bán, sử dụng dùi cui điện, roi điện hay bình xịt cay bị phạt 30.000.000 đến 40.000.000 đồng; đã bị xử phạt mà còn vi phạm thì bị truy cứu hình sự, tù 3 tháng đến 2 năm.
 - Lợi ích: Không tự mua công cụ hỗ trợ hoặc vũ khí để phòng thân khi không thuộc đối tượng được phép quản lý, sử dụng. Tên gọi thương mại không quyết định cách pháp luật phân loại vật dụng.
@@ -272,6 +324,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 27. Không dùng điện, thuốc cá hay mìn để bắt cá ở bất cứ đâu, bất cứ lúc nào; khi đi câu, bạn cần biết nơi nào đang cấm khai thác.
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-khong-dung-dien-thuoc-ca-hay-min-de-bat-ca-o-bat" data-legacy="9-27"></a>
+
 - Chi phí: Không mất tiền để không làm. Cái phải bỏ ra là một lần tra cứu trước khi đi: xem thông báo của UBND tỉnh hoặc cơ quan thủy sản về khu vực cấm khai thác có thời hạn và danh mục nghề, ngư cụ cấm. Đi xa thêm một quãng tới chỗ được phép câu là hết chuyện.
 - Nói dễ hiểu: Điện, thuốc cá, mìn để bắt cá bị cấm ở mọi nơi. Chỉ dùng kích điện, không dùng tàu, cũng bị phạt 3.000.000 đến 5.000.000 đồng; tàng trữ, mua bán kích điện 10.000.000 đến 15.000.000 đồng. Gây thiệt hại từ 100.000.000 đồng là bị truy cứu hình sự.
 - Lợi ích: Không dùng dòng điện, chất nổ hay chất độc để đánh bắt thủy sản. Ngay cả việc câu cá bình thường cũng cần kiểm tra khu vực và thời gian có hạn chế.
@@ -282,6 +336,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 28. Đốt giấy, đốt cỏ, đốt rẫy trong rừng: phạt 1.000.000 đến 3.000.000 đồng, để cháy lan thì tới 25.000.000 đồng, cố ý đốt rừng có thể vào tù; thấy cháy gọi 114
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-dot-giay-dot-co-dot-ray-trong-rung-phat-1-000-000" data-legacy="9-28"></a>
+
 - Chi phí: Không mất tiền. Đổi cách làm: thắp hương trong nhà, hoa tươi thay vàng mã, dọn cỏ bằng cuốc thay vì đốt, mang cơm nắm thay vì nấu nướng. Nếu nhất định phải đốt dọn, bạn cần gọi một cuộc để báo với xã hoặc kiểm lâm địa bàn.
 - Nói dễ hiểu: Đốt lửa sai quy định trong rừng bị phạt 1.000.000 đến 3.000.000 đồng; để lửa lan thành cháy rừng, mức phạt lên tới 25.000.000 đồng, rừng tự nhiên gấp đôi. Cố ý đốt rừng thì bị tù 1 đến 5 năm. Thấy cháy gọi 114.
 - Lợi ích: Trước khi đốt rác, cỏ hoặc vật liệu ở khu vực gần rừng, xem điều kiện an toàn và quy định địa phương. Khi cháy lan, thiệt hại có thể nghiêm trọng hơn khoản phạt ban đầu.
@@ -292,6 +348,8 @@ Thang bằng chứng ở chương này khác các chương về sức khỏe: đ
 
 ### 29. Không thi hộ, không thuê người thi hộ, không mua bán đáp án: bị hủy kết quả thi, còn làm giấy tờ giả để vào phòng thi là tội hình sự
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-khong-thi-ho-khong-thue-nguoi-thi-ho-khong-mua-ban-dap" data-legacy="9-29"></a>
+
 - Chi phí: Không mất tiền. Cái phải bỏ ra là học thêm một khóa nữa nếu trượt. Cái mất khi mua "bao đậu": tiền đặt cọc không lấy lại được, và nếu người môi giới làm giấy tờ giả thì bạn thành người sử dụng giấy tờ giả.
 - Nói dễ hiểu: Đi thi thay bị hủy kết quả thi và lập hồ sơ chuyển cơ quan có thẩm quyền; còn làm giấy tờ giả để lọt vào phòng thi là tội, phạt tiền 30.000.000 đến 100.000.000 đồng hoặc tù 6 tháng đến 2 năm.
 - Lợi ích: Không thi hộ, thuê thi hộ hoặc mua bán đáp án. Việc làm giấy tờ giả, truy cập trái phép hoặc dùng thủ đoạn khác có thể khiến hành vi bị xử lý theo nhiều quy định.

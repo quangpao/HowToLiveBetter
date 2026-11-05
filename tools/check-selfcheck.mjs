@@ -3,6 +3,7 @@
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
 import vm from 'node:vm';
+import { refs } from './lib/references.mjs';
 
 const root = new URL('../', import.meta.url);
 const read = file => readFileSync(new URL(file, root), 'utf8');
@@ -27,6 +28,7 @@ const warnings = [];
 // Trỏ sang tệp khác là mọi câu hỏi mất đích ngay. Đổi khóa trong selfcheck.html thì đổi cả các khóa trong file này.
 const oldAnswers = {'p:tuoi':'30', 'p:sex':'f', 'p:kid':'n', '2:muối giảm natri':'n', '1:viêm gan B':'y'};
 const context = vm.createContext({
+  BookReferences:refs,
   window:{__CORPUS__:{readme:read('README.md'), parts}},
   document:{getElementById:element},
   localStorage:{getItem:() => JSON.stringify(oldAnswers), setItem:() => {}},

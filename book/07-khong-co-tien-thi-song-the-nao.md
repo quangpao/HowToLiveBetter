@@ -4,14 +4,16 @@
 
 Chương này trả lời một câu duy nhất, nhưng theo đúng thứ tự thời gian: khi thu nhập đứt, việc đầu tiên phải làm là gì, việc thứ hai là gì, và cái gì phải làm trước khi tiền đã cạn hẳn. Thứ tự quan trọng hơn danh sách: nộp hồ sơ muộn một tháng có khi mất luôn quyền lợi, còn làm sai thứ tự thì phải đi lại từ đầu.
 
-Thang bằng chứng của chương này khác sáu chương trước, và phải đọc đúng. Chương có **1 mục A** (mục 14, kỹ năng tìm việc — có thử nghiệm ngẫu nhiên), **10 mục B** và **12 mục C**. Ở đây **C** hầu như không có nghĩa "chưa biết": nó nghĩa là **quyền thì chắc vì có văn bản, nhưng không ai đo được số tiền tiết kiệm** — mục 3 (trợ giúp pháp lý), 5 (trung tâm dịch vụ việc làm), 7 (đăng ký hộ nghèo), 10 (đường đi bảo hiểm khi bệnh nặng), 12 (hỏi ưu đãi sau khi nộp hồ sơ), 16 (nhà ở xã hội), 17 (ép tiền nhà, tiền ăn), 19 (án tích và nợ xấu), 20 (bảo hiểm mua thêm), 21 (chỗ ngủ đêm nay), 22 (biết ai là người sử dụng lao động), 23 (thẻ tín dụng quá hạn). Mục nào C cũng có một câu nói rõ vì sao C, để C không bị đọc thành "đừng làm".
+Thang bằng chứng của chương này khác sáu chương trước, và phải đọc đúng. Chương có **1 mục A** ([mục 14](07-khong-co-tien-thi-song-the-nao.md#entry-tim-viec-co-phuong-phap-hoc-ky-nang-dat-muc-tieu-nho), kỹ năng tìm việc — có thử nghiệm ngẫu nhiên), **10 mục B** và **12 mục C**. Ở đây **C** hầu như không có nghĩa "chưa biết": nó nghĩa là **quyền thì chắc vì có văn bản, nhưng không ai đo được số tiền tiết kiệm** — [mục 3](07-khong-co-tien-thi-song-the-nao.md#entry-khong-du-tien-thue-luat-su-thi-xin-tro-giup-phap-ly) (trợ giúp pháp lý), 5 (trung tâm dịch vụ việc làm), 7 (đăng ký hộ nghèo), 10 (đường đi bảo hiểm khi bệnh nặng), 12 (hỏi ưu đãi sau khi nộp hồ sơ), 16 (nhà ở xã hội), 17 (ép tiền nhà, tiền ăn), 19 (án tích và nợ xấu), 20 (bảo hiểm mua thêm), 21 (chỗ ngủ đêm nay), 22 (biết ai là người sử dụng lao động), 23 (thẻ tín dụng quá hạn). Mục nào C cũng có một câu nói rõ vì sao C, để C không bị đọc thành "đừng làm".
 
 Bối cảnh Việt Nam làm lệch thêm một tầng: nhiều nước gom phần lớn thủ tục vào một ứng dụng và một số điện thoại; còn ở đây, cùng một việc có khi phải qua ba nơi — Trung tâm dịch vụ việc làm, Sở LĐTBXH, UBND cấp xã — và mỗi nơi một mẫu giấy riêng. Nên mỗi mục ghi rõ **đi đâu, mang gì, hạn bao lâu**, thay vì chỉ nói "hãy nộp đơn".
 
-**Nhóm mục**: mất việc, thu nhập và tìm việc (mục 1, 5, 12, 13, 14, 18) · trợ giúp xã hội, giấy tờ, chỗ ở (mục 4, 6, 7, 8, 11, 16, 17, 21) · pháp lý lao động, y tế, nợ (mục 2, 3, 22, 9, 10, 20, 15, 23, 19)
+**Nhóm mục**: mất việc, thu nhập và tìm việc ([mục 1](07-khong-co-tien-thi-song-the-nao.md#entry-mat-viec-thi-nop-ho-so-tro-cap-that-nghiep-ngay-han), [5](07-khong-co-tien-thi-song-the-nao.md#entry-tim-viec-qua-trung-tam-dich-vu-viec-lam-cong-truoc-dung), [12](07-khong-co-tien-thi-song-the-nao.md#entry-nop-ho-so-that-nghiep-xong-thi-hoi-tiep-ve-vay-von), [13](07-khong-co-tien-thi-song-the-nao.md#entry-dang-huong-tro-cap-that-nghiep-hoac-da-dong-du-dieu-kien), [14](07-khong-co-tien-thi-song-the-nao.md#entry-tim-viec-co-phuong-phap-hoc-ky-nang-dat-muc-tieu-nho), [18](07-khong-co-tien-thi-song-the-nao.md#entry-ngung-dong-bao-hiem-xa-hoi-khong-mat-thoi-gian-da-dong)) · trợ giúp xã hội, giấy tờ, chỗ ở ([mục 4](07-khong-co-tien-thi-song-the-nao.md#entry-duong-cung-thi-vao-co-so-tro-giup-xa-hoi-dung-tim), [6](07-khong-co-tien-thi-song-the-nao.md#entry-nha-chay-tai-nan-mat-trang-xin-tro-giup-xa-hoi-dot), [7](07-khong-co-tien-thi-song-the-nao.md#entry-thu-nhap-duoi-chuan-ngheo-thi-dang-ky-ho-ngheo-tren-mot), [8](07-khong-co-tien-thi-song-the-nao.md#entry-co-giay-xac-dinh-muc-do-khuyet-tat-thi-lam-ho-so), [11](07-khong-co-tien-thi-song-the-nao.md#entry-mat-can-cuoc-thi-di-cap-lai-ngay-cho-the-thi-dung), [16](07-khong-co-tien-thi-song-the-nao.md#entry-khong-co-nha-thi-tim-nha-o-xa-hoi-cho-thue-nhung), [17](07-khong-co-tien-thi-song-the-nao.md#entry-ep-tien-nha-va-tien-an-xuong-thue-tro-theo-thang-tu), [21](07-khong-co-tien-thi-song-the-nao.md#entry-khong-con-cho-ngu-dem-nay-cho-mo-24-gio-chi-de)) · pháp lý lao động, y tế, nợ ([mục 2](07-khong-co-tien-thi-song-the-nao.md#entry-bi-quyt-luong-thi-tim-thanh-tra-lao-dong-hoa-giai-vien), [3](07-khong-co-tien-thi-song-the-nao.md#entry-khong-du-tien-thue-luat-su-thi-xin-tro-giup-phap-ly), [22](07-khong-co-tien-thi-song-the-nao.md#entry-bi-quyt-tien-cong-thi-truoc-het-phai-biet-ai-thue-minh), [9](07-khong-co-tien-thi-song-the-nao.md#entry-bao-hiem-y-te-ho-gia-dinh-tu-vai-chuc-den-hon), [10](07-khong-co-tien-thi-song-the-nao.md#entry-benh-nang-thi-di-dung-duong-bao-hiem-truoc-dung-vay-nong), [20](07-khong-co-tien-thi-song-the-nao.md#entry-bao-hiem-suc-khoe-mua-them-hop-dong-mot-nam-va-chu), [15](07-khong-co-tien-thi-song-the-nao.md#entry-bon-thu-phai-tu-choi-ngay-giu-giay-to-dat-coc-viec), [23](07-khong-co-tien-thi-song-the-nao.md#entry-the-tin-dung-va-vay-online-da-qua-han-goi-chinh-ngan), [19](07-khong-co-tien-thi-song-the-nao.md#entry-co-an-tich-co-no-xau-duong-lam-lai-o-viet-nam))
 
 ### 1. Mất việc thì nộp hồ sơ trợ cấp thất nghiệp ngay: hạn là 3 tháng
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-mat-viec-thi-nop-ho-so-tro-cap-that-nghiep-ngay-han" data-legacy="7-1"></a>
+
 - Chi phí: Không mất đồng nào. Một buổi ra tổ chức dịch vụ việc làm công ở địa phương, hoặc nộp qua Cổng Dịch vụ công Quốc gia. Hồ sơ gồm tờ đề nghị hưởng trợ cấp thất nghiệp (Mẫu số 10), một giấy xác nhận chấm dứt hợp đồng lao động (quyết định thôi việc, thông báo chấm dứt, hợp đồng đã hết hạn, quyết định sa thải…) và sổ bảo hiểm xã hội (Nghị định 374/2025/NĐ-CP Điều 14 khoản 1). Cái đắt nhất là thời gian: hạn nộp là 3 tháng.
 - Nói dễ hiểu: Đóng bảo hiểm thất nghiệp đủ 12 tháng trong 24 tháng trước khi mất việc thì được hưởng. Nộp hồ sơ trong 3 tháng kể từ ngày chấm dứt hợp đồng. Mức 60% lương bình quân 6 tháng, tối đa 5 lần lương tối thiểu vùng; đóng 12 đến 36 tháng được 3 tháng, sau đó mỗi 12 tháng thêm 1 tháng, tối đa 12 tháng.
 - Lợi ích: Nộp hồ sơ trợ cấp thất nghiệp đúng hạn giúp giữ quyền nhận trợ cấp và được hỗ trợ tìm việc trong lúc chưa có thu nhập. Trước khi nghỉ hãy kiểm tra thời gian đã đóng và giấy tờ cần nộp.
@@ -22,6 +24,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng: nhiều nước gom ph�
 
 ### 2. Bị quỵt lương thì tìm thanh tra lao động, hòa giải viên, trọng tài — ra tòa đòi lương cũng được miễn án phí
 <!-- nhãn: tiền=0 thời-gian=nhiều ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-bi-quyt-luong-thi-tim-thanh-tra-lao-dong-hoa-giai-vien" data-legacy="7-2"></a>
+
 - Chi phí: Không mất tiền ở chặng hòa giải: kinh phí hoạt động của hòa giải viên lao động do ngân sách nhà nước bảo đảm (Nghị định 145/2020/NĐ-CP, Điều 96 khoản 3). Ra tòa thì có án phí — án phí sơ thẩm vụ tranh chấp lao động không có giá ngạch là 300.000 đồng — nhưng người lao động khởi kiện đòi tiền lương, trợ cấp thôi việc, trợ cấp mất việc, bảo hiểm xã hội, tiền bồi thường tai nạn lao động, bệnh nghề nghiệp, hoặc kiện vì bị sa thải hay chấm dứt hợp đồng trái pháp luật thì được miễn tạm ứng án phí và án phí (Nghị quyết 326/2016/UBTVQH14, Điều 12 khoản 1 điểm a). Cái phải bỏ ra là thời gian và công gom giấy tờ: hợp đồng, bảng lương, chấm công, sao kê, tin nhắn.
 - Nói dễ hiểu: Đi đúng thứ tự: khiếu nại tới thanh tra lao động, rồi hòa giải viên, rồi trọng tài; chỉ chặng ra tòa mới có án phí. Thời hiệu là 6 tháng, 9 tháng và 1 năm tính từ lúc biết quyền bị xâm phạm, nên đừng chờ đến khi tự đòi tiền không được mới đi.
 - Lợi ích: Khi bị chậm hoặc quỵt lương, lưu hợp đồng, bảng công và tin nhắn giao việc rồi tìm đúng kênh giải quyết. Đừng để việc tự thương lượng kéo dài đến khi quá hạn yêu cầu.
@@ -32,6 +36,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng: nhiều nước gom ph�
 
 ### 3. Không đủ tiền thuê luật sư thì xin trợ giúp pháp lý nhà nước — miễn phí, nhưng chỉ cho nhóm luật định
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-khong-du-tien-thue-luat-su-thi-xin-tro-giup-phap-ly" data-legacy="7-3"></a>
+
 - Chi phí: Không mất tiền. Trợ giúp pháp lý là dịch vụ miễn phí; người thực hiện không được thu tiền, lợi ích vật chất hay lợi ích khác của người được trợ giúp (Luật Trợ giúp pháp lý 2017, Điều 3 khoản 4; Điều 8 khoản 1). Bạn phải dành một buổi đi nộp hồ sơ, trả tiền sao y hoặc chứng thực giấy tờ, và bỏ công sức chứng minh mình thuộc nhóm được trợ giúp.
 - Nói dễ hiểu: Miễn phí, nhưng không phải ai cũng được: luật kê danh sách nhóm được trợ giúp — hộ nghèo, trẻ em, người khuyết tật, nạn nhân bạo lực gia đình, người nhiễm HIV, người có công. Không thuộc nhóm được trợ giúp thì đừng chờ họ đại diện cho mình.
 - Lợi ích: Trợ giúp pháp lý nhà nước giúp người thuộc nhóm được luật quy định nhận tư vấn, đại diện hoặc bào chữa mà không phải trả phí dịch vụ. Chuẩn bị giấy tờ chứng minh mình thuộc đối tượng được hỗ trợ.
@@ -42,16 +48,20 @@ Bối cảnh Việt Nam làm lệch thêm một tầng: nhiều nước gom ph�
 
 ### 4. Đường cùng thì vào cơ sở trợ giúp xã hội, đừng tìm nhà tạm trú tự phát
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-duong-cung-thi-vao-co-so-tro-giup-xa-hoi-dung-tim" data-legacy="7-4"></a>
+
 - Chi phí: Không mất tiền. Gọi công an cấp xã hay UBND cấp xã để được đưa đến cơ sở trợ giúp xã hội cấp tỉnh hoặc trung tâm công tác xã hội. Với diện bảo vệ khẩn cấp, thủ tục là lập biên bản tiếp nhận tại chỗ chứ không phải nộp hồ sơ trước, nên mất giấy tờ vẫn vào được. Khó ở chỗ phải nói rõ mình không còn tiền, không còn chỗ ngủ.
 - Nói dễ hiểu: Cơ sở trợ giúp xã hội là nơi bạn có thể xin trợ giúp khi đường cùng: được tiếp nhận thì có ăn, có chỗ ngủ, ốm được đưa đi khám. Nhưng cửa hẹp: chỉ nhận người thuộc diện bảo trợ hoặc cần bảo vệ khẩn cấp, ở tối đa 03 tháng, và không phát tiền mặt.
 - Lợi ích: Khi không còn nơi ở an toàn, cơ sở trợ giúp xã hội chính thức là nơi có thể tiếp nhận một số nhóm cần bảo vệ khẩn cấp. Hỏi chính quyền cấp xã hoặc cơ quan có thẩm quyền để được hướng dẫn thay vì tin nơi tạm trú tự phát.
 - Pháp luật Việt Nam: Nghị định 335/2026/NĐ-CP Điều 21 khoản 2 liệt kê diện cần bảo vệ khẩn cấp: nạn nhân bạo lực gia đình, bị ngược đãi, bị bỏ rơi, bị xâm hại, bị mua bán, bị cưỡng bức lao động; trẻ em và người lang thang xin ăn trong thời gian chờ đưa về nơi cư trú. Điểm d khoản 2: thời gian chăm sóc tại cơ sở không quá 03 tháng, quá hạn mà chưa đưa về được thì người đứng đầu cơ sở tự quyết phương án. Khoản 1 cùng điều: người thuộc diện bảo trợ xã hội có hoàn cảnh đặc biệt khó khăn cũng vào được. Điều 22 khoản 1: nhà nước cấp cho cơ sở mức nuôi dưỡng hằng tháng bằng 540.000 đồng nhân hệ số 5,0 với trẻ dưới 04 tuổi và 4,0 với người từ 04 tuổi trở lên, tức 2.700.000 và 2.160.000 đồng/tháng/người. Tiền đó trả cho cơ sở, không đưa trực tiếp cho người được tiếp nhận.
 - Mức bằng chứng: B
 - Nguồn: Nghị định 335/2026/NĐ-CP ngày 21/8/2026 (Điều 21 khoản 1, 2; Điều 22 khoản 1; Điều 24 khoản 3), bản ký: <https://xdcs.cdnchinhphu.vn/446259493575335936/2026/8/23/335-2026-nd-cp-21082026-signed-signed-17874624167201019645251.pdf>; toàn văn giới thiệu: <https://xaydungchinhsach.chinhphu.vn/nghi-dinh-so-335-2026-nd-cp-quy-dinh-chinh-sach-tro-giup-xa-hoi-119260823121930492.htm>. Tra ngày 2/11/2026.
-- Ghi chú: Ba bẫy. Một: "cơ sở trợ giúp xã hội" không phải nhà tạm trú tự phát, nhà nghỉ, chùa hay nhà thờ — không có nơi nào nhận đại người ngoài đường, và cơ sở tư nhân thì thu tiền theo hợp đồng. Hai: cơ sở không phát tiền mặt và không phải nơi nào cũng lo vé tàu; nghị định chỉ quy định chăm sóc, đưa về nơi cư trú, còn chuyện vé tàu do từng tỉnh và từng cơ sở lo, nên đừng hứa với người thân là "vào đó xin vé". Ba: người không thuộc diện khoản 1, 2, 3 vẫn được tiếp nhận nhưng theo diện tự nguyện, phải ký hợp đồng dịch vụ (khoản 4 Điều 21) — nghĩa là có thể phải trả chi phí, và có thể bị chấm dứt hợp đồng. **Đừng hiểu ngược:** mục này không nói "cứ vào là ở được bao lâu cũng được"; quá 03 tháng thì cơ sở buộc phải tính phương án khác, kể cả đưa về địa phương. Cần chỗ ngủ ngay trong đêm thì xem mục 21.
+- Ghi chú: Ba bẫy. Một: "cơ sở trợ giúp xã hội" không phải nhà tạm trú tự phát, nhà nghỉ, chùa hay nhà thờ — không có nơi nào nhận đại người ngoài đường, và cơ sở tư nhân thì thu tiền theo hợp đồng. Hai: cơ sở không phát tiền mặt và không phải nơi nào cũng lo vé tàu; nghị định chỉ quy định chăm sóc, đưa về nơi cư trú, còn chuyện vé tàu do từng tỉnh và từng cơ sở lo, nên đừng hứa với người thân là "vào đó xin vé". Ba: người không thuộc diện khoản 1, 2, 3 vẫn được tiếp nhận nhưng theo diện tự nguyện, phải ký hợp đồng dịch vụ (khoản 4 Điều 21) — nghĩa là có thể phải trả chi phí, và có thể bị chấm dứt hợp đồng. **Đừng hiểu ngược:** mục này không nói "cứ vào là ở được bao lâu cũng được"; quá 03 tháng thì cơ sở buộc phải tính phương án khác, kể cả đưa về địa phương. Cần chỗ ngủ ngay trong đêm thì xem [mục 21](07-khong-co-tien-thi-song-the-nao.md#entry-khong-con-cho-ngu-dem-nay-cho-mo-24-gio-chi-de).
 
 ### 5. Tìm việc qua trung tâm dịch vụ việc làm công trước, đừng trả tiền cho cò
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-tim-viec-qua-trung-tam-dich-vu-viec-lam-cong-truoc-dung" data-legacy="7-5"></a>
+
 - Chi phí: 0 đồng cho tư vấn, giới thiệu việc làm và thông tin thị trường lao động ở tổ chức dịch vụ việc làm công. Cần CCCD và sổ bảo hiểm xã hội; đi lại một buổi, hoặc chờ đợt sàn giao dịch việc làm, ngày hội việc làm do địa phương tổ chức.
 - Nói dễ hiểu: Tư vấn, giới thiệu việc làm và tin tuyển dụng qua trung tâm dịch vụ việc làm của nhà nước là miễn phí, luật ghi thẳng. Trung tâm tư nhân được tự định giá và chỉ bị buộc niêm yết giá, không có mức trần, nên hỏi giá trước khi đưa giấy tờ.
 - Lợi ích: Tìm việc qua tổ chức dịch vụ việc làm công giúp bạn được tư vấn và giới thiệu việc miễn phí. Với doanh nghiệp giới thiệu việc làm tư nhân, cần kiểm tra giấy phép và chi phí trước khi trả tiền.
@@ -62,16 +72,20 @@ Bối cảnh Việt Nam làm lệch thêm một tầng: nhiều nước gom ph�
 
 ### 6. Nhà cháy, tai nạn, mất trắng: xin trợ giúp xã hội đột xuất ở xã
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-nha-chay-tai-nan-mat-trang-xin-tro-giup-xa-hoi-dot" data-legacy="7-6"></a>
+
 - Chi phí: Không mất tiền và không bắt buộc phải thuộc hộ nghèo mới được nhận hỗ trợ. Đề nghị với UBND cấp xã nơi xảy ra việc; xã rà soát, lập danh sách và quyết định hỗ trợ từ nguồn lực của địa phương. Cầm theo giấy tờ chứng minh thiệt hại: biên bản của công an, giấy ra viện, hóa đơn điều trị, ảnh hiện trường. Thường đi 1 đến 2 lần.
 - Nói dễ hiểu: Nhà cháy, người bị tai nạn, mất nhà vì lũ: xã có khoản hỗ trợ đột xuất, không cần là hộ nghèo. Mức thấp nhất là 15 kg gạo mỗi người mỗi tháng, tối đa 03 tháng; bị thương nặng phải điều trị từ 03 ngày được từ 5.400.000 đồng; có người chết được từ 27.000.000 đồng tiền mai táng.
 - Lợi ích: Hộ gặp thiên tai, hỏa hoạn, tai nạn nghiêm trọng hoặc thiếu đói có thể thuộc diện hỗ trợ đột xuất. Lập danh sách thiệt hại và liên hệ chính quyền cấp xã càng sớm càng tốt.
 - Pháp luật Việt Nam: Nghị định 335/2026/NĐ-CP Điều 12 khoản 1 điểm a: 15 kg gạo/người/tháng, mỗi đợt 01 tháng cho hộ thiếu đói dịp Tết, không quá 03 tháng cho mỗi đợt thiên tai, hỏa hoạn, mất mùa. Khoản 2: người bị thương nặng do thiên tai, hỏa hoạn, tai nạn giao thông, tai nạn lao động nghiêm trọng phải cấp cứu và điều trị từ 03 ngày trở lên được hỗ trợ thấp nhất 10 lần mức chuẩn, tức 5.400.000 đồng. Khoản 3: chi phí mai táng thấp nhất 50 lần mức chuẩn, tức 27.000.000 đồng. Khoản 4: nhà bị đổ, sập, trôi, cháy hoàn toàn được 40.000.000 đồng/hộ; phải di dời khẩn cấp 30.000.000 đồng/hộ; nhà hư hỏng nặng 20.000.000 đồng/hộ. Điều 13: xã rà soát và quyết định; vượt khả năng của xã thì xã phải có văn bản gửi tỉnh.
 - Mức bằng chứng: B
 - Nguồn: Nghị định 335/2026/NĐ-CP ngày 21/8/2026 (Điều 12 khoản 1 đến 4; Điều 13 khoản 1, 2), bản ký: <https://xdcs.cdnchinhphu.vn/446259493575335936/2026/8/23/335-2026-nd-cp-21082026-signed-signed-17874624167201019645251.pdf>; toàn văn giới thiệu: <https://xaydungchinhsach.chinhphu.vn/nghi-dinh-so-335-2026-nd-cp-quy-dinh-chinh-sach-tro-giup-xa-hoi-119260823121930492.htm>. Tra ngày 2/11/2026.
-- Ghi chú: Ba bẫy. Một: đây là hỗ trợ đột xuất theo từng đợt, không phải trợ cấp hằng tháng lâu dài — hết đợt thì đừng chờ tháng sau có tiếp. Hai: chữ "thấp nhất" trong nghị định là mức sàn được quy định, còn nhận được hay chưa thì tùy xã: xã quyết định theo quỹ của xã, hết quỹ thì hồ sơ lên tỉnh và chờ, nên hỏi thẳng "quỹ xã còn không". Ba: khoản này không thay bảo hiểm và không thay bồi thường dân sự của người gây tai nạn — nhận hỗ trợ xã hội không phải là từ bỏ quyền đòi bồi thường. Đừng kê khống thiệt hại để nhận thêm tiền hỗ trợ; xã xuống xác minh hiện trường và đối chiếu biên bản công an, người khai sai có thể bị thu hồi tiền hỗ trợ và bị xử lý. Thu nhập thấp kéo dài thì xem mục 7 về đăng ký hộ nghèo.
+- Ghi chú: Ba bẫy. Một: đây là hỗ trợ đột xuất theo từng đợt, không phải trợ cấp hằng tháng lâu dài — hết đợt thì đừng chờ tháng sau có tiếp. Hai: chữ "thấp nhất" trong nghị định là mức sàn được quy định, còn nhận được hay chưa thì tùy xã: xã quyết định theo quỹ của xã, hết quỹ thì hồ sơ lên tỉnh và chờ, nên hỏi thẳng "quỹ xã còn không". Ba: khoản này không thay bảo hiểm và không thay bồi thường dân sự của người gây tai nạn — nhận hỗ trợ xã hội không phải là từ bỏ quyền đòi bồi thường. Đừng kê khống thiệt hại để nhận thêm tiền hỗ trợ; xã xuống xác minh hiện trường và đối chiếu biên bản công an, người khai sai có thể bị thu hồi tiền hỗ trợ và bị xử lý. Thu nhập thấp kéo dài thì xem [mục 7](07-khong-co-tien-thi-song-the-nao.md#entry-thu-nhap-duoi-chuan-ngheo-thi-dang-ky-ho-ngheo-tren-mot) về đăng ký hộ nghèo.
 
 ### 7. Thu nhập dưới chuẩn nghèo thì đăng ký hộ nghèo, trên một chút thì xin các chính sách hỗ trợ khác
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-thu-nhap-duoi-chuan-ngheo-thi-dang-ky-ho-ngheo-tren-mot" data-legacy="7-7"></a>
+
 - Chi phí: Không mất tiền. Xã rà soát hằng năm để xác định hộ nghèo, hộ cận nghèo, nên phải đăng ký với xã hoặc với trưởng thôn đúng đợt rà soát; bỏ đợt là chờ sang năm. Cần kê khai thu nhập thật của cả hộ và để cán bộ đến nhà kiểm tra. Hồ sơ gồm giấy tờ tùy thân của các thành viên và giấy tờ chứng minh thu nhập.
 - Nói dễ hiểu: Năm 2026 vẫn dùng chuẩn cũ: nông thôn 1.500.000, thành thị 2.000.000 đồng/người/tháng; cận nghèo lên tới 2.250.000 và 3.000.000. Từ 2027 mới lên 2.200.000 và 2.800.000. Đừng chờ tới 2027 rồi mới đăng ký.
 - Lợi ích: Đăng ký xét hộ nghèo, cận nghèo đúng kỳ giúp tiếp cận chính sách hỗ trợ phù hợp. Đừng chỉ nhìn thu nhập: tiêu chí còn có điều kiện thiếu hụt dịch vụ xã hội và giai đoạn áp dụng.
@@ -82,6 +96,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng: nhiều nước gom ph�
 
 ### 8. Có giấy xác định mức độ khuyết tật thì làm hồ sơ trợ cấp xã hội hằng tháng
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-co-giay-xac-dinh-muc-do-khuyet-tat-thi-lam-ho-so" data-legacy="7-8"></a>
+
 - Chi phí: Không mất tiền. Hồ sơ chỉ là một tờ khai theo mẫu số 01, nộp trực tuyến trên Cổng Dịch vụ công quốc gia, qua bưu chính, hoặc trực tiếp tại bất kỳ Bộ phận Một cửa nào — không bắt buộc nộp ở nơi thường trú. Giấy xác định mức độ khuyết tật thì mang theo để đối chiếu; xã tự kiểm tra trên cơ sở dữ liệu dân cư.
 - Nói dễ hiểu: Người khuyết tật nặng được 810.000 đồng/tháng, đặc biệt nặng 1.080.000 đồng/tháng, không phụ thuộc vào việc người đó thuộc hộ nghèo hay hộ khá giả. Nộp một tờ khai ở Bộ phận Một cửa; xã phải trả lời trong 07 ngày làm việc.
 - Lợi ích: Người có giấy xác định khuyết tật nặng hoặc đặc biệt nặng có thể được trợ cấp hằng tháng, không nhất thiết phải thuộc hộ nghèo. Chuẩn bị giấy xác định mức độ khuyết tật và hồ sơ theo địa phương.
@@ -92,6 +108,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng: nhiều nước gom ph�
 
 ### 9. Bảo hiểm y tế hộ gia đình từ vài chục đến hơn trăm nghìn một người một tháng — đừng để đứt
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-bao-hiem-y-te-ho-gia-dinh-tu-vai-chuc-den-hon" data-legacy="7-9"></a>
+
 - Chi phí: Người thứ nhất đóng 4,5% mức tham chiếu (Nghị định 188/2025/NĐ-CP, Điều 6 khoản 5). Mức tham chiếu đang tính bằng mức lương cơ sở 2.530.000 đồng/tháng từ 1/7/2026 (Nghị định 161/2026/NĐ-CP, Điều 2), nên người thứ nhất đóng 113.850 đồng/tháng, 1.366.200 đồng/năm. Người thứ hai đóng 70% mức của người thứ nhất: 79.695 đồng/tháng, 956.340 đồng/năm; người thứ ba 68.310 đồng/tháng; người thứ tư 56.925 đồng/tháng; từ người thứ năm trở đi 45.540 đồng/tháng. Hộ 4 người đóng 318.780 đồng/tháng, tức 3.825.360 đồng/năm. Giảm trừ chỉ tính khi các thành viên cùng tham gia trong cùng một năm tài chính.
 - Nói dễ hiểu: Người thứ nhất đóng 4,5% mức tham chiếu, người thứ hai đến thứ năm đóng giảm dần từ 70% xuống 40% mức của người thứ nhất. Hộ nghèo được ngân sách đóng thay, hộ cận nghèo được hỗ trợ phần lớn. Đứt một năm là năm đó không có thẻ.
 - Lợi ích: Giữ BHYT liên tục giúp giảm tiền khám chữa bệnh và tránh gián đoạn quyền lợi. Người tham gia theo hộ gia đình có thể được giảm mức đóng theo số thành viên; nên kiểm tra loại đối tượng trước khi đăng ký.
@@ -102,6 +120,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng: nhiều nước gom ph�
 
 ### 10. Bệnh nặng thì đi đúng đường bảo hiểm trước, đừng vay nóng
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-benh-nang-thi-di-dung-duong-bao-hiem-truoc-dung-vay-nong" data-legacy="7-10"></a>
+
 - Chi phí: Không mất thêm đồng nào ngoài phần cùng chi trả. Cái giá của việc đi sai đường: tự đi điều trị nội trú ở cơ sở cấp chuyên sâu mà không đúng quy định chuyển người bệnh thì chỉ còn 40% mức hưởng. Đổi nơi đăng ký khám ban đầu được trong 15 ngày đầu mỗi quý, không tốn tiền.
 - Nói dễ hiểu: Đừng đi thẳng lên bệnh viện tuyến trên rồi về đòi thanh toán sau. Đi đúng nơi đăng ký, hoặc xin chuyển người bệnh; tự đi thì nội trú tuyến chuyên sâu chỉ còn 40% mức hưởng. Cấp cứu là ngoại lệ, vẫn được hưởng 100% mức hưởng bảo hiểm y tế.
 - Lợi ích: Nếu mắc bệnh nặng, tìm hiểu nơi đăng ký khám ban đầu, tuyến điều trị và thủ tục chuyển cơ sở trước khi phải chi tiền lớn. Trường hợp cấp cứu có cách xử lý quyền lợi riêng.
@@ -112,6 +132,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng: nhiều nước gom ph�
 
 ### 11. Mất căn cước thì đi cấp lại ngay, chờ thẻ thì dùng VNeID mức 2
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-mat-can-cuoc-thi-di-cap-lai-ngay-cho-the-thi-dung" data-legacy="7-11"></a>
+
 - Chi phí: Lệ phí cấp lại vài chục nghìn đồng một thẻ, thu tại nơi làm thủ tục; có trường hợp được miễn hoàn toàn (xem Lợi ích). Đi một lần tới cơ quan quản lý căn cước nơi mình đang cư trú — công an cấp huyện, hoặc công an cấp xã nơi được phân cấp tiếp nhận; không phải về nguyên quán. Chụp ảnh, lấy vân tay, quét mống mắt tại chỗ.
 - Nói dễ hiểu: Mất thẻ thì đi cấp lại ngay, đừng chờ. Bạn sẽ được cấp giấy hẹn ghi ngày trả thẻ — hãy căn cứ vào ngày ghi trên giấy, không phải thời gian ai đó nói miệng. Trong lúc chờ, dùng căn cước điện tử trên VNeID: nó có giá trị chứng minh như thẻ, dù vài nơi vẫn đòi thẻ.
 - Lợi ích: Cấp lại căn cước khi bị mất giúp tránh bị gián đoạn làm thủ tục nhận trợ cấp, xin việc hoặc giao dịch. Giữ giấy hẹn và kiểm tra khả năng sử dụng căn cước điện tử trong lúc chờ thẻ.
@@ -122,6 +144,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng: nhiều nước gom ph�
 
 ### 12. Nộp hồ sơ thất nghiệp xong thì hỏi tiếp về vay vốn tự tạo việc làm, học nghề và chính sách hộ nghèo
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-nop-ho-so-that-nghiep-xong-thi-hoi-tiep-ve-vay-von" data-legacy="7-12"></a>
+
 - Chi phí: 0 đồng để hỏi và làm hồ sơ. Nếu vay thì phải trả lãi: 7,92%/năm với người lao động thông thường, 6,24%/năm với nhóm ưu tiên, thời hạn tối đa 120 tháng (Nghị định 338/2025/NĐ-CP). Vay 200.000.000 đồng thì tiền lãi năm đầu khoảng 15.840.000 đồng, tức 1.320.000 đồng mỗi tháng, chưa tính gốc.
 - Nói dễ hiểu: Nộp hồ sơ thất nghiệp xong, còn ba hình thức hỗ trợ khác để hỏi: vay tối đa 200.000.000 đồng từ Ngân hàng Chính sách xã hội để tự tạo việc, lãi 7,92%/năm; hỗ trợ học nghề; và chính sách hộ nghèo nếu thu nhập dưới 1.500.000 đồng một người một tháng.
 - Lợi ích: Người vừa mất việc có thể tiếp cận thêm khoản vay hỗ trợ tạo việc làm nếu đủ điều kiện. Hỏi ngân hàng chính sách và đơn vị dịch vụ việc làm về hồ sơ, lãi suất và nghĩa vụ trả nợ trước khi ký.
@@ -132,6 +156,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng: nhiều nước gom ph�
 
 ### 13. Đang hưởng trợ cấp thất nghiệp hoặc đã đóng đủ điều kiện thì học nghề bằng tiền của quỹ, đừng tự trả học phí
 <!-- nhãn: tiền=0 thời-gian=nhiều ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-dang-huong-tro-cap-that-nghiep-hoac-da-dong-du-dieu-kien" data-legacy="7-13"></a>
+
 - Chi phí: Học phí do quỹ trả theo mức: tối đa 4.500.000 đồng/người/khóa với khóa dưới 3 tháng, tối đa 1.500.000 đồng/người/tháng với khóa từ 3 tháng trở lên; tiền ăn 50.000 đồng/ngày thực học; tổng thời gian hỗ trợ không quá 6 tháng (Nghị định 374/2025/NĐ-CP Điều 11). Cái bạn trả là thời gian: học 6 tháng là 6 tháng chưa đi làm.
 - Nói dễ hiểu: Đang hưởng trợ cấp thất nghiệp thì quỹ trả học phí khóa nghề, tối đa 4.500.000 đồng một khóa ngắn hoặc 1.500.000 đồng mỗi tháng, thêm 50.000 đồng tiền ăn mỗi ngày học, tối đa 6 tháng. Đừng tự đóng tiền trước.
 - Lợi ích: Hỗ trợ học nghề có thể giảm đáng kể học phí và chi phí sinh hoạt cho người đủ điều kiện bảo hiểm thất nghiệp. Xem đúng hạn nộp hồ sơ để không bỏ lỡ quyền lợi khi đang tìm việc mới.
@@ -142,6 +168,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng: nhiều nước gom ph�
 
 ### 14. Tìm việc có phương pháp: học kỹ năng, đặt mục tiêu, nhờ người quen góp ý
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-tim-viec-co-phuong-phap-hoc-ky-nang-dat-muc-tieu-nho" data-legacy="7-14"></a>
+
 - Chi phí: 0 đồng nếu dùng tư vấn, giới thiệu việc làm ở tổ chức dịch vụ việc làm công, vì luật quy định miễn phí (Điều 4 khoản 2 Luật Việc làm 74/2025/QH15). Cái phải trả là 1 đến 2 giờ mỗi ngày, làm liền vài tuần.
 - Nói dễ hiểu: Khi gộp 47 nghiên cứu có nhóm so sánh, nhóm tham gia khóa hỗ trợ tìm việc có odds tìm được việc cao gấp 2,67 lần nhóm không tham gia — odds là tỉ số khả năng, không phải tỉ lệ người có việc. Khóa chỉ có tác dụng khi dạy kỹ năng và tăng động lực cùng lúc.
 - Lợi ích: Liu, Huang và Wang (2014) gộp 47 can thiệp tìm việc đã được đánh giá bằng thử nghiệm hoặc bán thử nghiệm: odds tìm được việc của nhóm tham gia cao gấp 2,67 lần nhóm đối chứng (OR 2,67; odds là tỉ số khả năng, không phải tỉ lệ phần trăm). Sáu thành phần đi kèm hiệu quả: dạy kỹ năng tìm việc, cải thiện cách giới thiệu bản thân, tăng tự tin, khuyến khích chủ động, đặt mục tiêu, huy động hỗ trợ xã hội. Can thiệp chỉ có hiệu quả khi có cả phần phát triển kỹ năng và phần tăng động lực. Hiệu quả cao hơn ở người trẻ và người lớn tuổi so với người trung niên, và cao hơn ở người mới thất nghiệp so với người thất nghiệp dài hạn. Ở Việt Nam, hai phần "tư vấn" và "giới thiệu việc làm" của một khóa như vậy có sẵn miễn phí tại trung tâm dịch vụ việc làm công.
@@ -151,6 +179,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng: nhiều nước gom ph�
 
 ### 15. Bốn thứ phải từ chối ngay: giữ giấy tờ, đặt cọc, "việc làm" thu tiền trước, đa cấp
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-bon-thu-phai-tu-choi-ngay-giu-giay-to-dat-coc-viec" data-legacy="7-15"></a>
+
 - Chi phí: Không mất tiền — mất tiền ngay từ đầu chính là dấu hiệu bị lừa. Cái phải bỏ ra là công giữ bằng chứng: tin nhắn, biên lai, ảnh chụp màn hình, số tài khoản đã nhận tiền bạn chuyển, và một lần ra công an hoặc thanh tra lao động nếu đã trót đóng.
 - Nói dễ hiểu: Người sử dụng lao động không được giữ bản chính căn cước, bằng cấp, cũng không được bắt đặt cọc. Đa cấp trái phép có ba dấu hiệu: đóng tiền để được vào, buộc mua hàng, ăn tiền từ việc tuyển người. Còn nếu phải đi vay, bên cho vay lấy lãi quá 100%/năm là đã vượt trần hình sự.
 - Lợi ích: Khi tuyển dụng, yêu cầu giữ bản chính giấy tờ, đặt cọc hoặc đóng tiền để được nhận việc là dấu hiệu phải kiểm tra ngay. Giữ ảnh tin tuyển dụng và chứng từ nếu cần khiếu nại.
@@ -161,16 +191,20 @@ Bối cảnh Việt Nam làm lệch thêm một tầng: nhiều nước gom ph�
 
 ### 16. Không có nhà thì tìm nhà ở xã hội cho thuê, nhưng phải nộp đúng đợt của dự án
 <!-- nhãn: tiền=0 thời-gian=nhiều ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-khong-co-nha-thi-tim-nha-o-xa-hoi-cho-thue-nhung" data-legacy="7-16"></a>
+
 - Chi phí: Nộp hồ sơ không mất tiền, nhưng tốn thời gian: phải xin xác nhận chưa có nhà ở và xác nhận thu nhập, mỗi giấy chờ 07 ngày; rồi chờ dự án mở đợt nhận hồ sơ, mà thông tin dự án phải công khai trước ít nhất 30 ngày. Sau đó còn phải đặt cọc và trả tiền thuê theo hợp đồng. Cái khó thật không phải giấy tờ mà là có dự án ở đúng tỉnh mình làm việc hay không.
 - Nói dễ hiểu: Muốn thuê nhà ở xã hội, bạn không xếp hàng ở phường mà nộp hồ sơ cho chủ đầu tư dự án khi họ mở đợt. Trần thu nhập: độc thân không quá 25.000.000 đồng/tháng, có vợ hoặc chồng thì tổng hai người không quá 50.000.000. Và phải chưa có nhà ở tại tỉnh có dự án.
 - Lợi ích: Nhà ở xã hội cho thuê có thể giảm chi phí chỗ ở nếu bạn thuộc đối tượng và đủ điều kiện xét. Phải theo lịch nhận hồ sơ của từng dự án, không chỉ có thu nhập thấp là được thuê ngay.
 - Pháp luật Việt Nam: Nghị định 136/2026/NĐ-CP (hiệu lực 07/4/2026) sửa Điều 30 Nghị định 100/2024/NĐ-CP: người chưa kết hôn hoặc độc thân có thu nhập bình quân không quá 25.000.000 đồng/tháng; độc thân đang nuôi con dưới tuổi thành niên không quá 35.000.000 đồng/tháng; đã kết hôn thì tổng thu nhập vợ chồng không quá 50.000.000 đồng/tháng, tính theo bảng tiền công, tiền lương do nơi làm việc xác nhận, trong 12 tháng liền kề. Nghị định 54/2026/NĐ-CP sửa Điều 29 và Điều 30 Nghị định 100/2024/NĐ-CP: điều kiện chưa có nhà ở xác định theo việc không có tên hoặc không có thông tin về nhà ở trong Giấy chứng nhận tại tỉnh có dự án; việc xác nhận thu nhập chuyển sang công an cấp xã nơi thường trú, tạm trú hoặc nơi ở, thời hạn 07 ngày, và đơn đề nghị xác nhận đó đồng thời là giấy tờ chứng minh đối tượng. Hồ sơ nộp cho chủ đầu tư gồm đơn theo mẫu số 01 và giấy tờ chứng minh điều kiện; giấy tờ chứng minh có giá trị 12 tháng; nộp trực tiếp, trực tuyến, qua bưu chính hoặc qua cơ quan, đơn vị nơi mình làm việc; nếu số hồ sơ đủ điều kiện nhiều hơn số căn thì chủ đầu tư tổ chức bốc thăm.
 - Mức bằng chứng: C
 - Nguồn: Nghị định 136/2026/NĐ-CP (Điều 1 khoản 1; Điều 2; Điều 3), bản ký: <https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/136-ndcp.signed.pdf>; Nghị định 54/2026/NĐ-CP: <https://xaydungchinhsach.chinhphu.vn/nghi-dinh-so-54-2026-nd-cp-quy-dinh-moi-ve-mua-ban-thue-mua-cho-thue-gia-nha-o-xa-hoi-119260220165054643.htm>; Nghị định 100/2024/NĐ-CP, bản ký: <https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/11/100-2024-cp.signed.pdf>. Tra ngày 2/11/2026.
-- Ghi chú: Bốn bẫy. Một: trần thu nhập 15.000.000 và 30.000.000 đồng mà báo chí vẫn đăng đã hết hiệu lực từ 07/4/2026 — hiện là 25.000.000, 35.000.000 và 50.000.000 đồng, nên đừng tự loại mình vì "lương hơn 15 triệu". Hai: không nộp ở UBND xã; xã và công an xã chỉ xác nhận giấy tờ, còn hồ sơ xin thuê nộp cho chủ đầu tư dự án, và mỗi dự án mở một đợt riêng nên phải theo dõi trang của Sở Xây dựng hoặc của chủ đầu tư. Ba: nhà ở xã hội cho thuê khác nhà lưu trú công nhân trong khu công nghiệp và khác nhà trọ giá rẻ — ba thứ này theo ba cơ chế khác nhau, đừng nộp lẫn. Bốn: giấy xác nhận chỉ có giá trị 12 tháng, quá hạn thì phải xin lại, và khai sai thu nhập thì bị hậu kiểm, thu hồi nhà. Xin nhà ở xã hội là việc dài hơi, không phải cửa thoát cho đêm nay — đang mất chỗ ngủ thì xem mục 4 và mục 21 trước, rồi mới làm hồ sơ nhà ở xã hội.
+- Ghi chú: Bốn bẫy. Một: trần thu nhập 15.000.000 và 30.000.000 đồng mà báo chí vẫn đăng đã hết hiệu lực từ 07/4/2026 — hiện là 25.000.000, 35.000.000 và 50.000.000 đồng, nên đừng tự loại mình vì "lương hơn 15 triệu". Hai: không nộp ở UBND xã; xã và công an xã chỉ xác nhận giấy tờ, còn hồ sơ xin thuê nộp cho chủ đầu tư dự án, và mỗi dự án mở một đợt riêng nên phải theo dõi trang của Sở Xây dựng hoặc của chủ đầu tư. Ba: nhà ở xã hội cho thuê khác nhà lưu trú công nhân trong khu công nghiệp và khác nhà trọ giá rẻ — ba thứ này theo ba cơ chế khác nhau, đừng nộp lẫn. Bốn: giấy xác nhận chỉ có giá trị 12 tháng, quá hạn thì phải xin lại, và khai sai thu nhập thì bị hậu kiểm, thu hồi nhà. Xin nhà ở xã hội là việc dài hơi, không phải cửa thoát cho đêm nay — đang mất chỗ ngủ thì xem [mục 4](07-khong-co-tien-thi-song-the-nao.md#entry-duong-cung-thi-vao-co-so-tro-giup-xa-hoi-dung-tim) và [mục 21](07-khong-co-tien-thi-song-the-nao.md#entry-khong-con-cho-ngu-dem-nay-cho-mo-24-gio-chi-de) trước, rồi mới làm hồ sơ nhà ở xã hội.
 
 ### 17. Ép tiền nhà và tiền ăn xuống: thuê trọ theo tháng, tự nấu
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-ep-tien-nha-va-tien-an-xuong-thue-tro-theo-thang-tu" data-legacy="7-17"></a>
+
 - Chi phí: Không tốn tiền để tra, nhưng tốn công: tìm phòng mất 1 đến 2 ngày, đi xem 3 đến 5 chỗ, và thường phải đặt cọc 1 tháng tiền nhà. Tự nấu ăn tốn khoảng 45 phút mỗi bữa và phải rửa bát; ở trọ chung thì phải chịu được hàng xóm và giờ giấc chung.
 - Nói dễ hiểu: Ở nhà nghỉ 179.447 đồng một đêm thì 30 đêm là 5.383.410 đồng, hơn gấp đôi thuê trọ 2.500.000 đồng một tháng. Ăn cũng vậy: 150 g gạo một bữa là 2.250 đồng, chưa kể thức ăn, còn suất cơm ngoài 30.000 đồng. Đừng ở theo đêm quá vài hôm.
 - Lợi ích: Giá rao phòng trọ tại TP.HCM ngày 2/11/2026 trên Phongtro123 trải từ 1.675.000 đến 6.000.000 đồng/tháng, đa số 1.800.000 đến 4.500.000 đồng. Giá nhà nghỉ tại TP.HCM cùng ngày trên trang tổng hợp KAYAK: thấp nhất khoảng 154.919 đồng/đêm, trung bình 179.447 đồng/đêm — nhân 30 đêm ra 5.383.410 đồng, tức là một phòng trọ 2.500.000 đồng/tháng rẻ hơn quá nửa so với ở nhà nghỉ cả tháng. Gạo thường ở mức 14.000 đến 15.000 đồng/kg (giá mối ngày 14/10/2026), nên 150 g gạo cho một bữa là khoảng 2.100 đến 2.250 đồng, chưa kể thức ăn; suất cơm bình dân ngoài hàng ở mức 30.000 đồng. Ngoài ra còn bếp ăn 0 đồng: CLB Bếp ăn Phúc Lâm trao khoảng 200 suất cơm miễn phí cho bệnh nhân nghèo tại Bệnh viện Đa khoa tỉnh Thanh Hóa, và các bếp ăn 0 đồng trong bệnh viện ở TP.HCM phát cơm hằng ngày — nhưng dành cho bệnh nhân và người nhà bệnh nhân, không phải ai cũng vào được.
@@ -180,6 +214,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng: nhiều nước gom ph�
 
 ### 18. Ngừng đóng bảo hiểm xã hội không mất thời gian đã đóng: thời gian cộng dồn, riêng bảo hiểm y tế thì có 30 ngày chờ
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-ngung-dong-bao-hiem-xa-hoi-khong-mat-thoi-gian-da-dong" data-legacy="7-18"></a>
+
 - Chi phí: Bảo hiểm y tế hộ gia đình: người thứ nhất 4,5% mức tham chiếu, với mức tham chiếu 2.530.000 đồng/tháng là 113.850 đồng/tháng, 1.366.200 đồng/năm; người thứ hai 70%, thứ ba 60%, thứ tư 50%, từ người thứ năm 40% mức của người thứ nhất (điểm a và khoản 6 Điều 13 Luật BHYT, sửa đổi bởi Luật 51/2024/QH15; Nghị định 188/2025/NĐ-CP; mức lương cơ sở 2.530.000 đồng từ 1/7/2026 theo Nghị định 161/2026/NĐ-CP). Bảo hiểm xã hội tự nguyện: đóng bằng 22% mức thu nhập bạn chọn làm căn cứ đóng, mức thu nhập thấp nhất là chuẩn hộ nghèo nông thôn 1.500.000 đồng nên mức đóng thấp nhất là 330.000 đồng/tháng.
 - Nói dễ hiểu: Thời gian đóng bảo hiểm xã hội cộng dồn, nghỉ giữa chừng không mất. Đủ 15 năm và đủ tuổi nghỉ hưu thì có lương hưu. Riêng bảo hiểm y tế: gián đoạn từ 90 ngày trở lên thì thẻ mới có giá trị sau 30 ngày kể từ ngày đóng đủ.
 - Lợi ích: Thời gian đã đóng BHXH thường được bảo lưu khi nghỉ việc; đừng vội rút một lần nếu chưa tính quyền hưởng về sau. Với BHYT, cần chú ý riêng thời điểm bắt đầu hiệu lực sau gián đoạn.
@@ -190,6 +226,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng: nhiều nước gom ph�
 
 ### 19. Có án tích, có nợ xấu: đường làm lại ở Việt Nam không có phá sản cá nhân
 <!-- nhãn: tiền=0 thời-gian=nhiều ý-chí=có lợi-ích=vừa thước-đo=thời-gian -->
+<a name="entry-co-an-tich-co-no-xau-duong-lam-lai-o-viet-nam" data-legacy="7-19"></a>
+
 - Chi phí: Không tốn tiền cho việc đương nhiên được xóa án tích: cơ quan quản lý cơ sở dữ liệu lý lịch tư pháp tự cập nhật tình hình án tích và cấp phiếu xác nhận không có án tích khi đủ điều kiện (Bộ luật Hình sự, Điều 70 khoản 4). Cái phải bỏ ra là thời gian chờ — 1 năm, 2 năm, 3 năm hoặc 5 năm tùy hình phạt đã tuyên — và công đi xin phiếu lý lịch tư pháp khi cơ quan, nơi làm việc yêu cầu.
 - Nói dễ hiểu: Xóa án tích là tự động sau một thời hạn tùy mức án, không phải đợi ân xá. Còn nợ thì Việt Nam chưa cho cá nhân phá sản: chỉ doanh nghiệp và hợp tác xã mới nộp đơn được. Nợ xấu trên CIC không phải "danh sách đen" của nhà nước.
 - Lợi ích: Việc có án tích hoặc lịch sử nợ xấu không có nghĩa mọi cánh cửa đã đóng, nhưng cách khôi phục quyền và thông tin tín dụng là hai thủ tục khác nhau. Kiểm tra thời hạn, tình trạng thực tế và đừng tin dịch vụ hứa 'xóa sạch' tức thì.
@@ -200,6 +238,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng: nhiều nước gom ph�
 
 ### 20. Bảo hiểm sức khỏe mua thêm: hợp đồng một năm, và chữ "bảo đảm tái tục" phải nằm trong hợp đồng
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-bao-hiem-suc-khoe-mua-them-hop-dong-mot-nam-va-chu" data-legacy="7-20"></a>
+
 - Chi phí: Phí do doanh nghiệp bảo hiểm định theo tuổi, sản phẩm và quyền lợi; không có mức chung cho cả thị trường, nên phải xin bảng phí và đọc điều khoản của đúng sản phẩm đó. Trả một lần mỗi năm; năm sau tái tục thì trả theo phí của năm đó.
 - Nói dễ hiểu: Hợp đồng bảo hiểm sức khỏe ở Việt Nam thường một năm và tái tục từng năm. Luật không cho bạn quyền mặc nhiên được tái tục: chỉ khi điều khoản ghi rõ cam kết tái tục thì mới có, còn không thì năm sau doanh nghiệp bảo hiểm có quyền từ chối hoặc tăng phí.
 - Lợi ích: Bảo hiểm sức khỏe mua thêm không giống BHYT; quyền được tái tục, thời hạn hợp đồng và các điểm loại trừ phải đọc trong chính hợp đồng. Cần so số tiền được bảo vệ với phí và điều kiện từ chối chi trả.
@@ -210,16 +250,20 @@ Bối cảnh Việt Nam làm lệch thêm một tầng: nhiều nước gom ph�
 
 ### 21. Không còn chỗ ngủ đêm nay: chỗ mở 24 giờ chỉ để một đêm, còn cửa thật là cơ sở trợ giúp xã hội
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-khong-con-cho-ngu-dem-nay-cho-mo-24-gio-chi-de" data-legacy="7-21"></a>
+
 - Chi phí: Sảnh bến xe, sảnh bệnh viện thì không mất tiền; cửa hàng tiện lợi hay quán cà phê mở đêm thì phải mua một cốc nước; nhà nghỉ thì mất vài trăm nghìn một đêm. Cái giá thật là ngủ không sâu, và tài sản dễ mất. Muốn vào cơ sở trợ giúp xã hội thì gọi công an cấp xã ngay trong đêm, không chờ sáng, và có thể tốn tiền đi lại.
 - Nói dễ hiểu: Bạn chỉ có thể trú tạm một đêm ở quán cà phê, cửa hàng tiện lợi, sảnh bến xe hay bệnh viện, và vẫn có thể bị mời ra lúc nửa đêm. Muốn chỗ ngủ tử tế thì nhờ công an xã đưa tới cơ sở trợ giúp xã hội. Đừng ngủ ở gầm cầu, bờ sông, công trường.
 - Lợi ích: Khi không có chỗ ngủ đêm nay, ưu tiên nơi an toàn và liên hệ chính quyền hoặc cơ sở trợ giúp xã hội để hỏi diện tiếp nhận. Hỗ trợ khẩn cấp thường có thời hạn, nên cần tính bước tiếp theo từ sớm.
 - Pháp luật Việt Nam: Nghị định 335/2026/NĐ-CP Điều 21 khoản 2 điểm b đưa người lang thang xin ăn trong thời gian chờ đưa về nơi cư trú vào diện được cơ sở trợ giúp xã hội chăm sóc khẩn cấp, và điểm d khoản 2 giới hạn thời gian đó không quá 03 tháng. Điều 24 khoản 3: khi nhận đề nghị của cơ quan có thẩm quyền, cơ sở lập biên bản tiếp nhận có chữ ký của người phát hiện, chính quyền hoặc công an cấp xã và đại diện cơ sở, đánh giá tổn thương, bảo đảm an toàn và chữa trị kịp thời. Nghị định không quy định giờ tiếp nhận, nhưng cơ sở chỉ nhận khi có đề nghị của cơ quan có thẩm quyền — nên gọi công an cấp xã trước, đừng tự đến rồi đứng ngoài cổng. Điều 13 khoản 1: xã rà soát và quyết định hỗ trợ khẩn cấp cho người trên địa bàn, nên gọi công an xã hoặc UBND xã là đúng tuyến, không phải đi xin ở tỉnh.
 - Mức bằng chứng: C
 - Nguồn: Nghị định 335/2026/NĐ-CP ngày 21/8/2026 (Điều 13 khoản 1; Điều 21 khoản 2; Điều 24 khoản 3), bản ký: <https://xdcs.cdnchinhphu.vn/446259493575335936/2026/8/23/335-2026-nd-cp-21082026-signed-signed-17874624167201019645251.pdf>; phần chỗ ngủ 24 giờ là quan sát thực tế và không có số liệu an toàn của Việt Nam, nên mục không dẫn số nào cho phần đó. Tra ngày 2/11/2026.
-- Ghi chú: Bốn bẫy. Một: quán cà phê 24 giờ, cửa hàng tiện lợi, sảnh bến xe, ghế chờ bệnh viện đều không phải chỗ ngủ — nhân viên và bảo vệ có quyền mời ra, và tranh cãi lúc nửa đêm thì người thiệt là bạn. Hai: ngủ ở gầm cầu, bờ sông, công trường, bãi đất trống có thể khiến bạn mất mạng khi gặp mưa lớn, triều cường hoặc cướp; đừng chọn những nơi đó vì "kín". Ba: cơ sở trợ giúp xã hội chỉ nhận người thuộc diện, nên đến mà không nói rõ hoàn cảnh thì dễ bị từ chối — nói đúng: không còn chỗ ngủ, không còn tiền, không có ai để nhờ. Bốn: đừng tin người lạ rủ về nhà ngủ hay cho tiền để đổi lấy giấy tờ của bạn; đây là cách người vừa mất hết bị lợi dụng nhiều nhất. Một đêm ở quán không phải giải pháp cho cả tuần — hôm sau vẫn phải đi đúng tuyến ở mục 4, và nếu có trẻ em đi cùng thì gọi ngay chính quyền cấp xã, đừng chờ.
+- Ghi chú: Bốn bẫy. Một: quán cà phê 24 giờ, cửa hàng tiện lợi, sảnh bến xe, ghế chờ bệnh viện đều không phải chỗ ngủ — nhân viên và bảo vệ có quyền mời ra, và tranh cãi lúc nửa đêm thì người thiệt là bạn. Hai: ngủ ở gầm cầu, bờ sông, công trường, bãi đất trống có thể khiến bạn mất mạng khi gặp mưa lớn, triều cường hoặc cướp; đừng chọn những nơi đó vì "kín". Ba: cơ sở trợ giúp xã hội chỉ nhận người thuộc diện, nên đến mà không nói rõ hoàn cảnh thì dễ bị từ chối — nói đúng: không còn chỗ ngủ, không còn tiền, không có ai để nhờ. Bốn: đừng tin người lạ rủ về nhà ngủ hay cho tiền để đổi lấy giấy tờ của bạn; đây là cách người vừa mất hết bị lợi dụng nhiều nhất. Một đêm ở quán không phải giải pháp cho cả tuần — hôm sau vẫn phải đi đúng tuyến ở [mục 4](07-khong-co-tien-thi-song-the-nao.md#entry-duong-cung-thi-vao-co-so-tro-giup-xa-hoi-dung-tim), và nếu có trẻ em đi cùng thì gọi ngay chính quyền cấp xã, đừng chờ.
 
 ### 22. Bị quỵt tiền công thì trước hết phải biết ai thuê mình: ở Việt Nam hộ gia đình và cá nhân cũng là người sử dụng lao động
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-bi-quyt-tien-cong-thi-truoc-het-phai-biet-ai-thue-minh" data-legacy="7-22"></a>
+
 - Chi phí: Không tốn tiền để xác định ai là người thuê: đọc hợp đồng, tin nhắn giao việc, biển hiệu, giấy phép, mã số thuế. Nếu phải đi đường dân sự thì có án phí và thời hiệu khởi kiện hợp đồng là 3 năm (Bộ luật Dân sự 2015, Điều 429), còn tiền thuê luật sư thì bạn tự trả.
 - Nói dễ hiểu: Ở Việt Nam hộ gia đình và cá nhân thuê người vẫn là người sử dụng lao động, nên tranh chấp vẫn đi đường lao động — chỉ khi bạn nhận khoán trọn gói theo hợp đồng dân sự mới ra tòa dân sự, thời hiệu 3 năm.
 - Lợi ích: Người thuê lao động có thể là cá nhân hoặc hộ gia đình, không nhất thiết là công ty. Nếu bị quỵt công, giữ bằng chứng về ai giao việc, mức lương đã thỏa thuận và số ngày đã làm.
@@ -230,6 +274,8 @@ Bối cảnh Việt Nam làm lệch thêm một tầng: nhiều nước gom ph�
 
 ### 23. Thẻ tín dụng và vay online đã quá hạn: gọi chính ngân hàng, đừng trả tiền cho dịch vụ "xóa nợ xấu"
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-the-tin-dung-va-vay-online-da-qua-han-goi-chinh-ngan" data-legacy="7-23"></a>
+
 - Chi phí: Không mất phí để gọi tổng đài hay tới chi nhánh đang cho vay. Cái phải bỏ ra là thời gian: thường nhiều lần gọi, một bản giải trình thu nhập giảm, giấy tờ chứng minh mất việc hoặc ốm, và phải trả lời điện thoại của ngân hàng thay vì trốn.
 - Nói dễ hiểu: Không có dịch vụ nào xóa được lịch sử tín dụng của bạn; CIC chỉ sửa khi ngân hàng báo sai. Muốn giãn nợ thì gọi đúng ngân hàng đang cho vay và xin xác nhận bằng văn bản. Đừng vay chỗ khác để trả, và đừng trả tiền cho người hứa "làm đẹp" CIC.
 - Lợi ích: Nếu nợ thẻ tín dụng hoặc vay online đã quá hạn, hãy liên hệ chính bên cho vay để xác nhận số dư, lãi và phương án thanh toán bằng văn bản. Không trả phí cho bên trung gian hứa 'xóa nợ xấu' không có căn cứ.
