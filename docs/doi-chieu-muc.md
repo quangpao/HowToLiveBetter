@@ -378,7 +378,7 @@ Tổng 710 chỗ tham chiếu.
 | đầu chương | mục 10 | Người già đập đầu, vài tuần đến vài tháng sau đi loạng choạng, chậm chạp, ngủ nhiều, yếu nửa người: đi chụp cắt lớp vi tính sọ | … … |
 | đầu chương | mục 11 | Một chân đột nhiên sưng, căng, ấn đau: đi khám sớm; kèm khó thở hoặc đau ngực thì gọi 115 ngay | … … |
 | đầu chương | mục 12 | Chảy máu nhiều: ấn mạnh lên vết thương, nếu ở tay chân mà ấn không cầm được máu thì đặt dây ga rô, gọi 115 | … … |
-| đầu chương | mục 13 | Bị chó, mèo cắn hoặc cào rách da: rửa bằng nước và xà phòng 15 phút, tới cơ sở tiêm chủng tiêm vắc-xin dại trong ngày | … … |
+| đầu chương | mục 13 | Bị chó, mèo cắn hoặc cào rách da: rửa bằng nước và xà phòng 15 phút, tới cơ sở tiêm chủng tiêm vắc xin dại trong ngày | … … |
 | đầu chương | mục 14 | Bỏng: làm mát bằng nước sạch chảy 20 phút, không bôi kem đánh răng hay nước mắm | … … |
 | đầu chương | mục 15 | Đột nhiên nổi mẩn khắp người kèm khó thở hoặc choáng: gọi 115, nói rõ "sốc phản vệ", có sẵn adrenalin thì tiêm bắp ngay | … … |
 | đầu chương | mục 16 | Người co giật ngã xuống: dọn vật cản, cho nằm nghiêng, bấm giờ, tuyệt đối không nhét thìa hay ngón tay vào miệng | … … |
@@ -552,7 +552,7 @@ Tổng 710 chỗ tham chiếu.
 | Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
 | --- | --- | --- | --- |
 | đầu chương | mục 1 | Ngủ an toàn: nằm ngửa, mặt phẳng cứng, cùng phòng nhưng khác giường | … … |
-| đầu chương | mục 2 | Mũi vắc-xin viêm gan B trong 24 giờ đầu: miễn phí, và phải hỏi trước khi ra viện | … … |
+| đầu chương | mục 2 | Mũi vắc xin viêm gan B trong 24 giờ đầu: miễn phí, và phải hỏi trước khi ra viện | … … |
 | đầu chương | mục 3 | Lịch tiêm chủng mở rộng và tiêm bù: lịch đã đổi, trễ thì tiêm bù chứ không tiêm lại từ đầu | … … |
 | đầu chương | mục 4 | Bú mẹ hoàn toàn 6 tháng, ăn bổ sung từ 6 tháng, bú tiếp đến 24 tháng | … … |
 | đầu chương | mục 5 | Pha sữa công thức: nước không dưới 70 °C, dùng trong 2 giờ, không hâm lại | … … |
@@ -727,7 +727,7 @@ Tổng 710 chỗ tham chiếu.
 | đầu chương | mục 15 | Đăng ký khai sinh: 60 ngày, làm ở xã nơi cha hoặc mẹ cư trú, không phải về quê | … … |
 | đầu chương | mục 16 | Khám lại sau sinh: đừng bỏ mốc sáu tuần, và nói thẳng chuyện tâm trạng | … … |
 | đầu chương | mục 17 | Có bầu không phải bỏ mèo: thứ đáng sợ là thịt chưa chín, đồ muối sống và đất bẩn | … … |
-| đầu chương | mục 18 | Mang thai mà vào mùa cúm thì đi tiêm vaccine cúm; ở Việt Nam đây là mũi dịch vụ, không nằm trong danh mục bắt buộc | … … |
+| đầu chương | mục 18 | Mang thai mà vào mùa cúm thì đi tiêm vắc xin cúm; ở Việt Nam đây là mũi dịch vụ, không nằm trong danh mục bắt buộc | … … |
 | đầu chương | mục 19 | Từ tuần 28, đi ngủ thì nằm nghiêng; nửa đêm thấy mình nằm ngửa thì chỉ cần xoay lại | … … |
 | đầu chương | mục 20 | Sau sinh thì tránh thai từ lần quan hệ đầu; muốn sinh tiếp thì đợi ít nhất 18 tháng | … … |
 
