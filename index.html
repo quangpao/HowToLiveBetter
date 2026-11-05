@@ -455,6 +455,75 @@ th[aria-sort=descending] .column-sort:after{content:'↓';color:var(--brand-1)}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
 @media print{.nav-r,.toolbar,.sidebar,.hero-actions,.pagination,.reading-guide{display:none!important}.content{padding:0}.cover-figure{max-width:400px}.table-wrap{overflow:visible}.records-table{table-layout:auto}}
 
+/* Trang đọc sách giữ nội dung liền mạch và chỉ dựng chương đang mở. */
+.reader-controls{display:flex;align-items:center;gap:8px;margin-left:auto}
+.reader-controls button{padding:7px 10px;min-height:40px;background:var(--bg-soft);border:1px solid var(--divider);border-radius:2px;font-size:13px;white-space:nowrap}
+.reader-controls button:disabled{opacity:.4;cursor:default}
+.reader-controls output{font-size:12px;min-width:18px;text-align:center;color:var(--t2)}
+.reader-font-controls{display:flex;align-items:center;gap:6px}
+.book-layout{display:grid;grid-template-columns:220px minmax(0,1fr);gap:56px;max-width:1120px;margin:32px auto 0;align-items:start}
+.book-contents{position:sticky;top:calc(var(--controls-h) + 28px);max-height:calc(100dvh - var(--controls-h) - 110px);overflow:auto;overscroll-behavior:contain;scrollbar-width:thin;padding-right:18px;border-right:1px solid var(--divider)}
+.book-contents-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:16px}
+.book-contents-head h2{font:500 24px var(--serif);margin:0}.book-contents-head span{font-size:11px;color:var(--t2)}
+#book-toc{display:grid;gap:4px}
+#book-toc a{display:flex;gap:12px;align-items:baseline;font-size:12px;line-height:1.6;padding:7px 0;color:var(--t2)}
+#book-toc a[aria-current=page]{color:var(--brand-1);font-weight:650}
+.book-toc-number{font:12px var(--mono);color:var(--t3);flex:none}
+.book-paper{max-width:740px;width:100%;margin:0 auto;font:var(--book-font,19px)/1.9 var(--serif);overflow-wrap:anywhere;padding:12px 0 80px}
+.book-paper h1{font:500 clamp(32px,3.3vw,46px)/1.2 var(--serif);letter-spacing:-.025em;margin:14px 0 18px;text-wrap:balance}
+.book-subtitle{font:12px/1.6 var(--font);color:var(--t3);margin:0 0 36px}
+.book-intro{padding-bottom:22px;margin-bottom:26px;border-bottom:1px solid var(--divider);color:var(--t2)}
+.book-intro:empty{padding:0;border:0}
+.book-intro p{margin:0 0 18px}
+.book-entry{padding:26px 0 36px;border-bottom:1px solid var(--divider);scroll-margin-top:calc(var(--controls-h) + 24px)}
+.book-entry:last-child{border-bottom:0}
+.book-entry h2{font:600 26px/1.45 var(--serif);letter-spacing:-.015em;display:flex;gap:12px;margin:0 0 9px}
+.book-anchor{color:var(--brand-1);font-weight:400;flex:none;text-decoration:none}
+.book-entry-meta{font:11px/1.6 var(--font);color:var(--t3);margin:0 0 22px}
+.book-human{font-size:1.06em;margin:0 0 24px}
+.book-field{margin:22px 0}
+.book-field h3{font:600 12px/1.6 var(--font);letter-spacing:.02em;color:var(--t2);margin:0 0 8px}
+.book-field .chunks{margin:0;padding-left:22px}.book-field .chunks li{margin:0 0 12px;padding-left:3px}
+.book-field .chunks li:last-child{margin-bottom:0}
+.book-legal{padding:16px 20px;border-left:2px solid var(--brand-1);background:var(--brand-soft)}
+.book-sources{font:14px/1.8 var(--font);padding-top:16px}
+.book-sources summary{min-height:28px}
+.book-bottom{position:fixed;bottom:0;left:0;right:0;background:var(--bg);border-top:1px solid var(--divider);z-index:26;padding-bottom:env(safe-area-inset-bottom)}
+.book-bottom progress{display:block;width:100%;height:3px;border:0;background:var(--divider);accent-color:var(--brand-1)}
+.book-bottom progress::-webkit-progress-bar{background:var(--divider)}
+.book-bottom progress::-webkit-progress-value{background:var(--brand-1)}
+.book-bottom progress::-moz-progress-bar{background:var(--brand-1)}
+.book-bottom-inner{max-width:1120px;margin:auto;padding:10px 24px;display:grid;grid-template-columns:1fr auto 1fr;gap:20px;align-items:center}
+.book-bottom button{padding:8px 12px;font-size:13px;min-height:38px;border:1px solid var(--divider);background:var(--bg-soft);border-radius:2px;justify-self:start}
+.book-bottom button:last-child{justify-self:end}
+.book-bottom button:disabled{opacity:.4;cursor:default}
+.book-page-status{display:flex;gap:12px;font-size:11px;color:var(--t2);font-variant-numeric:tabular-nums}
+.book-page-status span:last-child{color:var(--t3)}
+#book-contents-toggle,#book-contents-close{display:none}
+.reading-mode .cover-grid,.reading-mode .caution,.reading-mode .reading-guide,.reading-mode .explore-title,.reading-mode .search,.reading-mode #menu,.reading-mode #sidebar,.reading-mode .resultbar,.reading-mode #upd-line,.reading-mode #empty,.reading-mode .gloss{display:none!important}
+.reading-mode{overflow-anchor:none}
+.reading-mode .toolbar{justify-content:space-between;padding-block:12px}
+.reading-mode .explore{margin-top:20px}
+.reading-mode .foot{margin:20px auto 100px;max-width:1120px;font-size:11px}
+@media(max-width:1000px){.book-layout{grid-template-columns:180px minmax(0,1fr);gap:32px}.book-paper{font-size:var(--book-font,19px)}.book-entry h2{font-size:24px}}
+@media(max-width:800px){
+  .book-layout{display:block;margin-top:22px}.book-paper{max-width:680px;padding-top:0}
+  .book-contents{display:none;position:fixed;z-index:28;top:calc(var(--controls-h) + 8px);left:18px;right:18px;max-height:calc(100dvh - var(--controls-h) - 100px);border:1px solid var(--divider);padding:16px;background:var(--bg-soft);box-shadow:var(--shadow)}
+  .book-layout.toc-open .book-contents{display:block}#book-toc a{font-size:14px;padding:9px 0}
+  #book-contents-toggle,#book-contents-close{display:inline-block}#book-contents-close{font-size:12px;padding:5px 9px;border:1px solid var(--divider)}
+  .book-page-status{display:grid;gap:0;text-align:center}.book-bottom-inner{gap:12px;padding-inline:18px}
+}
+@media(max-width:700px){
+  .views button{font-size:12px;padding:8px 10px;min-height:40px}
+  .reading-mode .toolbar{gap:10px}.reading-mode .views{flex:1 1 100%}
+  .reader-controls{margin-left:0;width:100%;justify-content:space-between;gap:10px}
+  .reader-controls button{font-size:12px;min-height:36px;padding:6px 10px}
+  .book-paper{line-height:1.85}.book-paper h1{font-size:34px}.book-entry h2{font-size:24px;gap:10px}
+  .book-entry{padding-top:22px}.book-legal{padding:12px 15px}.book-bottom button{font-size:12px;padding:7px 9px}
+  .book-bottom-inner{gap:8px}.book-intro{font-size:.95em}
+}
+@media print{.book-contents,.book-bottom,.reader-controls{display:none!important}.book-layout{display:block}.book-paper{max-width:none;padding:0}.book-entry{break-inside:avoid}.reading-mode .foot{margin-bottom:0}}
+
 </style>
 
 <!-- ga:start hai dòng chú thích này là mốc để bản build offline cắt bỏ（tools/offline/build.mjs）, đừng xóa -->
@@ -489,7 +558,7 @@ th[aria-sort=descending] .column-sort:after{content:'↓';color:var(--brand-1)}
   <path d="M32 22v10M13 31c7-3 13-2 19 2 6-4 12-5 19-2v19c-7-3-13-2-19 2-6-4-12-5-19-2V31Zm19 2v19" fill="none" stroke="#f4f1e8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg></span><span>HowToLiveBetter</span></a>
     <nav class="nav-r" aria-label="Liên kết chính">
-      <a class="nav-extra" href="README.md">Đọc sách</a>
+      <a class="nav-extra" href="?view=book" data-open-book>Đọc sách</a>
       <a class="nav-extra" href="selfcheck.html">Tự kiểm tra ↗</a>
       <a href="https://github.com/quangpao/HowToLiveBetter" target="_blank" rel="noopener">GitHub ↗</a>
       <button class="utility-btn" id="theme" type="button" aria-label="Bật/tắt nền tối" aria-pressed="false">Nền tối</button>
@@ -526,8 +595,13 @@ th[aria-sort=descending] .column-sort:after{content:'↓';color:var(--brand-1)}
       <div class="explore-title"><h2 id="explore-heading">Tìm điều bạn cần</h2><a href="https://github.com/quangpao/HowToLiveBetter/releases" target="_blank" rel="noopener">Tải sách để đọc offline ↗</a></div>
       <div class="toolbar">
         <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5" stroke-linecap="round"/></svg><input id="q" type="search" placeholder="Tìm chủ đề, từ khóa, nguồn nghiên cứu…" autocomplete="off" aria-label="Tìm mục"><kbd>/</kbd></label>
-        <div class="views" role="group" aria-label="Cách xem nội dung"><button type="button" data-view="table" aria-pressed="true">Bảng</button><button type="button" data-view="chapters" aria-pressed="false">Theo chương</button></div>
+        <div class="views" role="group" aria-label="Cách xem nội dung"><button type="button" data-view="table" aria-pressed="true">Bảng</button><button type="button" data-view="chapters" aria-pressed="false">Theo chương</button><button type="button" data-view="book" aria-pressed="false">Đọc sách</button></div>
         <button type="button" class="filter-toggle" id="menu" aria-controls="sidebar" aria-expanded="false">Bộ lọc <span id="filter-count"></span> <span aria-hidden="true">⌄</span></button>
+        <div class="reader-controls" id="book-reader-controls" hidden>
+          <button type="button" id="book-contents-toggle" aria-controls="book-contents" aria-expanded="false">Mục lục</button>
+          <div class="reader-font-controls" role="group" aria-label="Cỡ chữ trang đọc"><button type="button" id="book-font-less" aria-label="Giảm cỡ chữ">A−</button><output id="book-font-size" aria-label="Cỡ chữ">19</output><button type="button" id="book-font-more" aria-label="Tăng cỡ chữ">A+</button></div>
+          <button type="button" id="book-theme" aria-pressed="false">Nền tối</button>
+        </div>
       </div>
 <aside class="sidebar" id="sidebar" aria-label="Bộ lọc tra cứu" hidden>
   <div class="group">
@@ -649,6 +723,20 @@ th[aria-sort=descending] .column-sort:after{content:'↓';color:var(--brand-1)}
         </table>
       </div>
       <nav class="pagination" id="pagination" aria-label="Phân trang kết quả" hidden><button type="button" id="page-prev">← Trang trước</button><span id="page-info" role="status" aria-live="polite"></span><button type="button" id="page-next">Trang sau →</button></nav>
+      <div id="book-view" class="book-layout" hidden>
+        <aside id="book-contents" class="book-contents" aria-label="Mục lục sách">
+          <div class="book-contents-head"><h2>Mục lục</h2><span id="book-contents-count"></span><button type="button" id="book-contents-close">Đóng</button></div>
+          <nav id="book-toc" aria-label="Chọn chương"></nav>
+        </aside>
+        <div id="book-paper" class="book-paper">
+          <div id="book-opening"><div id="book-kicker" class="eyebrow"></div><h1 id="book-title" tabindex="-1"></h1><p id="book-subtitle" class="book-subtitle"></p><div id="book-intro" class="book-intro"></div></div>
+          <div id="book-entries"></div>
+        </div>
+        <div class="book-bottom" id="book-bottom">
+          <progress id="book-progress" max="100" value="0" aria-label="Tiến độ đọc chương"></progress>
+          <nav class="book-bottom-inner" aria-label="Chuyển chương"><button type="button" id="book-prev">← Chương trước</button><div class="book-page-status"><span id="book-chapter-status"></span><span id="book-percent">0% chương này</span></div><button type="button" id="book-next">Chương sau →</button></nav>
+        </div>
+      </div>
     <div id="list">
       <div class="status" id="status"><span id="status-t">Đang đọc nội dung …</span><div class="bar"><i id="status-b"></i></div></div>
 
@@ -1120,9 +1208,10 @@ function showXref(a){
 // Phải dùng replaceState: mỗi lần cuộn mà đẩy một mục lịch sử thì nút quay lại hỏng hẳn.
 let spyT = 0, spyLast = '', spyOff = false;
 function spy(){
-  if (spyOff || state.view === 'table' || !ENTRY.mask.hidden) return;
+  if (spyOff || state.view !== 'chapters' || !ENTRY.mask.hidden) return;
   clearTimeout(spyT);
   spyT = setTimeout(() => {
+    if (state.view !== 'chapters') return;
     const line = innerHeight * 0.3;        // đường xác định lấy ở ba phần mười phía trên khung nhìn, gần với chỗ người ta đang đọc
     let hit = '';
     // Khi còn ở đầu trang đọc dẫn nhập và bộ lọc thì không có "điều đang xem", thanh địa chỉ phải sạch.
@@ -1195,6 +1284,7 @@ function scrollAnchor(el){
   return block && el.id === `e-${block.dataset.sec}-1` ? block : el;
 }
 function gotoItem(key, fromId){
+  if (state.view === 'book') { if (!DM.mask.hidden) dmClose(); navigateBook(key); return; }
   entryClose(false); setView('chapters');
   const sec = key[0] === 's' ? key.slice(1) : '';
   const id = sec ? 'sec-' + sec : `e-${key.split('-')[0]}-${key.split('-')[1]}`;
@@ -1225,6 +1315,13 @@ function gotoItem(key, fromId){
 }
 addEventListener('popstate', ev => {
   POP.hidden = true;
+  if (state.view === 'book' || new URLSearchParams(location.search).get('view') === 'book') {
+    readUrl(true);
+    if (state.view === 'book' && ev.state?.reader) BOOK.requested = readerPosition(ev.state.reader, bookSections());
+    apply();
+    if (state.view !== 'book') document.getElementById(location.hash.slice(1))?.scrollIntoView();
+    return;
+  }
   const st = ev.state; if (!st) return;
   const back = st.xrefFrom && document.getElementById(st.xrefFrom);
   if (back) scrollToEl(back);
@@ -1421,15 +1518,24 @@ function fitsMe(e){
   return e.who.some(g => g.every(has));
 }
 const state = { view:'table', q:'', legal:new Set(), sec:new Set(), ratio:new Set(), lens:new Set(), grade:new Set(), money:new Set(), time:new Set(), will:new Set(), who:new Set(), upd:new Set(), days:new Set(), dispute:false, todo:false };
-function readUrl(){
+function readUrl(keepFilters = false){
   const p = new URLSearchParams(location.search);
-  state.view = location.hash.startsWith('#e-') || location.hash.startsWith('#sec-') || p.get('view') === 'chapters' ? 'chapters' : 'table';
+  state.view = p.get('view') === 'book' ? 'book' : location.hash.startsWith('#e-') || location.hash.startsWith('#sec-') || p.get('view') === 'chapters' ? 'chapters' : 'table';
+  BOOK.requested = readerUrlPosition(location.search, location.hash, bookSections());
+  if (keepFilters && state.view === 'book') return;
   state.q = p.get('q') || '';
   for (const d of DIMS) state[d] = new Set((p.get(d)||'').split(',').filter(Boolean));
   state.dispute = p.get('dispute') === '1'; state.todo = p.get('todo') === '1';
 }
 function writeUrl(){
   const p = new URLSearchParams();
+  if (state.view === 'book') {
+    p.set('view', 'book'); p.set('chapter', BOOK.chapter || BOOK.position?.chapter || '1');
+    if (PERF.on) p.set('perf','1');
+    const hash = BOOK.position?.entry && BOOK.position.entry !== 'intro' ? '#e-' + BOOK.position.entry : '';
+    history.replaceState({...history.state, reader:BOOK.position}, '', '?' + p.toString() + hash);
+    return;
+  }
   if (state.q) p.set('q', state.q);
   if (state.view === 'chapters') p.set('view', 'chapters');
   for (const d of DIMS) if (state[d].size) p.set(d, [...state[d]].join(','));
@@ -1515,17 +1621,237 @@ function apply(){
   PERF.log('apply', t0, `khớp ${shown} điều, kết xuất lại ${rerender} thẻ`);
 }
 
+/* ---------- Đọc sách: một chương, văn bản đầy đủ, lưu vị trí trên thiết bị ---------- */
+// <reader-rules>
+function readerFont(value){
+  const n = value === null || value === '' ? NaN : Number(value);
+  return Number.isFinite(n) ? Math.min(26, Math.max(16, Math.round(n))) : 19;
+}
+function readerPosition(raw, sections){
+  const value = raw && typeof raw === 'object' ? raw : {};
+  const requested = sections.find(s => s.n === String(value.chapter));
+  const section = requested || sections[0];
+  if (!section) return {chapter:'', entry:'intro', title:'', offset:0};
+  const item = requested && (value.title
+    ? section.entries.find(e => e.title === value.title)
+    : section.entries.find(e => `${section.n}-${e.n}` === value.entry));
+  const offset = Number.isFinite(value.offset) ? Math.min(1, Math.max(0, value.offset)) : 0;
+  return {chapter:section.n, entry:item ? `${section.n}-${item.n}` : 'intro', title:item?.title || '', offset:requested && (item || value.entry === 'intro') ? offset : 0};
+}
+function readerUrlPosition(search, hash, sections){
+  const p = new URLSearchParams(search);
+  if (p.get('view') !== 'book') return null;
+  const item = /^#e-(\d+)-(\d+)$/.exec(hash);
+  const chapter = item?.[1] || /^#sec-(\d+)$/.exec(hash)?.[1] || p.get('chapter');
+  if (!chapter) return null;
+  return readerPosition({chapter, entry:item ? `${item[1]}-${item[2]}` : 'intro', offset:0}, sections);
+}
+// </reader-rules>
+const BOOK_KEY = 'hltb-reader-v1';
+const BOOK = {chapter:'', position:null, requested:null, saved:null, font:19, restoring:false, timer:0, restoreId:0};
+const bookSections = () => [...SECS.values()];
+function saveBookPreferences(){
+  try { localStorage.setItem(BOOK_KEY, JSON.stringify({font:BOOK.font, position:BOOK.position})); } catch (e) {}
+}
+function bookStartingPosition(previousView){
+  if (BOOK.requested) return BOOK.requested;
+  const match = previousView === 'chapters' && /^#e-(\d+)-(\d+)$/.exec(location.hash);
+  if (match) return readerPosition({chapter:match[1], entry:`${match[1]}-${match[2]}`}, bookSections());
+  const sectionHash = previousView === 'chapters' && /^#sec-(\d+)$/.exec(location.hash);
+  if (sectionHash) return readerPosition({chapter:sectionHash[1], entry:'intro'}, bookSections());
+  const chapter = [...state.sec].find(n => SECS.has(n));
+  if (chapter) return readerPosition(BOOK.position?.chapter === chapter ? BOOK.position : {chapter, entry:'intro'}, bookSections());
+  return readerPosition(BOOK.position || BOOK.saved, bookSections());
+}
+function setBookContents(open, focus = true){
+  document.getElementById('book-view').classList.toggle('toc-open', open);
+  document.getElementById('book-contents-toggle').setAttribute('aria-expanded', String(open));
+  if (open) followBookContents();
+  if (focus) (open ? document.querySelector('#book-toc a[aria-current="page"]') : document.getElementById('book-contents-toggle'))?.focus({preventScroll:true});
+}
+function followBookContents(){
+  const panel = document.getElementById('book-contents'), active = panel.querySelector('[aria-current="page"]');
+  if (active && panel.clientHeight) panel.scrollTop += active.getBoundingClientRect().top - panel.getBoundingClientRect().top - (panel.clientHeight - active.offsetHeight) / 2;
+}
+function renderBookChapter(position){
+  const section = SECS.get(position.chapter); if (!section) return;
+  BOOK.chapter = section.n; BOOK.position = position;
+  document.getElementById('book-kicker').textContent = 'Chương ' + section.n.padStart(2, '0');
+  document.getElementById('book-title').textContent = section.title;
+  document.getElementById('book-subtitle').textContent = `${section.entries.length} mục · Nội dung đầy đủ của chương`;
+  const intro = document.getElementById('book-intro'); intro.replaceChildren();
+  CUR_SEC = section.n;
+  for (const text of section.intro){
+    const p = document.createElement('p'); renderText(p, text, [], false); markVN(p); intro.appendChild(p);
+  }
+  const fragment = document.createDocumentFragment();
+  for (const e of section.entries){
+    CUR_SEC = section.n;
+    const key = `${section.n}-${e.n}`, article = document.createElement('article');
+    article.className = 'book-entry'; article.id = 'read-' + key; article.dataset.entry = key; article.dataset.title = e.title;
+    const heading = document.createElement('h2'); heading.tabIndex = -1;
+    const a = document.createElement('a'); a.href = `?view=book&chapter=${section.n}#e-${key}`; a.dataset.readerEntry = key;
+    a.setAttribute('aria-label', `Liên kết tới mục ${e.n}`); a.className = 'book-anchor'; a.textContent = e.n + '.';
+    const title = document.createElement('span'); renderText(title, e.title, [], false); heading.append(a, title); article.appendChild(heading);
+    const meta = document.createElement('p'); meta.className = 'book-entry-meta';
+    meta.textContent = `Bằng chứng ${e.grade}` + (e.dispute ? ' · Đang tranh luận' : '') + (e.todo ? ' · Còn phải kiểm chứng' : ''); article.appendChild(meta);
+    if (e.human){ const p = document.createElement('p'); p.className = 'book-human'; renderText(p, e.human, []); article.appendChild(p); }
+    for (const [field,label] of [['cost','Chi phí'],['gain','Lợi ích'],['legal','Pháp luật Việt Nam'],['note','Ghi chú']]){
+      if (!e[field]?.trim()) continue;
+      const box = document.createElement('section'); box.className = 'book-field book-' + field;
+      const h = document.createElement('h3'); h.textContent = label;
+      const body = document.createElement('div'); renderGain(body, e[field], []); box.append(h, body); article.appendChild(box);
+    }
+    if (e.isLegal && !e.legal){ const p = document.createElement('p'); p.className = 'legal-source-hint'; p.textContent = 'Dẫn chiếu văn bản pháp luật nằm trong phần Nguồn bên dưới.'; article.appendChild(p); }
+    const sources = document.createElement('details'); sources.className = 'src book-sources';
+    const summary = document.createElement('summary'), body = document.createElement('div'); body.className = 'body';
+    const count = renderSrc(body, e.src, []); summary.textContent = count > 1 ? `Nguồn · ${count} tài liệu` : 'Nguồn và tài liệu tham khảo';
+    sources.append(summary, body); article.appendChild(sources); markVN(article); fragment.appendChild(article);
+  }
+  document.getElementById('book-entries').replaceChildren(fragment);
+  const sections = bookSections(), index = sections.findIndex(s => s.n === section.n);
+  document.getElementById('book-prev').disabled = index === 0;
+  document.getElementById('book-next').disabled = index === sections.length - 1;
+  document.getElementById('book-prev').title = sections[index-1] ? sections[index-1].title : 'Đầu sách';
+  document.getElementById('book-next').title = sections[index+1] ? sections[index+1].title : 'Cuối sách';
+  document.getElementById('book-chapter-status').textContent = `Chương ${index + 1}/${sections.length}`;
+  document.querySelectorAll('#book-toc a').forEach(a => {
+    if (a.dataset.readerChapter === section.n) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current');
+  });
+  followBookContents();
+}
+function updateBookProgress(){
+  if (state.view !== 'book') return;
+  const paper = document.getElementById('book-paper').getBoundingClientRect();
+  const top = document.querySelector('.toolbar').getBoundingClientRect().bottom + 20;
+  const bottom = document.getElementById('book-bottom').getBoundingClientRect().height;
+  const extent = paper.height - (innerHeight - top - bottom);
+  const percent = extent > 0 ? Math.round(Math.min(1,Math.max(0,(top-paper.top)/extent))*100) : 100;
+  document.getElementById('book-progress').value = percent;
+  document.getElementById('book-percent').textContent = percent + '% chương này';
+}
+function rememberBook(updateUrl = true){
+  if (!document.body.classList.contains('reading-mode') || !BOOK.chapter || BOOK.restoring) return;
+  const line = document.querySelector('.toolbar').getBoundingClientRect().bottom + 20;
+  const nodes = [document.getElementById('book-opening'), ...document.querySelectorAll('#book-entries .book-entry')];
+  const node = [...nodes].reverse().find(n => n.getBoundingClientRect().top <= line + 1) || nodes[0];
+  const r = node.getBoundingClientRect();
+  BOOK.position = {chapter:BOOK.chapter, entry:node.dataset.entry || 'intro', title:node.dataset.title || '', offset:Math.min(1,Math.max(0,(line-r.top)/Math.max(1,r.height)))};
+  saveBookPreferences(); updateBookProgress();
+  if (updateUrl && state.view === 'book') writeUrl();
+}
+function restoreBookPosition(position, focus = false){
+  const restoreId = ++BOOK.restoreId;
+  BOOK.restoring = true;
+  requestAnimationFrame(() => {
+    if (restoreId !== BOOK.restoreId || state.view !== 'book') return;
+    const node = position.entry === 'intro' ? document.getElementById('book-opening') : document.getElementById('read-' + position.entry);
+    const r = node.getBoundingClientRect(), top = document.querySelector('.toolbar').getBoundingClientRect().height + 20;
+    const y = window.scrollY + r.top + position.offset * r.height - top;
+    scrollTo({top:Math.max(0,y), behavior:'instant'});
+    if (focus) (position.entry === 'intro' ? document.getElementById('book-title') : node.querySelector('h2')).focus({preventScroll:true});
+    requestAnimationFrame(() => { if (restoreId !== BOOK.restoreId) return; BOOK.restoring = false; rememberBook(); });
+  });
+}
+function activateBook(position, focus = false){
+  const next = readerPosition(position, bookSections()); BOOK.requested = null;
+  if (next.chapter !== BOOK.chapter) renderBookChapter(next); else BOOK.position = next;
+  document.getElementById('book-paper').style.setProperty('--book-font', BOOK.font + 'px');
+  restoreBookPosition(next, focus);
+}
+function navigateBook(key){
+  rememberBook();
+  const wholeChapter = key.startsWith('s'), chapter = wholeChapter ? key.slice(1) : key.split('-')[0];
+  if (!SECS.has(chapter)) return;
+  const position = readerPosition({chapter, entry:wholeChapter ? 'intro' : key}, bookSections());
+  const href = `?view=book&chapter=${position.chapter}` + (position.entry === 'intro' ? '' : '#e-' + position.entry);
+  history.pushState({reader:true}, '', href); BOOK.requested = position;
+  if (state.view !== 'book') setView('book'); else { activateBook(position, true); writeUrl(); }
+  setBookContents(false, false); POP.hidden = true; document.getElementById('pop').hidden = true;
+}
+function wireBook(){
+  document.querySelector('[data-open-book]').addEventListener('click', ev => {
+    if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.altKey || ev.button !== 0) return;
+    ev.preventDefault(); setView('book');
+  });
+  try {
+    const saved = JSON.parse(localStorage.getItem(BOOK_KEY) || '{}');
+    BOOK.font = readerFont(saved?.font); BOOK.saved = saved?.position || null;
+  } catch (e) {}
+  BOOK.position = readerPosition(BOOK.saved, bookSections());
+  // A shared link starts at its heading; reloading this tab resumes the saved offset.
+  const requested = BOOK.requested;
+  if (requested && performance.getEntriesByType('navigation')[0]?.type === 'reload'
+      && requested.chapter === String(BOOK.saved?.chapter) && requested.entry === BOOK.saved?.entry) BOOK.requested = BOOK.position;
+  const toc = document.getElementById('book-toc');
+  for (const s of bookSections()){
+    const a = document.createElement('a'); a.href = `?view=book&chapter=${s.n}`; a.dataset.readerChapter = s.n;
+    a.innerHTML = `<span class="book-toc-number">${s.n.padStart(2,'0')}</span><span>${esc(s.title)}</span>`; toc.appendChild(a);
+  }
+  document.getElementById('book-contents-count').textContent = SECS.size + ' chương';
+  document.getElementById('book-contents-toggle').addEventListener('click', () => setBookContents(!document.getElementById('book-view').classList.contains('toc-open')));
+  document.getElementById('book-contents-close').addEventListener('click', () => setBookContents(false));
+  document.getElementById('book-view').addEventListener('click', ev => {
+    const a = ev.target.closest('a[data-reader-chapter],a[data-reader-entry]');
+    if (!a || ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.altKey || ev.button !== 0) return;
+    ev.preventDefault(); navigateBook(a.dataset.readerEntry || 's' + a.dataset.readerChapter);
+  });
+  for (const [id, delta] of [['book-prev',-1],['book-next',1]]) document.getElementById(id).addEventListener('click', () => {
+    const sections = bookSections(), i = sections.findIndex(s => s.n === BOOK.chapter), next = sections[i+delta];
+    if (next) navigateBook('s' + next.n);
+  });
+  const syncFont = () => {
+    document.getElementById('book-font-size').textContent = BOOK.font;
+    document.getElementById('book-font-less').disabled = BOOK.font <= 16;
+    document.getElementById('book-font-more').disabled = BOOK.font >= 26;
+  };
+  syncFont();
+  for (const [id, delta] of [['book-font-less',-1],['book-font-more',1]]) document.getElementById(id).addEventListener('click', () => {
+    rememberBook(); const position = BOOK.position; BOOK.font = readerFont(BOOK.font + delta);
+    document.getElementById('book-paper').style.setProperty('--book-font', BOOK.font + 'px');
+    syncFont(); saveBookPreferences(); restoreBookPosition(position);
+  });
+  document.getElementById('book-theme').addEventListener('click', () => document.getElementById('theme').click());
+  addEventListener('scroll', () => {
+    if (state.view !== 'book' || BOOK.restoring) return;
+    clearTimeout(BOOK.timer); BOOK.timer = setTimeout(() => rememberBook(), 220);
+  }, {passive:true});
+  addEventListener('pagehide', () => rememberBook(false));
+  document.addEventListener('visibilitychange', () => { if (document.hidden) rememberBook(false); });
+  let width = innerWidth;
+  addEventListener('resize', () => {
+    const changed = width !== innerWidth; width = innerWidth;
+    if (state.view !== 'book') return;
+    if (changed && !BOOK.restoring) restoreBookPosition(BOOK.position); else updateBookProgress();
+  });
+}
+
+
 /* ---------- Bảng tra cứu và cửa sổ chi tiết ---------- */
 const TABLE_SIZE = 40;
 let TABLE_MATCHES = [], TABLE_PAGE = 0, TABLE_SORT = 'sec', TABLE_DIR = 1;
 const GRADE_TEXT = {A:'Có số liệu định lượng', B:'Có nghiên cứu', C:'Kinh nghiệm / đồng thuận'};
 const ENTRY = {mask:document.getElementById('entry-mask'), box:document.getElementById('entry-modal'), body:document.getElementById('entry-body'), card:null, slot:null, trigger:null};
 function setView(view, save = true){
-  state.view = view === 'chapters' ? 'chapters' : 'table';
+  const previous = state.view, wasReading = document.body.classList.contains('reading-mode');
+  const next = ['table','chapters','book'].includes(view) ? view : 'table';
+  if (wasReading && next !== 'book') rememberBook(false);
+  state.view = next;
+  document.body.classList.toggle('reading-mode', state.view === 'book');
   document.querySelectorAll('[data-view]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.view === state.view)));
-  document.getElementById('list').hidden = state.view === 'table';
+  document.getElementById('list').hidden = state.view !== 'chapters';
   document.getElementById('table-view').hidden = state.view !== 'table' || !TABLE_MATCHES.length;
   document.getElementById('pagination').hidden = state.view !== 'table' || !TABLE_MATCHES.length;
+  document.getElementById('book-view').hidden = state.view !== 'book';
+  document.getElementById('book-reader-controls').hidden = state.view !== 'book';
+  document.getElementById('explore').setAttribute('aria-labelledby', state.view === 'book' ? 'book-title' : 'explore-heading');
+  if (state.view === 'book') {
+    clearTimeout(spyT);
+    if (!wasReading || BOOK.requested) activateBook(bookStartingPosition(previous), save);
+  } else if (wasReading) {
+    BOOK.restoreId++; BOOK.restoring = false; setBookContents(false, false);
+    if (save && location.hash) history.replaceState(history.state, '', location.pathname + location.search);
+  }
   if (state.view === 'table') {
     spyLast = ''; tocSync('');
     if (location.hash) history.replaceState(history.state, '', location.pathname + location.search);
@@ -1590,6 +1916,7 @@ function entryClose(restoreFocus = true){
   ENTRY.card = null; ENTRY.slot = null; ENTRY.trigger = null;
 }
 function wireExplorer(){
+  wireBook();
   document.querySelectorAll('[data-view]').forEach(button => button.addEventListener('click', () => setView(button.dataset.view)));
   document.querySelectorAll('[data-sort]').forEach(button => button.addEventListener('click', () => {
     const sort = button.dataset.sort; TABLE_DIR = TABLE_SORT === sort ? -TABLE_DIR : 1; TABLE_SORT = sort; TABLE_PAGE = 0; renderTable();
@@ -1693,8 +2020,8 @@ function wire(){
   document.getElementById('reset2').addEventListener('click', reset);
   document.addEventListener('keydown', e => {
     if (!DM.mask.hidden || !ENTRY.mask.hidden) return;
-    if (e.key === '/' && !/INPUT|TEXTAREA/.test(document.activeElement.tagName)) { e.preventDefault(); document.getElementById('q').focus(); }
-    if (e.key === 'Escape') { if (document.activeElement.id === 'q') document.activeElement.blur(); setMenu(false); }
+    if (e.key === '/' && state.view !== 'book' && !/INPUT|TEXTAREA/.test(document.activeElement.tagName)) { e.preventDefault(); document.getElementById('q').focus(); }
+    if (e.key === 'Escape') { if (document.activeElement.id === 'q') document.activeElement.blur(); setMenu(false); if (document.getElementById('book-view').classList.contains('toc-open')) setBookContents(false); }
   });
   // Lớp thuật ngữ
   const pop = document.getElementById('pop');
@@ -1709,7 +2036,7 @@ function wire(){
   mb.addEventListener('click', () => setMenu(!sb.classList.contains('open')));
   // Chế độ tối
   const themeButton = document.getElementById('theme');
-  const syncTheme = () => { const dark = document.documentElement.classList.contains('dark'); themeButton.textContent = dark ? 'Nền sáng' : 'Nền tối'; themeButton.setAttribute('aria-pressed', String(dark)); };
+  const syncTheme = () => { const dark = document.documentElement.classList.contains('dark'); for (const button of [themeButton,document.getElementById('book-theme')]) { button.textContent = dark ? 'Nền sáng' : 'Nền tối'; button.setAttribute('aria-pressed', String(dark)); } };
   syncTheme();
   themeButton.addEventListener('click', () => {
     const dark = !document.documentElement.classList.contains('dark');
@@ -1973,7 +2300,7 @@ document.addEventListener('keydown', ev => {
     const t2 = performance.now(); build(sections); PERF.log('dựng DOM', t2, CARDS.length + ' thẻ');
     buildGlossary(); buildUpdLine(); readUrl(); wire(); apply();
     PERF.mark(`DOM node ${document.getElementsByTagName('*').length}, thuật ngữ ${GLOSS.length}`);
-    if (location.hash){
+    if (state.view !== 'book' && location.hash){
       let target = document.getElementById(location.hash.slice(1));
       // Địa chỉ người khác chia sẻ có thể mang bộ lọc xung đột với hash（bản cũ ghép ra ?sec=8#e-11-1）,
       // lúc này làm theo hash: bấm liên kết là muốn xem điều đó, xóa bộ lọc.
