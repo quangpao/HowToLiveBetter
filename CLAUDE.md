@@ -4,6 +4,8 @@ Các quy tắc dưới đây áp dụng cho mọi công việc trong kho lưu tr
 
 > **Ghi chú về bản dịch**: đây là bản tiếng Việt của bộ quy tắc gốc viết bằng tiếng Trung cho bản gốc của sách. Một số quy tắc chỉ có nghĩa với bản gốc (chữ giản thể, tên file tiếng Trung, đơn vị tiền tệ và luật của Trung Quốc). Nhánh `vi` dùng tên trường tiếng Việt (Chi phí, Nói dễ hiểu, Lợi ích, Mức bằng chứng, Nguồn, Ghi chú, Pháp luật Việt Nam) và nhãn `<!-- nhãn: ... -->`; khi quy tắc ở đây khác với kiểm tra tự động trong `tools/*.mjs` thì lấy công cụ làm chuẩn. Tên chương trong danh sách cuối file đã đổi theo tiêu đề thật của nhánh `vi`.
 
+> **Trạng thái bản vi (2026-11-05)**: 36 chương, 785 mục. Năm mục thêm cùng ngày, chuyển từ bản gốc tiếng Trung nhưng thay số liệu Trung Quốc bằng số Việt Nam: 01#49 (lao), 13#49 (phân đen), 19#25 (bản hợp đồng lao động), 22#13 (sở thích), 34#14 (bệnh thận và quả khế).
+
 ## Định vị dự án
 - Đây là một cuốn cẩm nang cuộc đời tính toán theo «hiệu quả chi phí». Tham khảo phong cách định lượng của geekan/HowToLiveLonger, nhưng phạm vi rộng hơn: thứ được tối ưu không chỉ là tuổi thọ mà là bốn loại nguồn lực — tuổi thọ, thời gian và tinh lực, tiền bạc, tự do thân thể; phạm vi bao quát cũng không chỉ là chuyện sống sót mà còn gồm tiền bạc, pháp luật, công việc, gia đình và nuôi dạy con.
 - Mỗi khuyến nghị đều phải trả lời hai câu hỏi: bỏ ra cái gì (tiền / thời gian / tinh lực / ý chí), đổi lại cái gì (thay đổi tổng tỷ lệ tử vong / giảm tử vong do một nguyên nhân cụ thể / tiết kiệm thời gian và tinh lực / tiết kiệm tiền / sự bảo đảm và tự do thân thể).
