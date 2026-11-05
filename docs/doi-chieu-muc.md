@@ -569,7 +569,7 @@ Tổng 710 chỗ tham chiếu.
 | đầu chương | mục 16 | Vitamin D: 400 đơn vị mỗi ngày, và đừng tự tăng liều | … … |
 | đầu chương | mục 17 | Nước tắm: pha lạnh trước rồi mới thêm nóng, và thử bằng khuỷu tay | … … |
 | mục 2 | mục 14 | Mẹ đang ăn chay khi mang thai và cho con bú: B12 là chỗ hụt, và bữa ăn dặm phải có đạm động vật | …m gan vi rút B ở vị trí thứ nhất trong danh … |
-| mục 3 | mục 14 | Mẹ đang ăn chay khi mang thai và cho con bú: B12 là chỗ hụt, và bữa ăn dặm phải có đạm động vật | … danh … |
+| mục 3 | mục 14 | Mẹ đang ăn chay khi mang thai và cho con bú: B12 là chỗ hụt, và bữa ăn dặm phải có đạm động vật | … Danh … |
 
 ## 21-ra-nuoc-ngoai
 
