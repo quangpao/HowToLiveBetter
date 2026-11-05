@@ -21,7 +21,7 @@ Cách tính từ neo: hai từ liền nhau trùng tiêu đề đích, hoặc m�
 như 12356, AED, BMI, LPR) xuất hiện trong tiêu đề. Chỉ trùng một từ chung chung ("người", "tiền")
 thì không tính.
 
-Tổng 725 chỗ tham chiếu.
+Tổng 737 chỗ tham chiếu.
 
 ## 01-dung-chet-som
 
@@ -922,3 +922,20 @@ Tổng 725 chỗ tham chiếu.
 | mục 2 | chương 13 mục 18 | Có người bị điện giật: cắt cầu dao trước, dùng que khô gạt dây ra, tuyệt đối không kéo tay trần | … Với người chết điện giật, mục sơ cứu ở … |
 | mục 4 | chương 1 mục 41 | Nước lũ, ngầm tràn, đường ngập nước chảy xiết: không lội, không chạy xe qua, kể cả khi nhìn nước còn nông | …u, cống, đường ngập sâu nước chảy xiết (xem … |
 | mục 7 | mục 6 | Mỗi tuần một lần thau rửa, đậy kín hoặc bỏ mọi vật chứa nước đọng quanh nhà để muỗi không đẻ | … việc loại bỏ nơi muỗi đẻ ở … |
+
+## 36-xe-may-va-duong-pho
+
+| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
+| --- | --- | --- | --- |
+| đầu chương | chương 1 mục 2 | Đội mũ bảo hiểm khi đi mô tô, xe gắn máy, xe đạp điện và cài quai đúng quy cách | … đội mũ bảo hiểm ở … |
+| đầu chương | chương 5 mục 26 | Bảo hiểm bắt buộc xe máy chỉ trả 150 triệu một người và 50 triệu tài sản; phần vượt bạn tự trả | … chương 1 mục 2, bảo hiểm bắt buộc xe máy ở … |
+| đầu chương | chương 8 mục 1 | Gây tai nạn thì dừng lại, cứu người, gọi 113 và ở lại hiện trường — bỏ đi là sang khung nặng hơn | …uộc xe máy ở chương 5 mục 26, gây tai nạn ở … |
+| đầu chương | chương 8 mục 7 | Đã uống thì không cầm lái, kể cả xe máy điện và cái "chỉ dời xe một chút", và đừng giao xe cho người đã uống | …ai nạn ở chương 8 mục 1, đã uống rượu bia ở … |
+| đầu chương | mục 1 | Xe mô tô hai bánh trên 125 cm³ cần bằng hạng A, bằng A1 chỉ đủ cho xe đến 125 cm³; không có bằng phù hợp bị phạt 2 đến 8 triệu đồng | … … |
+| đầu chương | mục 3 | Bằng lái có 12 điểm: mỗi lỗi bị trừ điểm, 12 tháng không bị trừ thì được hồi đủ, hết điểm thì không được lái và phải thi lại sau ít nhất 6 tháng | … mục 1 và … |
+| đầu chương | mục 2 | Xe máy chỉ được chở một người; chở hai người khi đó là người cấp cứu, trẻ em dưới 12 tuổi, người già yếu hoặc khuyết tật; chở từ ba người trở lên bị phạt nặng và trừ điểm | … … |
+| đầu chương | mục 4 | Đỗ xe máy sai chỗ bị phạt 400.000 đến 600.000 đồng, xe còn có thể bị công an cho di chuyển và chủ xe trả chi phí | … mục 2 và … |
+| đầu chương | mục 5 | Chạy lên vỉa hè, đi ngược chiều đường một chiều, vượt đèn đỏ hoặc vào đường cao tốc: mỗi lỗi bị phạt 4 đến 6 triệu đồng và trừ 2 đến 6 điểm bằng lái | … … |
+| mục 4 | mục 5 | Chạy lên vỉa hè, đi ngược chiều đường một chiều, vượt đèn đỏ hoặc vào đường cao tốc: mỗi lỗi bị phạt 4 đến 6 triệu đồng và trừ 2 đến 6 điểm bằng lái | …hẹ hơn nhiều so với chạy xe lên vỉa hè (xem … |
+| mục 5 | chương 8 mục 7 | Đã uống thì không cầm lái, kể cả xe máy điện và cái "chỉ dời xe một chút", và đừng giao xe cho người đã uống | … Rượu bia đã có … |
+| mục 5 | mục 3 | Bằng lái có 12 điểm: mỗi lỗi bị trừ điểm, 12 tháng không bị trừ thì được hồi đủ, hết điểm thì không được lái và phải thi lại sau ít nhất 6 tháng | … lỗi nói trên còn bị trừ điểm bằng lái (xem … |

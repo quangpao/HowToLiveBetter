@@ -74,8 +74,8 @@ for (const file of paths) {
   }
 }
 if (!flags.has('--no-integrity')) {
-  if (book.length !== 35) add('ERROR', 'book/', 0, 'chapter-count', 'Dự kiến 35 chương');
-  if (items !== 775) add('ERROR', 'book/', 0, 'item-count', 'Dự kiến 775 mục, hiện có ' + items);
+  if (book.length !== 36) add('ERROR', 'book/', 0, 'chapter-count', 'Dự kiến 36 chương');
+  if (items !== 780) add('ERROR', 'book/', 0, 'item-count', 'Dự kiến 780 mục, hiện có ' + items);
 }
 const errors = findings.filter(x => x.level === 'ERROR').length;
 const warnings = findings.length - errors;
