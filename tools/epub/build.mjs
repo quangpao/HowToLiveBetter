@@ -43,7 +43,7 @@ Sách điện tử này được sinh tự động từ nội dung Markdown tron
 - Thời điểm dựng: ${buildStamp()} (giờ Việt Nam)
 ${commitLine}
 - Tải bản mới nhất: ${RELEASE}
-- Trang tra cứu online (lọc theo từ khoá, chương, mức bằng chứng và chi phí): ${SITE}
+- Trang tra cứu online (lọc theo từ khóa, chương, mức bằng chứng và chi phí): ${SITE}
 - Repo, góp ý, xem bản ghi kiểm chứng từng nguồn: ${REPO}
 
 Liên kết trỏ tới file khác trong repo đã đổi thành nhảy trong sách; liên kết trỏ tới bản ghi kiểm chứng, giấy phép và các file không đưa vào sách đã đổi thành địa chỉ GitHub.

@@ -1,6 +1,6 @@
 ---
 name: life-decision-guide
-description: "Dùng nội dung sách Cẩm nang sống thông minh (github.com/quangpao/HowToLiveBetter) trả lời câu hỏi quyết định cụ thể trong đời — có nên làm hay không, đáng không, chọn thế nào, có phạm luật không, được hưởng gì, làm gì trước, đắt hay rẻ. Tra mục liên quan trong sách trước rồi mới trả lời, xếp theo chi phí (tiền/thời gian/ý chí), mức lợi ích và mức bằng chứng A/B/C, mỗi câu ghi rõ chương N mục M. Từ khoá kích hoạt: có nên, đáng không, chọn thế nào, có phạm luật không, được hưởng gì, làm gì trước, đắt hay rẻ."
+description: "Dùng nội dung sách Cẩm nang sống thông minh (github.com/quangpao/HowToLiveBetter) trả lời câu hỏi quyết định cụ thể trong đời — có nên làm hay không, đáng không, chọn thế nào, có phạm luật không, được hưởng gì, làm gì trước, đắt hay rẻ. Tra mục liên quan trong sách trước rồi mới trả lời, xếp theo chi phí (tiền/thời gian/ý chí), mức lợi ích và mức bằng chứng A/B/C, mỗi câu ghi rõ chương N mục M. Từ khóa kích hoạt: có nên, đáng không, chọn thế nào, có phạm luật không, được hưởng gì, làm gì trước, đắt hay rẻ."
 ---
 
 # Quyết định đời người: tra trong Cẩm nang sống thông minh rồi hãy trả lời
@@ -50,11 +50,11 @@ Bài dài nằm trong `docs/`: kết hôn có đáng không, bộ dụng cụ d�
 
 ## Bước 3: lôi mục ra
 
-File chương lớn nhất hơn 100 KB, đừng đọc cả bài, tra theo từ khoá. Có Grep / Read thì dùng công cụ, chỉ có shell thì dùng lệnh:
+File chương lớn nhất hơn 100 KB, đừng đọc cả bài, tra theo từ khóa. Có Grep / Read thì dùng công cụ, chỉ có shell thì dùng lệnh:
 
 ```bash
-grep -rn '^### ' book/ | grep -E 'từ-khoá-1|từ-khoá-2'      # xem trước có những mục nào
-grep -rn -B2 -A8 'từ khoá' book/08-*.md                      # tìm trong thân bài, kèm ngữ cảnh
+grep -rn '^### ' book/ | grep -E 'từ-khóa-1|từ-khóa-2'      # xem trước có những mục nào
+grep -rn -B2 -A8 'từ khóa' book/08-*.md                      # tìm trong thân bài, kèm ngữ cảnh
 sed -n '/^### 16\. /,/^### 17\. /p' book/08-*.md              # lấy trọn một mục theo số mục
 ```
 
@@ -105,7 +105,7 @@ Viết thì giữ mấy điều sau:
 
 - **Lợi ích rơi vào ai phải nói rõ.** Sách chia người hưởng làm bốn bậc, theo khả năng lợi ích quay về chính mình từ cao xuống thấp: ① bản thân bạn; ② vợ hoặc chồng và người thân trực hệ; ③ bạn bè, đồng nghiệp và họ hàng khác; ④ người lạ. Viết tới bậc ④ (cứu người lạ, bảo lãnh cho người khác, chuyển tiền hộ) thì phải nói cả mặt rủi ro lẫn lợi ích: bị vu oan, bị kéo vào vụ án, bị trả thù; không chỉ nói lợi ích, cũng không viết thành mặc kệ hết.
 - **Việc "pháp luật đứng về phía bạn" phải nói kèm chi phí của quá trình.** Chỉ nói kết quả mà không nói quá trình là lấy tỷ lệ thắng làm lợi ích. Phải nói rõ có phải kiện không, mất chừng bao lâu (sơ thẩm theo thủ tục thông thường 6 tháng trở lên, có thể gia hạn; thủ tục rút gọn 3 tháng), tiền luật sư ai trả (tiền luật sư không nằm trong án phí, bên thua không phải chịu khoản đó).
-- **Số chép nguyên từ mục**, không sửa một chữ. Mục có khoảng tin cậy, nhóm người, năm thì giữ lại đủ; chỗ viết HR, RR, OR thì dịch ngay bên cạnh thành "thấp hơn khoảng 28%", không xoá số gốc. Số, triệu chứng, cách hiểu cơ chế mà mục không có thì tuyệt đối không thêm.
+- **Số chép nguyên từ mục**, không sửa một chữ. Mục có khoảng tin cậy, nhóm người, năm thì giữ lại đủ; chỗ viết HR, RR, OR thì dịch ngay bên cạnh thành "thấp hơn khoảng 28%", không xóa số gốc. Số, triệu chứng, cách hiểu cơ chế mà mục không có thì tuyệt đối không thêm.
 - **Viết như nói**: người lớn không qua đào tạo chuyên môn đọc một lượt là hiểu. Thuật ngữ thì giải thích ngay một câu bằng lời thường, điều luật thì hạ xuống thành "sẽ vướng hậu quả gì, phải làm gì". Dòng nguồn để nguyên cho dễ đối chiếu.
 - **Giọng vừa phải**, không giảng đạo, không dùng dấu chấm than, viết tiếng Việt. Người dùng không làm theo là việc của họ, không đeo bám khuyên.
 - **Chính sách sẽ đổi**: mấy chỗ tiền, thời hạn, danh sách trong chương 7, 19, 21, 24, 31, 32 có ghi mốc tính đến ngày nào; câu trả lời phải mang theo mốc đó và nhắc người dùng tự kiểm lại ở kênh chính thức.

@@ -9,7 +9,7 @@
 // cộng thêm một danh sách media. CSDL ghi bằng node:sqlite có sẵn của Node, zip dùng tools/lib/zip.mjs.
 //
 // Khi nhập lại, Anki nhận "cùng một thẻ" theo guid của ghi chú: nội dung được cập nhật, lịch sử ôn tập được giữ. guid lấy "số chương-số mục",
-// nên chỉ cần thêm mục vào cuối chương (CLAUDE.md vốn đã yêu cầu vậy) là không bị lẫn; khi xoá một mục làm số mục phía sau giảm đều một bậc,
+// nên chỉ cần thêm mục vào cuối chương (CLAUDE.md vốn đã yêu cầu vậy) là không bị lẫn; khi xóa một mục làm số mục phía sau giảm đều một bậc,
 // thẻ bên người dùng cũ sẽ khớp sang nội dung mới, lịch sử ôn tập lệch theo một mục, cái giá này chấp nhận được.
 // id của bộ thẻ và kiểu ghi chú được viết cứng, cũng để khi nhập lại thì gộp vào đúng bộ thẻ cũ, không tạo bộ mới.
 import { writeFileSync, readFileSync, mkdirSync, mkdtempSync, rmSync } from 'node:fs';
@@ -45,7 +45,7 @@ function parseSection(md) {
     if (!e) continue;
     const tag = line.match(/^<!--\s*nhãn:\s*(.*?)\s*-->/);
     if (tag) {
-      // Nhãn tiếng Việt → tên khoá nội bộ dùng chung với index.html và sync-stats
+      // Nhãn tiếng Việt → tên khóa nội bộ dùng chung với index.html và sync-stats
       const KEY = { 'tiền': 'money', 'thời-gian': 'time', 'ý-chí': 'will', 'lợi-ích': 'level', 'thước-đo': 'lens', 'nhóm': 'who' };
       for (const kv of tag[1].split(/\s+/)) {
         const [k, v] = kv.split('=');

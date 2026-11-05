@@ -1,5 +1,5 @@
 // Bảng đối chiếu tham chiếu: phân giải mỗi chỗ tham chiếu "mục X" trong nội dung thành tiêu đề mục mà nó thực sự trỏ tới,
-// rồi ghi vào docs/doi-chieu-muc.md. File đó được commit, nên khi chèn hay xoá mục làm tham chiếu trỏ sang chỗ khác,
+// rồi ghi vào docs/doi-chieu-muc.md. File đó được commit, nên khi chèn hay xóa mục làm tham chiếu trỏ sang chỗ khác,
 // git diff sẽ bày thẳng thay đổi ra — số mục không đổi mà tiêu đề đổi, tức là bị lệch.
 //
 //   node tools/check-refs.mjs            # sinh lại bảng đối chiếu (sync-stats.mjs tự gọi)
@@ -127,7 +127,7 @@ for (const { f, dir, isDoc } of targets) {
     if (last.tail.replace(/\b(xem|theo|và|ở|trong|của|với|như|theo đúng)\b/gi, '').trim().length >= 4) return last.tail.slice(-24);
     return (cut(last.head.slice(0, -1)).tail + last.tail).slice(-24);
   };
-  // Chữ sau tham chiếu cũng tính là neo: kiểu "mục 16 (giấy vay và bảo lãnh)" đặt từ khoá sau số mục
+  // Chữ sau tham chiếu cũng tính là neo: kiểu "mục 16 (giấy vay và bảo lãnh)" đặt từ khóa sau số mục
   // lấy tới dấu ngắt câu đầu tiên sau tham chiếu (tối đa 40 chữ). Không dùng số ký tự cố định: "xem chương 1 mục 7, 8,
   // 14, 17, 18, 19, 23, 24, 29 (huyết áp, đường huyết…)" chuỗi số mục dài như vậy sẽ đẩy phần chú ra ngoài cửa sổ.
   const afterOf = (line, idx) => {
@@ -152,10 +152,10 @@ for (const { f, dir, isDoc } of targets) {
     // Chỉ dẫn tương đối ("xem mục dưới", "chế tài xem mục trên") nhất loạt cấm: nó không kèm số mục, khi chèn mục thì
     // dịch theo cả khối, lệch rồi diff của bảng đối chiếu cũng không thấy, kiểm tham chiếu trần của --check lại càng không quét tới.
     // 2026-09-20 một lần quét ra ngay ba chỗ trỏ sai từ lâu: "xem mục dưới" ở mục vắc-xin HPV trỏ sang tầm soát
-    // ung thư vú (đáng ra là tầm soát ung thư cổ tử cung), "chế tài xem mục trên" ở mục đe doạ trỏ sang mục ý nghĩ,
+    // ung thư vú (đáng ra là tầm soát ung thư cổ tử cung), "chế tài xem mục trên" ở mục đe dọa trỏ sang mục ý nghĩ,
     // "mục trên: không ký thì tự xin nghỉ" ở mục đăng ký thất nghiệp trỏ sang mục lưu bằng chứng. Loại trừ các trường hợp trùng nhầm kiểu "mục cuối cùng", "một chân sau".
     for (const m of line.matchAll(/\b(mục (?:trên|dưới|trước|sau|kế trên|kế dưới))\b/gi)) {
-      problems.push(`${f}:${i + 1} ${unit} dùng chỉ dẫn tương đối "${m[1]}" — đổi thành "mục N (từ khoá)"`);
+      problems.push(`${f}:${i + 1} ${unit} dùng chỉ dẫn tương đối "${m[1]}" — đổi thành "mục N (từ khóa)"`);
     }
 
     // Chéo chương: chương N mục X
@@ -191,7 +191,7 @@ for (const { f, dir, isDoc } of targets) {
       // Chỉ nhận "sát ngay", không dùng cửa sổ mờ N chữ phía trước, cũng không lấy "có phải đầu câu" làm tiêu chí — tham chiếu mục
       // cũng đứng ở đầu câu ("mục 4: trạm cứu trợ lo ăn ở miễn phí", "mục 7: danh sách 'đi viện ngay'").
       // Cái giá là trích văn bản luật phải tự mang tên văn bản: khi liệt kê từng câu một phải viết "giải thích đó mục 11", không được viết
-      // "... lệnh của toà. Mục 11 nói về thu thập chứng cứ" rồi dựa vào câu trước. Đây vốn cũng là yêu cầu tự đủ của nội dung.
+      // "... lệnh của tòa. Mục 11 nói về thu thập chứng cứ" rồi dựa vào câu trước. Đây vốn cũng là yêu cầu tự đủ của nội dung.
       const tail = stripped.slice(0, m.index).replace(/\s+$/, '');
       // VN: "Điều 10 Luật …" hay "Nghị định 168/2024/NĐ-CP" là trích văn bản, không phải tham chiếu mục
       const CITE = /(Điều\s*\d+|\d+\s*\/\s*\d{4}\/|(?:Nghị định|Thông tư|Luật|Quyết định|QĐ|TT|NĐ)[^.;:]{0,20}\d+)$/i;
@@ -254,7 +254,7 @@ const body = [
   '',
   'File này do `node tools/check-refs.mjs` sinh ra, đừng sửa tay.',
   '',
-  'Tham chiếu trong sách chỉ ghi số mục, không ghi nội dung; chèn hay xoá một mục thì số của',
+  'Tham chiếu trong sách chỉ ghi số mục, không ghi nội dung; chèn hay xóa một mục thì số của',
   'mọi mục sau đổi hết, mà số mới thường vẫn nằm trong khoảng hợp lệ nên chỉ kiểm "vượt quá số mục"',
   'không bắt được. Vì vậy mỗi tham chiếu được mở ra thành **tiêu đề mà nó thực sự trỏ tới** và ghi vào',
   'đây: sửa xong chạy lại, chỗ nào số mục không đổi mà tiêu đề đổi thì `git diff` chỉ ra ngay.',
@@ -284,7 +284,7 @@ if (problems.length) {
   console.log('');
 }
 
-// Heuristic này ngày trước tỉ lệ báo nhầm rất cao (trong tiếng Trung, "kết cục lâu dài sau khi chưa thành xem mục 30" trỏ tới "ý nghĩ vừa loé lên
+// Heuristic này ngày trước tỉ lệ báo nhầm rất cao (trong tiếng Trung, "kết cục lâu dài sau khi chưa thành xem mục 30" trỏ tới "ý nghĩ vừa lóe lên
 // thì nói ngay với một người bên cạnh" hoàn toàn đúng mà không trùng một chữ nào), 288 chỗ báo ra 159 chỗ; sau đó cả sách 345 chỗ
 // tham chiếu được bổ sung neo từng chỗ, hai loại này bình thường giờ đều phải là 0, báo ra là thật có một chỗ cần bổ sung chú thích.
 // Nhưng nó chỉ bảo đảm "lệch thì phát hiện được", không bảo đảm "lệch thì chắc chắn bị chặn": mô phỏng dồn toàn bộ tham chiếu trong chương lệch một mục,

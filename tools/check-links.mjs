@@ -45,7 +45,7 @@ for (const f of files) {
 }
 // Không kiểm huy hiệu, chính trang tra cứu, liên kết tải Release: chúng không phải nguồn, hỏng thì cũng có chỗ khác phát hiện trước.
 const SKIP = /img\.shields\.io|eternity4719\.github\.io|\/releases\/download\/|localhost/;
-// Không ít site cơ quan địa phương còn dùng bộ mã hoá cũ hoặc chuỗi chứng chỉ không đầy đủ, Node bắt tay báo lỗi ngay, trình duyệt vẫn mở bình thường.
+// Không ít site cơ quan địa phương còn dùng bộ mã hóa cũ hoặc chuỗi chứng chỉ không đầy đủ, Node bắt tay báo lỗi ngay, trình duyệt vẫn mở bình thường.
 // Loại này để riêng một mức, không trộn với loại thật sự không kết nối được.
 const TLS = /^(ERR_SSL_|UNABLE_TO_VERIFY|CERT_|SELF_SIGNED|DEPTH_ZERO)/;
 const urls = [...where.keys()].filter(u => !SKIP.test(u)).slice(0, LIMIT);
@@ -92,7 +92,7 @@ const sortAt = a => a.sort((x, y) => x.at.localeCompare(y.at, 'zh'));
 const lines = [
   `## Kiểm liên kết hỏng`,
   ``,
-  `Đã kiểm ${urls.length} liên kết: chắc chắn hỏng ${dead.length}, không kết nối được ${flaky.length}, không tương thích bắt tay mã hoá ${tls.length}.`,
+  `Đã kiểm ${urls.length} liên kết: chắc chắn hỏng ${dead.length}, không kết nối được ${flaky.length}, không tương thích bắt tay mã hóa ${tls.length}.`,
   ``,
   `### Chắc chắn hỏng (404, 410, DOI không tồn tại)`,
   ``,
@@ -102,7 +102,7 @@ const lines = [
   ``,
   ...(flaky.length ? sortAt(flaky).map(d => `- ${d.at}　${d.why}　${d.url}`) : ['không có']),
   ``,
-  `### Không tương thích bắt tay mã hoá (site cơ quan cũ dùng kiểu mã hoá Node không nhận, trình duyệt thường mở được, không cần sửa)`,
+  `### Không tương thích bắt tay mã hóa (site cơ quan cũ dùng kiểu mã hóa Node không nhận, trình duyệt thường mở được, không cần sửa)`,
   ``,
   ...(tls.length ? sortAt(tls).map(d => `- ${d.at}　${d.why}　${d.url}`) : ['không có']),
   ``,

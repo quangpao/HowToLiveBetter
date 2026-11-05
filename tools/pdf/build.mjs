@@ -38,7 +38,7 @@ Quyển PDF này được dàn tự động từ nội dung Markdown trong repo,
 
 - Thời điểm dựng: ${STAMP} (giờ Việt Nam)
 ${commitLine}- Tải bản mới nhất, tra cứu online, góp ý: ${REPO}
-- Trang tra cứu online (lọc theo từ khoá, chương, mức bằng chứng và chi phí, lưu được thành một file offline): ${SITE}
+- Trang tra cứu online (lọc theo từ khóa, chương, mức bằng chứng và chi phí, lưu được thành một file offline): ${SITE}
 
 Liên kết trỏ tới chương khác trong sách đã đổi thành nhảy trong sách; liên kết trỏ tới bản ghi kiểm chứng, giấy phép và các file không dàn vào sách đã đổi thành địa chỉ GitHub.
 

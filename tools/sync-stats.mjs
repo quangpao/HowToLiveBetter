@@ -12,7 +12,7 @@
 // og.html dùng font Microsoft YaHei, trên Linux không có sẽ bị thay bằng font khác, ảnh chụp ra khác trên Windows;
 // CI chỉ chạy --check không chụp ảnh, cũng vì lý do này.
 //
-// 2026-09-29 chuyển từ sync-stats.ps1 sang, file ps1 đã xoá: nó chỉ chạy trên Windows,
+// 2026-09-29 chuyển từ sync-stats.ps1 sang, file ps1 đã xóa: nó chỉ chạy trên Windows,
 // PR bên ngoài merge thẳng trên web hoàn toàn không đi qua nó, số liệu cũ rồi cũng không có kiểm tra nào báo đỏ.
 // Ở bước ① chỉ thay đúng con số, không động vào chữ nào khác.
 // Cách đếm: số mục = số tiêu đề ### trong book/*.md; số chương = số file book/*.md;
@@ -97,7 +97,7 @@ const EDITS = [
   ['tools/og.html', 'số mục bằng chứng A', /(?<=data-stat="A">)\d+(?=<)/g, String(grade.A)],
   ['tools/og.html', 'số liên kết nguồn', /(?<=data-stat="nguồn">)\d+(?=<)/g, String(links)],
   // Ba badge ở đầu README trước đây ghi tay nên lệch dần (95 mục, A65 B48 C9 trong khi sách đã 140 mục).
-  // Ghi theo dạng đã mã hoá URL để khớp đúng chuỗi trong badge, không đụng tới màu và tham số khác.
+  // Ghi theo dạng đã mã hóa URL để khớp đúng chuỗi trong badge, không đụng tới màu và tham số khác.
   ['README.md', 'badge số mục', /(?<=badge\/mục-)\d+(?=-18794e)/g, String(entries)],
   ['README.md', 'badge mức bằng chứng', /(?<=badge\/bằng%20chứng-)A%20\d+%20·%20B%20\d+%20·%20C%20\d+(?=-915930)/g,
     `A%20${grade.A}%20·%20B%20${grade.B}%20·%20C%20${grade.C}`],
@@ -169,7 +169,7 @@ if (CHECK) {
 
 for (const [file, text] of texts) if (text !== read(file)) writeFileSync(join(ROOT, file), text);
 
-// ② Tính lại bảng đối chiếu tham chiếu: chèn hay xoá một mục làm mọi "mục X" phía sau lệch hàng loạt, mà số mục sau khi lệch
+// ② Tính lại bảng đối chiếu tham chiếu: chèn hay xóa một mục làm mọi "mục X" phía sau lệch hàng loạt, mà số mục sau khi lệch
 // thường vẫn nằm trong khoảng hợp lệ (6 chỗ ở chương 7 ngày 2026-09-19 là vậy), chỉ khi trải "tham chiếu → tiêu đề đích" ra và commit,
 // diff mới thấy được. Đặt trước bước chụp ảnh, để --no-screenshot vẫn chạy tới đây
 const runTool = name => spawnSync(process.execPath, [join(ROOT, 'tools', name)], { stdio: 'inherit' }).status;
