@@ -21,7 +21,7 @@ Cách tính từ neo: hai từ liền nhau trùng tiêu đề đích, hoặc m�
 như 12356, AED, BMI, LPR) xuất hiện trong tiêu đề. Chỉ trùng một từ chung chung ("người", "tiền")
 thì không tính.
 
-Tổng 712 chỗ tham chiếu.
+Tổng 737 chỗ tham chiếu.
 
 ## 01-dung-chet-som
 
@@ -904,3 +904,38 @@ Tổng 712 chỗ tham chiếu.
 | mục 3 | mục 1 | Hai hộp thuốc cảm cùng một hoạt chất giảm đau, hạ sốt: đọc phần thành phần trước khi uống, quá tay thì đi viện ngay kể cả khi thấy bình thường | … đọc thành phần trước khi cộng, xem … |
 | mục 4 | mục 2 | Trẻ sốt: không dùng aspirin, nimesulide hay metamizole (analgin); sirô phải đong bằng ống có trong hộp, không đong bằng thìa ăn cơm | … Với trẻ sốt, xem … |
 | mục 5 | mục 1 | Hai hộp thuốc cảm cùng một hoạt chất giảm đau, hạ sốt: đọc phần thành phần trước khi uống, quá tay thì đi viện ngay kể cả khi thấy bình thường | …i paracetamol quá liều vẫn gây suy gan (xem … |
+
+## 35-bao-lu-nang-nong-va-muoi
+
+| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
+| --- | --- | --- | --- |
+| đầu chương | mục 1 | Trước bão chằng nhà, tỉa cây, dự trữ nước và thuốc; khi bão đang đổ bộ thì ở trong nhà kiên cố, không ra ngoài | … … |
+| đầu chương | mục 2 | Nhà hoặc đường ngập nước: rút phích, cúp cầu dao tổng, tránh xa cột điện và dây đứt, báo điện lực hoặc gọi 114 | … … |
+| đầu chương | mục 3 | Sau lũ: lọc nước đục, khử trùng bằng Cloramin B hoặc viên khử khuẩn theo nhãn, rồi đun sôi trước khi uống | … … |
+| đầu chương | mục 4 | Mưa kéo dài, tường nứt, cây nghiêng, nước suối đục: rời xa sườn dốc và khe suối, báo chính quyền | … … |
+| đầu chương | mục 5 | Ô tô chết máy giữa vùng ngập: tắt máy, không khởi động lại, ngắt ắc quy, gọi cứu hộ; xem điều khoản ngập nước trong bảo hiểm | … … |
+| đầu chương | mục 6 | Mỗi tuần một lần thau rửa, đậy kín hoặc bỏ mọi vật chứa nước đọng quanh nhà để muỗi không đẻ | … … |
+| đầu chương | mục 7 | Mặc quần áo che tay chân, dùng thuốc chống muỗi có DEET, IR3535 hoặc icaridin, ngủ trong màn kể cả ban ngày khi nhà có người sốt | … … |
+| đầu chương | mục 8 | Sốt xuất huyết: hết sốt ở ngày 3 đến 7 chưa phải là khỏi; đau bụng dữ dội, nôn liên tục, chảy máu, mệt lả thì đi viện ngay; dùng paracetamol, không dùng aspirin hay ibuprofen | … … |
+| đầu chương | mục 9 | Vắc xin sốt xuất huyết: hai mũi cách nhau ba tháng, giảm khoảng 61% ca có triệu chứng và 84% ca phải nhập viện, nhưng không chặn hết ca bệnh | … … |
+| đầu chương | mục 10 | Gia cầm ốm hoặc chết: không ăn, không giết mổ, không bán, báo thú y; đi chợ gia cầm sống thì đeo khẩu trang và rửa tay bằng xà phòng | … … |
+| mục 2 | chương 13 mục 18 | Có người bị điện giật: cắt cầu dao trước, dùng que khô gạt dây ra, tuyệt đối không kéo tay trần | … Với người chết điện giật, mục sơ cứu ở … |
+| mục 4 | chương 1 mục 41 | Nước lũ, ngầm tràn, đường ngập nước chảy xiết: không lội, không chạy xe qua, kể cả khi nhìn nước còn nông | …u, cống, đường ngập sâu nước chảy xiết (xem … |
+| mục 7 | mục 6 | Mỗi tuần một lần thau rửa, đậy kín hoặc bỏ mọi vật chứa nước đọng quanh nhà để muỗi không đẻ | … việc loại bỏ nơi muỗi đẻ ở … |
+
+## 36-xe-may-va-duong-pho
+
+| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
+| --- | --- | --- | --- |
+| đầu chương | chương 1 mục 2 | Đội mũ bảo hiểm khi đi mô tô, xe gắn máy, xe đạp điện và cài quai đúng quy cách | … đội mũ bảo hiểm ở … |
+| đầu chương | chương 5 mục 26 | Bảo hiểm bắt buộc xe máy chỉ trả 150 triệu một người và 50 triệu tài sản; phần vượt bạn tự trả | … chương 1 mục 2, bảo hiểm bắt buộc xe máy ở … |
+| đầu chương | chương 8 mục 1 | Gây tai nạn thì dừng lại, cứu người, gọi 113 và ở lại hiện trường — bỏ đi là sang khung nặng hơn | …uộc xe máy ở chương 5 mục 26, gây tai nạn ở … |
+| đầu chương | chương 8 mục 7 | Đã uống thì không cầm lái, kể cả xe máy điện và cái "chỉ dời xe một chút", và đừng giao xe cho người đã uống | …ai nạn ở chương 8 mục 1, đã uống rượu bia ở … |
+| đầu chương | mục 1 | Xe mô tô hai bánh trên 125 cm³ cần bằng hạng A, bằng A1 chỉ đủ cho xe đến 125 cm³; không có bằng phù hợp bị phạt 2 đến 8 triệu đồng | … … |
+| đầu chương | mục 3 | Bằng lái có 12 điểm: mỗi lỗi bị trừ điểm, 12 tháng không bị trừ thì được hồi đủ, hết điểm thì không được lái và phải thi lại sau ít nhất 6 tháng | … mục 1 và … |
+| đầu chương | mục 2 | Xe máy chỉ được chở một người; chở hai người khi đó là người cấp cứu, trẻ em dưới 12 tuổi, người già yếu hoặc khuyết tật; chở từ ba người trở lên bị phạt nặng và trừ điểm | … … |
+| đầu chương | mục 4 | Đỗ xe máy sai chỗ bị phạt 400.000 đến 600.000 đồng, xe còn có thể bị công an cho di chuyển và chủ xe trả chi phí | … mục 2 và … |
+| đầu chương | mục 5 | Chạy lên vỉa hè, đi ngược chiều đường một chiều, vượt đèn đỏ hoặc vào đường cao tốc: mỗi lỗi bị phạt 4 đến 6 triệu đồng và trừ 2 đến 6 điểm bằng lái | … … |
+| mục 4 | mục 5 | Chạy lên vỉa hè, đi ngược chiều đường một chiều, vượt đèn đỏ hoặc vào đường cao tốc: mỗi lỗi bị phạt 4 đến 6 triệu đồng và trừ 2 đến 6 điểm bằng lái | …hẹ hơn nhiều so với chạy xe lên vỉa hè (xem … |
+| mục 5 | chương 8 mục 7 | Đã uống thì không cầm lái, kể cả xe máy điện và cái "chỉ dời xe một chút", và đừng giao xe cho người đã uống | … Rượu bia đã có … |
+| mục 5 | mục 3 | Bằng lái có 12 điểm: mỗi lỗi bị trừ điểm, 12 tháng không bị trừ thì được hồi đủ, hết điểm thì không được lái và phải thi lại sau ít nhất 6 tháng | … lỗi nói trên còn bị trừ điểm bằng lái (xem … |
