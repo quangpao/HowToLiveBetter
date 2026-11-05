@@ -8,10 +8,12 @@ Về thang bằng chứng: **3 mục hạng A, 9 mục hạng B**. Ba mục A l�
 
 Về bối cảnh Việt Nam: phần lớn mục trong chương này là **quy định của nước đến**, không phải của Việt Nam, nên mỗi con số đều phải đọc kèm câu "quy định của nước đến, tra ngày nào". Ba chỗ là chuyện Việt Nam và kiểm được: **kinh doanh dịch vụ tư vấn du học phải có giấy phép**, **công nhận văn bằng do cơ sở nước ngoài cấp là một thủ tục của Bộ Giáo dục và Đào tạo**, và **chuyển tiền ra nước ngoài cho mục đích học tập phải đi qua ngân hàng, giữ chứng từ**. Nếu một công ty tư vấn không đọc được số giấy phép cho bạn, đó là câu trả lời.
 
-**Nhóm mục**: **Giấy phép tư vấn, hạn visa, giờ làm và tư cách**: mục 1 đến 4 · **Địa chỉ, cảnh báo, bảo hiểm**: mục 5 đến 8 · **Công nhận văn bằng, OPT và thư PAL/TAL**: mục 9 đến 12
+**Nhóm mục**: **Giấy phép tư vấn, hạn visa, giờ làm và tư cách**: [mục 1 đến 4](32-di-du-hoc.md#entry-truoc-khi-dong-tien-hoi-so-giay-phep-tu-van-du-hoc "refs:truoc-khi-dong-tien-hoi-so-giay-phep-tu-van-du-hoc,visa-f-1-hoc-bao-lau-o-bay-lau-dang-duoc-giu,gioi-han-gio-lam-them-bon-nuoc-bon-con-so-va-khong,giam-mon-bao-luu-nghi-chuyen-truong-kiem-tu-cach-lam-viec") · **Địa chỉ, cảnh báo, bảo hiểm**: [mục 5 đến 8](32-di-du-hoc.md#entry-my-doi-cho-o-thi-bao-co-quan-di-tru-trong-10 "refs:my-doi-cho-o-thi-bao-co-quan-di-tru-trong-10,truoc-khi-nop-tien-kiem-canh-bao-o-ba-cua-trong-nuoc,uc-bao-hiem-y-te-la-dieu-kien-cua-visa-phai-co,anh-ngoai-phi-visa-558-bang-con-phu-phi-y-te-776") · **Công nhận văn bằng, OPT và thư PAL/TAL**: [mục 9 đến 12](32-di-du-hoc.md#entry-ve-nuoc-roi-moi-xin-cong-nhan-van-bang-ho-so-du "refs:ve-nuoc-roi-moi-xin-cong-nhan-van-bang-ho-so-du,truoc-khi-dong-hoc-phi-tra-ten-truong-theo-dung-ba-dieu,opt-cua-my-khong-co-viec-qua-90-ngay-la-mat-tu,canada-thu-gioi-thieu-cua-tinh-pal-tal-phai-nop-kem-ho")
 
 ### 1. Trước khi đóng tiền: hỏi số giấy phép tư vấn du học, và hiểu Việt Nam không có danh sách trường được nhà nước cho phép
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-truoc-khi-dong-tien-hoi-so-giay-phep-tu-van-du-hoc" data-legacy="32-1"></a>
+
 - Chi phí: Không mất tiền. Bạn cần dành một buổi hỏi trực tiếp và một lần tra cứu: xin công ty số giấy phép kinh doanh dịch vụ tư vấn du học, rồi tự tra xem giấy phép có đúng tên công ty và còn hiệu lực không. Cộng thêm thời gian đọc hợp đồng, vì phần lớn tiền mất không nằm ở học phí mà nằm ở khoản đặt cọc và câu "hoàn lại bao nhiêu nếu visa không được" — câu đó chỉ có giá trị khi viết trong hợp đồng, không có giá trị khi nói miệng.
 
 - Nói dễ hiểu: Việt Nam không có danh sách trường được nhà nước cho phép. Trước khi đóng tiền, bạn cần kiểm hai việc: giấy phép kinh doanh dịch vụ tư vấn du học của công ty và thủ tục xin công nhận văn bằng tại Bộ Giáo dục và Đào tạo theo từng hồ sơ. Hỏi số giấy phép, đừng hỏi uy tín.
@@ -24,6 +26,8 @@ Về bối cảnh Việt Nam: phần lớn mục trong chương này là **quy �
 
 ### 2. Visa F-1: "học bao lâu ở bấy lâu" đang được giữ tạm, và một vụ kiện có thể đổi nó bất cứ lúc nào
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=thời-gian -->
+<a name="entry-visa-f-1-hoc-bao-lau-o-bay-lau-dang-duoc-giu" data-legacy="32-2"></a>
+
 - Chi phí: Không mất tiền. Bạn cần dành thời gian theo dõi: chép ngày kết thúc chương trình trên I-20 vào lịch, đặt nhắc trước 90 ngày, và mỗi học kỳ đọc một lần thông báo của văn phòng sinh viên quốc tế. Đây là quy định của nước đến, tra ngày 3/11/2026, và quy định này còn có thể khác đi theo tiến độ một vụ án, nên bạn cần đọc lại mỗi học kỳ.
 
 - Nói dễ hiểu: Mỹ định đổi visa F-1 sang thời hạn cố định, tối đa bốn năm, hết hạn phải xin gia hạn riêng, và sau khi học xong chỉ còn ba mươi ngày. Một ngày trước khi có hiệu lực, tòa án liên bang tạm hoãn toàn bộ. Hiện vẫn theo lối cũ: học xong còn sáu mươi ngày. Tạm hoãn không phải bãi bỏ.
@@ -36,6 +40,8 @@ Về bối cảnh Việt Nam: phần lớn mục trong chương này là **quy �
 
 ### 3. Giới hạn giờ làm thêm: bốn nước, bốn con số, và không con số nào áp cho mọi loại việc
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-gioi-han-gio-lam-them-bon-nuoc-bon-con-so-va-khong" data-legacy="32-3"></a>
+
 - Chi phí: Không mất tiền để biết giới hạn. Bạn cần tự ghi giờ bằng một cuốn sổ hoặc một file: ghi giờ bắt đầu và kết thúc của từng việc, từng tuần, vì giới hạn tính theo tuần hoặc theo hai tuần chứ không tính theo tháng. Bạn chịu thiệt nhiều nhất khi làm quá giờ: đó là vi phạm điều kiện cư trú, và hậu quả thường rơi vào lần gia hạn hoặc lần xin việc sau, không rơi ngay hôm đó.
 
 - Nói dễ hiểu: Mỹ 20 giờ một tuần trong kỳ học. Canada 24 giờ một tuần ngoài trường. Anh 20 giờ một tuần, và 10 giờ một tuần với chương trình dưới bậc đại học. Úc 48 giờ mỗi hai tuần. Con số chỉ đúng cho đúng loại việc và đúng kỳ: làm quá là vi phạm điều kiện visa, không phải chuyện bị nhắc rồi thôi.
@@ -48,6 +54,8 @@ Về bối cảnh Việt Nam: phần lớn mục trong chương này là **quy �
 
 ### 4. Giảm môn, bảo lưu, nghỉ, chuyển trường: kiểm tư cách làm việc trước, vì visa còn hạn không thay được tư cách
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=thời-gian -->
+<a name="entry-giam-mon-bao-luu-nghi-chuyen-truong-kiem-tu-cach-lam-viec" data-legacy="32-4"></a>
+
 - Chi phí: Bạn không mất tiền, nhưng cần dành thời gian: một buổi làm việc với văn phòng sinh viên quốc tế trước khi điều chỉnh lịch học, cộng thời gian chờ trường xác nhận bằng văn bản. Cái đắt là quyết định sai thứ tự: xin nghỉ hoặc giảm môn trước, hỏi tư cách làm việc sau, rồi phát hiện mình vừa mất quyền làm thêm đúng lúc cần tiền nhất.
 
 - Nói dễ hiểu: Đổi lịch học có thể làm mất quyền làm thêm dù visa còn hạn. Canada: đang bảo lưu thì không được làm ngoài trường; học kỳ cuối học ít môn vẫn được nếu trước đó học đủ; nghỉ giữa hai chương trình có bốn điều kiện và mốc 150 ngày. Mỹ: hồ sơ sinh viên phải ghi nhận rằng bạn vẫn đang học.
@@ -61,6 +69,8 @@ Về bối cảnh Việt Nam: phần lớn mục trong chương này là **quy �
 ### 5. Mỹ: đổi chỗ ở thì báo cơ quan di trú trong 10 ngày, báo trường là việc khác
 
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=khác -->
+<a name="entry-my-doi-cho-o-thi-bao-co-quan-di-tru-trong-10" data-legacy="32-5"></a>
+
 
 - Chi phí: Không mất tiền. Khai trong tài khoản USCIS trực tuyến mất khoảng mười phút; nộp mẫu giấy qua bưu điện thì thêm tiền tem và chậm hơn, vì khai giấy không cập nhật tự động vào hệ thống. Điều đáng lo không phải hai khoản đó: nếu không báo, thư của cơ quan di trú vẫn đi tới địa chỉ cũ, và bạn có thể không nhận được một giấy gọi, một quyết định hay một thông báo.
 
@@ -77,6 +87,8 @@ Về bối cảnh Việt Nam: phần lớn mục trong chương này là **quy �
 ### 6. Trước khi nộp tiền, kiểm cảnh báo ở ba cửa: trong nước, cơ quan đại diện, và nước đến
 
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=khác -->
+<a name="entry-truoc-khi-nop-tien-kiem-canh-bao-o-ba-cua-trong-nuoc" data-legacy="32-6"></a>
+
 
 - Chi phí: Không mất tiền, chỉ mất một buổi tối đọc. Bạn cần dành thời gian đọc trước khi đặt cọc: nếu khóa học dở dang vì nơi đến có chuyện, hoặc bạn ký hợp đồng với công ty tư vấn không có giấy phép, thiệt hại thường lớn hơn nhiều so với việc dành một buổi tối kiểm tra.
 
@@ -93,6 +105,8 @@ Về bối cảnh Việt Nam: phần lớn mục trong chương này là **quy �
 ### 7. Úc: bảo hiểm y tế là điều kiện của visa, phải có liên tục suốt thời gian ở Úc
 
 <!-- nhãn: tiền=nhiều thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-uc-bao-hiem-y-te-la-dieu-kien-cua-visa-phai-co" data-legacy="32-7"></a>
+
 
 - Chi phí: Mua bảo hiểm theo thời gian bạn sẽ ở, không theo thời gian khóa học, nên khoản này thường dài hơn dự tính một học kỳ. Giá do từng hãng đặt, không có mức chung, và khác nhau theo gói: gói cơ bản chỉ trả nội trú công, gói rộng hơn trả thêm ngoại trú và một phần răng miệng. Cái đắt hơn phí bảo hiểm là quãng trống: một vài tuần không có hợp đồng, đúng vào lúc bạn đang chờ gia hạn, là quãng không giữ đúng điều kiện visa, và cái có thể mất là cả khóa học chứ không phải vài trăm đô.
 
@@ -109,6 +123,8 @@ Về bối cảnh Việt Nam: phần lớn mục trong chương này là **quy �
 ### 8. Anh: ngoài phí visa 558 bảng còn phụ phí y tế 776 bảng mỗi năm, trả một lần khi nộp
 
 <!-- nhãn: tiền=nhiều thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-anh-ngoai-phi-visa-558-bang-con-phu-phi-y-te-776" data-legacy="32-8"></a>
+
 
 - Chi phí: Theo quy định của Anh, tra ngày 3/11/2026: 558 bảng phí visa, cộng 776 bảng mỗi năm phụ phí y tế, cả hai trả một lần khi nộp hồ sơ. Visa hai năm: 1.552 bảng phụ phí, tổng hai khoản 2.110 bảng. Có người đi cùng thì mỗi người một bộ phí riêng, và người từ 18 tuổi trở lên trả bằng mức của bạn. Đây là tiền trả trước cho nhiều năm, nên nó nằm ở nhóm khoản lớn nhất trong ngân sách chuẩn bị đi, không nằm ở nhóm lệ phí lặt vặt.
 
@@ -124,6 +140,8 @@ Về bối cảnh Việt Nam: phần lớn mục trong chương này là **quy �
 
 ### 9. Về nước rồi mới xin công nhận văn bằng: hồ sơ đủ thì 20 ngày làm việc, phải hỏi lại trường thì không quá 30 ngày làm việc
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=ít lợi-ích=vừa thước-đo=thời-gian -->
+<a name="entry-ve-nuoc-roi-moi-xin-cong-nhan-van-bang-ho-so-du" data-legacy="32-9"></a>
+
 - Chi phí: Lệ phí xác minh giấy tờ, tài liệu để công nhận văn bằng, thu theo Thông tư 164/2016/TT-BTC của Bộ Tài chính — khoản này nhỏ, không phải chỗ đáng cân nhắc. Cái đắt là thời gian, và thời gian được luật ghi rõ: 20 ngày làm việc kể từ lúc hồ sơ được tiếp nhận đầy đủ, và không quá 30 ngày làm việc nếu cơ quan tiếp nhận phải xác minh với trường bên kia. Cộng thêm quãng chuẩn bị: bản sao văn bằng và bảng điểm kèm bản dịch sang tiếng Việt có chứng thực chữ ký người dịch, và với người học trực tiếp ở nước ngoài là dữ liệu xuất nhập cảnh trích từ VNeID cùng bản sao thị thực. Mốc 20 ngày chỉ bắt đầu chạy khi hồ sơ đã đầy đủ, nên một tờ giấy thiếu làm lùi cả tháng.
 - Nói dễ hiểu: Nếu muốn dùng bằng nước ngoài ở Việt Nam, bạn nộp hồ sơ xin công nhận. Hồ sơ đủ thì 20 ngày làm việc có kết quả; phải hỏi lại trường bên kia thì tối đa 30 ngày làm việc. Đây là thủ tục xin theo nhu cầu, không phải việc bắt buộc làm ngay khi về.
 - Lợi ích: Công nhận văn bằng du học khi về nước cần có hồ sơ đúng mẫu và xác minh từ trường. Hãy lưu bảng điểm, văn bằng và thông tin xác nhận từ khi còn ở nước ngoài.
@@ -134,6 +152,8 @@ Về bối cảnh Việt Nam: phần lớn mục trong chương này là **quy �
 
 ### 10. Trước khi đóng học phí, tra tên trường theo đúng ba điều kiện công nhận văn bằng — không có danh sách trường nào bảo đảm thay bạn
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-truoc-khi-dong-hoc-phi-tra-ten-truong-theo-dung-ba-dieu" data-legacy="32-10"></a>
+
 - Chi phí: Không mất tiền. Mất khoảng nửa giờ đọc trang của cơ quan quản lý giáo dục nước sở tại và trang công khai của cơ quan công nhận văn bằng Việt Nam, trước khi chuyển khoản đặt cọc. So với số tiền học phí của vài năm học, đây là khoản đầu tư rẻ nhất trong cả kế hoạch đi học.
 - Nói dễ hiểu: Không có danh sách trường được nhà nước bảo đảm. Muốn biết văn bằng có được công nhận hay không, bạn cần đối chiếu ba trường hợp điều kiện nêu dưới đây để xác định trường hợp áp dụng cho mình. Không phải hồ sơ nào cũng cần đáp ứng cùng một bộ điều kiện.
 - Lợi ích: Muốn biết bằng của một trường nước ngoài có thể được công nhận ở Việt Nam không, hãy đối chiếu điều kiện pháp luật thay vì tin bảng xếp hạng hoặc danh sách do môi giới đưa.
@@ -144,15 +164,19 @@ Về bối cảnh Việt Nam: phần lớn mục trong chương này là **quy �
 
 ### 11. OPT của Mỹ: không có việc quá 90 ngày là mất tư cách, xin thêm 24 tháng STEM thì tổng không quá 150 ngày
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=ít lợi-ích=lớn thước-đo=khác -->
+<a name="entry-opt-cua-my-khong-co-viec-qua-90-ngay-la-mat-tu" data-legacy="32-11"></a>
+
 - Chi phí: Bạn không mất tiền để đếm ngày, nhưng cần theo dõi giới hạn: tối đa 90 ngày không có việc trong cả giai đoạn làm việc sau tốt nghiệp; nếu xin thêm 24 tháng STEM thì giới hạn cho toàn bộ giai đoạn là 150 ngày. Mỗi ngày không có việc đều bị cộng dồn, kể cả những ngày bạn đang chờ thư mời làm việc. Thêm một khoản thời gian nữa là quãng chờ hồ sơ: nộp đơn xin phép làm việc, chờ được duyệt, rồi mới được bắt đầu.
 - Nói dễ hiểu: Ở Mỹ, học xong muốn ở lại làm thì xin OPT; trong thời gian đó tư cách của bạn dựa vào việc có việc làm. Không có việc quá 90 ngày là có thể bị chấm dứt tư cách; xin thêm 24 tháng STEM thì tổng không quá 150 ngày. Trường không ghi nhận chỗ làm thì vẫn tính là không có việc.
 - Lợi ích: Đây là quy định của nước đến. 8 CFR 214.2(f)(10)(ii)(E) quy định trong thời gian làm việc sau tốt nghiệp, tư cách F-1 phụ thuộc vào việc có việc làm, và người học không được cộng dồn quá 90 ngày không có việc trong mỗi giai đoạn; người được gia hạn 24 tháng theo diện STEM thì không được cộng dồn quá 150 ngày trong toàn bộ giai đoạn, tính cả phần trước khi gia hạn. Trang của cơ quan quản lý học sinh quốc tế thuộc Sở Di trú liệt kê đúng ba điểm: người có OPT sau tốt nghiệp phải có việc làm, tổng thời gian không có việc là 90 ngày; hồ sơ không có thông tin người sử dụng lao động thì bị coi là không có việc; và cán bộ có thể chấm dứt thủ công hồ sơ của người đã cộng đủ 90 ngày. Về cửa sổ nộp đơn, trang của cơ quan cấp phép lao động ghi: được nộp sớm nhất 90 ngày trước ngày kết thúc chương trình, muộn nhất 60 ngày sau ngày đó, và phải nộp trong vòng 30 ngày kể từ khi trường ghi nhận đề cử vào hệ thống hồ sơ học sinh. Cũng theo trang này, việc làm sau tốt nghiệp phải bán thời gian ít nhất 20 giờ một tuần hoặc toàn thời gian, và phải liên quan tới ngành đã học.
 - Mức bằng chứng: B
 - Nguồn: Quy định của nước đến, tra ngày 3/11/2026. 8 CFR 214.2(f)(10)(ii)(E), bản hiện hành trên eCFR: https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-214/section-214.2 ; U.S. Immigration and Customs Enforcement, SEVP, SEVIS Help Hub. F-1 Optional Practical Training (OPT): https://studyinthestates.dhs.gov/sevis-help-hub/student-records/fm-student-employment/f-1-optional-practical-training-opt ; USCIS. Optional Practical Training (OPT) for F-1 Students: https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students .
-- Ghi chú: Đây là câu chữ của quy định đang áp dụng, đọc được nguyên văn, và hậu quả — chấm dứt tư cách — cũng được cơ quan quản lý viết rõ; nhưng không có số liệu nào đo được bao nhiêu người thực sự bị chấm dứt vì chạm trần, nên không lên A. Ba cái bẫy hay gặp. Một: làm ít giờ cho có — việc sau tốt nghiệp phải từ 20 giờ một tuần trở lên và đúng ngành, nên một chỗ làm mười giờ một tuần vẫn bị tính vào những ngày không có việc, dù bạn đang đi làm mỗi ngày. Hai: đổi việc mà không báo trường — hồ sơ thiếu thông tin người sử dụng lao động thì bị coi là không có việc, nghĩa là bạn có thể chạm trần trong lúc đang đi làm đều; báo ngay khi nhận việc và khi đổi chỗ. Ba: tin rằng hết ngày là xin gia hạn được — không có gia hạn cho phần đã dùng hết, và làm việc trước khi được cấp thẻ cho phép lao động là làm không phép, hậu quả nặng hơn chuyện chạm trần. Đừng hiểu ngược: mục này không khuyên nhận đại một việc trái ngành để giữ ngày — việc phải liên quan ngành học, nên cách đúng là giữ ngày bằng việc hợp lệ chứ không phải bằng việc nào cũng được. Thời hạn nộp đơn có hai con số khác nhau trong quy định sửa chữa và quy định đang áp dụng; xem tình trạng tạm hoãn ở mục 2 của chương này. An toàn nhất là nộp trước khi kết thúc chương trình.
+- Ghi chú: Đây là câu chữ của quy định đang áp dụng, đọc được nguyên văn, và hậu quả — chấm dứt tư cách — cũng được cơ quan quản lý viết rõ; nhưng không có số liệu nào đo được bao nhiêu người thực sự bị chấm dứt vì chạm trần, nên không lên A. Ba cái bẫy hay gặp. Một: làm ít giờ cho có — việc sau tốt nghiệp phải từ 20 giờ một tuần trở lên và đúng ngành, nên một chỗ làm mười giờ một tuần vẫn bị tính vào những ngày không có việc, dù bạn đang đi làm mỗi ngày. Hai: đổi việc mà không báo trường — hồ sơ thiếu thông tin người sử dụng lao động thì bị coi là không có việc, nghĩa là bạn có thể chạm trần trong lúc đang đi làm đều; báo ngay khi nhận việc và khi đổi chỗ. Ba: tin rằng hết ngày là xin gia hạn được — không có gia hạn cho phần đã dùng hết, và làm việc trước khi được cấp thẻ cho phép lao động là làm không phép, hậu quả nặng hơn chuyện chạm trần. Đừng hiểu ngược: mục này không khuyên nhận đại một việc trái ngành để giữ ngày — việc phải liên quan ngành học, nên cách đúng là giữ ngày bằng việc hợp lệ chứ không phải bằng việc nào cũng được. Thời hạn nộp đơn có hai con số khác nhau trong quy định sửa chữa và quy định đang áp dụng; xem tình trạng tạm hoãn ở [mục 2](32-di-du-hoc.md#entry-visa-f-1-hoc-bao-lau-o-bay-lau-dang-duoc-giu) của chương này. An toàn nhất là nộp trước khi kết thúc chương trình.
 
 ### 12. Canada: thư giới thiệu của tỉnh (PAL/TAL) phải nộp kèm hồ sơ xin giấy phép học tập, không bổ sung sau được
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-canada-thu-gioi-thieu-cua-tinh-pal-tal-phai-nop-kem-ho" data-legacy="32-12"></a>
+
 - Chi phí: Không có lệ phí riêng cho thư này; bạn xin qua trường. Nhưng trên thực tế tiền đi trước: phần lớn trường chỉ làm thư sau khi bạn đã nhận thư mời và đóng một phần hoặc toàn bộ học phí, nên số tiền nằm ở học phí chứ không nằm ở lá thư — và nếu hồ sơ xin giấy phép học tập bị từ chối thì phần hoàn lại tùy chính sách từng trường, phải hỏi trước bằng văn bản. Thời gian cũng là một khoản: thư gắn với năm cấp, cấp trong năm nào thì dùng trong năm đó.
 - Nói dễ hiểu: Đi Canada học, phần lớn phải có thư của tỉnh xác nhận bạn có một suất học ở đó; trường xin lá thư này cho bạn. Thư phải nộp kèm hồ sơ, không bổ sung sau. Thư chỉ dùng trong năm cấp, và đổi trường hay bị từ chối rồi xin lại thì phải lấy thư mới.
 - Lợi ích: Đây là quy định của nước đến. Trang của cơ quan di trú Canada, cập nhật ngày 2/9/2026, viết: thư do tỉnh hoặc vùng lãnh thổ nơi bạn dự định học cấp, xác nhận có chỗ cho bạn, và bạn xin qua cơ sở đào tạo được chỉ định; đa số hồ sơ xin giấy phép học tập đều cần. Thư phải nộp kèm hồ sơ chứ không nộp sau, và mỗi người nộp hồ sơ cần một thư riêng, kể cả khi cả gia đình nộp cùng lúc. Thư gắn với trường bạn xin học và, trừ khi trên thư ghi ngày hết hạn sớm hơn, chỉ dùng được trong năm cấp: thư cấp trong khoảng 1/1/2026 đến 31/12/2026 thì có giá trị đến 31/12/2026, và không được dùng thư của năm trước. Thư phải còn hiệu lực tại thời điểm nộp hồ sơ, không cần còn hiệu lực khi bắt đầu học. Những trường hợp phải lấy thư mới: thư hết hạn; hồ sơ trước đã được chấp thuận hoặc bị từ chối; đổi trường, từ ngày 22/1/2025; đổi bậc học, trong đa số trường hợp; và xin phục hồi tư cách học sinh. Những trường hợp không cần thư: mầm non, tiểu học, trung học đến hết lớp 12; chương trình thạc sĩ hoặc tiến sĩ cấp bằng tại cơ sở công lập, áp dụng từ ngày 1/1/2026; học sinh trao đổi theo thỏa thuận giữa hai trường mà không đóng học phí cho trường Canada; người có học bổng của Bộ Ngoại giao Canada; và một số trường hợp đặc biệt khác. Học tại Quebec thì thay bằng giấy chấp thuận của Quebec.

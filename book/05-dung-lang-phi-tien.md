@@ -8,10 +8,12 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 Ở Việt Nam, chỗ rò tiền nằm ở những nơi dễ bị bỏ quên: gói cước nhà mạng tự gia hạn theo chu kỳ, đăng ký trong App Store và Google Play, ủy quyền trừ tiền định kỳ trên thẻ tín dụng, ví điện tử, hợp đồng bảo hiểm đóng phí định kỳ. Có mục kết luận ngược hẳn lời khuyên thường gặp.
 
-**Nhóm mục**: chi tiêu hằng ngày (mục 1, 4, 11, 12, 14, 21, 23, 24) · mua bốc đồng và tiền của con (mục 5, 8, 9, 10, 33, 34) · vay và lãi suất (mục 7, 28) · đầu tư (mục 15 giao dịch nhiều, 16, 17, 18, 19, 36, 37, 44, 50) · bảo hiểm (mục 25, 26, 38, 39, 40, 41, 42, 43) · thuế, lương hưu, bảo hiểm xã hội (mục 2, 3, 13, 20, 45) · mua sắm và khiếu nại (mục 22 trả tiền trước, 29, 30, 31, 32, 35, 49) · xe (mục 46, 47, 48) · tiết kiệm và nợ (mục 6, 27).
+**Nhóm mục**: chi tiêu hằng ngày ([mục 1](05-dung-lang-phi-tien.md#entry-tat-het-gia-han-tu-dong-toi-han-thi-tu-bam), [4](05-dung-lang-phi-tien.md#entry-moi-nam-so-lai-goi-cuoc-mot-lan-goi-dang-dung-thuong), [11](05-dung-lang-phi-tien.md#entry-dung-mua-goi-bao-hanh-mo-rong-cho-do-dien-tu-tru), [12](05-dung-lang-phi-tien.md#entry-chon-thuoc-generic-da-chung-minh-tuong-duong-sinh-hoc-hoac-thuoc), [14](05-dung-lang-phi-tien.md#entry-uong-nuoc-may-dun-soi-binh-nuoc-20-lit-dat-gap-hang), [21](05-dung-lang-phi-tien.md#entry-tra-tien-tap-theo-thang-hoac-theo-buoi-chi-mua-goi-dai), [23](05-dung-lang-phi-tien.md#entry-dat-24-gio-truoc-khi-mua-mon-lon-va-doc-dieu-kien), [24](05-dung-lang-phi-tien.md#entry-dung-tin-gia-gach-gia-niem-yet-moi-la-gia-that-con)) · mua bốc đồng và tiền của con ([mục 5](05-dung-lang-phi-tien.md#entry-khong-mua-ve-so-moi-10-000-dong-luat-chi-cho-tra), [8](05-dung-lang-phi-tien.md#entry-tien-nap-game-va-tien-tang-streamer-la-tien-da-ra-khoi), [9](05-dung-lang-phi-tien.md#entry-con-ban-nap-tien-vao-game-duoi-15-tuoi-con-doi-lai), [10](05-dung-lang-phi-tien.md#entry-day-con-mot-cau-ai-bao-con-cam-may-bo-me-doc), [33](05-dung-lang-phi-tien.md#entry-dong-ho-da-quy-do-choi-suu-tam-tinh-bang-tien-da), [34](05-dung-lang-phi-tien.md#entry-hop-mu-quay-the-tinh-luon-khoan-tien-do-la-tien-da)) · vay và lãi suất ([mục 7](05-dung-lang-phi-tien.md#entry-tra-du-du-no-the-moi-thang-neu-buoc-phai-vay-doi), [28](05-dung-lang-phi-tien.md#entry-truoc-khi-tra-truoc-han-khoan-vay-mua-nha-hay-so-lai)) · đầu tư ([mục 15](05-dung-lang-phi-tien.md#entry-giao-dich-cang-nhieu-thi-tien-o-lai-cang-it-thi-truong) giao dịch nhiều, 16, 17, 18, 19, 36, 37, 44, 50) · bảo hiểm ([mục 25](05-dung-lang-phi-tien.md#entry-mua-bao-hiem-thuan-bao-ve-tien-hoan-lai-va-chia-lai), [26](05-dung-lang-phi-tien.md#entry-bao-hiem-bat-buoc-xe-may-chi-tra-150-trieu-mot-nguoi), [38](05-dung-lang-phi-tien.md#entry-chi-mua-bao-hiem-cho-khoan-mat-mat-ban-khong-tu-tra), [39](05-dung-lang-phi-tien.md#entry-nguoi-dang-nuoi-nha-phai-mua-bao-hiem-tu-ky-truoc-khong), [40](05-dung-lang-phi-tien.md#entry-hop-dong-bao-hiem-tren-mot-nam-co-21-ngay-can-nhac), [41](05-dung-lang-phi-tien.md#entry-ky-o-quay-ngan-hang-xem-bia-la-hop-dong-bao-hiem), [42](05-dung-lang-phi-tien.md#entry-muon-huy-hop-dong-thi-tu-lam-voi-cong-ty-bao-hiem), [43](05-dung-lang-phi-tien.md#entry-ghi-ten-nguoi-thu-huong-cu-the-va-nho-han-1-nam)) · thuế, lương hưu, bảo hiểm xã hội ([mục 2](05-dung-lang-phi-tien.md#entry-moi-nam-lam-mot-lan-quyet-toan-thue-thu-nhap-ca-nhan), [3](05-dung-lang-phi-tien.md#entry-o-viet-nam-khong-co-quy-nha-o-trich-tu-luong-tien), [13](05-dung-lang-phi-tien.md#entry-mua-bao-hiem-y-te-theo-ho-nguoi-thu-hai-chi-dong), [20](05-dung-lang-phi-tien.md#entry-bao-hiem-huu-tri-tu-nguyen-o-viet-nam-khong-co-uu), [45](05-dung-lang-phi-tien.md#entry-khong-co-luong-huu-cong-ty-dong-bao-hiem-xa-hoi-tu)) · mua sắm và khiếu nại ([mục 22](05-dung-lang-phi-tien.md#entry-tra-tien-truoc-thi-lay-hop-dong-va-hoa-don-phan-chua) trả tiền trước, 29, 30, 31, 32, 35, 49) · xe ([mục 46](05-dung-lang-phi-tien.md#entry-nhan-xe-moi-kiem-ngay-tai-cho-va-biet-rang-viet-nam), [47](05-dung-lang-phi-tien.md#entry-mua-xe-cu-o-dai-ly-doi-lich-su-bao-hiem-va), [48](05-dung-lang-phi-tien.md#entry-o-dai-ly-khong-tra-phi-dich-vu-tai-chinh-va-mua)) · tiết kiệm và nợ ([mục 6](05-dung-lang-phi-tien.md#entry-ai-hua-lai-cao-gap-may-lan-tiet-kiem-thi-do-khong), [27](05-dung-lang-phi-tien.md#entry-de-rieng-ba-den-sau-thang-chi-tieu-o-cho-rut-duoc)).
 
 ### 1. Tắt hết gia hạn tự động, tới hạn thì tự bấm
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-tat-het-gia-han-tu-dong-toi-han-thi-tu-bam" data-legacy="5-1"></a>
+
 - Chi phí: Không tốn tiền. Một lần 10 đến 20 phút rà bốn chỗ: đăng ký trong App Store, đăng ký trong Google Play, ủy quyền trừ tiền trong ví điện tử, và thanh toán định kỳ trên thẻ. Sau đó mỗi lần gia hạn phải tự bấm thêm một bước — đó chính là chỗ khó, vì mặc định của mọi ứng dụng là làm cho bạn khỏi phải bấm.
 - Nói dễ hiểu: Tiền rò ra ở những gói bạn không còn dùng mà vẫn bị trừ đều. Luật buộc bên bán phải báo trước 7 ngày làm việc khi sắp hết hạn, và cho bạn hủy bất cứ lúc nào, chỉ trả phần đã dùng.
 - Lợi ích: Số tiền tiết kiệm được thì **không có con số chung**: nó đúng bằng tổng các gói bạn đã quên mà vẫn đang bị trừ, nên phải tự cộng từ danh sách của mình.
@@ -22,6 +24,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 2. Mỗi năm làm một lần quyết toán thuế thu nhập cá nhân, và điền hết người phụ thuộc
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-moi-nam-lam-mot-lan-quyet-toan-thue-thu-nhap-ca-nhan" data-legacy="5-2"></a>
+
 - Chi phí: Không tốn tiền. Một lần mỗi năm, 20 đến 40 phút trên máy tính hoặc ứng dụng thuế, cộng thời gian gom giấy tờ: hợp đồng lao động, bảng lương, chứng từ khấu trừ, giấy tờ chứng minh người phụ thuộc. Cái khó là phải làm đúng hạn và phải nhớ những khoản mình được trừ — không ai điền hộ.
 - Nói dễ hiểu: Từ kỳ thuế 2026, phần được trừ trước khi tính thuế là 15,5 triệu đồng một tháng cho chính bạn và 6,2 triệu cho mỗi người phụ thuộc. Người lương 30 triệu, không có người phụ thuộc, trước đây nộp 2,15 triệu một tháng, nay còn 0,95 triệu. Quyết toán là dịp đòi lại phần đã nộp thừa.
 - Lợi ích: Quyết toán thuế giúp lấy lại phần thuế đã khấu trừ thừa, đặc biệt khi có người phụ thuộc, có thu nhập từ nhiều nơi hoặc chưa khai hết các khoản giảm trừ. Ví dụ trong sách: người có lương 30 triệu đồng/tháng và không có người phụ thuộc được tính giảm khoảng 1,2 triệu đồng tiền thuế mỗi tháng theo giả định đã nêu.
@@ -32,6 +36,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 3. Ở Việt Nam không có quỹ nhà ở trích từ lương — tiền cho nhà là vay ưu đãi, dùng được cả để sửa nhà
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-o-viet-nam-khong-co-quy-nha-o-trich-tu-luong-tien" data-legacy="5-3"></a>
+
 - Chi phí: Không tốn tiền để kiểm tra mình có thuộc diện hay không. Cái mất là công chứng minh: bảng lương hoặc xác nhận thu nhập **12 tháng liền kề**, giấy xác nhận tình trạng nhà ở, và đi lại nộp hồ sơ. Vay được thì phần trả lãi hằng tháng là tiền thật, không phải tiền cho.
 - Nói dễ hiểu: Việt Nam không có quỹ nhà ở trích từ lương. Thay vào đó là vay ưu đãi: độc thân thu nhập dưới 25 triệu một tháng, vợ chồng tổng dưới 50 triệu, vay tối đa 20 năm, và dùng được cả để sửa nhà.
 - Lợi ích: Người đủ điều kiện có thể được xét mua nhà ở xã hội và vay ưu đãi để mua, thuê mua, tự xây hoặc cải tạo, sửa chữa nhà. Đây là khoản vay phải trả, không phải tiền được cấp; số tiền vay thực tế còn phụ thuộc khả năng trả nợ và xét duyệt.
@@ -42,16 +48,20 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 4. Mỗi năm so lại gói cước một lần — gói đang dùng thường đắt hơn gói đang bán, và bạn có quyền đổi mà giữ số
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-moi-nam-so-lai-goi-cuoc-mot-lan-goi-dang-dung-thuong" data-legacy="5-4"></a>
+
 - Chi phí: Không tốn tiền. Mỗi năm một lần, 15 đến 20 phút: mở app nhà mạng xem 3 tháng gần nhất đã dùng hết bao nhiêu GB và bao nhiêu phút gọi, rồi so với gói đang bán. Cái khó không nằm ở chỗ tra, mà ở chỗ gói cũ tự động gia hạn nên không ai nhắc bạn rằng đã có gói rẻ hơn.
 - Nói dễ hiểu: Gói năm của Viettel giá 2.160.000 đồng, tính ra 180.000 đồng một tháng. Gói tháng rẻ nhất cùng nhà mạng là 100.000 đồng. Nếu một tháng bạn chỉ dùng vài GB thì đang trả thừa 80.000 đồng, tức 960.000 đồng một năm.
 - Lợi ích: Viettel đang niêm yết (tra 2/11/2026) gói trả trước **SD100: 100.000 đồng/30 ngày, 60 GB** và gói **12V180B: 2.160.000 đồng/360 ngày, 6 GB/ngày**. Quy ra tháng, gói năm là **180.000 đồng/tháng**, tức **80.000 đồng/tháng** đắt hơn gói tháng rẻ nhất, và **960.000 đồng/năm** nếu bạn không dùng hết 6 GB mỗi ngày.
 - Pháp luật Việt Nam: Về quyền, **Luật Viễn thông 24/2023/QH15 Điều 15 khoản 1** cho người sử dụng dịch vụ quyền **từ chối sử dụng một phần hoặc toàn bộ dịch vụ** theo hợp đồng (điểm d), và quyền **khiếu nại về giá dịch vụ, được hoàn trả tiền sử dụng dịch vụ** khi lỗi thuộc về doanh nghiệp (điểm e) — hạ gói hay cắt bớt dịch vụ là quyền của bạn, không phải ân huệ của nhà mạng. Muốn sang nhà mạng khác mà giữ nguyên số thì dùng **chuyển mạng giữ số**: **Nghị định 163/2024/NĐ-CP** và **Thông tư 09/2025/TT-BKHCN** (hiệu lực 10/8/2025) quy định điều kiện, thủ tục và các trường hợp được từ chối chuyển mạng.
 - Mức bằng chứng: B
 - Nguồn: Luật Viễn thông số 24/2023/QH15, Điều 15 khoản 1 điểm d và điểm e (hiệu lực 1/7/2024), bản ký: <https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/01/luat24.pdf>; Nghị định 163/2024/NĐ-CP ngày 24/12/2024 và Thông tư 09/2025/TT-BKHCN của Bộ Khoa học và Công nghệ về chuyển mạng giữ số (hiệu lực 10/8/2025) — đọc qua trích đoạn, chưa mở toàn văn, xem “Còn treo”. Giá gói cước: trang gói cước chính thức của Viettel <https://www.viettel.vn/di-dong/goi-cuoc>, tra ngày 2/11/2026.
-- Ghi chú: Bốn bẫy. **(1) Gói tự gia hạn**: cả SD100 và 12V180B đều ghi rõ hết chu kỳ là hệ thống tự động gia hạn; muốn dừng thì soạn **HUY gửi 191**, còn xóa app hay ngừng nạp tiền thì gói vẫn sống tới hết chu kỳ (xem mục 1). **(2) Gói năm khóa 360 ngày**: rẻ hơn theo tháng nhưng đổi ý giữa đường thì phần còn lại không lấy lại được, nên chỉ mua khi đã có ít nhất vài tháng dùng đều. **(3) So sánh sai đơn vị**: “6 GB/ngày” nghe nhiều, nhưng nếu tháng bạn chỉ dùng 20–30 GB thì đang trả tiền cho dung lượng không dùng; phải so bằng số GB thực dùng trong 3 tháng, đừng so bằng giá gói. **(4) Đừng hiểu ngược**: đừng đổi nhà mạng chỉ vì gói rẻ hơn — chuyển mạng giữ số chỉ đáng khi sóng tại nhà và chỗ làm tốt hơn, nên hỏi người cùng khu trước khi chuyển.
+- Ghi chú: Bốn bẫy. **(1) Gói tự gia hạn**: cả SD100 và 12V180B đều ghi rõ hết chu kỳ là hệ thống tự động gia hạn; muốn dừng thì soạn **HUY gửi 191**, còn xóa app hay ngừng nạp tiền thì gói vẫn sống tới hết chu kỳ (xem [mục 1](05-dung-lang-phi-tien.md#entry-tat-het-gia-han-tu-dong-toi-han-thi-tu-bam)). **(2) Gói năm khóa 360 ngày**: rẻ hơn theo tháng nhưng đổi ý giữa đường thì phần còn lại không lấy lại được, nên chỉ mua khi đã có ít nhất vài tháng dùng đều. **(3) So sánh sai đơn vị**: “6 GB/ngày” nghe nhiều, nhưng nếu tháng bạn chỉ dùng 20–30 GB thì đang trả tiền cho dung lượng không dùng; phải so bằng số GB thực dùng trong 3 tháng, đừng so bằng giá gói. **(4) Đừng hiểu ngược**: đừng đổi nhà mạng chỉ vì gói rẻ hơn — chuyển mạng giữ số chỉ đáng khi sóng tại nhà và chỗ làm tốt hơn, nên hỏi người cùng khu trước khi chuyển.
 
 ### 5. Không mua vé số: mỗi 10.000 đồng luật chỉ cho trả thưởng tối đa 5.000 đồng
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-khong-mua-ve-so-moi-10-000-dong-luat-chi-cho-tra" data-legacy="5-5"></a>
+
 - Chi phí: Không tốn tiền để bỏ. Mỗi tờ vé xổ số truyền thống có mệnh giá 5.000, 10.000 hoặc 20.000 đồng. Một tờ 10.000 đồng mỗi tuần là 520.000 đồng một năm, và phần quay lại tối đa là 260.000 đồng.
 - Nói dễ hiểu: Luật chỉ cho trả thưởng tối đa 50% tiền bán vé, nên 10.000 đồng mua vé thì cùng lắm 5.000 đồng quay lại. Trúng giải lớn chỉ phần trên 20 triệu mới chịu thuế 10%, trừ ngay trước khi nhận.
 - Lợi ích: Với xổ số truyền thống, chỉ một phần tiền bán vé được dùng để trả thưởng nên về dài hạn người mua chịu thiệt. Trúng giải lớn còn phát sinh thuế; đừng lấy một giải độc đắc hiếm gặp làm lý do mua vé thường xuyên.
@@ -62,6 +72,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 6. Ai hứa lãi cao gấp mấy lần tiết kiệm thì đó không phải cơ hội, mà là chỗ mất tiền
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-ai-hua-lai-cao-gap-may-lan-tiet-kiem-thi-do-khong" data-legacy="5-6"></a>
+
 - Chi phí: Không tốn tiền. Mất một buổi đọc lại giấy tờ và tra xem đơn vị nhận tiền có tên trong danh sách được cấp phép hay không; nếu đã trót nộp thì mất thêm thời gian đi đòi, mà phần lớn trường hợp là không đòi được.
 - Nói dễ hiểu: Lãi tiết kiệm 12 tháng ở ngân hàng lớn đang 5,9%/năm, cao nhất thị trường khoảng 6,7%/năm. Ai cam kết 20%/năm thì khoản chênh ấy không đến từ tài giỏi, mà từ tiền của người vào sau.
 - Lợi ích: Số liệu tra ngày 2/11/2026: tiết kiệm 12 tháng tại nhóm ngân hàng lớn 5,9%/năm (Vietcombank, bảng tháng 10/2026), mức cao nhất thị trường khoảng 6,7%/năm. Một lời hứa 20%/năm cao gấp 3,4 lần mức 5,9% — muốn trả được mức đó, người nhận tiền phải kiếm được lợi nhuận cao hơn nữa, đều đặn, và đó không phải thứ có thật trên thị trường vốn Việt Nam. Số tiền giữ được thì không có con số chung: nó đúng bằng số bạn không nộp.
@@ -72,6 +84,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 7. Trả đủ dư nợ thẻ mỗi tháng; nếu buộc phải vay, đổi mọi con số về %/năm rồi mới so
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-tra-du-du-no-the-moi-thang-neu-buoc-phai-vay-doi" data-legacy="5-7"></a>
+
 - Chi phí: Không tốn phí, nhưng phải để sẵn tiền mặt đủ trả trước ngày đến hạn. Nếu đã lỡ dùng thì mất 10 phút ngồi đổi mọi con số về %/năm: lãi thẻ, phí chuyển đổi trả góp, phí rút tiền mặt.
 - Nói dễ hiểu: Không trả hết thì phần còn lại bị tính lãi theo ngày và mất luôn kỳ miễn lãi. Lãi thẻ ở Việt Nam 2,54% đến 3,71% một tháng, tức 30,5% đến 44,5% một năm. "Trả góp 0%" thực chất là phí chuyển đổi một lần: 6% cho 12 tháng là khoảng 12%/năm.
 - Lợi ích: Biểu phí công bố: VIB tính lãi giao dịch rút tiền 2,54%–3,71%/tháng, tức 30,5%–44,5%/năm tính theo lãi đơn (tính theo dòng tiền thì 35,1%–54,8%/năm); ACB niêm yết phí chuyển đổi trả góp 6 tháng 3,00%, 9 tháng 4,50%, 12 tháng 6,00% trên số tiền chuyển đổi — mức 6% cho 12 tháng tương đương khoảng 12,2%/năm, vì vốn gốc giảm dần mà phí tính một lần trên số ban đầu. Cùng một khoản, "trả góp 0% lãi" và "phí chuyển đổi 6%" là hai cách gọi của một mức giá.
@@ -82,16 +96,20 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 8. Tiền nạp game và tiền tặng streamer là tiền đã ra khỏi nhà: người lớn tiêu rồi thì không có cửa đòi
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-tien-nap-game-va-tien-tang-streamer-la-tien-da-ra-khoi" data-legacy="5-8"></a>
+
 - Chi phí: Không tốn tiền. Mất 10 đến 15 phút: xóa thẻ đã lưu trong game và ví điện tử, bật hạn mức chi tiêu, tắt xác nhận một chạm bằng vân tay của trẻ.
 - Nói dễ hiểu: Người đủ 18 tuổi tự chịu trách nhiệm về giao dịch của mình, nạp rồi thì không đòi lại được. Chỉ tài khoản của người dưới 18 tuổi mới có cửa, và trẻ chỉ được chơi 60 phút mỗi trò một ngày.
-- Lợi ích: Giao dịch nạp game và tặng quà của người trưởng thành thường rất khó lấy lại tiền. Với giao dịch do trẻ em thực hiện, cơ hội yêu cầu xử lý phụ thuộc độ tuổi, cách giao dịch và chứng cứ (xem mục 9).
-- Pháp luật Việt Nam: **Bộ luật Dân sự 91/2015/QH15 Điều 20 khoản 2**: người thành niên có năng lực hành vi dân sự đầy đủ — giao dịch nạp tiền, tặng quà của người đủ **18 tuổi** là giao dịch hợp lệ, không có luật nào cho đòi lại. Cách còn lại là đòi hoàn tiền cho giao dịch của con, và cách đó hẹp dần theo tuổi (xem mục 9). **Nghị định 147/2024/NĐ-CP Điều 39 khoản 1 điểm e** buộc doanh nghiệp cung cấp game phải có hệ thống quản lý thời gian chơi: người chơi dưới 18 tuổi **không quá 60 phút một ngày cho mỗi trò** và **không quá 180 phút một ngày cho tất cả các trò**; **điểm g** buộc hiện khuyến cáo nguyên văn "Chơi quá 180 phút một ngày sẽ ảnh hưởng xấu đến sức khỏe" trên màn hình, 30 phút một lần. **Luật Bảo vệ quyền lợi người tiêu dùng 19/2023/QH15 Điều 8** xếp trẻ em vào nhóm người tiêu dùng dễ bị tổn thương, và khoản 2 điểm c buộc bên bán **ưu tiên tiếp nhận, xử lý, không chuyển yêu cầu của trẻ cho bên thứ ba**; từ chối thì phải trả lời bằng văn bản nêu căn cứ pháp lý.
+- Lợi ích: Giao dịch nạp game và tặng quà của người trưởng thành thường rất khó lấy lại tiền. Với giao dịch do trẻ em thực hiện, cơ hội yêu cầu xử lý phụ thuộc độ tuổi, cách giao dịch và chứng cứ (xem [mục 9](05-dung-lang-phi-tien.md#entry-con-ban-nap-tien-vao-game-duoi-15-tuoi-con-doi-lai)).
+- Pháp luật Việt Nam: **Bộ luật Dân sự 91/2015/QH15 Điều 20 khoản 2**: người thành niên có năng lực hành vi dân sự đầy đủ — giao dịch nạp tiền, tặng quà của người đủ **18 tuổi** là giao dịch hợp lệ, không có luật nào cho đòi lại. Cách còn lại là đòi hoàn tiền cho giao dịch của con, và cách đó hẹp dần theo tuổi (xem [mục 9](05-dung-lang-phi-tien.md#entry-con-ban-nap-tien-vao-game-duoi-15-tuoi-con-doi-lai)). **Nghị định 147/2024/NĐ-CP Điều 39 khoản 1 điểm e** buộc doanh nghiệp cung cấp game phải có hệ thống quản lý thời gian chơi: người chơi dưới 18 tuổi **không quá 60 phút một ngày cho mỗi trò** và **không quá 180 phút một ngày cho tất cả các trò**; **điểm g** buộc hiện khuyến cáo nguyên văn "Chơi quá 180 phút một ngày sẽ ảnh hưởng xấu đến sức khỏe" trên màn hình, 30 phút một lần. **Luật Bảo vệ quyền lợi người tiêu dùng 19/2023/QH15 Điều 8** xếp trẻ em vào nhóm người tiêu dùng dễ bị tổn thương, và khoản 2 điểm c buộc bên bán **ưu tiên tiếp nhận, xử lý, không chuyển yêu cầu của trẻ cho bên thứ ba**; từ chối thì phải trả lời bằng văn bản nêu căn cứ pháp lý.
 - Mức bằng chứng: C
 - Nguồn: Nghị định 147/2024/NĐ-CP, Điều 39 khoản 1 điểm e và điểm g; hiệu lực 25/12/2024; bản ký: <https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/11/147-nd.signed.pdf> (OCR, tra 2/11/2026). Bộ luật Dân sự 91/2015/QH15, Điều 20 khoản 2, bản ký: <https://datafiles.chinhphu.vn/cpp/files/vbpq/2016/01/91.signed.pdf> (tra 2/11/2026). Luật Bảo vệ quyền lợi người tiêu dùng 19/2023/QH15, Điều 8.
 - Ghi chú: Ba bẫy. **(1) Nạp bằng thẻ cào mua ở tạp hóa không để lại dấu vết nào** trong sao kê ngân hàng, nên kể cả muốn khiếu nại cũng không có chứng từ. **(2) Tiền tặng streamer đi thẳng vào tài khoản cá nhân người nhận** qua ví điện tử hoặc chuyển khoản; ngân hàng không có nghĩa vụ thu hồi, và không có "khiếu nại hoàn tiền" nào. **(3) Đơn hàng chốt trong livestream vẫn là hợp đồng mua bán**, hủy sau khi chốt là bạn vi phạm, không phải "chưa mua gì". **Đừng hiểu ngược:** cắt tiền nạp không có nghĩa là cấm con chơi game — việc cần làm là gỡ thẻ thanh toán khỏi máy của trẻ, không phải cấm trò chơi.
 
 ### 9. Con bạn nạp tiền vào game: dưới 15 tuổi còn đòi lại được, từ 15 tuổi thì gần như mất
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-con-ban-nap-tien-vao-game-duoi-15-tuoi-con-doi-lai" data-legacy="5-9"></a>
+
 - Chi phí: Không tốn tiền. Mất vài buổi gom chứng cứ: sao kê, lịch sử thiết bị, ảnh chụp tin nhắn với con. Nếu phải ra tòa thì mất vài tháng và phải nộp án phí; đi đường khiếu nại tới bên bán rẻ hơn nhiều.
 - Nói dễ hiểu: Dưới 6 tuổi, mọi giao dịch phải do bố mẹ làm. Từ 6 đến dưới 15 tuổi, con mua gì cũng phải có bố mẹ đồng ý, không đồng ý thì xin hủy được. Từ 15 tuổi, con tự mua được và gần như không đòi lại được nữa.
 - Lợi ích: Muốn yêu cầu hoàn tiền khi con nạp game, trước tiên phải giữ bằng chứng giao dịch và xác định đúng người đã thao tác. Khả năng yêu cầu hủy giao dịch thay đổi nhiều theo độ tuổi của trẻ và loại giao dịch, không phải mọi khoản nạp đều được hoàn.
@@ -102,6 +120,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 10. Dạy con một câu: ai bảo con cầm máy bố mẹ, đọc mã xác thực hay cài ứng dụng, đều là lừa đảo
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-day-con-mot-cau-ai-bao-con-cam-may-bo-me-doc" data-legacy="5-10"></a>
+
 - Chi phí: Không tốn tiền. Mất 15 phút nói chuyện và một câu hẹn trước: "bị lừa thì nói với bố mẹ trước, bố mẹ không mắng". Kèm theo: bật xác thực hai lớp, không lưu mật khẩu ngân hàng trong máy.
 - Nói dễ hiểu: Không ai được đòi mã xác thực của bạn, kể cả người tự xưng công an hay nhân viên ngân hàng. Công an không gọi điện bảo cài ứng dụng lạ, cũng không làm hộ giấy tờ qua điện thoại. Nghi ngờ thì gọi tổng đài 156 để phản ánh, cuộc gọi miễn phí.
 - Lợi ích: **Công an tỉnh Ninh Bình (8/9/2025)** liệt kê 21 thủ đoạn lừa đảo trực tuyến; thủ đoạn đầu tiên là giả danh cán bộ, gửi link hoặc hướng dẫn cài ứng dụng chứa mã độc, chiếm quyền điều khiển điện thoại rồi **đòi mã OTP ngân hàng hoặc dữ liệu sinh trắc học**; phần phòng tránh ghi nguyên văn "Tuyệt đối không chia sẻ thông tin, mã OTP ngân hàng cho bất kỳ ai". **Công an tỉnh Đắk Lắk (11/5/2026)** ghi nhận đúng biến thể nhắm vào phụ huynh: đối tượng gọi tự xưng cán bộ công an, cán bộ quản lý cư trú hoặc cán bộ hỗ trợ dịch vụ công, báo "dữ liệu căn cước của học sinh bị sai lệch" hay "hồ sơ tuyển sinh chưa hợp lệ", rồi yêu cầu truy cập đường link lạ, cài ứng dụng giả mạo **hoặc cung cấp mã OTP** để chiếm tài khoản ngân hàng. **Tổng đài 156** của Bộ Thông tin và Truyền thông nhận phản ánh cuộc gọi, tin nhắn có dấu hiệu lừa đảo, miễn phí.
@@ -111,6 +131,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 11. Đừng mua gói bảo hành mở rộng cho đồ điện tử — trừ khi bạn đã tính ra tỷ lệ hỏng phải vượt ngưỡng
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-dung-mua-goi-bao-hanh-mo-rong-cho-do-dien-tu-tru" data-legacy="5-11"></a>
+
 - Chi phí: Không tốn tiền để từ chối. Cái mất là nếu máy hỏng sau khi hết bảo hành hãng thì bạn tự trả tiền sửa. Gói mở rộng thường được chào ngay lúc thanh toán, tính theo phần trăm giá máy, nên nó trôi vào tổng bill mà không ai tách ra nhìn.
 - Nói dễ hiểu: Ở Việt Nam, thời hạn bảo hành do hãng tự công bố, không có mức sàn bắt buộc cho động cơ hay máy nén. Nên trước khi mua gói mở rộng, hãy lấy giá gói chia cho tiền sửa một lần.
 - Lợi ích: Cách tính để tự quyết: **giá gói ÷ tiền sửa một lần = tỷ lệ hỏng tối thiểu để hòa vốn**. Ví dụ gói 500.000 đồng, sửa một lần 1.500.000 đồng thì phải có ít nhất khoảng 33% khả năng hỏng trong thời gian đó mới đáng — đây là **số giả định để làm phép chia, không phải số thống kê**.
@@ -121,6 +143,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 12. Chọn thuốc generic đã chứng minh tương đương sinh học hoặc thuốc trúng thầu, đừng trả giá biệt dược gốc
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-chon-thuoc-generic-da-chung-minh-tuong-duong-sinh-hoc-hoac-thuoc" data-legacy="5-12"></a>
+
 - Chi phí: Không tốn tiền. Cái mất là một câu hỏi với bác sĩ hoặc dược sĩ: “có thuốc generic cùng hoạt chất, cùng hàm lượng không”, và vài giây đọc tên hoạt chất in trên vỏ hộp thay vì đọc tên thương mại.
 - Nói dễ hiểu: Thuốc generic cùng hoạt chất thường rẻ hơn biệt dược gốc. Đợt đấu thầu thuốc tập trung cấp quốc gia công bố ngày 5/8/2022 giảm được 17,5% giá và tiết kiệm khoảng 1.338 tỷ đồng cho ngân sách.
 - Lợi ích: Kỳ 2022–2023 (công bố ngày 5/8/2022) đấu 3 gói với **106 thuốc**: tổng giá trị theo kế hoạch **7.630 tỷ đồng**, giá trúng thầu **6.292 tỷ đồng**, **tiết kiệm khoảng 1.338 tỷ đồng**, tức **giảm 17,5%** — hai con số này là phép trừ và phép chia của chính hai số trên, nên bạn tự kiểm lại được (bài công bố của đơn vị mua sắm ghi 1.337 tỷ và 17,25%, lệch 1 tỷ và 0,3 điểm % do làm tròn; sách dùng số tính ra để câu chữ tự khớp). Con số bạn tự kiểm được là giá: cùng hoạt chất, cùng hàm lượng, cùng quy cách đóng gói thì chênh lệch giữa biệt dược gốc và thuốc generic là tiền thật trong mỗi lần mua.
@@ -131,6 +155,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 13. Mua bảo hiểm y tế theo hộ: người thứ hai chỉ đóng 70%, từ người thứ năm còn 40%
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-mua-bao-hiem-y-te-theo-ho-nguoi-thu-hai-chi-dong" data-legacy="5-13"></a>
+
 - Chi phí: Không tốn tiền để gộp sổ. Tiền thật là tiền đóng bảo hiểm y tế của cả hộ trong năm; với lương cơ sở 2.530.000 đồng/tháng áp dụng từ 1/7/2026, người thứ nhất đóng 113.850 đồng/tháng.
 - Nói dễ hiểu: Việt Nam không có tài khoản y tế dùng chung trong nhà; thứ dùng chung được là mức giảm khi mua theo hộ. Người thứ hai đóng 70%, thứ ba 60%, thứ tư 50%, từ thứ năm 40% mức người thứ nhất.
 - Lợi ích: Tham gia BHYT theo hộ có thể giảm đáng kể tổng mức đóng cho những người thuộc cùng hộ. Mức đóng tính theo người thứ tự trong hộ, không phải một ví tiền chung, và thay đổi theo mức lương cơ sở tại thời điểm đóng.
@@ -141,6 +167,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 14. Uống nước máy đun sôi — bình nước 20 lít đắt gấp hàng trăm lần cùng một lít nước
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-uong-nuoc-may-dun-soi-binh-nuoc-20-lit-dat-gap-hang" data-legacy="5-14"></a>
+
 - Chi phí: Một cái ấm và tiền điện hoặc gas để đun, tính ra rất nhỏ so với tiền nước. Nhà nào phải lắp thêm bộ lọc hoặc phải thay đường ống trong nhà thì đó là khoản riêng, không tính vào phép so này.
 - Nói dễ hiểu: Nước máy Hà Nội bậc thấp nhất là 8.500 đồng một mét khối, tức 8,5 đồng một lít. Bình 20 lít giá 67.000 đồng là 3.350 đồng một lít, đắt gấp 394 lần. Một tuần một bình là 3.484.000 đồng một năm.
 - Lợi ích: Giá bán lẻ nước sạch sinh hoạt Hà Nội năm 2026 **giữ nguyên** mức đã phê duyệt tại Quyết định 3541/QĐ-UBND ngày 7/7/2023: hộ dân cư dùng đến 10 m³/tháng trả **8.500 đồng/m³**, tức **8,5 đồng/lít** (Quyết định 6592/QĐ-UBND ngày 31/12/2025). Bình Lavie 20 lít bán lẻ **67.000 đồng/bình** (tra 2/11/2026), tức **3.350 đồng/lít**, đắt **394 lần** nước máy. Một hộ dùng 1 bình 20 lít mỗi tuần là **52 bình/năm**, **1.040 lít**, hết **3.484.000 đồng**; cùng lượng nước máy đó tốn **8.840 đồng**. Chai 500 ml khoảng **4.000 đồng/chai** là **8.000 đồng/lít**, đắt **941 lần**. Về chuẩn: nước sạch sinh hoạt chịu **QCVN 01-1:2018/BYT** (ban hành 14/12/2018) — quy chuẩn này **không áp dụng** cho nước đóng bình, đóng chai; nước đóng bình có quy chuẩn riêng là **QCVN 6-1:2010/BYT**.
@@ -150,6 +178,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 15. Giao dịch càng nhiều thì tiền ở lại càng ít — thị trường dựng đứng càng phải ngồi yên
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-giao-dich-cang-nhieu-thi-tien-o-lai-cang-it-thi-truong" data-legacy="5-15"></a>
+
 - Chi phí: Không tốn tiền trực tiếp. Mỗi lần bán chịu thuế thu nhập cá nhân 0,1% giá trị chuyển nhượng, cộng phí môi giới mỗi chiều; bán càng nhiều lần thì phần này càng lớn, kể cả khi lỗ.
 - Nói dễ hiểu: Mỗi vòng mua bán mất 0,1% thuế ở chiều bán, cộng phí môi giới hai chiều. Bán 12 lần một năm là 1,2% tiền thuế, chưa tính phí. Nhóm tài khoản nhỏ giao dịch nhiều nhất trong cơn sốt lại là nhóm mất nhiều nhất.
 - Lợi ích: Về hành vi: 66.465 tài khoản cá nhân tại một công ty môi giới chiết khấu ở Mỹ, giai đoạn 1991–1996 — nhóm quay vòng nhiều nhất đạt 11,4%/năm trong khi cả thị trường 17,9%, và chênh lệch nằm ở chi phí giao dịch vì lợi nhuận trước phí hai nhóm gần như nhau. Một nghiên cứu khác trên khoảng 40 triệu tài khoản cổ phiếu trong 18 tháng từ 7/2014 đến 12/2015: nhóm nhỏ nhất (85% số tài khoản) mất khoảng 28% giá trị danh mục đầu kỳ so với việc nằm im; nhóm lớn nhất (0,5%) được khoảng 31%.
@@ -160,9 +190,11 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 16. Không vay để đầu tư, không dùng đòn bẩy, không mua thứ mình không giải thích được
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-khong-vay-de-dau-tu-khong-dung-don-bay-khong-mua-thu" data-legacy="5-16"></a>
+
 - Chi phí: Không tốn tiền; cái mất là phần lãi "nếu" khi giá lên. Nếu đã dùng ký quỹ thì chi phí thật là lãi vay tính theo ngày trên phần vay, cộng phí giao dịch của phần vay đó.
 - Nói dễ hiểu: Vay để mua chứng khoán thì khi giá giảm tới một mức nhất định, công ty chứng khoán bán chứng khoán của bạn để thu nợ, ở mức giá họ chọn. Khoản lỗ trên giấy thành lỗ thật, và bạn mất quyền chờ giá hồi.
-- Lợi ích: Nghĩa là giá bán do bên cho vay quyết định, không do bạn. Còn nếu vay tiêu dùng để đầu tư: lãi thẻ tín dụng 30,5%–44,5%/năm (mục 7) cao hơn mọi mức lợi suất kỳ vọng hợp lý, nên khoản vay đó phải thắng thị trường mới hòa vốn. Riêng "không mua thứ mình không hiểu" thì không có số: nếu không nói được trong 2 câu sản phẩm kiếm tiền từ đâu, thì đó là chỗ chưa hiểu.
+- Lợi ích: Nghĩa là giá bán do bên cho vay quyết định, không do bạn. Còn nếu vay tiêu dùng để đầu tư: lãi thẻ tín dụng 30,5%–44,5%/năm ([mục 7](05-dung-lang-phi-tien.md#entry-tra-du-du-no-the-moi-thang-neu-buoc-phai-vay-doi)) cao hơn mọi mức lợi suất kỳ vọng hợp lý, nên khoản vay đó phải thắng thị trường mới hòa vốn. Riêng "không mua thứ mình không hiểu" thì không có số: nếu không nói được trong 2 câu sản phẩm kiếm tiền từ đâu, thì đó là chỗ chưa hiểu.
 - Pháp luật Việt Nam: Cơ chế: giao dịch ký quỹ chỉ được thực hiện qua công ty chứng khoán được phép, theo hợp đồng, và nhà đầu tư có nghĩa vụ duy trì tỷ lệ ký quỹ ban đầu cùng tỷ lệ ký quỹ duy trì; khi tỷ lệ duy trì bị phá, công ty chứng khoán được bán chứng khoán trong tài khoản để thu hồi nợ (Thông tư 120/2020/TT-BTC).
 - Mức bằng chứng: C
 - Nguồn: Thông tư 120/2020/TT-BTC ngày 7/10/2020 (giao dịch ký quỹ: nghĩa vụ duy trì tỷ lệ ký quỹ ban đầu và tỷ lệ ký quỹ duy trì theo hợp đồng với công ty chứng khoán) — đọc qua trang giới thiệu của Ủy ban Chứng khoán Nhà nước, xem "Còn treo"; Luật Chứng khoán 54/2019/QH15 Điều 12 khoản 4; biểu phí thẻ tín dụng VIB tra ngày 2/11/2026; trang giới thiệu Thông tư 120/2020/TT-BTC của Ủy ban Chứng khoán Nhà nước: <https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN162139566>.
@@ -170,6 +202,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 17. Phần tiền để dài hạn nên nằm ở quỹ chỉ số, không giao cho một người chọn cổ phiếu
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-phan-tien-de-dai-han-nen-nam-o-quy-chi-so-khong" data-legacy="5-17"></a>
+
 - Chi phí: Không tốn tiền để chọn. Phí quản lý quỹ chỉ số ở Việt Nam khoảng 0,65%/năm (ETF DCVFMVN30), quỹ mở chủ động thường 1,5%–2%/năm (dải phí quản lý quỹ ở Việt Nam là 0,5%–2%). Cái mất: chấp nhận đúng bằng thị trường, không hơn, và chịu cùng mức giảm khi thị trường giảm.
 - Nói dễ hiểu: Quỹ chỉ số mua cả rổ theo chỉ số nên không phụ thuộc một người. Phần chắc chắn tiết kiệm được là phí: 0,65% so với 1,5%. Sau 20 năm, khoản chênh đó ăn mất khoảng 17% số tiền cuối, nếu hai bên sinh lời như nhau trước phí.
 - Lợi ích: Ở Việt Nam: ETF DCVFMVN30 công bố phí quản lý 0,65%/năm; quỹ mở chủ động phổ biến 1,5%–2%/năm trong dải 0,5%–2% mà các công ty quản lý quỹ đang thu. Giả định lợi nhuận trước phí 8%/năm, sau 20 năm quỹ phí 1,5% để lại ít hơn quỹ phí 0,65% khoảng 17% giá trị cuối. Về dữ liệu quốc tế: Fama–French (2010) dùng bootstrap trên quỹ tương hỗ Mỹ và kết luận rất ít quỹ có kỹ năng đủ bù phí; SPIVA 2024 ghi 65% quỹ cổ phiếu lớn chủ động của Mỹ thua S&P 500 trong năm 2024, bình quân 24 năm là 64% — nghĩa là bằng chứng "chủ động thua chỉ số" ở thị trường mới nổi chưa một chiều như ở Mỹ, và sách không hứa điều đó cho Việt Nam.
@@ -179,6 +213,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 18. Cùng một rổ chứng khoán thì quỹ thu phí thấp hơn giữ được nhiều tiền hơn
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-cung-mot-ro-chung-khoan-thi-quy-thu-phi-thap-hon-giu" data-legacy="5-18"></a>
+
 - Chi phí: Không tốn tiền. Thêm 5 phút đọc biểu phí ba dòng: phí quản lý, phí lưu ký, phí mua và bán chứng chỉ quỹ. Cái khó là phí quản lý bị trừ âm thầm vào giá trị tài sản ròng mỗi ngày, không hiện trên sao kê.
 - Nói dễ hiểu: Phí quản lý chênh 1 điểm %/năm nghe nhỏ, nhưng trừ đều mỗi năm nên sau 20 năm làm mất khoảng 18,0% số tiền cuối, sau 30 năm khoảng 25,8%. Cùng một chỉ số thì chọn quỹ phí thấp.
 - Lợi ích: Phép tính: chênh 1 điểm %/năm thì giá trị cuối sau 20 năm thấp hơn 18,0%, sau 30 năm thấp hơn 25,8% (sách tính, giả định hai quỹ sinh lời như nhau trước phí). Mức phí thật ở Việt Nam: ETF DCVFMVN30 0,65%/năm, quỹ mở chủ động 1,5%–2%/năm — chênh 0,85 đến 1,35 điểm %, tương đương 17% đến 29% giá trị cuối sau 20 năm. Ngoài phí quản lý còn phí mua/bán chứng chỉ quỹ và phí lưu ký, nên phải cộng cả ba rồi mới so.
@@ -188,6 +224,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 19. Đừng để một cổ phiếu, một sàn hay một căn nhà quyết định toàn bộ số tiền của bạn
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-dung-de-mot-co-phieu-mot-san-hay-mot-can-nha-quyet" data-legacy="5-19"></a>
+
 - Chi phí: Không tốn tiền. Cái mất là cảm giác "chỉ cần đúng một lần"; thời gian là một buổi mỗi năm rà lại xem tiền đang nằm ở mấy chỗ và mỗi chỗ bao nhiêu.
 - Nói dễ hiểu: Hai tài sản không tăng giảm cùng lúc thì chia tiền ra, mức lãi trung bình không đổi còn dao động nhỏ hơn. Còn dồn hết vào một chỗ thì dao động của chỗ đó chính là toàn bộ rủi ro của bạn.
 - Lợi ích: Kết quả toán học của Markowitz (1952): khi các tài sản không tương quan hoàn toàn, danh mục kết hợp có phương sai nhỏ hơn bình quân gia quyền phương sai từng tài sản trong khi lợi suất kỳ vọng giữ nguyên. Ở Việt Nam có thêm ba tầng "một chỗ": tiền gửi được bảo hiểm tối đa 350 triệu đồng một người tại một tổ chức nhận tiền gửi (từ 13/7/2026), nên gửi 3 tỷ vào một ngân hàng thì 2,65 tỷ nằm ngoài hạn mức; chứng khoán lưu ký tập trung tại Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam nên công ty chứng khoán mất không làm mất cổ phiếu, nhưng tiền bán chưa rút về ngân hàng vẫn là quan hệ với công ty đó; và một căn hộ cho thuê là tài sản không bán được trong 1 tuần.
@@ -197,6 +235,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 20. Bảo hiểm hưu trí tự nguyện ở Việt Nam không có ưu đãi thuế: đừng mua chỉ vì tưởng được giảm thuế
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-bao-hiem-huu-tri-tu-nguyen-o-viet-nam-khong-co-uu" data-legacy="5-20"></a>
+
 - Chi phí: Tiền đóng bị khóa tới tuổi hưu ghi trong hợp đồng; rút trước hạn thì chỉ nhận giá trị hoàn lại, thường thấp hơn số đã đóng. Phần phí quản lý và phí bảo vệ trừ đều hằng năm.
 - Nói dễ hiểu: Ở Việt Nam chưa có tài khoản hưu trí được giảm thuế. Lương 15,5 triệu một tháng, không có người phụ thuộc thì bạn đang nộp thuế 0 đồng, nên chẳng có khoản thuế nào để tiết kiệm thêm.
 - Lợi ích: Không nên mua bảo hiểm hưu trí tự nguyện chỉ vì nghe nói được giảm thuế. Hãy so mức tiền phải đóng, quyền lợi thực nhận, phí và điều kiện rút tiền; nếu sản phẩm đáng mua thì giá trị phải đến từ chính hợp đồng, không từ một ưu đãi thuế không có.
@@ -207,6 +247,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 21. Trả tiền tập theo tháng hoặc theo buổi, chỉ mua gói dài khi đã có một năm đi đều
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-tra-tien-tap-theo-thang-hoac-theo-buoi-chi-mua-goi-dai" data-legacy="5-21"></a>
+
 - Chi phí: Trả theo tháng thì đơn giá mỗi tháng cao hơn gói dài, và mỗi lần đi phải làm thêm một bước: gia hạn hoặc trả tiền. Cái đắt hơn tiền là công tự đánh giá trung thực xem tháng vừa rồi mình đi được mấy buổi.
 - Nói dễ hiểu: Một chuỗi phòng tập đang niêm yết gói 1 tháng 399.000 đồng, gói 6 tháng 1.799.000 đồng. Nếu bạn đi 4 buổi một tháng thì mỗi buổi 99.750 đồng, trong khi gói 6 tháng chỉ đáng khi bạn đi đều thật.
 - Lợi ích: Nghiên cứu của DellaVigna và Malmendier (American Economic Review, 2006) theo dõi **7.752 hội viên** ở **3 câu lạc bộ** trong **3 năm**: người chọn hợp đồng trên **70 USD/tháng** chỉ đến trung bình **4,3 buổi/tháng**, tức hơn **17 USD/buổi**, trong khi thẻ **10 lượt** chỉ **10 USD/buổi**; nhóm này trả thừa trung bình **600 USD** trong thời gian là hội viên. Số của Việt Nam (tra 2/11/2026) cho cùng một phép tính: The New Gym, bảng giá công bố 29/09/2025, niêm yết gói **1 tháng 319.000 đến 399.000 đồng**, gói **6 tháng 1.799.000 đồng** (khoảng **300.000 đồng/tháng**); đóng lẻ 6 tháng theo giá 399.000 là **2.394.000 đồng**, tức gói 6 tháng tiết kiệm **595.000 đồng** — nhưng chỉ khi bạn đi đủ. Đi **4 buổi/tháng** với gói tháng 399.000 là **99.750 đồng/buổi**, đắt hơn nhiều mức giá trị bạn nhận được.
@@ -217,16 +259,20 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 22. Trả tiền trước thì lấy hợp đồng và hóa đơn — phần chưa dùng vẫn là tiền của bạn
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-tra-tien-truoc-thi-lay-hop-dong-va-hoa-don-phan-chua" data-legacy="5-22"></a>
+
 - Chi phí: Không tốn tiền để đòi. Cái mất là thời gian: xin hóa đơn, giữ hợp đồng, viết yêu cầu bằng văn bản, và nếu phải khởi kiện thì thêm án phí cùng vài tháng chờ.
 - Nói dễ hiểu: Việt Nam chưa có luật riêng về tiền trả trước. Cái đang có là: hợp đồng theo mẫu phải công khai trước khi bạn đặt cọc hoặc trả tiền, và nhiều điều khoản bị cấm hẳn.
 - Lợi ích: Khi đóng tiền trước cho khóa học, phòng tập hoặc dịch vụ dài hạn, hợp đồng và hóa đơn giúp bạn chứng minh số tiền đã thanh toán, dịch vụ đã nhận và phần chưa được cung cấp. Hãy yêu cầu xem điều kiện hoàn, hủy, gia hạn trước khi trả tiền.
 - Pháp luật Việt Nam: Ba chỗ dựa thật. **(1) Điều 26 khoản 3 Luật Bảo vệ quyền lợi người tiêu dùng 19/2023/QH15**: hợp đồng theo mẫu phải được **công khai tại trụ sở, địa điểm kinh doanh và trên trang thông tin điện tử, phần mềm ứng dụng** để người tiêu dùng biết nội dung **trước khi giao kết hợp đồng hoặc trước khi thực hiện đặt cọc, thanh toán trước**. **(2) Điều 25** liệt kê những điều khoản không được đưa vào hợp đồng theo mẫu, trong đó có: cho phép doanh nghiệp **đơn phương thay đổi quy định của hợp đồng đã giao kết** (khoản 3), **đơn phương thay đổi điều kiện giao dịch chung mà không quy định quyền chấm dứt cho người tiêu dùng** (khoản 4), **đơn phương quy định người tiêu dùng không thực hiện một hoặc một số trách nhiệm** (khoản 5), **quy định hoặc thay đổi giá tại thời điểm giao hàng** (khoản 6), **thay đổi giá trong quá trình cung cấp dịch vụ liên tục mà không quy định quyền chấm dứt** (khoản 7), **loại trừ trách nhiệm của doanh nghiệp khi bán qua bên thứ ba** (khoản 9), và **tự gia hạn hợp đồng mà không cho người tiêu dùng lựa chọn** (khoản 13). **(3) Điều 10 khoản 1 điểm đ và điểm e** cấm hành vi **không đền bù, trả lại tiền hoặc đổi lại hàng hóa, dịch vụ** khi doanh nghiệp gây nhầm lẫn, hoặc khi hàng hóa **không đúng với đăng ký, thông báo, công bố, niêm yết, quảng cáo, giao kết, cam kết** — đây là căn cứ để đòi lại phần tiền chưa dùng, không phải “tiền đã đóng là của người bán”; thêm **điểm d** cấm hẳn việc **buộc người tiêu dùng thanh toán cho hàng hóa, dịch vụ đã cung cấp mà không có thỏa thuận trước**. Doanh nghiệp có hàng hóa, dịch vụ **số lượng lớn người tiêu dùng mua, sử dụng thường xuyên, liên tục** còn phải **đăng ký hợp đồng theo mẫu với cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng** trước khi dùng (Điều 28 khoản 1), và **Điều 29** buộc phải **cung cấp hóa đơn, chứng từ, tài liệu liên quan đến giao dịch** theo yêu cầu của bạn.
 - Mức bằng chứng: C
 - Nguồn: Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15, Điều 10 khoản 1 điểm d, đ, e; Điều 25 khoản 3, 4, 5, 6, 7, 9, 13; Điều 26 khoản 3; Điều 28 khoản 1; Điều 29 (hiệu lực 1/7/2024), bản ký: <https://moit.gov.vn/upload/2005517/fck/files/Luat_BVQLNTD_2023_a41f1.pdf> — đọc bằng OCR trang 9–10 và 17–19. Chưa mở được Nghị định 55/2024/NĐ-CP quy định chi tiết luật này, xem “Còn treo”.
-- Ghi chú: Bốn bẫy. **(1) “Tiền đã đóng là của người bán” là quan niệm sai phổ biến nhất**: phần dịch vụ chưa dùng vẫn là nghĩa vụ phải hoàn, và Điều 10 khoản 1 điểm e là chỗ để đòi. **(2) Việt Nam không có quy định buộc doanh nghiệp phải ngừng thu tiền trước khi thấy rủi ro**: không có cơ chế “cơ quan quản lý ra lệnh dừng thu” như nhiều bài viết vẫn mô tả, nên phòng ngừa vẫn là đừng đóng nhiều — xem mục 21. **(3) Giấy biên nhận không phải hợp đồng**: phiếu thu tiền mặt ghi “đặt cọc” rất khó đòi vì không ghi phần nào chưa dùng, thời hạn nào, hủy thì sao; phải có hợp đồng hoặc điều kiện giao dịch chung tải về được, kèm hóa đơn. **(4) Đừng hiểu ngược**: mục này không nói “đừng bao giờ trả trước” — trả trước để giữ chỗ, mua gói dài có lợi thật, hoặc đặt cọc mua nhà là chuyện bình thường; cái phải làm là **đóng ít, có giấy, và biết luật đứng về phía mình**.
+- Ghi chú: Bốn bẫy. **(1) “Tiền đã đóng là của người bán” là quan niệm sai phổ biến nhất**: phần dịch vụ chưa dùng vẫn là nghĩa vụ phải hoàn, và Điều 10 khoản 1 điểm e là chỗ để đòi. **(2) Việt Nam không có quy định buộc doanh nghiệp phải ngừng thu tiền trước khi thấy rủi ro**: không có cơ chế “cơ quan quản lý ra lệnh dừng thu” như nhiều bài viết vẫn mô tả, nên phòng ngừa vẫn là đừng đóng nhiều — xem [mục 21](05-dung-lang-phi-tien.md#entry-tra-tien-tap-theo-thang-hoac-theo-buoi-chi-mua-goi-dai). **(3) Giấy biên nhận không phải hợp đồng**: phiếu thu tiền mặt ghi “đặt cọc” rất khó đòi vì không ghi phần nào chưa dùng, thời hạn nào, hủy thì sao; phải có hợp đồng hoặc điều kiện giao dịch chung tải về được, kèm hóa đơn. **(4) Đừng hiểu ngược**: mục này không nói “đừng bao giờ trả trước” — trả trước để giữ chỗ, mua gói dài có lợi thật, hoặc đặt cọc mua nhà là chuyện bình thường; cái phải làm là **đóng ít, có giấy, và biết luật đứng về phía mình**.
 
 ### 23. Đặt 24 giờ trước khi mua món lớn, và đọc điều kiện đổi trả trước khi bấm đặt hàng
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-dat-24-gio-truoc-khi-mua-mon-lon-va-doc-dieu-kien" data-legacy="5-23"></a>
+
 - Chi phí: Không tốn tiền. Món hàng đến tay chậm một ngày. Nếu phải trả hàng thì thường bạn tự trả phí vận chuyển về, và phải giữ nguyên hộp, phụ kiện.
 - Nói dễ hiểu: Luật không cho bạn trả hàng chỉ vì đổi ý. Cái có là: sàn phải công bố điều kiện đổi trả, và nếu thông tin người bán đưa ra thiếu hoặc sai thì bạn được hủy hợp đồng trong 36 ngày.
 - Lợi ích: Về “24 giờ”: đây là **mẹo, không phải kết quả nghiên cứu** — không có thử nghiệm nào đo được số tiền tiết kiệm của một ngày chờ, nên đừng trích nó như một phát hiện khoa học.
@@ -237,6 +283,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 24. Đừng tin giá gạch — giá niêm yết mới là giá thật, con số bị gạch thì không ai bắt phải bán thật
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-dung-tin-gia-gach-gia-niem-yet-moi-la-gia-that-con" data-legacy="5-24"></a>
+
 - Chi phí: Không tốn tiền. Cái mất là vài đợt giảm giá thật mà bạn bỏ qua, và công ghi lại giá thường ngày của những món hay mua để có mốc so sánh của chính mình.
 - Nói dễ hiểu: Con số bị gạch không phải giá đã bán thật. Ở Việt Nam, giá phải niêm yết rõ ràng và không gây nhầm lẫn, còn thông tin về giá phải chính xác. Nên giá bị gạch là chỗ để kiểm tra, không phải chỗ để tin.
 - Lợi ích: Về tâm lý: Tversky và Kahneman (Science, 1974) cho thấy phán đoán bị **neo** vào con số xuất hiện trước, và người ta điều chỉnh từ mốc đó nhưng **không đủ** — nên “999 giảm còn 499” làm bạn ước lượng mức giảm cao hơn thực tế một cách hệ thống.
@@ -247,6 +295,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 25. Mua bảo hiểm thuần bảo vệ; tiền "hoàn lại" và "chia lãi" là phần không được đảm bảo
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-mua-bao-hiem-thuan-bao-ve-tien-hoan-lai-va-chia-lai" data-legacy="5-25"></a>
+
 - Chi phí: Hợp đồng thuần bảo vệ không trả lại tiền nếu không có sự kiện bảo hiểm; đó là cái giá phải chấp nhận, và là lý do phí của nó thấp hơn hẳn hợp đồng có yếu tố tiết kiệm.
 - Nói dễ hiểu: Tiền chia lãi và tiền hoàn lại không phải cam kết của công ty bảo hiểm. Hợp đồng phải ghi rõ quyền lợi nào có đảm bảo, quyền lợi nào không. Phần phí bạn trả thêm để được nhận lại tiền là một khoản gửi có phí, không phải bảo hiểm.
 - Lợi ích: Khi mua bảo hiểm, hãy yêu cầu bảng minh họa ghi riêng quyền lợi được đảm bảo và phần chỉ là dự kiến. Giá trị hoàn lại khi hủy sớm có thể thấp hơn nhiều khoản đã đóng, nên cần xem từng năm trước khi ký hợp đồng.
@@ -257,6 +307,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 26. Bảo hiểm bắt buộc xe máy chỉ trả 150 triệu một người và 50 triệu tài sản; phần vượt bạn tự trả
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-bao-hiem-bat-buoc-xe-may-chi-tra-150-trieu-mot-nguoi" data-legacy="5-26"></a>
+
 - Chi phí: 60.000 đồng một năm cho xe mô tô hai bánh từ 50cc trở lên; xe dưới 50cc và xe máy điện 55.000 đồng; ô tô không kinh doanh dưới 6 chỗ 437.000 đồng. Muốn che phần vượt thì phải mua thêm bảo hiểm tự nguyện, tính riêng.
 - Nói dễ hiểu: Bảo hiểm bắt buộc trả tối đa 150 triệu cho một người bị thương hoặc chết, và 50 triệu cho tài sản, trong một vụ. Tòa có thể buộc bồi thường cao hơn hai mức đó, phần vượt do bạn tự trả.
 - Lợi ích: Nghĩa là 60.000 đồng mua được 150 triệu hạn mức, tức 1 đồng phí đổi 2.500 đồng bảo vệ — món rẻ nhất trong chương này, nhưng trần của nó thấp: một vụ chết người có thể vượt 150 triệu rất xa.
@@ -267,24 +319,30 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 27. Để riêng ba đến sáu tháng chi tiêu, ở chỗ rút được trong ngày
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-de-rieng-ba-den-sau-thang-chi-tieu-o-cho-rut-duoc" data-legacy="5-27"></a>
+
 - Chi phí: Không tốn tiền; cái mất là phần lãi cao hơn của khoản này. Nếu chi 20 triệu đồng một tháng thì phải để riêng 60 đến 120 triệu, và số đó phải nằm ngoài mọi kế hoạch đầu tư.
 - Nói dễ hiểu: Để riêng 3 đến 6 tháng chi tiêu ở nơi rút được trong ngày, thường là tiết kiệm online hoặc quỹ thị trường tiền tệ. Có khoản này thì mất việc hay ốm bạn không phải rút thẻ tín dụng chịu lãi 30,5% một năm.
-- Lợi ích: Mốc 3 đến 6 tháng là quy ước, không phải kết quả nghiên cứu; tính theo chi tiêu cố định, không theo thu nhập. Hai chỗ để ở Việt Nam: tiền gửi tiết kiệm — được bảo hiểm tối đa 350 triệu đồng một người tại một tổ chức nhận tiền gửi từ 13/7/2026, rút trước hạn vẫn hưởng lãi không kỳ hạn; và quỹ mở thị trường tiền tệ — thanh khoản thường 1 đến 2 ngày làm việc, nhưng không có bảo hiểm tiền gửi. So chi phí: lãi thẻ tín dụng 30,5%–44,5%/năm (mục 7) so với lãi tiết kiệm 12 tháng 5,2%/năm, chênh khoảng 25 điểm %/năm — nghĩa là vay thẻ để bắc cầu trong lúc chờ bán tài sản là khoản lỗ chắc chắn.
+- Lợi ích: Mốc 3 đến 6 tháng là quy ước, không phải kết quả nghiên cứu; tính theo chi tiêu cố định, không theo thu nhập. Hai chỗ để ở Việt Nam: tiền gửi tiết kiệm — được bảo hiểm tối đa 350 triệu đồng một người tại một tổ chức nhận tiền gửi từ 13/7/2026, rút trước hạn vẫn hưởng lãi không kỳ hạn; và quỹ mở thị trường tiền tệ — thanh khoản thường 1 đến 2 ngày làm việc, nhưng không có bảo hiểm tiền gửi. So chi phí: lãi thẻ tín dụng 30,5%–44,5%/năm ([mục 7](05-dung-lang-phi-tien.md#entry-tra-du-du-no-the-moi-thang-neu-buoc-phai-vay-doi)) so với lãi tiết kiệm 12 tháng 5,2%/năm, chênh khoảng 25 điểm %/năm — nghĩa là vay thẻ để bắc cầu trong lúc chờ bán tài sản là khoản lỗ chắc chắn.
 - Mức bằng chứng: C
 - Nguồn: Thông tư 05/2026/TT-NHNN quy định hạn mức chi trả tiền bảo hiểm của Bảo hiểm tiền gửi Việt Nam — 350 triệu đồng từ 13/7/2026 (xem "Còn treo": chưa mở bản ký, đọc qua Cổng TTĐT Chính phủ và VOV2); lãi suất tiết kiệm 12 tháng tra ngày 1/11/2026; biểu phí thẻ tín dụng VIB tra ngày 2/11/2026; bài về hạn mức bảo hiểm tiền gửi: <https://vov2.vov.vn/phap-luat/nhung-dieu-nguoi-gui-tien-can-biet-ve-han-muc-bao-hiem-tien-gui-60925.vov2>.
 - Ghi chú: Bốn chỗ hay sập. **(1) Đừng để quỹ dự phòng trong cổ phiếu hoặc chứng chỉ quỹ cổ phiếu**: cần tiền đúng lúc thị trường giảm là lúc phải bán lỗ. **(2) Chia nhiều sổ trong cùng một ngân hàng không tăng hạn mức bảo hiểm** — hạn mức tính theo từng người tại từng tổ chức, gộp cả gốc và lãi. **(3) Quỹ thị trường tiền tệ không được bảo hiểm tiền gửi** và có thể lỗ nhẹ; đừng gọi nó là "tiết kiệm". **(4) Đừng hiểu ngược**: mục này không nói để càng nhiều càng tốt; ba đến sáu tháng là mức tối thiểu cho người làm công ăn lương, và không ai cần giữ hai năm chi tiêu trong tài khoản không lãi.
 
 ### 28. Trước khi trả trước hạn khoản vay mua nhà, hãy so lãi vay với lãi tiết kiệm
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-truoc-khi-tra-truoc-han-khoan-vay-mua-nha-hay-so-lai" data-legacy="5-28"></a>
+
 - Chi phí: Không tốn tiền, mất khoảng 30 phút tính. Phải đọc hợp đồng tín dụng tìm phí trả nợ trước hạn. Biểu phí công bố của một ngân hàng nước ngoài tại Việt Nam: năm 1 là 3%, năm 2 là 2%, năm 3 là 1%, từ năm 5 miễn phí.
 - Nói dễ hiểu: Trả trước hạn là kiếm chắc đúng lãi suất vay. Lãi vay thả nổi đang 11% đến 15%/năm, lãi tiết kiệm 12 tháng 5,9%/năm. Chênh 5,1 đến 9,1 điểm %/năm, nên khoản vay lớn thì trả trước thắng, trừ khi phí phạt ăn hết phần chênh.
 - Lợi ích: Bài toán một dòng: gọi lãi vay là r, lợi suất chắc chắn bạn có là g. Trả trước thu được đúng r, không rủi ro; nếu g lớn hơn r thì để tiền lại, nếu g nhỏ hơn r hoặc g không đo được thì trả trước. Số tháng 11/2026: vay thế chấp mua nhà công bố 5,5%–14,8%/năm, lãi thả nổi phổ biến 11%–15%/năm; tiết kiệm 12 tháng tại ngân hàng lớn 5,9%/năm. Chênh 5,1 đến 9,1 điểm %/năm: trên 1 tỷ đồng còn nợ là 51 đến 91 triệu đồng một năm, lớn hơn phí trả trước hạn thường 1%–3% trên số tiền trả trước, chỉ thu một lần — nhưng mức này khác nhau theo ngân hàng và theo năm, phải đọc biểu phí của chính khoản vay bạn. Ngược lại, nếu bạn còn trong giai đoạn ưu đãi 5,5%–7%/năm thì so với 5,9% gửi tiết kiệm chênh chỉ còn từ âm 0,4 đến 1,1 điểm %/năm, và để tiền lại hợp lý hơn.
 - Mức bằng chứng: B
 - Nguồn: VPBank, "Lãi suất cho vay ngân hàng mới nhất 11/2026" (vay thế chấp 5,5%–14,8%/năm), tra ngày 2/11/2026: <https://www.vpbank.com.vn/bi-kip-va-chia-se/retail-story-and-tips/loans-category/lai-suat-vay-ngan-hang-moi-nhat-hien-nay-cap-nhat-12-2022>; lãi suất tiết kiệm 12 tháng 5,9%/năm (Vietcombank, bảng tháng 10/2026, tổng hợp tại topi.vn), tra ngày 2/11/2026; phí trả nợ trước hạn: dải **1%–3%** là mức phổ biến trên thị trường, giảm dần theo năm; trang lãi suất cho vay của Hong Leong Bank Việt Nam (<https://www.hlbank.com.vn/vi/help-and-support/interest-rates/loan-interest-rates.html>, tra 2/11/2026) **không công bố biểu phí trả trước hạn** — phải xem biểu phí riêng của khoản vay, nên con số trong mục chỉ là dải tham khảo, xem "Còn treo"; dải lãi thả nổi 11%–15% lấy từ báo chí tháng 4/2026 — xem "Còn treo".
-- Ghi chú: Bốn chỗ hay sập. **(1) Phí trả nợ trước hạn nằm trong hợp đồng tín dụng, không nằm trong bảng lãi suất**, và phần lớn miễn sau 3–5 năm, nên trả quá sớm có khi đắt hơn chờ. **(2) Trả sạch tiền rồi thiếu tiền mặt là lỗi phổ biến nhất**: luôn giữ quỹ dự phòng (mục 27) trước khi trả. **(3) Lãi thả nổi sẽ đổi**, nên phép so này phải làm lại mỗi năm; hợp đồng có thể có điều chỉnh lãi theo quý. **(4) Đừng hiểu ngược**: mục này không nói cứ trả trước là đúng — nếu lãi vay thấp hơn lợi suất chắc chắn bạn có, hoặc bạn cần tiền cho việc khác, giữ khoản vay là quyết định đúng.
+- Ghi chú: Bốn chỗ hay sập. **(1) Phí trả nợ trước hạn nằm trong hợp đồng tín dụng, không nằm trong bảng lãi suất**, và phần lớn miễn sau 3–5 năm, nên trả quá sớm có khi đắt hơn chờ. **(2) Trả sạch tiền rồi thiếu tiền mặt là lỗi phổ biến nhất**: luôn giữ quỹ dự phòng ([mục 27](05-dung-lang-phi-tien.md#entry-de-rieng-ba-den-sau-thang-chi-tieu-o-cho-rut-duoc)) trước khi trả. **(3) Lãi thả nổi sẽ đổi**, nên phép so này phải làm lại mỗi năm; hợp đồng có thể có điều chỉnh lãi theo quý. **(4) Đừng hiểu ngược**: mục này không nói cứ trả trước là đúng — nếu lãi vay thấp hơn lợi suất chắc chắn bạn có, hoặc bạn cần tiền cho việc khác, giữ khoản vay là quyết định đúng.
 
 ### 29. Mua theo điều kiện đổi trả và hóa đơn, đừng mua theo lời người bán và số sao đánh giá
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-mua-theo-dieu-kien-doi-tra-va-hoa-don-dung-mua-theo" data-legacy="5-29"></a>
+
 - Chi phí: Không tốn tiền. Cái mất là vài phút đọc điều kiện đổi trả, và thói quen chụp lại trang sản phẩm cùng hội thoại trước khi trả tiền.
 - Nói dễ hiểu: Việt Nam không có mức bồi thường gấp ba lần. Cái bạn đòi được là thiệt hại thật; còn việc gỡ hàng và xử phạt người bán là trách nhiệm của sàn và cơ quan chức năng. Nên chỗ dựa là điều kiện đổi trả và hóa đơn.
 - Lợi ích: Đọc điều kiện đổi trả và giữ hóa đơn, mô tả sản phẩm, lịch sử thanh toán để có cơ sở yêu cầu xử lý khi hàng không đúng cam kết. Đừng mặc định đánh giá năm sao là thật hoặc đặt cọc sẽ được hoàn tự động.
@@ -295,6 +353,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 30. Hàng mua trong livestream có vấn đề: đòi nền tảng cho tên và địa chỉ người bán trước, rồi mới làm gì khác
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-hang-mua-trong-livestream-co-van-de-doi-nen-tang-cho-ten" data-legacy="5-30"></a>
+
 - Chi phí: Không tốn tiền. Một tin nhắn cho bộ phận chăm sóc khách hàng của nền tảng, nêu mã đơn và yêu cầu cung cấp thông tin người bán.
 - Nói dễ hiểu: Từ 1/7/2026, nền tảng phải công khai tên và địa chỉ người bán, và phải xác thực danh tính người livestream trước khi cho họ bán. Nghĩa là chỗ để tìm người chịu trách nhiệm không còn là màn hình livestream.
 - Lợi ích: Nếu hàng mua qua livestream gặp vấn đề, việc xác định người bán và lưu chứng cứ giao dịch giúp bạn có đầu mối để yêu cầu đổi trả, bồi thường hoặc khiếu nại. Hãy giữ mã đơn, thông tin người livestream và ảnh chụp mô tả sản phẩm ngay từ lúc mua.
@@ -305,6 +365,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 31. Thực phẩm không an toàn: đòi lại tiền và đòi chi phí điều trị — Việt Nam không có mức phạt gấp bội cho người mua
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-thuc-pham-khong-an-toan-doi-lai-tien-va-doi-chi-phi" data-legacy="5-31"></a>
+
 - Chi phí: Không tốn tiền. Cái mất là phải giữ nguyên hiện trường: thức ăn còn lại, vỏ hộp, hóa đơn, ảnh chụp có ngày giờ; nếu có triệu chứng thì đi khám và giữ giấy tờ điều trị.
 - Nói dễ hiểu: Luật Việt Nam không có mức đền gấp nhiều lần giá trị món hàng, cũng không có mức sàn cố định. Cái chắc chắn là: cơ sở gây ngộ độc phải trả toàn bộ chi phí điều trị, cộng bồi thường thiệt hại thật.
 - Lợi ích: Về tiền, phần lớn khoản đòi được là **chi phí điều trị, thu nhập bị mất, chi phí khắc phục** — nghĩa là phải có giấy tờ mới quy ra được số.
@@ -315,6 +377,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 32. Mua đồ lớn thì tra công bố hợp quy và nhãn năng lượng trước, đừng chỉ so giá
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-mua-do-lon-thi-tra-cong-bo-hop-quy-va-nhan-nang" data-legacy="5-32"></a>
+
 - Chi phí: Không tốn tiền. Vài phút đọc nhãn và hỏi người bán giấy công bố hợp quy trước khi trả tiền.
 - Nói dễ hiểu: Việt Nam không có dấu “3C” của nước ngoài mà chỉ có dấu hợp quy. Cái tương ứng là chứng nhận hợp quy và dấu hợp quy, cộng nhãn năng lượng bắt buộc trên tủ lạnh, máy giặt, điều hòa, nồi cơm điện, quạt, tivi, bếp từ.
 - Lợi ích: Cách dùng: trước khi trả tiền, xem **dấu hợp quy** trên tem/nhãn và **nhãn năng lượng** có số sao; thiếu một trong hai thì đó là chỗ để hỏi, và câu trả lời “hàng mới chưa kịp dán” là câu trả lời xấu.
@@ -325,6 +389,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 33. Đồng hồ, đá quý, đồ chơi sưu tầm: tính bằng tiền đã ra khỏi túi, không bằng "giá trị sau này"
 <!-- nhãn: tiền=nhiều thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-dong-ho-da-quy-do-choi-suu-tam-tinh-bang-tien-da" data-legacy="5-33"></a>
+
 - Chi phí: Tiền mua, và khi bán lại thì không có giá niêm yết nào để dựa vào: không sàn, không chỉ số, không đại lý công bố giá thu hồi.
 - Nói dễ hiểu: Không có bảng giá bán lại cho đồng hồ, đá quý hay đồ chơi, nên thứ duy nhất đếm được là số tiền bạn đã trả. Riêng vàng miếng, từ năm 2026 bán ra đã thuộc diện thu nhập chịu thuế.
 - Lợi ích: Cách tính đúng chỉ có một dòng: tiền đã trả trừ tiền bán lại được; chưa bán được thì chi phí thật đúng bằng số tiền đã trả.
@@ -335,6 +401,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 34. Hộp mù, quay thẻ: tính luôn khoản tiền đó là tiền đã tiêu, không phải tiền mua tài sản
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-hop-mu-quay-the-tinh-luon-khoan-tien-do-la-tien-da" data-legacy="5-34"></a>
+
 - Chi phí: Tiền mỗi lần mở, và mỗi lần "suýt trúng" là một lần nạp thêm. Cái mất thêm là niềm tin rằng lần sau sẽ ra món mình muốn.
 - Nói dễ hiểu: Việt Nam chưa có luật riêng cho bán hàng ngẫu nhiên, nên không ai bắt buộc phải công bố tỷ lệ ra đồ hiếm. Chỉ còn cách coi mỗi lần mở là tiền đã tiêu, và đặt trần trước khi mở.
 - Lợi ích: Hộp mù nên được tính là tiền tiêu dùng giải trí, không phải đầu tư hay quà tặng sẽ tăng giá. Giữ ảnh thông tin sản phẩm, tỉ lệ được công bố và chứng từ mua hàng nếu cần phản ánh thông tin sai lệch.
@@ -345,6 +413,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 35. Muốn biết trong đồ ăn có gì thì mua loại đóng gói sẵn — hàng bán rời không có nhãn để đọc
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-muon-biet-trong-do-an-co-gi-thi-mua-loai-dong-goi" data-legacy="5-35"></a>
+
 - Chi phí: Không tốn tiền. Cùng một món, loại đóng gói sẵn thường đắt hơn loại bán cân một chút, và mất vài giây đọc phần thành phần in trên bao bì.
 - Nói dễ hiểu: Nhãn hàng hóa bắt buộc ghi tên hàng, tên và địa chỉ bên chịu trách nhiệm, xuất xứ; với thực phẩm còn phải ghi thành phần. Hàng bán rời không có nhãn thì không có gì để đọc, và “không ghi” không có nghĩa là “không có”.
 - Lợi ích: Đọc danh sách thành phần và các thông tin bắt buộc trên nhãn giúp bạn nhận biết sản phẩm có phù hợp với nhu cầu hay không. Với hàng bán rời không có nhãn, cần hỏi thêm người bán và không nên tự kết luận rằng sản phẩm không có chất phụ gia.
@@ -355,6 +425,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 36. Cắt lỗ theo quy tắc viết trước, không bình quân giá xuống để "gỡ"
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-cat-lo-theo-quy-tac-viet-truoc-khong-binh-quan-gia-xuong" data-legacy="5-36"></a>
+
 - Chi phí: Không tốn tiền để viết quy tắc; mỗi lần bán chịu thuế 0,1% giá trị và phí môi giới. Cái khó là chấp nhận rằng khoản lỗ đã xảy ra, và bán khi lý do mua không còn đúng.
 - Nói dễ hiểu: Người ta có xu hướng bán cái đang lãi và giữ cái đang lỗ. Trong 10.000 tài khoản ở Mỹ, cổ phiếu lãi bị bán nhiều hơn cổ phiếu lỗ khoảng 50%. Nhưng nhóm cổ phiếu bị giữ lại đó, một năm sau, lại kém nhóm đã bán 3,4 điểm %.
 - Lợi ích: Odean (1998) dùng 10.000 tài khoản tại một công ty môi giới chiết khấu ở Mỹ, giai đoạn 1987–1993: tỷ lệ bán cổ phiếu đang lãi là 0,148 so với 0,098 ở cổ phiếu đang lỗ, chênh 0,050 với t lớn hơn 35 — quy ra xác suất thì cổ phiếu lãi bị bán cao hơn khoảng 50%. Cùng nhóm nhà đầu tư mua lại cổ phiếu lỗ nhiều hơn (0,135 so với 0,094). Kiểm chứng niềm tin "giữ rồi sẽ hồi": cổ phiếu lãi bị bán có lợi suất vượt thị trường một năm sau cao hơn cổ phiếu lỗ được giữ khoảng 3,4 điểm %.
@@ -365,6 +437,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 37. Muốn nắm cổ phiếu nước ngoài thì đi qua quỹ trong nước, đừng mở tài khoản ở công ty chứng khoán nước ngoài
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-muon-nam-co-phieu-nuoc-ngoai-thi-di-qua-quy-trong-nuoc" data-legacy="5-37"></a>
+
 - Chi phí: Không tốn tiền để kiểm tra. Cái mất: phí quản lý quỹ, ít lựa chọn hơn, và nhiều quỹ nội địa chỉ đầu tư trong nước nên phải đọc điều lệ quỹ trước khi mua.
 - Nói dễ hiểu: Việt Nam không có kênh QDII và cũng không có cổng mua cổ phiếu Hong Kong. Cá nhân chỉ đi được qua chứng chỉ quỹ của công ty quản lý quỹ trong nước, và chỉ quỹ nào điều lệ cho phép đầu tư ra nước ngoài mới mua được cổ phiếu nước ngoài.
 - Lợi ích: Muốn phân tán tài sản ra nhiều thị trường, cần phân biệt quỹ được phép đầu tư ra nước ngoài với việc tự nạp tiền vào một nền tảng giao dịch nước ngoài. Không phải mọi kênh quảng cáo là quốc tế đều có cơ chế bảo vệ nhà đầu tư tại Việt Nam.
@@ -375,6 +449,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 38. Chỉ mua bảo hiểm cho khoản mất mát bạn không tự trả nổi; khoản nhỏ để quỹ khẩn cấp lo
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-chi-mua-bao-hiem-cho-khoan-mat-mat-ban-khong-tu-tra" data-legacy="5-38"></a>
+
 - Chi phí: Phí bảo hiểm mỗi năm, và phần lớn phí không quay lại: nó trả cho quỹ bồi thường, cho bộ máy bán hàng và cho lợi nhuận của doanh nghiệp.
 - Nói dễ hiểu: Bảo hiểm là đổi một khoản nhỏ chắc chắn mất, lấy một khoản lớn có thể mất. Khoản vài trăm nghìn bạn tự trả được thì mua bảo hiểm là lỗ. Khoản làm bạn phải vay nợ, bán nhà hay dừng cho con đi học thì nên mua.
 - Lợi ích: Ví dụ có số thật để so: bảo hiểm bắt buộc xe máy **60.000 đồng/năm** đổi lấy hạn mức **150 triệu đồng/người/vụ** (Nghị định 67/2023/NĐ-CP Điều 6 và Phụ lục I) — 1 đồng phí mua 2.500 đồng bảo vệ, đây là loại nên mua. Ngược lại, bảo hiểm cho một món đồ bạn mua lại được là loại nên bỏ, vì phí chắc chắn mất còn rủi ro thì nhỏ. Tiêu chí duy nhất: khoản mất mát đó có làm bạn phải đi vay, phải bán tài sản, hay phải cắt chi tiêu thiết yếu của con không.
@@ -384,6 +460,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 39. Người đang nuôi nhà phải mua bảo hiểm tử kỳ trước, không phải mua cho con trước
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-nguoi-dang-nuoi-nha-phai-mua-bao-hiem-tu-ky-truoc-khong" data-legacy="5-39"></a>
+
 - Chi phí: Phí một năm, tùy tuổi và số tiền bảo hiểm; phải kê khai sức khỏe trung thực, và mất khoảng nửa ngày cho khám và giấy tờ.
 - Nói dễ hiểu: Bảo hiểm tử kỳ chỉ trả khi người được bảo hiểm chết trong thời hạn, và không có tiền hoàn lại. Người mà mất đi thì cả nhà hụt thu nhập mới là người cần mua trước. Con nhỏ không tạo ra thu nhập nào để bù vào.
 - Lợi ích: Bảo hiểm nhân thọ thuần bảo vệ có ích nhất khi gia đình đang phụ thuộc vào thu nhập của người được bảo hiểm. Cần chọn số tiền bảo vệ và người thụ hưởng rõ ràng, đọc kỹ điều kiện loại trừ thay vì chỉ nhìn lời hứa hoàn phí.
@@ -394,6 +472,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 40. Hợp đồng bảo hiểm trên một năm có 21 ngày cân nhắc: hủy trong hạn thì lấy lại được phần lớn phí
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-hop-dong-bao-hiem-tren-mot-nam-co-21-ngay-can-nhac" data-legacy="5-40"></a>
+
 - Chi phí: Không tốn tiền để hủy. Cái mất là công đọc hợp đồng trong 21 ngày đó; và nếu hủy thì bị trừ "chi phí hợp lý" theo thỏa thuận, nên không phải lúc nào cũng lấy lại đủ.
 - Nói dễ hiểu: Hợp đồng bảo hiểm trên 01 năm có 21 ngày cân nhắc, tính từ ngày bạn nhận hợp đồng. Hủy trong hạn thì được hoàn phí đã đóng sau khi trừ chi phí hợp lý. Quá hạn thì chỉ còn giá trị hoàn lại, thường ít hơn nhiều.
 - Lợi ích: Nếu đổi ý sau khi nhận hợp đồng bảo hiểm, cần kiểm tra ngay thời hạn cho phép từ chối tiếp tục và khoản chi phí có thể bị khấu trừ. Khi hết thời hạn này, số tiền nhận lại phụ thuộc điều kiện giá trị hoàn lại trong hợp đồng.
@@ -404,16 +484,20 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 41. Ký ở quầy ngân hàng: xem bìa là hợp đồng bảo hiểm hay sổ tiết kiệm, trước khi đặt bút
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-ky-o-quay-ngan-hang-xem-bia-la-hop-dong-bao-hiem" data-legacy="5-41"></a>
+
 - Chi phí: Không tốn tiền. Mất 2 phút đọc tên đơn vị phát hành trên bìa và hỏi một câu: "giấy này của ngân hàng hay của công ty bảo hiểm".
 - Nói dễ hiểu: Ngân hàng được bán bảo hiểm, nhưng phải nói rõ đó không phải sản phẩm của ngân hàng. Giấy tờ phải ghi bạn tham gia tự nguyện, không bị ép. Bìa ghi tên công ty bảo hiểm thì tiền đó không phải tiền gửi.
 - Lợi ích: Khi ngân hàng giới thiệu bảo hiểm, cần phân biệt rõ đó là sản phẩm của doanh nghiệp bảo hiểm, không phải tài khoản tiết kiệm hay sản phẩm tiền gửi của ngân hàng. Đòi bảng minh họa quyền lợi, phí và xác nhận rằng việc tham gia là tự nguyện.
 - Pháp luật Việt Nam: **Thông tư 37/2019/TT-NHNN** (hiệu lực 2/3/2020) **Điều 6 khoản 2 điểm a**: tổ chức tín dụng phải "giải thích cho khách hàng các sản phẩm bảo hiểm được phân phối thông qua tổ chức tín dụng **không phải là sản phẩm của tổ chức tín dụng**"; **Điều 3 khoản 2**: không được dùng phí bảo hiểm thu được cho mục đích khác ngoài thỏa thuận trong hợp đồng đại lý. **Thông tư 67/2023/TT-BTC Điều 30 khoản 1**: khi tham gia bảo hiểm qua đại lý là tổ chức tín dụng, phần xác nhận của người mua **phải có thêm nội dung tham gia trên cơ sở tự nguyện, không bị ép buộc**; **Điều 29 khoản 4**: tài liệu minh họa bán hàng phải có xác nhận của người mua là đã được tư vấn đầy đủ và hiểu rõ nội dung.
 - Mức bằng chứng: B
 - Nguồn: Thông tư 37/2019/TT-NHNN, Điều 3 khoản 2 và Điều 6 khoản 2 điểm a; hiệu lực 2/3/2020; bản ký: <https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/03/37-nhnn.pdf> (tra 2/11/2026). Thông tư 67/2023/TT-BTC, Điều 29 khoản 4 và Điều 30 khoản 1, bản ký (OCR, tra 2/11/2026).
-- Ghi chú: Ba bẫy. **(1) Câu "em gửi cho chị gói này lãi cao hơn tiết kiệm" là chỗ tráo hàng**: hỏi tên đơn vị phát hành, và đòi xem giấy có chữ "hợp đồng bảo hiểm" hay không. **(2) Tiền đã đóng phí không nằm trong sổ tiết kiệm**: muốn lấy lại chỉ nhận giá trị hoàn lại, và chỉ trong 21 ngày đầu mới gần như đủ (xem mục 40). **(3) Người lớn tuổi là đối tượng bị đẩy mạnh nhất**, nên đi cùng và đọc bìa trước khi họ ký, đừng để họ tự ký rồi về nhà mới đưa giấy cho xem. **Đừng hiểu ngược:** ngân hàng bán bảo hiểm không có nghĩa là mọi thứ ở quầy đều là bảo hiểm — tiền gửi thật vẫn có; việc cần làm là đọc tên đơn vị phát hành, không phải từ chối mọi giao dịch ở quầy.
+- Ghi chú: Ba bẫy. **(1) Câu "em gửi cho chị gói này lãi cao hơn tiết kiệm" là chỗ tráo hàng**: hỏi tên đơn vị phát hành, và đòi xem giấy có chữ "hợp đồng bảo hiểm" hay không. **(2) Tiền đã đóng phí không nằm trong sổ tiết kiệm**: muốn lấy lại chỉ nhận giá trị hoàn lại, và chỉ trong 21 ngày đầu mới gần như đủ (xem [mục 40](05-dung-lang-phi-tien.md#entry-hop-dong-bao-hiem-tren-mot-nam-co-21-ngay-can-nhac)). **(3) Người lớn tuổi là đối tượng bị đẩy mạnh nhất**, nên đi cùng và đọc bìa trước khi họ ký, đừng để họ tự ký rồi về nhà mới đưa giấy cho xem. **Đừng hiểu ngược:** ngân hàng bán bảo hiểm không có nghĩa là mọi thứ ở quầy đều là bảo hiểm — tiền gửi thật vẫn có; việc cần làm là đọc tên đơn vị phát hành, không phải từ chối mọi giao dịch ở quầy.
 
 ### 42. Muốn hủy hợp đồng thì tự làm với công ty bảo hiểm; đừng trả tiền cho dịch vụ "đòi lại phí"
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-muon-huy-hop-dong-thi-tu-lam-voi-cong-ty-bao-hiem" data-legacy="5-42"></a>
+
 - Chi phí: Không tốn tiền nếu tự làm: một cuộc gọi tới số trên hợp đồng và một lần ra văn phòng. Dịch vụ ngoài thì lấy một phần trong số tiền bạn giành lại được, cộng phí tư vấn thu trước.
 - Nói dễ hiểu: Không có dịch vụ nào lấy lại được toàn bộ phí bảo hiểm cho bạn. Đại lý bị luật cấm xúi khách hủy hợp đồng đang có hiệu lực. Muốn phản ánh thì gửi tới Cục Quản lý, giám sát bảo hiểm thuộc Bộ Tài chính.
 - Lợi ích: Nếu gặp lời mời hứa giúp đòi lại toàn bộ phí bảo hiểm, đừng giao giấy tờ hoặc ký đơn khi chưa kiểm tra. Muốn chấm dứt hợp đồng hoặc khiếu nại thì liên hệ trực tiếp doanh nghiệp bảo hiểm và lưu bản sao mọi hồ sơ đã gửi.
@@ -424,6 +508,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 43. Ghi tên người thụ hưởng cụ thể, và nhớ hạn: 1 năm kể từ ngày biết sự kiện bảo hiểm
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-ghi-ten-nguoi-thu-huong-cu-the-va-nho-han-1-nam" data-legacy="5-43"></a>
+
 - Chi phí: Không tốn tiền. Một lần điền khi ký hợp đồng; mỗi lần đổi người thụ hưởng thì phải làm văn bản và gửi công ty bảo hiểm, mất một buổi.
 - Nói dễ hiểu: Người thụ hưởng phải ghi tên cụ thể, đừng ghi "vợ" hay "chồng". Đổi người thụ hưởng mà không báo công ty bảo hiểm thì thay đổi đó không có hiệu lực. Hồ sơ đòi tiền phải nộp trong 1 năm kể từ ngày biết sự kiện.
 - Lợi ích: Người thụ hưởng và thời hạn nộp hồ sơ quyết định tiền bảo hiểm có đến đúng người, đúng lúc hay không. Kiểm tra người được ghi tên trong hợp đồng, lưu nơi cất hợp đồng và hướng dẫn gia đình cách chuẩn bị hồ sơ khi có sự kiện bảo hiểm.
@@ -434,6 +520,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 44. Tiền ảo không phải tiền, và đến nay chưa có sàn nào ở Việt Nam được cấp phép
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-tien-ao-khong-phai-tien-va-den-nay-chua-co-san-nao" data-legacy="5-44"></a>
+
 - Chi phí: Không tốn tiền nếu không mua. Nếu đã có: thời gian bán ra, và với sàn nước ngoài là rủi ro không rút được tiền. Cái mất: phần tăng giá nếu có, mà không ai đo được trước.
 - Nói dễ hiểu: Bitcoin hay USDT không phải tiền hợp pháp ở Việt Nam. Có thí điểm thị trường tài sản mã hóa, nhưng đến nay chưa có tổ chức nào được cấp phép, nên giao dịch vẫn nằm ngoài khuôn khổ có bảo vệ.
 - Lợi ích: Đừng gửi tiền lên nền tảng tài sản mã hóa chỉ vì thấy quảng cáo hoặc có lời giới thiệu từ người quen. Việc nền tảng có được cấp phép và thời điểm quy định bắt đầu áp dụng cần được kiểm tra trên thông báo chính thức trước khi giao dịch.
@@ -444,6 +532,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 45. Không có lương hưu công ty: đóng bảo hiểm xã hội tự nguyện ở mức thấp nhất, đủ 15 năm, khoảng 8 năm là hoàn vốn
 <!-- nhãn: tiền=nhiều thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-khong-co-luong-huu-cong-ty-dong-bao-hiem-xa-hoi-tu" data-legacy="5-45"></a>
+
 - Chi phí: 330.000 đồng một tháng ở mức thấp nhất; nhà nước hỗ trợ 20% nên thực nộp 264.000 đồng một tháng, nhưng chỉ trong tối đa 120 tháng, sau đó đóng đủ 330.000 đồng. Tiền không lấy ra tùy ý được: chỉ rút một lần trong các trường hợp luật định, không phải cứ thiếu tiền là rút.
 - Nói dễ hiểu: Không có lương hưu công ty thì tự đóng, mức thấp nhất 330.000 đồng một tháng, nhà nước bù 20%, còn 264.000 đồng. Đóng đủ 15 năm là đủ điều kiện hưởng. Nữ hưởng 45%, nam đóng 15 năm hưởng 40%.
 - Lợi ích: Hoàn vốn, tính theo tháng thu nhập: đóng 22% × 180 tháng = 39,6 tháng thu nhập; hưởng 45% × 12 tháng = 5,4 tháng thu nhập mỗi năm, nên khoảng **7,3 năm** với nữ đóng 15 năm; nam đóng 15 năm là **8,25 năm**; nam đóng 20 năm là **9,78 năm**. Lương hưu được điều chỉnh tăng hằng năm nên thực tế ngắn hơn các con số này.
@@ -454,6 +544,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 46. Nhận xe mới: kiểm ngay tại chỗ, và biết rằng Việt Nam không có "7 ngày đổi xe"
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-nhan-xe-moi-kiem-ngay-tai-cho-va-biet-rang-viet-nam" data-legacy="5-46"></a>
+
 - Chi phí: Không tốn tiền; khoảng 30 phút kiểm xe ngay lúc nhận, cùng nhân viên giao xe. Nếu phải đòi đổi hoặc trả thì mất vài buổi làm việc với đại lý, và mọi lần đưa xe vào hãng đều phải xin phiếu tiếp nhận.
 - Nói dễ hiểu: Việt Nam không có luật cho đổi xe trong 7 ngày hay 60 ngày. Cái bạn có là bảo hành theo hãng, và quyền đòi hàng mới hoặc trả lại tiền nếu trong thời hạn bảo hành đã sửa 3 lần mà vẫn lỗi.
 - Lợi ích: Nếu sản phẩm đang bảo hành bị sửa nhiều lần mà vẫn lỗi, hãy giữ phiếu tiếp nhận và ngày trả máy của từng lần sửa. Các chứng từ đó giúp chứng minh điều kiện đổi hàng hoặc hoàn tiền khi bên bán không khắc phục được.
@@ -464,6 +556,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 47. Mua xe cũ ở đại lý: đòi lịch sử bảo hiểm, và ghi vào hợp đồng "không đâm, không ngập"
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=không lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-mua-xe-cu-o-dai-ly-doi-lich-su-bao-hiem-va" data-legacy="5-47"></a>
+
 - Chi phí: Tốn tiền cho một buổi kiểm tra xe tại gara hoặc trung tâm đăng kiểm, giá tùy nơi — phải hỏi trước. Thời gian: nửa ngày đi xem và kiểm, cộng công đọc hợp đồng trước khi ký.
 - Nói dễ hiểu: Việt Nam không có mức phạt gấp ba tiền xe. Bị giấu xe đâm hoặc xe ngập, bạn hủy được hợp đồng, lấy lại tiền và đòi bồi thường thiệt hại thật; muốn vậy phải chứng minh người bán biết mà vẫn nói sai, và khởi kiện trong 3 năm.
 - Lợi ích: Khi phát hiện ô tô từng bị tai nạn, ngập nước hoặc có thông tin khác với cam kết lúc mua, việc giữ hợp đồng, quảng cáo, ảnh, kết quả kiểm định và hóa đơn sửa chữa là cơ sở yêu cầu giải quyết thiệt hại. Không nên mặc định sẽ được đền một khoản gấp bội.
@@ -474,6 +568,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 48. Ở đại lý: không trả "phí dịch vụ tài chính", và mua bảo hiểm ở đâu là quyền của bạn
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-o-dai-ly-khong-tra-phi-dich-vu-tai-chinh-va-mua" data-legacy="5-48"></a>
+
 - Chi phí: Không tốn tiền; khoảng 10 phút đọc bảng giá và hợp đồng trước khi ký, và một buổi tự đi đăng ký xe nếu không muốn trả tiền cho đại lý làm dịch vụ.
 - Nói dễ hiểu: Đại lý không được thu khoản bạn chưa thỏa thuận, cũng không được ép mua bảo hiểm hay vay ở chỗ họ. Cái gọi là "phí dịch vụ tài chính" hay "phí hỗ trợ hồ sơ" phải nằm trong hợp đồng và có hóa đơn; không có thì đừng trả.
 - Lợi ích: Khi vay ngân hàng hoặc mua xe, đừng trả phí dịch vụ, bảo hiểm hay hồ sơ chỉ vì nhân viên nói là bắt buộc. Yêu cầu bảng phí, hợp đồng và chứng từ thu tiền chính thức, rồi kiểm tra tên đơn vị nhận tiền trước khi ký.
@@ -484,6 +580,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 49. Bị đưa vào cửa hàng ngoài chương trình: về nhà đòi công ty lữ hành, đừng đòi cửa hàng
 <!-- nhãn: tiền=0 thời-gian=nhiều ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-bi-dua-vao-cua-hang-ngoai-chuong-trinh-ve-nha-doi-cong" data-legacy="5-49"></a>
+
 - Chi phí: Không tốn tiền để khiếu nại. Cái mất là thời gian: giữ hợp đồng, chương trình tour, hóa đơn và ảnh; gửi yêu cầu bằng văn bản cho công ty lữ hành, rồi chờ. Nếu phải khởi kiện thì thêm vài tháng.
 - Nói dễ hiểu: Luật Du lịch cấm nài ép khách mua hàng. Nhưng Việt Nam không có quyền trả hàng trong 30 ngày, cũng không buộc công ty lữ hành ứng tiền trước. Nên đòi qua hợp đồng và qua công ty, không qua cửa hàng.
 - Lợi ích: Nếu tour du lịch đưa bạn đến điểm mua sắm không có trong chương trình hoặc gây sức ép buộc mua, hãy giữ hợp đồng, lịch trình, hóa đơn và gửi yêu cầu giải quyết bằng văn bản cho công ty lữ hành. Khiếu nại sẽ rõ ràng hơn nếu chỉ ra chính xác phần chương trình đã bị thay đổi.
@@ -494,6 +592,8 @@ Mức bằng chứng của chương này khác các chương trước và phải
 
 ### 50. Chỉ mua sản phẩm tìm thấy trong app hoặc website của chính ngân hàng đó
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-chi-mua-san-pham-tim-thay-trong-app-hoac-website-cua-chinh" data-legacy="5-50"></a>
+
 - Chi phí: Không tốn tiền; 5 phút tra tên sản phẩm trong app hoặc website của ngân hàng trước khi ký. Cái khó là nói với người quen ở quầy một câu: "để em tự tra lại đã".
 - Nói dễ hiểu: Sản phẩm ngân hàng bán hợp pháp phải tra được trong app hoặc website của chính ngân hàng. Nhân viên đưa hợp đồng mà tra không thấy, hoặc bảo chuyển tiền vào tài khoản cá nhân, thì đừng ký.
 - Lợi ích: Trước khi mua bảo hiểm hay sản phẩm tài chính được giới thiệu tại ngân hàng, hãy xác minh tên pháp nhân cung cấp, tên người nhận tiền và giấy tờ do bên nào ký. Đừng chấp nhận lời giải thích miệng rằng phải mua thêm một sản phẩm mới được vay.

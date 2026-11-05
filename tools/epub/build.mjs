@@ -7,6 +7,8 @@ import { zip } from '../lib/zip.mjs';
 import { Marked, Tokenizer } from 'marked';
 import { splitLongItems } from '../lib/split-items.mjs';
 import { ROOT, REPO, REPO_BRANCH, SITE, TITLE, read, readBook, gitCommit, buildStamp, stripBackLink } from '../lib/book.mjs';
+import { refs, readCatalog } from '../lib/references.mjs';
+import { registry, validateCitations, annotateCitations, citationNotesMarkdown } from '../lib/citations.mjs';
 
 const OUT = resolve(ROOT, process.argv[2] ?? 'dist/HowToLiveBetter.epub');
 const RELEASE = `${REPO}/releases/download/epub-latest/HowToLiveBetter.epub`;
@@ -19,6 +21,8 @@ const plain = html => html.replace(/<[^>]+>/g, '');
 
 // ---------- Lấy nội dung và danh sách file từ README ----------
 const book = readBook();
+const catalog = readCatalog();
+validateCitations(catalog);
 const { description, frontMd, bookFiles, docFiles } = book;
 const contentsMd = book.contentsMd.replace(/^## (?:Mục lục)/, '# Giới thiệu các chương');
 
@@ -29,6 +33,7 @@ const pages = [
   { file: 'contents.xhtml', src: 'README.md', title: 'Giới thiệu các chương', md: contentsMd },
   ...bookFiles.map((src, i) => ({ file: `ch${String(i + 1).padStart(2, '0')}.xhtml`, src, md: splitLongItems(stripBackLink(read(src))) })),
   ...docFiles.map((src, i) => ({ file: `doc${i + 1}.xhtml`, src, md: splitLongItems(stripBackLink(read(src))) })),
+  { file:'legal-notes.xhtml', src:'legal-notes', title:'Trích dẫn pháp luật đã đối chiếu', md:citationNotesMarkdown(catalog) },
   { file: 'about.xhtml', src: 'README.md', title: 'Thông tin phiên bản', md: aboutMd() },
 ];
 const pageByPath = new Map(pages.map(p => [p.src, p.file]));
@@ -69,13 +74,16 @@ marked.use({
   renderer: {
     heading({ tokens, depth }) {
       const html = this.parser.parseInline(tokens);
-      const id = `h${++headingSeq}`;
+      const n = /^(\d+)\. /.exec(plain(html))?.[1];
+      const entry = depth === 3 && catalog.sections.find(s => s.file === current.src)?.entries.find(e => e.n === n);
+      const law = current.file === 'legal-notes.xhtml' && depth === 3 && registry.references[Number(n)-1];
+      const id = entry ? 'entry-' + entry.id : law ? 'law-' + law.id : `h${++headingSeq}`;
       current.headings.push({ id, depth, text: plain(html) });
       return `<h${depth} id="${id}">${html}</h${depth}>\n`;
     },
     link({ href, title, tokens }) {
       const text = this.parser.parseInline(tokens);
-      const t = title ? ` title="${esc(title)}"` : '';
+      const t = title && !title.startsWith('refs:') ? ` title="${esc(title)}"` : '';
       return `<a href="${esc(rewriteHref(href))}"${t}>${text}</a>`;
     },
     image: () => '',
@@ -84,6 +92,9 @@ marked.use({
 });
 
 function rewriteHref(href) {
+  if (/^#law-/.test(href)) return 'legal-notes.xhtml' + href;
+  const stable = /^#entry-([a-z0-9-]+)$/.exec(href);
+  if (stable && catalog.byId.has(stable[1])) return pageByPath.get(catalog.byId.get(stable[1]).file) + href;
   if (/^(https?:|mailto:|#)/.test(href)) return href;
   const [pathPart, hash] = href.split('#');
   const target = posix.normalize(posix.join(posix.dirname(current.src), pathPart));
@@ -117,7 +128,8 @@ ${body}</body>
 for (const p of pages) {
   current = p;
   p.headings = [];
-  const body = toXhtml(marked.parse(p.md));
+  const annotated = annotateCitations(p.md,p.src,catalog,ref => '#law-' + ref.id);
+  const body = toXhtml(marked.parse(refs.refreshLinks(annotated,catalog,p.src)));
   p.title ??= p.headings[0]?.text ?? p.file;
   p.xhtml = wrap(p.title, `<section epub:type="chapter">\n${body}</section>\n`);
 }

@@ -2,6 +2,7 @@
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
 import { read, readBook } from './lib/book.mjs';
+import { readCatalog } from './lib/references.mjs';
 
 const html = read('index.html');
 const rules = html.match(/\/\/ <reader-rules>[\s\S]*?\/\/ <\/reader-rules>/);
@@ -9,11 +10,7 @@ assert.ok(rules, 'Missing browser reader rules');
 const ctx = { URLSearchParams };
 vm.runInNewContext(rules[0], ctx);
 const { readerFont, readerPosition, readerUrlPosition } = ctx;
-const sections = readBook().bookFiles.map(path => {
-  const md = read(path), chapter = md.match(/^# (\d+)\. (.+)$/m);
-  assert.ok(chapter, path);
-  return { n:chapter[1], entries:[...md.matchAll(/^### (\d+)\. (.+)$/gm)].map(m => ({n:m[1], title:m[2]})) };
-});
+const sections = readCatalog().sections;
 let total = 0;
 for (const s of sections) for (const entry of s.entries) {
   const key = `${s.n}-${entry.n}`;
@@ -47,4 +44,11 @@ assert.equal(readerUrlPosition('', '#e-1-2', fixture), null);
 assert.equal(readerUrlPosition('?view=book','',fixture), null, 'Bare reader view may resume saved position');
 assert.equal(readerUrlPosition('?view=book&chapter=1','#bad',fixture).entry, 'intro');
 assert.equal(readerPosition({},[]).chapter, '');
+const moved = [{n:'2',entries:[{n:'8',title:'Changed title',id:'original',legacy:'1-1'}]}];
+assert.equal(readerPosition({id:'original',chapter:'1',entry:'1-1',title:'Old title',offset:.6},moved).entry,'2-8');
+assert.equal(readerPosition({id:'original',chapter:'1',offset:.6},moved).offset,.6);
+assert.equal(readerUrlPosition('?view=book&chapter=1','#entry-original',moved).chapter,'2');
+assert.equal(readerUrlPosition('?view=book&chapter=1','#e-1-1',moved).entry,'2-8');
+assert.equal(readerUrlPosition('?view=book&chapter=2','#e-2-8',moved).entry,'intro','Unassigned old link must not jump to an unrelated current position');
+assert.equal(readerPosition({id:'deleted',chapter:'2',entry:'2-8'},moved).entry,'intro');
 console.log(`PASS: reader links for ${total} entries in ${sections.length} chapters; bookmark recovery and font bounds`);

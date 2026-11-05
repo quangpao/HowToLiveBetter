@@ -16,6 +16,7 @@ on:
       - selfcheck.html
       - og.png
       - assets/**
+      - data/**
       - book/**
       - docs/*.md
       - tools/**
@@ -27,6 +28,7 @@ on:
       - selfcheck.html
       - og.png
       - assets/**
+      - data/**
       - book/**
       - docs/*.md
       - tools/**
@@ -58,6 +60,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - run: node tools/references.mjs --check
+      - run: node tools/test-references.mjs
       - run: node tools/check-refs.mjs --check
 
   # Kiểm văn phong: độ dài, thuật ngữ nghiên cứu, cách nói trừu tượng. Lý do như trên, job riêng, không chặn phát hành.
@@ -92,6 +96,7 @@ jobs:
         with:
           node-version: 22
       - run: node tools/check-legal.mjs
+      - run: node tools/test-citations.mjs
       - run: node tools/test-check-draft.mjs
       - run: node tools/test-check-legal.mjs
 
@@ -156,6 +161,7 @@ jobs:
 
       - name: HTML một file (offline)
         run: node tools/offline/build.mjs
+      - run: node tools/test-offline.mjs
 
       - name: Bộ thẻ Anki
         run: node tools/anki/build.mjs

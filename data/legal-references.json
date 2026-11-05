@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "references": [
+    {
+      "id": "luat-09-2012-d11",
+      "document": "Luật 09/2012/QH13",
+      "provision": "Điều 11",
+      "title": "Địa điểm cấm hút thuốc lá hoàn toàn",
+      "versionLabel": "Văn bản gốc ngày 18/6/2012",
+      "checkedAt": "2026-11-05",
+      "verificationScope": "Đối chiếu nguyên văn Điều 11 của bản gốc; không phải xác nhận hiệu lực toàn bộ văn bản.",
+      "sourceUrl": "https://vanban.chinhphu.vn/default.aspx?docid=163544&pageid=27160",
+      "sourceLocation": "Điều 11",
+      "quote": "1. Địa điểm cấm hút thuốc lá hoàn toàn trong nhà và trong phạm vi khuôn viên bao gồm:\na) Cơ sở y tế;\nb) Cơ sở giáo dục, trừ các cơ sở quy định tại điểm b khoản 2 Điều này;\nc) Cơ sở chăm sóc, nuôi dưỡng, vui chơi, giải trí dành riêng cho trẻ em;\nd) Cơ sở hoặc khu vực có nguy cơ cháy, nổ cao.\n\n2. Địa điểm cấm hút thuốc lá hoàn toàn trong nhà bao gồm:\na) Nơi làm việc;\nb) Trường cao đẳng, đại học, học viện;\nc) Địa điểm công cộng, trừ các trường hợp quy định tại khoản 1 Điều này và khoản 1 Điều 12 của Luật này.\n\n3. Phương tiện giao thông công cộng bị cấm hút thuốc lá hoàn toàn bao gồm ô tô, tàu bay, tàu điện.",
+      "bindings": [
+        {
+          "entryId": "khong-hut-trong-nha-va-tren-xe-cung-dung-de-khach-hut",
+          "field": "legal",
+          "text": "Luật Phòng, chống tác hại của thuốc lá 09/2012/QH13 Điều 11"
+        }
+      ]
+    },
+    {
+      "id": "nd-90-2026-d24-k1",
+      "document": "Nghị định 90/2026/NĐ-CP",
+      "provision": "Điều 24 khoản 1",
+      "title": "Vi phạm quy định về địa điểm cấm hút thuốc lá",
+      "versionLabel": "Bản ký ngày 30/3/2026",
+      "checkedAt": "2026-11-05",
+      "verificationScope": "Đối chiếu khoản 1 Điều 24 trên bản ký, trang 32; không phải xác nhận hiệu lực toàn bộ văn bản.",
+      "sourceUrl": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/90-ndcp.signed.pdf#page=32",
+      "sourceLocation": "Trang 32, khoản 1 Điều 24",
+      "quote": "1. Phạt tiền từ 200.000 đồng đến 500.000 đồng đối với hành vi hút thuốc lá tại địa điểm có quy định cấm. Trường hợp hút thuốc lá trên tàu bay thực hiện theo quy định về xử phạt vi phạm hành chính trong lĩnh vực hàng không dân dụng.",
+      "bindings": [
+        {
+          "entryId": "khong-hut-trong-nha-va-tren-xe-cung-dung-de-khach-hut",
+          "field": "legal",
+          "text": "Nghị định 90/2026/NĐ-CP, Điều 24 khoản 1"
+        }
+      ]
+    }
+  ]
+}

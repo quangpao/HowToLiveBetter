@@ -8,9 +8,8 @@
 // Không phụ thuộc gói ngoài: .apkg chính là một zip, bên trong là một CSDL SQLite (cấu trúc CSDL kiểu cũ của Anki 2.1, mọi phiên bản Anki đều nhập được)
 // cộng thêm một danh sách media. CSDL ghi bằng node:sqlite có sẵn của Node, zip dùng tools/lib/zip.mjs.
 //
-// Khi nhập lại, Anki nhận "cùng một thẻ" theo guid của ghi chú: nội dung được cập nhật, lịch sử ôn tập được giữ. guid lấy "số chương-số mục",
-// nên chỉ cần thêm mục vào cuối chương (CLAUDE.md vốn đã yêu cầu vậy) là không bị lẫn; khi xóa một mục làm số mục phía sau giảm đều một bậc,
-// thẻ bên người dùng cũ sẽ khớp sang nội dung mới, lịch sử ôn tập lệch theo một mục, cái giá này chấp nhận được.
+// Khi nhập lại, Anki nhận cùng ghi chú theo guid. Mục đã phát hành giữ guid và số ID theo data-legacy cố định,
+// kể cả khi chuyển chương hoặc đổi số hiển thị. Mục mới dùng ID cố định; không tái sử dụng ID hay data-legacy của mục bị xóa.
 // id của bộ thẻ và kiểu ghi chú được viết cứng, cũng để khi nhập lại thì gộp vào đúng bộ thẻ cũ, không tạo bộ mới.
 import { writeFileSync, readFileSync, mkdirSync, mkdtempSync, rmSync } from 'node:fs';
 import { resolve, dirname, join } from 'node:path';
@@ -19,6 +18,7 @@ import { createHash } from 'node:crypto';
 import { DatabaseSync } from 'node:sqlite';
 import { zip } from '../lib/zip.mjs';
 import { ROOT, SITE, TITLE, read, readBook, COST_W, ratioOf, gitCommit, buildStamp } from '../lib/book.mjs';
+import { refs } from '../lib/references.mjs';
 
 const OUT = resolve(ROOT, process.argv[2] ?? 'dist/HowToLiveBetter.apkg');
 const NOW = new Date();
@@ -43,6 +43,8 @@ function parseSection(md) {
     const h = line.match(/^### (\d+)\. (.+)$/);
     if (h) { e = { n: h[1], title: h[2].trim() }; entries.push(e); continue; }
     if (!e) continue;
+    const identity = refs.identity(line);
+    if (identity) { Object.assign(e,identity); continue; }
     const tag = line.match(/^<!--\s*nhãn:\s*(.*?)\s*-->/);
     if (tag) {
       // Nhãn tiếng Việt → tên khóa nội bộ dùng chung với index.html và sync-stats
@@ -64,7 +66,7 @@ const { bookFiles } = readBook();
 const sections = bookFiles.map(f => parseSection(read(f)));
 
 // ---------- Các trường ----------
-const esc = s => String(s ?? '').replace(/\*\*/g, '').replace(/\\([*_])/g, '$1')
+const esc = s => refs.plainText(String(s ?? '')).replace(/\\([*_])/g, '$1')
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const pad = n => String(n).padStart(2, '0');
 const deckName = s => `${TITLE}::${pad(s.sec)} ${s.name}`;
@@ -84,7 +86,7 @@ for (const s of sections) {
       e.lens && `đo bằng ${String(e.lens).replace(/-/g, ' ')}`,
       grade && `bằng chứng ${grade}${dispute ? ' (có tranh luận)' : ''}`,
     ].filter(Boolean).join(' · ');
-    const url = `${SITE}#e-${s.sec}-${e.n}`;
+    const url = `${SITE}#entry-${e.id}`;
     const fields = [
       `Chương ${s.sec} · ${esc(s.name)} · mục ${e.n}`,
       esc(e.title),
@@ -197,9 +199,12 @@ const insCard = db.prepare('INSERT INTO cards VALUES (?, ?, ?, 0, ?, -1, 0, 0, ?
 db.exec('BEGIN');
 for (const { s, e, fields, tags, due } of notes) {
   const sortField = fields[model.sortf];
-  insNote.run(noteId(s.sec, e.n), `hltb-${s.sec}-${e.n}`, MODEL_ID, NOW_S, ` ${tags.join(' ')} `,
+  const legacy = e.legacy?.split('-');
+  const nid = legacy ? noteId(...legacy) : 2000000000000 + parseInt(createHash('sha256').update(e.id).digest('hex').slice(0,10),16);
+  const cid = legacy ? cardId(...legacy) : nid + 2000000000000;
+  insNote.run(nid, e.legacy ? `hltb-${e.legacy}` : `hltb-id-${e.id}`, MODEL_ID, NOW_S, ` ${tags.join(' ')} `,
     fields.join('\x1f'), stripHtml(sortField), csum(sortField));
-  insCard.run(cardId(s.sec, e.n), noteId(s.sec, e.n), deckId(s.sec), NOW_S, due);
+  insCard.run(cid, nid, deckId(s.sec), NOW_S, due);
 }
 db.exec('COMMIT');
 db.close();

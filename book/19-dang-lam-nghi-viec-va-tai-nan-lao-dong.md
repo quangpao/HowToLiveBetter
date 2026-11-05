@@ -10,11 +10,13 @@ Nguyên tắc chung, đúng cho gần hết 24 mục: **luật Việt Nam đặt
 
 Về thang bằng chứng: **cả 24 mục hạng B**. Mỗi mục đứng trên một văn bản đã mở nguyên văn — Bộ luật Lao động, Nghị định 145/2020, Luật An toàn vệ sinh lao động, Luật Bảo hiểm xã hội, và nghị định xử phạt đang hiệu lực. **Không mục nào hạng A** vì không có nghiên cứu Việt Nam nào đo kết cục của việc đòi đúng quyền, và **không mục nào hạng C** vì cả 24 mục đều có câu chữ đọc được. Mức phạt hành chính trong các mục lấy theo nghị định xử phạt vừa được sửa năm 2026.
 
-**Nhóm mục**: **Tiền làm thêm và tiền khi bị cho nghỉ**: mục 1 đến 6 · **Giữ chứng cứ và an toàn thân thể**: mục 7 đến 12 · **Tai nạn lao động và giấy tờ khi ra đi**: mục 13 đến 18 · **Hợp đồng, bảo hiểm, và điều chuyển**: mục 19 đến 24
+**Nhóm mục**: **Tiền làm thêm và tiền khi bị cho nghỉ**: [mục 1 đến 6](19-dang-lam-nghi-viec-va-tai-nan-lao-dong.md#entry-lam-them-gio-ba-muc-150-200-300-va-ba-cai-tran "refs:lam-them-gio-ba-muc-150-200-300-va-ba-cai-tran,phep-nam-12-14-16-ngay-them-01-ngay-moi-05-nam,thu-viec-180-60-30-6-ngay-it-nhat-85-luong-va,bi-cho-nghi-nua-thang-luong-moi-nam-hoac-mot-thang-moi,ba-con-duong-cho-nghi-hop-phap-khong-dap-ung-om-dai,cho-nghi-trai-luat-nhan-lai-viec-02-thang-luong-va-01") · **Giữ chứng cứ và an toàn thân thể**: [mục 7 đến 12](19-dang-lam-nghi-viec-va-tai-nan-lao-dong.md#entry-dung-ky-don-xin-nghi-vi-ly-do-ca-nhan-khi-nguoi "refs:dung-ky-don-xin-nghi-vi-ly-do-ca-nhan-khi-nguoi,giu-chung-cu-truoc-khi-roi-bang-luong-cham-cong-quyet-dinh,kham-suc-khoe-dinh-ky-va-kham-phat-hien-benh-nghe-nghiep,quyen-tu-choi-cong-viec-khong-bao-dam-an-toan-duoc-tra,khai-bao-tai-nan-lao-dong-bao-ngay-trong-ngay-khong-cho,cap-cuu-truoc-giay-to-sau-khong-ai-duoc-bat-nguoi-bi") · **Tai nạn lao động và giấy tờ khi ra đi**: [mục 13 đến 18](19-dang-lam-nghi-viec-va-tai-nan-lao-dong.md#entry-don-vi-khong-dong-bao-hiem-tai-nan-che-do-van-con "refs:don-vi-khong-dong-bao-hiem-tai-nan-che-do-van-con,giam-dinh-muc-suy-giam-5-la-nguong-va-moi-1-doi,chet-do-tai-nan-lao-dong-bon-khoan-tien-va-khoan-thu,bi-bat-nat-o-noi-lam-viec-ghi-lai-truoc-roi-chon,giay-xac-nhan-thoi-viec-14-ngay-va-ba-thu-phai-doi,thue-voi-tro-cap-thoi-viec-phan-dung-luat-khong-tinh-phan") · **Hợp đồng, bảo hiểm, và điều chuyển**: [mục 19 đến 24](19-dang-lam-nghi-viec-va-tai-nan-lao-dong.md#entry-doi-tinh-doi-viec-giu-thoi-gian-dong-dung-rut-bao-hiem "refs:doi-tinh-doi-viec-giu-thoi-gian-dong-dung-rut-bao-hiem,hop-dong-lao-dong-ky-bang-van-ban-truoc-ngay-lam-viec,don-vi-khong-dong-bao-hiem-kiem-so-moi-quy-va-doi,dieu-khoan-phat-vi-pham-trong-hop-dong-lao-dong-ba-khoan,dieu-chuyen-cong-viec-va-giam-luong-60-ngay-85-va-30,lam-qua-cong-ty-cho-thue-lai-12-thang-ky-quy-2")
 
 ### 1. Làm thêm giờ: ba mức 150%, 200%, 300% và ba cái trần quyết định số tiền
 
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-lam-them-gio-ba-muc-150-200-300-va-ba-cai-tran" data-legacy="19-1"></a>
+
 
 - Chi phí: Đòi tiền làm thêm không tốn đồng nào; cái mất nằm ở chính những giờ làm thêm: 40 giờ một tháng là 480 giờ một năm, gần ba tháng làm việc bình thường, lấy từ giấc ngủ và bữa cơm tối. Cái mất thêm của người lao động là chỗ làm: một văn bản đòi tiền gửi sai chỗ có thể thành lý do để không tái ký hợp đồng, nên thứ tự làm đúng quan trọng hơn việc nói to.
 
@@ -32,6 +34,8 @@ Về thang bằng chứng: **cả 24 mục hạng B**. Mỗi mục đứng trên
 ### 2. Phép năm: 12, 14, 16 ngày, thêm 01 ngày mỗi 05 năm, và không có mức 300% nào để quy đổi
 
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-phep-nam-12-14-16-ngay-them-01-ngay-moi-05-nam" data-legacy="19-2"></a>
+
 
 - Chi phí: Phép năm đã nằm trong lương theo hợp đồng, nên khi bị cắt phép người lao động mất ngày chứ không mất một khoản phải bỏ ra trước. Cái mất tính được: 12 ngày một năm, mười năm là 120 ngày, và nếu quy ra tiền thì phần lớn người lao động chỉ nhận lại được khi thôi việc, đúng lúc không còn chỗ để thương lượng. Phía người sử dụng lao động, vi phạm quy định về nghỉ hằng năm bị phạt từ 10.000.000 đồng đến 20.000.000 đồng; không trả hoặc trả không đủ tiền lương những ngày chưa nghỉ khi người lao động thôi việc, bị mất việc bị phạt từ 5.000.000 đồng đến 10.000.000 đồng với vi phạm từ 1 đến 10 người lao động, doanh nghiệp gấp đôi. Cái mất thêm là sức khỏe: phép không nghỉ không biến thành tiền, nó biến thành số ngày ốm của năm sau.
 
@@ -49,6 +53,8 @@ Về thang bằng chứng: **cả 24 mục hạng B**. Mỗi mục đứng trên
 ### 3. Thử việc: 180, 60, 30, 6 ngày, ít nhất 85% lương, và chỉ một lần cho một công việc
 
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=thời-gian -->
+<a name="entry-thu-viec-180-60-30-6-ngay-it-nhat-85-luong-va" data-legacy="19-3"></a>
+
 
 - Chi phí: Khoản mất đầu tiên là 15% lương, vì Điều 26 buộc trả ít nhất 85% mức lương của công việc đó, nên một tháng thử việc là một tháng nhận ít hơn công việc thật. Cái mất thêm là thời gian không được tính vào hợp đồng chính: 180 ngày với người quản lý doanh nghiệp là nửa năm, và nếu sau đó công ty không ký hợp đồng thì nửa năm ấy không có bảo hiểm thất nghiệp. Phía người sử dụng lao động, cái giá được ghi thành số: yêu cầu thử việc quá 01 lần cho một công việc, thử việc quá thời gian thỏa thuận hoặc vượt điều kiện của Điều 25, trả lương thử việc dưới 85%, hoặc không ký hợp đồng khi thử việc đã đạt — mỗi hành vi bị phạt từ 2.000.000 đồng đến 5.000.000 đồng và còn bị buộc trả đủ tiền lương của công việc đó; thử việc với hợp đồng dưới 01 tháng hoặc không thông báo kết quả bị phạt từ 500.000 đồng đến 1.000.000 đồng.
 
@@ -66,6 +72,8 @@ Về thang bằng chứng: **cả 24 mục hạng B**. Mỗi mục đứng trên
 ### 4. Bị cho nghỉ: nửa tháng lương mỗi năm, hoặc một tháng mỗi năm với sàn 02 tháng
 
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=ít lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-bi-cho-nghi-nua-thang-luong-moi-nam-hoac-mot-thang-moi" data-legacy="19-4"></a>
+
 
 - Chi phí: Khoản này là tiền người sử dụng lao động phải trả, nên phía người lao động không bỏ ra đồng nào; cái mất là thời gian chờ và những ngày đi lại. Thời hạn thanh toán lại là chỗ hay bị kéo: Điều 48 khoản 1 buộc trong 14 ngày làm việc kể từ ngày chấm dứt hợp đồng hai bên phải thanh toán đầy đủ, chỉ được kéo dài tới 30 ngày trong bốn trường hợp hẹp, và mỗi tháng chờ là một tháng không có lương để trả tiền nhà. Phía người sử dụng lao động, cái giá được ghi thành số: không trả hoặc trả không đủ trợ cấp thôi việc hoặc trợ cấp mất việc làm bị phạt từ 1.000.000 đồng đến 2.000.000 đồng khi vi phạm từ 1 đến 10 người lao động, doanh nghiệp gấp đôi, và còn bị buộc trả đủ cộng khoản lãi tính theo lãi suất tiền gửi không kỳ hạn cao nhất của ngân hàng thương mại nhà nước tại thời điểm xử phạt. Con số phạt nhỏ hơn nhiều so với khoản trợ cấp, nên riêng mức phạt khó khiến người sử dụng lao động tự trả, và bạn vẫn phải đòi.
 
@@ -83,6 +91,8 @@ Về thang bằng chứng: **cả 24 mục hạng B**. Mỗi mục đứng trên
 ### 5. Ba con đường cho nghỉ hợp pháp: không đáp ứng, ốm dài, và thay đổi cơ cấu
 
 <!-- nhãn: tiền=0 thời-gian=nhiều ý-chí=ít lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-ba-con-duong-cho-nghi-hop-phap-khong-dap-ung-om-dai" data-legacy="19-5"></a>
+
 
 - Chi phí: Phía người lao động không mất tiền, nhưng mất thời gian: một quyết định cho nghỉ hợp pháp phải đi qua thông báo trước 45 ngày với hợp đồng không xác định thời hạn, 30 ngày với hợp đồng từ 12 đến 36 tháng, 3 ngày làm việc với hợp đồng dưới 12 tháng, và với đường cơ cấu thì 30 ngày cho cả người lao động lẫn Ủy ban nhân dân cấp tỉnh. Quãng đó là quãng tìm việc, và nó chỉ có ích nếu người lao động biết mình đang ở trong quãng nào. Phía người sử dụng lao động, cái giá được ghi thành số: không thông báo bằng văn bản cho người lao động về việc chấm dứt hợp đồng bị phạt từ 1.000.000 đồng đến 3.000.000 đồng; cho thôi vì cơ cấu, công nghệ hoặc lý do kinh tế mà không trao đổi ý kiến với tổ chức đại diện người lao động tại cơ sở hoặc không báo trước 30 ngày bị phạt từ 5.000.000 đồng đến 10.000.000 đồng, và cũng khung đó với việc không lập phương án sử dụng lao động hoặc dùng quy chế đánh giá mà không tham khảo ý kiến.
 
@@ -100,6 +110,8 @@ Về thang bằng chứng: **cả 24 mục hạng B**. Mỗi mục đứng trên
 ### 6. Cho nghỉ trái luật: nhận lại việc, 02 tháng lương, và 01 năm để kiện
 
 <!-- nhãn: tiền=0 thời-gian=nhiều ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-cho-nghi-trai-luat-nhan-lai-viec-02-thang-luong-va-01" data-legacy="19-6"></a>
+
 
 - Chi phí: Bắt đầu kiện không mất án phí, nhưng bạn mất thời gian và phải chịu đựng. Một vụ tranh chấp lao động đi qua hòa giải, có khi qua trọng tài, rồi mới đến tòa. Trong lúc đó bạn vẫn phải sống bằng một khoản thu khác. Bạn cũng có thể mất chỗ làm cũ: Điều 41 khoản 1 đặt việc nhận trở lại làm lựa chọn mặc định, nên nếu không muốn quay lại thì phải nói rõ. Phía người sử dụng lao động phải trả bằng tiền. Không trả hoặc trả không đủ tiền cho người lao động theo quy định khi đơn phương chấm dứt trái pháp luật thì bị phạt từ 1.000.000 đồng đến 2.000.000 đồng với vi phạm từ 1 đến 10 người lao động, doanh nghiệp gấp đôi. Khoản đắt hơn tiền phạt là nghĩa vụ dân sự: ít nhất 02 tháng tiền lương, cộng tiền lương và các khoản bảo hiểm của những ngày người lao động không được làm việc, cộng trợ cấp thôi việc, và có trường hợp cộng thêm 02 tháng nữa.
 
@@ -116,6 +128,8 @@ Về thang bằng chứng: **cả 24 mục hạng B**. Mỗi mục đứng trên
 
 ### 7. Đừng ký "đơn xin nghỉ vì lý do cá nhân" khi người đưa tờ đơn là người muốn bạn đi
 <!-- nhãn: tiền=nhiều thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-dung-ky-don-xin-nghi-vi-ly-do-ca-nhan-khi-nguoi" data-legacy="19-7"></a>
+
 - Chi phí: Ký một tờ đơn không mất đồng nào ngay, và đó chính là lý do nó được đưa ra giữa một cuộc nói chuyện không ai ghi biên bản. Khoản mất nằm ở phía sau: nửa tháng lương cho mỗi năm làm việc nếu là trợ cấp thôi việc, một tháng lương cho mỗi năm và tối thiểu hai tháng nếu là trợ cấp mất việc làm, cộng khoản ít nhất hai tháng tiền lương mà người sử dụng lao động phải trả thêm khi đơn phương chấm dứt trái pháp luật. Người làm mười năm nhìn thấy khoảng cách giữa hai tờ giấy đúng bằng nhiều tháng lương, và không có cơ quan nào tự trả hộ khoản đó. Còn một khoản ít ai tính: hạn thanh toán là 14 ngày làm việc, nhưng khi đã ký đơn tự nguyện thì khoản vượt không còn cửa để đòi, trong khi tiền tư vấn và án phí của một vụ tranh chấp lại lớn hơn khoản đang tranh.
 - Nói dễ hiểu: Tờ giấy bạn ký quyết định bạn ra đi theo cửa nào. "Đơn xin nghỉ vì lý do cá nhân" nghĩa là bạn tự chấm dứt, không phải công ty cho nghỉ. Muốn nghỉ thì tự viết đơn của mình và báo trước 45 ngày nếu hợp đồng không xác định thời hạn; công ty muốn cho nghỉ thì phải đưa văn bản thông báo, đừng ký thay.
 - Lợi ích: Đơn xin nghỉ mang chữ ký của bạn có thể khiến cách giải quyết tiền lương và trợ cấp thay đổi. Đừng ký ngay tờ giấy do bên muốn bạn nghỉ chuẩn bị.
@@ -126,6 +140,8 @@ Về thang bằng chứng: **cả 24 mục hạng B**. Mỗi mục đứng trên
 
 ### 8. Giữ chứng cứ trước khi rời: bảng lương, chấm công, quyết định, và một lá đơn yêu cầu bản sao
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-giu-chung-cu-truoc-khi-roi-bang-luong-cham-cong-quyet-dinh" data-legacy="19-8"></a>
+
 - Chi phí: Tiền gần như không có: vài buổi sao tài liệu, một lá đơn viết tay, một thư điện tử gửi kèm danh mục thứ cần cấp bản sao, và tiền gửi bảo đảm nếu muốn có dấu của bưu điện. Cái đắt là thời gian và thứ tự: mỗi ngày chờ là mất đi một ngày hệ thống của công ty còn mở với bạn, còn sau khi thẻ ra vào bị khóa thì việc lấy lại một bảng chấm công cũ đắt hơn nhiều lần phí sao. Nếu phải ra tòa thì thêm án phí và nhiều buổi nghỉ làm, nhưng phần lớn vụ việc dừng ở chỗ thỏa thuận, và thỏa thuận chỉ có giá khi một bên cầm được giấy.
 - Nói dễ hiểu: Luật cho bạn quyền xin bản sao tài liệu về quá trình làm việc, và công ty phải trả tiền sao, gửi. Hãy xin bằng văn bản trước ngày cuối, giữ lại lá đơn đó. Thanh toán phải xong trong 14 ngày làm việc. Thời hiệu đòi tiền là 01 năm.
 - Lợi ích: Trước khi rời công ty, lưu các giấy tờ thuộc quyền được nhận: hợp đồng, bảng lương, chấm công, quyết định và xác nhận thời gian đóng bảo hiểm. Không mang tài liệu mật của doanh nghiệp.
@@ -136,6 +152,8 @@ Về thang bằng chứng: **cả 24 mục hạng B**. Mỗi mục đứng trên
 
 ### 9. Khám sức khỏe định kỳ và khám phát hiện bệnh nghề nghiệp: 06 tháng một lần với nghề độc hại, và kết quả phải đến tay bạn
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-kham-suc-khoe-dinh-ky-va-kham-phat-hien-benh-nghe-nghiep" data-legacy="19-9"></a>
+
 - Chi phí: Tiền khám không do bạn trả: Điều 21 khoản 6 Luật An toàn, vệ sinh lao động buộc người sử dụng lao động chi trả chi phí khám sức khỏe, khám phát hiện bệnh nghề nghiệp, điều trị bệnh nghề nghiệp theo các khoản 1, 2, 3 và 5, và hạch toán vào chi phí được trừ khi xác định thu nhập chịu thuế. Phần phải bỏ ra là thời gian: một buổi cho mỗi lần khám, cộng đi lại nếu cơ sở khám ở huyện khác, và một buổi nữa nếu phải khám lại để đối chiếu. Khoản đắt nhất là khoản không khám: một bệnh nghề nghiệp phát hiện muộn thường đã ở mức suy giảm khả năng lao động đủ để đổi nghề, và tiền điều trị, tiền mất thu nhập trong nhiều năm lớn hơn rất nhiều so với một buổi khám mỗi năm.
 - Nói dễ hiểu: Khám sức khỏe ít nhất mỗi năm một lần; làm nghề nặng nhọc, độc hại thì 06 tháng một lần, và trong lần khám đó phải khám phát hiện bệnh nghề nghiệp. Chi phí do công ty trả. Kết quả phải được thông báo cho bạn và lưu trong hồ sơ sức khỏe.
 - Lợi ích: Khám sức khỏe định kỳ và khám bệnh nghề nghiệp giúp phát hiện nguy cơ sớm. Người lao động cần biết thời điểm khám, quyền nhận kết quả và trường hợp phải theo dõi thêm.
@@ -146,6 +164,8 @@ Về thang bằng chứng: **cả 24 mục hạng B**. Mỗi mục đứng trên
 
 ### 10. Quyền từ chối công việc không bảo đảm an toàn: được trả đủ lương, nhưng phải báo ngay và đúng người
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-quyen-tu-choi-cong-viec-khong-bao-dam-an-toan-duoc-tra" data-legacy="19-10"></a>
+
 - Chi phí: Từ chối đúng cách không mất tiền: khoản 1 Điều 6 Luật An toàn, vệ sinh lao động ghi rõ người lao động từ chối làm công việc hoặc rời bỏ nơi làm việc vẫn được trả đủ tiền lương và không bị coi là vi phạm kỷ luật lao động. Khoản phải bỏ ra là một cuộc gọi và một tin nhắn: báo ngay cho người quản lý trực tiếp, ghi lại giờ và nội dung, chụp lại tình trạng máy, dây điện, nồng độ khí, mặt sàn. Làm sai thì giá khác hẳn: bị trừ lương những ngày không vào, bị kỷ luật, và nếu rời nơi làm việc quá 05 ngày làm việc liên tục mà không có lý do chính đáng thì sự việc chuyển từ chỗ bảo vệ quyền an toàn sang chỗ người sử dụng lao động có cửa đơn phương chấm dứt.
 - Nói dễ hiểu: Thấy rõ nguy cơ tai nạn đe dọa tính mạng hoặc sức khỏe thì được từ chối hoặc rời nơi làm việc, vẫn hưởng đủ lương, không bị kỷ luật, nhưng phải báo ngay cho quản lý trực tiếp. Nguy cơ chưa được khắc phục thì chưa phải quay lại; tự ý vắng 05 ngày làm việc liên tục mà không báo thì mất phần bảo vệ đó.
 - Lợi ích: Khi công việc có nguy cơ rõ ràng đến tính mạng, cần báo ngay cho người phụ trách và yêu cầu bảo đảm an toàn. Giữ chứng cứ về điều kiện làm việc thay vì tự chịu rủi ro.
@@ -156,6 +176,8 @@ Về thang bằng chứng: **cả 24 mục hạng B**. Mỗi mục đứng trên
 
 ### 11. Khai báo tai nạn lao động: báo ngay trong ngày, không chờ đủ giấy tờ
 <!-- nhãn: tiền=nhiều thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-khai-bao-tai-nan-lao-dong-bao-ngay-trong-ngay-khong-cho" data-legacy="19-11"></a>
+
 - Chi phí: Khai báo không tốn tiền, chỉ tốn một cuộc gọi và một tờ mẫu. Khoản đắt nằm ở phía không khai báo: mức bồi thường ít nhất 1,5 tháng tiền lương cho người suy giảm từ 5% đến 10% khả năng lao động, cộng thêm 0,4 tháng cho mỗi 1% tăng thêm trong khoảng từ 11% đến 80%, và ít nhất 30 tháng tiền lương khi suy giảm từ 81% trở lên hoặc khi người lao động chết. Không có biên bản, không có giấy ra viện ghi rõ tai nạn lao động, không có biên bản điều tra thì các mức đó không có chỗ để bám vào, và khoản thiệt hại thật là nhiều năm thu nhập.
 - Nói dễ hiểu: Đưa người bị nạn đi cấp cứu trước, và nói rõ với bác sĩ đây là tai nạn lao động. Báo ngay cho người phụ trách trực tiếp. Công ty phải khai báo ngay với Thanh tra Sở Lao động khi có người chết hoặc từ hai người bị thương nặng.
 - Lợi ích: Tai nạn lao động cần được báo và ghi nhận ngay. Đừng đợi có đủ chứng từ viện phí rồi mới trình báo, vì dấu vết hiện trường và người chứng kiến rất dễ mất.
@@ -166,6 +188,8 @@ Về thang bằng chứng: **cả 24 mục hạng B**. Mỗi mục đứng trên
 
 ### 12. Cấp cứu trước, giấy tờ sau: không ai được bắt người bị nạn chờ thủ tục
 <!-- nhãn: tiền=nhiều thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-cap-cuu-truoc-giay-to-sau-khong-ai-duoc-bat-nguoi-bi" data-legacy="19-12"></a>
+
 - Chi phí: Ở phía người bị nạn, tiền mặt bỏ ra lúc đầu nên là không có: Điều 38 khoản 1 Luật An toàn, vệ sinh lao động buộc người sử dụng lao động kịp thời sơ cứu, cấp cứu và tạm ứng chi phí sơ cứu, cấp cứu, điều trị, khoản 2 buộc thanh toán chi phí y tế từ khi sơ cứu đến khi điều trị ổn định. Phần phải bỏ ra là thời gian: vài giờ ở khoa cấp cứu, một lần chụp phim, và những ngày nằm lại; khoản đắt nhất là khoảng thời gian từ lúc ngã đến lúc vào tới cửa khoa cấp cứu, vì với chấn thương đầu, chấn thương cột sống hay mất máu nhiều thì đó là khoảng quyết định. Còn nếu chờ làm xong giấy tờ rồi mới đi thì khoản phải trả không nằm ở tiền mà ở phần thương tật để lại.
 - Nói dễ hiểu: Đưa người bị nạn tới cơ sở cấp cứu gần nhất trước, giấy tờ làm sau. Công ty phải tạm ứng và thanh toán chi phí y tế, phải trả đủ lương những ngày điều trị. Bệnh viện không được từ chối cấp cứu; nếu chuyển tuyến vẫn phải tiếp tục cấp cứu tới khi nơi khác nhận.
 - Lợi ích: Cấp cứu phải ưu tiên trước giấy tờ và xác định trách nhiệm. Sau đó giữ hồ sơ điều trị, biên bản tai nạn và chứng từ để làm thủ tục chi trả.
@@ -176,16 +200,20 @@ Về thang bằng chứng: **cả 24 mục hạng B**. Mỗi mục đứng trên
 
 ### 13. Đơn vị không đóng bảo hiểm tai nạn: chế độ vẫn còn, chỉ đổi người trả
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-don-vi-khong-dong-bao-hiem-tai-nan-che-do-van-con" data-legacy="19-13"></a>
+
 - Chi phí: Tiền mặt gần như không có: không phải mua gì, không phải đóng thêm một khoản nào. Cái mất là thời gian và sức thuyết phục — một lần xin bản sao biên bản điều tra tai nạn lao động, một lần đề nghị đơn vị lập hồ sơ hưởng chế độ, vài lần ra cơ quan bảo hiểm xã hội, và nếu đơn vị né thì thêm một đơn tới thanh tra lao động cùng một hồ sơ khởi kiện. Phía đơn vị, khoản phải trả có mức rõ ràng: hằng tháng 1% quỹ tiền lương đóng vào quỹ bảo hiểm tai nạn lao động, bệnh nghề nghiệp; chậm đóng thì nộp thêm 0,03% một ngày trên số chậm đóng; chậm đóng còn bị phạt 12% đến 15% tổng số tiền chậm đóng, tối đa 75.000.000 đồng. Phần đơn vị phải trả thay quỹ tính theo mức suy giảm: 5% là 5 lần mức lương cơ sở, tức 12.650.000 đồng; chết do tai nạn lao động là 36 lần mức lương cơ sở, tức 91.080.000 đồng. Khoản đắt nhất không nằm trong bảng nào: những tháng không có đồng nào về trong khi vẫn phải trả viện phí, và người nhà phải nghỉ làm để đi lại thay.
 - Nói dễ hiểu: Đơn vị không đóng bảo hiểm tai nạn thì chế độ không mất: đơn vị trả thay quỹ, đúng mức quỹ lẽ ra trả. Suy giảm 5% là 12.650.000 đồng; chết do tai nạn lao động là 91.080.000 đồng. Câu "chưa đóng nên không có tiền" là câu sai.
 - Lợi ích: Không nên mặc định mất quyền lợi chỉ vì đơn vị chưa đóng bảo hiểm tai nạn lao động. Cần xác định người có nghĩa vụ chi trả và giữ chứng cứ quan hệ lao động.
-- Pháp luật Việt Nam: Điều 39 khoản 4 Luật An toàn, vệ sinh lao động đặt câu chốt: nếu người sử dụng lao động không đóng bảo hiểm tai nạn lao động, bệnh nghề nghiệp cho người lao động thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc thì ngoài việc phải bồi thường, trợ cấp theo Điều 38, người sử dụng lao động phải trả khoản tiền tương ứng với chế độ bảo hiểm tai nạn lao động, bệnh nghề nghiệp theo quy định tại Mục 3 Chương này; việc chi trả có thể thực hiện một lần hoặc hằng tháng theo thỏa thuận của các bên, trường hợp không thống nhất thì thực hiện theo yêu cầu của người lao động. Ba chế độ trong Mục 3 là ba mức tiền cụ thể. Điều 48 khoản 2 điểm a: suy giảm 5% hưởng 5 lần mức lương cơ sở, sau đó cứ suy giảm thêm 1% hưởng thêm 0,5 lần mức lương cơ sở, nên 30% là 17,5 lần, tức 44.275.000 đồng. Điều 49 khoản 2 điểm a: từ 31% hưởng hằng tháng 30% mức lương cơ sở, thêm mỗi 1% thì thêm 2%, nên 31% là 759.000 đồng một tháng và 100% là 4.250.400 đồng. Điều 53: chết do tai nạn lao động thì thân nhân hưởng một lần 36 lần mức lương cơ sở, tức 91.080.000 đồng, cộng chế độ tử tuất theo Luật Bảo hiểm xã hội. Mức lương cơ sở dùng để nhân là 2.530.000 đồng một tháng từ ngày 01/7/2026 (Điều 3 khoản 2 Nghị định 161/2026/NĐ-CP). Ở phía quỹ, Điều 44 khoản 1 Luật An toàn, vệ sinh lao động đặt mức đóng tối đa 1% quỹ tiền lương; Điều 40 khoản 1 Luật Bảo hiểm xã hội buộc nộp thêm 0,03% một ngày trên số chậm đóng và Điều 41 khoản 1 áp cùng mức đó với số trốn đóng; Nghị định 283/2026/NĐ-CP Điều 43 khoản 3 phạt 12% đến 15% tổng số tiền chậm đóng, tối đa 75.000.000 đồng, khoản 4 buộc đóng đủ cùng khoản 0,03% một ngày.
+- Pháp luật Việt Nam: Điều 39 khoản 4 Luật An toàn, vệ sinh lao động đặt câu chốt: nếu người sử dụng lao động không đóng bảo hiểm tai nạn lao động, bệnh nghề nghiệp cho người lao động thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc thì ngoài việc phải bồi thường, trợ cấp theo Điều 38, người sử dụng lao động phải trả khoản tiền tương ứng với chế độ bảo hiểm tai nạn lao động, bệnh nghề nghiệp theo quy định tại [Mục 3](19-dang-lam-nghi-viec-va-tai-nan-lao-dong.md#entry-thu-viec-180-60-30-6-ngay-it-nhat-85-luong-va) Chương này; việc chi trả có thể thực hiện một lần hoặc hằng tháng theo thỏa thuận của các bên, trường hợp không thống nhất thì thực hiện theo yêu cầu của người lao động. Ba chế độ trong [Mục 3](19-dang-lam-nghi-viec-va-tai-nan-lao-dong.md#entry-thu-viec-180-60-30-6-ngay-it-nhat-85-luong-va) là ba mức tiền cụ thể. Điều 48 khoản 2 điểm a: suy giảm 5% hưởng 5 lần mức lương cơ sở, sau đó cứ suy giảm thêm 1% hưởng thêm 0,5 lần mức lương cơ sở, nên 30% là 17,5 lần, tức 44.275.000 đồng. Điều 49 khoản 2 điểm a: từ 31% hưởng hằng tháng 30% mức lương cơ sở, thêm mỗi 1% thì thêm 2%, nên 31% là 759.000 đồng một tháng và 100% là 4.250.400 đồng. Điều 53: chết do tai nạn lao động thì thân nhân hưởng một lần 36 lần mức lương cơ sở, tức 91.080.000 đồng, cộng chế độ tử tuất theo Luật Bảo hiểm xã hội. Mức lương cơ sở dùng để nhân là 2.530.000 đồng một tháng từ ngày 01/7/2026 (Điều 3 khoản 2 Nghị định 161/2026/NĐ-CP). Ở phía quỹ, Điều 44 khoản 1 Luật An toàn, vệ sinh lao động đặt mức đóng tối đa 1% quỹ tiền lương; Điều 40 khoản 1 Luật Bảo hiểm xã hội buộc nộp thêm 0,03% một ngày trên số chậm đóng và Điều 41 khoản 1 áp cùng mức đó với số trốn đóng; Nghị định 283/2026/NĐ-CP Điều 43 khoản 3 phạt 12% đến 15% tổng số tiền chậm đóng, tối đa 75.000.000 đồng, khoản 4 buộc đóng đủ cùng khoản 0,03% một ngày.
 - Mức bằng chứng: B
 - Nguồn: Luật An toàn, vệ sinh lao động số 84/2015/QH13 ngày 25/6/2015, hợp nhất tại Văn bản hợp nhất số 14/VBHN-VPQH ngày 16/9/2024 (Điều 38, Điều 39 khoản 4, Điều 41 khoản 1, Điều 44 khoản 1, Điều 48, Điều 49, Điều 53), Công báo số 1169 + 1170 và 1171 + 1172 ngày 29/10/2024: https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42949/52251-1-20241171-117214-vbhn-vpqh.pdf ; Luật Bảo hiểm xã hội số 41/2024/QH15 ngày 29/6/2024, hiệu lực 01/7/2025 (Điều 40 khoản 1, Điều 41 khoản 1): https://xaydungchinhsach.chinhphu.vn/toan-van-luat-so-41-2024-qh15-bao-hiem-xa-hoi-119240723163650489.htm ; Nghị định số 283/2026/NĐ-CP ngày 15/7/2026 quy định xử phạt vi phạm hành chính trong lĩnh vực lao động, bảo hiểm xã hội, người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng, hiệu lực 10/9/2026 (Điều 43 khoản 3 và khoản 4): https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/283-ndcp.signed.pdf ; Nghị định số 161/2026/NĐ-CP ngày 15/5/2026 quy định mức lương cơ sở (Điều 3 khoản 2): https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/161-ndcp.signed.pdf . Tra ngày 3/11/2026.
 - Ghi chú: Toàn bộ phần tiền trong mục là câu chữ đọc được nguyên văn trong luật và nghị định đang có hiệu lực — một điều nói thẳng ai trả khi đơn vị không đóng, ba điều nói ba mức trợ cấp, một điều nói mức đóng và một điều nói mức phạt — nên đây không phải chuyện tin vào lời hứa của ai; nhưng không có số liệu Việt Nam nào công bố bao nhiêu người bị tai nạn lao động phải tự khởi kiện để lấy được khoản mà quỹ lẽ ra đã trả, cũng không có tỷ lệ thu hồi, nên mục này chưa có con số kết cục nào để nêu. Ba cái bẫy. Một: tin câu "công ty chưa đóng nên không có chế độ", trong khi Điều 39 khoản 4 đặt nghĩa vụ trả lên chính đơn vị và cho người lao động quyền chọn nhận một lần hay hằng tháng khi hai bên không thống nhất; cái mất khi tin câu đó là mất luôn thời gian, vì hồ sơ càng để lâu càng khó dựng lại biên bản và giấy ra viện. Hai: chỉ đòi khoản của quỹ mà quên khoản bồi thường của đơn vị theo Điều 38 khoản 4 — hai khoản này độc lập, một khoản tính theo mức suy giảm, một khoản tính theo tháng tiền lương, và đòi khoản này không trừ khoản kia. Ba: nhận tiền mặt rồi ký giấy "đã thanh toán xong" khi chưa có kết luận giám định, trong khi mức suy giảm có thể tăng sau khi thương tật tái phát và mỗi 1% là 0,5 lần mức lương cơ sở. Bạn không cần tranh cãi với đơn vị về chuyện đã đóng hay chưa: việc cần làm là xin bản sao biên bản điều tra tai nạn và giấy ra viện, rồi yêu cầu bằng văn bản để đơn vị lập hồ sơ — văn bản đó là thứ chứng minh bạn đã yêu cầu đúng lúc.
 
 ### 14. Giám định mức suy giảm: 5% là ngưỡng, và mỗi 1% đổi thành tiền
 <!-- nhãn: tiền=ít thời-gian=nhiều ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-giam-dinh-muc-suy-giam-5-la-nguong-va-moi-1-doi" data-legacy="19-14"></a>
+
 - Chi phí: Một lần khám giám định không phải khoản lớn, và luật đã chỉ rõ ai trả: đơn vị trả phí khám giám định với trường hợp kết luận suy giảm dưới 5% do chính đơn vị giới thiệu, quỹ bảo hiểm tai nạn lao động trả phí với trường hợp đủ điều kiện hưởng. Cái mất là thời gian, và nó tính bằng tháng chứ không phải bằng ngày: chờ điều trị ổn định, chờ hội đồng giám định, chờ kết luận; nếu thương tật tái phát thì chờ đủ 24 tháng mới được giám định lại. Trong lúc chờ, hai bên đang nói về hai khoản khác nhau. Đơn vị bồi thường ít nhất 1,5 tháng tiền lương với mức suy giảm 5% đến 10%, rồi mỗi 1% thêm 0,4 tháng cho mức 11% đến 80%, và ít nhất 30 tháng tiền lương khi từ 81% trở lên. Quỹ trả trợ cấp một lần 5 lần mức lương cơ sở tại 5% và 17,5 lần tại 30%, tức 12.650.000 đồng và 44.275.000 đồng. Từ 31% mới có trợ cấp hằng tháng: 759.000 đồng một tháng tại 31%, và mức trần 4.250.400 đồng một tháng tại 100%.
 - Nói dễ hiểu: Giám định sau khi điều trị ổn định. Suy giảm 5%: quỹ trả 12.650.000 đồng một lần, đơn vị bồi thường thêm ít nhất 1,5 tháng lương. Từ 31% mới có tiền hằng tháng, 759.000 đồng. Giám định lại sau 24 tháng.
 - Lợi ích: Giám định suy giảm khả năng lao động là bước ảnh hưởng trực tiếp đến khoản trợ cấp. Lưu toàn bộ bệnh án và chọn đúng thời điểm đi giám định sau điều trị.
@@ -196,6 +224,8 @@ Về thang bằng chứng: **cả 24 mục hạng B**. Mỗi mục đứng trên
 
 ### 15. Chết do tai nạn lao động: bốn khoản tiền, và khoản thứ tư hay bị bỏ
 <!-- nhãn: tiền=nhiều thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-chet-do-tai-nan-lao-dong-bon-khoan-tien-va-khoan-thu" data-legacy="19-15"></a>
+
 - Chi phí: Không có khoản nào phải bỏ ra trước, nhưng thời gian thì có, và nó đến vào lúc gia đình mệt nhất: lo mai táng và giấy chứng tử trước, rồi mới tới hồ sơ. Mốc thời gian phải nhớ: 90 ngày kể từ ngày người lao động chết để nộp hồ sơ cho đơn vị, sau đó đơn vị có 30 ngày để nộp cho cơ quan bảo hiểm xã hội, và cơ quan bảo hiểm xã hội giải quyết trong 10 ngày làm việc. Bốn khoản tiền, tính với mức lương cơ sở 2.530.000 đồng và mức tham chiếu cùng mức đó: trợ cấp một lần 36 lần mức lương cơ sở là 91.080.000 đồng; trợ cấp mai táng 10 lần mức tham chiếu là 25.300.000 đồng; trợ cấp tuất hằng tháng 50% mức tham chiếu là 1.265.000 đồng mỗi thân nhân một tháng, 70% là 1.771.000 đồng khi thân nhân không có người trực tiếp nuôi dưỡng, tối đa 4 thân nhân; và khoản của đơn vị, ít nhất 30 tháng tiền lương, không phụ thuộc quỹ đã chi hay chưa.
 - Nói dễ hiểu: Chết do tai nạn lao động có bốn khoản: một lần 91.080.000 đồng; mai táng 25.300.000 đồng; tuất hằng tháng 1.265.000 đồng mỗi thân nhân, tối đa 4 người; và đơn vị bồi thường ít nhất 30 tháng lương. Hồ sơ nộp trong 90 ngày.
 - Lợi ích: Gia đình người mất do tai nạn lao động cần kiểm tra riêng từng khoản trợ cấp, bồi thường và tử tuất. Không gộp chúng thành một khoản 'hỗ trợ' rồi bỏ sót.
@@ -206,6 +236,8 @@ Về thang bằng chứng: **cả 24 mục hạng B**. Mỗi mục đứng trên
 
 ### 16. Bị bắt nạt ở nơi làm việc: ghi lại trước, rồi chọn cửa
 <!-- nhãn: tiền=0 thời-gian=nhiều ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-bi-bat-nat-o-noi-lam-viec-ghi-lai-truoc-roi-chon" data-legacy="19-16"></a>
+
 - Chi phí: Không tốn tiền để bắt đầu: một quyển sổ ghi ngày, giờ, người có mặt và nguyên văn lời nói; ảnh chụp tin nhắn giữ nguyên ngày tháng; bản sao nội quy và bản mô tả công việc. Cái mất là thời gian và can đảm, vì mỗi lần ghi lại là một lần phải sống lại chuyện đó, và nếu đi tới cùng thì thêm nhiều buổi làm việc với hòa giải viên, hội đồng trọng tài hoặc tòa. Các mốc thời hiệu quyết định việc bạn còn cửa nào: 6 tháng để yêu cầu hòa giải viên lao động, 9 tháng để yêu cầu hội đồng trọng tài, 1 năm để yêu cầu tòa án, tính từ ngày phát hiện hành vi. Số tiền có thể đòi: phần bồi thường tổn thất tinh thần do danh dự, nhân phẩm bị xâm phạm tối đa 10 lần mức lương cơ sở, tức 25.300.000 đồng, cộng trợ cấp thôi việc nửa tháng lương cho mỗi năm làm việc nếu bạn nghỉ, và tiền lương những ngày không được làm việc nếu hành vi dẫn tới việc chấm dứt trái luật.
 - Nói dễ hiểu: Ngược đãi người lao động bị phạt 50.000.000 đến 75.000.000 đồng; quấy rối tình dục tại nơi làm việc 15.000.000 đến 30.000.000 đồng. Bị ngược đãi thì ghi lại chứng cứ trước; bạn được nghỉ ngay, không cần báo trước, vẫn có trợ cấp thôi việc. Kiện thì 1 năm, hòa giải 6 tháng.
 - Lợi ích: Khi bị bắt nạt hoặc quấy rối tại nơi làm việc, ghi lại diễn biến, người chứng kiến và phản ánh bằng kênh phù hợp. Đừng tự xóa chứng cứ khi mới muốn nghỉ việc.
@@ -216,6 +248,8 @@ Về thang bằng chứng: **cả 24 mục hạng B**. Mỗi mục đứng trên
 
 ### 17. Giấy xác nhận thôi việc: 14 ngày, và ba thứ phải đòi cùng lúc
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=thời-gian -->
+<a name="entry-giay-xac-nhan-thoi-viec-14-ngay-va-ba-thu-phai-doi" data-legacy="19-17"></a>
+
 - Chi phí: Không mất tiền, chỉ mất một lần gửi yêu cầu bằng văn bản và một lần quay lại nhận. Cái đắt là hậu quả khi thiếu giấy: không chốt được thời gian đóng bảo hiểm thất nghiệp thì hồ sơ hưởng trợ cấp thất nghiệp bị treo; không có bản sao tài liệu về quá trình làm việc thì khi cần chứng minh thâm niên, mức lương hay việc đã làm ở vị trí độc hại, bạn phải quay lại xin và có khi đơn vị đã giải thể. Thời hạn đã có mức: 14 ngày làm việc kể từ ngày chấm dứt hợp đồng lao động để hai bên thanh toán đầy đủ các khoản tiền liên quan đến quyền lợi của mỗi bên, kéo dài không quá 30 ngày trong bốn trường hợp luật kể; và nếu đơn vị không hoàn thành thủ tục xác nhận thời gian đóng bảo hiểm xã hội, bảo hiểm thất nghiệp, không trả lại bản chính giấy tờ hoặc không cấp bản sao tài liệu khi bạn yêu cầu thì bị phạt 1.000.000 đồng đến 2.000.000 đồng với vi phạm từ 01 đến 10 người lao động.
 - Nói dễ hiểu: Trong 14 ngày làm việc, kéo dài tối đa 30 ngày, đơn vị phải chốt thời gian đóng bảo hiểm, trả lại bản chính giấy tờ và cấp bản sao tài liệu bạn yêu cầu. Không làm thì bị phạt 1.000.000 đến 2.000.000 đồng. Kiện trong 1 năm.
 - Lợi ích: Khi nghỉ việc, yêu cầu thanh toán, hoàn tất hồ sơ bảo hiểm và trả lại giấy tờ cùng lúc. Nên gửi yêu cầu bằng văn bản và lưu ngày tiếp nhận.
@@ -226,6 +260,8 @@ Về thang bằng chứng: **cả 24 mục hạng B**. Mỗi mục đứng trên
 
 ### 18. Thuế với trợ cấp thôi việc: phần đúng luật không tính, phần thêm thì tính
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-thue-voi-tro-cap-thoi-viec-phan-dung-luat-khong-tinh-phan" data-legacy="19-18"></a>
+
 - Chi phí: Không phải nộp thêm đồng nào để kiểm: một lần đọc bảng lương cuối cùng, một lần mở ứng dụng thuế để xem tờ khai, và một cuộc gọi tới cơ quan thuế nếu con số không khớp. Cái mất là tiền thuế bị trừ sai, và nó không nhỏ: cùng một khoản trợ cấp, nếu bị cộng vào thu nhập năm thì phần vượt các mốc 120 triệu, 360 triệu, 720 triệu và 1.200 triệu đồng đều bị đẩy lên bậc thuế cao hơn, trong khi đúng luật thì khoản đó không nằm trong thu nhập chịu thuế. Phần tiền đúng luật: nửa tháng tiền lương cho mỗi năm làm việc, tính trên tiền lương bình quân của 06 tháng liền kề trước khi thôi việc, với người đã làm thường xuyên từ đủ 12 tháng trở lên. Ngưỡng để biết mình có bị tính sai: giảm trừ cho bản thân người nộp thuế là 15.500.000 đồng một tháng, và biểu thuế lũy tiến từng phần có 5 bậc với thuế suất 5%, 10%, 20%, 30%, 35%.
 - Nói dễ hiểu: Trợ cấp thôi việc trả đúng luật không nằm trong thu nhập chịu thuế. Phần trả thêm ngoài luật thì tính thuế lũy tiến 5% đến 35%, sau khi trừ giảm trừ 15.500.000 đồng một tháng. Đơn vị gộp cả khoản đúng luật vào để tính thuế là làm sai.
 - Lợi ích: Tiền được trả khi thôi việc có thể gồm phần miễn thuế và phần phải tính thuế. Yêu cầu bảng tách khoản trước khi chấp nhận số tiền thực nhận.
@@ -237,6 +273,8 @@ Về thang bằng chứng: **cả 24 mục hạng B**. Mỗi mục đứng trên
 ### 19. Đổi tỉnh, đổi việc: giữ thời gian đóng, đừng rút bảo hiểm xã hội một lần
 
 <!-- nhãn: tiền=nhiều thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-doi-tinh-doi-viec-giu-thoi-gian-dong-dung-rut-bao-hiem" data-legacy="19-19"></a>
+
 
 - Chi phí: Rút một lần là lấy tiền mặt ngay, và số tiền đó có trần đọc được: 1,5 tháng lương bình quân cho mỗi năm đóng trước 2014, 02 tháng cho mỗi năm đóng từ 2014 trở đi. Mười năm đóng từ 2014 ra 20 tháng lương, chưa bằng hai năm thu nhập, và phần lớn người rút tiêu hết trong vòng một năm. Cái mất đối lại là khoản trả hằng tháng suốt đời: đủ 15 năm đóng và đủ tuổi thì lao động nữ có lương hưu bằng 45% bình quân tiền lương đóng, mỗi năm thêm 2% và dừng ở 75%. Năm 2026 tuổi nghỉ hưu là 61 tuổi 6 tháng với nam và 57 tuổi với nữ, nên người nam 45 tuổi còn hơn 15 năm đóng nữa trước mốc đó. Chi phí thời gian của việc làm đúng chỉ là một buổi ra cơ quan bảo hiểm xã hội, hoặc một lần nộp hồ sơ trực tuyến nếu đã có tài khoản giao dịch điện tử.
 
@@ -254,6 +292,8 @@ Về thang bằng chứng: **cả 24 mục hạng B**. Mỗi mục đứng trên
 ### 20. Hợp đồng lao động: ký bằng văn bản trước ngày làm việc đầu tiên, và giữ một bản trong tay
 
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-hop-dong-lao-dong-ky-bang-van-ban-truoc-ngay-lam-viec" data-legacy="19-20"></a>
+
 
 - Chi phí: Ký hợp đồng không tốn đồng nào, chỉ một buổi đọc và một tờ giấy. Cái đắt nằm ở phía người sử dụng lao động và được ghi thành số: giao kết hợp đồng không bằng văn bản với công việc từ đủ 01 tháng trở lên, giao kết không đúng loại hợp đồng, hoặc ghi thiếu nội dung chủ yếu bị phạt từ 2.000.000 đồng đến 5.000.000 đồng với vi phạm từ 01 đến 10 người lao động, và lên 20.000.000 đồng đến 25.000.000 đồng khi từ 301 người trở lên, kèm biện pháp buộc ký đúng. Giữ bản chính căn cước, văn bằng của người lao động hoặc buộc đặt tiền bảo đảm bị phạt 20.000.000 đồng đến 25.000.000 đồng. Với người lao động, cái mất khi làm sai không phải tiền mặt mà là mức lương trên giấy: một hợp đồng ghi 5.000.000 đồng trong khi thỏa thuận miệng 8.000.000 đồng thì mọi khoản đóng bảo hiểm, trợ cấp thôi việc và tiền làm thêm về sau đều tính trên con số 5.000.000 đồng, và không có giấy thì không đòi được phần chênh.
 
@@ -271,6 +311,8 @@ Về thang bằng chứng: **cả 24 mục hạng B**. Mỗi mục đứng trên
 ### 21. Đơn vị không đóng bảo hiểm: kiểm sổ mỗi quý và đòi bằng văn bản, mức phạt đang áp dụng
 
 <!-- nhãn: tiền=nhiều thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-don-vi-khong-dong-bao-hiem-kiem-so-moi-quy-va-doi" data-legacy="19-21"></a>
+
 
 - Chi phí: Mỗi tháng làm việc, người sử dụng lao động phải đóng 17% trên tiền lương làm căn cứ đóng, gồm 3% vào quỹ ốm đau và thai sản và 14% vào quỹ hưu trí và tử tuất, còn người lao động đóng 8% vào quỹ hưu trí và tử tuất; cộng lại là 25% tiền lương mỗi tháng, và khoản đó chỉ có trong sổ khi cả hai bên đã đóng. Người lao động không bỏ tiền trước, nhưng mất đúng số tháng không được ghi: mười tháng trống là mười tháng không tính vào 15 năm hưởng lương hưu, và cũng không tính vào thời gian đóng để hưởng trợ cấp thất nghiệp. Chi phí thời gian là một buổi mỗi quý để đối chiếu sổ, một văn bản gửi đơn vị khi thấy thiếu, và nếu phải đi tiếp thì một lần tới cơ quan thanh tra lao động cấp tỉnh hoặc tòa án, với thời hiệu 01 năm kể từ ngày phát hiện hành vi.
 
@@ -288,6 +330,8 @@ Về thang bằng chứng: **cả 24 mục hạng B**. Mỗi mục đứng trên
 ### 22. Điều khoản phạt vi phạm trong hợp đồng lao động: ba khoản được trừ và trần 30% lương tháng
 
 <!-- nhãn: tiền=nhiều thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-dieu-khoan-phat-vi-pham-trong-hop-dong-lao-dong-ba-khoan" data-legacy="19-22"></a>
+
 
 - Chi phí: Khoản bị trừ có trần đọc được, và trần đó thấp hơn nhiều so với những gì hợp đồng hay ghi. Khấu trừ tiền lương hằng tháng không quá 30% tiền lương thực trả sau khi đã trừ bảo hiểm bắt buộc và thuế thu nhập cá nhân, và chỉ được khấu trừ để bồi thường thiệt hại do làm hỏng dụng cụ, thiết bị, tài sản. Với thiệt hại không nghiêm trọng do sơ suất mà giá trị không quá 10 tháng lương tối thiểu vùng, mức bồi thường nhiều nhất là 03 tháng tiền lương. Người lao động tự nghỉ trái luật thì mất trợ cấp thôi việc, phải bồi thường nửa tháng tiền lương cộng tiền lương những ngày không báo trước, và phải hoàn chi phí đào tạo nếu có hợp đồng đào tạo nghề. Chiều ngược lại, người sử dụng lao động cho nghỉ trái luật phải nhận trở lại, trả lương và đóng bảo hiểm những ngày không làm, cộng thêm ít nhất 02 tháng tiền lương. Dùng hình thức phạt tiền hoặc cắt lương thay kỷ luật bị phạt hành chính từ 20.000.000 đồng đến 40.000.000 đồng, doanh nghiệp gấp đôi.
 
@@ -305,6 +349,8 @@ Về thang bằng chứng: **cả 24 mục hạng B**. Mỗi mục đứng trên
 ### 23. Điều chuyển công việc và giảm lương: 60 ngày, 85%, và 30 ngày giữ lương cũ
 
 <!-- nhãn: tiền=nhiều thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-dieu-chuyen-cong-viec-va-giam-luong-60-ngay-85-va-30" data-legacy="19-23"></a>
+
 
 - Chi phí: Một lần bị chuyển sang việc khác có thể lấy đi ba thứ tính được. Thứ nhất là khoản lương có thể giảm, tối đa 15% lương cũ, vì tiền lương theo công việc mới ít nhất phải bằng 85% tiền lương của công việc cũ. Trong 30 ngày làm việc đầu, bạn được giữ nguyên tiền lương cũ nếu mức lương việc mới thấp hơn. Thứ ba là toàn bộ phần chênh nếu việc mới kéo dài quá 60 ngày làm việc cộng dồn trong một năm mà không có văn bản đồng ý, vì khi đó việc chuyển là trái quy định. Phía đơn vị, cái giá được ghi thành số: không báo trước 03 ngày làm việc hoặc không nói rõ thời hạn làm tạm thời bị phạt từ 1.000.000 đồng đến 3.000.000 đồng; chuyển không đúng lý do, quá thời hạn hoặc không có văn bản đồng ý của người lao động bị phạt từ 3.000.000 đồng đến 7.000.000 đồng và bị buộc bố trí lại đúng hợp đồng. Cái mất thêm là thời gian đi tìm việc mới nếu buộc phải nghỉ.
 
@@ -322,6 +368,8 @@ Về thang bằng chứng: **cả 24 mục hạng B**. Mỗi mục đứng trên
 ### 24. Làm qua công ty cho thuê lại: 12 tháng, ký quỹ 2 tỷ, và 20 công việc được phép
 
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=vừa thước-đo=thời-gian -->
+<a name="entry-lam-qua-cong-ty-cho-thue-lai-12-thang-ky-quy-2" data-legacy="19-24"></a>
+
 
 - Chi phí: Với người lao động, đi làm qua công ty cho thuê lại không tốn thêm đồng nào, nhưng có ba con số quyết định quyền của mình. Thời hạn cho thuê lại mỗi người tối đa là 12 tháng. Công ty cho thuê lại phải ký quỹ 2.000.000.000 đồng tại ngân hàng và có giấy phép hoạt động, mỗi giấy phép tối đa 60 tháng; tiền ký quỹ dùng để thanh toán tiền lương, bảo hiểm và bồi thường cho người lao động thuê lại khi công ty vi phạm. Chỉ 20 công việc trong danh mục được cho thuê lại. Phía bên thuê lại, dùng người lao động thuê lại cho công việc ngoài danh mục, dùng người của doanh nghiệp không có giấy phép, chuyển người lao động thuê lại cho đơn vị khác hoặc phân biệt đối xử về điều kiện lao động bị phạt từ 40.000.000 đồng đến 50.000.000 đồng, và các vi phạm nhẹ hơn như không huấn luyện an toàn, không thông báo nội quy bị phạt từ 3.000.000 đồng đến 5.000.000 đồng. Bạn cần lưu ý rằng hết 12 tháng thì quan hệ với bên thuê lại không tự động trở thành hợp đồng chính thức.
 
@@ -334,10 +382,12 @@ Về thang bằng chứng: **cả 24 mục hạng B**. Mỗi mục đứng trên
 
 - Nguồn: Bộ luật Lao động số 45/2019/QH14 ngày 20/11/2019 của Quốc hội, hợp nhất tại Văn bản hợp nhất số 18/VBHN-VPQH ngày 12/02/2026 (Điều 53, Điều 54, Điều 56 khoản 4, Điều 57 khoản 2 và khoản 4, Điều 58 khoản 3 và khoản 5), bản công bố kèm tệp đọc được: https://congbao.chinhphu.vn/van-ban/van-ban-hop-nhat-so-18-vbhn-vpqh-468971.htm ; Nghị định số 145/2020/NĐ-CP ngày 14/12/2020 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Bộ luật Lao động về điều kiện lao động và quan hệ lao động (Điều 15 khoản 2, Điều 21 khoản 2, Điều 23 khoản 3, Điều 30 và Phụ lục II), Công báo số 1205 + 1206 ngày 28/12/2020: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-145-2020-nd-cp-32732.htm ; Nghị định số 283/2026/NĐ-CP ngày 15/7/2026 của Chính phủ (Điều 7 khoản 1, Điều 19 khoản 1, khoản 2 và khoản 3), Công báo số 470103: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-283-2026-nd-cp-470103.htm . Tra ngày 3/11/2026.
 
-- Ghi chú: Mốc 12 tháng, ba trường hợp được dùng, ba trường hợp bị cấm, mức ký quỹ 2.000.000.000 đồng, thời hạn giấy phép 60 tháng và danh mục 20 công việc đều đọc được nguyên văn trong luật và nghị định, nên việc kiểm một chỗ làm có đúng luật hay không là phép đối chiếu với danh mục, không phải phán đoán về uy tín công ty. Chưa lên A vì không có thống kê Việt Nam nào về số lao động đang làm qua hình thức cho thuê lại, số doanh nghiệp được cấp phép, hay tỷ lệ người được chuyển sang hợp đồng chính thức, nên không có số đo kết cục. Ba cái bẫy người Việt hay sập. Một: nghe hứa làm ba tháng rồi chuyển chính thức, trong khi khoản 4 Điều 57 và khoản 5 Điều 58 đều đòi thỏa thuận của cả ba bên, nên không có quyền đương nhiên và cũng không có mốc nào tự động chuyển; việc cần làm là hỏi thẳng bằng văn bản và giữ lại câu trả lời. Hai: làm công nhân sản xuất trong nhà máy qua một công ty dịch vụ nhân sự, trong khi danh mục 20 công việc ở Phụ lục II không có công việc sản xuất phổ thông, chỉ có lập trình hệ thống máy sản xuất; dùng người cho công việc ngoài danh mục là vi phạm và điểm a khoản 2 Điều 19 Nghị định 283/2026 đã có khung phạt 40.000.000 đồng đến 50.000.000 đồng, nên câu hỏi đúng là công ty cho thuê có giấy phép và công việc có trong danh mục hay không. Ba: nhận lương thấp hơn người bên cạnh làm cùng việc và nghĩ mình là lao động của công ty khác nên không so được, trong khi khoản 4 Điều 56 và khoản 3 Điều 58 buộc trả ngang bằng theo trình độ và công việc; muốn đòi thì phải có bảng lương của mình, tên bên thuê lại và mô tả công việc, vì nghĩa vụ trả lương nằm ở công ty cho thuê. Bạn không cần từ chối mọi việc làm qua công ty dịch vụ nhân sự: việc cần làm là kiểm ba thứ trước khi ký — giấy phép hoạt động cho thuê lại, công việc có trong danh mục, và hợp đồng lao động ký với công ty cho thuê lại chứ không phải với bên thuê lại.
+- Ghi chú: Mốc 12 tháng, ba trường hợp được dùng, ba trường hợp bị cấm, mức ký quỹ 2.000.000.000 đồng, thời hạn giấy phép 60 tháng và danh [mục 20](19-dang-lam-nghi-viec-va-tai-nan-lao-dong.md#entry-hop-dong-lao-dong-ky-bang-van-ban-truoc-ngay-lam-viec) công việc đều đọc được nguyên văn trong luật và nghị định, nên việc kiểm một chỗ làm có đúng luật hay không là phép đối chiếu với danh mục, không phải phán đoán về uy tín công ty. Chưa lên A vì không có thống kê Việt Nam nào về số lao động đang làm qua hình thức cho thuê lại, số doanh nghiệp được cấp phép, hay tỷ lệ người được chuyển sang hợp đồng chính thức, nên không có số đo kết cục. Ba cái bẫy người Việt hay sập. Một: nghe hứa làm ba tháng rồi chuyển chính thức, trong khi khoản 4 Điều 57 và khoản 5 Điều 58 đều đòi thỏa thuận của cả ba bên, nên không có quyền đương nhiên và cũng không có mốc nào tự động chuyển; việc cần làm là hỏi thẳng bằng văn bản và giữ lại câu trả lời. Hai: làm công nhân sản xuất trong nhà máy qua một công ty dịch vụ nhân sự, trong khi danh [mục 20](19-dang-lam-nghi-viec-va-tai-nan-lao-dong.md#entry-hop-dong-lao-dong-ky-bang-van-ban-truoc-ngay-lam-viec) công việc ở Phụ lục II không có công việc sản xuất phổ thông, chỉ có lập trình hệ thống máy sản xuất; dùng người cho công việc ngoài danh mục là vi phạm và điểm a khoản 2 Điều 19 Nghị định 283/2026 đã có khung phạt 40.000.000 đồng đến 50.000.000 đồng, nên câu hỏi đúng là công ty cho thuê có giấy phép và công việc có trong danh mục hay không. Ba: nhận lương thấp hơn người bên cạnh làm cùng việc và nghĩ mình là lao động của công ty khác nên không so được, trong khi khoản 4 Điều 56 và khoản 3 Điều 58 buộc trả ngang bằng theo trình độ và công việc; muốn đòi thì phải có bảng lương của mình, tên bên thuê lại và mô tả công việc, vì nghĩa vụ trả lương nằm ở công ty cho thuê. Bạn không cần từ chối mọi việc làm qua công ty dịch vụ nhân sự: việc cần làm là kiểm ba thứ trước khi ký — giấy phép hoạt động cho thuê lại, công việc có trong danh mục, và hợp đồng lao động ký với công ty cho thuê lại chứ không phải với bên thuê lại.
 
 ### 25. Ký hợp đồng lao động thì cầm về một bản; lỡ ký trên tờ còn trắng thì ngay hôm đó nhắn tin yêu cầu điền đủ và giao bản cho mình
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-ky-hop-dong-lao-dong-thi-cam-ve-mot-ban-lo-ky" data-legacy="19-25"></a>
+
 - Chi phí: Không mất tiền. Cái khó là phải mở lời ngay ngày đầu đi làm, lúc còn đang thử việc và chưa muốn làm mất lòng ai.
 - Nói dễ hiểu: Hợp đồng lao động phải làm hai bản, bạn giữ một bản; không có bản thì lúc tranh chấp bạn phải tự chứng minh. Ký trên tờ còn trắng rồi bị điền sau là tình huống xấu nhất, vì chữ ký đã là của bạn. Ngay hôm đó hãy nhắn tin cho người phụ trách, ghi rõ cột nào còn trống lúc ký.
 - Lợi ích: Bộ luật Lao động 2019 buộc hợp đồng phải làm thành hai bản, mỗi bên giữ một bản. Người sử dụng lao động giao kết hợp đồng thiếu các nội dung chủ yếu, hoặc không giao kết bằng văn bản với công việc từ đủ một tháng, bị phạt 2 đến 5 triệu đồng khi vi phạm từ 1 đến 10 người lao động. Doanh nghiệp bị phạt gấp đôi mức đó. Cơ quan lao động còn buộc giao kết lại bằng văn bản. Muốn kiện ra toà thì thời hiệu một năm kể từ ngày biết quyền bị xâm phạm.

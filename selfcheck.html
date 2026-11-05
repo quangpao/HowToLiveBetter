@@ -169,6 +169,7 @@ h2{font-family:Georgia,"Times New Roman",serif;font-weight:500;font-size:25px}
   </section>
 </main>
 
+<script src="assets/book-references.js"></script>
 <script>
 /* Bảng câu hỏi. sec + key tìm mục theo "chương thứ mấy" và "đoạn chữ có trong tiêu đề", không ghi số mục —
    nên chèn thêm mục về sau cũng không trỏ sai. Không tìm thấy thì báo lỗi ở console và bỏ qua câu đó.
@@ -274,6 +275,8 @@ function parse(md){
     if ((m = /^#{1,2} (\d+)\. /.exec(line))) { sec = +m[1]; e = null; continue; }
     if ((m = /^### (\d+)\. (.+)$/.exec(line)) && sec) { e = {sec, n:+m[1], title:m[2].trim(), human:'', cost:'', grade:'', note:''}; out.push(e); continue; }
     if (!e) continue;
+    const identity = BookReferences.identity(line);
+    if (identity) { Object.assign(e,identity); continue; }
     if ((m = /^\x3c!--\s*nhãn:\s*(.*?)\s*-->/.exec(line))){
       for (const kv of m[1].split(/\s+/)){ const [k,v] = kv.split('='); const p = {'tiền':'money','thời-gian':'time','ý-chí':'will','lợi-ích':'level','thước-đo':'lens'}[k]; if (p) e[p] = v; }
     }
@@ -348,9 +351,9 @@ function card(e, also){
   const r = {'rất cao':'r3','cao':'r2','trung bình':'r1'}[e.ratio];
   const lens = e.lens ? `<span class="badge plain">thước đo ${e.lens}</span>` : '';
   const alsoH = also.length ? `<div class="also">Việc liên quan: ` + also.map(a =>
-    `<a href="./#e-${a.sec}-${a.n}">${esc(plain(a.title))}</a>`).join(' · ') + `</div>` : '';
+    `<a href="./#entry-${a.id}">${esc(plain(a.title))}</a>`).join(' · ') + `</div>` : '';
   return `<div class="card" id="c-${e.sec}-${e.n}">
-    <div class="h"><b>${esc(plain(e.title))}</b><a href="./#e-${e.sec}-${e.n}">Chương ${e.sec} · mục ${e.n} →</a></div>
+    <div class="h"><b>${esc(plain(e.title))}</b><a href="./#entry-${e.id}">Chương ${e.sec} · mục ${e.n} →</a></div>
     ${e.note ? `<details class="caution"><summary>Điều kiện áp dụng và lưu ý</summary>${esc(plain(e.note))}</details>` : ''}
     ${e.human ? `<div class="human">${esc(plain(e.human))}</div>` : ''}
     <div class="badges"><span class="badge ${r}">đáng làm ${e.ratio}</span><span class="badge ${e.grade}">bằng chứng ${e.grade}</span><span class="badge plain">lợi ích ${e.level}</span>${lens}${e.dispute ? '<span class="badge warn">đang tranh luận</span>' : ''}</div>
@@ -424,9 +427,9 @@ function renderOut(){
     + `  đáng làm ${e.ratio}, bằng chứng ${e.grade}, ${PILES.find(p => p.will === e.will)?.name ?? ''}${e.dispute ? ', đang tranh luận (đọc ghi chú của mục gốc)' : ''}\n`
     + `  phải bỏ ra: ${plain(e.cost)}\n`
     + (e.note ? `  điều kiện áp dụng và lưu ý: ${plain(e.note)}\n` : '')
-    + `  https://quangpao.github.io/HowToLiveBetter/#e-${e.sec}-${e.n}`).join('\n\n');
+    + `  https://quangpao.github.io/HowToLiveBetter/#entry-${e.id}`).join('\n\n');
   document.getElementById('done').innerHTML = yes.map(q =>
-    `<li><a href="./#e-${q.entry.sec}-${q.entry.n}">${esc(plain(q.entry.title))}</a></li>`).join('');
+    `<li><a href="./#entry-${q.entry.id}">${esc(plain(q.entry.title))}</a></li>`).join('');
   document.getElementById('done-h').hidden = !yes.length;
 }
 

@@ -10,10 +10,12 @@ Khi mất điện thoại, bạn cần chú ý **thứ tự thực hiện** các
 
 Về thang bằng chứng: **không mục nào ở chương này xếp hạng A**. Có nghiên cứu đo được tỷ lệ chặn của từng cách xác thực hai lớp, nhưng nó đo trên hệ sinh thái của một hãng và không có số liệu Việt Nam, nên mục về xác thực hai lớp dừng ở **B**. **10 mục hạng B** đứng trên văn bản pháp luật Việt Nam có số hiệu. **2 mục hạng C** chỉ là lời khuyên suy ra từ văn bản và cách dịch vụ vận hành, không có số đo, và Ghi chú nói rõ vì sao.
 
-**Nhóm mục**: **Đăng nhập và mật khẩu**: mục 1 đến 4 · **Thẻ, thiết bị lạ, nút đồng ý, quyền dữ liệu**: mục 5 đến 8 · **Khuôn mặt, dữ liệu cho AI, thuê bao đứng tên, đổi số**: mục 9 đến 12
+**Nhóm mục**: **Đăng nhập và mật khẩu**: [mục 1 đến 4](14-nhung-tai-khoan-va-du-lieu-cua-ban.md#entry-mat-khau-dung-ma-van-mat-tai-khoan-bat-xac-thuc-hai "refs:mat-khau-dung-ma-van-mat-tai-khoan-bat-xac-thuc-hai,mot-mat-khau-dung-cho-moi-noi-dat-mat-khau-rieng-cho,dien-thoai-trong-tay-nguoi-khac-dat-ma-khoa-man-hinh-va,mat-dien-thoai-khoa-sim-truoc-roi-toi-tai-khoan-ngan-hang") · **Thẻ, thiết bị lạ, nút đồng ý, quyền dữ liệu**: [mục 5 đến 8](14-nhung-tai-khoan-va-du-lieu-cua-ban.md#entry-the-bi-tru-tien-ma-minh-khong-mua-goi-khoa-the-truoc "refs:the-bi-tru-tien-ma-minh-khong-mua-goi-khoa-the-truoc,vao-muc-thiet-bi-va-ung-dung-ben-thu-ba-dang-xuat,nut-dong-y-tat-ca-go-dau-tung-muc-dich-chi-giu,doi-xem-xin-ban-sao-sua-va-xoa-du-lieu-gui-mot") · **Khuôn mặt, dữ liệu cho AI, thuê bao đứng tên, đổi số**: [mục 9 đến 12](14-nhung-tai-khoan-va-du-lieu-cua-ban.md#entry-chuyen-tien-cho-nguoi-khac-tren-10-trieu-ngan-hang-buoc-khop "refs:chuyen-tien-cho-nguoi-khac-tren-10-trieu-ngan-hang-buoc-khop,dan-ma-nguon-vao-o-chat-cua-dich-vu-ai-khoa-bi,moi-nam-mot-lan-tu-tra-xem-minh-dang-dung-ten-bao,doi-so-dien-thoai-giu-so-cu-song-toi-khi-doi-xong")
 
 ### 1. Mật khẩu đúng mà vẫn mất tài khoản: bật xác thực hai lớp, chọn cách xác nhận hiện trên máy thay vì tin nhắn
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-mat-khau-dung-ma-van-mat-tai-khoan-bat-xac-thuc-hai" data-legacy="14-1"></a>
+
 - Chi phí: Không mất tiền. Mất khoảng 10 phút cho hộp thư và vài phút cho mỗi tài khoản còn lại, cộng một lần ghi lại mã dự phòng khi đổi máy. Phần khó không nằm ở tiền mà ở thói quen: mỗi lần đăng nhập từ máy lạ, bạn phải mở điện thoại ra bấm một lần. Đúng cái phiền đó là thứ chặn người lạ, nên đừng chọn cách xác nhận nào bỏ qua được bước ấy.
 - Nói dễ hiểu: Bật xác thực hai lớp cho hộp thư trước, chọn cách xác nhận hiện trên máy thay vì tin nhắn. Làm tiếp cho ngân hàng, mạng xã hội, ví điện tử. Không đọc mã xác thực cho ai, kể cả người tự xưng là nhân viên.
 - Lợi ích: Xác thực hai lớp giảm nguy cơ mất quyền kiểm soát tài khoản khi mật khẩu lộ. Ưu tiên phương thức xác nhận trên thiết bị riêng và lưu mã khôi phục ở nơi an toàn.
@@ -24,6 +26,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 2. Một mật khẩu dùng cho mọi nơi: đặt mật khẩu riêng cho hộp thư, vì đó là chỗ lấy lại tất cả
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-mot-mat-khau-dung-cho-moi-noi-dat-mat-khau-rieng-cho" data-legacy="14-2"></a>
+
 - Chi phí: Không mất tiền, chỉ mất một buổi tối: đổi mật khẩu hộp thư, rồi đổi ở những nơi từng dùng chung mật khẩu đó. Bạn còn phải mất công lưu giữ: mỗi dịch vụ có một mật khẩu riêng thì cần chỗ ghi lại, và bạn cũng phải giữ kín nơi lưu mật khẩu. Ai đang dùng chung một mật khẩu cho năm bảy dịch vụ thì chi phí thật của việc tách ra là một lần sắp xếp lại toàn bộ.
 - Nói dễ hiểu: Đổi mật khẩu hộp thư trước, thành mật khẩu riêng không dùng ở đâu khác. Sau đó đổi mật khẩu ở mọi nơi từng dùng chung mật khẩu cũ. Xong thì mở phần thiết bị đã đăng nhập, đăng xuất những máy bạn không nhận ra.
 - Lợi ích: Dùng mật khẩu khác nhau cho từng dịch vụ, nhất là hộp thư chính. Khi một dịch vụ bị lộ, mật khẩu riêng giúp tránh kẻ xấu vào các tài khoản khác.
@@ -34,6 +38,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 3. Điện thoại trong tay người khác: đặt mã khóa màn hình và mã PIN cho SIM, đừng để họ đọc được tin nhắn
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-dien-thoai-trong-tay-nguoi-khac-dat-ma-khoa-man-hinh-va" data-legacy="14-3"></a>
+
 - Chi phí: Không mất tiền. Bạn mất vài phút cài đặt và một lần ghi mã PIN ra giấy để ở nhà, vì nếu nhập sai mã PIN SIM quá số lần cho phép, SIM sẽ bị khóa và bạn phải ra cửa hàng nhà mạng để mở bằng mã PUK. Cái phiền thật là mỗi lần khởi động lại máy phải nhập thêm một mã, nên nhiều người bỏ sau vài ngày.
 - Nói dễ hiểu: Đặt mã khóa màn hình từ sáu số trở lên, bật tự khóa sau nửa phút. Vào phần cài đặt SIM, bật yêu cầu mã PIN mỗi lần khởi động máy, đổi mã PIN mặc định của nhà mạng. Ghi mã PIN ra chỗ khác, không lưu trong chính máy đó.
 - Lợi ích: Khóa màn hình và đặt mã PIN cho SIM giúp người lạ khó lấy mã xác thực khi cầm điện thoại của bạn. Đừng để tin nhắn và dữ liệu ngân hàng xuất hiện công khai trên màn hình khóa.
@@ -44,6 +50,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 4. Mất điện thoại: khóa SIM trước, rồi tới tài khoản ngân hàng, rồi mới đổi mật khẩu
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-mat-dien-thoai-khoa-sim-truoc-roi-toi-tai-khoan-ngan-hang" data-legacy="14-4"></a>
+
 - Chi phí: Tốn tiền làm lại SIM, thường vài chục nghìn, và tiền mua máy mới, thường vài triệu. Bạn mất thêm một buổi ra điểm giao dịch của nhà mạng, vì lấy lại số phải xuất trình giấy tờ tùy thân, rồi một ngày chờ: tài khoản bị phong tỏa thì tiền lương, tiền nhà, tiền học đều đứng yên cho tới khi bạn ra ngân hàng làm thủ tục.
 - Nói dễ hiểu: Khóa SIM trước bằng cách gọi tổng đài nhà mạng, rồi gọi ngân hàng yêu cầu phong tỏa tài khoản, rồi đổi mật khẩu hộp thư từ một máy khác. Sau đó mới khóa máy từ xa và ra công an trình báo.
 - Lợi ích: Mất điện thoại cần khóa SIM, thẻ và tài khoản thanh toán trước khi đổi mật khẩu các dịch vụ khác. Có sẵn số hotline ngân hàng sẽ tiết kiệm thời gian lúc khẩn cấp.
@@ -54,6 +62,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 5. Thẻ bị trừ tiền mà mình không mua: gọi khóa thẻ trước, rồi gửi yêu cầu tra soát bằng văn bản
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-the-bi-tru-tien-ma-minh-khong-mua-goi-khoa-the-truoc" data-legacy="14-5"></a>
+
 - Chi phí: Cuộc gọi tới đường dây nóng và việc gửi yêu cầu tra soát không có khoản phải trả trước. Khoản đắt là số tiền đã bị trừ, và có thể bạn chỉ lấy lại được một phần chứ không phải toàn bộ. Bạn chắc chắn mất thời gian: một buổi gọi điện, rồi tối đa 30 ngày làm việc tính từ lần tiếp nhận đầu tiên để chờ kết quả tra soát với thẻ có BIN do Ngân hàng Nhà nước cấp.
 - Nói dễ hiểu: Gọi đường dây nóng của ngân hàng, nói ngay "khóa thẻ vì nghi gian lận", ghi lại giờ gọi và mã tiếp nhận. Rồi gửi yêu cầu tra soát bằng văn bản kèm sao kê, giữ biên nhận. Đừng chờ ngân hàng tự phát hiện.
 - Lợi ích: Khi xuất hiện giao dịch thẻ lạ, báo khóa thẻ ngay và lập yêu cầu tra soát có mã tiếp nhận. Giữ lịch sử giao dịch, tin nhắn ngân hàng và biên bản trả lời.
@@ -64,6 +74,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 6. Vào mục thiết bị và ứng dụng bên thứ ba, đăng xuất máy lạ rồi thu hồi từng quyền truy cập
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-vao-muc-thiet-bi-va-ung-dung-ben-thu-ba-dang-xuat" data-legacy="14-6"></a>
+
 - Chi phí: Không tốn tiền. Bạn mất một buổi tối: mỗi tài khoản chính có hai trang riêng, một trang thiết bị đang đăng nhập và một trang ứng dụng bên thứ ba đã được cấp quyền, làm lần lượt hết khoảng 10 phút cho mỗi tài khoản. Việc khó là dám gỡ những ứng dụng bạn không còn nhớ đã cấp quyền từ năm nào.
 - Nói dễ hiểu: Mở mục thiết bị đã đăng nhập của hộp thư và tài khoản chính, đăng xuất mọi máy lạ. Rồi sang phần ứng dụng bên thứ ba, gỡ từng cái không còn dùng. Gửi email cho nhà cung cấp ứng dụng, yêu cầu chấm dứt quyền truy cập và giữ lại thư.
 - Lợi ích: Định kỳ xem thiết bị đã đăng nhập và ứng dụng đang được cấp quyền. Đăng xuất phiên lạ, thu hồi quyền không cần thiết rồi thay mật khẩu khi nghi lộ.
@@ -74,6 +86,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 7. Nút "đồng ý tất cả": gỡ dấu từng mục đích, chỉ giữ mục bạn thật sự dùng, và chụp lại màn hình
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=khác -->
+<a name="entry-nut-dong-y-tat-ca-go-dau-tung-muc-dich-chi-giu" data-legacy="14-7"></a>
+
 - Chi phí: Không tốn tiền, chỉ tốn vài phút đọc. Khoản đắt là phần dịch vụ bị hạn chế khi bạn không đồng ý mục đích quảng cáo, vì tính năng cần đúng loại dữ liệu đó vẫn có thể bị từ chối. Việc khó là đọc hết danh sách mục đích, vì nút đồng ý thường đặt to và tô đậm hơn nút từ chối.
 - Nói dễ hiểu: Bỏ dấu ở những mục bạn không cần, để lại mục thật dùng. Muốn từ chối thì bấm nút từ chối, đừng đóng trang rồi coi như xong. Chụp màn hình trước khi bấm, và đừng bấm nút đồng ý gộp.
 - Lợi ích: Không nhấn 'đồng ý tất cả' theo thói quen. Đọc mục đích thu thập dữ liệu và chỉ chấp nhận phần thực sự cần, lưu lại lựa chọn khi cần khiếu nại.
@@ -84,6 +98,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 8. Đòi xem, xin bản sao, sửa và xóa dữ liệu: gửi một email nêu đúng quyền và đếm ngày
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-doi-xem-xin-ban-sao-sua-va-xoa-du-lieu-gui-mot" data-legacy="14-8"></a>
+
 - Chi phí: Không tốn tiền. Bạn mất thời gian chờ và công đếm ngày: 02 ngày làm việc để họ phản hồi, 10 ngày để làm xong yêu cầu xem hoặc yêu cầu cung cấp, 20 ngày nếu là yêu cầu xóa, cộng thêm một lần gia hạn nếu họ nêu lý do và chứng minh được là cần thiết.
 - Nói dễ hiểu: Gửi email cho bộ phận bảo vệ dữ liệu, nêu rõ muốn xem, xin bản sao, sửa và xóa những loại dữ liệu nào; ghi lại ngày gửi. Hạn trả lời là 02 ngày làm việc, hạn làm xong là 10 ngày với yêu cầu xem và 20 ngày với yêu cầu xóa.
 - Lợi ích: Bạn có thể yêu cầu doanh nghiệp cung cấp, điều chỉnh hoặc xóa dữ liệu theo điều kiện áp dụng. Gửi yêu cầu có ngày tháng và giữ chứng cứ đã gửi để theo dõi.
@@ -94,6 +110,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 9. Chuyển tiền cho người khác trên 10 triệu: ngân hàng buộc khớp khuôn mặt, đừng tìm dịch vụ "mở khóa"
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-chuyen-tien-cho-nguoi-khac-tren-10-trieu-ngan-hang-buoc-khop" data-legacy="14-9"></a>
+
 - Chi phí: Không mất đồng nào cho lần quét: ngân hàng không có phí riêng cho bước xác thực này, chỉ có phí dịch vụ thường lệ của tài khoản. Thứ tốn là thời gian: vài chục giây cho mỗi lần quét, có khi phải giơ điện thoại đúng sáng và bỏ kính. Nếu bạn từ chối quét thì chi phí thật là một chuyến ra quầy, xếp hàng, mang theo thẻ căn cước, và chỉ làm được trong giờ giao dịch.
 - Nói dễ hiểu: Chuyển tiền cho người khác qua app, nhớ hai ngưỡng: một lệnh trên 10 triệu đồng, hoặc tổng các lệnh trong ngày trên 20 triệu đồng, là phải khớp khuôn mặt. Dưới cả hai ngưỡng thì chỉ cần mã OTP. Không muốn quét thì ra quầy làm.
 - Lợi ích: Xác thực khuôn mặt cho giao dịch ngân hàng là lớp kiểm soát, không phải thao tác nên tìm cách vượt qua. Khi không thực hiện được, liên hệ chính ngân hàng để giải quyết.
@@ -104,6 +122,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 10. Dán mã nguồn vào ô chat của dịch vụ AI: khóa bí mật và dữ liệu khách hàng coi như đã ra nước ngoài
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-dan-ma-nguon-vao-o-chat-cua-dich-vu-ai-khoa-bi" data-legacy="14-10"></a>
+
 - Chi phí: Không tốn tiền, chỉ tốn một buổi để tách khóa ra khỏi mã và đổi lại những khóa đã lộ. Nếu để lộ khóa, bạn tốn nhiều thời gian khắc phục hơn: một khóa bị lạm dụng có thể phát sinh phí dịch vụ trong vài giờ, và bạn phải rà lại log, hủy khóa, cấp lại rồi cập nhật ở mọi nơi đang dùng. Nếu mã có dữ liệu khách hàng thật thì còn phải xử lý theo quy định bảo vệ dữ liệu, nặng hơn nhiều so với việc đổi một chuỗi ký tự.
 - Nói dễ hiểu: Đừng dán mã nguồn có khóa bí mật vào ô chat của dịch vụ AI. Che khóa, tách tệp cấu hình, cấp khóa riêng chỉ có những quyền cần dùng rồi thu hồi khi xong. Lỡ dán khóa thật thì đổi ngay, xem lại log và hóa đơn. Dữ liệu khách hàng trong mã cũng phải che trước khi dán.
 - Lợi ích: Không đưa khóa API, mật khẩu hay dữ liệu khách hàng vào ô chat AI của bên ngoài khi chưa xác định quyền sử dụng và nơi dữ liệu được xử lý. Thông tin bí mật đã gửi đi rất khó thu hồi.
@@ -114,6 +134,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 11. Mỗi năm một lần, tự tra xem mình đang đứng tên bao nhiêu thuê bao di động
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=khác -->
+<a name="entry-moi-nam-mot-lan-tu-tra-xem-minh-dang-dung-ten-bao" data-legacy="14-11"></a>
+
 - Chi phí: Không mất tiền: tra trong ứng dụng của nhà mạng hoặc ra điểm giao dịch, cả hai đều miễn phí. Thứ tốn là một buổi mỗi năm và một lần đối chiếu giấy tờ, vì muốn tra đúng thì phải đăng nhập bằng chính số đang dùng. Nếu phát hiện số lạ, chi phí tiếp theo là một lần ra quầy ký giấy đề nghị chấm dứt hợp đồng, không phải trả tiền nhưng phải có mặt.
 - Nói dễ hiểu: Mỗi năm một lần, mở app từng nhà mạng tra xem mình đang đứng tên số nào. Thấy số lạ thì yêu cầu nhà mạng chấm dứt hợp đồng. Nhớ: chỉ 03 số đầu đăng ký trực tuyến được, số thứ tư trở lên phải ra quầy ký hợp đồng.
 - Lợi ích: Kiểm tra danh sách thuê bao đứng tên mình giúp phát hiện SIM lạ hoặc thông tin đăng ký sai. Gửi yêu cầu sửa hoặc chấm dứt thuê bao không phải của mình qua nhà mạng.
@@ -124,6 +146,8 @@ Về thang bằng chứng: **không mục nào ở chương này xếp hạng A*
 
 ### 12. Đổi số điện thoại: giữ số cũ sống tới khi đổi xong ở ngân hàng và VNeID, rồi mới trả số
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-doi-so-dien-thoai-giu-so-cu-song-toi-khi-doi-xong" data-legacy="14-12"></a>
+
 - Chi phí: Tốn vài chục nghìn nếu mua SIM mới, và tốn một buổi đi lại nếu ngân hàng bắt cập nhật tại quầy. Bạn còn tốn thời gian chờ: trong suốt giai đoạn chuyển, bạn vẫn cần nhận mã xác thực gửi về số cũ, nên phải giữ hai SIM cùng hoạt động và trả cước cho số cũ thêm một hai tháng.
 - Nói dễ hiểu: Đổi số thì giữ số cũ hoạt động tới khi xong việc. Cập nhật số mới ở ngân hàng, ví điện tử, VNeID trước, vì mã xác thực gửi về số đã đăng ký. Rà lại xem còn tài khoản nào dùng số cũ để xác thực, cập nhật hết rồi mới hủy số cũ.
 - Lợi ích: Đổi số điện thoại theo thứ tự: cập nhật ngân hàng và định danh, xác nhận đăng nhập hoạt động rồi mới hủy số cũ. Tránh để số cũ được người khác dùng để nhận mã khôi phục.

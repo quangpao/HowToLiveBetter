@@ -8,6 +8,8 @@ import { resolve, dirname, posix, basename } from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { ROOT, REPO, REPO_BRANCH, SITE, TITLE, README_FILE, read, readBook, gitCommit, buildStamp, stripBackLink } from '../lib/book.mjs';
 import { splitLongItems } from '../lib/split-items.mjs';
+import { readCatalog, prepareMarkdown } from '../lib/references.mjs';
+import { validateCitations, annotateCitations, citationNotesMarkdown } from '../lib/citations.mjs';
 
 const OUT = resolve(ROOT, process.argv[2] ?? 'dist/HowToLiveBetter.pdf');
 const WORK = resolve(ROOT, 'dist/pdf-build.md');
@@ -17,6 +19,8 @@ const STAMP = buildStamp();          // chuỗi "(giờ Việt Nam)" được gh
 const COMMIT = gitCommit();
 
 const { description, frontMd, contentsMd, bookFiles, docFiles } = readBook();
+const catalog = readCatalog();
+validateCitations(catalog);
 
 // ---------- Trang (mỗi trang một tiêu đề cấp 1, tiêu đề cấp 1 sang trang mới trong typst) ----------
 const anchorOf = new Map();
@@ -27,6 +31,7 @@ const pages = [
   { src: README_FILE, md: `# Lời mở\n\n${description}\n\n${frontMd}`, anchor: 'front' },
   { src: README_FILE, md: contentsMd.replace(/^## Mục lục/, '# Tóm tắt các chương'), anchor: 'contents' },
   ...[...bookFiles, ...docFiles].map(src => ({ src, md: splitLongItems(stripBackLink(read(src))), anchor: anchorOf.get(src) })),
+  { src: 'legal-notes', md: citationNotesMarkdown(catalog,{heading:ref => ' {#law-' + ref.id + '}'}), anchor:'legal-notes' },
   { src: README_FILE, md: aboutMd(), anchor: 'about' },
 ];
 
@@ -48,6 +53,9 @@ Nội dung phát hành theo CC BY 4.0 (https://creativecommons.org/licenses/by/4
 // ---------- Liên kết: trong sách đổi thành neo, ngoài sách đổi thành địa chỉ tuyệt đối ----------
 function rewriteLinks(md, src) {
   return md.replace(/\]\(([^)\s]+)(\s+"[^"]*")?\)/g, (all, href, title) => {
+    const stable = /#entry-([a-z0-9-]+)$/.exec(href);
+    if (stable && catalog.byId.has(stable[1])) return `](#entry-${stable[1]})`;
+    if (/^#law-[a-z0-9-]+$/.test(href)) return all;
     if (/^(https?:|mailto:)/.test(href)) return all;
     // Neo trỏ tới mục của chính README (kiểu #mục-lục) không chắc có trong sách, nên trỏ về README trên GitHub
     if (href.startsWith('#')) return `](${REPO}/blob/${REPO_BRANCH}/README.md${href}${title ?? ''})`;
@@ -61,7 +69,8 @@ function rewriteLinks(md, src) {
 }
 
 const body = pages.map(p => {
-  const md = rewriteLinks(p.md, p.src)
+  const annotated = annotateCitations(p.md,p.src,catalog,ref => '#law-' + ref.id);
+  const md = rewriteLinks(prepareMarkdown(annotated,p.src,catalog), p.src)
     .replace(/<!--[\s\S]*?-->/g, '')                       // chú thích HTML kiểu nhãn chi phí không vào PDF
     .replace(/^(# .+?)\s*$/m, `$1 {#${p.anchor}}`);        // gắn neo cho tiêu đề cấp 1 của trang này
   if (!md.includes(`{#${p.anchor}}`)) throw new Error(`Không thấy tiêu đề cấp 1 trong ${p.src}, không gắn được neo`);

@@ -20,6 +20,7 @@
 import { readFileSync, readdirSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { refs } from './lib/references.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const STAT = process.argv.includes('--stat');
@@ -95,7 +96,7 @@ for (const f of files) {
     const h = line.match(/^### (\d+)\. (.*)$/);
     if (h) { flush(); no = Number(h[1]); title = h[2]; fields = {}; continue; }
     const m = line.match(/^- (Nói dễ hiểu|Chi phí|Lợi ích|Pháp luật Việt Nam):(.*)$/);
-    if (m && no) fields[m[1]] = m[2];
+    if (m && no) fields[m[1]] = refs.plainText(m[2]);
   }
   flush();
 }

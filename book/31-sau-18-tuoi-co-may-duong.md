@@ -8,10 +8,12 @@ Về thang bằng chứng: **16 mục hạng B, 1 mục hạng C, không có m�
 
 Về bối cảnh Việt Nam: đừng đọc chương này theo sách nước ngoài, vì gần như mọi mốc trong đó đều không dùng được ở Việt Nam. Ba mốc cần gạt ra ngay từ đầu: mốc đăng ký nghĩa vụ quân sự theo hạn tháng 10, danh mục "cấm xuất cảnh, cấm học, cấm vào doanh nghiệp nhà nước" khi trốn nghĩa vụ, và mức tiền bồi hoàn học phí cho sinh viên nhập ngũ. Ở Việt Nam ba thứ đó hoặc không tồn tại, hoặc nằm ở văn bản khác hẳn. Thêm một chỗ nữa: **chưa có bảo hiểm tai nạn lao động bắt buộc do nền tảng đóng cho người chạy xe công nghệ**, nên đừng đọc chương này như thể đã có.
 
-**Nhóm mục**: **Các đường và nghĩa vụ quân sự**: mục 1 đến 3 · **Sinh viên đi nghĩa vụ và ngày xuất ngũ**: mục 4 đến 6 · **Khu vực nhà nước, xã khó khăn, công an và quân đội**: mục 7 đến 9 · **Học lại, bảo hiểm tự nguyện, xe công nghệ, học bổng ràng buộc**: mục 10 đến 13 · **Ra nước ngoài và nhận lương nước ngoài**: mục 14 và 15 · **Vay vốn và chuyện xét tuyển người mới tốt nghiệp**: mục 16 đến 17
+**Nhóm mục**: **Các đường và nghĩa vụ quân sự**: [mục 1 đến 3](31-sau-18-tuoi-co-may-duong.md#entry-bay-con-duong-sau-tuoi-18-moi-duong-co-mot-nguong-tuoi "refs:bay-con-duong-sau-tuoi-18-moi-duong-co-mot-nguong-tuoi,dang-ky-nghia-vu-quan-su-lan-dau-tu-nam-17-tuoi,tron-nghia-vu-quan-su-co-khung-phat-toi-75-trieu-dong") · **Sinh viên đi nghĩa vụ và ngày xuất ngũ**: [mục 4 đến 6](31-sau-18-tuoi-co-may-duong.md#entry-sinh-vien-di-nghia-vu-bao-luu-ket-qua-hoc-tap-10 "refs:sinh-vien-di-nghia-vu-bao-luu-ket-qua-hoc-tap-10,xuat-ngu-ve-thi-viec-lam-tinh-tu-ba-cho-va-cua,ba-khoan-tien-khi-xuat-ngu-2-thang-luong-co-so-moi") · **Khu vực nhà nước, xã khó khăn, công an và quân đội**: [mục 7 đến 9](31-sau-18-tuoi-co-may-duong.md#entry-vao-khu-vuc-nha-nuoc-co-bon-cua-va-khong-co-cua "refs:vao-khu-vuc-nha-nuoc-co-bon-cua-va-khong-co-cua,day-o-xa-dac-biet-kho-khan-10-thang-luong-co-so,cong-an-quan-doi-co-cua-rieng-nghia-vu-24-thang-va") · **Học lại, bảo hiểm tự nguyện, xe công nghệ, học bổng ràng buộc**: [mục 10 đến 13](31-sau-18-tuoi-co-may-duong.md#entry-hoc-lai-sau-tuoi-18-bang-tai-chuc-co-gia-tri-phap "refs:hoc-lai-sau-tuoi-18-bang-tai-chuc-co-gia-tri-phap,khong-vao-bien-che-bao-hiem-xa-hoi-tu-nguyen-la-duong,chay-xe-cong-nghe-giao-hang-khong-co-quy-tai-nan-nao,hoc-bong-co-rang-buoc-sinh-vien-su-pham-duoc-3-63") · **Ra nước ngoài và nhận lương nước ngoài**: [mục 14](31-sau-18-tuoi-co-may-duong.md#entry-di-lam-viec-o-nuoc-ngoai-kiem-giay-phep-cua-cong-ty) và [15](31-sau-18-tuoi-co-may-duong.md#entry-nhan-luong-tu-cong-ty-nuoc-ngoai-khi-van-o-viet-nam) · **Vay vốn và chuyện xét tuyển người mới tốt nghiệp**: [mục 16 đến 17](31-sau-18-tuoi-co-may-duong.md#entry-vay-von-de-tu-tao-viec-lam-hoi-ngan-hang-chinh-sach "refs:vay-von-de-tu-tao-viec-lam-hoi-ngan-hang-chinh-sach,chuyen-con-la-sinh-vien-moi-tot-nghiep-khong-co-trong-luat")
 
 ### 1. Bảy con đường sau tuổi 18: mỗi đường có một ngưỡng tuổi viết trong luật, và hai chỗ luật không đặt trần
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=thời-gian -->
+<a name="entry-bay-con-duong-sau-tuoi-18-moi-duong-co-mot-nguong-tuoi" data-legacy="31-1"></a>
+
 - Chi phí: Không mất tiền. Bạn cần dành một buổi đối chiếu: mở từng văn bản, tìm đúng điều, rồi kiểm tra mình đã đủ tuổi theo quy định chưa. Ngoài điều kiện về tuổi, bạn còn phải xét sức khỏe, lý lịch, chỉ tiêu và kỳ tuyển của từng con đường, nên đủ tuổi vẫn chưa chắc được nhận.
 
 - Nói dễ hiểu: Ngưỡng ghi trong luật: đi làm thuê từ 15 tuổi; nghĩa vụ quân sự 18 đến hết 25, đã học đại học, cao đẳng thì 27; công chức và viên chức chỉ đòi đủ 18, luật không đặt trần; đi làm việc ở nước ngoài từ 18 và công ty phải có giấy phép.
@@ -25,6 +27,8 @@ Về bối cảnh Việt Nam: đừng đọc chương này theo sách nước ng
 
 ### 2. Đăng ký nghĩa vụ quân sự lần đầu từ năm 17 tuổi, gọi nhập ngũ 18 đến hết 25, tại ngũ 24 tháng
 <!-- nhãn: tiền=0 thời-gian=nhiều ý-chí=có lợi-ích=vừa thước-đo=thời-gian -->
+<a name="entry-dang-ky-nghia-vu-quan-su-lan-dau-tu-nam-17-tuoi" data-legacy="31-2"></a>
+
 - Chi phí: Đăng ký không mất tiền: một lần khai trực tuyến hoặc ra Ban Chỉ huy quân sự cấp xã, vài phút. Bạn phải dành 24 tháng phục vụ tại ngũ: trong hai năm đó không học tiếp, không ký hợp đồng lao động dài hạn, không đi làm thêm theo ca của mình; ngoài ra còn phải dành thời gian khám sức khỏe, chờ kết quả và chờ ngày nhập ngũ.
 
 - Nói dễ hiểu: Đăng ký nghĩa vụ quân sự không phải là đi nhập ngũ: nam đủ 17 tuổi phải đăng ký lần đầu, xã gọi đăng ký vào tháng tư hằng năm, còn tuổi gọi nhập ngũ là từ 18 đến hết 25. Tại ngũ 24 tháng. Không đăng ký lần đầu thì bị cảnh cáo; tái phạm bị phạt 8 đến 10 triệu đồng.
@@ -38,6 +42,8 @@ Về bối cảnh Việt Nam: đừng đọc chương này theo sách nước ng
 
 ### 3. Trốn nghĩa vụ quân sự có khung phạt tới 75 triệu đồng và có thể bị xử lý theo Điều 332 Bộ luật Hình sự, dù không có danh mục cấm xuất cảnh.
 <!-- nhãn: tiền=nhiều thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-tron-nghia-vu-quan-su-co-khung-phat-toi-75-trieu-dong" data-legacy="31-3"></a>
+
 - Chi phí: Tiền phạt tính bằng triệu đồng, và với trường hợp bị buộc thực hiện nghĩa vụ quân sự, nộp phạt không làm mất nghĩa vụ. Cao nhất trong nhóm hành vi này là 75.000.000 đồng, cộng án tích nếu đã bị xử phạt mà còn vi phạm. Cái mất thêm là thời gian: một vụ hình sự kéo theo điều tra, xét xử, và bản án nằm trong lý lịch tư pháp đúng vào tuổi đi xin việc.
 
 - Nói dễ hiểu: Không có đường hợp pháp nào để trốn nghĩa vụ quân sự. Không đi khám sức khỏe: 15 đến 20 triệu đồng. Không có mặt khi gọi nhập ngũ: 30 đến 40 triệu. Không chấp hành quyết định gọi nhập ngũ: 50 đến 75 triệu. Đã bị phạt mà còn vi phạm thì có thể bị truy cứu theo Điều 332, tù 3 tháng đến 2 năm.
@@ -51,6 +57,8 @@ Về bối cảnh Việt Nam: đừng đọc chương này theo sách nước ng
 
 ### 4. Sinh viên đi nghĩa vụ: bảo lưu kết quả học tập, 10.120.000 đồng trợ cấp xuất ngũ và 15.180.000 đồng trợ cấp tạo việc làm
 <!-- nhãn: tiền=ít thời-gian=nhiều ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-sinh-vien-di-nghia-vu-bao-luu-ket-qua-hoc-tap-10" data-legacy="31-4"></a>
+
 - Chi phí: Không phải đóng gì để được hưởng. Cái đắt là hai năm: việc học bị dừng giữa khóa, và khi quay lại thì bạn cùng lớp đã ra trường trước một năm hoặc hai năm. Cộng vào đó là giấy tờ — giấy xác nhận của đơn vị, quyết định xuất ngũ, bản sao học bạ hoặc kết quả học tập — nộp lại cho trường trong thời hạn trường đặt, và mỗi lần thiếu một tờ là một lần đi lại.
 
 - Nói dễ hiểu: Học đại học rồi đi nghĩa vụ thì được bảo lưu kết quả và trở lại trường. Xuất ngũ nhận 2 tháng lương cơ sở mỗi năm phục vụ, cộng 6 tháng lương cơ sở trợ cấp tạo việc làm; với mức 2.530.000 đồng, hai năm ra 25.300.000 đồng. Không có hoàn học phí.
@@ -65,6 +73,8 @@ Về bối cảnh Việt Nam: đừng đọc chương này theo sách nước ng
 ### 5. Xuất ngũ về thì việc làm tính từ ba chỗ, và cửa đăng ký chỉ mở 15 ngày làm việc
 
 <!-- nhãn: tiền=0 thời-gian=nhiều ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-xuat-ngu-ve-thi-viec-lam-tinh-tu-ba-cho-va-cua" data-legacy="31-5"></a>
+
 
 - Chi phí: Không mất tiền. Bạn phải dành một buổi đến cơ quan đăng ký nghĩa vụ quân sự để đăng ký phục vụ trong ngạch dự bị, và việc này phải làm trong 15 ngày làm việc đầu tiên sau khi về; cộng vài buổi quay lại chỗ làm cũ hoặc trường cũ nếu trước khi nhập ngũ bạn đã có chỗ ở đó; cộng vài tháng nếu bạn chọn học nghề. Về ở tỉnh khác nơi nhập ngũ thì thêm tiền đi lại, khoản đó không ai bù. So với 24 tháng đã đi thì đây là khoản rẻ, và cái đắt là 24 tháng đó không có lương thị trường: Điều 21 khoản 1 của bản hợp nhất 133/2026/VBHN-LQ-VPQH ghi "Thời hạn phục vụ tại ngũ trong thời bình của hạ sĩ quan, binh sĩ là 24 tháng".
 
@@ -82,6 +92,8 @@ Về bối cảnh Việt Nam: đừng đọc chương này theo sách nước ng
 ### 6. Ba khoản tiền khi xuất ngũ: 2 tháng lương cơ sở mỗi năm phục vụ, cộng 6 tháng tạo việc làm
 
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-ba-khoan-tien-khi-xuat-ngu-2-thang-luong-co-so-moi" data-legacy="31-6"></a>
+
 
 - Chi phí: Không mất tiền, chỉ mất một buổi làm hồ sơ và chờ chi trả. Điều cần biết trước là khoản này không phải lương của tháng cuối, và không ai tự chuyển vào tài khoản: đơn vị ra quyết định xuất ngũ, bạn nhận tiền ở đơn vị và ở kho bạc theo giấy giới thiệu, nên thiếu một chữ ký là phải quay lại. Nếu bạn ra quân rồi mới phát hiện thiếu giấy tờ thì tiền đi lại để quay lại đơn vị thường đắt hơn khoản chênh lệch đang tranh.
 
@@ -99,6 +111,8 @@ Về bối cảnh Việt Nam: đừng đọc chương này theo sách nước ng
 ### 7. Vào khu vực nhà nước có bốn cửa, và không có cửa nào tên là "chờ đủ năm thì vào biên chế"
 
 <!-- nhãn: tiền=0 thời-gian=nhiều ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-vao-khu-vuc-nha-nuoc-co-bon-cua-va-khong-co-cua" data-legacy="31-7"></a>
+
 
 - Chi phí: Không mất tiền để nộp hồ sơ; mất thời gian và mất tính linh hoạt. Một kỳ thi tuyển công chức hoặc viên chức thường chiếm vài tháng ôn, và nếu bạn đang đi làm thì đó là vài tháng làm hai việc. Cái đắt hơn là chỗ đứng: nhận hợp đồng ở một đơn vị sự nghiệp để "chờ" có thể kéo dài nhiều năm mà không thành viên chức, và trong những năm đó bạn không được tính vào đâu. Học phí ôn thi là khoản nhỏ so với khoản lương bị thấp hơn thị trường trong quãng chờ.
 
@@ -116,6 +130,8 @@ Về bối cảnh Việt Nam: đừng đọc chương này theo sách nước ng
 ### 8. Dạy ở xã đặc biệt khó khăn: 10 tháng lương cơ sở khi nhận việc lần đầu, phụ cấp thu hút 70% nhưng chỉ 60 tháng
 
 <!-- nhãn: tiền=0 thời-gian=nhiều ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-day-o-xa-dac-biet-kho-khan-10-thang-luong-co-so" data-legacy="31-8"></a>
+
 
 - Chi phí: Không mất tiền để nhận công tác, và đây là một trong ít chỗ mà nhà nước trả tiền cho việc đi xa. Cái phải bỏ ra là thời gian sống ở nơi khó: đi lại, y tế, trường cho con, và những năm không chuyển được. Khoản trợ cấp lần đầu tính bằng tháng lương cơ sở nên nó tăng theo lương cơ sở, trong khi chi phí sống ở vùng khó thì không giảm — trợ cấp là tiền bù, không phải tiền lời.
 
@@ -133,6 +149,8 @@ Về bối cảnh Việt Nam: đừng đọc chương này theo sách nước ng
 ### 9. Công an, quân đội có cửa riêng: nghĩa vụ 24 tháng, và ở lại là xét tuyển chứ không tự động
 
 <!-- nhãn: tiền=0 thời-gian=nhiều ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-cong-an-quan-doi-co-cua-rieng-nghia-vu-24-thang-va" data-legacy="31-9"></a>
+
 
 - Chi phí: Không mất tiền để dự tuyển, nhưng mất hai năm và mất quyền chọn chỗ ở trong hai năm đó. Nghĩa vụ tham gia công an là 24 tháng, có thể kéo dài thêm không quá 6 tháng theo quyết định của Bộ trưởng Bộ Công an, và trong thời gian đó bạn ăn ở theo đơn vị, không chọn được nơi công tác. Cửa quân đội chuyên nghiệp cũng vậy: ký xong là đi theo lệnh điều động, và hạn tuổi phục vụ tính từng cấp bậc chứ không theo nguyện vọng.
 
@@ -145,10 +163,12 @@ Về bối cảnh Việt Nam: đừng đọc chương này theo sách nước ng
 
 - Nguồn: Nghị định số 70/2019/NĐ-CP ngày 10/9/2019 của Chính phủ quy định về thực hiện nghĩa vụ tham gia Công an nhân dân (Điều 4 khoản 3, Điều 5 khoản 4, Điều 8 khoản 2, Điều 9), hiệu lực 10/10/2019, trạng thái còn hiệu lực: https://vbpl.vn/van-ban/chi-tiet/nghi-dinh-so-70-2019-nd-cp-quy-dinh-ve-thuc-hien-nghia-vu-tham-gia-cong-an-nhan-dan--137802 ; Luật Quân nhân chuyên nghiệp, công nhân và viên chức quốc phòng, bản hợp nhất số 131/2026/VBHN-LQ-VPQH (Điều 14, Điều 28): https://vbpl.vn/van-ban/chi-tiet/van-ban-hop-nhat-luat-quan-nhan-chuyen-nghiep-cong-nhan-va-vien-chuc-quoc-phong-so-131-2026-vbhn-lq-vpqh--a7201b20-cd46-11f1-bf7d-b754b0d8ab51 ; Luật Nghĩa vụ quân sự số 78/2015/QH13, bản hợp nhất số 133/2026/VBHN-LQ-VPQH (Điều 50), cho phần chế độ: https://vbpl.vn/van-ban/chi-tiet/van-ban-hop-nhat-ve-nghia-vu-quan-su-so-133-2026-vbhn-lq-vpqh--2240ead0-c209-11f1-8c3d-7937bc843e42 . Tra ngày 3/11/2026.
 
-- Ghi chú: Các điều kiện, thời hạn và hình thức tuyển đều là câu chữ của văn bản còn hiệu lực, nhưng mục này không có con số nào đo kết cục — không ai công bố tỷ lệ thật của việc chuyển sang chuyên nghiệp hằng năm, và chính nghị định cũng đẩy phần "tiêu chuẩn và tỷ lệ" cho Bộ Công an quy định, nên chỗ đứng đúng là B. Ba cái bẫy. Một: tưởng hết 24 tháng là nghiễm nhiên thành công an chuyên nghiệp. Điều 9 khoản 2 đòi ba thứ cùng lúc — tự nguyện, công an có nhu cầu, và đủ tiêu chuẩn theo tỷ lệ do ngành quy định; thiếu một thứ là về, và "về" ở đây là về với trợ cấp xuất ngũ, không phải với một suất chờ. Hai: tưởng viên chức quốc phòng là công chức, hoặc là một dạng biên chế dân sự giống nhau ở mọi bộ. Đó là một chế độ riêng trong quân đội, tuyển theo Điều 28 Luật Quân nhân chuyên nghiệp, công nhân và viên chức quốc phòng, và chịu sự điều động của quân đội — đọc tên chế độ trước khi so với một chỗ làm dân sự. Ba: tin người nhận tiền "lo suất vào trường công an", "chạy khám sức khỏe", "bao đỗ". Tuyển sinh và tuyển chọn có hội đồng, có khám sức khỏe theo quy định của Bộ Công an, và mọi giấy tờ đều đối chiếu được; khoản tiền đưa trước gần như luôn mất, còn người nhận thì đang phạm tội. Đừng hiểu ngược: mục này không nói nghĩa vụ là cửa hẹp hay đừng đi, và cũng không nói ai đi nghĩa vụ cũng nên ở lại; nó nói hai đường ở lại có điều kiện rõ ràng và có người quyết định, nên người muốn ở lại phải chuẩn bị từ trong thời gian tại ngũ — kết quả phân loại hằng năm, hồ sơ sức khỏe, bằng cấp — chứ không phải nộp đơn vào tháng cuối. Và cần nhớ một mốc dễ quên: về đến nơi cư trú, trong 15 ngày làm việc vẫn phải đi đăng ký ngạch dự bị, như mục 5 đã nói. **Điểm chưa chắc:** Nghị định 70/2019/NĐ-CP dẫn sang Điều 50 của luật nghĩa vụ quân sự; Điều 45 và Điều 50 trên bản hợp nhất 133/2026 giữ nguyên, nhưng phần tỷ lệ chuyển chuyên nghiệp vẫn do Bộ Công an quy định và chưa mở được văn bản của ngành.
+- Ghi chú: Các điều kiện, thời hạn và hình thức tuyển đều là câu chữ của văn bản còn hiệu lực, nhưng mục này không có con số nào đo kết cục — không ai công bố tỷ lệ thật của việc chuyển sang chuyên nghiệp hằng năm, và chính nghị định cũng đẩy phần "tiêu chuẩn và tỷ lệ" cho Bộ Công an quy định, nên chỗ đứng đúng là B. Ba cái bẫy. Một: tưởng hết 24 tháng là nghiễm nhiên thành công an chuyên nghiệp. Điều 9 khoản 2 đòi ba thứ cùng lúc — tự nguyện, công an có nhu cầu, và đủ tiêu chuẩn theo tỷ lệ do ngành quy định; thiếu một thứ là về, và "về" ở đây là về với trợ cấp xuất ngũ, không phải với một suất chờ. Hai: tưởng viên chức quốc phòng là công chức, hoặc là một dạng biên chế dân sự giống nhau ở mọi bộ. Đó là một chế độ riêng trong quân đội, tuyển theo Điều 28 Luật Quân nhân chuyên nghiệp, công nhân và viên chức quốc phòng, và chịu sự điều động của quân đội — đọc tên chế độ trước khi so với một chỗ làm dân sự. Ba: tin người nhận tiền "lo suất vào trường công an", "chạy khám sức khỏe", "bao đỗ". Tuyển sinh và tuyển chọn có hội đồng, có khám sức khỏe theo quy định của Bộ Công an, và mọi giấy tờ đều đối chiếu được; khoản tiền đưa trước gần như luôn mất, còn người nhận thì đang phạm tội. Đừng hiểu ngược: mục này không nói nghĩa vụ là cửa hẹp hay đừng đi, và cũng không nói ai đi nghĩa vụ cũng nên ở lại; nó nói hai đường ở lại có điều kiện rõ ràng và có người quyết định, nên người muốn ở lại phải chuẩn bị từ trong thời gian tại ngũ — kết quả phân loại hằng năm, hồ sơ sức khỏe, bằng cấp — chứ không phải nộp đơn vào tháng cuối. Và cần nhớ một mốc dễ quên: về đến nơi cư trú, trong 15 ngày làm việc vẫn phải đi đăng ký ngạch dự bị, như [mục 5](31-sau-18-tuoi-co-may-duong.md#entry-xuat-ngu-ve-thi-viec-lam-tinh-tu-ba-cho-va-cua) đã nói. **Điểm chưa chắc:** Nghị định 70/2019/NĐ-CP dẫn sang Điều 50 của luật nghĩa vụ quân sự; Điều 45 và Điều 50 trên bản hợp nhất 133/2026 giữ nguyên, nhưng phần tỷ lệ chuyển chuyên nghiệp vẫn do Bộ Công an quy định và chưa mở được văn bản của ngành.
 
 ### 10. Học lại sau tuổi 18: bằng tại chức có giá trị pháp lý như bằng chính quy, còn chứng chỉ của lớp "bao đậu" thì không phải văn bằng
 <!-- nhãn: tiền=ít thời-gian=nhiều ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-hoc-lai-sau-tuoi-18-bang-tai-chuc-co-gia-tri-phap" data-legacy="31-10"></a>
+
 - Chi phí: Học phí đóng theo tháng hoặc theo kỳ, không phải một cục: trần học phí đại học công lập chưa tự chủ năm học 2026–2027 là 1.710.000 đến 2.090.000 đồng một tháng với khối ngành thông thường và 3.500.000 đồng với khối y dược, tính 10 tháng một năm, theo Nghị định 238/2025/NĐ-CP Điều 8; học vừa làm vừa học hay học từ xa thì hỏi thẳng mức thu của trường, vì trần đó viết cho hệ chính quy. Cái đắt hơn tiền là thời gian: một khóa vừa làm vừa học thường 3 đến 4 năm buổi tối và cuối tuần, và bạn phải giữ được nhịp đó sau một ngày đi làm, chứ không phải chỉ cần đóng tiền đúng hạn. Khoản thứ ba là rủi ro đóng trước: học phí thường thu theo kỳ, nên nếu cơ sở bị đình chỉ tuyển sinh giữa đường thì phần đã đóng là phần khó đòi nhất.
 
 - Nói dễ hiểu: Không đỗ đại học vẫn học tiếp được: thi lại, học vừa làm vừa học, hoặc học nghề. Bằng do cơ sở được phép cấp, dù học theo hình thức nào, đều có giá trị pháp lý như nhau. Tờ chứng chỉ của lớp hứa bao đậu không phải văn bằng.
@@ -162,7 +182,9 @@ Về bối cảnh Việt Nam: đừng đọc chương này theo sách nước ng
 
 ### 11. Không vào biên chế: bảo hiểm xã hội tự nguyện là đường duy nhất để có lương hưu, còn bảo hiểm thất nghiệp thì không có cho người tự làm
 <!-- nhãn: tiền=nhiều thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
-- Chi phí: Bạn đóng 22% mức thu nhập tự chọn, tức là một mình bạn đóng toàn bộ, không có người sử dụng lao động đóng cùng, nên hãy tính khoản này vào thu nhập thật của nghề tự do. Mức thấp nhất bằng chuẩn hộ nghèo khu vực nông thôn, cao nhất 20 lần mức tham chiếu; cách quy ra tiền và phần ngân sách hỗ trợ đã tính ở chương 5 mục 45, ở đây không lặp lại vì mức sàn đổi theo chuẩn nghèo. Khoản thứ hai không phải tiền mà là tính kiên định: đóng đều từng tháng trong nhiều năm, và tiền không rút ra tùy ý được — chỉ rút một lần trong các trường hợp luật định, nên đừng coi quỹ này là khoản tiết kiệm phòng khi kẹt.
+<a name="entry-khong-vao-bien-che-bao-hiem-xa-hoi-tu-nguyen-la-duong" data-legacy="31-11"></a>
+
+- Chi phí: Bạn đóng 22% mức thu nhập tự chọn, tức là một mình bạn đóng toàn bộ, không có người sử dụng lao động đóng cùng, nên hãy tính khoản này vào thu nhập thật của nghề tự do. Mức thấp nhất bằng chuẩn hộ nghèo khu vực nông thôn, cao nhất 20 lần mức tham chiếu; cách quy ra tiền và phần ngân sách hỗ trợ đã tính ở [chương 5 mục 45](05-dung-lang-phi-tien.md#entry-khong-co-luong-huu-cong-ty-dong-bao-hiem-xa-hoi-tu), ở đây không lặp lại vì mức sàn đổi theo chuẩn nghèo. Khoản thứ hai không phải tiền mà là tính kiên định: đóng đều từng tháng trong nhiều năm, và tiền không rút ra tùy ý được — chỉ rút một lần trong các trường hợp luật định, nên đừng coi quỹ này là khoản tiết kiệm phòng khi kẹt.
 
 - Nói dễ hiểu: Tự làm thì tự đóng: 22% thu nhập bạn chọn, đủ 15 năm và đủ tuổi là có lương hưu, nữ hưởng 45%, nam hưởng 40%. Bảo hiểm thất nghiệp thì không có, vì nó gắn với hợp đồng lao động. Thẻ y tế mua theo hộ gia đình.
 
@@ -175,6 +197,8 @@ Về bối cảnh Việt Nam: đừng đọc chương này theo sách nước ng
 
 ### 12. Chạy xe công nghệ, giao hàng: không có quỹ tai nạn nào do nền tảng đóng thay bạn
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=vừa thước-đo=tai-nạn -->
+<a name="entry-chay-xe-cong-nghe-giao-hang-khong-co-quy-tai-nan-nao" data-legacy="31-12"></a>
+
 - Chi phí: Không mất phí để bắt đầu chạy, và đó là lý do nghề này hút người mới. Khoản phải bỏ ra không nằm ở phí mà nằm ở chỗ trống: bạn tự trả viện phí nếu chưa có thẻ, tự mất thu nhập những ngày không chạy được, và tự mua bảo hiểm nếu muốn có người trả tiền khi gãy tay. Cộng thêm chi phí giữ xe, xăng và sửa xe, những khoản trừ thẳng vào từng cuốc. Cái đắt nhất là quãng thời gian nằm viện: một ca chấn thương khớp gối hay gãy xương đùi không chỉ là hóa đơn mà còn là hai đến ba tháng không có thu nhập, đúng lúc trong nhà không ai chạy thay.
 
 - Nói dễ hiểu: Không có điều khoản nào buộc nền tảng đóng bảo hiểm tai nạn cho bạn theo từng cuốc. Muốn có bảo hiểm tai nạn lao động thì phải có hợp đồng lao động với đơn vị vận tải; nếu không, bạn tự mua bảo hiểm và tự đóng bảo hiểm xã hội tự nguyện.
@@ -188,6 +212,8 @@ Về bối cảnh Việt Nam: đừng đọc chương này theo sách nước ng
 
 ### 13. Học bổng có ràng buộc: sinh viên sư phạm được 3,63 triệu đồng một tháng, đổi lại phải công tác gấp hai lần thời gian đào tạo
 <!-- nhãn: tiền=0 thời-gian=nhiều ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-hoc-bong-co-rang-buoc-sinh-vien-su-pham-duoc-3-63" data-legacy="31-13"></a>
+
 - Chi phí: Bạn không phải đóng học phí và nhận 3,63 triệu đồng một tháng trong thời gian học, tối đa 10 tháng một năm học — nhưng khoản này kèm điều kiện, không phải tiền cho đứt. Cái phải trả là thời gian: cam kết công tác trong ngành giáo dục tối thiểu gấp hai lần thời gian đào tạo, tính từ ngày được tuyển dụng, nên học 4 năm là 8 năm làm việc trong ngành giáo dục. Nếu sau 2 năm kể từ ngày có quyết định công nhận tốt nghiệp mà không công tác trong ngành, bạn phải bồi hoàn toàn bộ kinh phí đã nhận; nếu có công tác nhưng thiếu thời gian, bồi hoàn một phần theo công thức ở Điều 8. Thời hạn thực hiện nghĩa vụ bồi hoàn tối đa là 4 năm kể từ khi nhận thông báo, quá hạn thì phải chịu lãi suất.
 
 - Nói dễ hiểu: Học sư phạm có học bổng: nhà nước trả học phí và 3,63 triệu đồng mỗi tháng, tối đa 10 tháng một năm. Đổi lại bạn phải dạy gấp hai lần số năm đã học. Bỏ ngang hoặc không vào ngành thì phải trả lại tiền.
@@ -201,6 +227,8 @@ Về bối cảnh Việt Nam: đừng đọc chương này theo sách nước ng
 
 ### 14. Đi làm việc ở nước ngoài: kiểm giấy phép của công ty trước, và biết tiền dịch vụ có trần
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-di-lam-viec-o-nuoc-ngoai-kiem-giay-phep-cua-cong-ty" data-legacy="31-14"></a>
+
 - Chi phí: Không tốn tiền để kiểm. Bạn mất độ một buổi đọc danh sách doanh nghiệp được cấp phép và đọc hai hợp đồng trước khi ký. Cái đắt nằm ở phía sau: tiền dịch vụ vượt trần, một khoản gọi là đặt cọc đưa tiền mặt không giấy biên nhận, vé máy bay, và khoản vay ngân hàng đã vay để đủ tiền đi.
 - Nói dễ hiểu: Đưa người đi làm ở nước ngoài là ngành có điều kiện, nên việc đầu tiên là tra xem công ty có giấy phép hay không. Tiền dịch vụ có trần, tiền môi giới bị cấm, và tiền bảo đảm chỉ được gửi vào tài khoản phong tỏa mang tên bạn. Đưa tiền mặt cho công ty giữ là sai.
 - Lợi ích: Đi làm việc ở nước ngoài cần kiểm giấy phép doanh nghiệp, hợp đồng, khoản phí và điều kiện bảo hộ. Không giao tiền hay hộ chiếu chỉ vì lời hứa đi nhanh.
@@ -211,6 +239,8 @@ Về bối cảnh Việt Nam: đừng đọc chương này theo sách nước ng
 
 ### 15. Nhận lương từ công ty nước ngoài khi vẫn ở Việt Nam: thuế thu nhập cá nhân là việc bạn phải tự khai
 <!-- nhãn: tiền=nhiều thời-gian=vừa ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-nhan-luong-tu-cong-ty-nuoc-ngoai-khi-van-o-viet-nam" data-legacy="31-15"></a>
+
 - Chi phí: Không mất phí làm hồ sơ. Bạn cần dành thời gian tự theo dõi thu nhập cả năm, kê khai một lần và giữ lại hợp đồng cùng chứng từ chuyển tiền. Phần tiền thuế tính theo biểu lũy tiến sau khi trừ giảm trừ gia cảnh, nên số phải nộp tăng nhanh hơn thu nhập ở mức cao.
 - Nói dễ hiểu: Nghĩa vụ thuế phụ thuộc vào nơi bạn cư trú: nếu bạn cư trú tại Việt Nam, thu nhập từ tiền lương, tiền công chịu thuế ở Việt Nam, không phân biệt ai trả. Công ty nước ngoài không khấu trừ thay bạn, nên bạn tự khai, tự nộp và tự giữ chứng từ. Bạn không khai thì nghĩa vụ đó vẫn còn.
 - Lợi ích: Nhận lương từ công ty nước ngoài khi sống ở Việt Nam có thể phát sinh nghĩa vụ tự khai thuế. Cần lưu hợp đồng, chứng từ nhận tiền và xác định đúng tình trạng cư trú.
@@ -221,16 +251,20 @@ Về bối cảnh Việt Nam: đừng đọc chương này theo sách nước ng
 
 ### 16. Vay vốn để tự tạo việc làm: hỏi Ngân hàng Chính sách xã hội trước khi tìm vay nóng
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=vừa thước-đo=tiền -->
+<a name="entry-vay-von-de-tu-tao-viec-lam-hoi-ngan-hang-chinh-sach" data-legacy="31-16"></a>
+
 - Chi phí: Không mất phí hồ sơ. Bạn cần dành thời gian viết phương án sử dụng vốn và chờ thẩm định ở phòng giao dịch; hằng tháng, bạn phải trả lãi và gốc cho tới khi hết nợ. Bạn phải trả đủ cả tiền gốc lẫn tiền lãi, vì đây không phải khoản được cấp.
 - Nói dễ hiểu: Muốn có vốn để tự tạo việc làm, hỏi Phòng giao dịch Ngân hàng Chính sách xã hội nơi mình ở trước khi tìm vay nóng. Người lao động được vay tới 200 triệu đồng, tối đa 120 tháng, lãi suất bằng 127% mức lãi suất cho vay hộ nghèo. Tiền vay vẫn phải trả, và phải có phương án dùng vốn.
 - Lợi ích: Người muốn tự tạo việc làm có thể hỏi chính sách vay vốn thay vì chọn khoản vay nóng. Kiểm điều kiện vay, phương án kinh doanh và khả năng hoàn trả.
 - Pháp luật Việt Nam: Điều 8 Luật Việc làm 74/2025/QH15 nói Nhà nước làm tín dụng chính sách để hỗ trợ tạo việc làm, duy trì và mở rộng việc làm qua Ngân hàng Chính sách xã hội, từ nguồn vốn cho vay giải quyết việc làm gồm ngân sách trung ương, ngân sách địa phương ủy thác và nguồn huy động của ngân hàng. Điều 9 khoản 1 mở rộng đối tượng: doanh nghiệp nhỏ và vừa, hợp tác xã, tổ hợp tác, hộ kinh doanh, và người lao động. Khoản 6 đặt hai điều kiện với người lao động: có năng lực hành vi dân sự đầy đủ, và có phương án sử dụng vốn để tạo việc làm, duy trì hoặc mở rộng việc làm. Điều 12 khoản 2 nói thanh niên được vay theo đúng cơ chế đó. Các mức cụ thể nằm ở Nghị định 338/2025/NĐ-CP: Điều 5 khoản 2 cho người lao động vay tối đa 200 triệu đồng; khoản 1 cho cơ sở sản xuất, kinh doanh vay tối đa 10 tỷ đồng và không quá 200 triệu đồng cho một người lao động được hỗ trợ; Khoản 4 quy định giới hạn tổng dư nợ tại cùng một thời điểm. khoản 5 để Ngân hàng Chính sách xã hội thỏa thuận mức cụ thể theo nguồn vốn và khả năng trả nợ. Điều 6 đặt thời hạn vay tối đa 120 tháng. Điều 7 tính lãi suất bằng 127% lãi suất vay hộ nghèo theo từng thời kỳ, và lãi nợ quá hạn bằng 130% lãi suất vay. Điều 8 chỉ buộc bảo đảm tiền vay với khoản trên 200 triệu đồng của cơ sở sản xuất, kinh doanh.
 - Mức bằng chứng: B
 - Nguồn: Quốc hội, Luật Việc làm số 74/2025/QH15, hiệu lực 01/01/2026 (Điều 8, 9, 12): https://vbpl.vn/van-ban/chi-tiet/luat-viec-lam-so-74-2025-qh15--179273 ; Chính phủ, Nghị định 338/2025/NĐ-CP ngày 25/12/2025 quy định chi tiết một số điều của Luật Việc làm về chính sách hỗ trợ việc làm, hiệu lực 01/01/2026 (Điều 5, 6, 7, 8): https://vbpl.vn/van-ban/chi-tiet/nghi-dinh-so-338-2025-nd-cp-quy-dinh-chi-tiet-mot-so-dieu-cua-luat-viec-lam-ve-chinh-sach-ho-tro-viec-lam--185562 . Tra ngày 3/11/2026.
-- Ghi chú: Mức vay, thời hạn và cách tính lãi đều là con số đọc được trong nghị định đang có hiệu lực, nhưng không có số liệu nào cho biết bao nhiêu người vay trả được, bao nhiêu người mất vốn, nên mục dừng ở B; đây cũng là loại mục mà bằng chứng pháp lý chắc hơn hẳn bằng chứng về kết quả. Ba cái bẫy. Một: nghe "vay chính sách" rồi tưởng là tiền hỗ trợ không phải trả, hoặc tưởng lãi thấp thì không cần tính; lãi suất 127% lãi suất hộ nghèo vẫn là lãi, nợ quá hạn lên 130%, và mất khả năng trả thì mất luôn chỗ vay những lần sau. Hai: tưởng phải thuộc hộ nghèo hay thuộc nhóm ưu tiên mới vay được, trong khi Luật Việc làm 74/2025 đã mở đối tượng tới mọi người lao động có năng lực hành vi dân sự và có phương án; nhóm ưu tiên chỉ được mức lãi thấp hơn. Ba: vay hộ, đứng tên hộ hay đưa giấy tờ cho người khác làm hồ sơ — người đứng tên trên hợp đồng vay là người chịu nợ trước ngân hàng và trước pháp luật, còn người nhận tiền thì có thể biến mất. Bạn chỉ nên dùng vốn vay khi dự tính việc kinh doanh sẽ tạo ra tiền trả nợ, đồng thời vẫn cần giữ riêng tiền nhà và tiền sinh hoạt, không đưa vào vốn kinh doanh — xem chương 12 mục 1.
+- Ghi chú: Mức vay, thời hạn và cách tính lãi đều là con số đọc được trong nghị định đang có hiệu lực, nhưng không có số liệu nào cho biết bao nhiêu người vay trả được, bao nhiêu người mất vốn, nên mục dừng ở B; đây cũng là loại mục mà bằng chứng pháp lý chắc hơn hẳn bằng chứng về kết quả. Ba cái bẫy. Một: nghe "vay chính sách" rồi tưởng là tiền hỗ trợ không phải trả, hoặc tưởng lãi thấp thì không cần tính; lãi suất 127% lãi suất hộ nghèo vẫn là lãi, nợ quá hạn lên 130%, và mất khả năng trả thì mất luôn chỗ vay những lần sau. Hai: tưởng phải thuộc hộ nghèo hay thuộc nhóm ưu tiên mới vay được, trong khi Luật Việc làm 74/2025 đã mở đối tượng tới mọi người lao động có năng lực hành vi dân sự và có phương án; nhóm ưu tiên chỉ được mức lãi thấp hơn. Ba: vay hộ, đứng tên hộ hay đưa giấy tờ cho người khác làm hồ sơ — người đứng tên trên hợp đồng vay là người chịu nợ trước ngân hàng và trước pháp luật, còn người nhận tiền thì có thể biến mất. Bạn chỉ nên dùng vốn vay khi dự tính việc kinh doanh sẽ tạo ra tiền trả nợ, đồng thời vẫn cần giữ riêng tiền nhà và tiền sinh hoạt, không đưa vào vốn kinh doanh — xem [chương 12 mục 1](12-kinh-doanh-nho-mo-van-hanh-dong.md#entry-chi-bo-vao-viec-kinh-doanh-so-tien-mat-het-van-con).
 
 ### 17. Chuyện "còn là sinh viên mới tốt nghiệp": không có trong luật tuyển dụng, chỉ có trong từng thông báo
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=không lợi-ích=vừa thước-đo=thời-gian -->
+<a name="entry-chuyen-con-la-sinh-vien-moi-tot-nghiep-khong-co-trong-luat" data-legacy="31-17"></a>
+
 - Chi phí: Không tốn tiền. Bạn cần dành nửa buổi đọc thông báo tuyển dụng và bản mô tả vị trí việc làm trước khi ký hợp đồng hay nhận việc, đồng thời gọi hỏi lại cơ quan tuyển dụng nếu câu chữ trong thông báo không rõ.
 - Nói dễ hiểu: Luật tuyển dụng công chức và viên chức không có khái niệm sinh viên mới tốt nghiệp. Điều kiện nằm ở vị trí việc làm và ở từng thông báo tuyển dụng, nên đọc thông báo trước khi ký hợp đồng hay nhận việc. Riêng sinh viên tốt nghiệp loại xuất sắc có một cửa xét tuyển riêng.
 - Lợi ích: Các thông báo tuyển dụng có thể yêu cầu người mới tốt nghiệp, nhưng đây không phải một tư cách pháp lý tồn tại mãi. Đọc đúng điều kiện từng vị trí thay vì tự loại mình.

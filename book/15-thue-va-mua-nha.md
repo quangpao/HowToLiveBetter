@@ -10,10 +10,12 @@ Khi kiểm tra giấy tờ nhà đất, bạn cần chú ý **thứ tự kiểm 
 
 Về thang bằng chứng: **cả 18 mục đều hạng B**. Mỗi mục dựa trên điều khoản đọc được nguyên văn trong luật, nghị định hoặc thông tư có số hiệu. **Không mục nào hạng A** vì Việt Nam chưa công bố số liệu đo được kết quả của từng bước — ví dụ chưa có thống kê toàn quốc về tỷ lệ người thuê lấy lại được tiền cọc khi hợp đồng không ghi thời hạn trả. **Không mục nào hạng C** vì không mục nào phải dựa vào lời khuyên chung.
 
-**Nhóm mục**: **Thuê nhà và người thuê**: mục 1 đến 5 · **Giấy tờ trước khi ký**: mục 6 đến 9 · **Nhà hình thành trong tương lai**: mục 10 đến 14 · **Vay, phí và nhận nhà**: mục 15 đến 18
+**Nhóm mục**: **Thuê nhà và người thuê**: [mục 1 đến 5](15-thue-va-mua-nha.md#entry-hop-dong-thue-chi-ghi-gia-thue-chep-du-muoi-mot-noi "refs:hop-dong-thue-chi-ghi-gia-thue-chep-du-muoi-mot-noi,chu-nha-cat-dien-thay-khoa-de-duoi-gui-van-ban-yeu,tra-tien-coc-va-tien-thue-chi-tra-cho-nguoi-dung-ten,thue-phong-trong-nha-chia-phong-hoi-toa-nha-do-co-bao,nha-bi-ban-khi-dang-thue-hop-dong-thue-di-theo-nha") · **Giấy tờ trước khi ký**: [mục 6 đến 9](15-thue-va-mua-nha.md#entry-ky-truoc-khi-xem-so-mo-trang-thay-doi-cua-giay-chung "refs:ky-truoc-khi-xem-so-mo-trang-thay-doi-cua-giay-chung,tra-tien-nha-chuyen-khoan-vao-tai-khoan-dung-ten-nguoi-trong,mua-qua-san-tien-vao-tai-khoan-chu-nha-hoac-chu-dau,nha-chia-phong-luat-khong-dat-met-vuong-toi-thieu-cho-phong") · **Nhà hình thành trong tương lai**: [mục 10 đến 14](15-thue-va-mua-nha.md#entry-nha-hinh-thanh-trong-tuong-lai-dat-coc-khong-qua-5-thanh "refs:nha-hinh-thanh-trong-tuong-lai-dat-coc-khong-qua-5-thanh,hop-dong-mau-va-phu-luc-in-ban-da-cong-khai-ra,cham-ban-giao-muc-phat-phai-ghi-theo-ngay-va-giu-lai,truoc-khi-dat-but-xem-quy-hoach-xem-giai-chap-xem-van,ky-xong-kiem-tra-the-chap-da-vao-ho-so-dat-chua") · **Vay, phí và nhận nhà**: [mục 15 đến 18](15-thue-va-mua-nha.md#entry-lai-suat-tha-noi-ghi-cong-thuc-dieu-chinh-vao-hop-dong "refs:lai-suat-tha-noi-ghi-cong-thuc-dieu-chinh-vao-hop-dong,vay-uu-dai-nha-o-xa-hoi-thu-ngan-hang-chinh-sach,phi-quan-ly-chung-cu-doi-khung-gia-cua-tinh-va-hoa,nhan-nha-doi-bon-loai-giay-truoc-khi-ky-bien-ban-ban")
 
 ### 1. Hợp đồng thuê chỉ ghi giá thuê: chép đủ mười một nội dung của Điều 163, nhất là tiền cọc và hạn trả cọc
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-hop-dong-thue-chi-ghi-gia-thue-chep-du-muoi-mot-noi" data-legacy="15-1"></a>
+
 - Chi phí: Không mất tiền, mất một buổi tối đánh máy và một lần ra điểm photo. Khoản thật sự bị giữ là tiền cọc, thường một tới hai tháng tiền thuê, nằm trong tay người khác cho tới ngày bạn trả nhà. Nếu hợp đồng không ghi ngày trả cọc thì bạn không có mốc nào để đòi, và mỗi lần nhắc có thể kéo dài hàng tháng.
 - Nói dễ hiểu: Ghi ngay trang đầu hợp đồng thuê: tiền cọc bao nhiêu, ngày trả lại cọc, trường hợp nào được trừ cọc, cách trả tiền thuê hằng tháng, và số ngày báo trước khi chấm dứt. Không ghi thì lúc đòi chỉ còn lời nói.
 - Lợi ích: Hợp đồng thuê ghi đủ tiền cọc, giá, hạn trả, trách nhiệm sửa chữa và điều kiện chấm dứt giúp tránh cãi nhau khi trả nhà. Đừng ký mẫu chỉ có giá thuê.
@@ -24,6 +26,8 @@ Về thang bằng chứng: **cả 18 mục đều hạng B**. Mỗi mục dựa 
 
 ### 2. Chủ nhà cắt điện, thay khóa để đuổi: gửi văn bản yêu cầu khôi phục và lập biên bản trước, đừng dọn đi trong đêm
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-chu-nha-cat-dien-thay-khoa-de-duoi-gui-van-ban-yeu" data-legacy="15-2"></a>
+
 - Chi phí: Không mất tiền thuê thêm, nhưng mất vài ngày lương để ở nhà chờ, đi công an xã phường và viết văn bản. Khoản đắt là tiền khách sạn hoặc nhà trọ tạm nếu bạn dọn đi trước khi có biên bản, cộng tiền cọc đang nằm trong tay chủ nhà. Một tuần mất chỗ ở giữa thành phố thường tốn hơn một tháng tiền thuê, và khoản đó khó đòi lại.
 - Nói dễ hiểu: Khi bị cắt điện, cắt nước hay thay khóa: chụp ảnh, quay video hiện trạng ngay trong ngày, gửi văn bản yêu cầu khôi phục, ra công an xã phường trình báo để lập biên bản. Đừng dọn đi và đừng trả chìa khóa trước khi có biên nhận.
 - Lợi ích: Nếu chủ nhà gây sức ép buộc dọn đi, giữ hợp đồng và ghi lại hành vi, yêu cầu giải quyết bằng văn bản. Đừng bỏ hết đồ đi mà chưa có biên bản bàn giao.
@@ -34,6 +38,8 @@ Về thang bằng chứng: **cả 18 mục đều hạng B**. Mỗi mục dựa 
 
 ### 3. Trả tiền cọc và tiền thuê: chỉ trả cho người đứng tên trên giấy chứng nhận hoặc người có giấy ủy quyền, và ghi rõ nội dung chuyển khoản
 <!-- nhãn: tiền=nhiều thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-tra-tien-coc-va-tien-thue-chi-tra-cho-nguoi-dung-ten" data-legacy="15-3"></a>
+
 - Chi phí: Khoản tiền đi ra là tiền cọc, thường một tới hai tháng tiền thuê, cộng tháng đầu trả trước. Mất thêm vài chục nghìn phí chuyển khoản và một buổi đi xem giấy tờ. Cái đắt nhất là trả nhầm người: khi đó bạn vừa mất tiền, vừa không có hợp đồng ràng buộc chủ nhà, vừa phải trả lần hai nếu muốn ở tiếp.
 - Nói dễ hiểu: So tên trên giấy chứng nhận với tên người nhận và tên chủ tài khoản trước khi chuyển tiền. Khác tên thì đòi giấy ủy quyền. Nội dung chuyển khoản ghi rõ: đặt cọc thuê nhà, địa chỉ, thời hạn thuê. Làm ngay trong ngày ký hợp đồng.
 - Lợi ích: Trước khi trả tiền cọc, kiểm tra quyền cho thuê hoặc giấy ủy quyền và thông tin tài khoản nhận tiền. Ghi rõ mục đích chuyển khoản và giữ biên nhận.
@@ -44,6 +50,8 @@ Về thang bằng chứng: **cả 18 mục đều hạng B**. Mỗi mục dựa 
 
 ### 4. Thuê phòng trong nhà chia phòng: hỏi tòa nhà đó có bao nhiêu căn hộ và xin xem giấy nghiệm thu phòng cháy trước khi đặt cọc
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=vừa thước-đo=khác -->
+<a name="entry-thue-phong-trong-nha-chia-phong-hoi-toa-nha-do-co-bao" data-legacy="15-4"></a>
+
 - Chi phí: Chênh lệch giá giữa phòng trong nhà chia phòng và căn hộ nguyên căn thường bằng một nửa tới hai phần ba, nên chọn phòng là tiết kiệm tiền thuê hằng tháng. Cái phải tính thêm là thời gian đi xem đường vào, cầu thang, lối thoát và một buổi hỏi giấy tờ; nếu tòa nhà không đủ điều kiện thì chi phí thật là lần dọn nhà tiếp theo cộng tiền cọc.
 - Nói dễ hiểu: Hỏi chủ nhà ba thứ: nhà có bao nhiêu căn hộ cho thuê, đã làm dự án chưa, có giấy nghiệm thu phòng cháy chữa cháy không. Từ hai mươi căn trở lên mà không có dự án thì đừng thuê. Xin xem giấy tờ, đừng xem ảnh.
 - Lợi ích: Nhà chia phòng cho thuê phải được kiểm tra về an toàn phòng cháy, lối thoát và thiết kế. Giá rẻ không bù được rủi ro khi hệ thống điện và đường thoát nạn không đạt.
@@ -54,6 +62,8 @@ Về thang bằng chứng: **cả 18 mục đều hạng B**. Mỗi mục dựa 
 
 ### 5. Nhà bị bán khi đang thuê: hợp đồng thuê đi theo nhà, chủ mới phải cho bạn ở tới hết hạn
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=ít lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-nha-bi-ban-khi-dang-thue-hop-dong-thue-di-theo-nha" data-legacy="15-5"></a>
+
 - Chi phí: Không mất tiền để biết quyền của mình, chỉ mất một buổi đọc lại hợp đồng và một tin nhắn hỏi chủ nhà. Khoản đắt nếu hiểu sai là tiền thuê nhà mới cộng tiền dọn đi cộng phần cọc bị giữ, và những ngày phải xin nghỉ làm để tìm chỗ ở khác trong lúc vẫn đang trả tiền thuê chỗ cũ.
 - Nói dễ hiểu: Chủ nhà bán nhà phải báo cho bạn bằng văn bản; bạn có 30 ngày để quyết định mua. Không mua thì hợp đồng thuê vẫn chạy tới hết hạn và chủ mới phải làm tiếp, trừ khi các bên có thỏa thuận khác. Đừng ký biên bản trả nhà theo lời nói.
 - Lợi ích: Khi nhà đang thuê đổi chủ, điều quan trọng là giữ hợp đồng và chứng từ đã trả tiền để xác định quyền ở tiếp và trách nhiệm của người chủ mới.
@@ -64,6 +74,8 @@ Về thang bằng chứng: **cả 18 mục đều hạng B**. Mỗi mục dựa 
 
 ### 6. Ký trước khi xem sổ: mở trang thay đổi của Giấy chứng nhận, đối chiếu tên người ký, và hỏi thẳng chuyện thế chấp
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-ky-truoc-khi-xem-so-mo-trang-thay-doi-cua-giay-chung" data-legacy="15-6"></a>
+
 - Chi phí: Không mất khoản phí nào để xem giấy tờ; cái mất là một buổi đi xem nhà và một buổi ngồi rà. Phần đắt là thời gian chờ: muốn biết nhà có đang thế chấp hay không thì phải xem cuốn sổ giấy hoặc giấy xác nhận của ngân hàng, mà người bán đang vay ngân hàng thường không giữ sổ trong nhà. Nếu chủ nhà chỉ đưa bản photo, bạn mất thêm một vòng yêu cầu, và có khi mất luôn tiền cọc vì đã lỡ ký trước khi kịp đối chiếu.
 - Nói dễ hiểu: Trước khi ký, cầm cuốn sổ đỏ trên tay mở trang thay đổi xem có dòng thế chấp, đối chiếu tên trên sổ với căn cước người ký, và bắt ghi vào hợp đồng câu cam kết nhà không thế chấp. Thuê nhà thì đòi giấy tờ chứng minh quyền cho thuê.
 - Lợi ích: Trước khi ký mua nhà, đối chiếu sổ, người đứng tên, tình trạng thế chấp và thông tin quy hoạch. Không chỉ nhìn bản ảnh giấy chứng nhận do môi giới gửi.
@@ -74,6 +86,8 @@ Về thang bằng chứng: **cả 18 mục đều hạng B**. Mỗi mục dựa 
 
 ### 7. Trả tiền nhà: chuyển khoản vào tài khoản đứng tên người trong hợp đồng, ghi rõ trả cho hợp đồng nào, và giữ lệnh chuyển
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-tra-tien-nha-chuyen-khoan-vao-tai-khoan-dung-ten-nguoi-trong" data-legacy="15-7"></a>
+
 - Chi phí: Không mất thêm khoản nào ngoài phí chuyển khoản của ngân hàng. Cái mất là công ghi chép: mỗi lần trả phải mở hợp đồng ra chép đúng số hợp đồng, địa chỉ nhà và đợt thanh toán, rồi lưu lệnh chuyển cùng sao kê. Nếu bạn đang trả bằng tiền mặt đưa tay cho môi giới thì chi phí thật là một lần dựng lại toàn bộ lịch sử trả tiền, vì không có chứng từ nào để đối chiếu khi có chuyện.
 - Nói dễ hiểu: Đừng trả tiền mặt. Chuyển khoản vào tài khoản đứng tên người có tên trong hợp đồng, nội dung ghi số hợp đồng và đợt trả, mỗi lần lưu lại lệnh chuyển. Trả vào tài khoản môi giới hay tài khoản người khác thì coi như chưa trả.
 - Lợi ích: Chuyển tiền nhà đúng người và đúng nội dung hợp đồng giúp chứng minh nghĩa vụ đã thực hiện. Đừng chuyển cho tài khoản cá nhân lạ chỉ vì môi giới nhắn.
@@ -84,6 +98,8 @@ Về thang bằng chứng: **cả 18 mục đều hạng B**. Mỗi mục dựa 
 
 ### 8. Mua qua sàn: tiền vào tài khoản chủ nhà hoặc chủ đầu tư, sàn chỉ đứng ở vai hỗ trợ
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-mua-qua-san-tien-vao-tai-khoan-chu-nha-hoac-chu-dau" data-legacy="15-8"></a>
+
 - Chi phí: Không mất thêm khoản nào ngoài phí dịch vụ của sàn và phí công chứng, cả hai phải ghi rõ trong hợp đồng dịch vụ trước khi bạn ký. Cái mất là thời gian đối chiếu: kiểm giấy phép hoạt động của sàn, kiểm văn bản xác nhận giao dịch có đủ chữ ký, rồi mới chuyển tiền. Làm tắt bước này để tiết kiệm vài buổi, bạn có thể mất cả số tiền đã đặt cọc.
 - Nói dễ hiểu: Ký qua sàn thì vẫn chuyển tiền cho chủ nhà hoặc chủ đầu tư, không chuyển vào tài khoản sàn hay tài khoản riêng của môi giới. Đòi văn bản xác nhận giao dịch có chữ ký của cả chủ nhà, sàn và môi giới, và hợp đồng dịch vụ ghi rõ phí.
 - Lợi ích: Mua nhà qua sàn vẫn phải biết ai là bên bán, tài khoản nào nhận tiền và ai chịu trách nhiệm bàn giao. Phân biệt phí dịch vụ môi giới với tiền mua nhà.
@@ -94,6 +110,8 @@ Về thang bằng chứng: **cả 18 mục đều hạng B**. Mỗi mục dựa 
 
 ### 9. Nhà chia phòng: luật không đặt mét vuông tối thiểu cho phòng cho thuê, nhưng đặt điều kiện an toàn và mốc 20 căn hộ
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=có lợi-ích=vừa thước-đo=khác -->
+<a name="entry-nha-chia-phong-luat-khong-dat-met-vuong-toi-thieu-cho-phong" data-legacy="15-9"></a>
+
 - Chi phí: Không mất tiền để đi xem, nhưng mất thời gian đúng lúc bạn đang cần chỗ ở: mỗi phòng phải xem lại một lượt, hỏi giấy tờ, và có khi phải bỏ một chỗ đã cọc để tìm chỗ khác. Khoản đắt nhất là tiền cọc và tiền thuê trả trước cho một phòng không đủ điều kiện, vì luật cho bạn chỗ dựa để đòi nhưng đường đòi vẫn đi qua thương lượng hoặc tòa.
 - Nói dễ hiểu: Luật Nhà ở không quy định mỗi phòng trọ phải rộng bao nhiêu mét vuông. Luật buộc nhà cho thuê phải an toàn, có điện nước, trừ khi các bên thỏa thuận khác, và nhà nhiều tầng từ 20 căn hộ cho thuê trở lên phải làm dự án. Thiếu mấy điều đó thì đừng cọc.
 - Lợi ích: Phòng cho thuê có thể không bị ấn định một diện tích tối thiểu chung, nhưng điều kiện an toàn và sử dụng vẫn phải được kiểm tra. Khi đi xem, chú ý thông gió và lối thoát.
@@ -104,6 +122,8 @@ Về thang bằng chứng: **cả 18 mục đều hạng B**. Mỗi mục dựa 
 
 ### 10. Nhà hình thành trong tương lai: đặt cọc không quá 5%, thanh toán theo tiến độ, có thư bảo lãnh mới chuyển tiền
 <!-- nhãn: tiền=nhiều thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-nha-hinh-thanh-trong-tuong-lai-dat-coc-khong-qua-5-thanh" data-legacy="15-10"></a>
+
 - Chi phí: Bạn không phải trả phí nào để kiểm ba con số này, nhưng chính chúng là tiền thật: đặt cọc tối đa 5% giá bán, lần thanh toán đầu tối đa 30% giá trị hợp đồng đã tính cả tiền đặt cọc, tổng thu trước khi bàn giao tối đa 70% — hạ còn 50% nếu bên bán là doanh nghiệp có vốn đầu tư nước ngoài, và trần cuối là 95% khi bạn chưa có giấy chứng nhận. Cái mất khi làm sai: phần vượt trần chỉ đòi lại được bằng kiện, còn 10 ngày làm việc chờ thư bảo lãnh là thời gian bạn đứng ngoài.
 - Nói dễ hiểu: Trước khi ký, hỏi ba con số: đặt cọc không quá 5% giá bán, lần đầu không quá 30%, tổng trước khi nhận nhà không quá 70%. Chưa cầm thư bảo lãnh của ngân hàng trong tay thì chưa thanh toán đồng nào theo hợp đồng.
 - Lợi ích: Đặt mua nhà hình thành trong tương lai đòi hỏi kiểm tra điều kiện mở bán, khoản cọc, tiến độ và bảo lãnh. Không trả số tiền lớn chỉ vì dự án có hình ảnh đẹp.
@@ -114,6 +134,8 @@ Về thang bằng chứng: **cả 18 mục đều hạng B**. Mỗi mục dựa 
 
 ### 11. Hợp đồng mẫu và phụ lục: in bản đã công khai ra, so từng dòng, và ký phụ lục cùng lúc với hợp đồng
 <!-- nhãn: tiền=0 thời-gian=ít ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-hop-dong-mau-va-phu-luc-in-ban-da-cong-khai-ra" data-legacy="15-11"></a>
+
 - Chi phí: Không tốn tiền, tốn một buổi in và đọc. Cái mất là thời gian thương lượng: mỗi dòng lệch mẫu bạn phát hiện trước khi ký là một dòng không phải tranh cãi sau khi đã trả tiền. Bản mẫu có 13 nội dung chính nên đọc không dài; chỗ đắt là các phụ lục, vì phụ lục có hiệu lực như hợp đồng và có thể sửa chính những dòng bạn vừa đọc.
 - Nói dễ hiểu: Tải bản hợp đồng mẫu chủ đầu tư đã công khai, in ra, rồi bắt họ đánh dấu mọi chỗ khác bản mẫu. Phụ lục thì ký cùng lúc với hợp đồng, ghi rõ phụ lục sửa điều nào.
 - Lợi ích: So sánh hợp đồng thực tế với mẫu công khai, đọc các phụ lục về bàn giao, thanh toán và phí phát sinh. Mọi lời hứa quan trọng nên nằm trong văn bản ký.
@@ -124,6 +146,8 @@ Về thang bằng chứng: **cả 18 mục đều hạng B**. Mỗi mục dựa 
 
 ### 12. Chậm bàn giao: mức phạt phải ghi theo ngày, và giữ lại 30% tới lúc nhận nhà
 <!-- nhãn: tiền=ít thời-gian=nhiều ý-chí=có lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-cham-ban-giao-muc-phat-phai-ghi-theo-ngay-va-giu-lai" data-legacy="15-12"></a>
+
 - Chi phí: Không tốn phí. Khoản đáng nói là số tiền bạn còn giữ được: trần 70% trước bàn giao nghĩa là ít nhất 30% vẫn nằm trong tay bạn khi tiến độ trượt. Nếu đã trả tới 95% thì gần như hết đòn bẩy, và khi hợp đồng không ghi mức phạt, tòa chỉ tính lãi chậm trả 10%/năm trên số tiền đã nộp.
 - Nói dễ hiểu: Ghi vào hợp đồng mức phạt tính theo ngày chậm bàn giao, mốc ngày được chấm dứt hợp đồng, và ai trả tiền thuê nhà trong thời gian chờ. Không ghi, tòa chỉ tính lãi chậm trả 10%/năm.
 - Lợi ích: Khi hợp đồng quy định rõ ngày bàn giao, tiền phạt và mức giữ lại, người mua có căn cứ đối chiếu nếu chủ đầu tư chậm tiến độ. Đừng để điều khoản này thành câu chung chung.
@@ -134,6 +158,8 @@ Về thang bằng chứng: **cả 18 mục đều hạng B**. Mỗi mục dựa 
 
 ### 13. Trước khi đặt bút: xem quy hoạch, xem giải chấp, xem văn bản đủ điều kiện bán
 <!-- nhãn: tiền=0 thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=khác -->
+<a name="entry-truoc-khi-dat-but-xem-quy-hoach-xem-giai-chap-xem-van" data-legacy="15-13"></a>
+
 - Chi phí: Không tốn tiền, tốn hai buổi đi lại: một buổi ra Ủy ban cấp xã xem bản đồ quy hoạch và kế hoạch sử dụng đất hằng năm, một buổi đọc hồ sơ dự án tại Sở Xây dựng hoặc trên cổng thông tin của tỉnh. Mốc để nhớ: quy hoạch, kế hoạch sử dụng đất phải được công bố công khai chậm nhất 15 ngày kể từ ngày được phê duyệt và phải công khai suốt kỳ quy hoạch, nên nếu người bán đưa bản không có ngày thì đó chưa phải bản đang áp dụng.
 - Nói dễ hiểu: Đòi ba tờ trước khi đặt bút: văn bản của Sở Xây dựng xác nhận nhà đủ điều kiện bán, quyết định phê duyệt quy hoạch chi tiết, và văn bản giải chấp của ngân hàng. Thiếu một tờ thì đừng ký, đừng đặt cọc.
 - Lợi ích: Kiểm tra quy hoạch, quyền sử dụng đất, tình trạng giải chấp và văn bản đủ điều kiện bán trước khi đặt cọc. Lịch sử pháp lý quan trọng hơn quảng cáo dự án.
@@ -144,6 +170,8 @@ Về thang bằng chứng: **cả 18 mục đều hạng B**. Mỗi mục dựa 
 
 ### 14. Ký xong: kiểm tra thế chấp đã vào hồ sơ đất chưa, vì ghi rồi mới có hiệu lực với người thứ ba
 <!-- nhãn: tiền=ít thời-gian=ít ý-chí=có lợi-ích=vừa thước-đo=khác -->
+<a name="entry-ky-xong-kiem-tra-the-chap-da-vao-ho-so-dat-chua" data-legacy="15-14"></a>
+
 - Chi phí: Không tốn tiền mặt đáng kể: phí đăng ký nằm trong hồ sơ vay, nên hỏi ngân hàng con số cụ thể thay vì đoán. Cái mất là một buổi: hồ sơ đăng ký được giải quyết trong ngày làm việc nhận hồ sơ hợp lệ, nộp sau 15 giờ thì có thể hoàn thành trong ngày làm việc tiếp theo, và trường hợp có lý do chính đáng phải kéo dài thì không quá 03 ngày làm việc.
 - Nói dễ hiểu: Sau khi ký và vay, hỏi ngân hàng đã nộp hồ sơ đăng ký thế chấp chưa, rồi xin bản xác nhận của Văn phòng đăng ký đất đai. Chỉ từ lúc ghi vào hồ sơ, quyền của ngân hàng mới đứng trước người khác.
 - Lợi ích: Đăng ký thế chấp và ghi nhận giao dịch bảo đảm có thể quyết định khả năng đối kháng với người khác. Đối chiếu tình trạng đăng ký trước khi hoàn tất giao dịch.
@@ -154,6 +182,8 @@ Về thang bằng chứng: **cả 18 mục đều hạng B**. Mỗi mục dựa 
 
 ### 15. Lãi suất thả nổi: ghi công thức điều chỉnh vào hợp đồng trước khi ký, và xin cơ cấu lại trong mười ngày kể từ ngày đến hạn
 <!-- nhãn: tiền=nhiều thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-lai-suat-tha-noi-ghi-cong-thuc-dieu-chinh-vao-hop-dong" data-legacy="15-15"></a>
+
 - Chi phí: Không mất phí để hỏi, nhưng khoản đắt nằm ở chỗ khác: hết thời gian ưu đãi, lãi suất nhảy theo công thức ghi trong hợp đồng, và chênh vài phần trăm một năm trên dư nợ vài tỷ đồng là mỗi tháng thêm vài triệu đồng. Muốn chuyển sang ngân hàng khác thì phải trả phí trả nợ trước hạn, mà Điều 14 khoản 1 Thông tư 39/2016 để khoản này cho hai bên thỏa thuận, nên con số phải nằm trong hợp đồng chứ không nằm trong lời tư vấn. Thời gian: một buổi đọc hợp đồng tín dụng và một buổi làm việc với ngân hàng.
 - Nói dễ hiểu: Trước khi ký, bắt ngân hàng ghi rõ lãi suất sau ưu đãi tính bằng công thức nào: lãi suất tham chiếu nào, cộng biên độ bao nhiêu, bao lâu đổi một lần. Không trả nổi thì xin cơ cấu lại trong 10 ngày kể từ ngày đến hạn, đừng để quá mốc đó.
 - Lợi ích: Vay mua nhà cần tính cả kịch bản lãi suất tăng, chứ không chỉ mức ưu đãi ban đầu. Yêu cầu ghi công thức điều chỉnh và cách xử lý khi gặp khó khăn trả nợ.
@@ -164,6 +194,8 @@ Về thang bằng chứng: **cả 18 mục đều hạng B**. Mỗi mục dựa 
 
 ### 16. Vay ưu đãi nhà ở xã hội: thử Ngân hàng Chính sách xã hội trước khi ký hợp đồng vay thương mại
 <!-- nhãn: tiền=nhiều thời-gian=nhiều ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-vay-uu-dai-nha-o-xa-hoi-thu-ngan-hang-chinh-sach" data-legacy="15-16"></a>
+
 - Chi phí: Rẻ hơn vay thương mại nhưng không miễn phí. Bạn phải tự lo 20% còn lại của giá trị căn hộ vì mức vay tối đa là 80% giá trị hợp đồng mua, thuê mua, cộng 2% kinh phí bảo trì phải đóng trước khi nhận nhà. Cái đắt nhất là thời gian: hồ sơ đi qua xác nhận của cấp xã rồi tới ngân hàng, nên ai đang có hợp đồng mua với tiến độ thanh toán gấp dễ bị đẩy sang vay thương mại. Bạn cũng phải giữ được giấy tờ chứng minh thu nhập 12 tháng liền kề, và người không có hợp đồng lao động thì phải xin xác nhận của Công an cấp xã.
 - Nói dễ hiểu: Nộp hồ sơ vay ưu đãi ở Ngân hàng Chính sách xã hội trước khi ký hợp đồng vay thương mại. Điều kiện thu nhập tính trên 12 tháng liền kề, vay tối đa 80% giá trị hợp đồng, thời hạn tới 25 năm. Hỏi lãi suất đang áp dụng bằng văn bản, đừng nghe qua điện thoại.
 - Lợi ích: Nếu thuộc diện được mua nhà ở xã hội, nên hỏi khoản vay ưu đãi trước khi ký vay thương mại. Hãy tính khả năng trả nợ thực tế và chuẩn bị đúng hồ sơ.
@@ -174,16 +206,20 @@ Về thang bằng chứng: **cả 18 mục đều hạng B**. Mỗi mục dựa 
 
 ### 17. Phí quản lý chung cư: đòi khung giá của tỉnh và hóa đơn, và biết rằng cắt điện để ép đóng phí là cắt điện trái quy định
 <!-- nhãn: tiền=nhiều thời-gian=nhiều ý-chí=có lợi-ích=lớn thước-đo=tiền -->
+<a name="entry-phi-quan-ly-chung-cu-doi-khung-gia-cua-tinh-va-hoa" data-legacy="15-17"></a>
+
 - Chi phí: Khoản phải bỏ ra hàng tháng tính trên mỗi mét vuông diện tích căn hộ, và phần lớn người mua không biết mức đó đang cao hay thấp so với khung giá của tỉnh. Điều 151 khoản 2 Luật Nhà ở 27/2023/QH15 đã tách sẵn những gì không được nằm trong giá dịch vụ quản lý vận hành: kinh phí mua bảo hiểm cháy nổ, kinh phí bảo trì, chi phí trông giữ xe, chi phí sử dụng nhiên liệu, năng lượng, nước sinh hoạt, dịch vụ truyền hình, thông tin liên lạc, thù lao Ban quản trị và chi phí dịch vụ khác phục vụ việc sử dụng riêng. Nếu hóa đơn gộp các khoản đó vào một dòng phí quản lý thì bạn đang trả hai lần. Cái mất khi tranh chấp không phải tiền mà là thời gian: họp, gửi văn bản, chờ trả lời.
 - Nói dễ hiểu: Xin khung giá dịch vụ quản lý vận hành của Ủy ban nhân dân tỉnh và hóa đơn tách từng khoản. Không đóng thì họ đòi theo hợp đồng hoặc kiện, không được cắt điện, nước, thang máy để ép: Điều 49 Luật Điện lực chỉ cho ngừng điện trong bốn trường hợp. Bị cắt thì gọi điện lực, lập biên bản ngay.
 - Lợi ích: Phí quản lý nhà chung cư phải có căn cứ và được công khai phù hợp. Giữ hóa đơn, quyết định của hội nghị cư dân và yêu cầu giải thích khi phí thay đổi.
-- Pháp luật Việt Nam: Điều 151 khoản 3 điểm b Luật Nhà ở 27/2023/QH15 để giá dịch vụ quản lý vận hành do đơn vị quản lý vận hành và Hội nghị nhà chung cư thỏa thuận, thống nhất quyết định, tức không phải một bên tự đặt; khoản 7 điểm b buộc Ủy ban nhân dân cấp tỉnh ban hành khung giá và cho áp thẳng mức trong khung khi các bên không thỏa thuận được. Điều 86a Nghị định 95/2024/NĐ-CP, bổ sung bởi Điều 24 Nghị định 54/2026/NĐ-CP ngày 09/02/2026, xử lý đúng tình huống đó: không thỏa thuận được thì đơn vị quản lý vận hành được tạm thu theo mức của năm liền kề trước đó hoặc mức khác, nhưng không vượt khung giá của tỉnh cho tới khi thỏa thuận được. Về chỗ lãi của họ, Phụ lục VII kèm theo Nghị định 95/2024/NĐ-CP mục 2.2 chặn lợi nhuận định mức ở tối đa 10% chi phí dịch vụ nhà chung cư sau khi trừ khoản thu từ kinh doanh diện tích thuộc phần sở hữu chung. Về việc cắt dịch vụ: Điều 3 khoản 8 điểm a Luật Nhà ở đặt việc không đóng kinh phí bảo trì và việc quản lý, sử dụng kinh phí quản lý vận hành không đúng quy định vào nhóm hành vi bị nghiêm cấm, nhưng cả Chương IX Luật Nhà ở lẫn toàn văn Nghị định 95/2024 không có điều nào cho phép ngừng cấp điện, nước hay dừng thang máy để thu phí — Bạn có thể yêu cầu đơn vị quản lý nêu điều khoản cho phép ngừng dịch vụ; Điều 3 cùng Mục 3 Chương IX về tổ chức quản lý vận hành không trao quyền đó. Với điện thì có điều cấm rõ: Điều 9 khoản 6 Luật Điện lực 61/2024/QH15 xếp việc đóng điện, cắt điện trái quy định của pháp luật vào hành vi bị nghiêm cấm, và Điều 49 khoản 2 chỉ cho ngừng hoặc giảm cấp điện trong bốn trường hợp, trong đó trường hợp không trả tiền điện phải theo đúng khoản 4 Điều 48: thông báo hai lần cách nhau không dưới 3 ngày, thời điểm ngừng không quá 10 ngày kể từ thông báo đầu tiên, báo trước 24 giờ; khoản 3 điểm c Điều 48 còn cấm ngừng cấp điện khi khách hàng đang yêu cầu xem xét lại số tiền điện.
+- Pháp luật Việt Nam: Điều 151 khoản 3 điểm b Luật Nhà ở 27/2023/QH15 để giá dịch vụ quản lý vận hành do đơn vị quản lý vận hành và Hội nghị nhà chung cư thỏa thuận, thống nhất quyết định, tức không phải một bên tự đặt; khoản 7 điểm b buộc Ủy ban nhân dân cấp tỉnh ban hành khung giá và cho áp thẳng mức trong khung khi các bên không thỏa thuận được. Điều 86a Nghị định 95/2024/NĐ-CP, bổ sung bởi Điều 24 Nghị định 54/2026/NĐ-CP ngày 09/02/2026, xử lý đúng tình huống đó: không thỏa thuận được thì đơn vị quản lý vận hành được tạm thu theo mức của năm liền kề trước đó hoặc mức khác, nhưng không vượt khung giá của tỉnh cho tới khi thỏa thuận được. Về chỗ lãi của họ, Phụ lục VII kèm theo Nghị định 95/2024/NĐ-CP mục 2.2 chặn lợi nhuận định mức ở tối đa 10% chi phí dịch vụ nhà chung cư sau khi trừ khoản thu từ kinh doanh diện tích thuộc phần sở hữu chung. Về việc cắt dịch vụ: Điều 3 khoản 8 điểm a Luật Nhà ở đặt việc không đóng kinh phí bảo trì và việc quản lý, sử dụng kinh phí quản lý vận hành không đúng quy định vào nhóm hành vi bị nghiêm cấm, nhưng cả Chương IX Luật Nhà ở lẫn toàn văn Nghị định 95/2024 không có điều nào cho phép ngừng cấp điện, nước hay dừng thang máy để thu phí — Bạn có thể yêu cầu đơn vị quản lý nêu điều khoản cho phép ngừng dịch vụ; Điều 3 cùng [Mục 3](15-thue-va-mua-nha.md#entry-tra-tien-coc-va-tien-thue-chi-tra-cho-nguoi-dung-ten) Chương IX về tổ chức quản lý vận hành không trao quyền đó. Với điện thì có điều cấm rõ: Điều 9 khoản 6 Luật Điện lực 61/2024/QH15 xếp việc đóng điện, cắt điện trái quy định của pháp luật vào hành vi bị nghiêm cấm, và Điều 49 khoản 2 chỉ cho ngừng hoặc giảm cấp điện trong bốn trường hợp, trong đó trường hợp không trả tiền điện phải theo đúng khoản 4 Điều 48: thông báo hai lần cách nhau không dưới 3 ngày, thời điểm ngừng không quá 10 ngày kể từ thông báo đầu tiên, báo trước 24 giờ; khoản 3 điểm c Điều 48 còn cấm ngừng cấp điện khi khách hàng đang yêu cầu xem xét lại số tiền điện.
 - Mức bằng chứng: B
 - Nguồn: Luật Nhà ở 27/2023/QH15 ngày 27/11/2023, Công báo số 37 và 38 ngày 08/01/2024 cùng Công báo số 39 và 40 ngày 08/01/2024 (Điều 3 khoản 8 điểm a, Điều 151 khoản 2, 3, 7) — https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/11/40856/47839-1-202437-3827-2023-qh15.pdf và https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/11/40856/47842-1-202439-4027-2023-qh15.pdf ; Nghị định 95/2024/NĐ-CP ngày 24/7/2024 quy định chi tiết một số điều của Luật Nhà ở, Công báo số 907 và 908, 909 và 910, 911 và 912 ngày 10/8/2024 (Phụ lục VII mục 2.2) — https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/7/42427/51152-1-2024907-90895-2024-nd-cp.pdf ; Nghị định 54/2026/NĐ-CP ngày 09/02/2026, Công báo số 121 ngày 25/02/2026 (Điều 24, bổ sung Điều 86a Nghị định 95/2024/NĐ-CP) — https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/2/54signed-17724306713671758157706.pdf ; Luật Điện lực 61/2024/QH15 ngày 30/11/2024, bản toàn văn trên Cổng thông tin điện tử Chính phủ (Điều 9 khoản 6, Điều 48 khoản 3 điểm c và khoản 4, Điều 49 khoản 2) — https://xaydungchinhsach.chinhphu.vn/toan-van-luat-dien-luc-119241225130808137.htm . Tra ngày 3/11/2026.
 - Ghi chú: Các mức tiền, khung giá và điều cấm đều có số hiệu và đọc được nguyên văn, nhưng câu then chốt của mục — ban quản trị không có quyền cắt điện để thu phí — là suy ra từ chỗ Điều 49 khoản 2 Luật Điện lực liệt kê đủ bốn trường hợp được ngừng cấp điện và từ việc Luật Nhà ở không trao quyền đó, chứ không có một điều nào viết đúng câu ấy; chưa lên A vì còn phải suy luận. Ba cái bẫy người Việt hay sập. Một: tưởng phí quản lý đã gồm tiền điện, nước, chỗ để xe, trong khi khoản 2 Điều 151 tách các khoản đó ra, nên bị thu hai lần mà vẫn tưởng mình chậm phí. Hai: không biết tỉnh có khung giá nên chấp nhận mức do ban quản lý tự đặt, trong khi khoản 7 điểm b cho áp thẳng khung khi không thỏa thuận được, và Điều 86a mới chặn mức tạm thu ở trần khung. Ba: ký hợp đồng dịch vụ có sẵn điều khoản được ngừng cung cấp dịch vụ khi chậm phí, rồi chữ ký của bạn biến việc trái luật thành tranh chấp hợp đồng. Bạn không cần miễn cưỡng đóng phí chỉ để yên chuyện: hãy giữ hóa đơn, khung giá của tỉnh và một biên bản có ngày giờ.
 
 ### 18. Nhận nhà: đòi bốn loại giấy trước khi ký biên bản bàn giao, và tính hạn bảo hành từ ngày nghiệm thu
 <!-- nhãn: tiền=nhiều thời-gian=vừa ý-chí=có lợi-ích=lớn thước-đo=thời-gian -->
+<a name="entry-nhan-nha-doi-bon-loai-giay-truoc-khi-ky-bien-ban-ban" data-legacy="15-18"></a>
+
 - Chi phí: Không mất phí để kiểm, nhưng có hai khoản tiền đi kèm ngày nhận nhà: 2% kinh phí bảo trì tính trên giá trị căn hộ, phải đóng trước khi được bàn giao, và tiền sửa những lỗi bạn không ghi vào biên bản. Khoản bảo trì cũng lớn: căn hộ 3 tỷ đồng thì 2% là 60 triệu đồng, và nếu bạn giao tiền mặt cho nhân viên bán hàng chứ không chuyển vào tài khoản ghi trong hợp đồng thì sau này đòi lại rất khó. Thời gian: một buổi kiểm nhà, nên đi hai người, một người đọc biên bản và một người chụp ảnh có ngày.
 - Nói dễ hiểu: Trước khi ký biên bản bàn giao, đòi xem bốn loại giấy: biên bản nghiệm thu, văn bản chấp thuận phòng cháy chữa cháy, thông báo nghiệm thu của cơ quan xây dựng, bản vẽ chỗ để xe. Ghi từng lỗi vào biên bản. Hạn bảo hành chung cư tối thiểu 60 tháng, tính từ ngày nghiệm thu.
 - Lợi ích: Nhận bàn giao căn hộ chỉ khi đối chiếu được các giấy tờ nghiệm thu, hoàn công, bảo hành và hạ tầng liên quan. Ghi lỗi vào biên bản thay vì ký nhận rồi mới tranh luận.

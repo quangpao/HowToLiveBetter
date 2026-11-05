@@ -1,6 +1,7 @@
 import { readFileSync, readdirSync } from 'node:fs';
 import { dirname, resolve, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { refs } from './lib/references.mjs';
 
 // node tools/lint-vi.mjs [--all] [--strict] [--json]
 const ROOT = process.env.LINT_VI_ROOT || resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -37,7 +38,7 @@ for (const file of paths) {
     const original = lines[i];
     if (/^\s*\x60{3}/.test(original)) { fenced = !fenced; continue; }
     if (fenced || /^\s*<!--/.test(original) || /^- Nguồn:/.test(original)) continue;
-    const row = original.replace(/https?:\/\/\S+/g, '').replace(/\x60[^\x60]+\x60/g, '');
+    const row = refs.plainText(original).replace(/https?:\/\/\S+/g, '').replace(/\x60[^\x60]+\x60/g, '');
     for (const [re, suggestion] of forbidden)
       if (re.test(row)) add('ERROR', file, i + 1, 'forbidden-term', suggestion);
     for (const [re, suggestion] of awkward)

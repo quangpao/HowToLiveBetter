@@ -23,12 +23,15 @@ const corpus = {
   docs: Object.fromEntries(docs.map(f => [f, read(f)])),
   // dấu "mới cập nhật", do tools/updates.mjs sinh ra và được commit vào repo
   updates: JSON.parse(read('updates.json')),
+  citations: JSON.parse(read('data/legal-references.json')),
 };
 // </script sẽ đóng thẻ script sớm; \/ trong chuỗi JS chính là /, nội dung không đổi
 const corpusJson = JSON.stringify(corpus).replace(/<\/script/gi, '<\\/script');
 
 // ---------- Trang ----------
 let html = read('index.html');
+html = html.replace('<script src="assets/book-references.js"></script>',()=>'<script>' + read('assets/book-references.js').replace(/<\/script/gi,'<\\/script') + '</script>');
+html = html.replace('<script src="assets/book-citations.js"></script>',()=>'<script>' + read('assets/book-citations.js').replace(/<\/script/gi,'<\\/script') + '</script>');
 const must = (needle, label) => {
   if (!html.includes(needle)) throw new Error(`Không tìm thấy${label} trong index.html, script bản offline phải sửa theo: ${needle}`);
 };
@@ -67,7 +70,7 @@ html = html.replace(foot, `${foot}<p class="offline-stamp">Bản offline, dựng
 // Nội dung phải có mặt trước script chính
 const mainScript = '\n<script>\n/* ---------- PERF-PANEL';
 must(mainScript, 'đoạn đầu script chính');
-html = html.replace(mainScript, `\n<script>window.__CORPUS__=${corpusJson}</script>${mainScript}`);
+html = html.replace(mainScript, () => `\n<script>window.__CORPUS__=${corpusJson}</script>${mainScript}`);
 
 mkdirSync(dirname(OUT), { recursive: true });
 writeFileSync(OUT, html);
