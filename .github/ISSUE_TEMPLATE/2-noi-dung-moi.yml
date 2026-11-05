@@ -1,0 +1,28 @@
+name: Đề xuất nội dung mới
+description: Chủ đề sách chưa viết mà bạn thấy đáng thêm
+labels: ["nội dung mới"]
+body:
+  - type: markdown
+    attributes:
+      value: Sách chỉ nhận lời khuyên trả lời được "mất gì, được gì", nguồn chỉ dẫn bài báo khoa học và văn bản chính thức. Bản dịch sang ngôn ngữ khác hãy giữ ở fork của bạn, không gộp vào repo này; đầu README có thể thêm link tới bản đó.
+  - type: input
+    id: topic
+    attributes:
+      label: Chủ đề
+      placeholder: Ví dụ: cách xét chức danh nghề nghiệp
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Bạn muốn sách trả lời câu hỏi nào
+      description: Càng cụ thể càng tốt, ví dụ "đến cơ quan nào, cần chuẩn bị giấy tờ gì".
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Nguồn bạn biết (không bắt buộc)
+      description: Link bài báo, văn bản pháp luật, tài liệu chính thức.
+    validations:
+      required: false

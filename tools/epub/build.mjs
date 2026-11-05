@@ -20,7 +20,7 @@ const plain = html => html.replace(/<[^>]+>/g, '');
 // ---------- Lấy nội dung và danh sách file từ README ----------
 const book = readBook();
 const { description, frontMd, bookFiles, docFiles } = book;
-const contentsMd = book.contentsMd.replace(/^## (?:Mục lục|目录)/, '# Giới thiệu các chương');
+const contentsMd = book.contentsMd.replace(/^## (?:Mục lục)/, '# Giới thiệu các chương');
 
 // ---------- Danh sách trang ----------
 // Mỗi trang: tên file xhtml, đường dẫn md nguồn trong repo (dùng để phân giải liên kết tương đối), nội dung md
@@ -102,7 +102,7 @@ function toXhtml(body) {
 
 function wrap(title, body) {
   return `<?xml version="1.0" encoding="UTF-8"?>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="zh-CN" lang="zh-CN">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="vi" lang="vi">
 <head>
 <meta charset="utf-8"/>
 <title>${esc(title)}</title>
@@ -147,7 +147,7 @@ ${navItems.map(n => `<li><a href="${n.href}">${n.text}</a>${n.subs.length ? `\n<
 let play = 0;
 const navPoint = n => `<navPoint id="np${++play}" playOrder="${play}"><navLabel><text>${n.text}</text></navLabel><content src="${n.href}"/>${n.subs?.map(navPoint).join('') ?? ''}</navPoint>`;
 const ncx = `<?xml version="1.0" encoding="UTF-8"?>
-<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="zh-CN">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="vi">
 <head>
 <meta name="dtb:uid" content="${BOOK_ID}"/>
 <meta name="dtb:depth" content="2"/>
@@ -166,15 +166,16 @@ const coverXhtml = wrap(TITLE, `<div class="cover"><img src="cover.png" alt="${e
 const modified = NOW.toISOString().replace(/\.\d{3}Z$/, 'Z');
 const manifestPages = pages.map(p => `<item id="${p.file.replace('.xhtml', '')}" href="${p.file}" media-type="application/xhtml+xml"/>`);
 const opf = `<?xml version="1.0" encoding="UTF-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="pub-id" xml:lang="zh-CN">
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="pub-id" xml:lang="vi">
 <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 <dc:identifier id="pub-id">${BOOK_ID}</dc:identifier>
 <dc:title>${TITLE}</dc:title>
-<dc:language>zh-CN</dc:language>
-<dc:creator>eternity4719</dc:creator>
+<dc:language>vi</dc:language>
+<dc:creator>quangpao</dc:creator>
+<dc:contributor>eternity4719 (tác giả bản gốc)</dc:contributor>
 <dc:description>${esc(description)}</dc:description>
 <dc:source>${REPO}</dc:source>
-<dc:rights>CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）</dc:rights>
+<dc:rights>CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)</dc:rights>
 <dc:date>${NOW.toISOString().slice(0, 10)}</dc:date>
 <meta property="dcterms:modified">${modified}</meta>
 <meta name="cover" content="cover-img"/>

@@ -21,7 +21,7 @@ Cách tính từ neo: hai từ liền nhau trùng tiêu đề đích, hoặc m�
 như 12356, AED, BMI, LPR) xuất hiện trong tiêu đề. Chỉ trùng một từ chung chung ("người", "tiền")
 thì không tính.
 
-Tổng 710 chỗ tham chiếu.
+Tổng 737 chỗ tham chiếu.
 
 ## 01-dung-chet-som
 
@@ -30,6 +30,7 @@ Tổng 710 chỗ tham chiếu.
 | đầu chương | mục 1 | Thắt dây an toàn, cả ghế trước lẫn ghế sau | … thắt dây an toàn (… |
 | đầu chương | mục 2 | Đội mũ bảo hiểm khi đi mô tô, xe gắn máy, xe đạp điện và cài quai đúng quy cách | … toàn (mục 1), đội mũ bảo hiểm và cài quai (… |
 | đầu chương | mục 9 | Không chạy quá tốc độ, không uống rượu bia rồi lái, không cầm điện thoại, buồn ngủ thì dừng nghỉ | … quá tốc độ và không uống rượu bia rồi lái (… |
+| đầu chương | mục 41 | Nước lũ, ngầm tràn, đường ngập nước chảy xiết: không lội, không chạy xe qua, kể cả khi nhìn nước còn nông | …g lội hay chạy xe qua nước lũ và ngầm tràn (… |
 | đầu chương | mục 3 | Lắp đầu báo khói; nhà nào đốt than, củi hay chạy máy phát điện trong nhà thì lắp thêm đầu báo khí CO | … lắp đầu báo khói và đầu báo khí CO (… |
 | đầu chương | mục 4 | Thay dây dẫn gas trước khi nó nứt, không tự tháo van hay tự sang gas, chỉ nhận bình còn niêm phong | …ây dẫn gas và chỉ nhận bình còn niêm phong (… |
 | đầu chương | mục 6 | Đừng sạc xe điện trong nhà, đừng dắt xe vào thang máy hay để ở cầu thang | …ạc xe điện trong nhà hay để xe ở cầu thang (… |
@@ -63,6 +64,7 @@ Tổng 710 chỗ tham chiếu.
 | mục 38 | mục 30 | Dùng bao cao su suốt mỗi lần quan hệ, và không dùng chung bơm kim tiêm | …ó giai đoạn đã tạm dừng ở một số nơi** (xem … |
 | mục 39 | mục 13 | Từ 60 tuổi, tập thăng bằng và sức chân hằng tuần, sửa lại nhà tắm và cầu thang | … còn giảm số lần ngã thì xem … |
 | mục 40 | mục 39 | Phụ nữ từ 65 tuổi nên đo mật độ xương một lần; sau mãn kinh mà có yếu tố nguy cơ thì không cần đợi đến 65 | … Cách phát hiện loãng xương ở … |
+| mục 41 | mục 25 | Khi trầm cảm hoặc có ý nghĩ tự tử: gọi tổng đài, và đừng để thuốc ngủ hay thuốc trừ sâu trong nhà | …to, gọi 112, ném phao, dây hoặc vật nổi như … |
 | mục 43 | mục 25 | Khi trầm cảm hoặc có ý nghĩ tự tử: gọi tổng đài, và đừng để thuốc ngủ hay thuốc trừ sâu trong nhà | …uốc ngủ, thuốc trừ sâu ra khỏi tầm tay (xem … |
 | mục 43 | mục 32 | Ý nghĩ tự tử vừa xuất hiện thì nói ngay với một người bên cạnh, nhờ họ ở bên bạn trong lúc đó | … ở gần một nửa số người chỉ khoảng 10 phút (… |
 | mục 45 | mục 14 | Xét nghiệm viêm gan B một lần, rồi căn cứ vào kết quả mà tiêm hay không tiêm | …ét nghiệm viêm gan B là bộ chỉ số khác, xem … |
@@ -117,7 +119,7 @@ Tổng 710 chỗ tham chiếu.
 | đầu chương | mục 10 | Đánh răng hai lần một ngày bằng kem có fluor, và làm sạch kẽ răng — đừng tin quảng cáo | …ẩn thận, mỗi ngày làm sạch kẽ răng một lần (… |
 | đầu chương | mục 12 | Uống thuốc theo đơn đều đặn — bỏ thuốc là chỗ chết người nhất trong điều trị bệnh mạn tính | …10), uống thuốc đều theo đơn, đừng tự dừng (… |
 | đầu chương | mục 31 | Ban ngày ra ngoài trời — nhưng là nắng sớm, không phải nắng trưa | …ng (mục 12), ban ngày ra ngoài cho có nắng (… |
-| đầu chương | mục 36 | Có bồn thì tắm — nhưng ngâm bồn là chỗ dễ ngất, phải cẩn thận | …có nắng (mục 31), có điều kiện thì tắm bồn (… |
+| đầu chương | mục 36 | Dưa muối, cà muối, cá khô mặn: ăn như món phụ thỉnh thoảng, đừng thành món chính hằng ngày | …ng (mục 31), bớt dưa cà muối và cá khô mặn (… |
 | đầu chương | mục 43 | Bốc hỏa, vã mồ hôi tuổi mãn kinh mà ảnh hưởng sinh hoạt thì đi khám — đừng tự chịu | … thì đi khám để đánh giá liệu pháp hormone (… |
 | đầu chương | mục 5 | Gọi tổng đài tư vấn cai thuốc, hoặc đi phòng tư vấn cai thuốc lá | … **… |
 | đầu chương | mục 6 | Thuốc lá điện tử: ở Việt Nam đã bị cấm, đừng coi là cách cai | … Việt Nam, không phải số của nước ngoài), **… |
@@ -144,6 +146,8 @@ Tổng 710 chỗ tham chiếu.
 | mục 34 | mục 7 | Không uống đồ uống có đường — đổi sang loại "không đường" cũng không phải là giải pháp | …a sữa đặc đã chạm ngưỡng đường của cả ngày (… |
 | mục 35 | mục 18 | Bớt thịt chế biến — giò chả, lạp xưởng, xúc xích, khô bò | …bánh mì (pate và xúc xích là thịt chế biến, … |
 | mục 35 | mục 28 | Bớt thực phẩm siêu chế biến — mì gói, xúc xích, bánh ngọt công nghiệp, nước ngọt | … thứ trung tính lấy một thứ có hại rõ ràng (… |
+| mục 36 | mục 23 | Đổi bớt thịt đỏ sang cá, gia cầm, đậu — thay thế chứ không phải ăn thêm | …ri là nguyên nhân đã rõ của ung thư dạ dày (… |
+| mục 36 | mục 9 | Đổi sang muối giảm natri — nhưng người bệnh thận phải hỏi bác sĩ trước | …phải hạn chế nghiêm hơn và theo lời bác sĩ (… |
 | mục 38 | mục 37 | Ngủ trưa dưới 30 phút — ngủ trưa dài có hại | …ngủ bù thì ngủ bù **buổi trưa 20–30 phút** (… |
 | mục 38 | mục 13 | Ngủ 7 tiếng mỗi đêm — ngủ ít và ngủ quá nhiều đều có hại | …hông phải ngủ bù mà là số giờ ngủ — hãy xem … |
 | mục 38 | mục 39 | Làm ca đêm — chuyển sang ca ngày khi còn chuyển được | …ngủ bù mà là số giờ ngủ — hãy xem mục 13 và … |
@@ -232,21 +236,20 @@ Tổng 710 chỗ tham chiếu.
 | --- | --- | --- | --- |
 | đầu chương | mục 1 | Tắt hết gia hạn tự động, tới hạn thì tự bấm | … chi tiêu hằng ngày (… |
 | đầu chương | mục 5 | Không mua vé số: mỗi 10.000 đồng luật chỉ cho trả thưởng tối đa 5.000 đồng | …21, 23, 24) · mua bốc đồng và tiền của con (… |
-| đầu chương | mục 7 | Trả đủ dư nợ thẻ mỗi tháng; nếu buộc phải vay, đổi mọi con số về %/năm rồi mới so | …5, 8, 9, 10, 33, 34, 35) · vay và lãi suất (… |
-| đầu chương | mục 15 | Giao dịch càng nhiều thì tiền ở lại càng ít — thị trường dựng đứng càng phải ngồi yên | …35) · vay và lãi suất (mục 7, 28) · đầu tư (… |
-| đầu chương | mục 25 | Mua bảo hiểm thuần bảo vệ; tiền "hoàn lại" và "chia lãi" là phần không được đảm bảo | …16, 17, 18, 19, 37, 38, 45, 51) · bảo hiểm (… |
-| đầu chương | mục 2 | Mỗi năm làm một lần quyết toán thuế thu nhập cá nhân, và điền hết người phụ thuộc | …43, 44) · thuế, lương hưu, bảo hiểm xã hội (… |
-| đầu chương | mục 22 | Trả tiền trước thì lấy hợp đồng và hóa đơn — phần chưa dùng vẫn là tiền của bạn | …c 2, 3, 13, 20, 46) · mua sắm và khiếu nại (… |
-| đầu chương | mục 47 | Nhận xe mới: kiểm ngay tại chỗ, và biết rằng Việt Nam không có "7 ngày đổi xe" | …ả tiền trước, 29, 30, 31, 32, 36, 50) · xe (… |
-| đầu chương | mục 6 | Ai hứa lãi cao gấp mấy lần tiết kiệm thì đó không phải cơ hội, mà là chỗ mất tiền | …0) · xe (mục 47, 48, 49) · tiết kiệm và nợ (… |
+| đầu chương | mục 7 | Trả đủ dư nợ thẻ mỗi tháng; nếu buộc phải vay, đổi mọi con số về %/năm rồi mới so | …mục 5, 8, 9, 10, 33, 34) · vay và lãi suất (… |
+| đầu chương | mục 15 | Giao dịch càng nhiều thì tiền ở lại càng ít — thị trường dựng đứng càng phải ngồi yên | …34) · vay và lãi suất (mục 7, 28) · đầu tư (… |
+| đầu chương | mục 25 | Mua bảo hiểm thuần bảo vệ; tiền "hoàn lại" và "chia lãi" là phần không được đảm bảo | …16, 17, 18, 19, 36, 37, 44, 50) · bảo hiểm (… |
+| đầu chương | mục 2 | Mỗi năm làm một lần quyết toán thuế thu nhập cá nhân, và điền hết người phụ thuộc | …42, 43) · thuế, lương hưu, bảo hiểm xã hội (… |
+| đầu chương | mục 22 | Trả tiền trước thì lấy hợp đồng và hóa đơn — phần chưa dùng vẫn là tiền của bạn | …c 2, 3, 13, 20, 45) · mua sắm và khiếu nại (… |
+| đầu chương | mục 46 | Nhận xe mới: kiểm ngay tại chỗ, và biết rằng Việt Nam không có "7 ngày đổi xe" | …ả tiền trước, 29, 30, 31, 32, 35, 49) · xe (… |
+| đầu chương | mục 6 | Ai hứa lãi cao gấp mấy lần tiết kiệm thì đó không phải cơ hội, mà là chỗ mất tiền | …9) · xe (mục 46, 47, 48) · tiết kiệm và nợ (… |
 | mục 4 | mục 1 | Tắt hết gia hạn tự động, tới hạn thì tự bấm | …p tiền thì gói vẫn sống tới hết chu kỳ (xem … |
 | mục 8 | mục 9 | Con bạn nạp tiền vào game: dưới 15 tuổi còn đòi lại được, từ 15 tuổi thì gần như mất | …ộc độ tuổi, cách giao dịch và chứng cứ (xem … |
 | mục 8 | mục 9 | Con bạn nạp tiền vào game: dưới 15 tuổi còn đòi lại được, từ 15 tuổi thì gần như mất | … của con, và cách đó hẹp dần theo tuổi (xem … |
 | mục 16 | mục 7 | Trả đủ dư nợ thẻ mỗi tháng; nếu buộc phải vay, đổi mọi con số về %/năm rồi mới so | … lãi thẻ tín dụng 30,5%–44,5%/năm (… |
 | mục 27 | mục 7 | Trả đủ dư nợ thẻ mỗi tháng; nếu buộc phải vay, đổi mọi con số về %/năm rồi mới so | … lãi thẻ tín dụng 30,5%–44,5%/năm (… |
 | mục 28 | mục 27 | Để riêng ba đến sáu tháng chi tiêu, ở chỗ rút được trong ngày | … luôn giữ quỹ dự phòng (… |
-| mục 33 | mục 34 | Đá quý chỉ tin phiếu của phòng đã được công nhận, và tra mã đó trên trang của Văn phòng Công nhận Chất lượng | … xem … |
-| mục 42 | mục 41 | Hợp đồng bảo hiểm trên một năm có 21 ngày cân nhắc: hủy trong hạn thì lấy lại được phần lớn phí | …à chỉ trong 21 ngày đầu mới gần như đủ (xem … |
+| mục 41 | mục 40 | Hợp đồng bảo hiểm trên một năm có 21 ngày cân nhắc: hủy trong hạn thì lấy lại được phần lớn phí | …à chỉ trong 21 ngày đầu mới gần như đủ (xem … |
 
 ## 06-nhung-thu-vo-dung
 
@@ -314,7 +317,7 @@ Tổng 710 chỗ tham chiếu.
 | đầu chương | mục 15 | Đòi nợ thì khởi kiện, không giữ người, không giữ giấy tờ, không đến nhà ngồi lì | … … |
 | đầu chương | mục 12 | Không lắp camera trong phòng người khác thuê, không quay lén rồi phát tán | … … |
 | đầu chương | mục 24 | Dịch, chép, đăng lại phim truyện và sách lậu: không bán cũng là xâm phạm quyền tác giả; có thu tiền thì có thể thành tội hình sự | … … |
-| đầu chương | mục 29 | Không thi hộ, không thuê người thi hộ, không mua bán đáp án: Việt Nam không có tội "thi hộ", nhưng có tội làm giấy tờ giả và tội đưa hối lộ | … … |
+| đầu chương | mục 29 | Không thi hộ, không thuê người thi hộ, không mua bán đáp án: bị hủy kết quả thi, còn làm giấy tờ giả để vào phòng thi là tội hình sự | … … |
 
 ## 10-yeu-va-ket-hon-co-dang-khong
 
@@ -336,15 +339,15 @@ Tổng 710 chỗ tham chiếu.
 | Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
 | --- | --- | --- | --- |
 | đầu chương | mục 10 | Báo lỗ hổng cho chủ hệ thống trước, và trước khi vá thì không đăng chi tiết, không phát hành công cụ khai thác, không đẩy dữ liệu ra nước ngoài | … **4 mục hạng C** — … |
-| đầu chương | mục 11 | Không bán tài khoản VPN, không dựng node hộ người khác: ở Việt Nam không có tội danh riêng, nhưng có điều kiện kinh doanh và bạn chịu trách nhiệm về đường mình mở | …** — mục 10 (báo lỗ hổng cho chủ hệ thống), … |
-| đầu chương | mục 17 | Cung cấp AI cho công chúng: Việt Nam chưa có đăng ký thuật toán, nhưng đã có luật buộc tự phân loại rủi ro và thông báo trước khi chạy | …ệ thống), mục 11 (không bán tài khoản VPN), … |
+| đầu chương | mục 11 | Không bán tài khoản VPN, không dựng node hộ người khác: dùng VPN không phạm luật, nhưng mở đường truy nhập để thu tiền thì phải đăng ký và bạn chịu trách nhiệm về đường mình mở | …** — mục 10 (báo lỗ hổng cho chủ hệ thống), … |
+| đầu chương | mục 17 | Cung cấp AI cho công chúng: luật buộc tự phân loại rủi ro và thông báo trước khi chạy, chưa có thủ tục nộp hồ sơ thuật toán để xin phép | …ệ thống), mục 11 (không bán tài khoản VPN), … |
 | đầu chương | mục 19 | Không dựng trạm trung chuyển bán lại API mô hình nước ngoài giá rẻ: chưa có án, nhưng bạn có thể gặp rủi ro về dữ liệu, hợp đồng, thuế và tiền khách trả trước. | … VPN), mục 17 (cung cấp AI cho công chúng), … |
 | đầu chương | mục 1 | Trước khi nhận làm, hỏi rõ ai trả tiền, sản phẩm dùng để làm gì, người đặt có giấy phép không; bị hỏi thì gọi luật sư hình sự ngay, đừng tự giải thích trước | … … |
 | đầu chương | mục 2 | Không làm, không bán cheat game và bot hỗ trợ — kể cả loại "chỉ đọc màn hình, không động vào bộ nhớ" — và không bán bản sửa của app người khác để thêm chức năng | … … |
 | đầu chương | mục 4 | Crawler chỉ cào trang công khai không cần đăng nhập, không vượt chặn bot, không lấy dữ liệu cá nhân, không bán dữ liệu cào được | … … |
 | đầu chương | mục 7 | Nghỉ việc không mang theo mã nguồn, danh sách khách hàng, tài liệu kỹ thuật; không đưa lên ổ cá nhân; không dùng lại ở công ty mới | … … |
 | đầu chương | mục 14 | Dùng code GPL để làm sản phẩm thì phải theo giấy phép: mở mã nguồn hoặc đổi giấy phép, đừng dựa vào "không ai quản" | … … |
-| đầu chương | mục 11 | Không bán tài khoản VPN, không dựng node hộ người khác: ở Việt Nam không có tội danh riêng, nhưng có điều kiện kinh doanh và bạn chịu trách nhiệm về đường mình mở | … … |
+| đầu chương | mục 11 | Không bán tài khoản VPN, không dựng node hộ người khác: dùng VPN không phạm luật, nhưng mở đường truy nhập để thu tiền thì phải đăng ký và bạn chịu trách nhiệm về đường mình mở | … … |
 | mục 4 | mục 9 | Không kiểm thử hệ thống của người khác khi chưa có văn bản cho phép: ý tốt và việc báo lại sau đó không xóa được hành vi | … Điều 289 khoản 1 Bộ luật Hình sự, như ở … |
 | mục 20 | chương 9 mục 24 | Dịch, chép, đăng lại phim truyện và sách lậu: không bán cũng là xâm phạm quyền tác giả; có thu tiền thì có thể thành tội hình sự | …u bạn phát hành phim hoặc sách lậu, hãy xem … |
 
@@ -488,19 +491,18 @@ Tổng 710 chỗ tham chiếu.
 | đầu chương | mục 3 | Giám hộ: khi ông bà không còn tự quyết thì phải có quyết định của tòa, và phần chuẩn bị làm được từ trước | … … |
 | đầu chương | mục 4 | Tiền dưỡng già: một tài khoản hai tên mở ở quầy, nguyên tắc mọi lệnh phải có cả hai, và một câu từ chối tập sẵn | … … |
 | đầu chương | mục 5 | Huy động vốn lãi cao: bốn câu kiểm được trước khi ông bà đưa tiền | … … |
-| đầu chương | mục 6 | "Thế chấp nhà để lấy lương hưu": Việt Nam không có sản phẩm đó | … … |
-| đầu chương | mục 7 | Khi ông bà mất khả năng tự chăm: 540.000 đồng, thẻ bảo hiểm y tế, và hợp đồng ủy nhiệm chăm sóc | … … |
-| đầu chương | mục 8 | Loét do nằm lâu: nhìn da ở ba chỗ xương lồi mỗi ngày, và trở mình theo giờ | … … |
-| đầu chương | mục 9 | Đục thủy tinh thể: chỉ định mổ tính bằng việc mắt còn làm được gì, không bằng một con số thị lực | … … |
-| đầu chương | mục 10 | Dắt chó và chấn thương: một tay giữ dây, và ngã ở tuổi 60 thì đi chụp phim ngay | … … |
-| đầu chương | mục 11 | Nhà dưỡng lão: tra cơ sở trong danh sách đang hoạt động, và đọc hợp đồng theo mẫu trước khi ký | … … |
-| đầu chương | mục 12 | Nghỉ chăm cha mẹ ốm: không có chế độ riêng, nên dùng phép năm và thỏa thuận nghỉ không lương | … … |
-| đầu chương | mục 13 | Sa sút trí tuệ: quên gần, lạc đường, giảm chức năng là việc phải đi khám, không phải "lẫn tuổi già" | … … |
+| đầu chương | mục 6 | Khi ông bà mất khả năng tự chăm: 540.000 đồng, thẻ bảo hiểm y tế, và hợp đồng ủy nhiệm chăm sóc | … … |
+| đầu chương | mục 7 | Loét do nằm lâu: nhìn da ở ba chỗ xương lồi mỗi ngày, và trở mình theo giờ | … … |
+| đầu chương | mục 8 | Đục thủy tinh thể: chỉ định mổ tính bằng việc mắt còn làm được gì, không bằng một con số thị lực | … … |
+| đầu chương | mục 9 | Dắt chó và chấn thương: một tay giữ dây, và ngã ở tuổi 60 thì đi chụp phim ngay | … … |
+| đầu chương | mục 10 | Nhà dưỡng lão: tra cơ sở trong danh sách đang hoạt động, và đọc hợp đồng theo mẫu trước khi ký | … … |
+| đầu chương | mục 11 | Nghỉ chăm cha mẹ ốm: dùng phép năm hoặc thỏa thuận nghỉ không lương, vì bảo hiểm xã hội chỉ trả khi chính bạn ốm hoặc chăm con nhỏ | … … |
+| đầu chương | mục 12 | Sa sút trí tuệ: quên gần, lạc đường, giảm chức năng là việc phải đi khám, không phải "lẫn tuổi già" | … … |
 | mục 4 | mục 2 | Di chúc: viết khi còn minh mẫn, bản sau thay bản trước, và công chứng không khóa di chúc lại | …pháp luật, tức lại quay về giấy tờ thừa kế (… |
 | mục 4 | mục 3 | Giám hộ: khi ông bà không còn tự quyết thì phải có quyết định của tòa, và phần chuẩn bị làm được từ trước | …(mục 2) và giám hộ theo quyết định của tòa (… |
-| mục 9 | mục 5 | Huy động vốn lãi cao: bốn câu kiểm được trước khi ông bà đưa tiền | … Phần D … |
-| mục 9 | mục 4 | Tiền dưỡng già: một tài khoản hai tên mở ở quầy, nguyên tắc mọi lệnh phải có cả hai, và một câu từ chối tập sẵn | … Phần D … |
-| mục 10 | mục 8 | Loét do nằm lâu: nhìn da ở ba chỗ xương lồi mỗi ngày, và trở mình theo giờ | …ài ngày là thêm một vết loét do tì đè, đúng … |
+| mục 8 | mục 5 | Huy động vốn lãi cao: bốn câu kiểm được trước khi ông bà đưa tiền | … Phần D … |
+| mục 8 | mục 4 | Tiền dưỡng già: một tài khoản hai tên mở ở quầy, nguyên tắc mọi lệnh phải có cả hai, và một câu từ chối tập sẵn | … Phần D … |
+| mục 9 | mục 7 | Loét do nằm lâu: nhìn da ở ba chỗ xương lồi mỗi ngày, và trở mình theo giờ | …ài ngày là thêm một vết loét do tì đè, đúng … |
 
 ## 18-nuoi-con-tien-bac-va-thoi-gian
 
@@ -575,7 +577,7 @@ Tổng 710 chỗ tham chiếu.
 
 | Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
 | --- | --- | --- | --- |
-| đầu chương | mục 1 | Trước khi mua vé: tra khuyến cáo, kiểm hạn hộ chiếu, và biết rằng cửa khẩu không chặn bạn chỉ vì nước đến nguy hiểm | … … |
+| đầu chương | mục 1 | Trước khi mua vé: tra khuyến cáo của Bộ Ngoại giao, kiểm hạn hộ chiếu và thị thực, vì cửa khẩu không chặn bạn chỉ vì nước đến nguy hiểm | … … |
 | đầu chương | mục 2 | Lưu số trực bảo hộ công dân vào ba chỗ, và lưu cả số của cơ quan đại diện nước mình đến | … … |
 | đầu chương | mục 3 | Cơ quan đại diện làm được gì và không làm được gì: mười một việc họ không làm | … … |
 | đầu chương | mục 4 | Bảo hiểm ra nước ngoài: đọc hai dòng là giới hạn trách nhiệm và điều khoản vận chuyển y tế | … … |
@@ -605,7 +607,7 @@ Tổng 710 chỗ tham chiếu.
 | đầu chương | mục 9 | Giữ việc gặp người khác đều đặn, đừng đợi buồn mới tìm ai | … … |
 | đầu chương | mục 10 | Chọn chỗ ở thì tính mảng xanh quanh nhà, nhưng đừng tưởng đi công viên là tăng thọ | … … |
 | đầu chương | mục 11 | Đã uống rượu thì đừng xông hơi, đừng ngâm bồn nóng, về nhà cũng đừng tắm nước nóng | … … |
-| đầu chương | mục 12 | Trượt tuyết, trượt ván, patin, đạp xe địa hình: đội mũ bảo hiểm, đừng đội mũ rởm | … … |
+| đầu chương | mục 12 | Đạp xe, xe đạp điện, patin, trượt ván: đội mũ bảo hiểm, đừng đội mũ rởm | … … |
 | mục 4 | mục 3 | Trong quán có người mời thử "đồ" thì đứng dậy đi, đừng ngồi lại xem | … hay một pod ngay trong quán thì xử lý theo … |
 | mục 8 | mục 6 | Người đủ tiêu chuẩn trầm cảm: đi bộ nhanh hoặc chạy, tính trung bình trong các nghiên cứu thì hiệu quả tăng theo cường độ | … So với hai … |
 | mục 9 | chương 3 mục 16 | Bớt những quan hệ làm mình hao, tập nói "không" với yêu cầu mình không muốn nhận | …bớt tiếp xúc với người khiến mình kiệt sức (… |
@@ -623,7 +625,7 @@ Tổng 710 chỗ tham chiếu.
 | đầu chương | mục 19 | Tự ra đề theo đúng cách mình sẽ phải dùng, không chỉ đọc lại cho thuộc | … Bảy mục A gần như đều nằm ở nhóm cách học (… |
 | đầu chương | mục 7 | Mốc để so các khóa học: thêm một năm đi học, thu nhập của chính người học cao hơn khoảng 9% | … đến 19) và một mục ở nhóm lợi tức học vấn (… |
 | đầu chương | mục 1 | Dưới 16 tuổi vẫn được đi làm, nhưng chỉ việc nhẹ hoặc việc luật cho phép theo từng nhóm tuổi: thuê sai bị phạt tới 150 triệu đồng | … … |
-| đầu chương | mục 2 | Mỗi năm học thêm đi kèm nguy cơ tử vong của người lớn thấp hơn trung bình khoảng 1,9% | … … |
+| đầu chương | mục 2 | Mỗi năm đi học chính quy thêm đi kèm nguy cơ tử vong của người lớn thấp hơn trung bình khoảng 1,9% | … … |
 | đầu chương | mục 3 | Trước khi nói bằng đại học mất giá, nhìn cơ cấu: khoảng 11,6% dân số từ 15 tuổi trở lên có bằng đại học trở lên | … … |
 | đầu chương | mục 4 | "Không có tiền học" thường là tính thiếu ba tầng: trần học phí, miễn giảm, và vay | … … |
 | đầu chương | mục 5 | Trượt công lập không phải hết đường: từ năm 2026 có thêm chương trình trung học nghề | … … |
@@ -694,8 +696,8 @@ Tổng 710 chỗ tham chiếu.
 | --- | --- | --- | --- |
 | đầu chương | mục 1 | Đừng để tiền của người mua đi qua tài khoản của bạn rồi mới trả cho người bán | … … |
 | đầu chương | mục 2 | Loại nội dung quyết định giấy phép, không phải việc website có thu tiền hay không | … … |
-| đầu chương | mục 3 | Livestream và video: không có "giấy phép văn hóa mạng", nhưng mạng xã hội phải có giấy phép mới được mở livestream | … … |
-| đầu chương | mục 4 | Máy chủ và tên miền: không có mã ICP, nhưng có ba việc phải làm trước khi chạy | … … |
+| đầu chương | mục 3 | Livestream và video: chỉ mạng xã hội có giấy phép mới được mở livestream, còn trò chơi và phim theo quy định riêng | … … |
+| đầu chương | mục 4 | Máy chủ và tên miền: ba việc phải làm trước khi chạy | … … |
 | đầu chương | mục 5 | Cho người khác bán trên nền tảng của mình: đăng ký trước khi chạy, xác thực người bán, giữ dữ liệu | … … |
 | đầu chương | mục 6 | Người dùng đăng gì vi phạm trên nền tảng thì mình phải gỡ: 24 giờ khi có yêu cầu, 48 giờ với khiếu nại | … … |
 | đầu chương | mục 7 | Cho người ta viết bài, bình luận, chat thì phải xác thực tài khoản bằng số điện thoại | … … |
@@ -833,7 +835,7 @@ Tổng 710 chỗ tham chiếu.
 | đầu chương | mục 16 | Vay vốn để tự tạo việc làm: hỏi Ngân hàng Chính sách xã hội trước khi tìm vay nóng | … … |
 | đầu chương | mục 17 | Chuyện "còn là sinh viên mới tốt nghiệp": không có trong luật tuyển dụng, chỉ có trong từng thông báo | … … |
 | mục 9 | mục 5 | Xuất ngũ về thì việc làm tính từ ba chỗ, và cửa đăng ký chỉ mở 15 ngày làm việc | …m việc vẫn phải đi đăng ký ngạch dự bị, như … |
-| mục 11 | chương 5 mục 46 | Không có lương hưu công ty: đóng bảo hiểm xã hội tự nguyện ở mức thấp nhất, đủ 15 năm, khoảng 8 năm là hoàn vốn | … ra tiền và phần ngân sách hỗ trợ đã tính ở … |
+| mục 11 | chương 5 mục 45 | Không có lương hưu công ty: đóng bảo hiểm xã hội tự nguyện ở mức thấp nhất, đủ 15 năm, khoảng 8 năm là hoàn vốn | … ra tiền và phần ngân sách hỗ trợ đã tính ở … |
 
 ## 32-di-du-hoc
 
@@ -871,7 +873,7 @@ Tổng 710 chỗ tham chiếu.
 | đầu chương | mục 12 | Chó dẫn đường và vé xe buýt: vé có khung miễn giảm, chó dẫn đường thì phải hỏi trước | … … |
 | đầu chương | mục 13 | Thi đại học: được ưu tiên tuyển sinh và miễn một số môn, nhưng không có mức chung toàn quốc | … … |
 | đầu chương | mục 14 | Trường không được từ chối nhận học sinh khuyết tật, nhưng chữ luật có kèm điều kiện | … … |
-| đầu chương | mục 15 | Không có hạng C5: người khuyết tật lái ô tô số tự động được cấp hạng B | … … |
+| đầu chương | mục 15 | Người khuyết tật xin giấy phép lái xe: mô tô ba bánh cấp hạng A1, ô tô số tự động phù hợp tình trạng khuyết tật cấp hạng B | … … |
 | đầu chương | mục 16 | Phục hồi chức năng: vào nơi có nhóm đa chuyên khoa, liều do bác sĩ và kỹ thuật viên quyết | … … |
 | đầu chương | mục 17 | Nghe kém thì đi đo thính lực trước, rồi mới tính chuyện máy trợ thính; lý do đeo máy là nghe được bây giờ, không phải để phòng sa sút trí tuệ | … … |
 | đầu chương | mục 18 | Muốn nói một người lớn "không tự quyết được việc của mình" thì phải ra tòa, và tòa có ba mức chứ không phải hai | … … |
@@ -902,3 +904,38 @@ Tổng 710 chỗ tham chiếu.
 | mục 3 | mục 1 | Hai hộp thuốc cảm cùng một hoạt chất giảm đau, hạ sốt: đọc phần thành phần trước khi uống, quá tay thì đi viện ngay kể cả khi thấy bình thường | … đọc thành phần trước khi cộng, xem … |
 | mục 4 | mục 2 | Trẻ sốt: không dùng aspirin, nimesulide hay metamizole (analgin); sirô phải đong bằng ống có trong hộp, không đong bằng thìa ăn cơm | … Với trẻ sốt, xem … |
 | mục 5 | mục 1 | Hai hộp thuốc cảm cùng một hoạt chất giảm đau, hạ sốt: đọc phần thành phần trước khi uống, quá tay thì đi viện ngay kể cả khi thấy bình thường | …i paracetamol quá liều vẫn gây suy gan (xem … |
+
+## 35-bao-lu-nang-nong-va-muoi
+
+| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
+| --- | --- | --- | --- |
+| đầu chương | mục 1 | Trước bão chằng nhà, tỉa cây, dự trữ nước và thuốc; khi bão đang đổ bộ thì ở trong nhà kiên cố, không ra ngoài | … … |
+| đầu chương | mục 2 | Nhà hoặc đường ngập nước: rút phích, cúp cầu dao tổng, tránh xa cột điện và dây đứt, báo điện lực hoặc gọi 114 | … … |
+| đầu chương | mục 3 | Sau lũ: lọc nước đục, khử trùng bằng Cloramin B hoặc viên khử khuẩn theo nhãn, rồi đun sôi trước khi uống | … … |
+| đầu chương | mục 4 | Mưa kéo dài, tường nứt, cây nghiêng, nước suối đục: rời xa sườn dốc và khe suối, báo chính quyền | … … |
+| đầu chương | mục 5 | Ô tô chết máy giữa vùng ngập: tắt máy, không khởi động lại, ngắt ắc quy, gọi cứu hộ; xem điều khoản ngập nước trong bảo hiểm | … … |
+| đầu chương | mục 6 | Mỗi tuần một lần thau rửa, đậy kín hoặc bỏ mọi vật chứa nước đọng quanh nhà để muỗi không đẻ | … … |
+| đầu chương | mục 7 | Mặc quần áo che tay chân, dùng thuốc chống muỗi có DEET, IR3535 hoặc icaridin, ngủ trong màn kể cả ban ngày khi nhà có người sốt | … … |
+| đầu chương | mục 8 | Sốt xuất huyết: hết sốt ở ngày 3 đến 7 chưa phải là khỏi; đau bụng dữ dội, nôn liên tục, chảy máu, mệt lả thì đi viện ngay; dùng paracetamol, không dùng aspirin hay ibuprofen | … … |
+| đầu chương | mục 9 | Vắc xin sốt xuất huyết: hai mũi cách nhau ba tháng, giảm khoảng 61% ca có triệu chứng và 84% ca phải nhập viện, nhưng không chặn hết ca bệnh | … … |
+| đầu chương | mục 10 | Gia cầm ốm hoặc chết: không ăn, không giết mổ, không bán, báo thú y; đi chợ gia cầm sống thì đeo khẩu trang và rửa tay bằng xà phòng | … … |
+| mục 2 | chương 13 mục 18 | Có người bị điện giật: cắt cầu dao trước, dùng que khô gạt dây ra, tuyệt đối không kéo tay trần | … Với người chết điện giật, mục sơ cứu ở … |
+| mục 4 | chương 1 mục 41 | Nước lũ, ngầm tràn, đường ngập nước chảy xiết: không lội, không chạy xe qua, kể cả khi nhìn nước còn nông | …u, cống, đường ngập sâu nước chảy xiết (xem … |
+| mục 7 | mục 6 | Mỗi tuần một lần thau rửa, đậy kín hoặc bỏ mọi vật chứa nước đọng quanh nhà để muỗi không đẻ | … việc loại bỏ nơi muỗi đẻ ở … |
+
+## 36-xe-may-va-duong-pho
+
+| Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
+| --- | --- | --- | --- |
+| đầu chương | chương 1 mục 2 | Đội mũ bảo hiểm khi đi mô tô, xe gắn máy, xe đạp điện và cài quai đúng quy cách | … đội mũ bảo hiểm ở … |
+| đầu chương | chương 5 mục 26 | Bảo hiểm bắt buộc xe máy chỉ trả 150 triệu một người và 50 triệu tài sản; phần vượt bạn tự trả | … chương 1 mục 2, bảo hiểm bắt buộc xe máy ở … |
+| đầu chương | chương 8 mục 1 | Gây tai nạn thì dừng lại, cứu người, gọi 113 và ở lại hiện trường — bỏ đi là sang khung nặng hơn | …uộc xe máy ở chương 5 mục 26, gây tai nạn ở … |
+| đầu chương | chương 8 mục 7 | Đã uống thì không cầm lái, kể cả xe máy điện và cái "chỉ dời xe một chút", và đừng giao xe cho người đã uống | …ai nạn ở chương 8 mục 1, đã uống rượu bia ở … |
+| đầu chương | mục 1 | Xe mô tô hai bánh trên 125 cm³ cần bằng hạng A, bằng A1 chỉ đủ cho xe đến 125 cm³; không có bằng phù hợp bị phạt 2 đến 8 triệu đồng | … … |
+| đầu chương | mục 3 | Bằng lái có 12 điểm: mỗi lỗi bị trừ điểm, 12 tháng không bị trừ thì được hồi đủ, hết điểm thì không được lái và phải thi lại sau ít nhất 6 tháng | … mục 1 và … |
+| đầu chương | mục 2 | Xe máy chỉ được chở một người; chở hai người khi đó là người cấp cứu, trẻ em dưới 12 tuổi, người già yếu hoặc khuyết tật; chở từ ba người trở lên bị phạt nặng và trừ điểm | … … |
+| đầu chương | mục 4 | Đỗ xe máy sai chỗ bị phạt 400.000 đến 600.000 đồng, xe còn có thể bị công an cho di chuyển và chủ xe trả chi phí | … mục 2 và … |
+| đầu chương | mục 5 | Chạy lên vỉa hè, đi ngược chiều đường một chiều, vượt đèn đỏ hoặc vào đường cao tốc: mỗi lỗi bị phạt 4 đến 6 triệu đồng và trừ 2 đến 6 điểm bằng lái | … … |
+| mục 4 | mục 5 | Chạy lên vỉa hè, đi ngược chiều đường một chiều, vượt đèn đỏ hoặc vào đường cao tốc: mỗi lỗi bị phạt 4 đến 6 triệu đồng và trừ 2 đến 6 điểm bằng lái | …hẹ hơn nhiều so với chạy xe lên vỉa hè (xem … |
+| mục 5 | chương 8 mục 7 | Đã uống thì không cầm lái, kể cả xe máy điện và cái "chỉ dời xe một chút", và đừng giao xe cho người đã uống | … Rượu bia đã có … |
+| mục 5 | mục 3 | Bằng lái có 12 điểm: mỗi lỗi bị trừ điểm, 12 tháng không bị trừ thì được hồi đủ, hết điểm thì không được lái và phải thi lại sau ít nhất 6 tháng | … lỗi nói trên còn bị trừ điểm bằng lái (xem … |
