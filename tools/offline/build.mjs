@@ -51,11 +51,18 @@ html = html
   .replaceAll('href="book/"', `href="${REPO}/tree/${REPO_BRANCH}/book"`)
   .replaceAll('<a class="title" href="./"', `<a class="title" href="${SITE}"`);
 
+// Nhúng minh họa bìa để bản một file không cần tải ảnh ngoài.
+const cover = 'assets/life-evidence-cover.jpg';
+if (html.includes(`src="${cover}"`)) {
+  const data = readFileSync(resolve(ROOT, cover)).toString('base64');
+  html = html.replace(`src="${cover}"`, `src="data:image/jpeg;base64,${data}"`);
+}
+
 // Chân trang ghi rõ đây là bản offline của phiên bản nào
 const foot = '<div class="foot">';
 must(foot, 'phần chân trang');
 const commitNote = COMMIT ? `, bản nội dung ${COMMIT.slice(0, 7)}` : '';
-html = html.replace(foot, `${foot}Bản offline, dựng lúc ${STAMP} (giờ Việt Nam)${commitNote}; nội dung còn cập nhật, lấy <a href="${SITE}">bản online</a> làm chuẩn.<br>`);
+html = html.replace(foot, `${foot}<p class="offline-stamp">Bản offline, dựng lúc ${STAMP} (giờ Việt Nam)${commitNote}; nội dung còn cập nhật, lấy <a href="${SITE}">bản online</a> làm chuẩn.</p>`);
 
 // Nội dung phải có mặt trước script chính
 const mainScript = '\n<script>\n/* ---------- PERF-PANEL';

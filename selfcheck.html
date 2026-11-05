@@ -5,15 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Tự kiểm tra · Cẩm nang sống thông minh</title>
 <meta name="description" content="Trả lời một loạt câu hỏi có/không để xem trong sách bạn còn thiếu việc nào: nhóm nào hụt nhiều nhất, nên làm ba việc nào trước, việc nào làm một lần là xong. Mỗi việc giữ nguyên bằng chứng và nguồn riêng, không quy thành một điểm số.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%233451b2'/%3E%3Cpath d='M17 33l10 11 20-24' fill='none' stroke='white' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23267342'/%3E%3Cpath d='M17 33l10 11 20-24' fill='none' stroke='white' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <script>(function(){try{var s=localStorage.getItem('theme');var d=s?s==='dark':matchMedia('(prefers-color-scheme: dark)').matches;if(d)document.documentElement.classList.add('dark')}catch(e){}})();</script>
 <style>
 /* Bảng màu và font dùng chung với index.html */
 :root{
-  --bg:#ffffff; --bg-alt:#f6f6f7; --bg-soft:#f6f6f7; --bg-mute:#f1f1f2;
-  --divider:#e2e2e3;
-  --t1:rgba(60,60,67,1); --t2:rgba(60,60,67,.78); --t3:rgba(60,60,67,.56);
-  --brand-1:#3451b2; --brand-2:#3a5ccc; --brand-soft:rgba(100,108,255,.14);
+  --bg:#f4f1e8; --bg-alt:#fbf9f2; --bg-soft:#fbf9f2; --bg-mute:#e4ebdc;
+  --divider:#c9cbbf;
+  --t1:#222b24; --t2:#62685d; --t3:#6c7267;
+  --brand-1:#267342; --brand-2:#1b5932; --brand-soft:#e4ebdc;
   --green-1:#18794e; --green-soft:rgba(16,185,129,.14);
   --yellow-1:#915930; --yellow-soft:rgba(234,179,8,.14);
   --red-1:#b8272c; --red-soft:rgba(244,63,94,.14);
@@ -22,10 +22,10 @@
   color-scheme:light;
 }
 html.dark{
-  --bg:#1b1b1f; --bg-alt:#161618; --bg-soft:#202127; --bg-mute:#2b2b2f;
-  --divider:#2e2e32;
-  --t1:rgba(255,255,245,.86); --t2:rgba(235,235,245,.6); --t3:rgba(235,235,245,.38);
-  --brand-1:#a8b1ff; --brand-2:#5c73e7; --brand-soft:rgba(100,108,255,.16);
+  --bg:#191f1b; --bg-alt:#191f1b; --bg-soft:#202822; --bg-mute:#303f2c;
+  --divider:#485449;
+  --t1:#f0efe4; --t2:#b8bfb1; --t3:#abb3a4;
+  --brand-1:#a4e28c; --brand-2:#c3efb2; --brand-soft:#303f2c;
   --green-1:#3dd68c; --green-soft:rgba(16,185,129,.16);
   --yellow-1:#f9b44e; --yellow-soft:rgba(234,179,8,.16);
   --red-1:#f66f81; --red-soft:rgba(244,63,94,.16);
@@ -64,7 +64,7 @@ h2+.q{border-top:0}
 .bar{position:sticky;bottom:0;margin-top:32px;padding:14px 0;background:var(--bg);border-top:1px solid var(--divider);display:flex;align-items:center;gap:16px}
 .bar .prog{flex:1;color:var(--t2);font-size:14px}
 .btn{border-radius:20px;padding:0 20px;line-height:38px;font-weight:600;font-size:14px;background:var(--brand-1);color:#fff;transition:background .2s}
-html.dark .btn{color:#1b1b1f}
+html.dark .btn{color:#191f1b}
 .btn:hover{background:var(--brand-2)}
 .btn.ghost{background:var(--bg-mute);color:var(--t1)}
 .btn.ghost:hover{background:var(--divider)}
@@ -124,6 +124,12 @@ html.dark .btn{color:#1b1b1f}
   .sum{grid-template-columns:repeat(2,1fr)}
   .hbar{grid-template-columns:8.5em 1fr 3.8em;gap:8px}
 }
+/* Cùng phong cách giấy và chữ serif với trang tra cứu. */
+h1{font-family:Georgia,"Times New Roman",serif;font-weight:500;font-size:38px;letter-spacing:-.035em}
+h2{font-family:Georgia,"Times New Roman",serif;font-weight:500;font-size:25px}
+.nav{max-width:1100px;margin:auto;background:var(--bg)}
+.wrap{padding-top:36px}
+@media(max-width:600px){h1{font-size:32px}h2{font-size:23px}}
 </style>
 </head>
 <body>
