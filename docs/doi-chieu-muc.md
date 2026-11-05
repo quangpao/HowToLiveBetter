@@ -21,7 +21,7 @@ Cách tính từ neo: hai từ liền nhau trùng tiêu đề đích, hoặc m�
 như 12356, AED, BMI, LPR) xuất hiện trong tiêu đề. Chỉ trùng một từ chung chung ("người", "tiền")
 thì không tính.
 
-Tổng 708 chỗ tham chiếu.
+Tổng 712 chỗ tham chiếu.
 
 ## 01-dung-chet-som
 
@@ -30,6 +30,7 @@ Tổng 708 chỗ tham chiếu.
 | đầu chương | mục 1 | Thắt dây an toàn, cả ghế trước lẫn ghế sau | … thắt dây an toàn (… |
 | đầu chương | mục 2 | Đội mũ bảo hiểm khi đi mô tô, xe gắn máy, xe đạp điện và cài quai đúng quy cách | … toàn (mục 1), đội mũ bảo hiểm và cài quai (… |
 | đầu chương | mục 9 | Không chạy quá tốc độ, không uống rượu bia rồi lái, không cầm điện thoại, buồn ngủ thì dừng nghỉ | … quá tốc độ và không uống rượu bia rồi lái (… |
+| đầu chương | mục 41 | Nước lũ, ngầm tràn, đường ngập nước chảy xiết: không lội, không chạy xe qua, kể cả khi nhìn nước còn nông | …g lội hay chạy xe qua nước lũ và ngầm tràn (… |
 | đầu chương | mục 3 | Lắp đầu báo khói; nhà nào đốt than, củi hay chạy máy phát điện trong nhà thì lắp thêm đầu báo khí CO | … lắp đầu báo khói và đầu báo khí CO (… |
 | đầu chương | mục 4 | Thay dây dẫn gas trước khi nó nứt, không tự tháo van hay tự sang gas, chỉ nhận bình còn niêm phong | …ây dẫn gas và chỉ nhận bình còn niêm phong (… |
 | đầu chương | mục 6 | Đừng sạc xe điện trong nhà, đừng dắt xe vào thang máy hay để ở cầu thang | …ạc xe điện trong nhà hay để xe ở cầu thang (… |
@@ -63,6 +64,7 @@ Tổng 708 chỗ tham chiếu.
 | mục 38 | mục 30 | Dùng bao cao su suốt mỗi lần quan hệ, và không dùng chung bơm kim tiêm | …ó giai đoạn đã tạm dừng ở một số nơi** (xem … |
 | mục 39 | mục 13 | Từ 60 tuổi, tập thăng bằng và sức chân hằng tuần, sửa lại nhà tắm và cầu thang | … còn giảm số lần ngã thì xem … |
 | mục 40 | mục 39 | Phụ nữ từ 65 tuổi nên đo mật độ xương một lần; sau mãn kinh mà có yếu tố nguy cơ thì không cần đợi đến 65 | … Cách phát hiện loãng xương ở … |
+| mục 41 | mục 25 | Khi trầm cảm hoặc có ý nghĩ tự tử: gọi tổng đài, và đừng để thuốc ngủ hay thuốc trừ sâu trong nhà | …to, gọi 112, ném phao, dây hoặc vật nổi như … |
 | mục 43 | mục 25 | Khi trầm cảm hoặc có ý nghĩ tự tử: gọi tổng đài, và đừng để thuốc ngủ hay thuốc trừ sâu trong nhà | …uốc ngủ, thuốc trừ sâu ra khỏi tầm tay (xem … |
 | mục 43 | mục 32 | Ý nghĩ tự tử vừa xuất hiện thì nói ngay với một người bên cạnh, nhờ họ ở bên bạn trong lúc đó | … ở gần một nửa số người chỉ khoảng 10 phút (… |
 | mục 45 | mục 14 | Xét nghiệm viêm gan B một lần, rồi căn cứ vào kết quả mà tiêm hay không tiêm | …ét nghiệm viêm gan B là bộ chỉ số khác, xem … |
@@ -117,7 +119,7 @@ Tổng 708 chỗ tham chiếu.
 | đầu chương | mục 10 | Đánh răng hai lần một ngày bằng kem có fluor, và làm sạch kẽ răng — đừng tin quảng cáo | …ẩn thận, mỗi ngày làm sạch kẽ răng một lần (… |
 | đầu chương | mục 12 | Uống thuốc theo đơn đều đặn — bỏ thuốc là chỗ chết người nhất trong điều trị bệnh mạn tính | …10), uống thuốc đều theo đơn, đừng tự dừng (… |
 | đầu chương | mục 31 | Ban ngày ra ngoài trời — nhưng là nắng sớm, không phải nắng trưa | …ng (mục 12), ban ngày ra ngoài cho có nắng (… |
-| đầu chương | mục 36 | Có bồn thì tắm — nhưng ngâm bồn là chỗ dễ ngất, phải cẩn thận | …có nắng (mục 31), có điều kiện thì tắm bồn (… |
+| đầu chương | mục 36 | Dưa muối, cà muối, cá khô mặn: ăn như món phụ thỉnh thoảng, đừng thành món chính hằng ngày | …ng (mục 31), bớt dưa cà muối và cá khô mặn (… |
 | đầu chương | mục 43 | Bốc hỏa, vã mồ hôi tuổi mãn kinh mà ảnh hưởng sinh hoạt thì đi khám — đừng tự chịu | … thì đi khám để đánh giá liệu pháp hormone (… |
 | đầu chương | mục 5 | Gọi tổng đài tư vấn cai thuốc, hoặc đi phòng tư vấn cai thuốc lá | … **… |
 | đầu chương | mục 6 | Thuốc lá điện tử: ở Việt Nam đã bị cấm, đừng coi là cách cai | … Việt Nam, không phải số của nước ngoài), **… |
@@ -144,6 +146,8 @@ Tổng 708 chỗ tham chiếu.
 | mục 34 | mục 7 | Không uống đồ uống có đường — đổi sang loại "không đường" cũng không phải là giải pháp | …a sữa đặc đã chạm ngưỡng đường của cả ngày (… |
 | mục 35 | mục 18 | Bớt thịt chế biến — giò chả, lạp xưởng, xúc xích, khô bò | …bánh mì (pate và xúc xích là thịt chế biến, … |
 | mục 35 | mục 28 | Bớt thực phẩm siêu chế biến — mì gói, xúc xích, bánh ngọt công nghiệp, nước ngọt | … thứ trung tính lấy một thứ có hại rõ ràng (… |
+| mục 36 | mục 23 | Đổi bớt thịt đỏ sang cá, gia cầm, đậu — thay thế chứ không phải ăn thêm | …ri là nguyên nhân đã rõ của ung thư dạ dày (… |
+| mục 36 | mục 9 | Đổi sang muối giảm natri — nhưng người bệnh thận phải hỏi bác sĩ trước | …phải hạn chế nghiêm hơn và theo lời bác sĩ (… |
 | mục 38 | mục 37 | Ngủ trưa dưới 30 phút — ngủ trưa dài có hại | …ngủ bù thì ngủ bù **buổi trưa 20–30 phút** (… |
 | mục 38 | mục 13 | Ngủ 7 tiếng mỗi đêm — ngủ ít và ngủ quá nhiều đều có hại | …hông phải ngủ bù mà là số giờ ngủ — hãy xem … |
 | mục 38 | mục 39 | Làm ca đêm — chuyển sang ca ngày khi còn chuyển được | …ngủ bù mà là số giờ ngủ — hãy xem mục 13 và … |
@@ -603,7 +607,7 @@ Tổng 708 chỗ tham chiếu.
 | đầu chương | mục 9 | Giữ việc gặp người khác đều đặn, đừng đợi buồn mới tìm ai | … … |
 | đầu chương | mục 10 | Chọn chỗ ở thì tính mảng xanh quanh nhà, nhưng đừng tưởng đi công viên là tăng thọ | … … |
 | đầu chương | mục 11 | Đã uống rượu thì đừng xông hơi, đừng ngâm bồn nóng, về nhà cũng đừng tắm nước nóng | … … |
-| đầu chương | mục 12 | Trượt tuyết, trượt ván, patin, đạp xe địa hình: đội mũ bảo hiểm, đừng đội mũ rởm | … … |
+| đầu chương | mục 12 | Đạp xe, xe đạp điện, patin, trượt ván: đội mũ bảo hiểm, đừng đội mũ rởm | … … |
 | mục 4 | mục 3 | Trong quán có người mời thử "đồ" thì đứng dậy đi, đừng ngồi lại xem | … hay một pod ngay trong quán thì xử lý theo … |
 | mục 8 | mục 6 | Người đủ tiêu chuẩn trầm cảm: đi bộ nhanh hoặc chạy, tính trung bình trong các nghiên cứu thì hiệu quả tăng theo cường độ | … So với hai … |
 | mục 9 | chương 3 mục 16 | Bớt những quan hệ làm mình hao, tập nói "không" với yêu cầu mình không muốn nhận | …bớt tiếp xúc với người khiến mình kiệt sức (… |
@@ -621,7 +625,7 @@ Tổng 708 chỗ tham chiếu.
 | đầu chương | mục 19 | Tự ra đề theo đúng cách mình sẽ phải dùng, không chỉ đọc lại cho thuộc | … Bảy mục A gần như đều nằm ở nhóm cách học (… |
 | đầu chương | mục 7 | Mốc để so các khóa học: thêm một năm đi học, thu nhập của chính người học cao hơn khoảng 9% | … đến 19) và một mục ở nhóm lợi tức học vấn (… |
 | đầu chương | mục 1 | Dưới 16 tuổi vẫn được đi làm, nhưng chỉ việc nhẹ hoặc việc luật cho phép theo từng nhóm tuổi: thuê sai bị phạt tới 150 triệu đồng | … … |
-| đầu chương | mục 2 | Mỗi năm học thêm đi kèm nguy cơ tử vong của người lớn thấp hơn trung bình khoảng 1,9% | … … |
+| đầu chương | mục 2 | Mỗi năm đi học chính quy thêm đi kèm nguy cơ tử vong của người lớn thấp hơn trung bình khoảng 1,9% | … … |
 | đầu chương | mục 3 | Trước khi nói bằng đại học mất giá, nhìn cơ cấu: khoảng 11,6% dân số từ 15 tuổi trở lên có bằng đại học trở lên | … … |
 | đầu chương | mục 4 | "Không có tiền học" thường là tính thiếu ba tầng: trần học phí, miễn giảm, và vay | … … |
 | đầu chương | mục 5 | Trượt công lập không phải hết đường: từ năm 2026 có thêm chương trình trung học nghề | … … |
