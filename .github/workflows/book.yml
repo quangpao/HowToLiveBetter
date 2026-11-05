@@ -1,10 +1,10 @@
 # Bản Việt: chạy trên nhánh vi (mặc định của repo)
-# 正文一改就重新生成四样，挂到固定的 Release「epub-latest」上，下载链接不变：
-#   EPUB        https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.epub
-#   PDF         https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.pdf
-#   离线单文件  https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.html
-#   Anki 牌组  https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.apkg
-# PR 只生成并校验，不发布，产物在 Actions 页面的 artifact 里。
+# Nội dung đổi là dựng lại bốn bản, gắn vào Release cố định "epub-latest", link tải không đổi:
+#   EPUB          https://github.com/quangpao/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.epub
+#   PDF           https://github.com/quangpao/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.pdf
+#   HTML một file https://github.com/quangpao/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.html
+#   Bộ thẻ Anki   https://github.com/quangpao/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.apkg
+# PR chỉ dựng và kiểm, không phát hành; sản phẩm nằm trong artifact ở trang Actions.
 name: Sách điện tử
 
 on:
@@ -15,7 +15,6 @@ on:
       - index.html
       - selfcheck.html
       - og.png
-      - ads/**
       - book/**
       - docs/*.md
       - tools/**
@@ -26,7 +25,6 @@ on:
       - index.html
       - selfcheck.html
       - og.png
-      - ads/**
       - book/**
       - docs/*.md
       - tools/**
@@ -45,10 +43,11 @@ env:
   TYPST_VERSION: '0.15.1'
 
 jobs:
-  # 交叉引用检查。单独一个 job，不挂在 build 里：锚点没补好不该连累 EPUB、PDF 和
-  # 离线单文件的发布，那是两回事。PR 上照样红，main 上该发的还是发出去。
-  # 本地那条链路（sync-stats.mjs）要记得跑才会跑，
-  # 外部 PR 更是完全跑不到，所以这道检查得在 CI 里有一份。零依赖，几秒钟。
+  # Kiểm tham chiếu chéo. Tách thành job riêng, không gắn vào build: neo chưa bổ sung xong
+  # không nên làm hỏng việc phát hành EPUB, PDF và HTML một file, hai việc đó không liên quan.
+  # PR vẫn đỏ, nhánh vi vẫn phát hành bình thường. Chuỗi kiểm cục bộ (sync-stats.mjs) phải nhớ
+  # chạy mới chạy, PR từ bên ngoài thì không chạy được, nên CI cần có một bản.
+  # Không phụ thuộc gói ngoài, vài giây là xong.
   refs:
     name: Kiểm tham chiếu chéo
     runs-on: ubuntu-latest
@@ -59,7 +58,7 @@ jobs:
           node-version: 22
       - run: node tools/check-refs.mjs --check
 
-  # 说人话检查：长度、研究行话、抽象说法。理由同上，单独一个 job，不挡发布。
+  # Kiểm văn phong: độ dài, thuật ngữ nghiên cứu, cách nói trừu tượng. Lý do như trên, job riêng, không chặn phát hành.
   vi-style:
     name: Kiểm văn phong tiếng Việt
     runs-on: ubuntu-latest
@@ -94,8 +93,9 @@ jobs:
       - run: node tools/test-check-draft.mjs
       - run: node tools/test-check-legal.mjs
 
-  # 拆分规则一致性检查：超长收益、备注和来源的拆分规则有两份（tools/lib/split-items.mjs 给 EPUB、PDF，
-  # index.html 里 <split-rules> 那段给网页和离线版），只改了一边就会四个出口长得不一样。理由同上，不挡发布。
+  # Kiểm luật tách câu nhất quán: luật tách Lợi ích, Ghi chú và Nguồn quá dài có hai bản
+  # (tools/lib/split-items.mjs cho EPUB và PDF, đoạn <split-rules> trong index.html cho web và bản offline).
+  # Chỉ sửa một bên thì bốn đầu ra sẽ khác nhau. Lý do như trên, không chặn phát hành.
   split:
     name: Kiểm luật tách câu
     runs-on: ubuntu-latest
@@ -106,16 +106,16 @@ jobs:
           node-version: 22
       - run: node tools/check-split.mjs
 
-  # 统计数字检查：README、index.html、og.html 里的条目数、A/B/C 数、链接数等是否和 book/ 对得上。
-  # 本地 sync-stats.mjs 要记得跑才会更新，网页上直接合并的 PR 完全经过不了它。理由同上，不挡发布。
-  # 只查不改：让 CI 往 main 推提交会和本地分叉，而且 Ubuntu 没有微软雅黑，og.png 截不对。
+  # Kiểm số liệu thống kê: số mục, số mục A/B/C, số liên kết... trong README, index.html, og.html có khớp book/ không.
+  # sync-stats.mjs cục bộ phải nhớ chạy mới cập nhật, PR gộp thẳng trên web thì không qua được nó. Lý do như trên, không chặn phát hành.
+  # Chỉ kiểm, không sửa: để CI đẩy commit lên nhánh vi sẽ lệch với máy cục bộ, và Ubuntu không có phông Microsoft YaHei nên chụp og.png không đúng.
   stats:
     name: Kiểm số liệu thống kê
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # updates.mjs 要翻 git 历史
+          fetch-depth: 0   # updates.mjs cần xem lịch sử git
       - uses: actions/setup-node@v4
         with:
           node-version: 22

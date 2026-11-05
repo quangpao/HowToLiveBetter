@@ -23,8 +23,8 @@ const element = id => {
 };
 const warnings = [];
 // ⚠ Trang tự kiểm nay đọc BẢN TIẾNG VIỆT: khóa tra cứu của mỗi câu hỏi là một đoạn chữ trong tiêu đề
-// tiếng Việt của book/*.md, nên dữ liệu phải là README.md (bản Việt). Trỏ về README.cn.md (bản gốc tiếng Trung)
-// là mọi câu hỏi mất đích ngay. Đổi khóa trong selfcheck.html thì đổi cả các khóa trong file này.
+// tiếng Việt của book/*.md, nên dữ liệu phải là README.md.
+// Trỏ sang tệp khác là mọi câu hỏi mất đích ngay. Đổi khóa trong selfcheck.html thì đổi cả các khóa trong file này.
 const oldAnswers = {'p:tuoi':'30', 'p:sex':'f', 'p:kid':'n', '2:muối giảm natri':'n', '1:viêm gan B':'y'};
 const context = vm.createContext({
   window:{__CORPUS__:{readme:read('README.md'), parts}},

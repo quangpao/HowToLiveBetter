@@ -51,14 +51,6 @@ html = html
   .replaceAll('href="book/"', `href="${REPO}/tree/${REPO_BRANCH}/book"`)
   .replaceAll('<a class="title" href="./"', `<a class="title" href="${SITE}"`);
 
-// Mã QR ủng hộ tác giả gốc chuyển thành data URI, không thì mở offline sẽ thành ảnh lỗi.
-// Ảnh nào không có trong index.html thì bỏ qua, khỏi gãy build.
-for (const [img, mime] of [['ads/wechat-reward.png', 'image/png']]) {
-  if (!html.includes(`src="${img}"`)) continue;
-  const data = readFileSync(resolve(ROOT, img)).toString('base64');
-  html = html.replace(`src="${img}"`, `src="data:${mime};base64,${data}"`);
-}
-
 // Chân trang ghi rõ đây là bản offline của phiên bản nào
 const foot = '<div class="foot">';
 must(foot, 'phần chân trang');

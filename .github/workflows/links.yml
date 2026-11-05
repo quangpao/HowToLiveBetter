@@ -1,10 +1,10 @@
-# 失效链接检查：每周一跑一次全书外链，结果写在这次运行的 Summary 页里。
-# 只报告不报错（脚本退出码恒为 0），所以这个工作流永远是绿的，要看结果得点进去。
-# 「确定失效」那一档（404、410、DOI 查无此号）才需要修；
-# 「没连上」多半是 gov.cn 挡了境外机房 IP，连着几周都在才值得看；
-# 「加密握手不兼容」是老政府站的加密方式 Node 不认，浏览器能开，不用修。
-# 不挂在 book.yml 里：几百个外站的通断跟正文改没改无关，每次推送都跑既慢又吵。
-name: 失效链接检查
+# Kiểm liên kết hỏng: mỗi thứ Hai chạy một lần trên toàn bộ liên kết ngoài của sách, kết quả ghi ở trang Summary của lần chạy.
+# Chỉ báo cáo, không báo lỗi (mã thoát của script luôn là 0), nên workflow này luôn xanh, muốn xem kết quả phải bấm vào trong.
+# Nhóm "chắc chắn hỏng" (404, 410, DOI không tồn tại) mới cần sửa;
+# nhóm "không kết nối được" phần nhiều là trang chặn IP máy chủ nước ngoài, nhiều tuần liền vẫn thế mới đáng xem;
+# nhóm "bắt tay mã hóa không tương thích" là trang nhà nước cũ dùng kiểu mã hóa Node không nhận, trình duyệt vẫn mở được, không cần sửa.
+# Không gắn vào book.yml: hàng trăm trang ngoài thông hay không chẳng liên quan tới việc sửa nội dung, mỗi lần push đều chạy vừa chậm vừa ồn.
+name: Kiểm liên kết hỏng
 
 on:
   schedule:
@@ -16,7 +16,7 @@ permissions:
 
 jobs:
   links:
-    name: 失效链接检查
+    name: Kiểm liên kết hỏng
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:

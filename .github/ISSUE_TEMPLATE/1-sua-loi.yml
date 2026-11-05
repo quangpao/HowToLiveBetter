@@ -1,0 +1,27 @@
+name: Sửa lỗi - mục viết sai hoặc đã lỗi thời
+description: Số liệu sai, quy định đã đổi, nguồn không mở được, câu chữ có chỗ sai
+title: "Chương X, mục Y: "
+labels: ["sửa lỗi"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Mục nào
+      description: Ghi số chương và số mục, ví dụ "chương 32, mục 2".
+      placeholder: Chương X, mục Y
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Chỗ nào sai
+      description: Chép nguyên câu đó vào đây, rồi nói đúng phải là gì.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Căn cứ
+      description: Bài báo khoa học (DOI hoặc link PubMed), nguyên văn điều luật, trang web của cơ quan nhà nước hoặc tổ chức chính thức. Bài đăng lại trên mạng xã hội, báo tổng hợp, diễn đàn thì không dùng được.
+    validations:
+      required: true

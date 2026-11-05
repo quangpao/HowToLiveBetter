@@ -23,7 +23,7 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 // Lấy liên kết từ đâu: từng chương trong book/, bài dài ngay dưới docs/ (bản ghi kiểm chứng là trạng thái lịch sử, không kiểm), README.
 const files = [
   ...readdirSync(resolve(ROOT, 'book')).filter(f => /^\d\d-.*\.md$/.test(f)).map(f => `book/${f}`),
-  ...readdirSync(resolve(ROOT, 'docs')).filter(f => f.endsWith('.md') && f !== 'doi-chieu-muc.md' && f !== '引用对照.md').map(f => `docs/${f}`),
+  ...readdirSync(resolve(ROOT, 'docs')).filter(f => f.endsWith('.md') && f !== 'doi-chieu-muc.md').map(f => `docs/${f}`),
   'README.md',
 ];
 
@@ -44,7 +44,7 @@ for (const f of files) {
   });
 }
 // Không kiểm huy hiệu, chính trang tra cứu, liên kết tải Release: chúng không phải nguồn, hỏng thì cũng có chỗ khác phát hiện trước.
-const SKIP = /img\.shields\.io|eternity4719\.github\.io|\/releases\/download\/|localhost/;
+const SKIP = /img\.shields\.io|quangpao\.github\.io|\/releases\/download\/|localhost/;
 // Không ít site cơ quan địa phương còn dùng bộ mã hóa cũ hoặc chuỗi chứng chỉ không đầy đủ, Node bắt tay báo lỗi ngay, trình duyệt vẫn mở bình thường.
 // Loại này để riêng một mức, không trộn với loại thật sự không kết nối được.
 const TLS = /^(ERR_SSL_|UNABLE_TO_VERIFY|CERT_|SELF_SIGNED|DEPTH_ZERO)/;

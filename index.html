@@ -173,15 +173,6 @@ html.dark .switch .sun{display:none} html.dark .switch .moon{display:block}
 .doc-links a{margin-right:4px}
 .hint{font-size:12px;color:var(--t3);line-height:1.6;margin-top:16px}
 /* Ủng hộ: một dòng chữ cuối thanh bên, bấm mở mới hiện mã QR, ảnh dùng loading=lazy, không bấm thì không tải */
-.tip-open{margin-top:10px;padding:0;border:0;background:none;font:inherit;font-size:12px;color:var(--t3);cursor:pointer}
-.tip-open:hover{color:var(--brand-1)}
-#tip-mask{position:fixed;inset:0;z-index:70;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;padding:24px}
-#tip-mask[hidden]{display:none}
-#tip-box{background:var(--bg);border:1px solid var(--divider);border-radius:12px;box-shadow:var(--shadow);width:min(360px,100%);padding:16px;text-align:center}
-#tip-box img{display:block;width:100%;height:auto;border-radius:8px}
-#tip-box p{margin:12px 0;font-size:13px;line-height:1.6;color:var(--t2)}
-#tip-box button{border:1px solid var(--divider);background:var(--bg-soft);color:var(--t2);border-radius:6px;padding:3px 14px;font-size:13px;cursor:pointer;font-family:inherit}
-#tip-box button:hover{color:var(--t1);background:var(--bg-mute)}
 .hint p{margin:4px 0}
 .backdrop{display:none}
 
@@ -490,7 +481,6 @@ abbr.term:hover{border-bottom-color:var(--brand-1);color:var(--brand-1)}
     <p>Nội dung và nhãn đọc từ các file trong <a href="book/">book/</a>; sửa file là sửa luôn trang này.</p>
   </div>
   <div class="group ad">
-    <button type="button" class="tip-open" id="tip-open">Thấy hữu ích? Mời tác giả gốc một ly cà phê</button>
   </div>
 
 </aside>
@@ -529,13 +519,6 @@ abbr.term:hover{border-bottom-color:var(--brand-1);color:var(--brand-1)}
   </div>
 </div>
 
-<div id="tip-mask" hidden>
-  <div id="tip-box" role="dialog" aria-modal="true" aria-label="Mã ủng hộ tác giả gốc">
-    <img src="ads/wechat-reward.png" alt="Mã QR ủng hộ tác giả gốc" width="1037" height="1037" loading="lazy">
-    <p>Đây là mã ủng hộ của tác giả gốc (WeChat). Ủng hộ hay không đều không ảnh hưởng nội dung.<br>Xem trên điện thoại thì chụp màn hình rồi quét từ thư viện ảnh.</p>
-    <button type="button" id="tip-x">Đóng</button>
-  </div>
-</div>
 
 <div id="xref-pop" hidden>
   <div class="xp-h"><b></b><button class="xp-go" type="button">Đi tới</button><button class="xp-x" type="button" aria-label="Đóng">✕</button></div>
@@ -632,12 +615,12 @@ function parseReadme(md){
 /* ---------- Bảng thuật ngữ ---------- */
 let GLOSS = [];   // [{term, meaning, re}]
 function parseGlossary(md){
-  const m = /^## (?:Đọc con số|读懂数字)[^\n]*\n([\s\S]*?)(?=^## )/m.exec(md);
+  const m = /^## (?:Đọc con số)[^\n]*\n([\s\S]*?)(?=^## )/m.exec(md);
   if (!m) return [];
   const rows = [];
   for (const line of m[1].split(/\r?\n/)){
     const c = /^\|\s*(.+?)\s*\|\s*(.+?)\s*\|$/.exec(line);
-    if (!c || c[1] === '术语' || c[1] === 'Thuật ngữ' || /^-+$/.test(c[1])) continue;
+    if (!c || c[1] === 'Thuật ngữ' || /^-+$/.test(c[1])) continue;
     for (const t of c[1].split('、')){
       const term = t.trim(); if (!term) continue;
       rows.push({term, meaning: c[2], latin: /^[A-Za-z0-9%. ]+$/.test(term)});
@@ -1238,7 +1221,7 @@ function build(sections){
 function buildGlossary(){
   const box = document.getElementById('gloss'); if (!GLOSS.length) { box.hidden = true; return; }
   const dl = box.querySelector('dl');
-  for (const g of [...GLOSS].sort((a,b) => a.term.localeCompare(b.term, 'zh'))){
+  for (const g of [...GLOSS].sort((a,b) => a.term.localeCompare(b.term, 'vi'))){
     const dt = document.createElement('dt'); dt.textContent = g.term;
     const dd = document.createElement('dd'); dd.textContent = g.meaning;
     dl.appendChild(dt); dl.appendChild(dd);
@@ -1535,7 +1518,7 @@ function dmRender(md){
   const flush = () => { flushP(); flushL(); };
   for (let i = 0; i < lines.length; i++){
     const ln = lines[i];
-    if (/^\[← (?:Về mục lục|回总目录)\]/.test(ln)) continue;          // dòng về mục lục tổng trong popup không có ý nghĩa
+    if (/^\[← (?:Về mục lục)\]/.test(ln)) continue;          // dòng về mục lục tổng trong popup không có ý nghĩa
     if (!ln.trim()){ flush(); continue; }
     let m;
     if ((m = ln.match(/^(#{1,4})\s+(.*)$/))){
@@ -1675,22 +1658,6 @@ document.addEventListener('keydown', ev => {
   if (!POP.hidden){ POP.hidden = true; return; }
   dmClose();
 }, true);
-
-/* ---------- Popup mã ủng hộ ---------- */
-const TIP = document.getElementById('tip-mask');
-function tipClose(){
-  if (TIP.hidden) return;
-  TIP.hidden = true;
-  document.getElementById('tip-open').focus();
-}
-document.getElementById('tip-open').addEventListener('click', () => {
-  TIP.hidden = false;
-  document.getElementById('tip-x').focus();
-  if (window.gtag) gtag('event', 'tip_open');
-});
-document.getElementById('tip-x').addEventListener('click', tipClose);
-TIP.addEventListener('click', ev => { if (ev.target === TIP) tipClose(); });
-document.addEventListener('keydown', ev => { if (ev.key === 'Escape' && !TIP.hidden){ ev.stopPropagation(); tipClose(); } }, true);
 
 (async function init(){
   const status = document.getElementById('status');

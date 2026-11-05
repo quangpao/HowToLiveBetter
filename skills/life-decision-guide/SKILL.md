@@ -36,7 +36,7 @@ Không dùng được git thì lấy theo từng file:
 curl -fsSL --compressed "https://raw.githubusercontent.com/quangpao/HowToLiveBetter/vi/book/02-dung-chet-dan.md"
 ```
 
-Chương 1 đến 4 đã có bản tiếng Việt, dùng thẳng (`book/01-dung-chet-som.md`, `02-dung-chet-dan.md`, `03-dung-lang-phi-suc-luc.md`, `04-dung-lang-phi-thoi-gian.md`). Chương 5 đến 34 mới có bản gốc tiếng Trung trong `book/` (tên file giữ nguyên tiếng Trung), bản Việt đang biên soạn; trích từ đó thì lấy tên chương theo bảng trong `README.md` và ghi rõ là chương chưa có bản Việt.
+Cả 34 chương đều là bản tiếng Việt trong `book/`; tên file có số chương và tên chương không dấu, ví dụ `book/01-dung-chet-som.md`. Chọn chương theo bảng trong `README.md`.
 
 Hai cách trên đều không chạy thì nói thật là không lấy được nội dung, đừng kể lại sách theo trí nhớ.
 
@@ -46,7 +46,7 @@ Chọn 1 đến 3 chương: đọc bảng "Cuốn sách này trả lời câu g�
 
 File chương nằm ngay trong `book/`, tên file có số chương và tên chương, `ls book/` xem được hết.
 
-Bài dài nằm trong `docs/`: kết hôn có đáng không, bộ dụng cụ dự phòng tại nhà, làm nền tảng phải xin giấy gì, gặp người lạ gặp nạn có nên dừng lại. Bản Việt chưa có bài dài nào — xem dòng "Bài dài" trong `README.md`.
+Bài dài nằm trong `docs/`; hiện có `docs/phap-luat-viet-nam.md` (tra cứu pháp luật Việt Nam theo vấn đề). Xem dòng "Bài dài" trong `README.md`.
 
 ## Bước 3: lôi mục ra
 
