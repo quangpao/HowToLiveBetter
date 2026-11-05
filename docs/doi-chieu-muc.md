@@ -313,7 +313,7 @@ Tổng 708 chỗ tham chiếu.
 | đầu chương | mục 15 | Đòi nợ thì khởi kiện, không giữ người, không giữ giấy tờ, không đến nhà ngồi lì | … … |
 | đầu chương | mục 12 | Không lắp camera trong phòng người khác thuê, không quay lén rồi phát tán | … … |
 | đầu chương | mục 24 | Dịch, chép, đăng lại phim truyện và sách lậu: không bán cũng là xâm phạm quyền tác giả; có thu tiền thì có thể thành tội hình sự | … … |
-| đầu chương | mục 29 | Không thi hộ, không thuê người thi hộ, không mua bán đáp án: Việt Nam không có tội "thi hộ", nhưng có tội làm giấy tờ giả và tội đưa hối lộ | … … |
+| đầu chương | mục 29 | Không thi hộ, không thuê người thi hộ, không mua bán đáp án: bị hủy kết quả thi, còn làm giấy tờ giả để vào phòng thi là tội hình sự | … … |
 
 ## 10-yeu-va-ket-hon-co-dang-khong
 
@@ -335,15 +335,15 @@ Tổng 708 chỗ tham chiếu.
 | Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
 | --- | --- | --- | --- |
 | đầu chương | mục 10 | Báo lỗ hổng cho chủ hệ thống trước, và trước khi vá thì không đăng chi tiết, không phát hành công cụ khai thác, không đẩy dữ liệu ra nước ngoài | … **4 mục hạng C** — … |
-| đầu chương | mục 11 | Không bán tài khoản VPN, không dựng node hộ người khác: ở Việt Nam không có tội danh riêng, nhưng có điều kiện kinh doanh và bạn chịu trách nhiệm về đường mình mở | …** — mục 10 (báo lỗ hổng cho chủ hệ thống), … |
-| đầu chương | mục 17 | Cung cấp AI cho công chúng: Việt Nam chưa có đăng ký thuật toán, nhưng đã có luật buộc tự phân loại rủi ro và thông báo trước khi chạy | …ệ thống), mục 11 (không bán tài khoản VPN), … |
+| đầu chương | mục 11 | Không bán tài khoản VPN, không dựng node hộ người khác: dùng VPN không phạm luật, nhưng mở đường truy nhập để thu tiền thì phải đăng ký và bạn chịu trách nhiệm về đường mình mở | …** — mục 10 (báo lỗ hổng cho chủ hệ thống), … |
+| đầu chương | mục 17 | Cung cấp AI cho công chúng: luật buộc tự phân loại rủi ro và thông báo trước khi chạy, chưa có thủ tục nộp hồ sơ thuật toán để xin phép | …ệ thống), mục 11 (không bán tài khoản VPN), … |
 | đầu chương | mục 19 | Không dựng trạm trung chuyển bán lại API mô hình nước ngoài giá rẻ: chưa có án, nhưng bạn có thể gặp rủi ro về dữ liệu, hợp đồng, thuế và tiền khách trả trước. | … VPN), mục 17 (cung cấp AI cho công chúng), … |
 | đầu chương | mục 1 | Trước khi nhận làm, hỏi rõ ai trả tiền, sản phẩm dùng để làm gì, người đặt có giấy phép không; bị hỏi thì gọi luật sư hình sự ngay, đừng tự giải thích trước | … … |
 | đầu chương | mục 2 | Không làm, không bán cheat game và bot hỗ trợ — kể cả loại "chỉ đọc màn hình, không động vào bộ nhớ" — và không bán bản sửa của app người khác để thêm chức năng | … … |
 | đầu chương | mục 4 | Crawler chỉ cào trang công khai không cần đăng nhập, không vượt chặn bot, không lấy dữ liệu cá nhân, không bán dữ liệu cào được | … … |
 | đầu chương | mục 7 | Nghỉ việc không mang theo mã nguồn, danh sách khách hàng, tài liệu kỹ thuật; không đưa lên ổ cá nhân; không dùng lại ở công ty mới | … … |
 | đầu chương | mục 14 | Dùng code GPL để làm sản phẩm thì phải theo giấy phép: mở mã nguồn hoặc đổi giấy phép, đừng dựa vào "không ai quản" | … … |
-| đầu chương | mục 11 | Không bán tài khoản VPN, không dựng node hộ người khác: ở Việt Nam không có tội danh riêng, nhưng có điều kiện kinh doanh và bạn chịu trách nhiệm về đường mình mở | … … |
+| đầu chương | mục 11 | Không bán tài khoản VPN, không dựng node hộ người khác: dùng VPN không phạm luật, nhưng mở đường truy nhập để thu tiền thì phải đăng ký và bạn chịu trách nhiệm về đường mình mở | … … |
 | mục 4 | mục 9 | Không kiểm thử hệ thống của người khác khi chưa có văn bản cho phép: ý tốt và việc báo lại sau đó không xóa được hành vi | … Điều 289 khoản 1 Bộ luật Hình sự, như ở … |
 | mục 20 | chương 9 mục 24 | Dịch, chép, đăng lại phim truyện và sách lậu: không bán cũng là xâm phạm quyền tác giả; có thu tiền thì có thể thành tội hình sự | …u bạn phát hành phim hoặc sách lậu, hãy xem … |
 
@@ -492,7 +492,7 @@ Tổng 708 chỗ tham chiếu.
 | đầu chương | mục 8 | Đục thủy tinh thể: chỉ định mổ tính bằng việc mắt còn làm được gì, không bằng một con số thị lực | … … |
 | đầu chương | mục 9 | Dắt chó và chấn thương: một tay giữ dây, và ngã ở tuổi 60 thì đi chụp phim ngay | … … |
 | đầu chương | mục 10 | Nhà dưỡng lão: tra cơ sở trong danh sách đang hoạt động, và đọc hợp đồng theo mẫu trước khi ký | … … |
-| đầu chương | mục 11 | Nghỉ chăm cha mẹ ốm: không có chế độ riêng, nên dùng phép năm và thỏa thuận nghỉ không lương | … … |
+| đầu chương | mục 11 | Nghỉ chăm cha mẹ ốm: dùng phép năm hoặc thỏa thuận nghỉ không lương, vì bảo hiểm xã hội chỉ trả khi chính bạn ốm hoặc chăm con nhỏ | … … |
 | đầu chương | mục 12 | Sa sút trí tuệ: quên gần, lạc đường, giảm chức năng là việc phải đi khám, không phải "lẫn tuổi già" | … … |
 | mục 4 | mục 2 | Di chúc: viết khi còn minh mẫn, bản sau thay bản trước, và công chứng không khóa di chúc lại | …pháp luật, tức lại quay về giấy tờ thừa kế (… |
 | mục 4 | mục 3 | Giám hộ: khi ông bà không còn tự quyết thì phải có quyết định của tòa, và phần chuẩn bị làm được từ trước | …(mục 2) và giám hộ theo quyết định của tòa (… |
@@ -573,7 +573,7 @@ Tổng 708 chỗ tham chiếu.
 
 | Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
 | --- | --- | --- | --- |
-| đầu chương | mục 1 | Trước khi mua vé: tra khuyến cáo, kiểm hạn hộ chiếu, và biết rằng cửa khẩu không chặn bạn chỉ vì nước đến nguy hiểm | … … |
+| đầu chương | mục 1 | Trước khi mua vé: tra khuyến cáo của Bộ Ngoại giao, kiểm hạn hộ chiếu và thị thực, vì cửa khẩu không chặn bạn chỉ vì nước đến nguy hiểm | … … |
 | đầu chương | mục 2 | Lưu số trực bảo hộ công dân vào ba chỗ, và lưu cả số của cơ quan đại diện nước mình đến | … … |
 | đầu chương | mục 3 | Cơ quan đại diện làm được gì và không làm được gì: mười một việc họ không làm | … … |
 | đầu chương | mục 4 | Bảo hiểm ra nước ngoài: đọc hai dòng là giới hạn trách nhiệm và điều khoản vận chuyển y tế | … … |
@@ -692,8 +692,8 @@ Tổng 708 chỗ tham chiếu.
 | --- | --- | --- | --- |
 | đầu chương | mục 1 | Đừng để tiền của người mua đi qua tài khoản của bạn rồi mới trả cho người bán | … … |
 | đầu chương | mục 2 | Loại nội dung quyết định giấy phép, không phải việc website có thu tiền hay không | … … |
-| đầu chương | mục 3 | Livestream và video: không có "giấy phép văn hóa mạng", nhưng mạng xã hội phải có giấy phép mới được mở livestream | … … |
-| đầu chương | mục 4 | Máy chủ và tên miền: không có mã ICP, nhưng có ba việc phải làm trước khi chạy | … … |
+| đầu chương | mục 3 | Livestream và video: chỉ mạng xã hội có giấy phép mới được mở livestream, còn trò chơi và phim theo quy định riêng | … … |
+| đầu chương | mục 4 | Máy chủ và tên miền: ba việc phải làm trước khi chạy | … … |
 | đầu chương | mục 5 | Cho người khác bán trên nền tảng của mình: đăng ký trước khi chạy, xác thực người bán, giữ dữ liệu | … … |
 | đầu chương | mục 6 | Người dùng đăng gì vi phạm trên nền tảng thì mình phải gỡ: 24 giờ khi có yêu cầu, 48 giờ với khiếu nại | … … |
 | đầu chương | mục 7 | Cho người ta viết bài, bình luận, chat thì phải xác thực tài khoản bằng số điện thoại | … … |
@@ -869,7 +869,7 @@ Tổng 708 chỗ tham chiếu.
 | đầu chương | mục 12 | Chó dẫn đường và vé xe buýt: vé có khung miễn giảm, chó dẫn đường thì phải hỏi trước | … … |
 | đầu chương | mục 13 | Thi đại học: được ưu tiên tuyển sinh và miễn một số môn, nhưng không có mức chung toàn quốc | … … |
 | đầu chương | mục 14 | Trường không được từ chối nhận học sinh khuyết tật, nhưng chữ luật có kèm điều kiện | … … |
-| đầu chương | mục 15 | Không có hạng C5: người khuyết tật lái ô tô số tự động được cấp hạng B | … … |
+| đầu chương | mục 15 | Người khuyết tật xin giấy phép lái xe: mô tô ba bánh cấp hạng A1, ô tô số tự động phù hợp tình trạng khuyết tật cấp hạng B | … … |
 | đầu chương | mục 16 | Phục hồi chức năng: vào nơi có nhóm đa chuyên khoa, liều do bác sĩ và kỹ thuật viên quyết | … … |
 | đầu chương | mục 17 | Nghe kém thì đi đo thính lực trước, rồi mới tính chuyện máy trợ thính; lý do đeo máy là nghe được bây giờ, không phải để phòng sa sút trí tuệ | … … |
 | đầu chương | mục 18 | Muốn nói một người lớn "không tự quyết được việc của mình" thì phải ra tòa, và tòa có ba mức chứ không phải hai | … … |
