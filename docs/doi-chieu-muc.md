@@ -21,7 +21,7 @@ Cách tính từ neo: hai từ liền nhau trùng tiêu đề đích, hoặc m�
 như 12356, AED, BMI, LPR) xuất hiện trong tiêu đề. Chỉ trùng một từ chung chung ("người", "tiền")
 thì không tính.
 
-Tổng 737 chỗ tham chiếu.
+Tổng 741 chỗ tham chiếu.
 
 ## 01-dung-chet-som
 
@@ -612,6 +612,9 @@ Tổng 737 chỗ tham chiếu.
 | mục 8 | mục 6 | Người đủ tiêu chuẩn trầm cảm: đi bộ nhanh hoặc chạy, tính trung bình trong các nghiên cứu thì hiệu quả tăng theo cường độ | … So với hai … |
 | mục 9 | chương 3 mục 16 | Bớt những quan hệ làm mình hao, tập nói "không" với yêu cầu mình không muốn nhận | …bớt tiếp xúc với người khiến mình kiệt sức (… |
 | mục 11 | chương 1 mục 12 | Trẻ gần nước phải có người lớn trong tầm tay; đi thuyền, đi đò, tắm sông hồ thì mặc áo phao | …gọi 115 nếu thấy ai nằm bất động trong bồn (… |
+| mục 13 | mục 9 | Giữ việc gặp người khác đều đặn, đừng đợi buồn mới tìm ai | …g người khác thì tính thêm phần gặp gỡ, xem … |
+| mục 13 | mục 6 | Người đủ tiêu chuẩn trầm cảm: đi bộ nhanh hoặc chạy, tính trung bình trong các nghiên cứu thì hiệu quả tăng theo cường độ | … ảnh hưởng sinh hoạt thì đi khám trước, xem … |
+| mục 13 | mục 7 | Đã được chẩn đoán lo âu: trong một thử nghiệm, khóa chánh niệm 8 tuần có người dạy không kém thuốc escitalopram, nhưng đừng tự ngừng thuốc | …trước, xem mục 6 (đi bộ nhanh hoặc chạy) và … |
 
 ## 23-hoc-gi-thi-dang
 
@@ -904,6 +907,7 @@ Tổng 737 chỗ tham chiếu.
 | mục 3 | mục 1 | Hai hộp thuốc cảm cùng một hoạt chất giảm đau, hạ sốt: đọc phần thành phần trước khi uống, quá tay thì đi viện ngay kể cả khi thấy bình thường | … đọc thành phần trước khi cộng, xem … |
 | mục 4 | mục 2 | Trẻ sốt: không dùng aspirin, nimesulide hay metamizole (analgin); sirô phải đong bằng ống có trong hộp, không đong bằng thìa ăn cơm | … Với trẻ sốt, xem … |
 | mục 5 | mục 1 | Hai hộp thuốc cảm cùng một hoạt chất giảm đau, hạ sốt: đọc phần thành phần trước khi uống, quá tay thì đi viện ngay kể cả khi thấy bình thường | …i paracetamol quá liều vẫn gây suy gan (xem … |
+| mục 14 | mục 3 | Người trên 60 tuổi, từng xuất huyết dạ dày, đang uống thuốc chống đông hay corticoid: hỏi bác sĩ trước khi mua ibuprofen | …hóm nguy cơ khác của thuốc giảm đau này xem … |
 
 ## 35-bao-lu-nang-nong-va-muoi
 
