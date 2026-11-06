@@ -28,8 +28,9 @@
     "dot-nhien-noi-man-khap-nguoi-kem-kho-tho-hoac-choang-goi": {
       "checkedAt": "2026-11-06",
       "status": "needs-medical-review",
-      "scope": "Điều kiện dùng bút adrenalin đã được kê và hướng dẫn",
+      "scope": "Giải nghĩa phản vệ/sốc phản vệ và điều kiện dùng bút adrenalin đã được kê và hướng dẫn",
       "sources": [
+        "https://vbpl.moj.gov.vn/boyte/Pages/vbpq-print.aspx?ItemID=128248",
         "https://www.nhs.uk/conditions/anaphylaxis/"
       ]
     },

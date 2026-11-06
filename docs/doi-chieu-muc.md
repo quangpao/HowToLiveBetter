@@ -540,7 +540,7 @@ Tổng 928 chỗ tham chiếu.
 | đầu chương | mục 8 đến 14 | Chảy máu nhiều: ấn mạnh lên vết thương, nếu ở tay chân mà ấn không cầm được máu thì đặt dây ga rô, gọi 115 | … … |
 | đầu chương | mục 8 đến 14 | Bị chó, mèo cắn hoặc cào rách da: rửa bằng nước và xà phòng 15 phút, tới cơ sở tiêm chủng tiêm vắc xin dại trong ngày | … … |
 | đầu chương | mục 8 đến 14 | Bỏng: làm mát bằng nước sạch chảy 20 phút, không bôi kem đánh răng hay nước mắm | … … |
-| đầu chương | mục 15 đến 21 | Nghi phản vệ: gọi 115; dùng bút adrenalin đã được kê và hướng dẫn, không tự định liều từ ống thuốc | … … |
+| đầu chương | mục 15 đến 21 | Nghi bị dị ứng nặng (phản vệ): gọi 115; dùng bút adrenalin đã được kê và hướng dẫn, không tự định liều từ ống thuốc | … … |
 | đầu chương | mục 15 đến 21 | Người co giật ngã xuống: dọn vật cản, cho nằm nghiêng, bấm giờ, tuyệt đối không nhét thìa hay ngón tay vào miệng | … … |
 | đầu chương | mục 15 đến 21 | Người đái tháo đường đột nhiên run rẩy, vã mồ hôi, nói không rõ: cho 15 gam đường, sau 15 phút kiểm lại | … … |
 | đầu chương | mục 15 đến 21 | Có người bị điện giật: cắt cầu dao trước, dùng que khô gạt dây ra, tuyệt đối không kéo tay trần | … … |
