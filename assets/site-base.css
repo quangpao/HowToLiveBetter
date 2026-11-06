@@ -1,0 +1,66 @@
+/* The original reader's paper, type and spacing, shared by every page. */
+:root{
+  color-scheme:light;
+  --bg:#f4f1e8;--bg-alt:#ebe9df;--bg-soft:#fbf9f2;--bg-mute:#e4ebdc;--bg-elv:#fbf9f2;
+  --divider:#c9cbbf;--gutter:#c9cbbf;--t1:#222b24;--t2:#62685d;--t3:#6c7267;
+  --brand-1:#267342;--brand-2:#1b5932;--brand-3:#4c8058;--brand-soft:#e4ebdc;
+  --green-1:#18794e;--green-soft:rgba(16,185,129,.14);
+  --yellow-1:#915930;--yellow-soft:rgba(234,179,8,.14);
+  --red-1:#b8272c;--red-soft:rgba(244,63,94,.14);
+  --gray-1:#565a5f;--gray-soft:rgba(142,150,170,.14);
+  --vn-soft:#e4ebdc;--vn-line:#9aae91;--vn-hover:#d6e2cd;
+  --serif:Georgia,"Times New Roman",serif;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --page-gutter:48px;--page-top:38px;--page-width:1440px;
+  --paper:var(--bg-soft);--ink:var(--t1);--muted:var(--t2);--line:var(--divider);--brand:var(--brand-1);--wash:var(--brand-soft);
+}
+html.dark{
+  color-scheme:dark;
+  --bg:#191f1b;--bg-alt:#252e26;--bg-soft:#202822;--bg-mute:#303f2c;--bg-elv:#202822;
+  --divider:#485449;--gutter:#485449;--t1:#f0efe4;--t2:#b8bfb1;--t3:#abb3a4;
+  --brand-1:#a4e28c;--brand-2:#c3efb2;--brand-3:#8aba78;--brand-soft:#303f2c;
+  --green-1:#3dd68c;--green-soft:rgba(16,185,129,.16);
+  --yellow-1:#f9b44e;--yellow-soft:rgba(234,179,8,.16);
+  --red-1:#f66f81;--red-soft:rgba(244,63,94,.16);
+  --gray-1:#a4a8ae;--gray-soft:rgba(142,150,170,.16);
+  --vn-soft:#303f2c;--vn-line:#66875b;--vn-hover:#3b5035;
+}
+*{box-sizing:border-box}
+html{scrollbar-gutter:stable}
+body{margin:0;background:var(--bg);color:var(--t1);font:15px/1.65 var(--font);-webkit-font-smoothing:antialiased}
+a{color:var(--brand-1);text-decoration:none;text-underline-offset:4px;transition:color .25s}
+a:hover{color:var(--brand-2);text-decoration:underline}
+button,input,textarea,select{font:inherit}
+button{color:inherit;background:none;border:0;padding:0;cursor:pointer}
+button,a,input,summary{touch-action:manipulation}
+:focus-visible{outline:3px solid var(--brand-1);outline-offset:4px;border-radius:2px}
+[hidden]{display:none!important}
+.content,.page{max-width:var(--page-width);margin-inline:auto}
+.content{padding:0 var(--page-gutter) 64px}
+.page{padding:var(--page-top) var(--page-gutter) 64px}
+.page-header{max-width:900px;margin-bottom:36px}
+.eyebrow{font:11px/1.6 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--brand-1)}
+.cover-copy h1,.page-header h1,.selfcheck-page h1{font:500 clamp(40px,4.4vw,66px)/1.12 var(--serif);letter-spacing:-.045em;margin:20px 0 28px;text-wrap:balance}
+.deck,.lead{color:var(--t2);font-size:16px;line-height:1.9;margin:0}
+.page h2{font:500 30px/1.3 var(--serif);letter-spacing:-.025em;margin:38px 0 14px;text-wrap:balance}
+.page h3{font:600 24px/1.4 var(--serif);letter-spacing:-.015em;text-wrap:balance}
+.button,.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font:14px/1.65 var(--font);color:var(--t1);background:var(--bg-soft);border:1px solid var(--divider);border-radius:2px;padding:10px 12px;min-height:44px;text-decoration:none;cursor:pointer}
+.button:hover,.btn.ghost:hover{background:var(--bg-mute);color:var(--t1);text-decoration:none}
+.button.primary,.btn:not(.ghost){background:var(--brand-1);border-color:var(--brand-1);color:var(--bg)}
+.button.primary:hover,.btn:not(.ghost):hover{background:var(--brand-2);border-color:var(--brand-2);color:var(--bg)}
+.btn.ghost{background:var(--bg-soft);color:var(--t1)}
+.badge{display:inline-block;border-radius:2px;font-size:11px;font-weight:500;padding:1px 7px;line-height:20px;white-space:nowrap}
+@media(max-width:1050px){
+  :root{--page-gutter:28px}
+  .cover-copy h1,.page-header h1,.selfcheck-page h1{font-size:clamp(38px,4.5vw,54px)}
+}
+@media(max-width:700px){
+  :root{--page-gutter:18px;--page-top:28px}
+  .content{padding-bottom:40px}.page{padding-bottom:40px}
+  .cover-copy h1,.page-header h1,.selfcheck-page h1{font-size:44px;margin:14px 0 20px}
+  .deck,.lead{font-size:15px}
+  .page h2{font-size:27px}.page h3{font-size:22px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{.content,.page{padding:0;max-width:none}}

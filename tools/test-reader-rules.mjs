@@ -79,6 +79,13 @@ for(const [path,source] of Object.entries(sitePages())){
   assert.ok(source.includes(canonicalShareImage),path+' must use the live share card');
 }
 for(const [path,source] of Object.entries({...sitePages(),'index.html':html,'selfcheck.html':read('selfcheck.html')})){
+  const nav=source.match(/<!-- site-nav:start -->([\s\S]*?)<!-- site-nav:end -->/);
+  assert.ok(nav,path+' missing shared navigation');
+  const downloadLinks=[...nav[1].matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>Tải về<\/a>/g)];
+  assert.ok(downloadLinks.length,path+' missing download navigation');
+  const origin='https://quangpao.github.io/HowToLiveBetter/';
+  for(const link of downloadLinks)assert.equal(new URL(link[1],new URL(path,origin)).href,origin+'tai-ve/',path+' wrong download destination');
+  assert.match(source,/<link rel="stylesheet" href="(?:\.\.\/)?assets\/site-base.css">/,path+' missing the original shared typography');
   const themeScript=source.match(/<script src="(?:\.\.\/)?assets\/site-theme.js"><\/script>/);
   assert.ok(themeScript && source.indexOf(themeScript[0])<source.search(/<style>|<link rel="stylesheet"/),path+' must set theme before styles/first paint');
   for(const [stored,system,blocked,expected] of [['dark',false,false,true],['light',true,false,false],[null,true,false,true],[null,true,true,true]]){

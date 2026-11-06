@@ -1,16 +1,12 @@
 /* Navigation from the original home page. Scoped colours keep it identical on every page. */
 html{scrollbar-gutter:stable}
 .nav{
-  --nav-ink:#222b24;--nav-muted:#62685d;--nav-line:#c9cbbf;
-  --nav-paper:#fbf9f2;--nav-hover:#e4ebdc;--nav-brand:#267342;
+  --nav-ink:var(--t1);--nav-muted:var(--t2);--nav-line:var(--divider);
+  --nav-paper:var(--bg-soft);--nav-hover:var(--bg-mute);--nav-brand:var(--brand-1);
   position:static;height:auto;border:0;background:transparent;margin:0 auto;
   max-width:1440px;padding:28px 48px 0;
-  color:var(--nav-ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+  color:var(--nav-ink);font:15px/1.65 var(--font);
   -webkit-font-smoothing:antialiased;
-}
-html.dark .nav{
-  --nav-ink:#f0efe4;--nav-muted:#b8bfb1;--nav-line:#485449;
-  --nav-paper:#202822;--nav-hover:#303f2c;--nav-brand:#a4e28c;
 }
 .nav,.nav *{box-sizing:border-box}
 .nav-in{display:flex;align-items:center;padding:0 0 16px;min-height:52px;border-bottom:1px solid var(--nav-ink);justify-content:space-between;gap:20px}
@@ -24,6 +20,11 @@ html.dark .nav{
 .nav-r{display:flex;align-items:center;gap:18px;flex-wrap:wrap;justify-content:flex-end}
 .nav-r a{font-size:13px;color:var(--nav-muted)}
 .nav-r [aria-current=page]{color:var(--nav-ink);text-decoration:underline}
+.nav-mobile{display:none;position:relative}
+.nav-mobile summary{list-style:none}.nav-mobile summary::-webkit-details-marker{display:none}
+.nav-mobile-links{position:absolute;right:0;top:calc(100% + 10px);z-index:50;min-width:210px;max-width:calc(100vw - 36px);padding:8px;background:var(--bg-soft);border:1px solid var(--divider);box-shadow:0 8px 24px #18241b20}
+.nav-mobile-links a{display:block;padding:10px 12px;min-height:44px;white-space:nowrap}
+.nav-mobile-links a:hover{background:var(--bg-mute)}
 .nav .utility-btn{font:inherit;font-size:13px;color:inherit;border:1px solid var(--nav-line);padding:6px 11px;background:var(--nav-paper);border-radius:2px;min-height:36px;cursor:pointer;touch-action:manipulation}
 .nav .utility-btn:hover{background:var(--nav-hover)}
 .nav :focus-visible{outline:3px solid var(--nav-brand);outline-offset:4px;border-radius:2px}
@@ -33,6 +34,6 @@ html.dark .nav{
 @media(max-width:700px){
   .nav{padding:16px 18px 0}.nav-in{gap:12px;align-items:center}
   .nav .title{font-size:13px;gap:8px}.nav .logo,.nav .logo svg{width:30px;height:30px}
-  .nav-r{gap:8px}.nav-r .nav-extra{display:none}
+  .nav-r{gap:8px}.nav-r>.nav-extra,.nav-r>.nav-github{display:none}.nav-mobile{display:block}
 }
 @media print{.nav-r{display:none!important}}
