@@ -887,7 +887,7 @@ function parseReadme(md){
     // Dùng căn cứ có số hiệu ở Nguồn để vẫn tra được các mục chưa tách.
     // Kết quả lọc không phải xác nhận văn bản còn hiệu lực.
     e.isLegal = !!e.legal.trim() || /(?:Bộ luật|Luật|Nghị định|Thông tư|Nghị quyết)[^;\n]{0,120}\b\d{1,4}\/(?:19|20)\d{2}\b/i.test(e.src);
-    e.dispute = /^tranh luận/i.test(e.note);
+    e.dispute = /^tranh luận/i.test(e.note.trimStart());
     e.todo = /chưa kiểm chứng|chưa tra được|TODO/.test(e.src + e.gain + e.note + e.cost) || (typeof REVIEWS === 'object' && /^needs-/.test(REVIEWS[e.id]?.status || ''));
     e.cs = (COST_W.money[e.money] ?? 0) + (COST_W.time[e.time] ?? 0) + (COST_W.will[e.will] ?? 0);
     e.ratio = e.level === 'lớn' ? (e.cs === 0 ? 'rất cao' : (e.cs <= 2 ? 'cao' : 'trung bình'))

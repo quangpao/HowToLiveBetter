@@ -19,10 +19,10 @@ export function readerData() {
       const money=t['tiền'] || '', time=t['thời-gian'] || '', will=t['ý-chí'] || '', level=t['lợi-ích'] || '';
       const cs=(COST_W.money[money]||0)+(COST_W.time[time]||0)+(COST_W.will[will]||0);
       const hay=R.searchable(refs.plainText([e.title,e.cost,e.human,e.gain,e.legal,e.note,e.src].join(' ')));
-      return {sec:e.sec,n:e.n,id:e.id,legacy:e.legacy||'',title:e.title,human:e.human,grade:e.grade,
+      return {sec:e.sec,n:e.n,id:e.id,legacy:e.legacy||'',title:e.title,human:e.human,grade:e.grade.trim(),
         money,time,will,level,lens:t['thước-đo']||'',who:t['nhóm'] ? t['nhóm'].split(',').map(g=>g.split('+')) : [],
         cs,ratio:ratioOf(cs,level),isLegal:!!e.legal?.trim() || /(?:Bộ luật|Luật|Nghị định|Thông tư|Nghị quyết)[^;\n]{0,120}\b\d{1,4}\/(?:19|20)\d{2}\b/i.test(e.src),
-        dispute:/^tranh luận/i.test(e.note),todo:/chưa kiểm chứng|chưa tra được|TODO/.test(e.src+e.gain+e.note+e.cost) || /^needs-/.test(reviews[e.id]?.status || ''),
+        dispute:/^tranh luận/i.test(e.note.trimStart()),todo:/chưa kiểm chứng|chưa tra được|TODO/.test(e.src+e.gain+e.note+e.cost) || /^needs-/.test(reviews[e.id]?.status || ''),
         hay:[...new Set(hay.split(' '))].join(' ')};
     })}));
   return {schema:1,version:hash(book.bookFiles.map(read).join('\n')).slice(0,12),sections};

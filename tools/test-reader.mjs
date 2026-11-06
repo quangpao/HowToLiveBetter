@@ -16,7 +16,7 @@ const sections = readCatalog().sections;
 // Exercise the actual Web parser across every chapter, not a copy of its navigation rules.
 const parser = html.match(/function parseReadme\(md\)\{[\s\S]*?\n\}/);
 assert.ok(parser,'Missing website parser');
-const browser = {BookReferences:refs,COST_W,fold:s=>s};
+const browser = {BookReferences:refs,COST_W,fold:s=>s,REVIEWS:JSON.parse(read('data/review-status.json')).entries};
 vm.runInNewContext(read('assets/book-reader.js'), browser);
 vm.runInNewContext(parser[0],browser);
 const web = browser.parseReadme(readBook().bookFiles.map(read).join('\n\n'));
@@ -31,6 +31,9 @@ for (const [i,s] of sections.entries()) {
   }
   for (const [j,e] of s.entries.entries()) {
     assert.equal(web[i].entries[j].id,e.id);
+    for(const field of ['grade','money','time','will','level','lens','cs','ratio','isLegal','dispute','todo'])
+      assert.equal(indexed[i].entries[j][field],web[i].entries[j][field],'Indexed filter differs for '+e.id+': '+field);
+    assert.equal(JSON.stringify(indexed[i].entries[j].who),JSON.stringify(web[i].entries[j].who),'Indexed audience differs for '+e.id);
     for (const field of ['cost','human','gain','legal','note','src']) assert.equal(web[i].entries[j][field],e[field] || '');
   }
 }
