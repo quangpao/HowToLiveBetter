@@ -34,8 +34,13 @@ for (const [i,s] of sections.entries()) {
     for(const field of ['grade','money','time','will','level','lens','cs','ratio','isLegal','dispute','todo'])
       assert.equal(indexed[i].entries[j][field],web[i].entries[j][field],'Indexed filter differs for '+e.id+': '+field);
     assert.equal(JSON.stringify(indexed[i].entries[j].who),JSON.stringify(web[i].entries[j].who),'Indexed audience differs for '+e.id);
+    assert.deepEqual([...new Set(indexed[i].entries[j].hay.split(' '))].sort(),[...new Set(web[i].entries[j].hay.split(' '))].sort(),'Search words must not change after loading '+e.id);
     for (const field of ['cost','human','gain','legal','note','src']) assert.equal(web[i].entries[j][field],e[field] || '');
   }
+}
+for(const query of ['A','B','C','BHYT','bảo hiểm y tế','y tế','CCCD','học nghề','alph']){
+  const words=browser.BookReader.terms(query),select=sections=>sections.flatMap(s=>s.entries).filter(e=>browser.BookReader.score(e,words)>=0).map(e=>e.id);
+  assert.deepEqual(select(indexed),Array.from(select(web)),'Search results changed after chapter hydration: '+query);
 }
 assert.equal(web[0].intro.length,1,'Chapter 1 keeps its introduction without the multi-paragraph group list');
 assert.equal(web[1].intro.length,2,'Keep the Vietnam-specific explanation after chapter 2’s group list');

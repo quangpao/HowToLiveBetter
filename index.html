@@ -18,13 +18,14 @@
 <meta property="og:url" content="https://quangpao.github.io/HowToLiveBetter/">
 <meta property="og:title" content="Cẩm nang sống thông minh">
 <meta property="og:description" content="Cẩm nang sống tính theo hiệu quả trên chi phí: mỗi mục ghi rõ mất gì (tiền, thời gian, ý chí) và được gì, kèm mức bằng chứng A/B/C và nguồn gốc. Lọc được theo tiền, thời gian, ý chí.">
-<meta property="og:image" content="https://quangpao.github.io/HowToLiveBetter/assets/life-evidence-cover.jpg">
-<meta property="og:image:width" content="1536">
-<meta property="og:image:height" content="1024">
+<meta property="og:image" content="https://quangpao.github.io/HowToLiveBetter/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Cẩm nang sống thông minh">
 <meta name="twitter:description" content="Cẩm nang sống tính theo hiệu quả trên chi phí: mỗi mục ghi rõ mất gì (tiền, thời gian, ý chí) và được gì, kèm mức bằng chứng A/B/C và nguồn gốc. Lọc được theo tiền, thời gian, ý chí.">
-<meta name="twitter:image" content="https://quangpao.github.io/HowToLiveBetter/assets/life-evidence-cover.jpg">
+<meta name="twitter:image" content="https://quangpao.github.io/HowToLiveBetter/og.png">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
 {"@type":"WebSite","@id":"https://quangpao.github.io/HowToLiveBetter/#website","url":"https://quangpao.github.io/HowToLiveBetter/","name":"Cẩm nang sống thông minh","description":"Cẩm nang sống tính theo hiệu quả trên chi phí: mỗi mục ghi rõ mất gì (tiền, thời gian, ý chí) và được gì, kèm mức bằng chứng A/B/C và nguồn gốc. Lọc được theo tiền, thời gian, ý chí.","inLanguage":"vi-VN","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://quangpao.github.io/HowToLiveBetter/?q={search_term_string}"},"query-input":"required name=search_term_string"}},
@@ -1126,6 +1127,7 @@ function renderSrc(el, text, terms){
   return parts.length;
 }
 function highlightInto(el, s, terms){
+  terms=BookReader.displayTerms(terms);
   if (!terms.length){ el.appendChild(document.createTextNode(s)); return; }
   const lower = fold(s); let i = 0;
   while (i < s.length){
@@ -1181,7 +1183,6 @@ const ITEMS = new Map();          // '9-15' -> entry
 const SECS = new Map();           // section, dùng cho chỉ dẫn cả mục kiểu "xem mục 9"
 const ENTRY_IDS = new Map(), ENTRY_LEGACY = new Map();
 const LAW = {registry:null,target:null};
-let REF_CATALOG = null;
 let READER_VERSION = '';
 let REVIEWS = {};
 const SAVED_KEY = 'hltb-actions-v1';
@@ -1733,12 +1734,14 @@ function renderCard(card, terms, key){
   f.legalSourceHint.hidden = !(e.isLegal && !e.legal);
   if (e.legal) {
     renderLegal(f.legalDetails,e,terms);
-    f.legalDetails.open = terms.length > 0 && terms.some(t => fold(e.legal).includes(t));
+    f.legalDetails.open = terms.length > 0 && BookReader.matches(BookReader.searchable(e.legal),terms);
   }
   const nSrc = renderSrc(f.src, e.src, terms);
   f.srcN.textContent = nSrc > 1 ? ` · ${nSrc} nguồn` : '';
-  const inBody = fold(e.title+e.human+e.cost+e.gain+e.legal+e.note);
-  f.details.open = terms.length > 0 && terms.some(t => fold(e.src).includes(t)) && !terms.some(t => inBody.includes(t));
+  const inBody = BookReader.searchable([e.title,e.human,e.cost,e.gain,e.legal,e.note].join(' '));
+  const requestedSources=ENTRY.card===card && ENTRY.wantSources;
+  f.details.open = requestedSources || (terms.length>0 && BookReader.matches(BookReader.searchable(e.src),terms) && !BookReader.matches(inBody,terms));
+  if(requestedSources)ENTRY.wantSources=false;
   card.key = key;
   card.el.querySelector('.entry-tools')?.remove(); card.el.querySelector('.entry-review')?.remove();
   const notice=reviewNotice(e); if(notice)f.human.before(notice);
@@ -2103,7 +2106,7 @@ function wireBook(){
 const TABLE_SIZE = 40;
 let TABLE_MATCHES = [], TABLE_PAGE = 0, TABLE_SORT = 'sec', TABLE_DIR = 1;
 const GRADE_TEXT = {A:'Có số liệu định lượng', B:'Có nghiên cứu', C:'Kinh nghiệm / đồng thuận'};
-const ENTRY = {mask:document.getElementById('entry-mask'), box:document.getElementById('entry-modal'), body:document.getElementById('entry-body'), card:null, slot:null, trigger:null};
+const ENTRY = {mask:document.getElementById('entry-mask'), box:document.getElementById('entry-modal'), body:document.getElementById('entry-body'), card:null, slot:null, trigger:null, wantSources:false};
 function setView(view, save = true){
   const previous = state.view, wasReading = document.body.classList.contains('reading-mode');
   const next = ['table','chapters','book'].includes(view) ? view : 'table';
@@ -2169,7 +2172,7 @@ function renderTable(){
 function entryOpen(key, trigger, sources = false){
   const card = CARDS.find(c => `${c.e.sec}-${c.e.n}` === key); if (!card) return;
   if (ENTRY.card) entryClose(false);
-  ENTRY.card = card; ENTRY.trigger = trigger;
+  ENTRY.card = card; ENTRY.trigger = trigger; ENTRY.wantSources=sources;
   ENTRY.slot = document.createComment('Vị trí mục trong chương'); card.el.before(ENTRY.slot);
   renderCard(card, CUR_TERMS, CUR_KEY);
   if (sources) card.f.details.open = true;
@@ -2186,7 +2189,7 @@ function entryClose(restoreFocus = true){
   document.querySelector('main.content').inert = false; document.querySelector('header.nav').inert = false;
   document.body.style.overflow = ''; POP.hidden = true; document.getElementById('pop').hidden = true;
   if (restoreFocus) ENTRY.trigger?.focus({preventScroll:true});
-  ENTRY.card = null; ENTRY.slot = null; ENTRY.trigger = null;
+  ENTRY.card = null; ENTRY.slot = null; ENTRY.trigger = null; ENTRY.wantSources=false;
 }
 function wireExplorer(){
   wireBook();

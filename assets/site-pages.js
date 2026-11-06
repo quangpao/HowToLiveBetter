@@ -1,5 +1,4 @@
 (function(){
-  try{const theme=localStorage.getItem('theme');document.documentElement.classList.toggle('dark',theme ? theme==='dark' : matchMedia('(prefers-color-scheme:dark)').matches);}catch(_){}
   document.querySelector('[data-theme]')?.addEventListener('click',()=>{
     const dark=document.documentElement.classList.toggle('dark');
     try{localStorage.setItem('theme',dark?'dark':'light');}catch(_){}
@@ -8,7 +7,7 @@
   if(search)search.addEventListener('input',()=>{
     const words=BookReader.terms(search.value);let count=0;
     document.querySelectorAll('[data-legal-item]').forEach(item=>{
-      const hay=BookReader.searchable(item.textContent);item.hidden=!words.every(w=>hay.includes(w));if(!item.hidden)count++;
+      const hay=BookReader.searchable(item.textContent);item.hidden=!BookReader.matches(hay,words);if(!item.hidden)count++;
     });
     document.querySelectorAll('[data-legal-group]').forEach(group=>group.hidden=![...group.querySelectorAll('[data-legal-item]')].some(e=>!e.hidden));
     document.querySelector('[data-result-count]').textContent=count;

@@ -25,3 +25,12 @@ Các việc tiếp theo: biên tập lần lượt những mục dài còn lại
 Chạy các lệnh trong `CLAUDE.md`, thêm `tools/test-updates.mjs`, `tools/reader-data.mjs --check` và `tools/site-pages.mjs --check`. Dựng cả bốn định dạng; kiểm EPUB bằng epubcheck. Kiểm giao diện tìm kiếm, bộ lọc tuổi, lưu mục, đọc sách theo chương, trang luật, trang tải và selfcheck. Kiểm mẫu PDF ở bìa, mục lục và phần pháp luật dài.
 
 Những kiểm tra trên xác nhận cấu trúc và hành vi trong phạm vi thử. Chúng không chứng nhận hiệu lực của mọi văn bản, độ chính xác y khoa của mọi mục hoặc khả năng truy cập đầy đủ theo WCAG.
+
+## Kiểm hồi quy khi tải chương và tìm kiếm
+
+- Ý định mở nguồn được giữ riêng cho mục đang mở, áp sau khi nội dung tải xong và xóa khi đóng. Kiểm cả tải chậm, mục đã nạp, đóng/sang mục khác trước khi tải xong và tự đóng nguồn sau khi đọc.
+- Tìm theo biên token; chỉ cho phép tiền tố ở token chữ cuối có ít nhất bốn ký tự. Cụm BHYT/BHXH/CCCD được nhận diện trước khi loại từ trùng. Kiểm đúng tập ID trong nguồn Markdown, không đặt số kết quả tối thiểu. Không dùng việc cụm từ còn liền nhau trong danh mục đã loại từ trùng làm căn cứ đếm.
+- Các token tìm kiếm, kể cả hạng A/B/C, phải giống nhau trước và sau khi nạp đầy đủ mọi mục.
+- Năm trang tĩnh đặt nền trước stylesheet; kiểm cả tùy chọn đã lưu, nền hệ thống và trường hợp không đọc được localStorage. Các nhãn đồng nghĩa về người cao tuổi được chuẩn hóa cùng nhau.
+- Ảnh chia sẻ dùng lại `og.png` 1200×630, có số liệu từ `tools/og.html`; dựng bằng Typst với phông nhúng để không phụ thuộc Chrome hay phông hệ điều hành. CI đối chiếu ảnh dựng với bản đã commit. Hình minh họa trang đầu và bìa sách giữ nguyên.
+- Nguồn quy trình mục 7.2 dùng bản Công báo đã tải và đọc trực tiếp Điều 188–190, trang in 93–96. Không suy từ lỗi kết nối MOJ tại một máy thành kết luận website đã hỏng ở mọi nơi. Phần mức phạt vẫn cần rà hiệu lực; đợt kiểm này không rà toàn bộ URL của sách.

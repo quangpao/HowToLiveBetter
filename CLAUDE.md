@@ -44,6 +44,7 @@ Sau sửa nội dung/metadata:
 ```sh
 node tools/references.mjs
 node tools/sync-stats.mjs --no-screenshot
+node tools/og/build.mjs
 node tools/test-reader-rules.mjs
 node tools/test-reader.mjs
 node tools/test-references.mjs
@@ -62,7 +63,7 @@ node tools/sync-stats.mjs --check
 node tools/updates.mjs --check
 ```
 
-Thay bộ dựng/giao diện thì dựng và kiểm định dạng tương ứng. EPUB: `npm --prefix tools/epub ci` rồi `node tools/epub/build.mjs`. HTML: `node tools/offline/build.mjs`, `node tools/test-offline.mjs`. Anki: `node tools/anki/build.mjs`. PDF cần pandoc/typst theo phiên bản workflow. Không đưa file sách nhị phân vào Git.
+Thay bộ dựng/giao diện thì dựng và kiểm định dạng tương ứng. EPUB: `npm --prefix tools/epub ci` rồi `node tools/epub/build.mjs`. HTML: `node tools/offline/build.mjs`, `node tools/test-offline.mjs`. Anki: `node tools/anki/build.mjs`. PDF cần pandoc/typst theo phiên bản workflow. Ảnh chia sẻ dùng cùng Typst, không cần Chrome; CI chạy `node tools/og/build.mjs --check`. Không đưa file sách nhị phân vào Git.
 
 Đọc diff trước commit. Nếu sửa thân mục hoặc bài dài, mở một subagent rà phần đổi theo nguyên tắc giữ nguyên ý của shuorenhua: [SKILL.md](https://github.com/MrGeDiao/shuorenhua/blob/main/skills/shuorenhua/SKILL.md), [editing-guide.md](https://github.com/MrGeDiao/shuorenhua/blob/main/skills/shuorenhua/references/editing-guide.md). Reviewer không mở rộng phạm vi, không đổi Git, không chạy bộ sinh ở chế độ ghi, không sửa hàng loạt thân bài bằng script, không gửi dữ liệu ra ngoài. Điểm chưa rõ trả về luồng chính xác minh.
 

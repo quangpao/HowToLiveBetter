@@ -154,6 +154,7 @@ jobs:
         with:
           node-version: 22
       - run: node tools/test-reader-rules.mjs
+      - run: node tools/test-entry-modal.mjs
       - run: node tools/test-updates.mjs
       - run: node tools/test-reader.mjs
       - run: node tools/reader-data.mjs --check
@@ -196,6 +197,9 @@ jobs:
 
       - name: PDF
         run: node tools/pdf/build.mjs
+
+      - name: Ảnh chia sẻ
+        run: node tools/og/build.mjs --check
 
       - uses: actions/setup-java@v4
         with:

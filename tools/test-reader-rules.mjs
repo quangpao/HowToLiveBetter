@@ -1,6 +1,7 @@
 // Regressions found in the reader audit; exercise real data and shared browser rules.
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
+import {readFileSync} from 'node:fs';
 import {read} from './lib/book.mjs';
 import {readCatalog} from './lib/references.mjs';
 import {splitGain,splitSrc} from './lib/split-items.mjs';
@@ -18,6 +19,8 @@ assert.equal(R.fitsAudience([['nữ','40-tuổi']],new Set(['nam','65-tuổi']))
 assert.equal(R.fitsAudience([],new Set(['không'])),true);
 assert.equal(R.fitsAudience([['nữ']],new Set(['không'])),false);
 assert.equal(R.fitsAudience([['60-tuổi']],new Set()),true);
+for(const a of ['cao-tuổi','người-già','người-cao-tuổi'])for(const b of ['cao-tuổi','người-già','người-cao-tuổi'])
+  assert.equal(R.fitsAudience([[a]],new Set([b])),true,'Senior aliases must remain equivalent');
 
 const catalog=readCatalog(), data=readerData(), entries=data.sections.flatMap(s=>s.entries);
 assert.equal(entries.length,catalog.entries.length);
@@ -28,10 +31,30 @@ for(const key of ['1-13','1-21','1-22']){
 const results=query=>entries.filter(e=>R.score(e,R.terms(query))>=0).map(e=>e.id);
 assert.deepEqual(results('bao hiem y te'),results('bảo hiểm y tế'));
 assert.deepEqual(results('BHYT'),results('bảo hiểm y tế'));
-assert.ok(results('BHYT').length>50,'Search must find the real health-insurance content');
+// Derive the expected IDs from the original fields, before catalogue deduplication.
+// Separate words somewhere in an entry are not the health-insurance concept.
+const normalize=s=>s.replace(/https?:\/\/[^\s<>]+/g,' ').normalize('NFD').replace(/\p{M}/gu,'').toLowerCase().replace(/đ/g,'d').replace(/[^a-z0-9]+/g,' ');
+const healthInsurance=catalog.entries.filter(e=>/\b(?:bao hiem y te|bhyt)\b/.test(normalize([e.title,e.human,e.cost,e.gain,e.legal,e.note,e.src].join(' ')))).map(e=>e.id);
+assert.deepEqual(results('BHYT'),healthInsurance,'Return the actual phrase/acronym entries, not a minimum result count');
+const fixture=hay=>({title:'',human:'',hay:R.searchable(hay)});
+assert.equal(R.score(fixture('Bảo hộ trách nhiệm, ý thức và kinh tế'),R.terms('BHYT')),-1);
+assert.equal(R.score(fixture('Bảo hiểm nhân thọ, y học và kinh tế'),R.terms('BHYT')),-1,'Scattered words are not the health-insurance phrase');
+assert.equal(R.score(fixture('nhiệm nhiễm sinh tế ý'),R.terms('hiem')),-1);
+assert.equal(R.score(fixture('website'),R.terms('te')),-1,'Short tokens cannot match inside another token');
+assert.equal(R.score(fixture('xalpha'),R.terms('alpha')),-1,'Never match inside the middle of a word');
+assert.ok(R.score(fixture('alpha alphabet'),R.terms('alph'))>=0,'Allow a final prefix of at least four characters');
+assert.equal(R.score(fixture('alphabet beta'),R.terms('alph beta')),-1,'An earlier query token must be complete');
+assert.equal(R.score(fixture('12345'),R.terms('1234')),-1,'Numbers must match complete tokens');
+assert.ok(R.score(fixture('BHYT'),R.terms('y tế'))>=0,'Acronym expansion also supports partial phrase queries');
+assert.ok(R.score(fixture('bảo hiểm y tế'),R.terms('BHYT'))>=0);
+assert.ok(R.displayTerms(R.terms('BHYT')).includes('bao hiem y te'),'Highlight the full phrase when searching its acronym');
 assert.equal(R.score({title:'Mục khác',human:'Không liên quan',hay:R.searchable('https://example.org/bao-hiem-y-te')},R.terms('BHYT')),-1);
-assert.ok(R.score({title:'Bảo hiểm y tế',human:'',hay:'bao hiem y te'},R.terms('BHYT')) > R.score({title:'Khác',human:'',hay:'bao hiem y te'},R.terms('BHYT')));
+assert.ok(R.score({...fixture('bảo hiểm y tế'),title:'Bảo hiểm y tế'},R.terms('BHYT')) > R.score({...fixture('bảo hiểm y tế'),title:'Khác'},R.terms('BHYT')));
 const html=read('index.html');
+const share=readFileSync(new URL('../og.png',import.meta.url));
+assert.equal(share.subarray(0,8).toString('hex'),'89504e470d0a1a0a');
+assert.equal(share.readUInt32BE(16),1200);assert.equal(share.readUInt32BE(20),630);
+assert.ok(html.includes('property="og:image:width" content="1200"') && html.includes('property="og:image:height" content="630"'));
 for(const lens of new Set(entries.map(e=>e.lens)))assert.ok(html.includes(`data-v="${lens}"`),'Missing lens: '+lens);
 assert.ok(!html.includes("'ít':'làm một lần'"));
 assert.ok(!/googletagmanager|google-analytics|search_term\s*:/.test(html),'Search terms/URLs must not be sent to analytics');
@@ -48,10 +71,19 @@ const guardianship=catalog.byLegacy.get('17-3');
 assert.ok(splitGain(guardianship.legal).length>1,'Real long legal text must have paragraph breaks');
 assert.equal(splitGain(guardianship.legal).join(''),guardianship.legal);
 
+const canonicalShareImage='https://quangpao.github.io/HowToLiveBetter/og.png';
 for(const [path,source] of Object.entries(sitePages())){
   assert.ok(source.includes('<main') && source.includes('lang="vi"'),path);
   assert.ok(source.includes('canonical'),path);
   for(const match of source.matchAll(/#entry-([a-z0-9-]+)/g))assert.ok(catalog.byId.has(match[1]),path+' broken entry '+match[1]);
+  assert.ok(source.includes(canonicalShareImage),path+' must use the live share card');
+  const themeScript=source.match(/<script>([\s\S]*?)<\/script>/);
+  assert.ok(themeScript && source.indexOf(themeScript[0])<source.indexOf('<link rel="stylesheet"'),path+' must set theme before styles/first paint');
+  for(const [stored,system,blocked,expected] of [['dark',false,false,true],['light',true,false,false],[null,true,false,true],[null,true,true,true]]){
+    let dark;
+    vm.runInNewContext(themeScript[1],{localStorage:{getItem(){if(blocked)throw Error('blocked');return stored;}},matchMedia:()=>({matches:system}),document:{documentElement:{classList:{toggle:(name,value)=>{assert.equal(name,'dark');dark=value;}}}}});
+    assert.equal(dark,expected,path+' wrong first-paint theme');
+  }
 }
 const pages=sitePages();
 for(const ext of ['pdf','epub','html','apkg'])assert.ok(pages['tai-ve/index.html'].includes('releases/download/epub-latest/HowToLiveBetter.'+ext));
