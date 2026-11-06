@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Tự kiểm tra · Cẩm nang sống thông minh</title>
-<meta name="description" content="Trả lời một loạt câu hỏi có/không để xem trong sách bạn còn thiếu việc nào: nhóm nào hụt nhiều nhất, nên làm ba việc nào trước, việc nào làm một lần là xong. Mỗi việc giữ nguyên bằng chứng và nguồn riêng, không quy thành một điểm số.">
+<meta name="description" content="Chọn các câu hỏi phù hợp với hoàn cảnh, ghi lại việc đã làm và tìm vài việc để cân nhắc. Kết quả chỉ tính những câu bạn đã trả lời; mỗi việc giữ bằng chứng, điều kiện và nguồn riêng.">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%0A%20%20%3Ctitle%3EHowToLiveBetter%20%E2%80%94%20cu%E1%BB%91n%20s%C3%A1ch%20v%C3%A0%20ch%E1%BB%93i%20l%C3%A1%3C%2Ftitle%3E%0A%20%20%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%23267342%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M32%2025C24%2025%2018%2021%2018%2014c8-1%2014%204%2014%2011Z%22%20fill%3D%22%23d6bf83%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M32%2024c0-8%205-14%2014-14%200%208-5%2014-14%2014Z%22%20fill%3D%22%23f4f1e8%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M32%2022v10M13%2031c7-3%2013-2%2019%202%206-4%2012-5%2019-2v19c-7-3-13-2-19%202-6-4-12-5-19-2V31Zm19%202v19%22%20fill%3D%22none%22%20stroke%3D%22%23f4f1e8%22%20stroke-width%3D%223.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%3C%2Fsvg%3E">
 <script>(function(){try{var s=localStorage.getItem('theme');var d=s?s==='dark':matchMedia('(prefers-color-scheme: dark)').matches;if(d)document.documentElement.classList.add('dark')}catch(e){}})();</script>
 <style>
@@ -143,7 +143,7 @@ h2{font-family:Georgia,"Times New Roman",serif;font-weight:500;font-size:25px}
 
   <section id="ask" hidden>
     <h1>Tự kiểm tra</h1>
-    <p class="lead">Trả lời các câu hỏi dưới đây để xem trong sách bạn còn thiếu việc nào. Kết quả chỉ ra nhóm nào hụt nhiều nhất, nên làm ba việc nào trước, việc nào làm một lần là xong. Mỗi việc giữ bằng chứng và nguồn riêng, không quy thành một điểm số. Sách đã có 34 chương; bộ câu hỏi hiện phủ chương 1, 2 và 3 (66 câu) — chương 4 đến 34 chưa có câu hỏi, sẽ bổ sung sau.</p>
+    <p class="lead">Chọn các câu hỏi phù hợp để ghi lại việc đã làm và tìm vài việc muốn cân nhắc. Kết quả chỉ tính những câu bạn đã trả lời; bạn có thể bỏ qua việc chưa phù hợp. Mỗi việc giữ bằng chứng, điều kiện và nguồn riêng. Bộ câu hỏi hiện phủ một phần chương 1, 2 và 3; không đại diện cho toàn bộ cẩm nang. Có <span id="question-count"></span> câu trước khi lọc theo hoàn cảnh.</p>
     <div id="qs"><div id="profile-qs"></div><div id="topic-qs"></div></div>
     <div class="bar">
       <span class="prog" id="prog"></span>
@@ -156,7 +156,7 @@ h2{font-family:Georgia,"Times New Roman",serif;font-weight:500;font-size:25px}
     <h1>Kết quả</h1>
     <p class="verdict" id="verdict"></p>
     <div class="sum" id="sum"></div>
-    <h2>Nhóm nào hụt nhiều nhất<small>xếp theo tỉ lệ đã làm, từ thấp lên</small></h2>
+    <h2>Những nhóm bạn đã trả lời<small>tỉ lệ đã làm trong các câu Có/Không; câu bỏ qua không tính</small></h2>
     <div id="bars"></div>
     <div id="todo"></div>
     <div class="note"><b>Vì sao không quy ra "mất mấy năm tuổi thọ":</b> mỗi con số trong sách đến từ một nghiên cứu khác nhau, trên một nhóm người khác nhau, và hút thuốc, ít vận động, ngủ kém thường xuất hiện cùng nhau. Nhân các nguy cơ với nhau sẽ đếm trùng, ra con số lớn hơn thực tế mà không biết lớn hơn bao nhiêu. Vì vậy mỗi việc chỉ giữ đúng phần bằng chứng của nó.</div>
@@ -171,96 +171,96 @@ h2{font-family:Georgia,"Times New Roman",serif;font-weight:500;font-size:25px}
 
 <script src="assets/book-references.js"></script>
 <script>
-/* Bảng câu hỏi. sec + key tìm mục theo "chương thứ mấy" và "đoạn chữ có trong tiêu đề", không ghi số mục —
-   nên chèn thêm mục về sau cũng không trỏ sai. Không tìm thấy thì báo lỗi ở console và bỏ qua câu đó.
+/* Bảng câu hỏi tìm mục bằng entryId cố định; sec + key chỉ dùng để chuyển đáp án cũ.
+   Không tìm thấy thì báo lỗi ở console và bỏ qua câu đó.
    when(p) quyết định có hỏi câu này hay không; also là các mục liên quan, hiện kèm khi chưa làm. */
 const PROFILE = [
   {id:'ageYears', text:'Tuổi của bạn', type:'number'},
   {id:'sex', text:'Giới tính', opts:[['m','Nam'],['f','Nữ']]},
-  {id:'kid', text:'Nhà có trẻ dưới 4 tuổi không', opts:[['y','Có'],['n','Không']]},
+  {id:'kid10', text:'Nhà có trẻ dưới 10 tuổi không', opts:[['y','Có'],['n','Không']]},
 ];
 const validAge = age => age !== undefined && age !== null && String(age).trim() !== ''
   && Number.isInteger(Number(age)) && Number(age) >= 0 && Number(age) <= 120;
 const ageAtLeast = (p, a) => validAge(p.ageYears) && Number(p.ageYears) >= a;
 const GROUPS = [
   {name:'Thuốc lá và rượu', mod:'thân thể', qs:[
-    {sec:2, key:'Cai thuốc lá', text:'Không hút thuốc lá, hoặc đã cai',
-      also:[{sec:2, key:'Cai thuốc đừng chỉ dựa vào ý chí'}, {sec:2, key:'Gọi tổng đài'}]},
-    {sec:2, key:'Không hút trong nhà', text:'Trong nhà và trên xe không ai hút thuốc'},
-    {sec:2, key:'Rượu bia: uống ít nhất', text:'Không uống rượu bia, hoặc uống rất ít',
-      also:[{sec:2, key:'Đếm xem một tuần'}, {sec:2, key:'Run tay, vã mồ hôi'}]},
-    {sec:2, key:'Không ăn trầu', text:'Không ăn trầu'},
+    {sec:2, key:'Cai thuốc lá', entryId:'cai-thuoc-la-cang-som-cang-tot', text:'Không hút thuốc lá, hoặc đã cai',
+      also:[{sec:2, key:'Cai thuốc đừng chỉ dựa vào ý chí', entryId:'cai-thuoc-dung-chi-dua-vao-y-chi-uong-thuoc-truoc-da'}, {sec:2, key:'Gọi tổng đài', entryId:'goi-tong-dai-tu-van-cai-thuoc-hoac-di-phong-tu-van'}]},
+    {sec:2, key:'Không hút trong nhà', entryId:'khong-hut-trong-nha-va-tren-xe-cung-dung-de-khach-hut', text:'Trong nhà và trên xe không ai hút thuốc'},
+    {sec:2, key:'Rượu bia: uống ít nhất', entryId:'ruou-bia-uong-it-nhat-co-the-va-biet-rang-muc-an', text:'Không uống rượu bia, hoặc uống rất ít',
+      also:[{sec:2, key:'Đếm xem một tuần', entryId:'dem-xem-mot-tuan-ban-uong-bao-nhieu-don-vi-con-truoc'}, {sec:2, key:'Run tay, vã mồ hôi', entryId:'run-tay-va-mo-hoi-khi-thieu-ruou-thi-dung-tu-cai'}]},
+    {sec:2, key:'Không ăn trầu', entryId:'khong-an-trau-ke-ca-trau-khong-co-thuoc-la', text:'Không ăn trầu'},
   ]},
   {name:'Ăn uống', mod:'ăn uống', qs:[
-    {sec:2, key:'Không uống đồ uống có đường', text:'Gần như không uống nước ngọt, trà sữa, nước ép trái cây'},
-    {sec:2, key:'Bớt thịt chế biến', text:'Ít ăn giò chả, lạp xưởng, xúc xích, khô bò'},
-    {sec:2, key:'Bớt thực phẩm siêu chế biến', text:'Ít ăn mì gói, bánh ngọt công nghiệp, đồ ăn vặt đóng gói'},
-    {sec:2, key:'ngũ cốc nguyên hạt', text:'Trong bữa chính có phần gạo lứt, yến mạch hoặc bắp'},
-    {sec:2, key:'Ăn đủ rau và trái cây', text:'Mỗi ngày khoảng 400 g rau và trái cây (5 phần)'},
-    {sec:2, key:'một nắm hạt', text:'Mỗi ngày một nắm hạt nhỏ'},
-    {sec:2, key:'muối giảm natri', text:'Nấu ăn bằng muối giảm natri',
+    {sec:2, key:'Không uống đồ uống có đường', entryId:'khong-uong-do-uong-co-duong-doi-sang-loai-khong-duong-cung', text:'Gần như không uống nước ngọt, trà sữa, nước ép trái cây'},
+    {sec:2, key:'Bớt thịt chế biến', entryId:'bot-thit-che-bien-gio-cha-lap-xuong-xuc-xich-kho-bo', text:'Ít ăn giò chả, lạp xưởng, xúc xích, khô bò'},
+    {sec:2, key:'Bớt thực phẩm siêu chế biến', entryId:'bot-thuc-pham-sieu-che-bien-mi-goi-xuc-xich-banh-ngot', text:'Ít ăn mì gói, bánh ngọt công nghiệp, đồ ăn vặt đóng gói'},
+    {sec:2, key:'ngũ cốc nguyên hạt', entryId:'doi-bot-gao-trang-sang-ngu-coc-nguyen-hat-gao-lut-yen', text:'Trong bữa chính có phần gạo lứt, yến mạch hoặc bắp'},
+    {sec:2, key:'Ăn đủ rau và trái cây', entryId:'an-du-rau-va-trai-cay-khoang-400-g-chia-thanh-5', text:'Mỗi ngày khoảng 400 g rau và trái cây (5 phần)'},
+    {sec:2, key:'một nắm hạt', entryId:'moi-ngay-mot-nam-hat-nho-hat-dieu-dau-phong-hat-huong', text:'Mỗi ngày một nắm hạt nhỏ'},
+    {sec:2, key:'muối giảm natri', entryId:'doi-sang-muoi-giam-natri-nhung-nguoi-benh-than-phai-hoi-bac', text:'Nấu ăn bằng muối giảm natri',
       hint:'Người có bệnh thận mạn hoặc đang dùng thuốc giữ kali như spironolactone thì hỏi bác sĩ trước; không áp dụng được thì bỏ qua'},
-    {sec:2, key:'quá nóng', text:'Trà, canh, cà phê để nguội vài phút rồi mới uống'},
-    {sec:2, key:'máy hút mùi', text:'Bật máy hút mùi từ lúc bắt đầu nấu và tắt sau khi dọn xong', hint:'Không nấu ăn thì bỏ qua'},
-    {sec:2, key:'dầu lạc ép thủ công', text:'Không mua dầu lạc ép thủ công bán rời'},
-    {sec:2, key:'chiên lại dầu', text:'Không chiên lại một chảo dầu nhiều lần'},
-    {sec:2, key:'Thấy mốc', text:'Thấy mốc là bỏ cả gói, không cắt phần mốc ăn phần còn lại'},
-    {sec:2, key:'gỏi cá nước ngọt', text:'Không ăn gỏi cá nước ngọt, không ăn cá sống'},
-    {sec:2, key:'Đừng đốt than', text:'Không đốt than, củi trong nhà để nấu ăn hay sưởi'},
+    {sec:2, key:'quá nóng', entryId:'dung-uong-tra-nuoc-dung-ca-phe-khi-con-qua-nong-cho', text:'Trà, canh, cà phê để nguội vài phút rồi mới uống'},
+    {sec:2, key:'máy hút mùi', entryId:'bat-may-hut-mui-tu-luc-bat-dau-nau-tat-sau-khi', text:'Bật máy hút mùi từ lúc bắt đầu nấu và tắt sau khi dọn xong', hint:'Không nấu ăn thì bỏ qua'},
+    {sec:2, key:'dầu lạc ép thủ công', entryId:'dung-mua-dau-lac-ep-thu-cong-ban-roi-chien-khong-pha', text:'Không mua dầu lạc ép thủ công bán rời'},
+    {sec:2, key:'chiên lại dầu', entryId:'dung-dau-thuc-vat-thay-mo-lon-va-bo-nhung-dung-chien', text:'Không chiên lại một chảo dầu nhiều lần'},
+    {sec:2, key:'Thấy mốc', entryId:'thay-moc-la-bo-ca-goi-cat-phan-moc-di-khong-cuu', text:'Thấy mốc là bỏ cả gói, không cắt phần mốc ăn phần còn lại'},
+    {sec:2, key:'gỏi cá nước ngọt', entryId:'khong-an-goi-ca-nuoc-ngot-san-la-gan-la-tac-nhan', text:'Không ăn gỏi cá nước ngọt, không ăn cá sống'},
+    {sec:2, key:'Đừng đốt than', entryId:'dung-dot-than-cui-trong-nha-de-nau-an-hay-suoi', text:'Không đốt than, củi trong nhà để nấu ăn hay sưởi'},
   ]},
   {name:'Vận động, giấc ngủ, cân nặng', mod:'thân thể', qs:[
-    {sec:2, key:'Đi bộ 7000', text:'Mỗi ngày khoảng 7000 bước, hoặc 150 phút đi nhanh mỗi tuần'},
-    {sec:2, key:'Tập sức mạnh', text:'Mỗi tuần tập sức mạnh 30–60 phút (chống đẩy, squat, tạ đều được)'},
-    {sec:2, key:'Đừng ngồi liền', text:'Không ngồi liền một chỗ nhiều giờ'},
-    {sec:2, key:'Chơi môn dùng vợt', text:'Có chơi một môn dùng vợt mỗi tuần (cầu lông, bóng bàn, quần vợt)', hint:'Không chơi được thì bỏ qua'},
-    {sec:2, key:'vận động mạnh vụn', text:'Tranh thủ vài đoạn vận động mạnh trong ngày (đi thang bộ, xách đồ nặng)'},
-    {sec:2, key:'Ngủ 7 tiếng', text:'Ngủ khoảng 7 tiếng mỗi đêm, giờ ngủ giờ dậy ổn định'},
-    {sec:2, key:'Ngủ trưa dưới 30 phút', text:'Ngủ trưa dưới 30 phút', hint:'Không ngủ trưa thì bỏ qua'},
-    {sec:2, key:'Thức khuya thì ngủ bù', text:'Thức khuya thì ngủ bù ngay đêm sau, không dồn tới cuối tuần'},
-    {sec:2, key:'Ban ngày ra ngoài trời', text:'Ban ngày có ra ngoài trời, đón nắng sớm'},
-    {sec:2, key:'BMI', text:'Cân nặng trong khoảng bình thường (BMI 20–25)', hint:'BMI = cân nặng (kg) ÷ chiều cao (m)²'},
-    {sec:2, key:'Đánh răng hai lần', text:'Đánh răng 2 lần mỗi ngày bằng kem có fluor và làm sạch kẽ răng'},
-    {sec:1, key:'tập thăng bằng', text:'Đã tập thăng bằng và sức chân, nhà tắm và cầu thang đã sửa lại cho an toàn', when:p => ageAtLeast(p,60)},
+    {sec:2, key:'Đi bộ 7000', entryId:'di-bo-7000-8000-buoc-mot-ngay-moc-co-loi-khong-nam', text:'Mỗi ngày khoảng 7000 bước, hoặc 150 phút đi nhanh mỗi tuần'},
+    {sec:2, key:'Tập sức mạnh', entryId:'tap-suc-manh-moi-tuan-30-60-phut-nhieu-hon-khong-tot', text:'Mỗi tuần tập sức mạnh 30–60 phút (chống đẩy, squat, tạ đều được)'},
+    {sec:2, key:'Đừng ngồi liền', entryId:'dung-ngoi-lien-mot-cho-qua-lau-nhung-van-dong-moi-la', text:'Không ngồi liền một chỗ nhiều giờ'},
+    {sec:2, key:'Chơi môn dùng vợt', entryId:'choi-mon-dung-vot-cau-long-bong-ban-quan-vot', text:'Có chơi một môn dùng vợt mỗi tuần (cầu lông, bóng bàn, quần vợt)', hint:'Không chơi được thì bỏ qua'},
+    {sec:2, key:'vận động mạnh vụn', entryId:'tich-nhung-doan-van-dong-manh-vun-trong-ngay-1-den-2', text:'Tranh thủ vài đoạn vận động mạnh trong ngày (đi thang bộ, xách đồ nặng)'},
+    {sec:2, key:'Ngủ 7 tiếng', entryId:'ngu-7-tieng-moi-dem-ngu-it-va-ngu-qua-nhieu-deu', text:'Ngủ khoảng 7 tiếng mỗi đêm, giờ ngủ giờ dậy ổn định'},
+    {sec:2, key:'Ngủ trưa dưới 30 phút', entryId:'ngu-trua-duoi-30-phut-ngu-trua-dai-co-hai', text:'Ngủ trưa dưới 30 phút', hint:'Không ngủ trưa thì bỏ qua'},
+    {sec:2, key:'Thức khuya thì ngủ bù', entryId:'thuc-khuya-thi-ngu-bu-ngay-dem-sau-dung-de-don-toi', text:'Thức khuya thì ngủ bù ngay đêm sau, không dồn tới cuối tuần'},
+    {sec:2, key:'Ban ngày ra ngoài trời', entryId:'ban-ngay-ra-ngoai-troi-nhung-la-nang-som-khong-phai-nang', text:'Ban ngày có ra ngoài trời, đón nắng sớm'},
+    {sec:2, key:'BMI', entryId:'giu-bmi-trong-khoang-20-25-nguoi-viet-nen-bat-dau-xu', text:'Cân nặng trong khoảng bình thường (BMI 20–25)', hint:'BMI = cân nặng (kg) ÷ chiều cao (m)²'},
+    {sec:2, key:'Đánh răng hai lần', entryId:'danh-rang-hai-lan-mot-ngay-bang-kem-co-fluor-va-lam', text:'Đánh răng 2 lần mỗi ngày bằng kem có fluor và làm sạch kẽ răng'},
+    {sec:1, key:'tập thăng bằng', entryId:'tu-60-tuoi-tap-thang-bang-va-suc-chan-hang-tuan-sua', text:'Đã tập thăng bằng và sức chân, nhà tắm và cầu thang đã sửa lại cho an toàn', when:p => ageAtLeast(p,60)},
   ]},
   {name:'An toàn ở nhà và khi ra đường', mod:'an toàn', qs:[
-    {sec:1, key:'Thắt dây an toàn', text:'Ngồi ô tô thì ghế trước lẫn ghế sau đều thắt dây an toàn'},
-    {sec:1, key:'Không chạy quá tốc độ', text:'Không chạy quá tốc độ, không uống rượu bia rồi lái', hint:'Không lái xe thì bỏ qua'},
-    {sec:1, key:'mũ bảo hiểm', text:'Đi mô tô, xe máy, xe đạp điện thì đội mũ bảo hiểm và cài quai', hint:'Không đi thì bỏ qua'},
-    {sec:1, key:'sạc xe điện', text:'Không sạc xe điện trong nhà, không dắt xe vào thang máy', hint:'Không có xe điện thì bỏ qua'},
-    {sec:1, key:'đầu báo khói', text:'Nhà đã lắp đầu báo khói'},
-    {sec:1, key:'dây dẫn gas', text:'Dây dẫn gas và bếp đã thay trước khi nứt, không tự tháo van', hint:'Nhà không dùng gas thì bỏ qua'},
-    {sec:1, key:'nấm mọc hoang', text:'Không hái, không mua, không ăn nấm mọc hoang'},
-    {sec:1, key:'bao cao su', text:'Quan hệ với người không cố định thì dùng bao cao su suốt', hint:'Không có trường hợp này thì bỏ qua'},
-    {sec:1, key:'Trẻ dưới 10 tuổi', text:'Trẻ ngồi ô tô có thiết bị an toàn riêng, không bế trên tay', when:p => p.kid === 'y'},
-    {sec:1, key:'chắn cửa sổ', text:'Cửa sổ và ban công đã chắn lại', when:p => p.kid === 'y'},
+    {sec:1, key:'Thắt dây an toàn', entryId:'that-day-an-toan-ca-ghe-truoc-lan-ghe-sau', text:'Ngồi ô tô thì ghế trước lẫn ghế sau đều thắt dây an toàn'},
+    {sec:1, key:'Không chạy quá tốc độ', entryId:'khong-chay-qua-toc-do-khong-uong-ruou-bia-roi-lai-khong', text:'Không chạy quá tốc độ, không uống rượu bia rồi lái', hint:'Không lái xe thì bỏ qua'},
+    {sec:1, key:'mũ bảo hiểm', entryId:'doi-mu-bao-hiem-khi-di-mo-to-xe-gan-may-xe', text:'Đi mô tô, xe máy, xe đạp điện thì đội mũ bảo hiểm và cài quai', hint:'Không đi thì bỏ qua'},
+    {sec:1, key:'sạc xe điện', entryId:'dung-sac-xe-dien-trong-nha-dung-dat-xe-vao-thang-may', text:'Không sạc xe điện trong nhà, không dắt xe vào thang máy', hint:'Không có xe điện thì bỏ qua'},
+    {sec:1, key:'đầu báo khói', entryId:'lap-dau-bao-khoi-nha-nao-dot-than-cui-hay-chay-may', text:'Nhà đã lắp đầu báo khói'},
+    {sec:1, key:'dây dẫn gas', entryId:'thay-day-dan-gas-truoc-khi-no-nut-khong-tu-thao-van', text:'Dây dẫn gas và bếp đã thay trước khi nứt, không tự tháo van', hint:'Nhà không dùng gas thì bỏ qua'},
+    {sec:1, key:'nấm mọc hoang', entryId:'dung-hai-dung-mua-dung-an-nam-moc-hoang-moi-meo-nhan', text:'Không hái, không mua, không ăn nấm mọc hoang'},
+    {sec:1, key:'bao cao su', entryId:'dung-bao-cao-su-suot-moi-lan-quan-he-va-khong-dung', text:'Quan hệ với người không cố định thì dùng bao cao su suốt', hint:'Không có trường hợp này thì bỏ qua'},
+    {sec:1, key:'Trẻ dưới 10 tuổi', entryId:'tre-duoi-10-tuoi-va-cao-duoi-1-35-m-ngoi-o', text:'Trẻ ngồi ô tô có thiết bị an toàn riêng, không bế trên tay', when:p => p.kid10 === 'y'},
+    {sec:1, key:'chắn cửa sổ', entryId:'nha-co-tre-nho-thi-chan-cua-so-va-ban-cong-lai', text:'Cửa sổ và ban công đã chắn lại', when:p => p.kid10 === 'y'},
   ]},
   {name:'Thuốc', mod:'thân thể', qs:[
-    {sec:2, key:'Uống thuốc theo đơn', text:'Có bệnh mạn tính thì uống thuốc theo đơn đều đặn', hint:'Không có đơn thuốc dài hạn thì bỏ qua'},
-    {sec:1, key:'Đo huyết áp', text:'Trong năm qua đã đo huyết áp; nếu cao thì đang uống thuốc theo chỉ định'},
-    {sec:1, key:'Xét nghiệm đường huyết', text:'Đã xét nghiệm đường huyết lúc đói', hint:'Câu này dành cho người thừa cân hoặc từ 45 tuổi; không áp dụng được thì bỏ qua', when:p => ageAtLeast(p,35)},
+    {sec:2, key:'Uống thuốc theo đơn', entryId:'uong-thuoc-theo-don-deu-dan-bo-thuoc-la-cho-chet-nguoi', text:'Có bệnh mạn tính thì uống thuốc theo đơn đều đặn', hint:'Không có đơn thuốc dài hạn thì bỏ qua'},
+    {sec:1, key:'Đo huyết áp', entryId:'do-huyet-ap-tai-nha-cao-thi-uong-thuoc-ha-xuong-muc', text:'Trong năm qua đã đo huyết áp; nếu cao thì đang uống thuốc theo chỉ định'},
+    {sec:1, key:'Xét nghiệm đường huyết', entryId:'xet-nghiem-duong-huyet-luc-doi-tu-45-tuoi-hoac-som-hon', text:'Đã xét nghiệm đường huyết lúc đói', hint:'Câu này dành cho người thừa cân hoặc từ 45 tuổi; không áp dụng được thì bỏ qua', when:p => ageAtLeast(p,35)},
   ]},
   {name:'Sức chú ý và giấc ngủ', mod:'sức chú ý', qs:[
-    {sec:3, key:'Tắt thông báo không cần thiết', text:'Đã tắt thông báo không cần thiết, và khi làm việc thì để điện thoại ra ngoài tầm mắt'},
-    {sec:3, key:'Giữ giờ thức cố định', text:'Cuối tuần cũng dậy gần như giờ thường ngày'},
-    {sec:3, key:'Sau 2 giờ chiều', text:'Sau 2 giờ chiều không uống cà phê, trà đặc'},
-    {sec:3, key:'Đến giờ là ngủ', text:'Không thức vì game, video ngắn hay nội dung khiêu dâm'},
-    {sec:3, key:'Một giờ trước khi ngủ', text:'Một giờ trước khi ngủ không nhìn màn hình phát sáng'},
-    {sec:3, key:'người khác đang sống thế nào', text:'Không ngày nào cũng xem chuyện của người khác để so sánh với bạn'},
-    {sec:3, key:'Đừng cứ tăng giờ làm', text:'Tuần làm việc thường không quá 50 giờ', hint:'Không đi làm thì bỏ qua câu này'},
-    {sec:3, key:'tập nói', text:'Khi được nhờ việc bạn không muốn làm, bạn có thể nói "không"'},
+    {sec:3, key:'Tắt thông báo không cần thiết', entryId:'tat-thong-bao-khong-can-thiet-de-dien-thoai-ra-ngoai-tam', text:'Đã tắt thông báo không cần thiết, và khi làm việc thì để điện thoại ra ngoài tầm mắt'},
+    {sec:3, key:'Giữ giờ thức cố định', entryId:'giu-gio-thuc-co-dinh-cuoi-tuan-cung-vay', text:'Cuối tuần cũng dậy gần như giờ thường ngày'},
+    {sec:3, key:'Sau 2 giờ chiều', rev:2, entryId:'sau-2-gio-chieu-thi-dung-dung-caffeine', text:'Ngừng caffeine ít nhất 6 giờ trước giờ ngủ', hint:'Tính theo giờ ngủ của bạn, kể cả khi làm ca'},
+    {sec:3, key:'Đến giờ là ngủ', entryId:'den-gio-la-ngu-dung-thuc-vi-game-video-ngan-hay-noi', text:'Không thức vì game, video ngắn hay nội dung khiêu dâm'},
+    {sec:3, key:'Một giờ trước khi ngủ', entryId:'mot-gio-truoc-khi-ngu-khong-nhin-man-hinh-phat-sang', text:'Một giờ trước khi ngủ không nhìn màn hình phát sáng'},
+    {sec:3, key:'người khác đang sống thế nào', entryId:'dung-coi-nguoi-khac-dang-song-the-nao-la-mon-doc-hang', text:'Không ngày nào cũng xem chuyện của người khác để so sánh với bạn'},
+    {sec:3, key:'Đừng cứ tăng giờ làm', entryId:'dung-cu-tang-gio-lam-mai', text:'Tuần làm việc thường không quá 50 giờ', hint:'Không đi làm thì bỏ qua câu này'},
+    {sec:3, key:'tập nói', entryId:'bot-nhung-quan-he-lam-minh-hao-tap-noi-khong-voi-yeu', text:'Khi được nhờ việc bạn không muốn làm, bạn có thể nói "không"'},
   ]},
   {name:'Tầm soát và vắc xin', mod:'tầm soát', qs:[
-    {sec:1, key:'viêm gan B', rev:2, text:'Đã làm xét nghiệm viêm gan B một lần và tiêm theo kết quả', hint:'Kháng thể có thể giảm theo thời gian, không nhất thiết phải tiêm lại; xem lại mục gốc nếu chưa chắc'},
-    {sec:1, key:'Helicobacter pylori', text:'Đã xét nghiệm vi khuẩn Helicobacter pylori'},
-    {sec:1, key:'viêm gan C', text:'Đã xét nghiệm viêm gan C một lần'},
-    {sec:1, key:'HPV', text:'Đã tiêm vắc xin HPV', when:p => p.sex === 'f'},
-    {sec:1, key:'cổ tử cung', text:'Đã sàng lọc ung thư cổ tử cung', when:p => p.sex === 'f' && ageAtLeast(p,30)},
-    {sec:1, key:'nhũ ảnh', text:'Trong 2 năm qua đã chụp nhũ ảnh', when:p => p.sex === 'f' && ageAtLeast(p,40)},
-    {sec:1, key:'đại trực tràng', text:'Đã sàng lọc ung thư đại trực tràng (máu ẩn trong phân hoặc nội soi)', when:p => ageAtLeast(p,45)},
-    {sec:1, key:'zona thần kinh', text:'Đã tiêm vắc xin zona thần kinh', when:p => ageAtLeast(p,50)},
-    {sec:1, key:'vắc xin cúm', text:'Tiêm vắc xin cúm hằng năm', when:p => ageAtLeast(p,60)},
-    {sec:1, key:'phế cầu', text:'Đã tiêm vắc xin phế cầu', when:p => ageAtLeast(p,65)},
-    {sec:1, key:'mật độ xương', text:'Đã đo mật độ xương', when:p => p.sex === 'f' && ageAtLeast(p,65)},
+    {sec:1, key:'viêm gan B', entryId:'xet-nghiem-viem-gan-b-mot-lan-roi-can-cu-vao-ket', rev:2, text:'Đã làm xét nghiệm viêm gan B một lần và tiêm theo kết quả', hint:'Kháng thể có thể giảm theo thời gian, không nhất thiết phải tiêm lại; xem lại mục gốc nếu chưa chắc'},
+    {sec:1, key:'Helicobacter pylori', entryId:'xet-nghiem-vi-khuan-helicobacter-pylori-duong-tinh-thi-diet-tru', text:'Đã xét nghiệm vi khuẩn Helicobacter pylori'},
+    {sec:1, key:'viêm gan C', entryId:'nguoi-lon-nen-xet-nghiem-viem-gan-c-mot-lan-duong-tinh', text:'Đã xét nghiệm viêm gan C một lần'},
+    {sec:1, key:'HPV', entryId:'tiem-vac-xin-hpv-cho-tre-em-gai-cang-som-cang-tot', text:'Đã tiêm vắc xin HPV', when:p => p.sex === 'f'},
+    {sec:1, key:'cổ tử cung', entryId:'phu-nu-tu-30-tuoi-sang-loc-ung-thu-co-tu-cung', text:'Đã sàng lọc ung thư cổ tử cung', when:p => p.sex === 'f' && ageAtLeast(p,30)},
+    {sec:1, key:'nhũ ảnh', entryId:'phu-nu-tu-40-tuoi-chup-nhu-anh-tam-soat-ung-thu', text:'Trong 2 năm qua đã chụp nhũ ảnh', when:p => p.sex === 'f' && ageAtLeast(p,40)},
+    {sec:1, key:'đại trực tràng', entryId:'tu-45-den-50-tuoi-sang-loc-ung-thu-dai-truc-trang', text:'Đã sàng lọc ung thư đại trực tràng (máu ẩn trong phân hoặc nội soi)', when:p => ageAtLeast(p,45)},
+    {sec:1, key:'zona thần kinh', entryId:'tu-50-tuoi-tiem-vac-xin-zona-than-kinh', text:'Đã tiêm vắc xin zona thần kinh', when:p => ageAtLeast(p,50)},
+    {sec:1, key:'vắc xin cúm', entryId:'nguoi-co-benh-tim-mach-va-nguoi-cao-tuoi-tiem-vac-xin', text:'Tiêm vắc xin cúm hằng năm', when:p => ageAtLeast(p,60)},
+    {sec:1, key:'phế cầu', entryId:'tu-65-tuoi-tiem-vac-xin-phe-cau', text:'Đã tiêm vắc xin phế cầu', when:p => ageAtLeast(p,65)},
+    {sec:1, key:'mật độ xương', entryId:'phu-nu-tu-65-tuoi-nen-do-mat-do-xuong-mot-lan', text:'Đã đo mật độ xương', when:p => p.sex === 'f' && ageAtLeast(p,65)},
   ]},
 ];
 const MODS = ['thân thể', 'ăn uống', 'sức chú ý', 'an toàn', 'tầm soát'];
@@ -297,8 +297,8 @@ const plain = s => s.replace(/\*\*/g, '').replace(/\\([*_])/g, '$1').replace(/\[
 const esc = s => s.replace(/[&<>"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));
 
 let ENTRIES = [];
-const find = (sec, key) => {
-  const hit = ENTRIES.find(x => x.sec === sec && x.title.includes(key));
+const find = (sec, key, entryId) => {
+  const hit = entryId ? ENTRIES.find(x => x.id === entryId) : ENTRIES.find(x => x.sec === sec && x.title.includes(key));
   if (!hit) console.error(`Không tìm thấy mục cho câu hỏi: chương ${sec}, tiêu đề chứa «${key}»`);
   return hit;
 };
@@ -312,7 +312,8 @@ const profile = () => Object.fromEntries(PROFILE.map(p => [p.id, ans['p:'+p.id]]
 // Dùng trường tuổi mới; đáp án tuổi của bản cũ không bị hiểu thành tuổi thật, các đáp án khác giữ nguyên.
 const profileDone = () => PROFILE.every(p => p.type === 'number'
   ? validAge(ans['p:'+p.id]) : p.opts.some(([v]) => v === ans['p:'+p.id]));
-const qid = q => q.sec + ':' + q.key + (q.rev ? ':v' + q.rev : '');
+const legacyQid = q => q.sec + ':' + q.key + (q.rev ? ':v' + q.rev : '');
+const qid = q => 'entry:' + q.entryId + (q.rev ? ':v' + q.rev : '');
 const shown = (q, p) => q.entry && modOn(q.g.mod) && (!q.when || (profileDone() && q.when(p)));
 const activeQs = () => { const p = profile(); return GROUPS.flatMap(g => g.qs).filter(q => shown(q, p)); };
 
@@ -346,7 +347,6 @@ function renderAsk(updateProfile = true){
   document.getElementById('prog').textContent = profileDone() ? `Đã trả lời ${n} / ${qs.length} câu` : 'Điền vài thông tin trước đã';
 }
 
-const RANK = {'rất cao':0,'cao':1,'trung bình':2}, LV = {'lớn':0,'vừa':1}, GR = {A:0,B:1,C:2};
 function card(e, also){
   const r = {'rất cao':'r3','cao':'r2','trung bình':'r1'}[e.ratio];
   const lens = e.lens ? `<span class="badge plain">thước đo ${e.lens}</span>` : '';
@@ -362,16 +362,13 @@ function card(e, also){
 }
 /* Việc chưa làm chia theo "có phải đổi thói quen hay không" — nhãn ý-chí quyết định */
 const PILES = [
-  {will:'không', name:'Làm một lần là xong', sub:'làm một lần hoặc nhớ là đủ, không phải đổi thói quen'},
+  {will:'không', name:'Ít cần thay đổi thói quen', sub:'xem trong mục gốc việc này cần lặp lại khi nào'},
   {will:'ít', name:'Đổi một thói quen', sub:'chịu khó chừng vài tuần là thành nếp'},
   {will:'có', name:'Phải bền bỉ lâu dài', sub:'đối đầu với quán tính lâu dài, khó nhất, mỗi lần chọn một việc'},
 ];
-const WILL = {'không':0,'ít':1,'có':2};
-const byValue = (a, b) => RANK[a.entry.ratio] - RANK[b.entry.ratio] || LV[a.entry.level] - LV[b.entry.level]
-  || WILL[a.entry.will] - WILL[b.entry.will] || GR[a.entry.grade] - GR[b.entry.grade] || a.entry.cs - b.entry.cs;
 function renderOut(){
   const qs = activeQs();
-  const no = qs.filter(q => ans[qid(q)] === 'n').sort(byValue), yes = qs.filter(q => ans[qid(q)] === 'y');
+  const no = qs.filter(q => ans[qid(q)] === 'n'), yes = qs.filter(q => ans[qid(q)] === 'y');
   const answered = no.length + yes.length;
 
   // Tỉ lệ làm được của từng nhóm, chỉ tính câu đã trả lời đã làm / chưa làm, câu bỏ qua không vào mẫu số
@@ -388,10 +385,12 @@ function renderOut(){
   const good = no.filter(q => q.entry.ratio !== 'trung bình'), disp = no.filter(q => q.entry.dispute);
   const weak = groups.find(r => r.t >= 2 && r.pct < 1);
   let v = `Bạn đã trả lời ${answered} câu, làm được <b>${yes.length}</b> việc, còn <b>${no.length}</b> việc chưa làm.`;
-  if (answered > 0 && !no.length) v += ' Những việc trong sách bạn đều đã làm.';
-  else if (!answered) v += ' Bạn chưa trả lời câu cụ thể nào, hãy quay lại trả lời rồi xem phân tích.';
-  if (weak) v += ` Nhóm hụt nhiều nhất là «${esc(weak.g.name)}»: ${weak.t} việc mà mới làm ${weak.y}.`;
-  if (easy.length) v += ` Trong số chưa làm có <b>${easy.length}</b> việc làm một lần là xong, không phải đổi thói quen` + (free.length ? `, trong đó ${free.length} việc không tốn tiền.` : '.');
+  if (answered > 0 && !no.length) v += ' Trong các câu bạn đã trả lời Có/Không, chưa có việc nào được đánh dấu chưa làm.';
+  const skipped = qs.filter(q => ans[qid(q)] === 's').length, remaining = qs.length - answered - skipped;
+  v += ` Đã bỏ qua ${skipped} câu, còn ${remaining} câu chưa trả lời. Kết quả chỉ bao gồm các câu đang áp dụng trong bộ tự kiểm tra này.`;
+  if (!answered) v += ' Bạn chưa trả lời câu cụ thể nào, hãy quay lại trả lời rồi xem phân tích.';
+  if (weak) v += ` Trong các câu đã trả lời, nhóm «${esc(weak.g.name)}» có tỉ lệ đã làm thấp nhất: ${weak.y}/${weak.t} việc. Bạn có thể đọc lại nếu nhóm này đang phù hợp với mình.`;
+  if (easy.length) v += ` Trong số chưa làm có <b>${easy.length}</b> việc ít cần thay đổi thói quen` + (free.length ? `, trong đó ${free.length} việc không tốn tiền.` : '.');
   if (disp.length) v += ` Có ${disp.length} việc đang tranh luận về bằng chứng, nên đọc phần ghi chú của mục gốc trước khi quyết.`;
   document.getElementById('verdict').innerHTML = v;
 
@@ -399,14 +398,14 @@ function renderOut(){
     `<div class="tile"><b>${answered ? Math.round(yes.length / answered * 100) : 0}%</b><span>tỉ lệ đã làm trong số câu đã trả lời</span></div>` +
     `<div class="tile"><b>${no.length}</b><span>việc chưa làm</span></div>` +
     `<div class="tile r3"><b>${good.length}</b><span>trong đó đáng làm cao hoặc rất cao</span></div>` +
-    `<div class="tile r2"><b>${easy.length}</b><span>trong đó làm một lần là xong</span></div>`;
+    `<div class="tile r2"><b>${easy.length}</b><span>trong đó ít cần đổi thói quen</span></div>`;
 
-  // Ba việc nên làm trước: đáng làm nhất xếp trước; cùng nhóm thì chọn việc không phải đổi thói quen
-  const top = no.slice(0, 3);
-  const topTitle = `Làm ${top.length === 3 ? 'ba' : top.length === 2 ? 'hai' : 'một'} việc này trước`;
-  const alsoOf = q => (q.also || []).map(a => find(a.sec, a.key)).filter(Boolean);
+  // Lấy tối đa một việc chưa làm từ mỗi nhóm, không xếp hạng giữa các thước đo.
+  const top = GROUPS.flatMap(g => no.filter(q => q.g === g).slice(0,1)).slice(0,3);
+  const topTitle = 'Một vài việc để bạn cân nhắc';
+  const alsoOf = q => (q.also || []).map(a => find(a.sec, a.key, a.entryId)).filter(Boolean);
   let h = '';
-  if (top.length) h += `<h2>${topTitle}<small>việc đáng làm nhất trong số chưa làm</small></h2><ol class="top3">`
+  if (top.length) h += `<h2>${topTitle}<small>lấy từ các nhóm bạn chọn; không so lợi ích giữa các thước đo</small></h2><ol class="top3">`
     + top.map(q => `<li><a href="#c-${q.entry.sec}-${q.entry.n}">${esc(plain(q.entry.title))}</a> <span class="why">đáng làm ${q.entry.ratio}, bằng chứng ${q.entry.grade}, ${PILES.find(p => p.will === q.entry.will)?.name ?? ''}</span></li>`).join('') + '</ol>'
     + `<div class="copy-tools">
       <button class="btn" id="copy-actions" type="button">Chép mấy việc này</button>
@@ -493,8 +492,11 @@ document.getElementById('reset').addEventListener('click', () => { ans = {}; sav
       .filter(f => GROUPS.some(g => g.qs.some(q => f.startsWith(`book/${String(q.sec).padStart(2,'0')}-`))));
     const parts = await Promise.all(files.map(async f => EMBED ? EMBED.parts[f] : (await fetch(f, {cache:'no-cache'})).text()));
     ENTRIES = parse(parts.join('\n\n'));
-    for (const g of GROUPS) for (const q of g.qs) { q.g = g; q.entry = find(q.sec, q.key); }
-    status.remove();
+    for (const g of GROUPS) for (const q of g.qs) { q.g = g; q.entry = find(q.sec, q.key, q.entryId);
+      const old = legacyQid(q); if (ans[qid(q)] === undefined && ['y','n','s'].includes(ans[old])) ans[qid(q)] = ans[old]; }
+    if (ans['p:kid10'] === undefined && ans['p:kid'] === 'y') ans['p:kid10'] = 'y';
+    document.getElementById('question-count').textContent = GROUPS.reduce((n,g) => n + g.qs.length,0);
+    save(); status.remove();
     renderAsk(); show('ask');
   } catch (err) {
     status.textContent = location.protocol === 'file:'

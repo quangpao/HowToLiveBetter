@@ -39,6 +39,8 @@ try {
   check('legal-number-present', fixture('Năm 2026 có quy định cần đọc.', 'Quy định được áp dụng từ năm 2026.'), true);
   check('legal-empty', fixture('Đọc kỹ điều kiện trước khi làm.', ''), false, 'để trống');
   check('missing-number', fixture('Năm 2032 có quy định cần đọc.', 'Quy định được áp dụng từ năm 2026.'), false, '2032');
+  check('short-useful-note', fixture('Đọc kỹ điều kiện trước khi làm.').replace(note,'Giữ chứng từ và đọc điều kiện áp dụng.'), true);
+  check('empty-note', fixture('Đọc kỹ điều kiện trước khi làm.').replace(note,''), false, 'Ghi chú trống');
   console.log('PASS: ' + passed + ' trường hợp regression cho tools/check-draft.mjs');
 } finally {
   rmSync(temp, { recursive: true, force: true });

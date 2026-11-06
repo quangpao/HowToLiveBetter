@@ -2,15 +2,15 @@
 // ① Tính lại số liệu thống kê của cả sách, ghi ngược vào README.md, index.html, tools/og.html;
 // ② Gọi check-refs.mjs tính lại docs/doi-chieu-muc.md, gọi updates.mjs tính lại updates.json;
 // ③ Gọi check-plain.mjs kiểm "nói dễ hiểu", chỗ chưa đạt chỉ nhắc chứ không dừng;
-// ④ Dùng Chrome headless chụp lại tools/og.html thành og.png.
+// ④ Dùng Typst dựng ảnh og.png từ nội dung và số liệu trong tools/og.html.
 //
 //   node tools/sync-stats.mjs                   # làm tất cả
 //   node tools/sync-stats.mjs --no-screenshot   # không chụp ảnh
 //   node tools/sync-stats.mjs --check           # chỉ so ① không ghi, có số liệu cũ thì mã thoát 1 (dùng cho CI)
 //
-// Chrome được tìm theo các vị trí cài đặt thường gặp, cài chỗ khác thì đặt biến môi trường CHROME trỏ tới file thực thi.
-// og.html dùng font Microsoft YaHei, trên Linux không có sẽ bị thay bằng font khác, ảnh chụp ra khác trên Windows;
-// CI chỉ chạy --check không chụp ảnh, cũng vì lý do này.
+// Ảnh chia sẻ dùng cùng Typst ghim trong workflow PDF và phông nhúng của Typst.
+// --no-screenshot giữ tương thích lệnh cũ; có thể dựng riêng bằng node tools/og/build.mjs.
+// CI --check kiểm số liệu, job build dựng lại ảnh để đối chiếu og.png.
 //
 // 2026-09-29 chuyển từ sync-stats.ps1 sang, file ps1 đã xóa: nó chỉ chạy trên Windows,
 // PR bên ngoài merge thẳng trên web hoàn toàn không đi qua nó, số liệu cũ rồi cũng không có kiểm tra nào báo đỏ.
@@ -20,12 +20,13 @@
 // TODO = số dòng trong nội dung có "chưa kiểm chứng" hoặc "TODO"; liên kết = tổng số http(s) trong các dòng "- Nguồn:", "- Ghi chú:" và "- Pháp luật Việt Nam:";
 // Quy tắc ba mức đáng làm nằm trong tools/lib/book.mjs, chép từ index.html.
 // Cắt dòng dùng /\r?\n/, lý do xem phần đầu file check-refs.mjs.
-import { readFileSync, writeFileSync, readdirSync, existsSync, mkdtempSync, rmSync, statSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
 import { resolve, dirname, join } from 'node:path';
-import { fileURLToPath, pathToFileURL } from 'node:url';
+import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
-import { tmpdir } from 'node:os';
 import { COST_W as W, ratioOf } from './lib/book.mjs';
+import {writeReaderData} from './reader-data.mjs';
+import {writeSitePages} from './site-pages.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const CHECK = process.argv.includes('--check');
@@ -92,7 +93,6 @@ console.log('');
 // sang chương thứ hai là sai ngay.
 const perChapter = bookFiles.map(f => [f, read(join('book', f)).split(/\r?\n/).filter(l => l.startsWith('### ')).length]);
 const EDITS = [
-  ['index.html', 'numberOfPages', /numberOfPages":(\d+)/g, `numberOfPages":${entries}`],
   ['tools/og.html', 'số mục trên ảnh chia sẻ', /(?<=data-stat="mục">)\d+(?=<)/g, String(entries)],
   ['tools/og.html', 'số mục bằng chứng A', /(?<=data-stat="A">)\d+(?=<)/g, String(grade.A)],
   ['tools/og.html', 'số liên kết nguồn', /(?<=data-stat="nguồn">)\d+(?=<)/g, String(links)],
@@ -159,6 +159,7 @@ if (missingQuestions.length) {
 
 if (CHECK) {
   if (stale.length === 0 && !badWho.length) {
+    writeReaderData(true); writeSitePages(true);
     console.log('\nKiểm tra số liệu: đạt');
     process.exit(0);
   }
@@ -180,6 +181,7 @@ console.log('Trước khi commit liếc qua diff của docs/doi-chieu-muc.md: s�
 // Mới cập nhật: dấu "mới" "đã sửa" trên trang tra cứu, thay đổi chưa commit trong vùng làm việc tính là hôm nay
 console.log('');
 if (runTool('updates.mjs') !== 0) throw new Error('updates.mjs thất bại');
+writeReaderData(); writeSitePages();
 
 // ③ Kiểm "nói dễ hiểu" chỉ nhắc không dừng: số liệu đã đồng bộ xong, dừng ở đây lại làm người ta tưởng thống kê chưa cập nhật. Trên CI nó vẫn báo đỏ
 console.log('');
@@ -187,35 +189,5 @@ if (runTool('check-plain.mjs') !== 0) console.log('Các chỗ "nói dễ hiểu"
 
 if (process.argv.includes('--no-screenshot')) process.exit(0);
 
-// ④ Chụp og.png
-const CHROME_PATHS = [
-  process.env.CHROME,
-  'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
-  'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe',
-  '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
-  '/usr/bin/google-chrome',
-  '/usr/bin/google-chrome-stable',
-  '/usr/bin/chromium',
-  '/usr/bin/chromium-browser',
-];
-const chrome = CHROME_PATHS.find(p => p && existsSync(p));
-if (!chrome) throw new Error('Không tìm thấy Chrome, đặt biến môi trường CHROME trỏ tới nó, hoặc thêm --no-screenshot để bỏ qua bước chụp ảnh');
-
-// Mỗi lần dùng user-data-dir mới: không thì Chrome dựng bằng og.html cũ trong cache, chụp ra vẫn là số cũ.
-// --screenshot phải đưa đường dẫn tuyệt đối: đưa đường dẫn tương đối Chrome không ghi gì mà vẫn trả về 0
-const profile = mkdtempSync(join(tmpdir(), 'og-shot-'));
-const target = join(ROOT, 'og.png');
-const startedAt = Date.now();
-// Chrome ghi mấy dòng kiểu "xxx bytes written" ra stderr, không phải lỗi, bỏ thẳng đi
-spawnSync(chrome, [
-  '--headless', '--disable-gpu', '--hide-scrollbars', '--force-device-scale-factor=1',
-  '--window-size=1200,630', `--user-data-dir=${profile}`, `--screenshot=${target}`,
-  pathToFileURL(join(ROOT, 'tools', 'og.html')).href,
-], { stdio: 'ignore' });
-rmSync(profile, { recursive: true, force: true });
-
-// Tự kiểm: file được ghi trong lần chạy này, kích thước trong khoảng bình thường. Qua hai cửa này thì không cần mở ảnh xem, tiết kiệm một lần đọc ảnh
-const png = statSync(target);
-if (png.mtimeMs < startedAt - 1000) throw new Error('og.png không được ghi trong lần chạy này, chụp ảnh thất bại');
-if (png.size < 120 * 1024 || png.size > 400 * 1024) throw new Error(`Kích thước og.png bất thường (${png.size} byte), bình thường 120KB đến 400KB, mở ra xem có phải dàn trang hỏng`);
-console.log(`\nog.png đã dựng lại: ${png.size} byte, tự kiểm đạt. Chỉ khi sửa bố cục tools/og.html mới cần mở ảnh xác nhận.`);
+// ④ Dựng ảnh chia sẻ bằng cùng Typst đã ghim cho PDF. Không phụ thuộc Chrome/phông máy.
+if (runTool('og/build.mjs') !== 0) throw new Error('Dựng og.png thất bại');

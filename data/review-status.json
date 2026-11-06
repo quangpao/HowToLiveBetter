@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "entries": {
+    "lap-dau-bao-khoi-nha-nao-dot-than-cui-hay-chay-may": {
+      "checkedAt": "2026-11-06",
+      "status": "source-checked",
+      "scope": "Cách diễn đạt phòng ngộ độc CO",
+      "sources": [
+        "https://www.cdc.gov/carbon-monoxide/about/index.html"
+      ]
+    },
+    "khong-an-trau-ke-ca-trau-khong-co-thuoc-la": {
+      "checkedAt": "2026-11-06",
+      "status": "source-checked",
+      "scope": "Ý nghĩa phân nhóm 1 IARC",
+      "sources": [
+        "https://www.iarc.who.int/featured-news/iarc-monographs-programme/"
+      ]
+    },
+    "nguoi-guc-goi-khong-tinh-khong-tho-binh-thuong-ep-tim-ngoai": {
+      "checkedAt": "2026-11-06",
+      "status": "needs-medical-review",
+      "scope": "Đối chiếu phần tóm tắt với AHA 2025",
+      "sources": [
+        "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support"
+      ]
+    },
+    "dot-nhien-noi-man-khap-nguoi-kem-kho-tho-hoac-choang-goi": {
+      "checkedAt": "2026-11-06",
+      "status": "needs-medical-review",
+      "scope": "Giải nghĩa phản vệ/sốc phản vệ và điều kiện dùng bút adrenalin đã được kê và hướng dẫn",
+      "sources": [
+        "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-51-2017-tt-byt-huong-dan-phong-chan-doan-va-xu-tri-phan-ve--128248",
+        "https://www.nhs.uk/conditions/anaphylaxis/"
+      ]
+    },
+    "xe-mo-to-hai-banh-tren-125-cm-can-bang-hang-a": {
+      "checkedAt": "2026-11-06",
+      "status": "source-checked",
+      "scope": "Ngoại lệ chuyển tiếp bằng A1; không xác nhận lại mọi mức phạt trong mục",
+      "sources": [
+        "https://xaydungchinhsach.chinhphu.vn/hieu-luc-su-dung-cua-giay-phep-lai-xe-duoc-cap-truoc-1-1-2025-neu-chua-doi-cap-lai-theo-luat-ttatgt-duong-bo-119240813160704423.htm"
+      ]
+    },
+    "ba-khoan-tien-khi-xuat-ngu-2-thang-luong-co-so-moi": {
+      "checkedAt": "2026-11-06",
+      "status": "consistency-checked",
+      "scope": "Số học của ví dụ và sự khớp giữa bản ngắn với trường pháp luật; chưa thẩm định toàn bộ chế độ",
+      "sources": []
+    },
+    "bi-quyt-luong-thi-tim-thanh-tra-lao-dong-hoa-giai-vien": {
+      "checkedAt": "2026-11-06",
+      "status": "needs-legal-review",
+      "scope": "Đối chiếu lựa chọn hòa giải/trọng tài/Tòa án và miễn án phí đòi lương; mức phạt cần rà hiệu lực riêng",
+      "sources": [
+        "https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468971-1772684381_v1_1772690833_signed.pdf",
+        "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-326-2016-ubtvqh14-22191.htm"
+      ]
+    }
+  }
+}

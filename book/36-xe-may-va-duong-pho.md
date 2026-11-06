@@ -10,12 +10,12 @@ Về bối cảnh Việt Nam: từ 01/01/2025, Luật Trật tự, an toàn giao
 
 **Nhóm mục**: **Bằng lái và điểm**: [mục 1](36-xe-may-va-duong-pho.md#entry-xe-mo-to-hai-banh-tren-125-cm-can-bang-hang-a) và [mục 3](36-xe-may-va-duong-pho.md#entry-bang-lai-co-12-diem-moi-loi-bi-tru-diem-12-thang) · **Chở người, đỗ xe**: [mục 2](36-xe-may-va-duong-pho.md#entry-xe-may-chi-duoc-cho-mot-nguoi-cho-hai-nguoi-khi-do) và [mục 4](36-xe-may-va-duong-pho.md#entry-do-xe-may-sai-cho-bi-phat-400-000-den-600-000) · **Chạy lên vỉa hè, đi ngược chiều, vượt đèn đỏ**: [mục 5](36-xe-may-va-duong-pho.md#entry-chay-len-via-he-di-nguoc-chieu-duong-mot-chieu-vuot-den)
 
-### 1. Xe mô tô hai bánh trên 125 cm³ cần bằng hạng A, bằng A1 chỉ đủ cho xe đến 125 cm³; không có bằng phù hợp bị phạt 2 đến 8 triệu đồng
+### 1. Kiểm tra hạng bằng và ngày cấp trước khi mua xe: bằng A1 mới và bằng A1 cũ có giới hạn khác nhau
 <!-- nhãn: tiền=ít thời-gian=vừa ý-chí=ít lợi-ích=vừa thước-đo=tiền -->
 <a name="entry-xe-mo-to-hai-banh-tren-125-cm-can-bang-hang-a" data-legacy="36-1"></a>
 
 - Chi phí: Phí học, thi sát hạch hạng A và lệ phí cấp bằng do cơ sở đào tạo và địa phương quy định, tôi chưa có nguồn cho con số nên không ghi. Mất vài buổi học và một kỳ sát hạch. Nếu không có bằng phù hợp thì bị phạt từ 2 triệu đến 8 triệu đồng tùy dung tích xe.
-- Nói dễ hiểu: Bằng A1 chỉ lái được xe mô tô hai bánh đến 125 cm³ hoặc điện đến 11 kW. Xe lớn hơn phải có bằng A. Không có bằng phù hợp, xe đến 125 cm³ bị phạt 2 đến 4 triệu đồng, xe trên 125 cm³ bị phạt 6 đến 8 triệu đồng.
+- Nói dễ hiểu: A1 cấp theo luật mới dùng cho mô tô hai bánh đến 125 cm³ hoặc điện đến 11 kW. A1 cấp trước 01/01/2025, chưa đổi hoặc cấp lại, vẫn dùng cho xe từ 50 đến dưới 175 cm³ hoặc điện từ 4 đến dưới 14 kW. Hãy kiểm tra cả ngày cấp bằng.
 - Lợi ích: Biết trước loại xe mình định mua cần hạng bằng nào, để khỏi mua xe rồi mới phát hiện bằng không đủ. Tránh khoản phạt 2 đến 8 triệu đồng khi bị kiểm tra.
 - Pháp luật Việt Nam: Luật 36/2024/QH15 Điều 57 khoản 1: hạng A1 cấp cho người lái xe mô tô hai bánh có dung tích xi-lanh đến 125 cm³ hoặc công suất động cơ điện đến 11 kW; hạng A cấp cho người lái xe mô tô hai bánh trên 125 cm³ hoặc điện trên 11 kW, và cũng lái được các xe của hạng A1. Điều 57 khoản 5: bằng A1, A, B1 không có thời hạn. Điều 59 khoản 1 điểm b: đủ 18 tuổi mới được cấp bằng A1, A. Điều 89 khoản 2: bằng cấp trước 01/01/2025 vẫn dùng được; bằng A1 cũ được lái xe mô tô hai bánh từ 50 cm³ đến dưới 175 cm³ hoặc điện từ 4 kW đến dưới 14 kW; bằng A2 cũ được lái xe từ 175 cm³ trở lên. Nghị định 168/2024/NĐ-CP Điều 18: xe mô tô hai bánh đến 125 cm³ hoặc điện đến 11 kW mà không có bằng, dùng bằng hết điểm, bằng không do cơ quan có thẩm quyền cấp hoặc bằng không phù hợp loại xe thì phạt 2.000.000 đến 4.000.000 đồng (khoản 5); xe mô tô hai bánh trên 125 cm³ hoặc điện trên 11 kW mà có bằng không phù hợp, hoặc không có bằng, thì phạt 6.000.000 đến 8.000.000 đồng (khoản 7).
 - Mức bằng chứng: B

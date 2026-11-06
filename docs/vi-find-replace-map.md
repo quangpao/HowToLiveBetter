@@ -1,3 +1,5 @@
+> Tài liệu biên tập lập ở giai đoạn trước; số chương/mục trong ví dụ là mốc lịch sử. Quy tắc hiện hành ở STYLEGUIDE.vi.md, danh mục hiện tại do tools/references.mjs sinh.
+
 # Bảng ánh xạ Find & Replace tiếng Việt
 
 Phạm vi: toàn bộ 34 chương tiếng Việt, README, trang tự kiểm tra và tài liệu giải thích. Chỉ sửa văn bản hiển thị; không thay tên file, URL, khóa JavaScript hoặc bản gốc tiếng Trung bằng regex mù.

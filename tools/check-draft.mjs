@@ -73,7 +73,7 @@ function checkBlock(block, problems, file) {
   if (/TODO|chưa viết|XXX/i.test(block)) add('còn chỗ đánh dấu TODO/chưa viết');
 
   const note = vals['Ghi chú'] || '';
-  if (norm(note).length < 400) add(`Ghi chú chỉ ${norm(note).length} ký tự — thường là thiếu bẫy Việt Nam`);
+  if (!norm(note)) add('Ghi chú trống — nêu điều kiện hoặc giới hạn nếu có, không kéo dài cho đủ ký tự');
 
   // Chữ Hán lọt vào phần tiếng Việt (tiêu đề giữ Hán là lỗi, thân mục cũng vậy)
   const han = block.match(/[\u4e00-\u9fff]/g);

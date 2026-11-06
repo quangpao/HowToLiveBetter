@@ -20,7 +20,7 @@ Cách tính từ neo: hai từ liền nhau trùng tiêu đề đích, hoặc m�
 như 12356, AED, BMI, LPR) xuất hiện trong tiêu đề. Chỉ trùng một từ chung chung ("người", "tiền")
 thì không tính.
 
-Tổng 927 chỗ tham chiếu.
+Tổng 928 chỗ tham chiếu.
 
 ## 01-dung-chet-som
 
@@ -30,7 +30,7 @@ Tổng 927 chỗ tham chiếu.
 | đầu chương | mục 2 | Đội mũ bảo hiểm khi đi mô tô, xe gắn máy, xe đạp điện và cài quai đúng quy cách | …lan-ghe-sau)), đội mũ bảo hiểm và cài quai (… |
 | đầu chương | mục 9 | Không chạy quá tốc độ, không uống rượu bia rồi lái, không cầm điện thoại, buồn ngủ thì dừng nghỉ | … quá tốc độ và không uống rượu bia rồi lái (… |
 | đầu chương | mục 41 | Nước lũ, ngầm tràn, đường ngập nước chảy xiết: không lội, không chạy xe qua, kể cả khi nhìn nước còn nông | …g lội hay chạy xe qua nước lũ và ngầm tràn (… |
-| đầu chương | mục 3 | Lắp đầu báo khói; nhà nào đốt than, củi hay chạy máy phát điện trong nhà thì lắp thêm đầu báo khí CO | … lắp đầu báo khói và đầu báo khí CO (… |
+| đầu chương | mục 3 | Lắp đầu báo khói và đầu báo CO khi cần; không chạy máy phát điện hay đốt than trong nhà | … lắp đầu báo khói và đầu báo khí CO (… |
 | đầu chương | mục 4 | Thay dây dẫn gas trước khi nó nứt, không tự tháo van hay tự sang gas, chỉ nhận bình còn niêm phong | …ây dẫn gas và chỉ nhận bình còn niêm phong (… |
 | đầu chương | mục 6 | Đừng sạc xe điện trong nhà, đừng dắt xe vào thang máy hay để ở cầu thang | …ạc xe điện trong nhà hay để xe ở cầu thang (… |
 | đầu chương | mục 10 | Trẻ dưới 10 tuổi và cao dưới 1,35 m ngồi ô tô phải có thiết bị an toàn, đừng bế trên tay | … dùng ghế an toàn cho trẻ trên ô tô (… |
@@ -52,7 +52,7 @@ Tổng 927 chỗ tham chiếu.
 | đầu chương | mục 20 | Người có bệnh tim mạch và người cao tuổi tiêm vắc xin cúm hằng năm | …năm nếu có bệnh tim mạch hoặc trên 65 tuổi (… |
 | đầu chương | mục 21 | Từ 50 tuổi tiêm vắc xin zona thần kinh | …zona thần kinh từ 50 tuổi nếu có điều kiện (… |
 | đầu chương | mục 22 | Từ 65 tuổi tiêm vắc xin phế cầu | …-zona-than-kinh)), tiêm phế cầu từ 65 tuổi (… |
-| mục 26 | mục 3 | Lắp đầu báo khói; nhà nào đốt than, củi hay chạy máy phát điện trong nhà thì lắp thêm đầu báo khí CO | … báo khói và báo khí CO xem … |
+| mục 26 | mục 3 | Lắp đầu báo khói và đầu báo CO khi cần; không chạy máy phát điện hay đốt than trong nhà | … báo khói và báo khí CO xem … |
 | mục 28 | mục 7 | Đo huyết áp tại nhà; cao thì uống thuốc hạ xuống mức đích | … Việc cần làm giống hệt … |
 | mục 28 | mục 8 | Xét nghiệm đường huyết lúc đói: từ 45 tuổi, hoặc sớm hơn nếu thừa cân và có yếu tố nguy cơ; kết quả bình thường thì 1 đến 3 năm làm lại | …tai-nha-cao-thi-uong-thuoc-ha-xuong-muc) và … |
 | mục 29 | mục 7 | Đo huyết áp tại nhà; cao thì uống thuốc hạ xuống mức đích | …rong khoảng 20 đến 25, kiểm soát huyết áp ở … |
@@ -73,7 +73,7 @@ Tổng 927 chỗ tham chiếu.
 | mục 43 | mục 32 | Ý nghĩ tự tử vừa xuất hiện thì nói ngay với một người bên cạnh, nhờ họ ở bên bạn trong lúc đó | … ở gần một nửa số người chỉ khoảng 10 phút (… |
 | mục 45 | mục 14 | Xét nghiệm viêm gan B một lần, rồi căn cứ vào kết quả mà tiêm hay không tiêm | …ét nghiệm viêm gan B là bộ chỉ số khác, xem … |
 | mục 45 | mục 31 | Đã từng có hành vi nguy cơ thì đi xét nghiệm HIV một lần | … xét nghiệm HIV ở … |
-| mục 46 | mục 3 | Lắp đầu báo khói; nhà nào đốt than, củi hay chạy máy phát điện trong nhà thì lắp thêm đầu báo khí CO | …ổ ong hay máy phát điện là chuyện khác, xem … |
+| mục 46 | mục 3 | Lắp đầu báo khói và đầu báo CO khi cần; không chạy máy phát điện hay đốt than trong nhà | …ổ ong hay máy phát điện là chuyện khác, xem … |
 | mục 47 | mục 23 | Xét nghiệm vi khuẩn Helicobacter pylori, dương tính thì diệt trừ | … pylori và ngược lại — xem … |
 | mục 48 | mục 5 | Đừng hái, đừng mua, đừng ăn nấm mọc hoang; mọi mẹo nhận biết nấm độc đều không đáng tin | …iệc ăn nấm rừng tự hái là nguy cơ khác, xem … |
 
@@ -184,7 +184,7 @@ Tổng 927 chỗ tham chiếu.
 | đầu chương | mục 13 | Đừng cứ tăng giờ làm mãi | …ai-hoac-tim-phong)), đừng tăng giờ làm mãi (… |
 | đầu chương | mục 2 | Giữ giờ thức cố định, cuối tuần cũng vậy | … giờ thức cố định (… |
 | đầu chương | mục 3 | Ngủ đủ 7 đến 8 tiếng, đừng coi 6 tiếng là đủ | …cuoi-tuan-cung-vay)), ngủ đủ 7 đến 8 tiếng (… |
-| đầu chương | mục 4 | Sau 2 giờ chiều thì đừng đụng caffeine | …-du)), sau 2 giờ chiều không đụng caffeine (… |
+| đầu chương | mục 4 | Ngừng caffeine ít nhất 6 giờ trước giờ ngủ, kể cả khi làm ca | …-du)), sau 2 giờ chiều không đụng caffeine (… |
 | đầu chương | mục 8 | Một giờ trước khi ngủ không nhìn màn hình phát sáng | … một giờ trước khi ngủ không nhìn màn hình (… |
 | đầu chương | mục 9 | Đến giờ là ngủ — đừng thức vì game, video ngắn hay nội dung khiêu dâm | …-nhin-man-hinh-phat-sang)), đến giờ là ngủ (… |
 | đầu chương | mục 10 | Đêm khuya không quyết định việc lớn, không gửi tin nhắn quan trọng | …-hay-noi)), đêm khuya không quyết định lớn (… |
@@ -193,10 +193,10 @@ Tổng 927 chỗ tham chiếu.
 | đầu chương | mục 27 | Ngáy to, có người thấy bạn ngưng thở khi ngủ, ban ngày buồn ngủ tới mức lái xe cũng muốn ngủ — đi đo giấc ngủ | …-cho-giac)), ngáy và ngừng thở thì đi khám (… |
 | đầu chương | mục 14 | Thấy mình cứ nghĩ vòng vo về một chuyện khó chịu thì đổi sang việc cần tay chân | … nghĩ vòng vo thì đổi sang việc tay chân (… |
 | đầu chương | mục 15 | Coi những ý như "mọi chuyện chắc chắn sẽ tệ hơn" là triệu chứng, không phải sự thật | …u-thi)), coi ý nghĩ bi quan là triệu chứng (… |
-| đầu chương | mục 21 | Thấy "mọi người đều thấy mình bị bẽ mặt" thì Thêm: "chia đôi con số người để ý mà bạn đoán | …y mình ê mặt thì chia đôi con số ước lượng (… |
+| đầu chương | mục 21 | Khi thấy mình bị bẽ mặt, nhớ rằng người khác thường ít để ý hơn bạn nghĩ | …y mình ê mặt thì chia đôi con số ước lượng (… |
 | đầu chương | mục 22 | Coi "người khác đòi mình phải hoàn hảo" là triệu chứng, không phải sự thật | …"ai cũng đòi mình hoàn hảo" là triệu chứng (… |
 | đầu chương | mục 17 | Đang giận thì rời chỗ trước, coi người kia như thời tiết chứ không như kẻ thù | … đang giận thì rời khỏi chỗ đó trước (… |
-| đầu chương | mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám Thêm vào tiêu đề: "khi không tự khá lên được | …oi-tiet)), buồn thì làm mấy việc này trước (… |
+| đầu chương | mục 18 | Tâm trạng xuống thấp: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó và đi khám khi cần | …oi-tiet)), buồn thì làm mấy việc này trước (… |
 | đầu chương | mục 23 | Đang giận thì đừng đấm bao cát hay chạy một vòng để xả — làm chậm cơ thể trước | …-van)), đừng xả giận bằng cách đấm bao cát (… |
 | đầu chương | mục 24 | Trong lòng đang nặng một chuyện thì viết ra vài ngày liền — nhưng đừng trông vào nó để chữa bệnh | …-mot-vong-de)), viết ra giấy mấy ngày liền (… |
 | đầu chương | mục 16 | Bớt những quan hệ làm mình hao, tập nói "không" với yêu cầu mình không muốn nhận | … biết từ chối việc mình không muốn nhận (… |
@@ -206,7 +206,7 @@ Tổng 927 chỗ tham chiếu.
 | mục 2 | chương 2 mục 38 | Thức khuya thì ngủ bù ngay đêm sau — đừng để dồn tới cuối tuần | … thử nghiệm ngẫu nhiên ở … |
 | mục 2 | chương 2 mục 37 | Ngủ trưa dưới 30 phút — ngủ trưa dài có hại | … trưa cũng phải ngắn — quá 60 phút thì hại (… |
 | mục 2 | chương 2 mục 39 | Làm ca đêm — chuyển sang ca ngày khi còn chuyển được | … nguyên giờ thức 2 đến 3 ngày rồi dịch dần (… |
-| mục 3 | mục 4 | Sau 2 giờ chiều thì đừng đụng caffeine | …rong ngày thì còn phá luôn giấc ngủ đêm đó (… |
+| mục 3 | mục 4 | Ngừng caffeine ít nhất 6 giờ trước giờ ngủ, kể cả khi làm ca | …rong ngày thì còn phá luôn giấc ngủ đêm đó (… |
 | mục 3 | chương 2 mục 37 | Ngủ trưa dưới 30 phút — ngủ trưa dài có hại | …giấc đêm — trưa dài quá 60 phút còn có hại (… |
 | mục 3 | chương 2 mục 38 | Thức khuya thì ngủ bù ngay đêm sau — đừng để dồn tới cuối tuần | …gủ bù cuối tuần cũng không trả được nợ ngủ (… |
 | mục 3 | mục 27 | Ngáy to, có người thấy bạn ngưng thở khi ngủ, ban ngày buồn ngủ tới mức lái xe cũng muốn ngủ — đi đo giấc ngủ | …u ban ngày buồn ngủ nhiều thì phải đi khám (… |
@@ -214,18 +214,18 @@ Tổng 927 chỗ tham chiếu.
 | mục 6 | mục 1 | Tắt thông báo không cần thiết, để điện thoại ra ngoài tầm mắt | …gười khác là chưa đủ, phải chặn chính mình (… |
 | mục 11 | chương 2 mục 37 | Ngủ trưa dưới 30 phút — ngủ trưa dài có hại | … tăng nguy cơ tim mạch và tử vong — đã có ở … |
 | mục 11 | mục 2 | Giữ giờ thức cố định, cuối tuần cũng vậy | … sau 15 giờ vì sẽ đẩy lùi giờ ngủ buổi tối (… |
-| mục 14 | mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám Thêm vào tiêu đề: "khi không tự khá lên được | …hứng thú, thì cần gặp người làm chuyên môn (… |
+| mục 14 | mục 18 | Tâm trạng xuống thấp: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó và đi khám khi cần | …hứng thú, thì cần gặp người làm chuyên môn (… |
 | mục 15 | mục 10 | Đêm khuya không quyết định việc lớn, không gửi tin nhắn quan trọng | … ghi lại rồi để sáng mai xử lý (… |
-| mục 15 | mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám Thêm vào tiêu đề: "khi không tự khá lên được | …ng nhiều tuần thì cần người làm chuyên môn (… |
+| mục 15 | mục 18 | Tâm trạng xuống thấp: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó và đi khám khi cần | …ng nhiều tuần thì cần người làm chuyên môn (… |
 | mục 17 | mục 14 | Thấy mình cứ nghĩ vòng vo về một chuyện khó chịu thì đổi sang việc cần tay chân | …rửa mặt, sang phòng khác làm việc tay chân (… |
 | mục 18 | mục 2 | Giữ giờ thức cố định, cuối tuần cũng vậy | …i đó** là hai việc đã có bằng chứng riêng ở … |
 | mục 18 | 3 | Ngủ đủ 7 đến 8 tiếng, đừng coi 6 tiếng là đủ | …y-giu-gio-thuc-co-dinh-cuoi-tuan-cung-vay), … |
 | mục 18 | 16 | Bớt những quan hệ làm mình hao, tập nói "không" với yêu cầu mình không muốn nhận | …du-7-den-8-tieng-dung-coi-6-tieng-la-du) và … |
 | mục 18 | mục 8 | Một giờ trước khi ngủ không nhìn màn hình phát sáng | … phải buổi tối (buổi tối thì ngược lại, xem … |
 | mục 20 | mục 1 | Tắt thông báo không cần thiết, để điện thoại ra ngoài tầm mắt | … Sức khỏe kỹ thuật số), tắt thông báo (… |
-| mục 22 | mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám Thêm vào tiêu đề: "khi không tự khá lên được | … đi khám (… |
+| mục 22 | mục 18 | Tâm trạng xuống thấp: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó và đi khám khi cần | … đi khám (… |
 | mục 23 | mục 17 | Đang giận thì rời chỗ trước, coi người kia như thời tiết chứ không như kẻ thù | … rời chỗ (… |
-| mục 24 | mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám Thêm vào tiêu đề: "khi không tự khá lên được | … hại bản thân, thì **dừng lại và đi khám** (… |
+| mục 24 | mục 18 | Tâm trạng xuống thấp: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó và đi khám khi cần | … hại bản thân, thì **dừng lại và đi khám** (… |
 | mục 26 | mục 2 | Giữ giờ thức cố định, cuối tuần cũng vậy | …) **giữ giờ thức cố định** kể cả cuối tuần (… |
 
 ## 04-dung-lang-phi-thoi-gian
@@ -244,7 +244,7 @@ Tổng 927 chỗ tham chiếu.
 | mục 9 | mục 13 | Trì hoãn đã ảnh hưởng tới cuộc sống thì dùng tài liệu tự trợ giúp có thử nghiệm ngẫu nhiên chứng minh — không nhất thiết phải tìm chuyên gia | …n hệ nhiều năm thì đó là việc phải đi khám (… |
 | mục 10 | mục 7 | Chia việc lớn thành việc con rồi mới ước thời gian và bắt tay làm | …nó là thứ **cộng thêm** vào việc chia bước (… |
 | mục 13 | mục 10 | Đồ cần dùng để trong tầm tay, đồ không muốn đụng thì cất xa — đừng trông vào việc nhịn lúc đó | …án đúng hay sai), **kiểm soát kích thích** (… |
-| mục 13 | chương 3 mục 18 | Tâm trạng xuống thấp thì làm 5 việc rẻ nhất trước: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó, và đi khám Thêm vào tiêu đề: "khi không tự khá lên được | …t hoặc lo âu kéo dài**, xử lý cái đó trước (… |
+| mục 13 | chương 3 mục 18 | Tâm trạng xuống thấp: vận động, ra ánh sáng, ngủ đúng giờ, nói với ai đó và đi khám khi cần | …t hoặc lo âu kéo dài**, xử lý cái đó trước (… |
 | mục 15 | mục 12 | Thói quen mới thì tính theo tháng, đừng tính theo "21 ngày" | …i hứa với chính mình — đúng loại lời hứa mà … |
 
 ## 05-dung-lang-phi-tien
@@ -526,7 +526,7 @@ Tổng 927 chỗ tham chiếu.
 
 | Từ | Tham chiếu | Trỏ tới | Ngữ cảnh |
 | --- | --- | --- | --- |
-| đầu chương | mục 1 đến 7 | Người gục, gọi không tỉnh, không thở bình thường: ép tim ngoài lồng ngực ngay, gọi 115, nhờ người tìm máy sốc điện tự động | … … |
+| đầu chương | mục 1 đến 7 | Người lớn gục, gọi không tỉnh và không thở bình thường: gọi 115, ép tim và nhờ lấy máy sốc điện tự động | … … |
 | đầu chương | mục 1 đến 7 | Người già ngã, người nằm dưới đất: khom xuống gọi hỏi, gọi 115, đừng vội bế dậy | … … |
 | đầu chương | mục 1 đến 7 | Một bên miệng méo, một tay yếu, nói không rõ: gọi 115 ngay, đừng chờ, đừng tự chở bằng xe máy | … … |
 | đầu chương | mục 1 đến 7 | Chóng mặt đứng không vững, nhìn một thành hai, một bên mắt tối: xử như đột quỵ, gọi 115 | … … |
@@ -540,7 +540,7 @@ Tổng 927 chỗ tham chiếu.
 | đầu chương | mục 8 đến 14 | Chảy máu nhiều: ấn mạnh lên vết thương, nếu ở tay chân mà ấn không cầm được máu thì đặt dây ga rô, gọi 115 | … … |
 | đầu chương | mục 8 đến 14 | Bị chó, mèo cắn hoặc cào rách da: rửa bằng nước và xà phòng 15 phút, tới cơ sở tiêm chủng tiêm vắc xin dại trong ngày | … … |
 | đầu chương | mục 8 đến 14 | Bỏng: làm mát bằng nước sạch chảy 20 phút, không bôi kem đánh răng hay nước mắm | … … |
-| đầu chương | mục 15 đến 21 | Đột nhiên nổi mẩn khắp người kèm khó thở hoặc choáng: gọi 115, nói rõ "sốc phản vệ", có sẵn adrenalin thì tiêm bắp ngay | … … |
+| đầu chương | mục 15 đến 21 | Nghi bị dị ứng nặng (phản vệ): gọi 115; dùng bút adrenalin đã được kê và hướng dẫn, không tự định liều từ ống thuốc | … … |
 | đầu chương | mục 15 đến 21 | Người co giật ngã xuống: dọn vật cản, cho nằm nghiêng, bấm giờ, tuyệt đối không nhét thìa hay ngón tay vào miệng | … … |
 | đầu chương | mục 15 đến 21 | Người đái tháo đường đột nhiên run rẩy, vã mồ hôi, nói không rõ: cho 15 gam đường, sau 15 phút kiểm lại | … … |
 | đầu chương | mục 15 đến 21 | Có người bị điện giật: cắt cầu dao trước, dùng que khô gạt dây ra, tuyệt đối không kéo tay trần | … … |
@@ -574,6 +574,7 @@ Tổng 927 chỗ tham chiếu.
 | đầu chương | mục 43 đến 48 | Người say rượu: cho nằm nghiêng, có người trông liên tục, không để ngủ một mình; gọi không tỉnh, thở chậm hoặc không đều, co giật, người lạnh thì gọi 115 | … … |
 | đầu chương | mục 43 đến 48 | Ngón tay, ngón chân bị đứt lìa: ấn cầm máu, phần đứt bọc gạc ẩm cho vào túi kín, túi ngâm nước đá, tới bệnh viện có vi phẫu | … … |
 | đầu chương | mục 43 đến 48 | Răng vĩnh viễn bị rơi cả chiếc: cầm phần thân răng rửa nhẹ, đặt lại được thì đặt lại, không thì ngâm trong sữa, đi khám răng ngay; răng sữa thì không đặt lại | … … |
+| mục 1 | mục 44 (hồi sức trẻ dưới 1 tuổi) | Trẻ dưới 1 tuổi không phản ứng, không thở bình thường: bật loa ngoài gọi 115, ép tim và thổi ngạt theo tỷ lệ 30 lần ép, 2 lần thổi | … Hướng dẫn cho trẻ dưới 1 tuổi có khác, xem … |
 | mục 45 | mục 43 | Trẻ dưới 1 tuổi hóc dị vật, khóc không ra tiếng: cho nằm sấp vỗ lưng 5 lần, lật lại ấn ngực 5 lần, lặp lại, không ấn bụng | …ở, tím tái thì xử trí hóc dị vật trước theo … |
 | mục 47 | mục 12 | Chảy máu nhiều: ấn mạnh lên vết thương, nếu ở tay chân mà ấn không cầm được máu thì đặt dây ga rô, gọi 115 | … nới garo và tới viện trong vòng 2 giờ, còn … |
 
@@ -1002,7 +1003,7 @@ Tổng 927 chỗ tham chiếu.
 | đầu chương | mục 1 đến 3 | Trốn nghĩa vụ quân sự có khung phạt tới 75 triệu đồng và có thể bị xử lý theo Điều 332 Bộ luật Hình sự, dù không có danh mục cấm xuất cảnh. | … … |
 | đầu chương | mục 4 đến 6 | Sinh viên đi nghĩa vụ: bảo lưu kết quả học tập, 10.120.000 đồng trợ cấp xuất ngũ và 15.180.000 đồng trợ cấp tạo việc làm | … … |
 | đầu chương | mục 4 đến 6 | Xuất ngũ về thì việc làm tính từ ba chỗ, và cửa đăng ký chỉ mở 15 ngày làm việc | … … |
-| đầu chương | mục 4 đến 6 | Ba khoản tiền khi xuất ngũ: 2 tháng lương cơ sở mỗi năm phục vụ, cộng 6 tháng tạo việc làm | … … |
+| đầu chương | mục 4 đến 6 | Tiền xuất ngũ: tính riêng trợ cấp theo năm phục vụ và trợ cấp tạo việc làm | … … |
 | đầu chương | mục 7 đến 9 | Vào khu vực nhà nước có bốn cửa, và không có cửa nào tên là "chờ đủ năm thì vào biên chế" | … … |
 | đầu chương | mục 7 đến 9 | Dạy ở xã đặc biệt khó khăn: 10 tháng lương cơ sở khi nhận việc lần đầu, phụ cấp thu hút 70% nhưng chỉ 60 tháng | … … |
 | đầu chương | mục 7 đến 9 | Công an, quân đội có cửa riêng: nghĩa vụ 24 tháng, và ở lại là xét tuyển chứ không tự động | … … |
@@ -1120,7 +1121,7 @@ Tổng 927 chỗ tham chiếu.
 | đầu chương | chương 8 mục 1 | Gây tai nạn thì dừng lại, cứu người, gọi 113 và ở lại hiện trường — bỏ đi là sang khung nặng hơn | …chi-tra-150-trieu-mot-nguoi), gây tai nạn ở … |
 | đầu chương | chương 8 mục 7 | Đã uống thì không cầm lái, kể cả xe máy điện và cái "chỉ dời xe một chút", và đừng giao xe cho người đã uống | …cuu-nguoi-goi-113-va-o), đã uống rượu bia ở … |
 | đầu chương | chương 30 mục 20 | Tuổi đi xe: đủ 16 mới được đi xe gắn máy; xe đạp và xe đạp điện thì luật không đặt tuổi, nhưng con gây tai nạn là bố mẹ trả | …cam-lai-ke-ca-xe-may-dien-va), tuổi đi xe ở … |
-| đầu chương | mục 1 | Xe mô tô hai bánh trên 125 cm³ cần bằng hạng A, bằng A1 chỉ đủ cho xe đến 125 cm³; không có bằng phù hợp bị phạt 2 đến 8 triệu đồng | … … |
+| đầu chương | mục 1 | Kiểm tra hạng bằng và ngày cấp trước khi mua xe: bằng A1 mới và bằng A1 cũ có giới hạn khác nhau | … … |
 | đầu chương | mục 3 | Bằng lái có 12 điểm: mỗi lỗi bị trừ điểm, 12 tháng không bị trừ thì được hồi đủ, hết điểm thì không được lái và phải thi lại sau ít nhất 6 tháng | …to-hai-banh-tren-125-cm-can-bang-hang-a) và … |
 | đầu chương | mục 2 | Xe máy chỉ được chở một người; chở hai người khi đó là người cấp cứu, trẻ em dưới 12 tuổi, người già yếu hoặc khuyết tật; chở từ ba người trở lên bị phạt nặng và trừ điểm | … … |
 | đầu chương | mục 4 | Đỗ xe máy sai chỗ bị phạt 400.000 đến 600.000 đồng, xe còn có thể bị công an cho di chuyển và chủ xe trả chi phí | …duoc-cho-mot-nguoi-cho-hai-nguoi-khi-do) và … |

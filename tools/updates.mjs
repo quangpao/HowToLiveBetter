@@ -5,11 +5,11 @@
 //   node tools/updates.mjs --check    # chỉ so không ghi, cũ rồi thì mã thoát 1 (dùng cho CI, cần fetch-depth: 0)
 //
 // Không dùng thông điệp commit: đó là viết cho người bảo trì ("đồng bộ phần dẫn", "bổ sung neo"), người đọc không hiểu.
-// Mục được nhận theo tiêu đề, không theo số mục: xóa một mục là số mục phía sau đổi hết. Theo quy ước, tiêu đề chỉ được thêm chữ, nên hai bản trước sau
-// khi tiêu đề không khớp thì ghép cặp theo độ giống nhau của tiêu đề và nội dung, cái nào không ghép được mới tính là thêm hoặc xóa.
+// Nhận diện bằng ID cố định. Lịch sử trước khi có ID mới ghép theo tiêu đề/nội dung;
+// hai ID khác nhau không được ghép thành một mục chỉ vì câu chữ giống nhau.
 // Chỉ khi nội dung người đọc nhìn thấy đổi mới tính là "đã sửa": tiêu đề, chi phí, nói dễ hiểu, lợi ích, mức bằng chứng, ghi chú.
 // Cột nguồn, nhãn chi phí, số mục bị dồn, số mục và từ neo trong "mục N (neo)" đổi đều không tính, không thì ngày nào cũng đầy "đã sửa".
-// Chỉ đi theo commit cha thứ nhất của main: PR merge bằng merge --no-ff ở máy được tính vào ngày merge.
+// Chỉ đi theo commit cha thứ nhất của nhánh hiện tại (bản Việt: vi): PR merge được tính vào ngày merge.
 // Mọi mục trước ngày mốc đều coi là mục cũ, không đánh dấu mới. Ngày tính theo giờ Việt Nam.
 // --check chỉ so "mục nào, thêm hay sửa, sửa cột nào", không so ngày: PR trên CI là commit merge tạm,
 // ngày chắc chắn lệch một chút so với lúc sinh ở máy.
@@ -18,9 +18,13 @@ import { join } from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { ROOT } from './lib/book.mjs';
 import { refs } from './lib/references.mjs';
+import {pathToFileURL} from 'node:url';
 
 const CHECK = process.argv.includes('--check');
 const SINCE = '2026-11-01';
+// The initial Vietnamese edition was imported on 2–3 November. Count later changes,
+// rather than presenting the import of the whole book as hundreds of new suggestions.
+const BASELINE = '2026-11-03';
 const OUT = 'updates.json';
 const FIELDS = ['Tiêu đề', 'Chi phí', 'Nói dễ hiểu', 'Lợi ích', 'Pháp luật Việt Nam', 'Mức bằng chứng', 'Ghi chú'];
 
@@ -44,7 +48,7 @@ const norm = s => foldSpelling(refs.plainText(s)).replace(/\s+/g, '')
   .replace(/mục\s*\d+/gi, 'mục #')
   .replace(/chương\s*\d+/gi, 'chương #');
 
-function parse(text) {
+export function parse(text) {
   const out = [];
   let sec = null, e = null;
   for (const line of text.split(/\r?\n/)) {
@@ -55,6 +59,7 @@ function parse(text) {
       out.push(e); continue;
     }
     if (!e) continue;
+    const identity=refs.identity(line); if(identity){e.stableId=identity.id;continue;}
     if ((m = /^- (Chi phí|Nói dễ hiểu|Lợi ích|Pháp luật Việt Nam|Mức bằng chứng|Ghi chú):(.*)$/.exec(line))) e.f[m[1]] = m[2].trim();
   }
   for (const x of out) x.n = Object.fromEntries(FIELDS.map(k => [k, norm(x.f[k] ?? '')]));
@@ -70,14 +75,21 @@ function dice(a, b) {
 }
 
 // Ghép các mục của bản trước (kèm thông tin theo dõi) với bản này, trả về danh sách theo dõi của bản này
-function step(prev, cur, date) {
+export function step(prev, cur, date) {
   const next = new Array(cur.length);
   const byTitle = new Map();
   prev.forEach((p, i) => { const k = p.e.n['Tiêu đề']; if (!byTitle.has(k)) byTitle.set(k, []); byTitle.get(k).push(i); });
   const used = new Set();
+  const stable=new Map(); prev.forEach((p,i)=>{if(p.e.stableId)stable.set(p.e.stableId,i);});
+  cur.forEach((c,j)=>{
+    const i=c.stableId ? stable.get(c.stableId) : undefined;
+    if(i!==undefined && !used.has(i)){used.add(i);next[j]={...prev[i],e:c};}
+  });
   // ① Tiêu đề khớp từng chữ: mục cùng tên ưu tiên ghép trong cùng số chương
   cur.forEach((c, j) => {
-    const cand = (byTitle.get(c.n['Tiêu đề']) ?? []).filter(i => !used.has(i));
+    if(next[j])return;
+    const cand = (byTitle.get(c.n['Tiêu đề']) ?? []).filter(i => !used.has(i)
+      && !(c.stableId && prev[i].e.stableId && c.stableId !== prev[i].e.stableId));
     if (!cand.length) return;
     const sec = c.key.split('-')[0];
     const i = cand.find(i => prev[i].e.key.split('-')[0] === sec) ?? cand[0];
@@ -93,6 +105,7 @@ function step(prev, cur, date) {
     for (const j of restC) {
       const sc = sig(cur[j]);
       for (const i of restP) {
+        if(cur[j].stableId && prev[i].e.stableId && cur[j].stableId !== prev[i].e.stableId)continue;
         const s = Math.max(dice(sc.t, sp.get(i).t), dice(sc.b, sp.get(i).b) * 0.9);
         if (s >= 0.5) pairs.push([s, i, j]);
       }
@@ -107,14 +120,9 @@ function step(prev, cur, date) {
   return next;
 }
 
-// Chỉ đổi lời văn không tính là "đã sửa": 2026-10-14 rà soát cả sách một lần sửa hơn năm trăm mục phần nói dễ hiểu và ghi chú, đánh dấu hết thì người đọc bị nhấn chìm.
-// Tính là sửa khi: tiêu đề hoặc mức bằng chứng đổi; con số trong cột đổi (dữ liệu mới, số đã sửa); hoặc một cột dài ra đáng kể (bổ sung nội dung mới).
-const nums = s => (s.match(/\d+(?:\.\d+)?/g) ?? []).sort().join();
-function real(k, a, b) {
-  if (a === b) return false;
-  if (k === 'Tiêu đề' || k === 'Mức bằng chứng') return true;
-  return nums(a) !== nums(b) || b.length - a.length >= Math.max(60, a.length / 4);
-}
+// A short edit can change a safety condition without changing any numbers.
+// Record every normalized visible-field change; spelling/renumbering is normalized above.
+export function real(k, a, b) { return a !== b; }
 
 // Sau khi ghép cặp thì so từng cột, ghi lại đã sửa cột nào; trong cùng một ngày sửa mấy lượt thì gộp các cột lại
 function advance(prev, cur, date) {
@@ -133,6 +141,7 @@ function advance(prev, cur, date) {
 let SEQ = 0;
 
 // ---------- Lấy lịch sử ----------
+function runUpdates(){
 const sinceTs = Math.floor(new Date(`${SINCE}T00:00:00+07:00`).getTime() / 1000);
 const base = git(['rev-list', '-1', '--first-parent', `--before=${sinceTs}`, 'HEAD']).toString().trim();
 if (!base) throw new Error(`Không thấy commit nào trước ${SINCE}. Trên CI phải checkout với fetch-depth: 0`);
@@ -185,21 +194,25 @@ if (dirty) {
 // ---------- Xuất ra ----------
 const items = {};
 for (const t of track) {
-  if (t.added) items[t.e.key] = { added: t.added };
-  else if (t.changed) items[t.e.key] = { changed: t.changed, fields: FIELDS.filter(k => t.fields.includes(k)) };
+  if (t.added && t.added > BASELINE) items[t.e.key] = { added: t.added };
+  else if (t.changed && t.changed > BASELINE) items[t.e.key] = { changed: t.changed, fields: FIELDS.filter(k => t.fields.includes(k)) };
 }
 const keys = Object.keys(items).sort((a, b) => {
   const [x1, y1] = a.split('-').map(Number), [x2, y2] = b.split('-').map(Number);
   return x1 - x2 || y1 - y2;
 });
 // Mỗi mục một dòng, diff đọc được
-const json = `{"since":"${SINCE}","items":{\n${keys.map(k => `${JSON.stringify(k)}:${JSON.stringify(items[k])}`).join(',\n')}\n}}\n`;
+const byId=Object.fromEntries(track.filter(t=>t.e.stableId && items[t.e.key]).map(t=>[t.e.stableId,items[t.e.key]]));
+const rows = values => Object.entries(values).map(([k,v])=>JSON.stringify(k)+':'+JSON.stringify(v)).join(',\n');
+const json = `{"since":${JSON.stringify(SINCE)},"baseline":${JSON.stringify(BASELINE)},"items":{\n${rows(Object.fromEntries(keys.map(k=>[k,items[k]])))}\n},"byId":{\n${rows(byId)}\n}}\n`;
 
 const nAdd = keys.filter(k => items[k].added).length, nChg = keys.length - nAdd;
 console.log(`Cập nhật: từ ${SINCE} có ${nAdd} mục mới, ${nChg} mục đã sửa (so ${commits.length} commit${dirty ? ' và vùng làm việc' : ''})`);
 
-const strip = s => JSON.stringify(Object.fromEntries(Object.entries(JSON.parse(s).items)
-  .map(([k, v]) => [k, v.added ? 'added' : v.fields.join()])));
+const strip = s => {
+  const value=JSON.parse(s), normalized=items=>Object.fromEntries(Object.entries(items||{}).map(([k,v])=>[k,v.added?'added':v.fields.join()]));
+  return JSON.stringify({baseline:value.baseline,items:normalized(value.items),byId:normalized(value.byId)});
+};
 const old = existsSync(join(ROOT, OUT)) ? readFileSync(join(ROOT, OUT), 'utf8') : '';
 if (CHECK) {
   if (old && strip(old) === strip(json)) { console.log('updates.json khớp'); process.exit(0); }
@@ -207,3 +220,6 @@ if (CHECK) {
   process.exit(1);
 }
 if (old.replace(/\r\n/g, '\n') !== json) writeFileSync(join(ROOT, OUT), json);
+
+}
+if(process.argv[1] && import.meta.url===pathToFileURL(process.argv[1]).href)runUpdates();
