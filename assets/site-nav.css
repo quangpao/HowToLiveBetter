@@ -1,0 +1,38 @@
+/* Navigation from the original home page. Scoped colours keep it identical on every page. */
+html{scrollbar-gutter:stable}
+.nav{
+  --nav-ink:#222b24;--nav-muted:#62685d;--nav-line:#c9cbbf;
+  --nav-paper:#fbf9f2;--nav-hover:#e4ebdc;--nav-brand:#267342;
+  position:static;height:auto;border:0;background:transparent;margin:0 auto;
+  max-width:1440px;padding:28px 48px 0;
+  color:var(--nav-ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+html.dark .nav{
+  --nav-ink:#f0efe4;--nav-muted:#b8bfb1;--nav-line:#485449;
+  --nav-paper:#202822;--nav-hover:#303f2c;--nav-brand:#a4e28c;
+}
+.nav,.nav *{box-sizing:border-box}
+.nav-in{display:flex;align-items:center;padding:0 0 16px;min-height:52px;border-bottom:1px solid var(--nav-ink);justify-content:space-between;gap:20px}
+.nav a{text-decoration:none;transition:color .25s;text-underline-offset:4px;touch-action:manipulation}
+.nav a:hover{text-decoration:underline;text-decoration-thickness:auto}
+.nav .title{display:flex;align-items:center;font-size:15px;font-weight:650;letter-spacing:-.02em;gap:12px;color:var(--nav-ink);white-space:nowrap}
+.nav .title:hover{color:var(--nav-ink);text-decoration:none}
+.nav .title .logo{display:grid}
+.nav .logo{display:grid;place-items:center;width:36px;height:36px;border-radius:9px;background:transparent;flex:none}
+.nav .logo svg{width:36px;height:36px}
+.nav-r{display:flex;align-items:center;gap:18px;flex-wrap:wrap;justify-content:flex-end}
+.nav-r a{font-size:13px;color:var(--nav-muted)}
+.nav-r [aria-current=page]{color:var(--nav-ink);text-decoration:underline}
+.nav .utility-btn{font:inherit;font-size:13px;color:inherit;border:1px solid var(--nav-line);padding:6px 11px;background:var(--nav-paper);border-radius:2px;min-height:36px;cursor:pointer;touch-action:manipulation}
+.nav .utility-btn:hover{background:var(--nav-hover)}
+.nav :focus-visible{outline:3px solid var(--nav-brand);outline-offset:4px;border-radius:2px}
+.skip{position:absolute;top:-100px;left:24px;z-index:90;padding:10px 16px;background:var(--bg-elv,var(--paper,var(--bg-soft)))}
+.skip:focus{top:12px}
+@media(max-width:1050px){.nav{padding:22px 28px 0}.nav-r{gap:12px}}
+@media(max-width:700px){
+  .nav{padding:16px 18px 0}.nav-in{gap:12px;align-items:center}
+  .nav .title{font-size:13px;gap:8px}.nav .logo,.nav .logo svg{width:30px;height:30px}
+  .nav-r{gap:8px}.nav-r .nav-extra{display:none}
+}
+@media print{.nav-r{display:none!important}}

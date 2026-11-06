@@ -32,7 +32,7 @@
 {"@type":"Book","@id":"https://quangpao.github.io/HowToLiveBetter/#book","name":"Cẩm nang sống thông minh","url":"https://quangpao.github.io/HowToLiveBetter/","inLanguage":"vi-VN","bookFormat":"https://schema.org/EBook","license":"https://creativecommons.org/licenses/by/4.0/","abstract":"Cẩm nang sống tính theo hiệu quả trên chi phí: mỗi mục ghi rõ mất gì (tiền, thời gian, ý chí) và được gì, kèm mức bằng chứng A/B/C và nguồn gốc. Lọc được theo tiền, thời gian, ý chí.","about":["sức khỏe","sống lâu","tài chính cá nhân","cấp cứu","kiến thức pháp luật","bảo vệ người tiêu dùng"],"isAccessibleForFree":true}
 ]}
 </script>
-<script>(function(){try{var s=localStorage.getItem('theme');var d=s?s==='dark':matchMedia('(prefers-color-scheme: dark)').matches;if(d)document.documentElement.classList.add('dark')}catch(e){}})();</script>
+<script src="assets/site-theme.js"></script>
 <style>
 :root{
   --bg:#ffffff; --bg-alt:#f6f6f7; --bg-soft:#f6f6f7; --bg-mute:#f1f1f2; --bg-elv:#ffffff;
@@ -307,19 +307,6 @@ body{font-size:15px;line-height:1.65}
 button,a,input,summary{touch-action:manipulation}
 a{text-underline-offset:4px}
 :focus-visible{outline:3px solid var(--brand-1);outline-offset:4px;border-radius:2px}
-.skip{position:absolute;top:-100px;left:24px;z-index:90;padding:10px 16px;background:var(--bg-elv)}
-.skip:focus{top:12px}
-.nav{position:static;height:auto;border:0;background:transparent;margin:0 auto;max-width:1440px;padding:28px 48px 0}
-.nav-in{display:flex;align-items:center;padding:0 0 16px;min-height:52px;border-bottom:1px solid var(--t1);justify-content:space-between;gap:20px}
-.title{display:flex;align-items:center;font-size:15px;font-weight:650;letter-spacing:-.02em;gap:12px;color:var(--t1);white-space:nowrap}
-.title:hover{color:var(--t1);text-decoration:none}
-.title .logo{display:grid}
-.logo{display:grid;place-items:center;width:36px;height:36px;border-radius:9px;background:transparent;flex:none}
-.logo svg{width:36px;height:36px}
-.nav-r{display:flex;align-items:center;gap:18px;flex-wrap:wrap;justify-content:flex-end}
-.nav-r a{font-size:13px;color:var(--t2)}
-.utility-btn{font-size:13px;border:1px solid var(--divider);padding:6px 11px;background:var(--bg-soft);border-radius:2px;min-height:36px}
-.utility-btn:hover{background:var(--bg-mute)}
 .content{padding:0 48px 64px;max-width:1440px;margin:auto}
 .doc{max-width:none}
 .cover-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:44px;align-items:center;padding:38px 0 24px}
@@ -437,14 +424,12 @@ th[aria-sort=descending] .column-sort:after{content:'↓';color:var(--brand-1)}
 #doc-modal,#xref-pop,.pop{border-radius:2px}
 .pop{z-index:85}
 @media(max-width:1050px){
-  .nav{padding:22px 28px 0}.content{padding-inline:28px}.cover-grid{gap:24px}.nav-r{gap:12px}
+  .content{padding-inline:28px}.cover-grid{gap:24px}
   .cover-copy h1{font-size:clamp(38px,4.5vw,54px)}.hero-meta{gap:24px}.records-table{table-layout:auto}
   .records-table th:nth-child(n){width:auto}.records-table th:first-child{width:24%}
   .sidebar{grid-template-columns:repeat(2,minmax(0,1fr))}.sidebar .hint{grid-column:auto}
 }
 @media(max-width:700px){
-  .nav{padding:16px 18px 0}.nav-in{gap:12px;align-items:center}.title{font-size:13px;gap:8px}
-  .logo{width:30px;height:30px}.logo svg{width:30px;height:30px}.nav-r{gap:8px}.nav-r .nav-extra{display:none}
   .content{padding:0 18px 40px}.cover-grid{grid-template-columns:1fr;gap:24px;padding-top:28px}
   .cover-copy h1{font-size:44px;max-width:460px;margin:14px 0 20px}.deck{font-size:15px;max-width:520px}
   .hero-actions{margin-top:22px;gap:22px}.hero-meta{margin-top:22px}.hero-meta dt{font-size:24px}
@@ -555,6 +540,7 @@ th[aria-sort=descending] .column-sort:after{content:'↓';color:var(--brand-1)}
 .quick-paths{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0}.quick-paths a{border:1px solid var(--divider);padding:9px 13px;border-radius:5px;color:var(--brand-1);font-size:13px;text-decoration:none;min-height:44px}.entry-tools{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin-top:18px;font-size:13px}.entry-tools button{padding:8px 12px;border:1px solid var(--divider);min-height:40px}.entry-review{font-size:13px;color:var(--t2);padding:12px 15px;border-left:3px solid var(--brand-1);margin-block:14px}.reading-mode .quick-paths{display:none}.hero-actions{flex-wrap:wrap}@media print{.quick-paths,.entry-tools{display:none}}
 
 </style>
+<link rel="stylesheet" href="assets/site-nav.css">
 
 
 </head>
@@ -569,10 +555,10 @@ th[aria-sort=descending] .column-sort:after{content:'↓';color:var(--brand-1)}
 </noscript>
 
 <a class="skip" href="#explore">Đi tới phần tra cứu</a>
+<!-- site-nav:start -->
 <header class="nav">
   <div class="nav-in">
-    <a class="title" href="./"><span class="logo" aria-hidden="true"><svg viewBox="0 0 64 64" focusable="false">
-
+    <a class="title" href="./"><span class="logo" aria-hidden="true"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <rect width="64" height="64" rx="14" fill="#267342"/>
   <path d="M32 25C24 25 18 21 18 14c8-1 14 4 14 11Z" fill="#d6bf83"/>
   <path d="M32 24c0-8 5-14 14-14 0 8-5 14-14 14Z" fill="#f4f1e8"/>
@@ -583,10 +569,11 @@ th[aria-sort=descending] .column-sort:after{content:'↓';color:var(--brand-1)}
       <a class="nav-extra" href="tinh-huong/">Theo tình huống</a>
       <a class="nav-extra" href="phap-luat/">Pháp luật</a>
       <a href="https://github.com/quangpao/HowToLiveBetter" target="_blank" rel="noopener">GitHub ↗</a>
-      <button class="utility-btn" id="theme" type="button" aria-label="Bật/tắt nền tối" aria-pressed="false">Nền tối</button>
+      <button class="utility-btn" id="theme" type="button" data-theme aria-label="Bật/tắt nền tối" aria-pressed="false">Nền tối</button>
     </nav>
   </div>
 </header>
+<!-- site-nav:end -->
 
 <div class="pop" id="pop" role="tooltip" hidden><b></b><span></span></div>
 
@@ -624,7 +611,7 @@ th[aria-sort=descending] .column-sort:after{content:'↓';color:var(--brand-1)}
         <div class="reader-controls" id="book-reader-controls" hidden>
           <button type="button" id="book-contents-toggle" aria-controls="book-contents" aria-expanded="false">Mục lục</button>
           <div class="reader-font-controls" role="group" aria-label="Cỡ chữ trang đọc"><button type="button" id="book-font-less" aria-label="Giảm cỡ chữ">A−</button><output id="book-font-size" aria-label="Cỡ chữ">19</output><button type="button" id="book-font-more" aria-label="Tăng cỡ chữ">A+</button></div>
-          <button type="button" id="book-theme" aria-pressed="false">Nền tối</button>
+          <button type="button" id="book-theme" data-theme aria-pressed="false">Nền tối</button>
         </div>
       </div>
 <aside class="sidebar" id="sidebar" aria-label="Bộ lọc tra cứu" hidden>
@@ -2086,7 +2073,6 @@ function wireBook(){
     document.getElementById('book-paper').style.setProperty('--book-font', BOOK.font + 'px');
     syncFont(); saveBookPreferences(); restoreBookPosition(position);
   });
-  document.getElementById('book-theme').addEventListener('click', () => document.getElementById('theme').click());
   addEventListener('scroll', () => {
     if (state.view !== 'book' || BOOK.restoring) return;
     clearTimeout(BOOK.timer); BOOK.timer = setTimeout(() => rememberBook(), 220);
@@ -2303,16 +2289,6 @@ function wire(){
   addEventListener('scroll', () => { pop.hidden = true; }, {passive:true});
   // Bộ lọc thu gọn dùng chung trên máy tính và điện thoại.
   mb.addEventListener('click', () => setMenu(!sb.classList.contains('open')));
-  // Chế độ tối
-  const themeButton = document.getElementById('theme');
-  const syncTheme = () => { const dark = document.documentElement.classList.contains('dark'); for (const button of [themeButton,document.getElementById('book-theme')]) { button.textContent = dark ? 'Nền sáng' : 'Nền tối'; button.setAttribute('aria-pressed', String(dark)); } };
-  syncTheme();
-  themeButton.addEventListener('click', () => {
-    const dark = !document.documentElement.classList.contains('dark');
-    document.documentElement.classList.toggle('dark', dark);
-    try { localStorage.setItem('theme', dark ? 'dark' : 'light'); } catch (e) {}
-    syncTheme();
-  });
 }
 
 /* ---------- Khởi động ---------- */

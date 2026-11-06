@@ -77,11 +77,13 @@ for(const [path,source] of Object.entries(sitePages())){
   assert.ok(source.includes('canonical'),path);
   for(const match of source.matchAll(/#entry-([a-z0-9-]+)/g))assert.ok(catalog.byId.has(match[1]),path+' broken entry '+match[1]);
   assert.ok(source.includes(canonicalShareImage),path+' must use the live share card');
-  const themeScript=source.match(/<script>([\s\S]*?)<\/script>/);
-  assert.ok(themeScript && source.indexOf(themeScript[0])<source.indexOf('<link rel="stylesheet"'),path+' must set theme before styles/first paint');
+}
+for(const [path,source] of Object.entries({...sitePages(),'index.html':html,'selfcheck.html':read('selfcheck.html')})){
+  const themeScript=source.match(/<script src="(?:\.\.\/)?assets\/site-theme.js"><\/script>/);
+  assert.ok(themeScript && source.indexOf(themeScript[0])<source.search(/<style>|<link rel="stylesheet"/),path+' must set theme before styles/first paint');
   for(const [stored,system,blocked,expected] of [['dark',false,false,true],['light',true,false,false],[null,true,false,true],[null,true,true,true]]){
     let dark;
-    vm.runInNewContext(themeScript[1],{localStorage:{getItem(){if(blocked)throw Error('blocked');return stored;}},matchMedia:()=>({matches:system}),document:{documentElement:{classList:{toggle:(name,value)=>{assert.equal(name,'dark');dark=value;}}}}});
+    vm.runInNewContext(read('assets/site-theme.js'),{localStorage:{getItem(){if(blocked)throw Error('blocked');return stored;}},matchMedia:()=>({matches:system}),document:{addEventListener(){},documentElement:{classList:{toggle:(name,value)=>{assert.equal(name,'dark');dark=value;}}}}});
     assert.equal(dark,expected,path+' wrong first-paint theme');
   }
 }

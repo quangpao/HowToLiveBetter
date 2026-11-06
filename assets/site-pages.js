@@ -1,8 +1,4 @@
 (function(){
-  document.querySelector('[data-theme]')?.addEventListener('click',()=>{
-    const dark=document.documentElement.classList.toggle('dark');
-    try{localStorage.setItem('theme',dark?'dark':'light');}catch(_){}
-  });
   const search=document.querySelector('[data-legal-search]');
   if(search)search.addEventListener('input',()=>{
     const words=BookReader.terms(search.value);let count=0;

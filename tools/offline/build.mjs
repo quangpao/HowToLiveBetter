@@ -33,6 +33,8 @@ const corpusJson = JSON.stringify(corpus).replace(/<\/script/gi, '<\\/script');
 
 // ---------- Trang ----------
 let html = read('index.html');
+html = html.replace('<link rel="stylesheet" href="assets/site-nav.css">',()=>'<style>' + read('assets/site-nav.css') + '</style>');
+html = html.replace('<script src="assets/site-theme.js"></script>',()=>'<script>' + read('assets/site-theme.js').replace(/<\/script/gi,'<\\/script') + '</script>');
 html = html.replace('<script src="assets/book-references.js"></script>',()=>'<script>' + read('assets/book-references.js').replace(/<\/script/gi,'<\\/script') + '</script>');
 html = html.replace('<script src="assets/book-citations.js"></script>',()=>'<script>' + read('assets/book-citations.js').replace(/<\/script/gi,'<\\/script') + '</script>');
 html = html.replace('<script src="assets/book-reader.js"></script>',()=>'<script>' + read('assets/book-reader.js').replace(/<\/script/gi,'<\\/script') + '</script>');
