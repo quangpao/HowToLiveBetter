@@ -7,7 +7,7 @@ body:
     id: where
     attributes:
       label: Mục nào
-      description: Ghi số chương và số mục, ví dụ "chương 32, mục 2".
+      description: Dán liên kết mục hoặc ghi chương/mục. Nút Góp ý ở mỗi mục điền sẵn thông tin này.
       placeholder: Chương X, mục Y
     validations:
       required: true
@@ -15,13 +15,13 @@ body:
     id: problem
     attributes:
       label: Chỗ nào sai
-      description: Chép nguyên câu đó vào đây, rồi nói đúng phải là gì.
+      description: Chép câu đang khó hiểu hoặc có thể sai, rồi nói điều bạn gặp. Bạn không cần biết sẵn đáp án đúng.
     validations:
       required: true
   - type: textarea
     id: source
     attributes:
-      label: Căn cứ
-      description: Bài báo khoa học (DOI hoặc link PubMed), nguyên văn điều luật, trang web của cơ quan nhà nước hoặc tổ chức chính thức. Bài đăng lại trên mạng xã hội, báo tổng hợp, diễn đàn thì không dùng được.
+      label: Nguồn đối chiếu (nếu có)
+      description: Nếu có, gửi bài báo khoa học, nguyên văn điều luật hoặc trang cơ quan chính thức. Báo lỗi chữ, câu khó hiểu hay liên kết hỏng không bắt buộc phải có nguồn.
     validations:
-      required: true
+      required: false

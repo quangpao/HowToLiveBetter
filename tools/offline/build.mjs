@@ -5,6 +5,7 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { ROOT, REPO, REPO_BRANCH, SITE, README_FILE, read, gitCommit, buildStamp } from '../lib/book.mjs';
+import {readerData} from '../reader-data.mjs';
 
 const OUT = resolve(ROOT, process.argv[2] ?? 'dist/HowToLiveBetter.html');
 const STAMP = buildStamp();
@@ -24,6 +25,8 @@ const corpus = {
   // dấu "mới cập nhật", do tools/updates.mjs sinh ra và được commit vào repo
   updates: JSON.parse(read('updates.json')),
   citations: JSON.parse(read('data/legal-references.json')),
+  reviews: JSON.parse(read('data/review-status.json')),
+  readerVersion: readerData().version,
 };
 // </script sẽ đóng thẻ script sớm; \/ trong chuỗi JS chính là /, nội dung không đổi
 const corpusJson = JSON.stringify(corpus).replace(/<\/script/gi, '<\\/script');
@@ -32,26 +35,25 @@ const corpusJson = JSON.stringify(corpus).replace(/<\/script/gi, '<\\/script');
 let html = read('index.html');
 html = html.replace('<script src="assets/book-references.js"></script>',()=>'<script>' + read('assets/book-references.js').replace(/<\/script/gi,'<\\/script') + '</script>');
 html = html.replace('<script src="assets/book-citations.js"></script>',()=>'<script>' + read('assets/book-citations.js').replace(/<\/script/gi,'<\\/script') + '</script>');
+html = html.replace('<script src="assets/book-reader.js"></script>',()=>'<script>' + read('assets/book-reader.js').replace(/<\/script/gi,'<\\/script') + '</script>');
 const must = (needle, label) => {
   if (!html.includes(needle)) throw new Error(`Không tìm thấy${label} trong index.html, script bản offline phải sửa theo: ${needle}`);
 };
 
 // Script thống kê không được đi theo bản offline: bản sao người khác bấm đúp mở không nên gửi request ra ngoài, mất mạng còn phải chờ timeout
 const GA_START = '<!-- ga:start', GA_END = '<!-- ga:end -->';
-must(GA_START, ' dấu bắt đầu đoạn GA');
-must(GA_END, ' dấu kết thúc đoạn GA');
-html = html.slice(0, html.indexOf(GA_START)) + html.slice(html.indexOf(GA_END) + GA_END.length);
+if(html.includes(GA_START) && html.includes(GA_END)) html = html.slice(0, html.indexOf(GA_START)) + html.slice(html.indexOf(GA_END) + GA_END.length);
 // Chỉ tìm tên miền gọi ra ngoài: track() trong script chính có kiểm tra typeof, không có gtag vẫn chạy được, không tính là sót
 if (/googletagmanager|google-analytics/.test(html)) throw new Error('Sau khi bỏ đoạn giữa hai dấu vẫn còn tên miền thống kê, bản offline sẽ gửi request ra ngoài');
 
 // Liên kết tương đối mở ở máy là chết, đổi thành địa chỉ online
-must(`href="${README_FILE}"`, `liên kết ${README_FILE}`);
 must('href="book/"', ' liên kết book/');
 // Trang tự kiểm tra chưa dịch nên bản Việt chưa trỏ tới; có thì mới đổi sang link tuyệt đối
 html = html
   .replaceAll(`href="${README_FILE}"`, `href="${REPO}/blob/${REPO_BRANCH}/${README_FILE}"`)
   .replaceAll('href="selfcheck.html"', `href="${SITE}selfcheck.html"`)  // nếu trang có link
   .replaceAll('href="book/"', `href="${REPO}/tree/${REPO_BRANCH}/book"`)
+  .replace(/href="(tinh-huong|phap-luat|tai-ve|ve-cam-nang|kiem-chung)\/([^"\n]*)"/g,(_,page,fragment)=>`href="${SITE}${page}/${fragment}"`)
   .replaceAll('<a class="title" href="./"', `<a class="title" href="${SITE}"`);
 
 // Nhúng minh họa bìa để bản một file không cần tải ảnh ngoài.

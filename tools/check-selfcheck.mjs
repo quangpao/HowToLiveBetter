@@ -53,6 +53,7 @@ const expected = [
   ['Xét nghiệm đường huyết',35], ['nhũ ảnh',40], ['đại trực tràng',45],
   ['zona thần kinh',50], ['vắc xin cúm',60], ['phế cầu',65], ['mật độ xương',65],
 ];
+run("ans['p:kid10'] = 'n'");
 for (const [key, min] of expected) {
   for (const age of [min - 1, min]) {
     run(`ans['p:ageYears'] = '${age}'`);
@@ -86,4 +87,10 @@ element('qs').listeners.get('input')({target:{
 }});
 assert.equal(run("ans['p:ageYears']"), '40');
 assert.equal(element('profile-qs').innerHTML, profileHtml, 'Không dựng lại ô thông tin khi đang nhập');
+run("ans = {'p:ageYears':'30','p:sex':'f','p:kid10':'y'}");
+assert.equal(run("activeQs().some(q => q.key === 'Trẻ dưới 10 tuổi')"), true, 'Gia đình có trẻ 5–9 tuổi vẫn được hỏi an toàn ô tô');
+run("ans[qid(activeQs()[0])] = 'y'; renderOut()");
+assert.ok(!element('verdict').innerHTML.includes('Những việc trong sách bạn đều đã làm'));
+assert.match(element('verdict').innerHTML, /chưa trả lời/);
+assert.equal(run("GROUPS.flatMap(g=>g.qs).every(q=>q.entryId && q.entry?.id === q.entryId)"), true);
 console.log('Trang tự kiểm tra đã qua: tham chiếu câu hỏi, 7 ngưỡng tuổi, chuyển đáp án cũ, kiểm tra đầu vào, hiện lưu ý và chép danh sách');

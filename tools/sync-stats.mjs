@@ -26,6 +26,8 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { spawnSync } from 'node:child_process';
 import { tmpdir } from 'node:os';
 import { COST_W as W, ratioOf } from './lib/book.mjs';
+import {writeReaderData} from './reader-data.mjs';
+import {writeSitePages} from './site-pages.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const CHECK = process.argv.includes('--check');
@@ -92,7 +94,6 @@ console.log('');
 // sang chương thứ hai là sai ngay.
 const perChapter = bookFiles.map(f => [f, read(join('book', f)).split(/\r?\n/).filter(l => l.startsWith('### ')).length]);
 const EDITS = [
-  ['index.html', 'numberOfPages', /numberOfPages":(\d+)/g, `numberOfPages":${entries}`],
   ['tools/og.html', 'số mục trên ảnh chia sẻ', /(?<=data-stat="mục">)\d+(?=<)/g, String(entries)],
   ['tools/og.html', 'số mục bằng chứng A', /(?<=data-stat="A">)\d+(?=<)/g, String(grade.A)],
   ['tools/og.html', 'số liên kết nguồn', /(?<=data-stat="nguồn">)\d+(?=<)/g, String(links)],
@@ -159,6 +160,7 @@ if (missingQuestions.length) {
 
 if (CHECK) {
   if (stale.length === 0 && !badWho.length) {
+    writeReaderData(true); writeSitePages(true);
     console.log('\nKiểm tra số liệu: đạt');
     process.exit(0);
   }
@@ -180,6 +182,7 @@ console.log('Trước khi commit liếc qua diff của docs/doi-chieu-muc.md: s�
 // Mới cập nhật: dấu "mới" "đã sửa" trên trang tra cứu, thay đổi chưa commit trong vùng làm việc tính là hôm nay
 console.log('');
 if (runTool('updates.mjs') !== 0) throw new Error('updates.mjs thất bại');
+writeReaderData(); writeSitePages();
 
 // ③ Kiểm "nói dễ hiểu" chỉ nhắc không dừng: số liệu đã đồng bộ xong, dừng ở đây lại làm người ta tưởng thống kê chưa cập nhật. Trên CI nó vẫn báo đỏ
 console.log('');

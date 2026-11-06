@@ -27,22 +27,32 @@ export const GAIN_TOPIC_START = [
   /^(Nguy cơ|Lợi ích|Chi phí|Tác hại|Rủi ro|Hiệu quả)\b/,                                // nêu lại một vế
   /^(Nếu|Khi|Ai|Người)\s/,                                                               // khuyến cáo theo tình huống
   /^[A-ZĐ][^,.;:]{2,30}\s20\d{2}\b/,                                                     // GLOBOCAN 2024 …, NLST 2011 …
+  /^(Điều|Khoản|Điểm|Luật|Bộ luật|Nghị định|Thông tư|Nghị quyết)\s/,
 ];
 
 // Dấu mở/đóng ngoặc và nháy: bên trong thì không cắt câu, không cắt nguồn
-const OPEN = '“‘"\'‘«(《';
-const CLOSE = '”"\'’»)'; // 《》 của tiêu đề văn bản cũng tính; ngoặc đơn Anh dùng trong tên bài
 const SEMI = ';；';
+// Nháy thẳng đóng/mở theo cặp; dấu nháy trong O'Brien không mở một đoạn trích.
+function splitDepth(text, i, state) {
+  const c = text[i], pairs = {'“':'”','‘':'’','«':'»','(' : ')','《':'》'};
+  if ((c === '"' || c === "'") && !(c === "'" && /\p{L}/u.test(text[i-1] || '') && /\p{L}/u.test(text[i+1] || ''))) {
+    if (state.quote === c) state.quote = '';
+    else if (!state.quote) state.quote = c;
+  } else if (!state.quote) {
+    if (pairs[c]) state.stack.push(pairs[c]);
+    else if (state.stack.at(-1) === c) state.stack.pop();
+  }
+  return state.stack.length + Number(!!state.quote);
+}
 
 // "Lợi ích"/"Ghi chú": cắt ở dấu chấm ngoài ngoặc, gặp câu mở đầu ý mới thì sang mảnh khác
 export function splitGain(text) {
   if (!text || text.length < GAIN_MIN_LEN) return [text];
   const sentences = [];
-  let buf = '', depth = 0;
+  let buf = ''; const nesting = {stack:[], quote:''};
   for (let i = 0; i < text.length; i++) {
     const c = text[i];
-    if (OPEN.includes(c)) depth++;
-    else if (CLOSE.includes(c)) depth = Math.max(0, depth - 1);
+    const depth = splitDepth(text, i, nesting);
     buf += c;
     if (c === '.' && depth === 0) {
       const next = text[i + 1] ?? '';
@@ -70,11 +80,10 @@ export function splitGain(text) {
 // "Nguồn": các tài liệu cách nhau bằng ";", mỗi tài liệu một dòng. Dấu ";" bên trong ngoặc/nháy không tính
 // (tên bài báo hay có "…: nghiên cứu; 2024").
 export function splitSrc(text) {
-  const parts = []; let buf = '', depth = 0;
+  const parts = []; let buf = ''; const nesting = {stack:[], quote:''};
   for (let i = 0; i < text.length; i++) {
     const c = text[i];
-    if (OPEN.includes(c)) depth++;
-    if (CLOSE.includes(c)) depth = Math.max(0, depth - 1);
+    const depth = splitDepth(text, i, nesting);
     if (SEMI.includes(c) && depth === 0) { parts.push(buf); buf = ''; continue; }
     buf += c;
   }

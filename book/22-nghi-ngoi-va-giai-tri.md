@@ -205,7 +205,7 @@ Về bối cảnh Việt Nam: mười hai mục của chương này không chia 
 <a name="entry-tu-65-tuoi-nuoi-mot-so-thich-va-duy-tri-deu-dung" data-legacy="22-13"></a>
 
 - Chi phí: Vài trăm nghìn đến vài triệu đồng cho dụng cụ lúc đầu, tuỳ môn. Mỗi tuần vài giờ. Cái khó là mấy tháng đầu tiến bộ chậm nên dễ bỏ.
-- Nói dễ hiểu: Người từ 65 tuổi trở lên có sở thích thì ít triệu chứng trầm cảm hơn và hài lòng với cuộc sống hơn một chút. Mức chênh nhỏ, khoảng một phần mười độ lệch chuẩn. Đã trầm cảm đến mức ảnh hưởng sinh hoạt thì đi khám, đừng lấy sở thích thay cho điều trị.
+- Nói dễ hiểu: Người từ 65 tuổi trở lên có sở thích thường ít triệu chứng trầm cảm hơn và hài lòng với cuộc sống hơn một chút. Chênh lệch nhỏ và chưa chứng minh quan hệ nhân quả. Đã trầm cảm ảnh hưởng sinh hoạt thì đi khám, đừng lấy sở thích thay điều trị.
 - Lợi ích: Mak và cộng sự gộp 5 nghiên cứu theo dõi ở 16 nước, với 93.263 người từ 65 tuổi trở lên. Cách tính là so cùng một người ở những năm có sở thích và những năm không có, nên loại được yếu tố không đổi như tính cách. Có sở thích thì triệu chứng trầm cảm thấp hơn 0,10 độ lệch chuẩn (khoảng tin cậy 95% −0,13 đến −0,07), sức khoẻ tự đánh giá cao hơn 0,06 (0,03 đến 0,08), hạnh phúc 0,09 (0,06 đến 0,13), hài lòng cuộc sống 0,10 (0,08 đến 0,12). Tỷ lệ người có sở thích chênh nhau rất lớn giữa các nước: Tây Ban Nha 51,0%, Đan Mạch 96,0%.
 - Mức bằng chứng: A
 - Nguồn: Mak HW, Noguchi T, Bone JK, Wels J, Gao Q, Kondo K, Saito T, Fancourt D (2023). Hobby engagement and mental wellbeing among people aged 65 years and older in 16 countries. Nature Medicine, 29(9), 2233-2240. <https://doi.org/10.1038/s41591-023-02506-1>

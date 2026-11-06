@@ -14,6 +14,11 @@ on:
       - README.md
       - index.html
       - selfcheck.html
+      - ve-cam-nang/**
+      - tai-ve/**
+      - tinh-huong/**
+      - phap-luat/**
+      - kiem-chung/**
       - og.png
       - assets/**
       - data/**
@@ -26,6 +31,11 @@ on:
       - README.md
       - index.html
       - selfcheck.html
+      - ve-cam-nang/**
+      - tai-ve/**
+      - tinh-huong/**
+      - phap-luat/**
+      - kiem-chung/**
       - og.png
       - assets/**
       - data/**
@@ -47,11 +57,7 @@ env:
   TYPST_VERSION: '0.15.1'
 
 jobs:
-  # Kiểm tham chiếu chéo. Tách thành job riêng, không gắn vào build: neo chưa bổ sung xong
-  # không nên làm hỏng việc phát hành EPUB, PDF và HTML một file, hai việc đó không liên quan.
-  # PR vẫn đỏ, nhánh vi vẫn phát hành bình thường. Chuỗi kiểm cục bộ (sync-stats.mjs) phải nhớ
-  # chạy mới chạy, PR từ bên ngoài thì không chạy được, nên CI cần có một bản.
-  # Không phụ thuộc gói ngoài, vài giây là xong.
+  # Các cổng cấu trúc và nội dung phải đạt trước khi dựng/phát hành.
   refs:
     name: Kiểm tham chiếu chéo
     runs-on: ubuntu-latest
@@ -64,7 +70,7 @@ jobs:
       - run: node tools/test-references.mjs
       - run: node tools/check-refs.mjs --check
 
-  # Kiểm văn phong: độ dài, thuật ngữ nghiên cứu, cách nói trừu tượng. Lý do như trên, job riêng, không chặn phát hành.
+  # Kiểm văn phong: độ dài, thuật ngữ nghiên cứu, cách nói trừu tượng. Lý do như trên, job riêng, chặn phát hành khi có lỗi.
   vi-style:
     name: Kiểm văn phong tiếng Việt
     runs-on: ubuntu-latest
@@ -102,7 +108,7 @@ jobs:
 
   # Kiểm luật tách câu nhất quán: luật tách Lợi ích, Ghi chú và Nguồn quá dài có hai bản
   # (tools/lib/split-items.mjs cho EPUB và PDF, đoạn <split-rules> trong index.html cho web và bản offline).
-  # Chỉ sửa một bên thì bốn đầu ra sẽ khác nhau. Lý do như trên, không chặn phát hành.
+  # Chỉ sửa một bên thì bốn đầu ra sẽ khác nhau. Kiểm tra này chặn phát hành khi có lỗi.
   split:
     name: Kiểm luật tách câu
     runs-on: ubuntu-latest
@@ -114,7 +120,7 @@ jobs:
       - run: node tools/check-split.mjs
 
   # Kiểm số liệu thống kê: số mục, số mục A/B/C, số liên kết... trong README, index.html, og.html có khớp book/ không.
-  # sync-stats.mjs cục bộ phải nhớ chạy mới cập nhật, PR gộp thẳng trên web thì không qua được nó. Lý do như trên, không chặn phát hành.
+  # sync-stats.mjs cục bộ phải nhớ chạy mới cập nhật, PR gộp thẳng trên web thì không qua được nó. Kiểm tra này chặn phát hành khi có lỗi.
   # Chỉ kiểm, không sửa: để CI đẩy commit lên nhánh vi sẽ lệch với máy cục bộ, và Ubuntu không có phông Microsoft YaHei nên chụp og.png không đúng.
   stats:
     name: Kiểm số liệu thống kê
@@ -139,7 +145,22 @@ jobs:
           node-version: 22
       - run: node tools/check-selfcheck.mjs
 
+  reader:
+    name: Kiểm tìm kiếm và các trang tra cứu
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node tools/test-reader-rules.mjs
+      - run: node tools/test-updates.mjs
+      - run: node tools/test-reader.mjs
+      - run: node tools/reader-data.mjs --check
+      - run: node tools/site-pages.mjs --check
+
   build:
+    needs: [refs, vi-style, plain, legal, split, stats, selfcheck, reader]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

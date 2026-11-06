@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "paths": [
+    {
+      "id": "di-kham",
+      "title": "Đi khám và dùng bảo hiểm y tế",
+      "description": "Tìm nơi khám, giấy cần mang và quyền yêu cầu hồ sơ. Nếu đang có dấu hiệu cấp cứu, đọc mục cấp cứu trước.",
+      "entries": [
+        "cap-cuu-thi-vao-thang-khu-cap-cuu-va-tim-ban-phan",
+        "om-nhe-thi-kham-o-tram-y-te-truoc-roi-de-noi",
+        "muon-len-benh-vien-lon-thi-xin-phieu-chuyen-tai-noi-dang",
+        "moi-lan-kham-xong-tu-giu-mot-bo-ho-so-benh-an",
+        "ra-vien-xin-bang-ke-chi-phi-doi-chieu-tung-dong-lech"
+      ]
+    },
+    {
+      "id": "mat-viec",
+      "title": "Mất việc hoặc bị ép nghỉ",
+      "description": "Giữ chứng cứ, kiểm tra giấy tờ và tìm các khoản hỗ trợ có điều kiện.",
+      "entries": [
+        "dung-ky-don-xin-nghi-vi-ly-do-ca-nhan-khi-nguoi",
+        "giu-chung-cu-truoc-khi-roi-bang-luong-cham-cong-quyet-dinh",
+        "giay-xac-nhan-thoi-viec-14-ngay-va-ba-thu-phai-doi",
+        "mat-viec-thi-nop-ho-so-tro-cap-that-nghiep-ngay-han",
+        "tim-viec-qua-trung-tam-dich-vu-viec-lam-cong-truoc-dung"
+      ]
+    },
+    {
+      "id": "tai-khoan",
+      "title": "Bị lừa hoặc mất tài khoản",
+      "description": "Tìm cách ngăn thiệt hại tiếp diễn và khôi phục quyền kiểm soát tài khoản.",
+      "entries": [
+        "nghi-bi-lua-chuyen-tien-thi-goi-113-ngay-dung-tu-di",
+        "mat-khau-dung-ma-van-mat-tai-khoan-bat-xac-thuc-hai",
+        "mot-mat-khau-dung-cho-moi-noi-dat-mat-khau-rieng-cho",
+        "mat-dien-thoai-khoa-sim-truoc-roi-toi-tai-khoan-ngan-hang"
+      ]
+    },
+    {
+      "id": "thue-nha",
+      "title": "Chuẩn bị thuê phòng hoặc nhà",
+      "description": "Đọc trước khi đặt cọc, ký hợp đồng và nhận bàn giao.",
+      "entries": [
+        "hop-dong-thue-chi-ghi-gia-thue-chep-du-muoi-mot-noi",
+        "tra-tien-coc-va-tien-thue-chi-tra-cho-nguoi-dung-ten",
+        "ky-truoc-khi-xem-so-mo-trang-thay-doi-cua-giay-chung",
+        "tra-tien-nha-chuyen-khoan-vao-tai-khoan-dung-ten-nguoi-trong"
+      ]
+    },
+    {
+      "id": "nguoi-cao-tuoi",
+      "title": "Chăm người cao tuổi",
+      "description": "Bắt đầu từ nhu cầu chăm sóc và quyền tự quyết của người thân.",
+      "entries": [
+        "sa-sut-tri-tue-quen-gan-lac-duong-giam-chuc-nang-la",
+        "uy-quyen-lam-giay-khi-ong-ba-con-ky-duoc-ghi-ro",
+        "khi-ong-ba-mat-kha-nang-tu-cham-540-000-dong-the",
+        "loet-do-nam-lau-nhin-da-o-ba-cho-xuong-loi-moi"
+      ]
+    },
+    {
+      "id": "sinh-con",
+      "title": "Chuẩn bị sinh con",
+      "description": "Tìm lại lịch khám, giấy tờ và bảo hiểm. Các hướng dẫn sức khỏe cần áp dụng theo tình trạng của mẹ và bé.",
+      "entries": [
+        "kham-thai-theo-dung-lich-va-giu-cuon-so-kham-thai-di",
+        "danh-sach-dau-hieu-phai-di-vien-ngay-va-no-con-dung",
+        "bao-hiem-thai-san-bao-hiem-xa-hoi-tra-tien-nghi-bao",
+        "giay-chung-sinh-va-giay-khai-sinh-hai-to-giay-hai-noi",
+        "the-bao-hiem-y-te-cho-tre-ngan-sach-dong-khong-can",
+        "dang-ky-khai-sinh-60-ngay-lam-o-xa-noi-cha-hoac"
+      ]
+    },
+    {
+      "id": "mua-bao",
+      "title": "Chuẩn bị và ứng phó mưa bão",
+      "description": "Đọc trước khi bão đến; ưu tiên an toàn con người khi có ngập, điện hoặc sạt lở.",
+      "entries": [
+        "truoc-bao-chang-nha-tia-cay-du-tru-nuoc-va-thuoc-khi",
+        "nha-hoac-duong-ngap-nuoc-rut-phich-cup-cau-dao-tong-tranh",
+        "sau-lu-loc-nuoc-duc-khu-trung-bang-cloramin-b-hoac-vien",
+        "mua-keo-dai-tuong-nut-cay-nghieng-nuoc-suoi-duc-roi-xa",
+        "lap-dau-bao-khoi-nha-nao-dot-than-cui-hay-chay-may"
+      ]
+    },
+    {
+      "id": "nguoi-mat",
+      "title": "Khi trong nhà có người mất",
+      "description": "Xem những việc trước mắt, giấy tờ và khoản tiền cần hỏi. Có thể chia danh sách cho người thân cùng làm.",
+      "entries": [
+        "trong-nha-co-nguoi-mat-xac-dinh-chet-binh-thuong-hay-bat",
+        "giay-bao-tu-va-trich-luc-khai-tu-ai-cap-xin-o",
+        "khai-tu-trong-15-ngay-xoa-dang-ky-thuong-tru-sau-do",
+        "xin-bang-gia-truoc-khi-dat-coc-gia-dich-vu-tang-le",
+        "tien-rai-rac-phai-di-lay-tung-cho-tro-cap-mai-tang"
+      ]
+    }
+  ]
+}

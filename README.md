@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="og.png" alt="Cẩm nang sống thông minh — bỏ ít tiền, thời gian và sức lực nhất, đổi lấy sống lâu, tiền và tự do" width="820">
+<img src="assets/life-evidence-cover.jpg" alt="Cẩm nang sống thông minh — bỏ ít tiền, thời gian và sức lực nhất, đổi lấy sống lâu, tiền và tự do" width="820">
 
 # Cẩm nang sống thông minh
 
@@ -14,7 +14,7 @@ Không cần làm hết: đây là danh sách để chọn, không phải danh s
 [![Tra cứu trực tuyến](https://img.shields.io/badge/tra%20cứu-mở%20trang%20này-3451b2?style=flat-square)](https://quangpao.github.io/HowToLiveBetter/)
 [![Số mục](https://img.shields.io/badge/mục-785-18794e?style=flat-square)](#mục-lục)
 [![Mức bằng chứng](https://img.shields.io/badge/bằng%20chứng-A%20129%20·%20B%20545%20·%20C%20111-915930?style=flat-square)](#mức-bằng-chứng)
-[![Nguồn](https://img.shields.io/badge/nguồn-2109%20liên%20kết-565a5f?style=flat-square)](docs/kiem-chung/)
+[![Nguồn](https://img.shields.io/badge/nguồn-2114%20liên%20kết-565a5f?style=flat-square)](docs/kiem-chung/)
 [![Giấy phép](https://img.shields.io/badge/giấy%20phép-CC%20BY%204.0-565a5f?style=flat-square)](#ghi-công-và-giấy-phép)
 [![Số star](https://img.shields.io/github/stars/quangpao/HowToLiveBetter?style=flat-square&label=star&color=eac54f)](https://github.com/quangpao/HowToLiveBetter)
 
@@ -28,7 +28,7 @@ Không cần làm hết: đây là danh sách để chọn, không phải danh s
 </td></tr>
 <tr><td align="right"><b>Tra cứu</b></td><td align="left">
 
-[Mục lục](#mục-lục) · [Thuật ngữ](#đọc-con-số) · [Sổ kiểm chứng](docs/kiem-chung/)
+[Theo tình huống](https://quangpao.github.io/HowToLiveBetter/tinh-huong/) · [Pháp luật Việt Nam](https://quangpao.github.io/HowToLiveBetter/phap-luat/) · [Mục lục](#mục-lục) · [Thuật ngữ](#đọc-con-số) · [Kiểm chứng](https://quangpao.github.io/HowToLiveBetter/kiem-chung/) · [Về cẩm nang](https://quangpao.github.io/HowToLiveBetter/ve-cam-nang/)
 
 </td></tr>
 <tr><td align="right"><b>Tự kiểm</b></td><td align="left">
@@ -148,7 +148,7 @@ Con số tử vong, con số thời gian và sức lực, con số tiền và h�
 
 785 mục hiện có: A 129 mục, B 545 mục, C 111 mục. Mục nào có kết quả trái chiều thì ghi "tranh luận" và nêu cả bằng chứng phía ngược lại. Nguồn chỉ dẫn văn bản gốc — bài báo khoa học kèm DOI hoặc PubMed, hoặc văn bản của cơ quan nhà nước; không dẫn lại qua báo tổng hợp.
 
-Mức A chỉ nói "có con số cụ thể, tra được", không nói quan hệ đó chắc chắn là nhân quả. Trong mức A có cả thử nghiệm ngẫu nhiên lẫn nghiên cứu chỉ theo dõi; loại sau không phân biệt được là việc đó có tác dụng hay là người làm việc đó vốn đã khỏe hơn. Muốn biết mục thuộc loại nào thì đọc cột "Lợi ích". Với mục về luật và chính sách, mức A nghĩa là đã dẫn được điều khoản hoặc văn bản gốc.
+Những nhãn này là cách phân loại hiện có của cẩm nang, chưa thay cho việc thẩm định từng kết luận. Mức A không tự chứng minh quan hệ nhân quả; cần đọc loại nghiên cứu và giới hạn trong “Lợi ích” và “Ghi chú”. Với mục luật và chính sách, A/B/C không cho biết văn bản còn hiệu lực hay áp dụng đúng trường hợp của bạn. Hãy đọc điều kiện, ngày đối chiếu và [phạm vi đã kiểm chứng](https://quangpao.github.io/HowToLiveBetter/kiem-chung/).
 
 ## Mức đáng làm
 

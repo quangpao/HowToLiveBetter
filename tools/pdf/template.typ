@@ -53,14 +53,16 @@ $--
 // ---------- Bìa ----------
 #set page(paper: "a4", margin: (x: 2.2cm, top: 2.2cm, bottom: 2cm), header: none, footer: none)
 #align(center + horizon)[
-  #image("/og.png", width: 100%)
-  #v(1.2cm)
+  #text(size: 27pt, weight: "bold")[$booktitle$]
+  #v(0.8cm)
+  #image("/assets/life-evidence-cover.jpg", width: 100%, height: 8cm, fit: "contain")
+  #v(0.8cm)
   #block(width: 80%)[#text(11.5pt, fill: luma(60))[$subtitle$]]
   #v(2cm)
   #text(10pt, fill: luma(90))[
     Dựng lúc $builddate$ (giờ Việt Nam)　·　bản nội dung $commit$ \
     Nội dung còn cập nhật, lấy bản online làm chuẩn: $site$ \
-    Bản tra cứu, EPUB và PDF mới nhất đều ở $repo$
+    Tải PDF và EPUB: #link("$site$tai-ve/")[$site$tai-ve/]
   ]
 ]
 

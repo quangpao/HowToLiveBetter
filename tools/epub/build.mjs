@@ -176,7 +176,7 @@ ${navItems.map(navPoint).join('\n')}
 `;
 
 // ---------- Bìa, OPF, container ----------
-const coverXhtml = wrap(TITLE, `<div class="cover"><img src="cover.png" alt="${esc(TITLE)}"/></div>\n`);
+const coverXhtml = wrap(TITLE, `<div class="cover"><h1>${esc(TITLE)}</h1><img src="cover.jpg" alt="Minh họa cẩm nang sống thông minh"/></div>\n`);
 const modified = NOW.toISOString().replace(/\.\d{3}Z$/, 'Z');
 const manifestPages = pages.map(p => `<item id="${p.file.replace('.xhtml', '')}" href="${p.file}" media-type="application/xhtml+xml"/>`);
 const opf = `<?xml version="1.0" encoding="UTF-8"?>
@@ -198,7 +198,7 @@ const opf = `<?xml version="1.0" encoding="UTF-8"?>
 <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
 <item id="css" href="style.css" media-type="text/css"/>
-<item id="cover-img" href="cover.png" media-type="image/png" properties="cover-image"/>
+<item id="cover-img" href="cover.jpg" media-type="image/jpeg" properties="cover-image"/>
 <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
 ${manifestPages.join('\n')}
 </manifest>
@@ -222,7 +222,7 @@ const entries = [
   { name: 'OEBPS/nav.xhtml', data: Buffer.from(navXhtml) },
   { name: 'OEBPS/toc.ncx', data: Buffer.from(ncx) },
   { name: 'OEBPS/style.css', data: readFileSync(resolve(ROOT, 'tools/epub/style.css')) },
-  { name: 'OEBPS/cover.png', data: readFileSync(resolve(ROOT, 'og.png')) },
+  { name: 'OEBPS/cover.jpg', data: readFileSync(resolve(ROOT, 'assets/life-evidence-cover.jpg')) },
   { name: 'OEBPS/cover.xhtml', data: Buffer.from(coverXhtml) },
   ...pages.map(p => ({ name: `OEBPS/${p.file}`, data: Buffer.from(p.xhtml) })),
 ];

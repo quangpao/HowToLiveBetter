@@ -51,7 +51,8 @@ export function readBook() {
     return lines.slice(a, b).join('\n');
   };
   const description = between(`# ${TITLE}`, '[![')
-    .split('\n').slice(1).map(l => l.replace(/<[^>]+>/g, '').trim()).filter(Boolean).join('');
+    .split('\n').slice(1).map(l => l.replace(/<[^>]+>/g, '').trim()).filter(Boolean).join(' ')
+    .replace(/\*\*([^*]+)\*\*/g,'$1').replace(/\[([^\]]+)\]\([^)]+\)/g,'$1').replace(/`([^`]+)`/g,'$1');
   const frontMd = between('## Cuốn sách này trả lời câu gì', '## Mục lục');
   const contentsMd = between('## Mục lục', '## Nội dung')
     .split('\n\n').filter(p => !p.includes('index.html')).join('\n\n');

@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {parse,step} from './updates.mjs';
+const entry=(chapter,n,title,id)=>`# ${chapter}. Test\n### ${n}. ${title}\n<a name="entry-${id}" data-legacy="1-1"></a>\n- Nói dễ hiểu: Một ý không đổi.\n`;
+const a=parse(entry(1,1,'Tiêu đề cũ','stable'));
+const previous=step([],a,'2026-11-02');previous[0].id=42;
+const changed=parse(entry(3,8,'Tiêu đề hoàn toàn khác','stable'));
+const next=step(previous,changed,'2026-11-06');
+assert.equal(next[0].id,42,'An edit/move must retain the historical identity');
+assert.equal(next[0].added,'2026-11-02');
+const inserted=step(previous,parse(entry(1,1,'Nội dung khác','other')+entry(1,2,'Tiêu đề cũ','stable')),'2026-11-06');
+assert.equal(inserted[1].id,42);assert.equal(inserted[0].added,'2026-11-06');
+const replacement=step(previous,parse(entry(1,1,'Tiêu đề cũ','new-identity')),'2026-11-06');
+assert.equal(replacement[0].id,undefined,'Identical text with another stable ID is a new entry');
+assert.equal(replacement[0].added,'2026-11-06');
+console.log('PASS: update history follows stable IDs across title replacement, moves and insertions');
