@@ -1,5 +1,5 @@
 /* Page components inherit their typography, palette and gutters from site-base.css. */
-html{scroll-padding-top:100px}
+html{scroll-padding-top:20px}
 .page-header .lead{max-width:70ch}
 .muted,.meta{font-size:13px;color:var(--t2)}
 .notice{background:var(--brand-soft);border-left:2px solid var(--brand-1);padding:16px 20px;margin:24px 0}
@@ -13,7 +13,7 @@ html{scroll-padding-top:100px}
 .actions{display:flex;gap:10px;flex-wrap:wrap}
 .actions button{border:1px solid var(--divider);border-radius:2px;padding:10px 12px;min-height:44px;font-size:14px;background:var(--bg-soft)}
 .actions button:hover{background:var(--bg-mute)}
-.path{border-top:1px solid var(--t1);padding-top:8px;margin-top:40px;scroll-margin-top:20px}
+.path{border-top:1px solid var(--t1);padding-top:8px;margin-top:40px}
 .path-intro{max-width:760px}
 .steps{list-style:none;padding:0;counter-reset:step}
 .step{position:relative;padding:24px 0 24px 48px;border-bottom:1px solid var(--divider);max-width:900px}

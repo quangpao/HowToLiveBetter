@@ -12,7 +12,7 @@ export function siteNav(prefix='./', current='', onHome=false) {
     <nav class="nav-r" aria-label="Liên kết chính">
 ${links.map(([path,label])=>`      <a class="nav-extra" href="${root+path}"${path==='?view=book'&&onHome?' data-open-book':''}${path===current+'/'?' aria-current="page"':''}>${label}</a>`).join('\n')}
       <a class="nav-github" href="https://github.com/quangpao/HowToLiveBetter" target="_blank" rel="noopener">GitHub ↗</a>
-      <details class="nav-mobile"><summary class="utility-btn">Menu</summary><nav class="nav-mobile-links" aria-label="Liên kết chính trên điện thoại">${links.map(([path,label])=>`<a href="${root+path}"${path===current+'/'?' aria-current="page"':''}>${label}</a>`).join('')}<a href="https://github.com/quangpao/HowToLiveBetter" target="_blank" rel="noopener">GitHub ↗</a></nav></details>
+      <details class="nav-mobile"><summary class="utility-btn">Menu</summary><div class="nav-mobile-links">${links.map(([path,label])=>`<a href="${root+path}"${path===current+'/'?' aria-current="page"':''}>${label}</a>`).join('')}<a href="https://github.com/quangpao/HowToLiveBetter" target="_blank" rel="noopener">GitHub ↗</a></div></details>
       <button class="utility-btn" id="theme" type="button" data-theme aria-label="Bật/tắt nền tối" aria-pressed="false">Nền tối</button>
     </nav>
   </div>

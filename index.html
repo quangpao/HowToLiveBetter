@@ -34,42 +34,10 @@
 </script>
 <script src="assets/site-theme.js"></script>
 <style>
-:root{
-  --bg:#ffffff; --bg-alt:#f6f6f7; --bg-soft:#f6f6f7; --bg-mute:#f1f1f2; --bg-elv:#ffffff;
-  --divider:#e2e2e3; --gutter:#e2e2e3;
-  --t1:rgba(60,60,67,1); --t2:rgba(60,60,67,.78); --t3:rgba(60,60,67,.56);
-  --brand-1:#3451b2; --brand-2:#3a5ccc; --brand-3:#5672cd; --brand-soft:rgba(100,108,255,.14);
-  --green-1:#18794e; --green-soft:rgba(16,185,129,.14);
-  --yellow-1:#915930; --yellow-soft:rgba(234,179,8,.14);
-  --red-1:#b8272c; --red-soft:rgba(244,63,94,.14);
-  --gray-1:#565a5f; --gray-soft:rgba(142,150,170,.14);
-  --mark:rgba(234,179,8,.32);
-  --vn-soft:rgba(100,108,255,.10); --vn-line:rgba(100,108,255,.38); --vn-hover:rgba(100,108,255,.18);
-  --shadow:0 1px 2px rgba(0,0,0,.04),0 1px 2px rgba(0,0,0,.06);
-  --font:"Inter",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
-  --mono:ui-monospace,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
-  --nav-h:64px; --side-w:272px;
-  color-scheme:light;
-}
-html.dark{
-  --bg:#1b1b1f; --bg-alt:#161618; --bg-soft:#202127; --bg-mute:#2b2b2f; --bg-elv:#202127;
-  --divider:#2e2e32; --gutter:#000000;
-  --t1:rgba(255,255,245,.86); --t2:rgba(235,235,245,.6); --t3:rgba(235,235,245,.38);
-  --brand-1:#a8b1ff; --brand-2:#5c73e7; --brand-3:#3e63dd; --brand-soft:rgba(100,108,255,.16);
-  --green-1:#3dd68c; --green-soft:rgba(16,185,129,.16);
-  --yellow-1:#f9b44e; --yellow-soft:rgba(234,179,8,.16);
-  --red-1:#f66f81; --red-soft:rgba(244,63,94,.16);
-  --gray-1:#a4a8ae; --gray-soft:rgba(142,150,170,.16);
-  --mark:rgba(234,179,8,.28);
-  --vn-soft:rgba(168,177,255,.16); --vn-line:rgba(168,177,255,.45); --vn-hover:rgba(168,177,255,.26);
-  --shadow:0 1px 2px rgba(0,0,0,.3);
-  color-scheme:dark;
-}
+:root{--mark:rgba(234,179,8,.32);--side-w:272px}
+html.dark{--mark:rgba(234,179,8,.28);--shadow:0 1px 2px rgba(0,0,0,.3)}
 *{box-sizing:border-box}
 html{scroll-padding-top:calc(var(--nav-h) + 16px)}
-/* Khi mở popup, body bị đặt overflow:hidden; mất thanh cuộn là trang rộng ra 15px, thẻ xuống dòng lại, cả trang giật một cái（người dùng phát hiện 2026-10-01）。
-   giữ chỗ cho thanh cuộn, có hay không có thanh cuộn thì bề rộng vẫn không đổi */
-html{scrollbar-gutter:stable}
 body{margin:0;background:var(--bg);color:var(--t1);font:14px/1.7 var(--font);-webkit-font-smoothing:antialiased}
 a{color:var(--brand-1);text-decoration:none;transition:color .25s}
 a:hover{color:var(--brand-2);text-decoration:underline;text-underline-offset:2px}
@@ -554,7 +522,7 @@ th[aria-sort=descending] .column-sort:after{content:'↓';color:var(--brand-1)}
       <a class="nav-extra" href="phap-luat/">Pháp luật</a>
       <a class="nav-extra" href="tai-ve/">Tải về</a>
       <a class="nav-github" href="https://github.com/quangpao/HowToLiveBetter" target="_blank" rel="noopener">GitHub ↗</a>
-      <details class="nav-mobile"><summary class="utility-btn">Menu</summary><nav class="nav-mobile-links" aria-label="Liên kết chính trên điện thoại"><a href="?view=book">Đọc sách</a><a href="tinh-huong/">Theo tình huống</a><a href="phap-luat/">Pháp luật</a><a href="tai-ve/">Tải về</a><a href="https://github.com/quangpao/HowToLiveBetter" target="_blank" rel="noopener">GitHub ↗</a></nav></details>
+      <details class="nav-mobile"><summary class="utility-btn">Menu</summary><div class="nav-mobile-links"><a href="?view=book">Đọc sách</a><a href="tinh-huong/">Theo tình huống</a><a href="phap-luat/">Pháp luật</a><a href="tai-ve/">Tải về</a><a href="https://github.com/quangpao/HowToLiveBetter" target="_blank" rel="noopener">GitHub ↗</a></div></details>
       <button class="utility-btn" id="theme" type="button" data-theme aria-label="Bật/tắt nền tối" aria-pressed="false">Nền tối</button>
     </nav>
   </div>
