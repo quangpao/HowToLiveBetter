@@ -5,23 +5,22 @@ import {join,dirname} from 'node:path';
 import {read,ROOT} from './lib/book.mjs';
 import {readCatalog,refs} from './lib/references.mjs';
 import {readerData} from './reader-data.mjs';
+import {siteNav} from './lib/site-nav.mjs';
 
 const escape = value => String(value ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const text = value => escape(refs.plainText(value));
 const link = e => '../?view=chapters#entry-' + e.id;
 const release = 'https://github.com/quangpao/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.';
 const canonical = 'https://quangpao.github.io/HowToLiveBetter/';
-const themeInit = `<script>(function(){var s;try{s=localStorage.getItem('theme')}catch(e){}var dark=s?s==='dark':matchMedia('(prefers-color-scheme: dark)').matches;document.documentElement.classList.toggle('dark',dark)})();</script>`;
 
 export function sitePages() {
   const catalog=readCatalog(), data=readerData(), reviews=JSON.parse(read('data/review-status.json')).entries;
   const paths=JSON.parse(read('data/reading-paths.json')).paths;
   for(const path of paths)for(const id of path.entries)if(!catalog.byId.has(id))throw new Error('Lộ trình có ID không tồn tại: '+id);
   for(const id of Object.keys(reviews))if(!catalog.byId.has(id))throw new Error('Hồ sơ kiểm chứng có ID không tồn tại: '+id);
-  const nav=[['tinh-huong','Tra theo tình huống'],['phap-luat','Pháp luật'],['tai-ve','Tải sách'],['ve-cam-nang','Về cẩm nang']];
   const shell=(slug,title,description,body)=>`<!doctype html>
-<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escape(title)} · Cẩm nang sống thông minh</title><meta name="description" content="${escape(description)}"><link rel="canonical" href="${canonical+slug}/"><link rel="icon" href="../assets/favicon.svg"><meta name="theme-color" content="#f4f1e8"><meta property="og:title" content="${escape(title)}"><meta property="og:description" content="${escape(description)}"><meta property="og:image" content="${canonical}og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${canonical}og.png">${themeInit}<link rel="stylesheet" href="../assets/pages.css"><script src="../assets/book-reader.js" defer></script><script src="../assets/site-pages.js" defer></script></head>
-<body><a class="skip" href="#main">Đi tới nội dung</a><header class="site-nav"><div class="nav-inner"><a class="brand" href="../"><img src="../assets/favicon.svg" alt="" width="34" height="34">HowToLiveBetter</a><nav aria-label="Liên kết chính">${nav.map(([path,label])=>`<a href="../${path}/"${path===slug?' aria-current="page"':''}>${label}</a>`).join('')}<button type="button" data-theme aria-label="Đổi nền sáng hoặc tối">Đổi nền</button></nav></div></header><main class="page" id="main"><header class="page-header"><p class="eyebrow">Cẩm nang sống thông minh · Bản tiếng Việt</p><h1>${escape(title)}</h1><p class="lead">${escape(description)}</p></header>${body}</main><footer class="footer"><nav aria-label="Thông tin cẩm nang"><a href="../">Tra cứu và đọc sách</a><a href="../kiem-chung/">Cách kiểm chứng và việc còn mở</a><a href="../ve-cam-nang/#rieng-tu">Riêng tư</a><a href="https://github.com/quangpao/HowToLiveBetter">Mã nguồn và góp ý</a></nav><p>Bản Việt do Bảo biên soạn từ dự án của <a href="https://github.com/eternity4719/HowToLiveBetter">eternity4719</a>. Nội dung CC BY 4.0; phần mã theo LICENSE-CODE. Mã nội dung web: <code>${data.version}</code>.</p></footer></body></html>\n`;
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escape(title)} · Cẩm nang sống thông minh</title><meta name="description" content="${escape(description)}"><link rel="canonical" href="${canonical+slug}/"><link rel="icon" href="../assets/favicon.svg"><meta name="theme-color" content="#f4f1e8" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#191f1b" media="(prefers-color-scheme: dark)"><meta property="og:title" content="${escape(title)}"><meta property="og:description" content="${escape(description)}"><meta property="og:image" content="${canonical}og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${canonical}og.png"><script src="../assets/site-theme.js"></script><link rel="stylesheet" href="../assets/site-base.css"><link rel="stylesheet" href="../assets/pages.css"><link rel="stylesheet" href="../assets/site-nav.css"><script src="../assets/book-reader.js" defer></script><script src="../assets/site-pages.js" defer></script></head>
+<body><a class="skip" href="#main">Đi tới nội dung</a>${siteNav('../',slug)}<main class="page" id="main"><header class="page-header"><p class="eyebrow">Cẩm nang sống thông minh · Bản tiếng Việt</p><h1>${escape(title)}</h1><p class="lead">${escape(description)}</p></header>${body}</main><footer class="footer"><nav aria-label="Thông tin cẩm nang"><a href="../">Tra cứu và đọc sách</a><a href="../kiem-chung/">Cách kiểm chứng và việc còn mở</a><a href="../ve-cam-nang/#rieng-tu">Riêng tư</a><a href="https://github.com/quangpao/HowToLiveBetter">Mã nguồn và góp ý</a></nav><p>Bản Việt do Bảo biên soạn từ dự án của <a href="https://github.com/eternity4719/HowToLiveBetter">eternity4719</a>. Nội dung CC BY 4.0; phần mã theo LICENSE-CODE. Mã nội dung web: <code>${data.version}</code>.</p></footer></body></html>\n`;
   const about=shell('ve-cam-nang','Về cẩm nang','Một nơi để tìm căn cứ và những việc có thể làm trong đời sống.',`
 <div class="prose"><h2>Cuốn sách này dành cho việc gì?</h2><p>Khi cần đi khám, ký hợp đồng, chăm người thân hay chuẩn bị cho một thay đổi, bạn có thể cần một điểm bắt đầu. Cẩm nang tập hợp các việc thường gặp, giải thích chi phí, lợi ích, điều kiện và nguồn để bạn tự cân nhắc.</p><p>Bạn không cần làm hết mọi mục. Một việc phù hợp với hoàn cảnh hiện tại đã có thể hữu ích.</p>
 <h2>Người biên soạn bản Việt</h2><p>Mình là Bảo, một kỹ sư phần mềm. Mình làm bản Việt vì muốn những kiến thức có ích dễ tìm và dễ áp dụng hơn trong đời sống ở Việt Nam. Công việc của mình ở dự án này là biên soạn, đối chiếu nguồn, sửa cách diễn đạt và xây dựng công cụ đọc. Mình cũng dùng công cụ tự động để hỗ trợ công việc đó. Mình không phải bác sĩ hay luật sư; những nội dung thuộc chuyên môn này cần được kiểm tra theo nguồn hiện hành và hoàn cảnh cụ thể. Bạn có thể theo dõi thay đổi hoặc góp ý qua <a href="https://github.com/quangpao">GitHub của mình</a>.</p>
@@ -66,11 +65,18 @@ ${groups.map(g=>`<section id="${g.id}" data-legal-group><h2>${g.name}</h2>${lega
   return {'ve-cam-nang/index.html':about,'tai-ve/index.html':downloads,'tinh-huong/index.html':journeys,'phap-luat/index.html':law,'kiem-chung/index.html':verification};
 }
 export function writeSitePages(check=false) {
+  for(const file of ['index.html','selfcheck.html']) {
+    const source=read(file), marker=/<!-- site-nav:start -->[\s\S]*?<!-- site-nav:end -->/;
+    if(!marker.test(source))throw new Error(file+' thiếu vùng nav dùng chung');
+    const html=source.replace(marker,()=>siteNav('./','',file==='index.html'));
+    if(check&&source!==html)throw new Error(file+' nav đã cũ: chạy node tools/site-pages.mjs');
+    if(!check&&source!==html)writeFileSync(join(ROOT,file),html);
+  }
   for(const [file,html] of Object.entries(sitePages())){
     const path=join(ROOT,file),same=existsSync(path)&&readFileSync(path,'utf8')===html;
     if(check&&!same)throw new Error(file+' đã cũ: chạy node tools/site-pages.mjs');
     if(!check&&!same){mkdirSync(dirname(path),{recursive:true});writeFileSync(path,html);}
   }
-  console.log('5 static entry points'+(check?' · khớp':''));
+  console.log('5 static entry points · shared navigation on 7 pages'+(check?' · khớp':''));
 }
 if(process.argv[1] && new URL(import.meta.url).pathname===process.argv[1])writeSitePages(process.argv.includes('--check'));

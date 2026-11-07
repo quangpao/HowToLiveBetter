@@ -31,7 +31,9 @@ Giúp người đọc tìm việc phù hợp, hiểu điều kiện và biết b
 ## Dữ liệu và giao diện
 
 - Thời lượng và tần suất là hai khái niệm riêng. Bộ lọc tuổi hiểu ngưỡng số; thiếu nhãn không chứng minh mục không liên quan.
-- `data/reader-index.json` và năm trang tĩnh do `tools/reader-data.mjs`, `tools/site-pages.mjs` sinh. Nội dung đầy đủ tải theo chương. HTML ngoại tuyến vẫn nhúng đủ chương và logic.
+- `data/reader-index.json` do `tools/reader-data.mjs` sinh. Nội dung đầy đủ tải theo chương. HTML ngoại tuyến vẫn nhúng đủ chương và logic.
+- `tools/site-pages.mjs` sinh năm trang tĩnh và nav của `index.html`, `selfcheck.html` giữa hai mốc `<!-- site-nav:start -->` / `<!-- site-nav:end -->`. Sửa nav tại `tools/lib/site-nav.mjs`, rồi chạy bộ sinh; không sửa tay các đoạn được sinh.
+- `assets/site-base.css` giữ font, bảng màu và khoảng cách chung; `assets/site-nav.css` giữ kiểu dáng nav; `assets/site-theme.js` xử lý nền sáng/tối và đóng menu. Cả bảy trang dùng chung các file này. Khi đổi tài nguyên, cập nhật bộ dựng HTML offline và kiểm không còn stylesheet hoặc script ngoài.
 - `data/reading-paths.json` ghép tình huống bằng ID, không tạo nguồn nội dung thứ hai. Sửa nội dung chuẩn rồi sinh lại trang.
 - Selfcheck dùng `entryId`; khóa chữ cũ chỉ phục vụ chuyển đáp án. Nếu ý nghĩa câu hỏi đổi, tăng `rev`, không dùng lại đáp án cũ.
 - Tìm kiếm, vị trí đọc, câu trả lời và việc đã lưu xử lý/lưu tại trình duyệt. Không gửi truy vấn thô hoặc câu trả lời tới analytics.

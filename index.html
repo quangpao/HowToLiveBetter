@@ -32,44 +32,12 @@
 {"@type":"Book","@id":"https://quangpao.github.io/HowToLiveBetter/#book","name":"Cẩm nang sống thông minh","url":"https://quangpao.github.io/HowToLiveBetter/","inLanguage":"vi-VN","bookFormat":"https://schema.org/EBook","license":"https://creativecommons.org/licenses/by/4.0/","abstract":"Cẩm nang sống tính theo hiệu quả trên chi phí: mỗi mục ghi rõ mất gì (tiền, thời gian, ý chí) và được gì, kèm mức bằng chứng A/B/C và nguồn gốc. Lọc được theo tiền, thời gian, ý chí.","about":["sức khỏe","sống lâu","tài chính cá nhân","cấp cứu","kiến thức pháp luật","bảo vệ người tiêu dùng"],"isAccessibleForFree":true}
 ]}
 </script>
-<script>(function(){try{var s=localStorage.getItem('theme');var d=s?s==='dark':matchMedia('(prefers-color-scheme: dark)').matches;if(d)document.documentElement.classList.add('dark')}catch(e){}})();</script>
+<script src="assets/site-theme.js"></script>
 <style>
-:root{
-  --bg:#ffffff; --bg-alt:#f6f6f7; --bg-soft:#f6f6f7; --bg-mute:#f1f1f2; --bg-elv:#ffffff;
-  --divider:#e2e2e3; --gutter:#e2e2e3;
-  --t1:rgba(60,60,67,1); --t2:rgba(60,60,67,.78); --t3:rgba(60,60,67,.56);
-  --brand-1:#3451b2; --brand-2:#3a5ccc; --brand-3:#5672cd; --brand-soft:rgba(100,108,255,.14);
-  --green-1:#18794e; --green-soft:rgba(16,185,129,.14);
-  --yellow-1:#915930; --yellow-soft:rgba(234,179,8,.14);
-  --red-1:#b8272c; --red-soft:rgba(244,63,94,.14);
-  --gray-1:#565a5f; --gray-soft:rgba(142,150,170,.14);
-  --mark:rgba(234,179,8,.32);
-  --vn-soft:rgba(100,108,255,.10); --vn-line:rgba(100,108,255,.38); --vn-hover:rgba(100,108,255,.18);
-  --shadow:0 1px 2px rgba(0,0,0,.04),0 1px 2px rgba(0,0,0,.06);
-  --font:"Inter",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
-  --mono:ui-monospace,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
-  --nav-h:64px; --side-w:272px;
-  color-scheme:light;
-}
-html.dark{
-  --bg:#1b1b1f; --bg-alt:#161618; --bg-soft:#202127; --bg-mute:#2b2b2f; --bg-elv:#202127;
-  --divider:#2e2e32; --gutter:#000000;
-  --t1:rgba(255,255,245,.86); --t2:rgba(235,235,245,.6); --t3:rgba(235,235,245,.38);
-  --brand-1:#a8b1ff; --brand-2:#5c73e7; --brand-3:#3e63dd; --brand-soft:rgba(100,108,255,.16);
-  --green-1:#3dd68c; --green-soft:rgba(16,185,129,.16);
-  --yellow-1:#f9b44e; --yellow-soft:rgba(234,179,8,.16);
-  --red-1:#f66f81; --red-soft:rgba(244,63,94,.16);
-  --gray-1:#a4a8ae; --gray-soft:rgba(142,150,170,.16);
-  --mark:rgba(234,179,8,.28);
-  --vn-soft:rgba(168,177,255,.16); --vn-line:rgba(168,177,255,.45); --vn-hover:rgba(168,177,255,.26);
-  --shadow:0 1px 2px rgba(0,0,0,.3);
-  color-scheme:dark;
-}
+:root{--mark:rgba(234,179,8,.32);--side-w:272px}
+html.dark{--mark:rgba(234,179,8,.28);--shadow:0 1px 2px rgba(0,0,0,.3)}
 *{box-sizing:border-box}
 html{scroll-padding-top:calc(var(--nav-h) + 16px)}
-/* Khi mở popup, body bị đặt overflow:hidden; mất thanh cuộn là trang rộng ra 15px, thẻ xuống dòng lại, cả trang giật một cái（người dùng phát hiện 2026-10-01）。
-   giữ chỗ cho thanh cuộn, có hay không có thanh cuộn thì bề rộng vẫn không đổi */
-html{scrollbar-gutter:stable}
 body{margin:0;background:var(--bg);color:var(--t1);font:14px/1.7 var(--font);-webkit-font-smoothing:antialiased}
 a{color:var(--brand-1);text-decoration:none;transition:color .25s}
 a:hover{color:var(--brand-2);text-decoration:underline;text-underline-offset:2px}
@@ -288,45 +256,15 @@ abbr.term:hover{border-bottom-color:var(--brand-1);color:var(--brand-1)}
 .foot{margin-top:64px;padding-top:24px;border-top:1px solid var(--divider);color:var(--t3);font-size:13px;line-height:1.7}
 
 /* Giao diện đọc và tra cứu, tham khảo geekan/HowToLiveLonger (Unlicense). */
-:root{
-  --bg:#f4f1e8; --bg-alt:#ebe9df; --bg-soft:#fbf9f2; --bg-mute:#e4ebdc; --bg-elv:#fbf9f2;
-  --divider:#c9cbbf; --gutter:#c9cbbf; --t1:#222b24; --t2:#62685d; --t3:#6c7267;
-  --brand-1:#267342; --brand-2:#1b5932; --brand-3:#4c8058; --brand-soft:#e4ebdc;
-  --vn-soft:#e4ebdc; --vn-line:#9aae91; --vn-hover:#d6e2cd;
-  --serif:Georgia,"Times New Roman",serif; --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
-  --nav-h:0px; --controls-h:84px; --shadow:0 12px 48px #18241b20;
-}
-html.dark{
-  --bg:#191f1b; --bg-alt:#252e26; --bg-soft:#202822; --bg-mute:#303f2c; --bg-elv:#202822;
-  --divider:#485449; --gutter:#485449; --t1:#f0efe4; --t2:#b8bfb1; --t3:#abb3a4;
-  --brand-1:#a4e28c; --brand-2:#c3efb2; --brand-3:#8aba78; --brand-soft:#303f2c;
-  --vn-soft:#303f2c; --vn-line:#66875b; --vn-hover:#3b5035;
-}
+:root{--nav-h:0px;--controls-h:84px;--shadow:0 12px 48px #18241b20}
 html{scroll-padding-top:calc(var(--controls-h) + 20px)}
-body{font-size:15px;line-height:1.65}
 button,a,input,summary{touch-action:manipulation}
 a{text-underline-offset:4px}
 :focus-visible{outline:3px solid var(--brand-1);outline-offset:4px;border-radius:2px}
-.skip{position:absolute;top:-100px;left:24px;z-index:90;padding:10px 16px;background:var(--bg-elv)}
-.skip:focus{top:12px}
-.nav{position:static;height:auto;border:0;background:transparent;margin:0 auto;max-width:1440px;padding:28px 48px 0}
-.nav-in{display:flex;align-items:center;padding:0 0 16px;min-height:52px;border-bottom:1px solid var(--t1);justify-content:space-between;gap:20px}
-.title{display:flex;align-items:center;font-size:15px;font-weight:650;letter-spacing:-.02em;gap:12px;color:var(--t1);white-space:nowrap}
-.title:hover{color:var(--t1);text-decoration:none}
-.title .logo{display:grid}
-.logo{display:grid;place-items:center;width:36px;height:36px;border-radius:9px;background:transparent;flex:none}
-.logo svg{width:36px;height:36px}
-.nav-r{display:flex;align-items:center;gap:18px;flex-wrap:wrap;justify-content:flex-end}
-.nav-r a{font-size:13px;color:var(--t2)}
-.utility-btn{font-size:13px;border:1px solid var(--divider);padding:6px 11px;background:var(--bg-soft);border-radius:2px;min-height:36px}
-.utility-btn:hover{background:var(--bg-mute)}
-.content{padding:0 48px 64px;max-width:1440px;margin:auto}
 .doc{max-width:none}
 .cover-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:44px;align-items:center;padding:38px 0 24px}
 .cover-copy{min-width:0}
-.eyebrow{font:11px/1.6 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--brand-1)}
-.cover-copy h1{font:500 clamp(40px,4.4vw,66px)/1.12 var(--serif);letter-spacing:-.045em;margin:20px 0 28px;text-wrap:balance}
-.deck{color:var(--t2);font-size:16px;line-height:1.9;max-width:480px;margin:0}
+.deck{max-width:480px}
 .hero-actions{display:flex;gap:24px;align-items:center;flex-wrap:wrap;margin-top:30px;font-size:14px}
 .hero-explore{display:inline-flex;align-items:center;gap:28px;padding:14px 20px;background:var(--brand-1);color:var(--bg);font-weight:600;border:1px solid var(--brand-1)}
 .hero-explore:hover{background:var(--brand-2);color:var(--bg);text-decoration:none}
@@ -437,16 +375,14 @@ th[aria-sort=descending] .column-sort:after{content:'↓';color:var(--brand-1)}
 #doc-modal,#xref-pop,.pop{border-radius:2px}
 .pop{z-index:85}
 @media(max-width:1050px){
-  .nav{padding:22px 28px 0}.content{padding-inline:28px}.cover-grid{gap:24px}.nav-r{gap:12px}
-  .cover-copy h1{font-size:clamp(38px,4.5vw,54px)}.hero-meta{gap:24px}.records-table{table-layout:auto}
+  .cover-grid{gap:24px}
+  .hero-meta{gap:24px}.records-table{table-layout:auto}
   .records-table th:nth-child(n){width:auto}.records-table th:first-child{width:24%}
   .sidebar{grid-template-columns:repeat(2,minmax(0,1fr))}.sidebar .hint{grid-column:auto}
 }
 @media(max-width:700px){
-  .nav{padding:16px 18px 0}.nav-in{gap:12px;align-items:center}.title{font-size:13px;gap:8px}
-  .logo{width:30px;height:30px}.logo svg{width:30px;height:30px}.nav-r{gap:8px}.nav-r .nav-extra{display:none}
-  .content{padding:0 18px 40px}.cover-grid{grid-template-columns:1fr;gap:24px;padding-top:28px}
-  .cover-copy h1{font-size:44px;max-width:460px;margin:14px 0 20px}.deck{font-size:15px;max-width:520px}
+  .cover-grid{grid-template-columns:1fr;gap:24px;padding-top:28px}
+  .cover-copy h1{max-width:460px}.deck{max-width:520px}
   .hero-actions{margin-top:22px;gap:22px}.hero-meta{margin-top:22px}.hero-meta dt{font-size:24px}
   .cover-figure{max-width:560px;width:100%;margin:auto}.caution{font-size:12px}.reading-guide{margin-bottom:14px}
   .explore-title{margin-top:12px}.explore-title h2{font-size:27px}.explore-title a{font-size:12px}
@@ -555,6 +491,8 @@ th[aria-sort=descending] .column-sort:after{content:'↓';color:var(--brand-1)}
 .quick-paths{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0}.quick-paths a{border:1px solid var(--divider);padding:9px 13px;border-radius:5px;color:var(--brand-1);font-size:13px;text-decoration:none;min-height:44px}.entry-tools{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin-top:18px;font-size:13px}.entry-tools button{padding:8px 12px;border:1px solid var(--divider);min-height:40px}.entry-review{font-size:13px;color:var(--t2);padding:12px 15px;border-left:3px solid var(--brand-1);margin-block:14px}.reading-mode .quick-paths{display:none}.hero-actions{flex-wrap:wrap}@media print{.quick-paths,.entry-tools{display:none}}
 
 </style>
+<link rel="stylesheet" href="assets/site-base.css">
+<link rel="stylesheet" href="assets/site-nav.css">
 
 
 </head>
@@ -569,10 +507,10 @@ th[aria-sort=descending] .column-sort:after{content:'↓';color:var(--brand-1)}
 </noscript>
 
 <a class="skip" href="#explore">Đi tới phần tra cứu</a>
+<!-- site-nav:start -->
 <header class="nav">
   <div class="nav-in">
-    <a class="title" href="./"><span class="logo" aria-hidden="true"><svg viewBox="0 0 64 64" focusable="false">
-
+    <a class="title" href="./"><span class="logo" aria-hidden="true"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <rect width="64" height="64" rx="14" fill="#267342"/>
   <path d="M32 25C24 25 18 21 18 14c8-1 14 4 14 11Z" fill="#d6bf83"/>
   <path d="M32 24c0-8 5-14 14-14 0 8-5 14-14 14Z" fill="#f4f1e8"/>
@@ -582,11 +520,14 @@ th[aria-sort=descending] .column-sort:after{content:'↓';color:var(--brand-1)}
       <a class="nav-extra" href="?view=book" data-open-book>Đọc sách</a>
       <a class="nav-extra" href="tinh-huong/">Theo tình huống</a>
       <a class="nav-extra" href="phap-luat/">Pháp luật</a>
-      <a href="https://github.com/quangpao/HowToLiveBetter" target="_blank" rel="noopener">GitHub ↗</a>
-      <button class="utility-btn" id="theme" type="button" aria-label="Bật/tắt nền tối" aria-pressed="false">Nền tối</button>
+      <a class="nav-extra" href="tai-ve/">Tải về</a>
+      <a class="nav-github" href="https://github.com/quangpao/HowToLiveBetter" target="_blank" rel="noopener">GitHub ↗</a>
+      <details class="nav-mobile"><summary class="utility-btn">Menu</summary><div class="nav-mobile-links"><a href="?view=book">Đọc sách</a><a href="tinh-huong/">Theo tình huống</a><a href="phap-luat/">Pháp luật</a><a href="tai-ve/">Tải về</a><a href="https://github.com/quangpao/HowToLiveBetter" target="_blank" rel="noopener">GitHub ↗</a></div></details>
+      <button class="utility-btn" id="theme" type="button" data-theme aria-label="Bật/tắt nền tối" aria-pressed="false">Nền tối</button>
     </nav>
   </div>
 </header>
+<!-- site-nav:end -->
 
 <div class="pop" id="pop" role="tooltip" hidden><b></b><span></span></div>
 
@@ -624,7 +565,7 @@ th[aria-sort=descending] .column-sort:after{content:'↓';color:var(--brand-1)}
         <div class="reader-controls" id="book-reader-controls" hidden>
           <button type="button" id="book-contents-toggle" aria-controls="book-contents" aria-expanded="false">Mục lục</button>
           <div class="reader-font-controls" role="group" aria-label="Cỡ chữ trang đọc"><button type="button" id="book-font-less" aria-label="Giảm cỡ chữ">A−</button><output id="book-font-size" aria-label="Cỡ chữ">19</output><button type="button" id="book-font-more" aria-label="Tăng cỡ chữ">A+</button></div>
-          <button type="button" id="book-theme" aria-pressed="false">Nền tối</button>
+          <button type="button" id="book-theme" data-theme aria-pressed="false">Nền tối</button>
         </div>
       </div>
 <aside class="sidebar" id="sidebar" aria-label="Bộ lọc tra cứu" hidden>
@@ -2086,7 +2027,6 @@ function wireBook(){
     document.getElementById('book-paper').style.setProperty('--book-font', BOOK.font + 'px');
     syncFont(); saveBookPreferences(); restoreBookPosition(position);
   });
-  document.getElementById('book-theme').addEventListener('click', () => document.getElementById('theme').click());
   addEventListener('scroll', () => {
     if (state.view !== 'book' || BOOK.restoring) return;
     clearTimeout(BOOK.timer); BOOK.timer = setTimeout(() => rememberBook(), 220);
@@ -2303,16 +2243,6 @@ function wire(){
   addEventListener('scroll', () => { pop.hidden = true; }, {passive:true});
   // Bộ lọc thu gọn dùng chung trên máy tính và điện thoại.
   mb.addEventListener('click', () => setMenu(!sb.classList.contains('open')));
-  // Chế độ tối
-  const themeButton = document.getElementById('theme');
-  const syncTheme = () => { const dark = document.documentElement.classList.contains('dark'); for (const button of [themeButton,document.getElementById('book-theme')]) { button.textContent = dark ? 'Nền sáng' : 'Nền tối'; button.setAttribute('aria-pressed', String(dark)); } };
-  syncTheme();
-  themeButton.addEventListener('click', () => {
-    const dark = !document.documentElement.classList.contains('dark');
-    document.documentElement.classList.toggle('dark', dark);
-    try { localStorage.setItem('theme', dark ? 'dark' : 'light'); } catch (e) {}
-    syncTheme();
-  });
 }
 
 /* ---------- Khởi động ---------- */

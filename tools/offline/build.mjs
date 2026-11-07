@@ -3,6 +3,7 @@
 // Nội dung được nhúng thẳng vào window.__CORPUS__, init() của index.html thấy biến này là không gửi request nữa;
 // liên kết tương đối trong site đổi thành địa chỉ online, ảnh thanh bên chuyển thành data URI, còn lại không đổi một chữ.
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import assert from 'node:assert/strict';
 import { resolve, dirname } from 'node:path';
 import { ROOT, REPO, REPO_BRANCH, SITE, README_FILE, read, gitCommit, buildStamp } from '../lib/book.mjs';
 import {readerData} from '../reader-data.mjs';
@@ -33,12 +34,19 @@ const corpusJson = JSON.stringify(corpus).replace(/<\/script/gi, '<\\/script');
 
 // ---------- Trang ----------
 let html = read('index.html');
-html = html.replace('<script src="assets/book-references.js"></script>',()=>'<script>' + read('assets/book-references.js').replace(/<\/script/gi,'<\\/script') + '</script>');
-html = html.replace('<script src="assets/book-citations.js"></script>',()=>'<script>' + read('assets/book-citations.js').replace(/<\/script/gi,'<\\/script') + '</script>');
-html = html.replace('<script src="assets/book-reader.js"></script>',()=>'<script>' + read('assets/book-reader.js').replace(/<\/script/gi,'<\\/script') + '</script>');
 const must = (needle, label) => {
   if (!html.includes(needle)) throw new Error(`Không tìm thấy${label} trong index.html, script bản offline phải sửa theo: ${needle}`);
 };
+for(const file of ['assets/site-base.css','assets/site-nav.css']){
+  const tag=`<link rel="stylesheet" href="${file}">`;
+  must(tag,' stylesheet '+file);
+  html=html.replace(tag,()=>'<style>'+read(file)+'</style>');
+}
+for(const file of ['assets/site-theme.js','assets/book-references.js','assets/book-citations.js','assets/book-reader.js']){
+  const tag=`<script src="${file}"></script>`;
+  must(tag,' script '+file);
+  html=html.replace(tag,()=>'<script>'+read(file).replace(/<\/script/gi,'<\\/script')+'</script>');
+}
 
 // Script thống kê không được đi theo bản offline: bản sao người khác bấm đúp mở không nên gửi request ra ngoài, mất mạng còn phải chờ timeout
 const GA_START = '<!-- ga:start', GA_END = '<!-- ga:end -->';
@@ -74,6 +82,8 @@ const mainScript = '\n<script>\n/* ---------- PERF-PANEL';
 must(mainScript, 'đoạn đầu script chính');
 html = html.replace(mainScript, () => `\n<script>window.__CORPUS__=${corpusJson}</script>${mainScript}`);
 
+assert.ok(!/<link\b[^>]*\brel\s*=\s*(?:"[^"]*\bstylesheet\b[^"]*"|'[^']*\bstylesheet\b[^']*'|stylesheet\b)/i.test(html),'Offline HTML must contain its stylesheets');
+assert.ok(!/<script\b[^>]*\bsrc\s*=/i.test(html),'Offline HTML must contain its scripts');
 mkdirSync(dirname(OUT), { recursive: true });
 writeFileSync(OUT, html);
 const kb = n => (n / 1024 | 0) + ' KB';
